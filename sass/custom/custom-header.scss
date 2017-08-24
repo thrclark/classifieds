@@ -1,0 +1,28 @@
+.custom-header {
+	background-color: #7A1705;
+	border-top: 5px solid #990000;
+	top: 0;
+	width: 100%;
+	.container .row {
+		position: relative;
+		.campus-name {
+			font-family: BentonSansCondRegular, Arial, serif;
+			font-weight: normal;
+			color: #fff;
+			font-size: 18px;
+			line-height: 45px;
+			margin: 0;
+			padding-left: 58px;
+			text-transform: uppercase;
+		}
+		img {
+			position: absolute;
+			top: -4px;
+			left: 0px;
+			width: 42px;
+			-webkit-transition: all 0.5s;
+			-moz-transition: all 0.5s;
+			transition: all 0.5s;
+		}
+	}
+}
