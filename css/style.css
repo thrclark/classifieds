@@ -6298,7 +6298,8 @@ a.text-dark:focus, a.text-dark:hover {
   background: #9a0002;
   color: #FFFFFF;
   padding-top: 5px;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+  min-height: 100px; }
   .app-header h1 {
     font-size: 2rem;
     margin-top: 25px;
