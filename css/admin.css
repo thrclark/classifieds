@@ -6294,19 +6294,50 @@ a.text-dark:focus, a.text-dark:hover {
       -moz-transition: all 0.5s;
       transition: all 0.5s; }
 
+.testbox {
+  background: green; }
+
+.main-content {
+  margin-top: 0px;
+  min-height: 40px; }
+
+@media (min-width: 576px) {
+  .testbox {
+    background: red; } }
+@media (min-width: 768px) {
+  .testbox {
+    background: blue; }
+
+  .app-header {
+    min-height: 100px; }
+
+  .main-content {
+    margin-top: -45px;
+    min-height: 600px; } }
+@media (min-width: 992px) {
+  .testbox {
+    background: yellow; } }
+@media (min-width: 1200px) {
+  .testbox {
+    background: purple; } }
 .app-header {
   background: #9a0002;
-  color: #FFFFFF;
+  color: #fff;
   padding-top: 5px;
-  padding-bottom: 5px;
-  min-height: 100px; }
+  padding-bottom: 5px; }
+
+.app-header h1 {
+  font-size: 1.6rem;
+  margin-top: 15px;
+  line-height: 0.1; }
+
+.app-header a {
+  color: #fff; }
+
+@media (min-width: 768px) {
   .app-header h1 {
     font-size: 2rem;
-    margin-top: 25px;
-    line-height: 0.1; }
-  .app-header a {
-    color: #fff; }
-
+    margin-top: 20px; } }
 .nav-side-menu {
   background-color: #fff;
   font-size: 0.875rem;
@@ -6386,17 +6417,26 @@ a.text-dark:focus, a.text-dark:hover {
     .nav-side-menu .toggle-btn {
       display: block;
       cursor: pointer;
-      position: absolute;
       right: 10px;
       top: 10px;
       z-index: 10 !important;
       padding: 3px;
       background-color: #ffffff;
-      color: #000;
-      width: 40px;
-      text-align: center; } }
-@media (min-width: 767px) {
+      color: #e9ecef;
+      text-align: right; } }
+@media (min-width: 768px) {
   .nav-side-menu .menu-list .menu-content {
     display: block; } }
+.nav-side-menu {
+  margin-top: 10px; }
 
-/*# sourceMappingURL=style.css.map */
+.menu-content {
+  border-top: solid 2px #e9ecef; }
+
+.main-content {
+  background: white;
+  padding: 15px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
+
+/*# sourceMappingURL=admin.css.map */

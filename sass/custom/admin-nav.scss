@@ -1,12 +1,8 @@
 .nav-side-menu {
-	//overflow: auto;
+
 
 	background-color: $white;
-	//position: fixed;
-	//top: 0px;
-	//width: 300px;
-	//height: 100%;
-	//color: #e1ffff;
+
 	font-size: 0.875rem;
 
 	margin-right: -30px;
@@ -97,7 +93,7 @@
 	}
 }
 
-@media (max-width: 767px) {
+@include media-breakpoint-down(sm) {
 	.nav-side-menu {
 		position: relative;
 		width: 100%;
@@ -105,22 +101,35 @@
 		.toggle-btn {
 			display: block;
 			cursor: pointer;
-			position: absolute;
+			//position: absolute;
 			right: 10px;
 			top: 10px;
 			z-index: 10 !important;
 			padding: 3px;
 			background-color: #ffffff;
-			color: #000;
-			width: 40px;
-			text-align: center;
+			color: $gray-200;
+			//width: 40px;
+			text-align: right;
 		}
 	}
 
 }
 
-@media (min-width: 767px) {
+@include media-breakpoint-up(md) {
 	.nav-side-menu .menu-list .menu-content {
 		display: block;
 	}
 }
+
+
+
+@include media-breakpoint-up(xs) {
+	.nav-side-menu {
+		margin-top: 10px;
+	}
+
+}
+
+
+.menu-content {
+	border-top: solid 2px $gray-200;}

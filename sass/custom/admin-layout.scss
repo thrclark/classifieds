@@ -1,0 +1,36 @@
+@include media-breakpoint-up(xs) {
+	.testbox {
+		background: green;
+	}
+	.main-content {
+		margin-top: 0px;
+		min-height: 40px;
+	}
+}
+@include media-breakpoint-up(sm) {
+	.testbox {
+		background: red;
+	}
+}
+@include media-breakpoint-up(md) {
+	.testbox {
+		background: blue;
+	}
+	.app-header {
+		min-height: 100px;
+	}
+	.main-content {
+		margin-top: -45px;
+		min-height: 600px;
+	}
+}
+@include media-breakpoint-up(lg) {
+	.testbox {
+		background: yellow;
+	}
+}
+@include media-breakpoint-up(xl) {
+	.testbox {
+		background: purple;
+	}
+}

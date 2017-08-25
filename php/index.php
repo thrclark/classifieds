@@ -9,14 +9,7 @@ $page_title = '';
 <?php include ('includes/head-meta.php') ?>
 <?php include ('includes/head-styles.php') ?>
 <style type="text/css">
-.main-content {
-	background: white;
-	padding: 15px;
-	margin-top: -45px;
-	min-height: 600px;
-	-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.04);
-	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.04);
-}
+
 </style>
 </head>
 <body>
@@ -28,7 +21,11 @@ $page_title = '';
             <?php include ('includes/nav-admin.php') ?>
         </div>
         <div class="col-12 col-md-9">
-            <div class="main-content"> asdf asfd asdf asdf asfd </div>
+            <div class="main-content"> asdf asfd asdf asdf asfd<br>
+<br>
+<br>
+<br>
+<div class="testbox">asdf</div> </div>
         </div>
     </div>
 </div>
