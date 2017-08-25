@@ -6274,9 +6274,9 @@ a.text-dark:focus, a.text-dark:hover {
   border-top: 5px solid #990000;
   top: 0;
   width: 100%; }
-  .custom-header .container .row {
+  .custom-header .container {
     position: relative; }
-    .custom-header .container .row .campus-name {
+    .custom-header .container .campus-name {
       font-family: BentonSansCondRegular, Arial, serif;
       font-weight: normal;
       color: #fff;
@@ -6285,28 +6285,32 @@ a.text-dark:focus, a.text-dark:hover {
       margin: 0;
       padding-left: 58px;
       text-transform: uppercase; }
-    .custom-header .container .row img {
+    .custom-header .container img {
       position: absolute;
       top: -4px;
-      left: 0px;
+      left: 15px;
       width: 42px;
       -webkit-transition: all 0.5s;
       -moz-transition: all 0.5s;
       transition: all 0.5s; }
 
 .app-header {
-  background: #4A3C31;
+  background: #9a0002;
   color: #FFFFFF;
   padding-top: 5px;
   padding-bottom: 5px; }
   .app-header h1 {
-    font-size: 2rem; }
+    font-size: 2rem;
+    margin-top: 25px;
+    line-height: 0.1; }
   .app-header a {
     color: #fff; }
 
 .nav-side-menu {
   background-color: #fff;
-  font-size: 0.875rem; }
+  font-size: 0.875rem;
+  margin-right: -30px;
+  margin-top: 25px; }
   .nav-side-menu .toggle-btn {
     display: none; }
   .nav-side-menu ul, .nav-side-menu li {

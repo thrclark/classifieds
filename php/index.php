@@ -8,18 +8,27 @@ $page_title = '';
 <head>
 <?php include ('includes/head-meta.php') ?>
 <?php include ('includes/head-styles.php') ?>
-<style type="text/css"></style>
+<style type="text/css">
+.main-content {
+	background: white;
+	padding: 15px;
+	margin-top: -45px;
+	min-height: 600px;
+	-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.04);
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.04);
+}
+</style>
 </head>
 <body>
 <?php include ('includes/custom-header.php') ?>
 <?php include ('includes/app-header.php') ?>
 <div class="container">
-    <div class="row ">
-        <div class="col-3" style="background:">
+    <div class="row">
+        <div class="col-12 col-md-3">
             <?php include ('includes/nav-admin.php') ?>
         </div>
-        <div class="col-9">
-            <div class="main-content" style="background:white; padding:15px;"> asdf asfd asdf asdf asfd </div>
+        <div class="col-12 col-md-9">
+            <div class="main-content"> asdf asfd asdf asdf asfd </div>
         </div>
     </div>
 </div>

@@ -3,7 +3,7 @@
 	border-top: 5px solid #990000;
 	top: 0;
 	width: 100%;
-	.container .row {
+	.container {
 		position: relative;
 		.campus-name {
 			font-family: BentonSansCondRegular, Arial, serif;
@@ -18,7 +18,7 @@
 		img {
 			position: absolute;
 			top: -4px;
-			left: 0px;
+			left: 15px;
 			width: 42px;
 			-webkit-transition: all 0.5s;
 			-moz-transition: all 0.5s;
