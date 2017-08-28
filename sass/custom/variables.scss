@@ -48,3 +48,14 @@ $font-size-lg:   1rem !default;
 $font-size-sm:   .75rem !default;
 
 
+$enable-rounded:            false !default;
+$enable-shadows:            false !default;
+$enable-gradients:          false !default;
+$enable-transitions:        true !default;
+$enable-hover-media-query:  false !default;
+$enable-grid-classes:       true !default;
+$enable-print-styles:       true !default;
+
+
+
+$card-border-color:        rgba($black,.125) !default;

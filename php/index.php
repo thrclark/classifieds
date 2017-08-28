@@ -8,7 +8,9 @@ $page_title = '';
 <head>
 <?php include ('includes/head-meta.php') ?>
 <?php include ('includes/head-styles.php') ?>
-<style type="text/css"></style>
+<style type="text/css">
+
+</style>
 </head>
 <body>
 <?php include ('includes/custom-header.php') ?>
@@ -27,6 +29,21 @@ $page_title = '';
                         </div>
                         <div class="col doc-controls">
                             <button type="button" class="btn btn-outline-secondary btn-sm float-md-right"> New Item</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="utility-bar">
+                    <div class="row">
+                        <div class="utility-bar-item col-md-auto">
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label small">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    Detail View </label>
+                            </div>
+                        </div>
+                        <div class="utility-bar-item col-4">
+                            <label for="utilityitem1" class="sr-only">Search</label>
+                            <input class="form-control form-control-sm" type="text" placeholder="Filter" id="utilityitem1">
                         </div>
                     </div>
                 </div>
@@ -69,7 +86,8 @@ $page_title = '';
                             <td>Penguin</td>
                             <td>03/21/2017</td>
                             <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                        </tr> <tr>
+                        </tr>
+                        <tr>
                             <td>Mark</td>
                             <td>Cat</td>
                             <td>03/21/2017</td>
@@ -98,7 +116,8 @@ $page_title = '';
                             <td>Penguin</td>
                             <td>03/21/2017</td>
                             <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                        </tr> <tr>
+                        </tr>
+                        <tr>
                             <td>Mark</td>
                             <td>Cat</td>
                             <td>03/21/2017</td>
@@ -127,7 +146,8 @@ $page_title = '';
                             <td>Penguin</td>
                             <td>03/21/2017</td>
                             <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                        </tr> <tr>
+                        </tr>
+                        <tr>
                             <td>Mark</td>
                             <td>Cat</td>
                             <td>03/21/2017</td>
