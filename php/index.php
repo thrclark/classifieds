@@ -9,7 +9,10 @@ $page_title = '';
 <?php include ('includes/head-meta.php') ?>
 <?php include ('includes/head-styles.php') ?>
 <style type="text/css">
-
+.btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
+	color: #868e96;
+	background-color: white;
+}
 </style>
 </head>
 <body>
@@ -53,7 +56,7 @@ $page_title = '';
                             <th> Name</th>
                             <th>Type</th>
                             <th>Date</th>
-                            <th>Actions</th>
+                            <th><span class="sr-only">Actions</span></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -79,19 +82,25 @@ $page_title = '';
                             <td>Stacey</td>
                             <td>Elephant</td>
                             <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
+                            <td><div class="dropdown show"> <a class="btn btn-outline-secondary btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a> </div>
+                                </div></td>
                         </tr>
                         <tr>
                             <td>Rob</td>
                             <td>Penguin</td>
                             <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
+                            <td><div class="dropdown show"> <a class="btn btn-outline-secondary btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a></div>
+                                </div></td>
                         </tr>
                         <tr>
                             <td>Mark</td>
                             <td>Cat</td>
                             <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
+                            <td><div class="dropdown show"> <a class="btn btn-outline-secondary btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a></div>
+                                </div></td>
                         </tr>
                         <tr>
                             <td>Steve</td>
@@ -115,19 +124,25 @@ $page_title = '';
                             <td>Rob</td>
                             <td>Penguin</td>
                             <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
+                            <td><div class="dropdown show"> <a class="btn btn-outline-secondary btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a></div>
+                                </div></td>
                         </tr>
                         <tr>
                             <td>Mark</td>
                             <td>Cat</td>
                             <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
+                            <td><div class="dropdown show"> <a class="btn btn-outline-secondary btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a></div>
+                                </div></td>
                         </tr>
                         <tr>
                             <td>Steve</td>
                             <td>Dog</td>
                             <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
+                            <td><div class="dropdown show"> <a class="btn btn-outline-secondary btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a></div>
+                                </div></td>
                         </tr>
                         <tr>
                             <td>Jill</td>
