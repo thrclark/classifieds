@@ -216,7 +216,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #868e96;
+  color: #495057;
   text-align: left;
   caption-side: bottom; }
 
@@ -1295,7 +1295,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   display: block;
   margin-bottom: 0.5rem; }
   .form-check.disabled .form-check-label {
-    color: #868e96; }
+    color: #495057; }
 
 .form-check-label {
   padding-left: 1.25rem;
@@ -6062,7 +6062,7 @@ a.text-dark:focus, a.text-dark:hover {
   color: #1d2124 !important; }
 
 .text-muted {
-  color: #868e96 !important; }
+  color: #495057 !important; }
 
 .text-hide {
   font: 0/0 a;
@@ -6306,6 +6306,31 @@ a.text-dark:focus, a.text-dark:hover {
   width: 1%;
   white-space: nowrap;
   text-align: right; }
+
+legend {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal;
+  background: #e9ecef;
+  padding-left: .5rem;
+  padding-right: .5rem; }
+
+label {
+  display: inline-block;
+  margin-bottom: 0rem; }
+
+.form-text {
+  margin-bottom: 0.25rem;
+  margin-top: 0rem; }
+
+fieldset .form-group:last-child {
+  margin-bottom: 2.5rem; }
 
 .btn-sm, .btn-group-sm > .btn {
   line-height: 1; }
