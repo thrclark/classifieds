@@ -382,7 +382,8 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1); }
 
 small,
-.small {
+.small,
+.form-group.form-group-error .validation-fieldmessage {
   font-size: 80%;
   font-weight: normal; }
 
@@ -6323,12 +6324,23 @@ label {
   display: inline-block;
   margin-bottom: 0rem; }
 
-.form-text {
+.form-group .form-text {
   margin-bottom: 0.25rem;
   margin-top: 0rem; }
 
 fieldset .form-group:last-child {
   margin-bottom: 2.5rem; }
+
+.form-group.form-group-error {
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 10px;
+  background: rgba(217, 83, 79, 0.05); }
+
+.form-group.form-group-error .validation-fieldmessage {
+  color: #a94442;
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
 .btn-sm, .btn-group-sm > .btn {
   line-height: 1; }
