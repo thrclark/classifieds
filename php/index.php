@@ -50,7 +50,8 @@ $page_title = '';
         </div>
     </div>
 </div>
-
+<div class="container"><hr>
+on <a href="https://github.com/thrclark/classifieds" target="_blank">Github</a></div>
 <?php include ('includes/footer-scripts.php') ?>
 </body>
 </html>
