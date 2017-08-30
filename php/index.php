@@ -31,10 +31,10 @@ $page_title = '';
         <div class="col">
             <h2 class="h3"> Publishing Views</h2>
             <ul>
-                <li><a href="view-index.php" target="_blank">Index Layout</a></li>
-                <li><a href="view-form.php" target="_blank">Form Layout</a></li>
+                <li><a href="template-index.php" target="_blank">Index Layout Template</a></li>
+                <li><a href="template-form.php" target="_blank">Form Layout Template</a></li>
             </ul>
-            <p>&nbsp;</p>
+            
         </div>
     </div>
 </div>

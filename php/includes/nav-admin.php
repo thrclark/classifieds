@@ -3,7 +3,7 @@
     <div class="menu-list">
         <ul id="menu-content" class="menu-content collapse out" >
             <li  data-toggle="collapse" data-target="#products" class="collapsed active"> <a href="#">Nav 1 <span class="arrow"></span></a>
-                <ul class="sub-menu collapse" id="products">
+                <ul class="sub-menu collapse show" id="products">
                     <li><a href="#">Page Title</a></li>
                     <li class="active"><a href="#">Page Title</a></li>
                     <li><a href="#">Page Title</a></li>

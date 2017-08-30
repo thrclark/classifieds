@@ -9,12 +9,11 @@ legend {
 	color: inherit; // 2
 	white-space: normal; // 1
 
-
-	background: $gray-200;
+	//background: $gray-200;
+	border-bottom: solid 1px $gray-200;
 	padding-left: .5rem;
 	padding-right: .5rem;
 }
-
 
 label {
 
