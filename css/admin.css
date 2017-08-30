@@ -6317,9 +6317,7 @@ legend {
   line-height: inherit;
   color: inherit;
   white-space: normal;
-  border-bottom: solid 1px #e9ecef;
-  padding-left: .5rem;
-  padding-right: .5rem; }
+  border-bottom: solid 1px #e9ecef; }
 
 label {
   display: inline-block;
