@@ -6245,7 +6245,7 @@ a.text-dark:focus, a.text-dark:hover {
       vertical-align: middle; }
     .nav-side-menu li a {
       text-decoration: none;
-      padding-left: 5px;
+      padding-left: 10px;
       color: #343a40; }
       .nav-side-menu li a i {
         padding-left: 10px;
@@ -6263,17 +6263,17 @@ a.text-dark:focus, a.text-dark:hover {
   .nav-side-menu {
     position: relative;
     width: 100%;
-    margin-bottom: 10px; }
+    margin-bottom: 5px; }
     .nav-side-menu .toggle-btn {
       display: block;
       cursor: pointer;
-      right: 10px;
-      top: 10px;
       z-index: 10 !important;
-      padding: 3px;
-      background-color: #ffffff;
-      color: #e9ecef;
-      text-align: right; } }
+      background-color: #e9ecef;
+      color: #868e96;
+      text-align: right;
+      font-size: 20px;
+      padding-right: 6px;
+      padding-bottom: 5px; } }
 @media (min-width: 768px) {
   .nav-side-menu .menu-list .menu-content {
     display: block; } }
