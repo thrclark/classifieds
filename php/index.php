@@ -34,24 +34,27 @@ $page_title = '';
                 <li><a href="template-index.php" target="_blank">Index Layout Template</a></li>
                 <li><a href="template-form.php" target="_blank">Form Layout Template</a></li>
             </ul>
-            
+            <hr>
+            <ul>
+                <li><a href="admin-sys-parameters.php" target="_blank">System Paramters</a></li>
+            </ul>
         </div>
     </div>
 </div>
-
 <div class="container" style="padding-top:4rem">
     <div class="row">
         <div class="col">
             <h2 class="h3"> End User Views</h2>
             <ul>
-                <li>                Main View</li>
+                <li> Main View</li>
                 <li>Create Ad</li>
             </ul>
         </div>
     </div>
 </div>
-<div class="container"><hr>
-on <a href="https://github.com/thrclark/classifieds" target="_blank">Github</a></div>
+<div class="container">
+    <hr>
+    on <a href="https://github.com/thrclark/classifieds" target="_blank">Github</a></div>
 <?php include ('includes/footer-scripts.php') ?>
 </body>
 </html>
