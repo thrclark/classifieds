@@ -1,0 +1,26 @@
+@include media-breakpoint-up(xs) {
+	.testbox {
+		background: green;
+	}
+}
+@include media-breakpoint-up(sm) {
+	.testbox {
+		background: red;
+	}
+}
+@include media-breakpoint-up(md) {
+	.testbox {
+		background: blue;
+	}
+
+}
+@include media-breakpoint-up(lg) {
+	.testbox {
+		background: yellow;
+	}
+}
+@include media-breakpoint-up(xl) {
+	.testbox {
+		background: purple;
+	}
+}

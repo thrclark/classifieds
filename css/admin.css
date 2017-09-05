@@ -6146,32 +6146,21 @@ a.text-dark:focus, a.text-dark:hover {
       -moz-transition: all 0.5s;
       transition: all 0.5s; }
 
-.testbox {
-  background: green; }
-
 .main-content {
   margin-top: 0px;
   min-height: 40px; }
+  .main-content .doc-header .doc-title h2 {
+    font-size: 1rem; }
 
-@media (min-width: 576px) {
-  .testbox {
-    background: red; } }
 @media (min-width: 768px) {
-  .testbox {
-    background: blue; }
-
   .app-header {
     min-height: 100px; }
 
   .main-content {
     margin-top: -45px;
-    min-height: 600px; } }
-@media (min-width: 992px) {
-  .testbox {
-    background: yellow; } }
-@media (min-width: 1200px) {
-  .testbox {
-    background: purple; } }
+    min-height: 600px; }
+    .main-content .doc-header .doc-title h2 {
+      font-size: 1.5rem; } }
 .app-header {
   background: #333;
   color: #fff;
@@ -6627,7 +6616,9 @@ a.tablesaw-btn {
   .tablesaw-stack th .tablesaw-cell-label {
     display: inline-block;
     padding: 0 .6em 0 0;
-    width: 30%; }
+    width: 30%;
+    font-variant: all-petite-caps;
+    color: #868e96; }
 
   /* For grouped headers, have a different style to visually separate the levels by classing the first label in each col group */
   .tablesaw-stack th .tablesaw-cell-label-top,
@@ -6646,7 +6637,7 @@ a.tablesaw-btn {
   /* Avoid double strokes when stacked */
   .tablesaw-stack th.group b.tablesaw-cell-label {
     display: none !important; } }
-@media (max-width: 39.9375em) {
+@media (max-width: 767px) {
   /* Table rows have a gray bottom stroke by default */
   .tablesaw-stack tbody tr {
     display: block;
@@ -6682,7 +6673,7 @@ a.tablesaw-btn {
   .tablesaw-stack th:empty {
     display: none; } }
 /* Media query to show as a standard table at 560px (35em x 16px) or wider */
-@media (min-width: 40em) {
+@media (min-width: 768px) {
   .tablesaw-stack tr {
     display: table-row; }
 
@@ -6895,6 +6886,26 @@ a.tablesaw-btn {
   cursor: default;
   pointer-events: none; }
 
+@media (max-width: 767px) {
+  .tablesaw.table-actions td:last-child {
+    width: 100%;
+    white-space: inherit;
+    padding-bottom: 10px;
+    text-align: left; }
+
+  .tablesaw td:first-child {
+    padding-top: 10px; }
+
+  .table.tablesaw td {
+    border: none; } }
+@media (min-width: 768px) {
+  .tablesaw.table-actions td:last-child {
+    width: inherit;
+    white-space: inherit;
+    padding-bottom: 10px; }
+
+  .tablesaw td:first-child {
+    padding-top: 10px; } }
 legend {
   display: block;
   width: 100%;
@@ -7176,6 +7187,21 @@ dialog .modal-content .modal-header .modal-title [class*='icon-'] {
   -o-transform: rotate(-90deg);
   transform: rotate(-90deg); }
 
+.testbox {
+  background: green; }
+
+@media (min-width: 576px) {
+  .testbox {
+    background: red; } }
+@media (min-width: 768px) {
+  .testbox {
+    background: blue; } }
+@media (min-width: 992px) {
+  .testbox {
+    background: yellow; } }
+@media (min-width: 1200px) {
+  .testbox {
+    background: purple; } }
 .btn-sm, .btn-group-sm > .btn {
   line-height: 1; }
 

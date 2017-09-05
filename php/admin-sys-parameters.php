@@ -27,7 +27,7 @@ $page_title = '';
             <div class="main-content">
                 <div class="doc-header" style="    margin-bottom: 15px;">
                     <div class="row">
-                        <div class="col doc-title">
+                        <div class="col-8 col-6-sm doc-title">
                             <h2> System Parameters</h2>
                         </div>
                         <div class="col doc-controls text-right">
@@ -40,7 +40,7 @@ $page_title = '';
                         <tr>
                             <th> Name</th>
                             <th>Current Value</th>
-                            <th><span class="">Actions</span></th>
+                            <th><span class="d-md-none">Actions</span></th>
                         </tr>
                     </thead>
                     <tbody>
