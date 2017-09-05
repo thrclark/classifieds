@@ -36,7 +36,7 @@ $page_title = '';
             </ul>
             <hr>
             <ul>
-                <li><a href="admin-sys-parameters.php" target="_blank">System Paramters</a></li>
+                <li><a href="admin-sys-parameters.php" target="_blank">System Parameters</a></li>
             </ul>
         </div>
     </div>
