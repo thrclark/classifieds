@@ -7,7 +7,7 @@ $page_title = '';
 <html lang="en">
 <head>
 <?php include ('includes/head-meta.php') ?>
-<?php include ('includes/head-styles.php') ?>
+<?php include('includes/admin-styles.php') ?>
 <style type="text/css">
 .btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
 	color: #868e96;
@@ -17,7 +17,7 @@ $page_title = '';
 </head>
 <body>
 <?php include ('includes/custom-header.php') ?>
-<?php include ('includes/app-header.php') ?>
+<?php include('includes/admin-appheader.php') ?>
 <div class="container">
     <div class="row">
         <div class="col-12 col-md-3">
@@ -179,6 +179,6 @@ $page_title = '';
         </div>
     </div>
 </div>
-<?php include ('includes/footer-scripts.php') ?>
+<?php include('includes/admin-footerscripts.php') ?>
 </body>
 </html>

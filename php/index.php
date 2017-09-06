@@ -7,7 +7,7 @@ $page_title = '';
 <html lang="en">
 <head>
 <?php include ('includes/head-meta.php') ?>
-<?php include ('includes/head-styles.php') ?>
+<?php include('includes/admin-styles.php') ?>
 <style type="text/css">
 .btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
 	color: #868e96;
@@ -31,8 +31,8 @@ $page_title = '';
         <div class="col">
             <h2 class="h3"> Publishing Views</h2>
             <ul>
-                <li><a href="template-index.php" target="_blank">Index Layout Template</a></li>
-                <li><a href="template-form.php" target="_blank">Form Layout Template</a></li>
+                <li><a href="admin-template-index.php" target="_blank">Index Layout Template</a></li>
+                <li><a href="admin-template-form.php" target="_blank">Form Layout Template</a></li>
             </ul>
             <hr>
             <ul>
@@ -55,6 +55,6 @@ $page_title = '';
 <div class="container">
     <hr>
     on <a href="https://github.com/thrclark/classifieds" target="_blank">Github</a></div>
-<?php include ('includes/footer-scripts.php') ?>
+<?php include('includes/admin-footerscripts.php') ?>
 </body>
 </html>
