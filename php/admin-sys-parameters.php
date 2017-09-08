@@ -53,7 +53,7 @@ $page_title = '';
                         <tr>
                             <td>Google Analytics Rollup ID
                                 <div class="small text-muted helper-text">Data for selected tenants will be sent to this Google Analytics ID..</div></td>
-                            <td>(not specified)</td>
+                            <td>--</td>
                             <td><button type="button" class="btn btn-outline-secondary btn-sm">Edit</button></td>
                         </tr>
                         <tr>
@@ -74,7 +74,7 @@ $page_title = '';
                         <tr>
                             <td>Update Server
                                 <div class="small text-muted helper-text">Enter the name of one of the servers that will be used for updating new data on releases.</div></td>
-                            <td>(not specified)</td>
+                            <td>--</td>
                             <td><button type="button" class="btn btn-outline-secondary btn-sm">Edit</button></td>
                         </tr>
                     </tbody>

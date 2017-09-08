@@ -1,0 +1,61 @@
+.app-header {
+	background: #FFFFFF;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+	@include shadow;
+	h1 {
+		font-family: BentonSansCondRegular;
+		font-size: 2.5rem;
+		margin: 0;
+	}
+}
+
+
+
+.app-header .container .search .search-container {
+	border: solid 1px #ccc;
+	padding: 3px;
+	border-radius: 50px;
+}
+.app-header .container .search .search-container .search-button .btn.btn-dark {
+	-webkit-border-top-right-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	-moz-border-radius-bottomright: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding-top: .4rem;
+}
+.app-header .container .search .search-container .search-button .btn.btn-dark .search-label {
+	font-variant: all-petite-caps;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+.app-header .container .search .search-container .search-input {
+	border: none;
+	background: transparent;
+}
+.app-header .container .search .search-container .search-geo .fa.fa-map-marker {
+	margin-right: 10px;
+	color: #b8b8b8;
+}
+.app-header .container .search .search-container .search-geo .dropdown .dropdown-menu {
+	border-top: none;
+	top: 11px !important;
+	left: 31px !important;
+}
+.app-header .container .post .btn {
+	border-radius: 20px;
+	font-variant: all-petite-caps;
+	letter-spacing: 1px;
+	font-size: 18px;
+	padding-top: .4rem;
+	border-color: #ccc;
+}
+.app-header .container .fa.fa-ellipsis-v {
+	font-size: 20px;
+	color: #868e96;
+}
+
+
