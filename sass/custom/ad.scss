@@ -1,0 +1,30 @@
+.ad {
+	background: #FFFFFF;
+	min-height: 220px;
+	margin-bottom: 20px;
+	padding: 10px;
+	position: relative;
+	@include shadow;
+}
+
+.ad .ad-image {
+	background-color: $gray-200;
+	background-image: url(../img/ad-pics/category-music.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto 100%;
+	min-height: 150px;
+	margin-bottom: 5px;
+
+}
+
+.ad .watchlist-set .fa.fa-heart-o {
+	position: absolute;
+	background: #fff;
+	right: 11px;
+	padding: 4px;
+	top: 11px;
+}
+
+
+

@@ -6194,7 +6194,8 @@ a.text-dark:focus, a.text-dark:hover {
   letter-spacing: 1px;
   font-size: 18px;
   padding-top: .4rem;
-  border-color: #ccc; }
+  border-color: #353b41;
+  color: #353b41; }
 
 .app-header .container .fa.fa-ellipsis-v {
   font-size: 20px;
@@ -6318,8 +6319,7 @@ a.text-dark:focus, a.text-dark:hover {
   margin-left: 50px; }
 
 #main {
-  transition: margin-left .5s;
-  padding: 16px; }
+  transition: margin-left .5s; }
 
 @media screen and (max-height: 450px) {
   .user-access {
@@ -6327,5 +6327,29 @@ a.text-dark:focus, a.text-dark:hover {
 
   .user-access a {
     font-size: 18px; } }
+.ad {
+  background: #FFFFFF;
+  min-height: 220px;
+  margin-bottom: 20px;
+  padding: 10px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
+
+.ad .ad-image {
+  background-color: #e9ecef;
+  background-image: url(../img/ad-pics/category-music.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  min-height: 150px;
+  margin-bottom: 5px; }
+
+.ad .watchlist-set .fa.fa-heart-o {
+  position: absolute;
+  background: #fff;
+  right: 11px;
+  padding: 4px;
+  top: 11px; }
 
 /*# sourceMappingURL=main.css.map */
