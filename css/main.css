@@ -6149,15 +6149,13 @@ a.text-dark:focus, a.text-dark:hover {
   margin-bottom: 1rem;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
-  .app-header .container .row .brand {
-    margin-bottom: 7px; }
-    .app-header .container .row .brand img {
-      width: auto;
-      height: 36px; }
-    .app-header .container .row .brand h1 {
-      font-family: BentonSansCondRegular;
-      font-size: 1.6rem;
-      margin: 0; }
+  .app-header .container .row .brand img {
+    width: auto;
+    height: 36px; }
+  .app-header .container .row .brand h1 {
+    font-family: BentonSansCondRegular;
+    font-size: 1.6rem;
+    margin: 0; }
   .app-header .container .row .search {
     padding-right: 0px; }
     .app-header .container .row .search .search-container {
@@ -6323,7 +6321,7 @@ a.text-dark:focus, a.text-dark:hover {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #ddd;
   display: block;
   transition: 0.3s; }
 
@@ -6388,5 +6386,19 @@ a.text-dark:focus, a.text-dark:hover {
 
 .ad .ad-titleprice {
   min-height: 45px; }
+
+.footer-menu {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background: #333;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
+  .footer-menu .btn-link {
+    color: #ffffff; }
+
+.footer-menu .btn .footer-menu-label {
+  font-size: 12px; }
 
 /*# sourceMappingURL=main.css.map */

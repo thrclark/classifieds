@@ -46,6 +46,10 @@ $page_title = '';
         <div class="col">
             <h2 class="h3"> End User Views</h2>
             <ul>
+            
+            <li> <a href="user-home-nav.php" target="_blank">Responsive Nav</a></li>
+            
+            
                 <li> <a href="user-home.php" target="_blank">Main View</a></li>
                 <li>Create Ad</li>
             </ul>

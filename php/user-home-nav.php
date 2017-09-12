@@ -55,7 +55,7 @@ $page_title = '';
             </div>
         </div>
     </div>
-    <section class="main-content" style="display:">
+    <section class="main-content" style="display:none">
         <div class="container">
             <div class="row">
                 <div class="col-3 main-nav">

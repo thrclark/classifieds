@@ -1,0 +1,20 @@
+.footer-menu {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	background: #333;
+	@include shadow;
+	.btn-link {
+		color: #ffffff;
+	}
+}
+
+
+
+.footer-menu .btn .footer-menu-label {
+	font-size: 12px;
+}
+
+
+
