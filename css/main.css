@@ -6146,61 +6146,80 @@ a.text-dark:focus, a.text-dark:hover {
 
 .app-header {
   background: #FFFFFF;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   margin-bottom: 1rem;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
-  .app-header h1 {
-    font-family: BentonSansCondRegular;
-    font-size: 2.5rem;
-    margin: 0; }
+  .app-header .container .row .brand {
+    margin-bottom: 7px; }
+    .app-header .container .row .brand img {
+      width: auto;
+      height: 36px; }
+    .app-header .container .row .brand h1 {
+      font-family: BentonSansCondRegular;
+      font-size: 1.6rem;
+      margin: 0; }
+  .app-header .container .row .search {
+    padding-right: 0px; }
+    .app-header .container .row .search .search-container {
+      border: solid 1px #ccc;
+      padding: 3px;
+      border-radius: 50px; }
+      .app-header .container .row .search .search-container .search-button .btn.btn-dark {
+        -webkit-border-top-right-radius: 20px;
+        -webkit-border-bottom-right-radius: 20px;
+        -moz-border-radius-topright: 20px;
+        -moz-border-radius-bottomright: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding-top: .4rem; }
+        .app-header .container .row .search .search-container .search-button .btn.btn-dark .search-label {
+          font-variant: all-petite-caps;
+          letter-spacing: 1px;
+          font-size: 18px; }
+      .app-header .container .row .search .search-container .search-input {
+        border: none;
+        background: transparent; }
+      .app-header .container .row .search .search-container .search-geo .long-name {
+        display: none; }
+      .app-header .container .row .search .search-container .search-geo .short-name {
+        display: inline; }
+      .app-header .container .row .search .search-container .search-geo .fa.fa-map-marker {
+        margin-right: 10px;
+        color: #b8b8b8; }
+      .app-header .container .row .search .search-container .search-geo .dropdown .dropdown-menu {
+        border-top: none;
+        top: 11px !important;
+        left: 31px !important; }
+  .app-header .container .row .post .btn {
+    border-radius: 20px;
+    font-variant: all-petite-caps;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding-top: .4rem;
+    border-color: #353b41;
+    color: #353b41; }
+  .app-header .container .row .user-ads .menu-trigger {
+    padding-left: 8px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+    .app-header .container .row .user-ads .menu-trigger .fa.fa-ellipsis-v {
+      font-size: 20px;
+      color: #868e96; }
 
-.app-header .container .search .search-container {
-  border: solid 1px #ccc;
-  padding: 3px;
-  border-radius: 50px; }
-
-.app-header .container .search .search-container .search-button .btn.btn-dark {
-  -webkit-border-top-right-radius: 20px;
-  -webkit-border-bottom-right-radius: 20px;
-  -moz-border-radius-topright: 20px;
-  -moz-border-radius-bottomright: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  padding-top: .4rem; }
-
-.app-header .container .search .search-container .search-button .btn.btn-dark .search-label {
-  font-variant: all-petite-caps;
-  letter-spacing: 1px;
-  font-size: 18px; }
-
-.app-header .container .search .search-container .search-input {
-  border: none;
-  background: transparent; }
-
-.app-header .container .search .search-container .search-geo .fa.fa-map-marker {
-  margin-right: 10px;
-  color: #b8b8b8; }
-
-.app-header .container .search .search-container .search-geo .dropdown .dropdown-menu {
-  border-top: none;
-  top: 11px !important;
-  left: 31px !important; }
-
-.app-header .container .post .btn {
-  border-radius: 20px;
-  font-variant: all-petite-caps;
-  letter-spacing: 1px;
-  font-size: 18px;
-  padding-top: .4rem;
-  border-color: #353b41;
-  color: #353b41; }
-
-.app-header .container .fa.fa-ellipsis-v {
-  font-size: 20px;
-  color: #868e96; }
-
+@media (min-width: 768px) {
+  .app-header .container .row .brand img {
+    width: auto;
+    height: 64px; }
+  .app-header .container .row .brand h1 {
+    font-size: 2.5rem; }
+  .app-header .container .row .search {
+    padding-right: 15px; } }
+@media (min-width: 992px) {
+  .app-header .container .row .search .search-container .search-geo .long-name {
+    display: inline; }
+  .app-header .container .row .search .search-container .search-geo .short-name {
+    display: none; } }
 .main-nav ul, .main-nav li {
   list-style: none;
   padding: 0px;
@@ -6351,5 +6370,23 @@ a.text-dark:focus, a.text-dark:hover {
   right: 11px;
   padding: 4px;
   top: 11px; }
+
+.ad .ad-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+  line-height: 1.1rem; }
+
+.ad .ad-price {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.1rem; }
+
+.ad .ad-location {
+  font-size: 12px;
+  color: #868e96; }
+
+.ad .ad-titleprice {
+  min-height: 45px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,61 +1,228 @@
-.app-header {
-	background: #FFFFFF;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	margin-bottom: 1rem;
-	@include shadow;
-	h1 {
-		font-family: BentonSansCondRegular;
-		font-size: 2.5rem;
-		margin: 0;
+
+@include media-breakpoint-up(xs) {
+	.app-header {
+		background: #FFFFFF;
+		//height: 90px;
+		//padding-top: 1rem;
+		//padding-bottom: 1rem;
+		margin-bottom: 1rem;
+		@include shadow;
+		.container {
+			.row {
+				.brand {
+					margin-bottom: 7px;
+					img {
+						width: auto;
+						height: 36px;
+					}
+					h1 {
+						font-family: BentonSansCondRegular;
+						font-size: 1.6rem;
+						margin: 0;
+					}
+				}
+				.search {
+					padding-right: 0px;
+					.search-container {
+						border: solid 1px #ccc;
+						padding: 3px;
+						border-radius: 50px;
+						.search-button .btn.btn-dark {
+							-webkit-border-top-right-radius: 20px;
+							-webkit-border-bottom-right-radius: 20px;
+							-moz-border-radius-topright: 20px;
+							-moz-border-radius-bottomright: 20px;
+							border-top-right-radius: 20px;
+							border-bottom-right-radius: 20px;
+							padding-top: .4rem;
+							.search-label {
+								font-variant: all-petite-caps;
+								letter-spacing: 1px;
+								font-size: 18px;
+							}
+						}
+						.search-input {
+							border: none;
+							background: transparent;
+						}
+						.search-geo {
+
+							.long-name {
+								display: none;
+							}
+							.short-name {
+								display: inline;
+							}
+							.fa.fa-map-marker {
+								margin-right: 10px;
+								color: #b8b8b8;
+							}
+							.dropdown .dropdown-menu {
+								border-top: none;
+								top: 11px !important;
+								left: 31px !important;
+
+
+							}
+						}
+					}
+				}
+
+				.post .btn {
+					border-radius: 20px;
+					font-variant: all-petite-caps;
+					letter-spacing: 1px;
+					font-size: 18px;
+					padding-top: .4rem;
+					border-color: #353b41;
+					color: #353b41;
+				}
+				.user-ads {
+					.menu-trigger {
+						padding-left: 8px;
+						padding-right: 15px;
+						padding-top: 5px;
+						padding-bottom: 5px;
+
+						.fa.fa-ellipsis-v {
+							font-size: 20px;
+							color: $gray-600;
+						}
+					}
+
+				}
+			}
+
+		}
+	}
+
+}
+@include media-breakpoint-up(sm) {
+
+
+}
+@include media-breakpoint-up(md) {
+
+	.app-header {
+		//height: 72px;
+
+		.container {
+			.row {
+				.brand {
+					img {
+						width: auto;
+						height: 64px;
+					}
+					h1 {
+
+						font-size: 2.5rem;
+
+					}
+
+				}
+				.search {
+					padding-right: 15px;
+					.search-container {
+
+						.search-button .btn.btn-dark {
+
+							.search-label {
+
+							}
+						}
+						.search-input {
+
+						}
+						.search-geo {
+
+
+
+							.fa.fa-map-marker {
+
+							}
+							.dropdown .dropdown-menu {
+
+
+							}
+						}
+					}
+				}
+
+
+
+				.post .btn {
+
+				}
+				.user-ads .fa.fa-ellipsis-v {
+
+				}
+			}
+		}
 	}
 }
+@include media-breakpoint-up(lg) {
+
+	.app-header {
+		//height: 72px;
+
+		.container {
+			.row {
+				.brand {
+					img {
+
+					}
+					h1 {
 
 
-.app-header .container .search .search-container {
-	border: solid 1px #ccc;
-	padding: 3px;
-	border-radius: 50px;
+
+					}
+
+				}
+				.search {
+
+					.search-container {
+
+						.search-button .btn.btn-dark {
+
+							.search-label {
+
+							}
+						}
+						.search-input {
+
+						}
+						.search-geo {
+
+							.long-name {
+								display: inline;
+							}
+							.short-name {
+								display: none;
+							}
+
+							.fa.fa-map-marker {
+
+							}
+							.dropdown .dropdown-menu {
+
+
+							}
+						}
+					}
+				}
+
+				.post .btn {
+
+				}
+				.user-ads .fa.fa-ellipsis-v {
+
+				}
+			}
+		}
+	}
 }
-.app-header .container .search .search-container .search-button .btn.btn-dark {
-	-webkit-border-top-right-radius: 20px;
-	-webkit-border-bottom-right-radius: 20px;
-	-moz-border-radius-topright: 20px;
-	-moz-border-radius-bottomright: 20px;
-	border-top-right-radius: 20px;
-	border-bottom-right-radius: 20px;
-	padding-top: .4rem;
-}
-.app-header .container .search .search-container .search-button .btn.btn-dark .search-label {
-	font-variant: all-petite-caps;
-	letter-spacing: 1px;
-	font-size: 18px;
-}
-.app-header .container .search .search-container .search-input {
-	border: none;
-	background: transparent;
-}
-.app-header .container .search .search-container .search-geo .fa.fa-map-marker {
-	margin-right: 10px;
-	color: #b8b8b8;
-}
-.app-header .container .search .search-container .search-geo .dropdown .dropdown-menu {
-	border-top: none;
-	top: 11px !important;
-	left: 31px !important;
-}
-.app-header .container .post .btn {
-	border-radius: 20px;
-	font-variant: all-petite-caps;
-	letter-spacing: 1px;
-	font-size: 18px;
-	padding-top: .4rem;
-	border-color: #353b41;
-	color:#353b41;
-}
-.app-header .container .fa.fa-ellipsis-v {
-	font-size: 20px;
-	color: #868e96;
+@include media-breakpoint-up(xl) {
+
 }
 
 
