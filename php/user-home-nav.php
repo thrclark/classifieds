@@ -11,7 +11,7 @@ $page_title = '';
 <?php include('includes/user-styles.php') ?>
 </head>
 <body>
-<div id="UserAccess" class="user-access"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <a href="#">Post Ad</a> <a href="#">My Ads</a> <a href="#">Watchlist</a> <a href="#">Policy</a>
+<div id="UserAccess" class="user-access"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <a href="#">My Ads</a> <a href="#">Watchlist</a> <a href="#">Policy</a>
     <hr>
     <a href="#">Admin</a> </div>
 <div id="main">
@@ -47,7 +47,7 @@ $page_title = '';
                     </div>
                 </div>
                 <div class="col-auto post d-none d-md-block">
-                    <button type="button" class="btn btn-outline-secondary">Post</button>
+                    <button type="button" class="btn btn-outline-secondary toggle_mobilepost">Post</button>
                 </div>
                 <div class="col-auto user-ads  text-right">
                     <div class="menu-trigger" onclick="openNav()"><i class="fa fa-ellipsis-v" aria-hidden="true" ></i></div>
@@ -55,7 +55,9 @@ $page_title = '';
             </div>
         </div>
     </div>
-    <section class="main-content" style="display:none">
+    <?php include('includes/user-mobilepanel-search.php') ?>
+    <?php include('includes/user-mobilepanel-post.php') ?>
+    <section class="main-content" style="display:">
         <div class="container">
             <div class="row">
                 <div class="col-3 main-nav">
@@ -323,6 +325,25 @@ $page_title = '';
     function closeNav() {
         document.getElementById("UserAccess").style.width = "0";
     }
+</script> 
+<script>
+    $(document).ready(function() {
+        $("#toggle_mobilesearch").click(function() {
+            $(".mobile-panel.search").slideToggle();
+			$("").hide();
+			$(".main-content").toggleClass("blur");
+        });
+		
+		
+		
+		$(".toggle_mobilepost").click(function() {
+            $(".mobile-panel.post").slideToggle();
+			$("").hide();
+			$(".main-content").toggleClass("blur");
+        });
+		
+		
+    });
 </script>
 </body>
 </html>

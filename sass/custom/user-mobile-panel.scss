@@ -1,0 +1,83 @@
+.mobile-panel {
+	background: white;
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 60px;
+	display: none;
+	z-index: 5;
+}
+
+
+
+
+
+.mobile-panel.search{
+	.search-container {
+		border: solid 1px #ccc;
+		padding: 3px;
+		border-radius: 50px;
+		.search-button .btn.btn-dark {
+			-webkit-border-top-right-radius: 20px;
+			-webkit-border-bottom-right-radius: 20px;
+			-moz-border-radius-topright: 20px;
+			-moz-border-radius-bottomright: 20px;
+			border-top-right-radius: 20px;
+			border-bottom-right-radius: 20px;
+			padding-top: .4rem;
+			.search-label {
+				font-variant: all-petite-caps;
+				letter-spacing: 1px;
+				font-size: 18px;
+			}
+		}
+		.search-input {
+			border: none;
+			background: transparent;
+		}
+		.search-geo {
+
+			.long-name {
+				display: none;
+			}
+			.short-name {
+				display: inline;
+			}
+			.fa.fa-map-marker {
+				margin-right: 10px;
+				color: #b8b8b8;
+			}
+			.dropdown .dropdown-menu {
+				border-top: none;
+				top: 9px !important;
+				left: 31px !important;
+
+
+			}
+		}
+	}
+}
+
+
+
+@include media-breakpoint-up(xs) {
+
+}
+@include media-breakpoint-up(sm) {
+
+}
+@include media-breakpoint-up(md) {
+	.mobile-panel {
+
+		top: 60px;
+
+	}
+
+}
+@include media-breakpoint-up(lg) {
+
+}
+@include media-breakpoint-up(xl) {
+
+}

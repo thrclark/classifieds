@@ -79,7 +79,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "BentonSansRegular", "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
   line-height: 1.5;
@@ -328,7 +328,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "BentonSansBold";
+  font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
@@ -382,7 +382,8 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1); }
 
 small,
-.small {
+.small,
+.form-group.form-group-error .validation-fieldmessage {
   font-size: 80%;
   font-weight: normal; }
 
@@ -3224,7 +3225,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "BentonSansRegular", "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -3305,7 +3306,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: "BentonSansRegular", "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -6147,13 +6148,14 @@ a.text-dark:focus, a.text-dark:hover {
 .app-header {
   background: #FFFFFF;
   margin-bottom: 1rem;
+  position: relative;
+  z-index: 10;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
   .app-header .container .row .brand img {
     width: auto;
-    height: 36px; }
+    height: 42px; }
   .app-header .container .row .brand h1 {
-    font-family: BentonSansCondRegular;
     font-size: 1.6rem;
     margin: 0; }
   .app-header .container .row .search {
@@ -6210,7 +6212,7 @@ a.text-dark:focus, a.text-dark:hover {
     width: auto;
     height: 64px; }
   .app-header .container .row .brand h1 {
-    font-size: 2.5rem; }
+    font-size: 2rem; }
   .app-header .container .row .search {
     padding-right: 15px; } }
 @media (min-width: 992px) {
@@ -6309,7 +6311,7 @@ a.text-dark:focus, a.text-dark:hover {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 15;
   top: 0;
   right: 0;
   background-color: #111;
@@ -6400,5 +6402,84 @@ a.text-dark:focus, a.text-dark:hover {
 
 .footer-menu .btn .footer-menu-label {
   font-size: 12px; }
+
+.mobile-panel {
+  background: white;
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 60px;
+  display: none;
+  z-index: 5; }
+
+.mobile-panel.search .search-container {
+  border: solid 1px #ccc;
+  padding: 3px;
+  border-radius: 50px; }
+  .mobile-panel.search .search-container .search-button .btn.btn-dark {
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: .4rem; }
+    .mobile-panel.search .search-container .search-button .btn.btn-dark .search-label {
+      font-variant: all-petite-caps;
+      letter-spacing: 1px;
+      font-size: 18px; }
+  .mobile-panel.search .search-container .search-input {
+    border: none;
+    background: transparent; }
+  .mobile-panel.search .search-container .search-geo .long-name {
+    display: none; }
+  .mobile-panel.search .search-container .search-geo .short-name {
+    display: inline; }
+  .mobile-panel.search .search-container .search-geo .fa.fa-map-marker {
+    margin-right: 10px;
+    color: #b8b8b8; }
+  .mobile-panel.search .search-container .search-geo .dropdown .dropdown-menu {
+    border-top: none;
+    top: 9px !important;
+    left: 31px !important; }
+
+@media (min-width: 768px) {
+  .mobile-panel {
+    top: 60px; } }
+legend {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  border-bottom: solid 1px #d9d9d9;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal;
+  border-bottom: solid 1px #e9ecef; }
+
+label {
+  display: inline-block;
+  margin-bottom: 0rem; }
+
+.form-group .form-text {
+  margin-bottom: 0.25rem;
+  margin-top: 0rem; }
+
+fieldset .form-group:last-child {
+  margin-bottom: 2.5rem; }
+
+.form-group.form-group-error {
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 10px;
+  background: rgba(217, 83, 79, 0.05); }
+
+.form-group.form-group-error .validation-fieldmessage {
+  color: #a94442;
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
 /*# sourceMappingURL=main.css.map */
