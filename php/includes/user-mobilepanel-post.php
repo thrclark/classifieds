@@ -23,7 +23,7 @@
 <div class="mobile-panel post" style="display:">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-6 col-xs-12">
+            <div class="col-xs-12 col-md-6">
                 <form>
                     <fieldset>
                         <legend>Post Ad</legend>
@@ -109,7 +109,7 @@
                     </fieldset>
                 </form>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-12">
+            <div class="col-xs-12 col-md-3 col-lg-3">
                 <fieldset>
                     <legend>Ad Preview</legend>
                     <div class="ad">
@@ -123,11 +123,15 @@
                     </div>
                 </fieldset>
             </div>
-            <div class="col-md-9 col-xs-12">
+            
+            
+            <div class="col-xs-12 col-md-9">
                 <hr>
                 <button type="button" class="btn btn-primary">Post Ad</button>
                 <button type="button" class="btn btn-outline-primary">Cancel</button>
             </div>
+            
+            
         </div>
     </div>
 </div>

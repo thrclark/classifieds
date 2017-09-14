@@ -11,11 +11,11 @@ $page_title = '';
 <?php include('includes/user-styles.php') ?>
 </head>
 <body>
-<div id="UserAccess" class="user-access"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <a href="#">Post Ad</a> <a href="#">My Ads</a> <a href="#">Watchlist</a> <a href="#">Policy</a>
+<div id="UserAccess" class="user-access"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <a href="#">My Ads</a> <a href="#">Watchlist</a> <a href="#">Policy</a>
     <hr>
     <a href="#">Admin</a> </div>
 <div id="main">
-    <div class="app-header">
+    <div class="app-header fixed-top">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-auto brand">
@@ -47,7 +47,7 @@ $page_title = '';
                     </div>
                 </div>
                 <div class="col-auto post d-none d-md-block">
-                    <button type="button" class="btn btn-outline-secondary">Post</button>
+                    <button type="button" class="btn btn-outline-secondary toggle_mobilepost">Post</button>
                 </div>
                 <div class="col-auto user-ads  text-right">
                     <div class="menu-trigger" onclick="openNav()"><i class="fa fa-ellipsis-v" aria-hidden="true" ></i></div>
@@ -55,11 +55,14 @@ $page_title = '';
             </div>
         </div>
     </div>
+    <?php include('includes/user-mobilepanel-search.php') ?>
+    <?php include('includes/user-mobilepanel-post.php') ?>
     <section class="main-content" style="display:">
         <div class="container">
             <div class="row">
-                <div class="col-3 main-nav">
+                <div class="col-3 main-nav d-none d-md-block">
                     <ul class="sub-menu" id="" style="">
+                        <li> <a href="#">All Ads</a></li>
                         <li> <a href="#">Activity Partners</a></li>
                         <li> <a href="#">Announcements</a></li>
                         <li> <a href="#">Antiques &amp; Collectibles</a></li>
@@ -76,9 +79,9 @@ $page_title = '';
                         <li> <a href="#">Vehicles </a></li>
                     </ul>
                 </div>
-                <div class="col-9" style="">
+                <div class="col-xs-12 col-md-9" style="">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/drums1.jpg)"></div>
@@ -89,7 +92,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/guitar1.jpg)"></div>
@@ -100,7 +103,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/piano1.jpg)"></div>
@@ -111,7 +114,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/sax1.jpg)"></div>
@@ -122,7 +125,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image"></div>
@@ -133,7 +136,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/drums2.jpg)"></div>
@@ -144,7 +147,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/flute2.jpg)"></div>
@@ -155,7 +158,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/guitar2.jpg)"></div>
@@ -166,7 +169,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/piano2.jpg)"></div>
@@ -177,7 +180,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/sax2.jpg)"></div>
@@ -188,7 +191,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image"></div>
@@ -199,7 +202,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/flute3.jpg)"></div>
@@ -210,7 +213,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/guitar3.jpg)"></div>
@@ -221,7 +224,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/piano3.jpg)"></div>
@@ -232,7 +235,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/sax3.jpg)"></div>
@@ -243,7 +246,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image"></div>
@@ -254,7 +257,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/drums4.jpg)"></div>
@@ -265,7 +268,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/flute4.jpg)"></div>
@@ -276,7 +279,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/piano4.jpg)"></div>
@@ -287,7 +290,7 @@ $page_title = '';
                                 <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/sax4.jpg)"></div>
@@ -323,6 +326,25 @@ $page_title = '';
     function closeNav() {
         document.getElementById("UserAccess").style.width = "0";
     }
+</script> 
+<script>
+    $(document).ready(function() {
+        $("#toggle_mobilesearch").click(function() {
+            $(".mobile-panel.search").slideToggle();
+			$(".main-content").toggle();
+			$(".main-content").toggleClass("blur");
+        });
+		
+		
+		
+		$(".toggle_mobilepost").click(function() {
+            $(".mobile-panel.post").slideToggle();
+			$(".main-content").toggle();
+			$(".main-content").toggleClass("blur");
+        });
+		
+		
+    });
 </script>
 </body>
 </html>

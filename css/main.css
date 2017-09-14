@@ -6148,7 +6148,6 @@ a.text-dark:focus, a.text-dark:hover {
 .app-header {
   background: #FFFFFF;
   margin-bottom: 1rem;
-  position: relative;
   z-index: 10;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
@@ -6395,6 +6394,7 @@ a.text-dark:focus, a.text-dark:hover {
   bottom: 0px;
   width: 100%;
   background: #333;
+  z-index: 6;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
   .footer-menu .btn-link {
@@ -6404,7 +6404,7 @@ a.text-dark:focus, a.text-dark:hover {
   font-size: 12px; }
 
 .mobile-panel {
-  background: white;
+  background: #e9ecef;
   position: absolute;
   top: 40px;
   width: 100%;
@@ -6416,7 +6416,8 @@ a.text-dark:focus, a.text-dark:hover {
 .mobile-panel.search .search-container {
   border: solid 1px #ccc;
   padding: 3px;
-  border-radius: 50px; }
+  border-radius: 50px;
+  background: #ffffff; }
   .mobile-panel.search .search-container .search-button .btn.btn-dark {
     -webkit-border-top-right-radius: 20px;
     -webkit-border-bottom-right-radius: 20px;
@@ -6447,6 +6448,12 @@ a.text-dark:focus, a.text-dark:hover {
 @media (min-width: 768px) {
   .mobile-panel {
     top: 60px; } }
+.main-content {
+  margin-top: 60px; }
+
+@media (min-width: 768px) {
+  .main-content {
+    margin-top: 80px; } }
 legend {
   display: block;
   width: 100%;
