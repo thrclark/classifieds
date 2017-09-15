@@ -7,7 +7,17 @@ $page_title = '';
 <html lang="en">
 <head>
 <?php include ('includes/head-meta.php') ?>
-<style type="text/css"></style>
+<style type="text/css">
+.main-content .main-content-section .section-head {
+	margin-bottom: 10px;
+}
+.main-content .main-content-section .section-head .col-auto.section-head-title {
+	background: red;
+}
+.main-content .main-content-section .section-head .col-auto.section-head-title h2 {
+	font-size: 1.5rem;
+}
+</style>
 <?php include('includes/user-styles.php') ?>
 </head>
 <body>
@@ -47,7 +57,7 @@ $page_title = '';
                     </div>
                 </div>
                 <div class="col-auto post d-none d-md-block">
-                    <button type="button" class="btn btn-outline-secondary toggle_mobilepost">Post</button>
+                    <button type="button" class="btn btn-outline-secondary toggle_mobilepost">Post Ad</button>
                 </div>
                 <div class="col-auto user-ads  text-right">
                     <div class="menu-trigger" onclick="openNav()"><i class="fa fa-ellipsis-v" aria-hidden="true" ></i></div>
@@ -62,6 +72,8 @@ $page_title = '';
             <div class="row">
                 <div class="col-3 main-nav d-none d-md-block">
                     <ul class="sub-menu" id="" style="">
+                     <li> <a href="#">My Ads (1)</a></li>
+                        <li class="watchlist"> <a href="#"> My Watchlist (4) <i aria-hidden="true" class="fa fa-heart-o pull-right"></i></a></li>
                         <li> <a href="#">All Ads</a></li>
                         <li> <a href="#">Activity Partners</a></li>
                         <li> <a href="#">Announcements</a></li>
@@ -79,7 +91,20 @@ $page_title = '';
                         <li> <a href="#">Vehicles </a></li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-md-9" style="">
+                <div class="col-xs-12 col-md-9 main-content-section" style="">
+                    <div class="row align-items-center section-head">
+                        <div class="col-auto section-head-title">
+                            <h2>Musicians &amp; Artists</h2>
+                        </div>
+                        <div class="col">
+                            <div class="dropdown">
+                                <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> IU Kokomo </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#"> <span class="long-name">IU Bloomington</span></a> <a class="dropdown-item" href="#"><span class="long-name">IUPUI</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU Kokomo</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU Northwest</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU South Bend</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU East</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU South</span></a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#"><span class="long-name">All Campuses</span></a> </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
@@ -89,7 +114,7 @@ $page_title = '';
                                     <div class="col ad-title">5-pc Drum Set with cymbals</div>
                                     <div class="col-auto ad-price">$750</div>
                                 </div>
-                                <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
+                                <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-lg-4">
@@ -100,7 +125,7 @@ $page_title = '';
                                     <div class="col ad-title">Strat Guitar with case</div>
                                     <div class="col-auto ad-price">$1100</div>
                                 </div>
-                                <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
+                                <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-lg-4">
@@ -111,7 +136,7 @@ $page_title = '';
                                     <div class="col ad-title"> Grand Piano - gently used</div>
                                     <div class="col-auto ad-price">$2450</div>
                                 </div>
-                                <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
+                                <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-lg-4">
@@ -122,8 +147,22 @@ $page_title = '';
                                     <div class="col ad-title">Selmer  Sax -pro model</div>
                                     <div class="col-auto ad-price">$7000</div>
                                 </div>
-                                <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
+                                <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
                             </div>
+                        </div>
+                        <div class="col-12 text-center" style="
+    margin-bottom: 10px;
+">
+                            <div style="
+    background: #e9ecef;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+">Listings from other campuses</div>
+                            <hr style="
+    margin-top: -11px;
+">
                         </div>
                         <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">

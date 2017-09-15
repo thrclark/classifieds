@@ -4,7 +4,7 @@
 		//height: 90px;
 		//padding-top: 1rem;
 		//padding-bottom: 1rem;
-		margin-bottom: 1rem;
+		//margin-bottom: 1rem;
 		//position: relative;
 		z-index: 10;
 		@include shadow;
@@ -25,7 +25,7 @@
 				.search {
 					padding-right: 0px;
 					.search-container {
-						border: solid 1px #ccc;
+						border: solid 1px $gray-600;
 						padding: 3px;
 						border-radius: 50px;
 						.search-button .btn.btn-dark {
@@ -59,6 +59,8 @@
 								color: #b8b8b8;
 							}
 							.dropdown .dropdown-menu {
+
+								border:solid 1px $gray-600;
 								border-top: none;
 								top: 11px !important;
 								left: 31px !important;
@@ -75,8 +77,8 @@
 					letter-spacing: 1px;
 					font-size: 18px;
 					padding-top: .4rem;
-					border-color: #353b41;
-					color: #353b41;
+					border-color: $gray-600;
+					//color: $gray-600;
 				}
 				.user-ads {
 					.menu-trigger {
@@ -112,7 +114,7 @@
 				.brand {
 					img {
 						width: auto;
-						height: 64px;
+						height: 68px;
 					}
 					h1 {
 

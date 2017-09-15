@@ -1,14 +1,18 @@
 .main-nav {
 
-
-
+	.sub-menu .watchlist {
+		border-bottom: 3px solid #ced4da;
+	}
+	.sub-menu .watchlist a .fa {
+		margin-top: 10px;
+	}
 
 
 	ul, li {
 		list-style: none;
 		padding: 0px;
 		margin: 0px;
-		line-height: 35px;
+		line-height: 32px;
 		cursor: pointer;
 	}
 	ul :not(collapsed) .arrow:before, li :not(collapsed) .arrow:before {

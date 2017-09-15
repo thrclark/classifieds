@@ -160,12 +160,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #007bff;
+  color: #005A9C;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #0056b3;
+    color: #002e50;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -1782,7 +1782,7 @@ fieldset[disabled] a.btn {
 
 .btn-link {
   font-weight: normal;
-  color: #007bff;
+  color: #005A9C;
   border-radius: 0; }
   .btn-link, .btn-link:active, .btn-link.active, .btn-link:disabled {
     background-color: transparent; }
@@ -1792,7 +1792,7 @@ fieldset[disabled] a.btn {
   .btn-link:hover {
     border-color: transparent; }
   .btn-link:focus, .btn-link:hover {
-    color: #0056b3;
+    color: #002e50;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link:disabled {
@@ -2676,11 +2676,11 @@ tbody.collapse.show {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
+  color: #005A9C;
   background-color: #fff;
   border: 1px solid #ddd; }
   .page-link:focus, .page-link:hover {
-    color: #0056b3;
+    color: #002e50;
     text-decoration: none;
     background-color: #e9ecef;
     border-color: #ddd; }
@@ -6147,7 +6147,6 @@ a.text-dark:focus, a.text-dark:hover {
 
 .app-header {
   background: #FFFFFF;
-  margin-bottom: 1rem;
   z-index: 10;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
@@ -6160,7 +6159,7 @@ a.text-dark:focus, a.text-dark:hover {
   .app-header .container .row .search {
     padding-right: 0px; }
     .app-header .container .row .search .search-container {
-      border: solid 1px #ccc;
+      border: solid 1px #868e96;
       padding: 3px;
       border-radius: 50px; }
       .app-header .container .row .search .search-container .search-button .btn.btn-dark {
@@ -6186,6 +6185,7 @@ a.text-dark:focus, a.text-dark:hover {
         margin-right: 10px;
         color: #b8b8b8; }
       .app-header .container .row .search .search-container .search-geo .dropdown .dropdown-menu {
+        border: solid 1px #868e96;
         border-top: none;
         top: 11px !important;
         left: 31px !important; }
@@ -6195,8 +6195,7 @@ a.text-dark:focus, a.text-dark:hover {
     letter-spacing: 1px;
     font-size: 18px;
     padding-top: .4rem;
-    border-color: #353b41;
-    color: #353b41; }
+    border-color: #868e96; }
   .app-header .container .row .user-ads .menu-trigger {
     padding-left: 8px;
     padding-right: 15px;
@@ -6209,7 +6208,7 @@ a.text-dark:focus, a.text-dark:hover {
 @media (min-width: 768px) {
   .app-header .container .row .brand img {
     width: auto;
-    height: 64px; }
+    height: 68px; }
   .app-header .container .row .brand h1 {
     font-size: 2rem; }
   .app-header .container .row .search {
@@ -6219,11 +6218,15 @@ a.text-dark:focus, a.text-dark:hover {
     display: inline; }
   .app-header .container .row .search .search-container .search-geo .short-name {
     display: none; } }
+.main-nav .sub-menu .watchlist {
+  border-bottom: 3px solid #ced4da; }
+.main-nav .sub-menu .watchlist a .fa {
+  margin-top: 10px; }
 .main-nav ul, .main-nav li {
   list-style: none;
   padding: 0px;
   margin: 0px;
-  line-height: 35px;
+  line-height: 32px;
   cursor: pointer; }
 .main-nav ul :not(collapsed) .arrow:before, .main-nav li :not(collapsed) .arrow:before {
   font-family: FontAwesome;
@@ -6373,7 +6376,7 @@ a.text-dark:focus, a.text-dark:hover {
 .ad .ad-title {
   font-size: 16px;
   font-weight: bold;
-  color: #007bff;
+  color: #005A9C;
   line-height: 1.1rem; }
 
 .ad .ad-price {
@@ -6414,7 +6417,7 @@ a.text-dark:focus, a.text-dark:hover {
   z-index: 5; }
 
 .mobile-panel.search .search-container {
-  border: solid 1px #ccc;
+  border: solid 1px #343a40;
   padding: 3px;
   border-radius: 50px;
   background: #ffffff; }
@@ -6453,7 +6456,7 @@ a.text-dark:focus, a.text-dark:hover {
 
 @media (min-width: 768px) {
   .main-content {
-    margin-top: 80px; } }
+    margin-top: 95px; } }
 legend {
   display: block;
   width: 100%;
