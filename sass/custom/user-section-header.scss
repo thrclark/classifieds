@@ -1,0 +1,97 @@
+
+
+@include media-breakpoint-up(xs) {
+	.main-content .main-content-section .section-head {
+		margin-bottom: 10px;
+		.section-head-title h2 {
+			font-size: 1.2rem;
+		}
+		.section-head-utilities {
+			padding: 5px;
+			border-top: solid 1px #a6a6a6;
+			.fa {
+				margin-top: 2px;
+				font-size: 16px;
+				color: #777;
+			}
+			.dropdown {
+				display: inline-flex;
+				.btn.btn-link {
+					padding: 0px;
+				}
+			}
+			.btn.btn-link {
+				padding: 0px;
+			}
+			.btn-group {
+				.btn.btn-sm.btn-outline-secondary {
+					padding: 0.1rem 0.4rem;
+				}
+				&.util-view-switch {
+					margin-left: 12px;
+					&:before {
+						position: absolute;
+						content: '';
+						border-left: solid 1px #a6a6a6;
+						left: -9px;
+						height: 33px;
+						top: -7px;
+					}
+					.btn.btn-sm {
+						padding: 0.1rem 0.4rem;
+					}
+				}
+			}
+			.dropdown.util-filter {
+				margin-left: 12px;
+			}
+			.dropdown.util-location .btn.btn-link .long-name {
+				display: none;
+			}
+			.dropdown.util-location .btn.btn-link .short-name {
+				display: inline;
+			}
+		}
+
+		.section-head-utilities .row.align-items-center .col .dropdown {
+
+			.btn.btn-link {
+				margin-left: 3px;
+			}
+		}
+	}
+
+}
+@include media-breakpoint-up(sm) {
+	.main-content .main-content-section .section-head {
+		.section-head-title h2 {
+			font-size: 1.5rem;
+		}
+		.section-head-utilities {
+			.dropdown.util-location .btn.btn-link .long-name {
+				display: inline;
+			}
+			.dropdown.util-location .btn.btn-link .short-name {
+				display: none;
+			}
+		}
+
+	}
+}
+@include media-breakpoint-up(md) {
+	.testbox {
+		background: blue;
+	}
+
+}
+@include media-breakpoint-up(lg) {
+	.testbox {
+		background: yellow;
+	}
+}
+@include media-breakpoint-up(xl) {
+	.testbox {
+		background: purple;
+	}
+}
+

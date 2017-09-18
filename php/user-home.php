@@ -7,17 +7,7 @@ $page_title = '';
 <html lang="en">
 <head>
 <?php include ('includes/head-meta.php') ?>
-<style type="text/css">
-.main-content .main-content-section .section-head {
-	margin-bottom: 10px;
-}
-.main-content .main-content-section .section-head .col-auto.section-head-title {
-	background: red;
-}
-.main-content .main-content-section .section-head .col-auto.section-head-title h2 {
-	font-size: 1.5rem;
-}
-</style>
+<style type="text/css"></style>
 <?php include('includes/user-styles.php') ?>
 </head>
 <body>
@@ -72,7 +62,8 @@ $page_title = '';
             <div class="row">
                 <div class="col-3 main-nav d-none d-md-block">
                     <ul class="sub-menu" id="" style="">
-                     <li> <a href="#">My Ads (1)</a></li>
+                        <li> <a href="#">Admin</a></li>
+                        <li> <a href="#">My Ads (1)</a></li>
                         <li class="watchlist"> <a href="#"> My Watchlist (4) <i aria-hidden="true" class="fa fa-heart-o pull-right"></i></a></li>
                         <li> <a href="#">All Ads</a></li>
                         <li> <a href="#">Activity Partners</a></li>
@@ -94,14 +85,40 @@ $page_title = '';
                 <div class="col-xs-12 col-md-9 main-content-section" style="">
                     <div class="row align-items-center section-head">
                         <div class="col-auto section-head-title">
-                            <h2>Musicians &amp; Artists</h2>
+                            <h2 class="">Musicians &amp; Artists</h2>
                         </div>
-                        <div class="col">
-                            <div class="dropdown">
-                                <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> IU Kokomo </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#"> <span class="long-name">IU Bloomington</span></a> <a class="dropdown-item" href="#"><span class="long-name">IUPUI</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU Kokomo</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU Northwest</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU South Bend</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU East</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU South</span></a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#"><span class="long-name">All Campuses</span></a> </div>
+                        <div class="col-12">
+                            <div class="section-head-utilities">
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <div class="dropdown util-location"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="long-name">IU Kokomo</span> <span class="short-name">IUK</span></button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#"><span class="long-name">IU Bloomington</span></a> <a class="dropdown-item" href="#"><span class="long-name">IUPUI</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU Kokomo</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU Northwest</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU South Bend</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU East</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU South</span></a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#"><span class="long-name">All Campuses</span></a> </div>
+                                        </div>
+                                        <div class="dropdown util-filter"><i class="fa fa-filter" aria-hidden="true"></i>
+                                            <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> All Ads</button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#">Selling</a> <a class="dropdown-item" href="#">In Search Of</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">All Ads</a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto align-self-end"> <strong class="d-none d-sm-inline">View:</strong> <i class="fa fa-sort d-sm-none" aria-hidden="true"></i>
+                                        <div class="dropdown util-sort" >
+                                            <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="d-none d-sm-inline">By</span> Date </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#">By Relevance</a> <a class="dropdown-item" href="#">By Date</a> </div>
+                                        </div>
+                                        <div class="btn-group util-view-switch d-none d-sm-inline" data-toggle="buttons">
+                                            <label class="btn btn-sm btn-outline-dark active">
+                                                <input type="radio" name="options" id="option1" autocomplete="off" checked>
+                                                <i class="fa fa-th-large" aria-hidden="true"></i> </label>
+                                            <label class="btn btn-sm btn-outline-dark">
+                                                <input type="radio" name="options" id="option3" autocomplete="off">
+                                                <i class="fa fa-th-list" aria-hidden="true"></i> </label>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
