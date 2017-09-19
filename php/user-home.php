@@ -124,7 +124,7 @@ $page_title = '';
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="form-row">
                         <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>

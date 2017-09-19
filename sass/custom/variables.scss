@@ -11,13 +11,14 @@ $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:  #000 !default;
+$blue: #005A9C !default;
 
 
 // Settings for the `<body>` element.
 
 $body-bg:       $gray-200 !default;
 $body-color:    $gray-900 !default;
-$link-color:      #005A9C !default;
+$link-color:      $blue !default;
 
 
 //$font-family-sans-serif:  "BentonSansRegular", "Helvetica Neue", Arial, sans-serif !default;
