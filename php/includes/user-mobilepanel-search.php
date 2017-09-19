@@ -1,8 +1,10 @@
 
 <div class="mobile-panel search d-md-none">
     <div class="container">
-       <fieldset><legend>Search Classifieds</legend>
- <div class="search-container">
+        <div class="mobile-panel-header">
+            <h2>Search Ads</h2>
+        </div>
+        <div class="search-container">
             <div class="row align-items-center">
                 <div class="col">
                     <label for="mainsearch" class="sr-only">Search</label>
@@ -18,6 +20,5 @@
                 </div>
             </div>
         </div>
-</fieldset>
     </div>
 </div>

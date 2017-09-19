@@ -6415,6 +6415,28 @@ a.text-dark:focus, a.text-dark:hover {
   padding-bottom: 60px;
   display: none;
   z-index: 5; }
+  .mobile-panel .mobile-panel-header {
+    text-align: center;
+    margin-bottom: 20px; }
+    .mobile-panel .mobile-panel-header h2 {
+      font-size: 1.2rem; }
+  .mobile-panel .category-card {
+    margin-bottom: 1.2rem; }
+    .mobile-panel .category-card .category-icon {
+      font-size: 4rem;
+      background: #ffffff;
+      padding: 5px;
+      border-radius: 20%;
+      width: 110px;
+      height: 110px;
+      text-align: center;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
+    .mobile-panel .category-card .category-title {
+      text-align: center;
+      margin-top: 5px;
+      color: #818182; }
+    .mobile-panel .category-card .category-icon .fa {
+      color: #005A9C; }
 
 .mobile-panel.search .search-container {
   border: solid 1px #343a40;
@@ -6450,7 +6472,11 @@ a.text-dark:focus, a.text-dark:hover {
 
 @media (min-width: 768px) {
   .mobile-panel {
-    top: 60px; } }
+    top: 60px; }
+    .mobile-panel .mobile-panel-header {
+      text-align: left; }
+      .mobile-panel .mobile-panel-header h2 {
+        font-size: 1.2rem; } }
 .main-content {
   margin-top: 60px; }
 

@@ -57,6 +57,7 @@ $page_title = '';
     </div>
     <?php include('includes/user-mobilepanel-search.php') ?>
     <?php include('includes/user-mobilepanel-post.php') ?>
+    <?php include('includes/user-mobilepanel-categories.php') ?>
     <section class="main-content" style="display:">
         <div class="container">
             <div class="row">
@@ -81,10 +82,7 @@ $page_title = '';
                         <li> <a href="#">Tickets &amp; Events </a></li>
                         <li> <a href="#">Vehicles </a></li>
                     </ul>
-                    
-                    
-                    
-                   <div class="" style=" padding-top:30px; font-style:italic"><a href="#"> Ads Policy</a></div>
+                    <div class="" style=" padding-top:30px; font-style:italic"><a href="#"> Ads Policy</a></div>
                 </div>
                 <div class="col-xs-12 col-md-9 main-content-section" style="">
                     <div class="row align-items-center section-head">
@@ -383,27 +381,28 @@ $page_title = '';
             document.getElementById("UserAccess").style.width = "40%";
         }
     }
+
     function closeNav() {
         document.getElementById("UserAccess").style.width = "0";
     }
 </script> 
 <script>
     $(document).ready(function() {
-        $("#toggle_mobilesearch").click(function() {
+        $(".toggle_mobilesearch").click(function() {
             $(".mobile-panel.search").slideToggle();
-			$(".main-content").toggle();
-			$(".main-content").toggleClass("blur");
+            $(".main-content").toggle();
+            $(".mobile-panel.post, .mobile-panel.categories").slideUp();
         });
-		
-		
-		
-		$(".toggle_mobilepost").click(function() {
+        $(".toggle_mobilepost").click(function() {
             $(".mobile-panel.post").slideToggle();
-			$(".main-content").toggle();
-			$(".main-content").toggleClass("blur");
+            $(".main-content").toggle();
+            $(".mobile-panel.search, .mobile-panel.categories").slideUp();
         });
-		
-		
+        $(".toggle_mobilecategories").click(function() {
+            $(".mobile-panel.categories").slideToggle();
+            $(".main-content").toggle();
+            $(".mobile-panel.post, .mobile-panel.search").slideUp();
+        });
     });
 </script>
 </body>
