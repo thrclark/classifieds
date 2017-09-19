@@ -11,7 +11,7 @@ $page_title = '';
 <?php include('includes/user-styles.php') ?>
 </head>
 <body>
-<div id="UserAccess" class="user-access"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <a href="#">My Ads</a> <a href="#">Watchlist</a> <a href="#">Policy</a>
+<div id="UserAccess" class="user-access"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <a href="#">My Ads (1)</a> <a href="#">My Watchlist (4)</a> <a href="#">Ads Policy</a>
     <hr>
     <a href="#">Admin</a> </div>
 <div id="main">
@@ -49,7 +49,7 @@ $page_title = '';
                 <div class="col-auto post d-none d-md-block">
                     <button type="button" class="btn btn-outline-secondary toggle_mobilepost">Post Ad</button>
                 </div>
-                <div class="col-auto user-ads  text-right">
+                <div class="col-auto user-ads d-md-none text-right">
                     <div class="menu-trigger" onclick="openNav()"><i class="fa fa-ellipsis-v" aria-hidden="true" ></i></div>
                 </div>
             </div>
@@ -81,6 +81,10 @@ $page_title = '';
                         <li> <a href="#">Tickets &amp; Events </a></li>
                         <li> <a href="#">Vehicles </a></li>
                     </ul>
+                    
+                    
+                    
+                   <div class="" style=" padding-top:30px; font-style:italic"><a href="#"> Ads Policy</a></div>
                 </div>
                 <div class="col-xs-12 col-md-9 main-content-section" style="">
                     <div class="row align-items-center section-head">
