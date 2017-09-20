@@ -7,8 +7,24 @@ $page_title = '';
 <html lang="en">
 <head>
 <?php include ('includes/head-meta.php') ?>
-<style type="text/css"></style>
 <?php include('includes/user-styles.php') ?>
+<style type="text/css">
+
+
+.ad .ad-title {
+	font-size: 16px;
+	font-weight: bold;
+	color: $link-color;
+	line-height: 1.1rem;
+}
+.ad .ad-price {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.1rem;
+}
+
+</style>
+
 </head>
 <body>
 <div id="UserAccess" class="user-access"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <a href="#">My Ads (1)</a> <a href="#">My Watchlist (4)</a> <a href="#">Ads Policy</a>
@@ -124,7 +140,7 @@ $page_title = '';
                             </div>
                         </div>
                     </div>
-                    <div class="form-row"> <div class="col-xs-12 col-sm-4 col-lg-3">
+                    <div class="form-row"> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                             <div class="banner">New</div>
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
@@ -142,7 +158,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">    <div class="banner">New</div>
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/guitar1.jpg)"></div>
@@ -159,7 +175,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/piano1.jpg)"></div>
@@ -176,7 +192,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/sax1.jpg)"></div>
@@ -207,7 +223,7 @@ $page_title = '';
                             <hr style="
     margin-top: -11px;
 ">
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">  <div class="banner">New</div>
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image"></div>
@@ -223,7 +239,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/drums2.jpg)"></div>
@@ -239,7 +255,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/flute2.jpg)"></div>
@@ -255,7 +271,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/guitar2.jpg)"></div>
@@ -271,7 +287,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/piano2.jpg)"></div>
@@ -287,7 +303,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/sax2.jpg)"></div>
@@ -303,7 +319,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image"></div>
@@ -319,7 +335,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/flute3.jpg)"></div>
@@ -335,7 +351,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/guitar3.jpg)"></div>
@@ -351,7 +367,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/piano3.jpg)"></div>
@@ -367,7 +383,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/sax3.jpg)"></div>
@@ -383,7 +399,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image"></div>
@@ -399,7 +415,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/drums4.jpg)"></div>
@@ -415,7 +431,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/flute4.jpg)"></div>
@@ -431,7 +447,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/piano4.jpg)"></div>
@@ -447,7 +463,7 @@ $page_title = '';
                                     </div>
                                 </div>
                             </div>
-                        </div> <div class="col-xs-12 col-sm-4 col-lg-3">
+                        </div> <div class="col-xs-12 col-sm-6 col-lg-4">
                             <div class="ad">
                                 <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                 <div class="ad-image" style="background-image:url(../img/ad-pics/sax4.jpg)"></div>
