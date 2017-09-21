@@ -7203,7 +7203,5 @@ dialog .modal-content .modal-header .modal-title [class*='icon-'] {
 @media (min-width: 1200px) {
   .testbox {
     background: purple; } }
-.btn-sm, .btn-group-sm > .btn {
-  line-height: 1; }
 
 /*# sourceMappingURL=admin.css.map */

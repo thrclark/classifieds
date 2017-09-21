@@ -47,8 +47,6 @@ $page_title = '';
             <h2 class="h3"> End User Views</h2>
             <ul>
                 <li> <a href="user-home.php" target="_blank">Main View</a></li>
-                <li> <a href="user-home-4wide.php" target="_blank">Main View - 4 wide</a></li>
-                <li> <a href="user-home-3wide.php" target="_blank">Main View - 3 wide</a></li>
             </ul>
         </div>
     </div>

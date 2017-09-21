@@ -3,5 +3,6 @@
 <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="../bower_components/filament-tablesaw/dist/tablesaw.jquery.js"></script>
 <script src="../bower_components/filament-tablesaw/dist/tablesaw-init.js"></script>
+<script src="../js/jquery.dotdotdot.min.js"></script>
 
 
