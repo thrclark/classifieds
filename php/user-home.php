@@ -7,7 +7,15 @@ $page_title = '';
 <html lang="en">
 <head>
 <?php include ('includes/head-meta.php') ?>
-<style type="text/css"></style>
+<style type="text/css">
+.faded {
+	opacity: .5;
+}
+.section-head .section-head-utilities .dropdown {
+	    
+}
+.section-head .section-head-utilities .util-filter .dropdown-menu 
+</style>
 <?php include('includes/user-styles.php') ?>
 </head>
 <body>
@@ -35,7 +43,8 @@ $page_title = '';
                                 <label for="mainsearch" class="sr-only">Search</label>
                                 <input type="text" class="form-control search-input" id="mainsearch" placeholder="">
                             </div>
-                            <div class="col-auto search-geo"><i class="fa fa-map-marker" aria-hidden="true"></i> <span class="dropdown show"> <span class="dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="short-name">All</span> <span class="long-name">All Campuses</span> </span>
+                            <div class="col-auto search-geo"
+                            ><i class="fa fa-map-marker" aria-hidden="true"></i> <span class="dropdown show"> <span class="dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="short-name">All</span> <span class="long-name">All Campuses</span> </span>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item" href="#"><span class="short-name">IUB</span> <span class="long-name">IU Bloomington</span></a> <a class="dropdown-item" href="#"><span class="short-name">IUPUI</span><span class="long-name">IUPUI</span></a> <a class="dropdown-item" href="#"><span class="short-name">IUK</span><span class="long-name">IU Kokomo</span></a> <a class="dropdown-item" href="#"><span class="short-name">IUN</span><span class="long-name">IU Northwest</span></a> <a class="dropdown-item" href="#"><span class="short-name">IUSB</span><span class="long-name">IU South Bend</span></a> <a class="dropdown-item" href="#"><span class="short-name">IUE</span><span class="long-name">IU East</span></a> <a class="dropdown-item" href="#"><span class="short-name">IUS</span><span class="long-name">IU South</span></a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="#"><span class="short-name">All</span><span class="long-name">All Campuses</span></a> </div>
@@ -80,15 +89,15 @@ $page_title = '';
                                                 <a class="dropdown-item" href="#"><span class="long-name">All Campuses</span></a> </div>
                                         </div>
                                         <div class="dropdown util-filter"><i class="fa fa-filter" aria-hidden="true"></i>
-                                            <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> All Ads</button>
-                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#">Selling</a> <a class="dropdown-item" href="#">In Search Of</a>
+                                            <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class=" d-none d-sm-inline">All Ads</span></button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#"> <i  title="Selling"class="fa fa-tag" aria-hidden="true"></i> Selling</a> <a class="dropdown-item" href="#"> <i  title="Selling"class="fa fa-search" aria-hidden="true"></i> In Search Of</a>
                                                 <div class="dropdown-divider"></div>
                                                 <a class="dropdown-item" href="#">All Ads</a> </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto align-self-end"> <strong class="d-none d-sm-inline">View:</strong> <i class="fa fa-sort d-sm-none" aria-hidden="true"></i>
+                                    <div class="col-auto align-self-end"> <strong class="d-none d-sm-inline">Sort:</strong> 
                                         <div class="dropdown util-sort" >
-                                            <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="d-none d-sm-inline">By</span> Date </button>
+                                            <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-sort d-sm-none" aria-hidden="true"></i>  <span class="d-none d-sm-inline">By</span> Date </button>
                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#">By Relevance</a> <a class="dropdown-item" href="#">By Date</a> </div>
                                         </div>
                                         <div class="btn-group util-view-switch d-none d-sm-inline" data-toggle="buttons">
@@ -97,7 +106,10 @@ $page_title = '';
                                                 <i class="fa fa-th-large" aria-hidden="true"></i> </label>
                                             <label class="btn btn-sm btn-outline-dark" id="set_thumb">
                                                 <input type="radio" name="options" id="" autocomplete="off">
-                                                <i class="fa fa-th-list" aria-hidden="true"></i> </label>
+                                                <i class="fa fa-list-ul" aria-hidden="true"></i> </label>
+                                            <label class="btn btn-sm btn-outline-dark" id="set_list">
+                                                <input type="radio" name="options" id="" autocomplete="off">
+                                                <i class="fa fa-list" aria-hidden="true"></i> </label>
                                         </div>
                                     </div>
                                 </div>
@@ -117,6 +129,7 @@ $page_title = '';
                                     <div class="ad2-cont3 banner">New</div>
                                     <div class="ad2-cont4 ad-title">Drum Set - Like New!</div>
                                     <div class="ad2-cont5 ad-price">$1200</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i  title="Selling"class="fa fa-tag" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Integer semper ligula a neque consequat aliquet. Duis ullamcorper venenatis nisi, in blandit lectus maximus quis. </div>
                                     <div class="ad2-cont7 ad-date">Sep 16</div>
@@ -135,7 +148,8 @@ $page_title = '';
                                     </div>
                                     <div class="ad2-cont3 banner">New</div>
                                     <div class="ad2-cont4 ad-title">Stienway grand piano, 1932</div>
-                                    <div class="ad2-cont5 ad-price">$15,000</div>
+                                    <div class="ad2-cont5 ad-price">Negotiable</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i  title="Selling"class="fa fa-tag" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Nunc eu urna vitae lectus imperdiet cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                                     <div class="ad2-cont7 ad-date">Sep 16</div>
@@ -154,6 +168,7 @@ $page_title = '';
                                     </div>
                                     <div class="ad2-cont4 ad-title">Student Model Saxophone, with mouthpiece, strap, and reeds</div>
                                     <div class="ad2-cont5 ad-price">$400</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i  title="Selling"class="fa fa-tag" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Nam ultrices iaculis dapibus.</div>
                                     <div class="ad2-cont7 ad-date">Sep 14</div>
@@ -172,6 +187,7 @@ $page_title = '';
                                     </div>
                                     <div class="ad2-cont4 ad-title">Gibson Guitar w/ effects</div>
                                     <div class="ad2-cont5 ad-price">$750</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i  title="Selling"class="fa fa-tag" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Vestibulum nec erat nunc. Nulla orci lectus, efficitur in lorem at, volutpat pretium libero. Sed sagittis vel sem nec pellentesque. Mauris at finibus odio, sed viverra nisl. Nulla a semper arcu. Proin efficitur egestas odio, sed vulputate purus hendrerit at. Quisque interdum nulla vitae metus pulvinar volutpat. Suspendisse porta gravida urna, ut blandit arcu aliquet et. Class aptent taciti sociosqu.</div>
                                     <div class="ad2-cont7 ad-date">Sep 13</div>
@@ -188,8 +204,9 @@ $page_title = '';
                                     <div class="ad2-cont2">
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
-                                    <div class="ad2-cont4 ad-title">Flute - needs repair</div>
-                                    <div class="ad2-cont5 ad-price">$100</div>
+                                    <div class="ad2-cont4 ad-title">I need a flute</div>
+                                    <div class="ad2-cont5 ad-price">Wanted</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Donec sapien enim, lobortis non purus eu, consectetur sagittis arcu. Integer volutpat lacus in neque porttitor bibendum. Duis non leo nec magna interdum pretium. Donec ultrices libero non posuere.</div>
                                     <div class="ad2-cont7 ad-date">Sep 7</div>
@@ -206,6 +223,7 @@ $page_title = '';
     padding-left: 10px;
     padding-right: 10px;
     font-size: 1.3rem;
+    margin-top: 10px;
 ">Listings from other campuses</div>
                             <hr style="
     margin-top: -16px;
@@ -223,6 +241,7 @@ $page_title = '';
                                     <div class="ad2-cont3 banner">New</div>
                                     <div class="ad2-cont4 ad-title">Jazz kit, with stands and cymbals</div>
                                     <div class="ad2-cont5 ad-price">$2000</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Praesent faucibus eros a ex vulputate, a semper lorem convallis.</div>
                                     <div class="ad2-cont7 ad-date">Sep 16</div>
@@ -240,7 +259,8 @@ $page_title = '';
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
                                     <div class="ad2-cont4 ad-title">Studio piano for sale</div>
-                                    <div class="ad2-cont5 ad-price">$2000</div>
+                                    <div class="ad2-cont5 ad-price">$50 Per Session</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Sed aliquet diam in porttitor suscipit. Nulla ac tellus varius, vehicula .</div>
                                     <div class="ad2-cont7 ad-date">Sep 14</div>
@@ -259,6 +279,7 @@ $page_title = '';
                                     </div>
                                     <div class="ad2-cont4 ad-title">Selmer M6, mint contidtion</div>
                                     <div class="ad2-cont5 ad-price">$7900</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Donec suscipit luctus venenatis. Sed varius, nunc vel porta facilisis, ante metus accumsan felis, eu facilisis ipsum metus vitae odio. Ut feugiat pulvinar velit a ullamcorper. Donec fringilla venenatis ante, quis eleifend elit rutrum viverra. Phasellus dapibus congue ligula id blandit. In hendrerit ex in risus pulvinar, id tristique massa tempor. Fusce vitae diam et leo fringilla auctor. Vestibulum ante.</div>
                                     <div class="ad2-cont7 ad-date">Sep 14</div>
@@ -277,6 +298,7 @@ $page_title = '';
                                     </div>
                                     <div class="ad2-cont4 ad-title">Classical guitar</div>
                                     <div class="ad2-cont5 ad-price">$500</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Phasellus nibh nulla, egestas non mattis eu, volutpat sit amet mauris. Nulla sed ipsum a augue pellentesque luctus. Maecenas elementum tellus at vestibulum tristique. In ut euismod mauris. Mauris rhoncus, diam vitae tristique tincidunt, sapien nisl pulvinar urna, at eleifend leo justo at elit. Sed gravida dolor at sapien maximus maximus. Nulla facilisi. Nam metus justo, finibus et eleifend nec.</div>
                                     <div class="ad2-cont7 ad-date">Sep 11</div>
@@ -294,7 +316,8 @@ $page_title = '';
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
                                     <div class="ad2-cont4 ad-title">Yamaha student model flute </div>
-                                    <div class="ad2-cont5 ad-price">$250</div>
+                                    <div class="ad2-cont5 ad-price">$350.00</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Quisque laoreet magna eget magna sodales condimentum. In non nisi pellentesque.</div>
                                     <div class="ad2-cont7 ad-date">Sep 9</div>
@@ -313,9 +336,10 @@ $page_title = '';
                                     </div>
                                     <div class="ad2-cont4 ad-title">Steve Jordan signature snare drum, used twice</div>
                                     <div class="ad2-cont5 ad-price">$400</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Mauris laoreet aliquet augue eget efficitur. Vivamus id sollicitudin arcu. Fusce tempor gravida enim. Phasellus volutpat condimentum suscipit. Duis ac ligula at lectus tempor cursus.</div>
-                                    <div class="ad2-cont7 ad-date">Sep 9                                    </div>
+                                    <div class="ad2-cont7 ad-date">Sep 9 </div>
                                     <div class="ad2-cont8 ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
                                 </div>
                             </div>
@@ -331,6 +355,7 @@ $page_title = '';
                                     </div>
                                     <div class="ad2-cont4 ad-title">Free piano, come and get it</div>
                                     <div class="ad2-cont5 ad-price">$0</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Ut ac diam viverra, accumsan mauris dapibus, molestie lectus. Curabitur eu velit sed lectus consectetur vehicula vel sit amet turpis. Sed tincidunt diam at egestas malesuada. Sed sollicitudin porttitor ultrices. Donec vel nulla mauris. Phasellus a urna posuere, sagittis erat at.</div>
                                     <div class="ad2-cont7 ad-date">Sep 9</div>
@@ -349,6 +374,7 @@ $page_title = '';
                                     </div>
                                     <div class="ad2-cont4 ad-title">saxophone stand with doubler pegs</div>
                                     <div class="ad2-cont5 ad-price">$45</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Sed efficitur posuere metus, auctor tempor nisi maximus et. Sed diam erats.</div>
                                     <div class="ad2-cont7 ad-date">Sep 7</div>
@@ -367,6 +393,7 @@ $page_title = '';
                                     </div>
                                     <div class="ad2-cont4 ad-title">Guitar lessons with a pro</div>
                                     <div class="ad2-cont5 ad-price">$30/hr</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Aenean venenatis velit nec eros luctus feugiat.</div>
                                     <div class="ad2-cont7 ad-date">Sep 7</div>
@@ -385,6 +412,7 @@ $page_title = '';
                                     </div>
                                     <div class="ad2-cont4 ad-title">Gold plated flute</div>
                                     <div class="ad2-cont5 ad-price">$1200</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Nam nisi libero, feugiat id nibh a, condimentum vestibulum lacus. </div>
                                     <div class="ad2-cont7 ad-date">Sep 6</div>
@@ -403,6 +431,7 @@ $page_title = '';
                                     </div>
                                     <div class="ad2-cont4 ad-title">Double bass drum set with all hardware</div>
                                     <div class="ad2-cont5 ad-price">$1500</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Proin scelerisque quis urna in hendrerit. Nulla facilisi. Nunc vel mi mollis enim sodales luctus quis at lacus. Fusce eget condimentum enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vel ex quis sem laoreet tempus eu at mauris. Integer hendrerit purus vitae ullamcorper tempor. Proin nec pellentesque tellus, id condimentum orci. Aenean feugiat.</div>
                                     <div class="ad2-cont7 ad-date">Sep 4</div>
@@ -421,6 +450,7 @@ $page_title = '';
                                     </div>
                                     <div class="ad2-cont4 ad-title">Piano Lessons </div>
                                     <div class="ad2-cont5 ad-price">$40/hr</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Praesent quis orci sed sapien facilisis mollis a vitae sapien. Cras auctor est eu ipsum commodo vestibulum. Pellentesque ac tristique tellus. Vestibulum eget placerat neque.</div>
                                     <div class="ad2-cont7 ad-date">Sep 4</div>
@@ -439,6 +469,7 @@ $page_title = '';
                                     </div>
                                     <div class="ad2-cont4 ad-title">sax player needed for gigs</div>
                                     <div class="ad2-cont5 ad-price">Negotiable</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Aenean sit amet metus magna. Aliquam quis velit ac risus vulputate dignissim. Etiam malesuada vestibulum diam, sed sodales dolor aliquet vel. Pellentesque consectetur interdum placera.</div>
                                     <div class="ad2-cont7 ad-date">Sep 3</div>
@@ -457,6 +488,7 @@ $page_title = '';
                                     </div>
                                     <div class="ad2-cont4 ad-title">Hollow body ibanez guitar</div>
                                     <div class="ad2-cont5 ad-price">$899</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Curabitur faucibus porta justo non dapibus. Integer pretium hendrerit vulputate. Donec in posuere erat. Ut at metus ante. Ut commodo sem ut nunc ultricies sodales. Cras interdum nisl diam, in ullamcorper tortor vulputate ut. Pellentesque eleifend justo eros, non ultrices leo condimentum nec. Vestibulum leo quam, vestibulum ac odio vitae, venenatis eleifend arcu. Donec ornare fermentum laoreet. Mauris consequat mattis.</div>
                                     <div class="ad2-cont7 ad-date">Sep 2</div>
@@ -475,6 +507,7 @@ $page_title = '';
                                     </div>
                                     <div class="ad2-cont4 ad-title">Ethnic flute collection</div>
                                     <div class="ad2-cont5 ad-price">$300</div>
+                                    <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Maecenas egestas, mauris egestas tristique ornare, nisi elit sollicitudin metus, vel auctor metus mi ut nisi. Nam cursus ligula ut elementum feugiat. In non mauris id quam interdum condimentum et ut nisl. Nam vitae purus et ex porta bibendum nec vel justo. Mauris blandit lectus vel congue dapibus. Cras tempor porta varius. Nullam tristique lectus non urna pellentesque, in semper.</div>
                                     <div class="ad2-cont7 ad-date">Sep 2</div>
@@ -560,14 +593,29 @@ $(document).ready(function() {
     $('#set_grid').click(function() {
         $('.ad2').addClass('grid');
         $('.ad2').removeClass('thumb');
+		$('.ad2').removeClass('list');
     });
 	
 	$('#set_thumb').click(function() {
         $('.ad2').addClass('thumb');
         $('.ad2').removeClass('grid');
+		$('.ad2').removeClass('list');
+    });
+	$('#set_list').click(function() {
+        $('.ad2').addClass('list');
+        $('.ad2').removeClass('grid');
+		 $('.ad2').removeClass('thumb');
     });
 	
-	
+});
+</script> 
+<script>
+$(document).ready(function() {
+$(function() {                       
+  $(".ad2").click(function() {  
+    $(this).addClass("faded");      
+  });
+});
 });
 </script>
 </body>

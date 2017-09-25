@@ -1,5 +1,4 @@
 
-
 @include media-breakpoint-up(xs) {
 	.main-content .main-content-section .section-head {
 		margin-bottom: 10px;
@@ -10,22 +9,49 @@
 			padding: 5px;
 			border-top: solid 1px #a6a6a6;
 			.fa {
-				margin-top: 2px;
+				margin-top: 0px;
 				font-size: 16px;
-				color: #777;
+				color: $gray-600;
 			}
 			.dropdown {
 				display: inline-flex;
-				.btn.btn-link {
-					padding: 0px;
+				border: solid 1px #e9ecef;
+				padding: 2px;
+				border-radius: 20px;
+				padding-left: 10px;
+				padding-right: 10px;
+				background: #ffffff;
+				box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
+				&:hover {
+					background: $gray-600;
+					box-shadow: none;
+					border: solid 1px $gray-200;
+					.btn.btn-link {
+
+
+							color: #fff;
+
+					}
+					.fa {
+						color: #fff;
+					}
+					.dropdown-item .fa {
+						color:  $gray-600;
+					}
 				}
+
 			}
 			.btn.btn-link {
 				padding: 0px;
+				color: #777;
+				&:hover {
+					text-decoration: none;
+				}
 			}
 			.btn-group {
 				.btn.btn-sm.btn-outline-secondary {
 					padding: 0.1rem 0.4rem;
+
 				}
 				&.util-view-switch {
 					margin-left: 12px;
@@ -35,15 +61,16 @@
 						border-left: solid 1px #a6a6a6;
 						left: -9px;
 						height: 33px;
-						top: -9px;
+						top: -12px;
 					}
 					.btn.btn-sm {
 						padding: 0.1rem 0.4rem;
+						margin-top: -5px;
 					}
 				}
 			}
 			.dropdown.util-filter {
-				margin-left: 12px;
+				margin-left: 5px;
 			}
 			.dropdown.util-location .btn.btn-link .long-name {
 				display: none;
@@ -67,6 +94,17 @@
 		.section-head-title h2 {
 			font-size: 1.5rem;
 		}
+
+
+	}
+}
+@include media-breakpoint-up(md) {
+
+
+}
+@include media-breakpoint-up(lg) {
+	.main-content .main-content-section .section-head {
+
 		.section-head-utilities {
 			.dropdown.util-location .btn.btn-link .long-name {
 				display: inline;
@@ -76,17 +114,6 @@
 			}
 		}
 
-	}
-}
-@include media-breakpoint-up(md) {
-	.testbox {
-		background: blue;
-	}
-
-}
-@include media-breakpoint-up(lg) {
-	.testbox {
-		background: yellow;
 	}
 }
 @include media-breakpoint-up(xl) {
