@@ -6785,13 +6785,12 @@ fieldset .form-group:last-child {
       color: #868e96; }
     .main-content .main-content-section .section-head .section-head-utilities .dropdown {
       display: inline-flex;
-      border: solid 1px #e9ecef;
+      border: solid 1px #ced4d9;
       padding: 2px;
       border-radius: 20px;
       padding-left: 10px;
       padding-right: 10px;
-      background: #ffffff;
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
+      background: #ffffff; }
       .main-content .main-content-section .section-head .section-head-utilities .dropdown:hover {
         background: #868e96;
         box-shadow: none;
