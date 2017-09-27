@@ -12,9 +12,8 @@ $page_title = '';
 	opacity: .5;
 }
 .section-head .section-head-utilities .dropdown {
-	    
 }
-.section-head .section-head-utilities .util-filter .dropdown-menu 
+.section-head .section-head-utilities .util-filter .dropdown-menu
 </style>
 <?php include('includes/user-styles.php') ?>
 </head>
@@ -95,9 +94,9 @@ $page_title = '';
                                                 <a class="dropdown-item" href="#">All Ads</a> </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto align-self-end"> <strong class="d-none d-sm-inline">Sort:</strong> 
+                                    <div class="col-auto align-self-end"> <strong class="d-none d-sm-inline">Sort:</strong>
                                         <div class="dropdown util-sort" >
-                                            <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-sort d-sm-none" aria-hidden="true"></i>  <span class="d-none d-sm-inline">By</span> Date </button>
+                                            <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-sort d-sm-none" aria-hidden="true"></i> <span class="d-none d-sm-inline">By</span> Date </button>
                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#">By Relevance</a> <a class="dropdown-item" href="#">By Date</a> </div>
                                         </div>
                                         <div class="btn-group util-view-switch d-none d-sm-inline" data-toggle="buttons">
@@ -119,7 +118,7 @@ $page_title = '';
                     <div class="row">
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/drums1.jpg)"> </div>
                                     </div>
@@ -139,7 +138,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/piano1.jpg)"> </div>
                                     </div>
@@ -159,7 +158,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/sax1.jpg)"> </div>
                                     </div>
@@ -178,7 +177,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/guitar1.jpg)"> </div>
                                     </div>
@@ -197,7 +196,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/flute1.jpg)"> </div>
                                     </div>
@@ -231,7 +230,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/drums2.jpg)"> </div>
                                     </div>
@@ -251,7 +250,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/piano2.jpg)"> </div>
                                     </div>
@@ -270,7 +269,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/sax2.jpg)"> </div>
                                     </div>
@@ -289,7 +288,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/guitar2.jpg)"> </div>
                                     </div>
@@ -308,7 +307,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/flute2.jpg)"> </div>
                                     </div>
@@ -327,7 +326,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/drums3.jpg)"> </div>
                                     </div>
@@ -346,7 +345,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/piano3.jpg)"> </div>
                                     </div>
@@ -365,7 +364,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/sax3.jpg)"> </div>
                                     </div>
@@ -384,7 +383,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/guitar3.jpg)"> </div>
                                     </div>
@@ -403,7 +402,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/flute3.jpg)"> </div>
                                     </div>
@@ -422,7 +421,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/drums4.jpg)"> </div>
                                     </div>
@@ -441,7 +440,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/piano4.jpg)"> </div>
                                     </div>
@@ -460,7 +459,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/sax4.jpg)"> </div>
                                     </div>
@@ -479,7 +478,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/guitar4.jpg)"> </div>
                                     </div>
@@ -498,7 +497,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/flute4.jpg)"> </div>
                                     </div>
@@ -594,17 +593,20 @@ $(document).ready(function() {
         $('.ad2').addClass('grid');
         $('.ad2').removeClass('thumb');
 		$('.ad2').removeClass('list');
+        $('.ad2').removeClass('mobile');
     });
 	
 	$('#set_thumb').click(function() {
         $('.ad2').addClass('thumb');
         $('.ad2').removeClass('grid');
 		$('.ad2').removeClass('list');
+        $('.ad2').removeClass('mobile');
     });
 	$('#set_list').click(function() {
         $('.ad2').addClass('list');
         $('.ad2').removeClass('grid');
-		 $('.ad2').removeClass('thumb');
+        $('.ad2').removeClass('thumb');
+        $('.ad2').removeClass('mobile');
     });
 	
 });
@@ -617,6 +619,38 @@ $(function() {
   });
 });
 });
-</script>
+</script> 
+<script>
+    $(document).ready(function() {
+
+        $(window).resize(function(){
+            if ($(window).width() < 576) {
+                $(".grid").removeClass("grid").addClass("mobile");
+                $(".thumb").removeClass("thumb").addClass("mobile");
+                $(".list").removeClass("list").addClass("mobile");
+            } else {
+
+
+            }
+        });
+
+        $(window).resize(function(){
+            if ($(window).width() > 577) {
+                $(".mobile").removeClass("mobile").addClass("grid");
+
+            } else {
+
+            }
+        });
+
+
+
+
+
+
+     });
+
+
+    </script>
 </body>
 </html>

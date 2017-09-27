@@ -1,0 +1,364 @@
+
+
+.ad2.grid {
+	@include make-col-ready();
+
+	@include make-col(12);
+
+
+
+
+
+	@include media-breakpoint-up(sm) {
+		@include make-col(6);
+	}
+	@include media-breakpoint-up(lg) {
+		@include make-col(4);
+	}
+	@include media-breakpoint-up(xl) {
+		@include make-col(3);
+	}
+}
+
+
+
+
+
+
+.ad2.grid {
+
+	.ad2-maincontainer {
+		padding: 10px;
+		padding-bottom: 3px;
+		background: #ffffff;
+		overflow: hidden;
+		position: relative;
+		margin-bottom: 20px;
+		@include shadow;
+		.ad2-cont1{
+			@extend .col-12;
+			.ad-image {
+				background-color: #e9ecef;
+				background-image: url(../../img/ad-pics/category-music.png);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: auto 100%;
+				min-height: 150px;
+				margin-bottom: 5px;
+				width: 100%;
+				height:50px;
+			}
+		}
+		.ad2-cont2{
+			position: absolute;
+			right: 11px;
+			top: 11px;
+			.watchlist-set {
+				background: #fff;
+				padding-left: 4px;
+				padding-right: 4px;
+				padding-bottom: 1px;
+			}
+		}
+		.ad2-cont3.banner{
+
+			background: #08b;
+			border: 0 solid rgba(0, 0, 0, 0.2);
+			color: #fff;
+			font-size: 12px;
+			font-weight: bold;
+			border-width: 1px 0;
+			border-color: rgba(0, 0, 0, 0.3);
+			padding: 2px 57px 2px 47px;
+			position: absolute;
+			left: -39px;
+			top: 0px;
+			transform: rotate(-35deg);
+			-webkit-transform: rotate(-35deg);
+
+		}
+		.ad2-cont4.ad-title {
+			@extend .col-12;
+			font-size: 14px;
+			font-weight: bold;
+			color: $link-color;
+			line-height: 1.1rem;
+			max-height: 40px;
+			height: 40px;
+
+		}
+		.ad2-cont5.ad-price {
+			position: absolute;
+			font-size: 16px;
+			font-weight: bold;
+			text-shadow: 1px 1px 4px #000000;
+			text-transform: capitalize;
+			line-height: 1.1rem;
+			color: white;
+			bottom: 75px;
+			background-color: rgba(3, 92, 157, 0.8);
+			padding: 8px;
+			padding-right: 12px;
+			left: 11px;
+			-webkit-border-top-right-radius: 15px;
+			-webkit-border-bottom-right-radius: 15px;
+			-moz-border-radius-topright: 15px;
+			-moz-border-radius-bottomright: 15px;
+			border-top-right-radius: 15px;
+			border-bottom-right-radius: 15px;
+
+		}
+
+		.ad2-cont5-1.ad-type {
+			display: none;
+			text-align: right;
+			font-size: 14px;
+			margin-top: -3px;
+		}
+		.ad2-cont6.ad-description{
+			display: none;
+
+		}
+		.ad2-cont7.ad-date{
+			@extend .col;
+			font-size: 12px;
+			font-style: italic;
+			color: #868e96;
+
+		}
+		.ad2-cont8.ad-location{
+			@extend .col-auto;
+			font-size: 12px;
+			color: #868e96;
+		}
+	}
+
+
+}
+.ad2.thumb {
+	@extend .col-12;
+
+
+
+	.ad2-maincontainer {
+		padding: 5px;
+		background: #ffffff;
+		overflow: hidden;
+		position: relative;
+		margin-bottom: 10px;
+		@include shadow;
+		.ad2-cont1{
+			@extend .col-2;
+			.ad-image {
+				background-color: #e9ecef;
+				background-image: url(../../img/ad-pics/category-music.png);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: auto 100%;
+				min-height: 77px;
+				//margin-bottom: 5px;
+				width: 100%;
+
+			}
+		}
+		.ad2-cont2{
+			position: absolute;
+			right: 11px;
+			top: 5px;
+			.watchlist-set {
+				background: #fff;
+				padding-left: 4px;
+				padding-right: 4px;
+				padding-bottom: 1px;
+			}
+		}
+		.ad2-cont3.banner{
+
+			background: #08b;
+			border: 0 solid rgba(0, 0, 0, 0.2);
+			color: #fff;
+			font-size: 12px;
+			font-weight: bold;
+			border-width: 1px 0;
+			border-color: rgba(0, 0, 0, 0.3);
+			padding: 2px 57px 2px 47px;
+			position: absolute;
+			left: -39px;
+			top: 0px;
+			transform: rotate(-35deg);
+			-webkit-transform: rotate(-35deg);
+
+		}
+		.ad2-cont4.ad-title {
+			@extend .col-3;
+			font-size: 14px;
+			font-weight: bold;
+			color: #005A9C;
+			line-height: .9rem;
+			padding-left: 0px;
+			max-height: 40px;
+			overflow: hidden;
+
+
+		}
+		.ad2-cont5.ad-price{
+			position: absolute;
+			font-weight: bold;
+			font-size: 16px;
+			left: 133px;
+			bottom: 5px;
+		}
+
+		.ad2-cont5-1.ad-type {
+			position: absolute;
+			font-size: 14px;
+			left: 357px;
+			/* margin-top: -3px; */
+			top: 2px;
+			display: none;
+		}
+
+
+		.w-100 {
+			display: none;
+		}
+		.ad2-cont6.ad-description{
+			@extend .col-7;
+			line-height: 1.3;
+			padding-right: 65px;
+			padding-left: 15px;
+			font-size: 12px;
+			max-height: 77px;
+			height: 77px;
+			&:before {
+				background: #e9ecef;
+				position: absolute;
+				width: 2px;
+				height: 76px;
+				content: "";
+				left: -2px;
+			}
+		}
+		.ad2-cont7.ad-date{
+			position: absolute;
+			font-size: 12px;
+			font-style: italic;
+			color: #868e96;
+			left: 133px;
+			bottom: 26px;
+
+		}
+		.ad2-cont8.ad-location{
+			position: absolute;
+			font-size: 12px;
+			color: #868e96;
+			//right: 10px;
+			left: 301px;
+			bottom: 5px;
+		}
+
+	}
+
+
+
+}
+.ad2.list {
+	@extend .col-12;
+
+
+
+	.ad2-maincontainer {
+		padding: 5px;
+		background: #ffffff;
+		overflow: hidden;
+		position: relative;
+		margin-bottom: 0px;
+		@include shadow;
+		.ad2-cont1{
+			display: none;
+
+			.ad-image {
+
+
+			}
+		}
+		.ad2-cont2{
+			@extend .col-1;
+			@extend .order-12;
+			.watchlist-set {
+				background: #fff;
+				padding-left: 4px;
+				padding-right: 4px;
+				padding-bottom: 1px;
+			}
+		}
+		.ad2-cont3.banner{
+
+			background: #08b;
+			border: 0 solid rgba(0, 0, 0, 0.2);
+			color: transparent;
+			font-size: 10px;
+			/* font-weight: bold; */
+			border-width: 1px 0;
+			border-color: rgba(0, 0, 0, 0.3);
+			padding: 0px 5px 0px 5px;
+			position: absolute;
+			left: -18px;
+			top: 7px;
+			transform: rotate(-90deg);
+			-webkit-transform: rotate(-90deg);
+
+		}
+		.ad2-cont4.ad-title {
+			@extend .col-5;
+			font-size: 14px;
+			font-weight: bold;
+			color: #005A9C;
+			line-height: .9rem;
+			padding-left: 20px;
+			max-height: 24px;
+			padding-top: 4px;
+
+
+
+		}
+		.ad2-cont5.ad-price{
+			@extend .col-2;
+			font-weight: bold;
+			font-size: 14px;
+
+		}
+		.ad2-cont5-1.ad-type {
+			display: none;
+
+		}
+		.w-100 {
+			display: none;
+		}
+		.ad2-cont6.ad-description{
+			display: none;
+
+
+		}
+		.ad2-cont7.ad-date{
+			@extend .col-2;
+			font-size: 12px;
+			font-style: italic;
+			color: #868e96;
+
+
+		}
+		.ad2-cont8.ad-location{
+			@extend .col-2;
+			font-size: 12px;
+			color: #868e96;
+
+
+		}
+
+	}
+
+
+
+}
+
