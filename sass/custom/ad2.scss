@@ -30,7 +30,7 @@
 				left: 0px;
 				.ad-image {
 					background-color: #e9ecef;
-					background-image: url(../../img/ad-pics/category-music.png);
+
 					background-repeat: no-repeat;
 					background-position: center;
 					background-size: auto 100%;
@@ -38,7 +38,14 @@
 					//margin-bottom: 5px;
 					width: 100%;
 
+
 				}
+				.ad-image.none:before {
+
+					top: 0px;
+					left: 60px;
+				}
+
 			}
 			.ad2-cont2{
 				position: absolute;
@@ -71,7 +78,7 @@
 			.ad2-cont4.ad-title {
 				@extend .col-12;
 				font-size: 14px;
-				font-weight: bold;
+				//font-weight: bold;
 				color: #005A9C;
 				line-height: .9rem;
 				padding-left: 64px;
@@ -86,7 +93,6 @@
 				font-weight: bold;
 				padding-left: 64px;
 				font-size: 16px;
-
 
 			}
 
@@ -143,8 +149,7 @@
 			.ad2-cont1{
 				@include make-col(12);
 				.ad-image {
-					background-color: #e9ecef;
-					background-image: url(../../img/ad-pics/category-music.png);
+					background-color: $gray-200;
 					background-repeat: no-repeat;
 					background-position: center;
 					background-size: auto 100%;
@@ -152,6 +157,19 @@
 					margin-bottom: 5px;
 					width: 100%;
 					height:50px;
+				}
+				.ad-image.none:before {
+					content: "\f001"; //needs abstraction
+					font-family: FontAwesome;
+					font-style: normal;
+					font-weight: normal;
+					text-decoration: inherit;
+					position: absolute;
+					font-size: 6rem;
+					color: white;
+					z-index: 1;
+					top: 0px;
+					left: 80px;
 				}
 			}
 			.ad2-cont2{
@@ -185,7 +203,7 @@
 			.ad2-cont4.ad-title {
 				@include make-col(12);
 				font-size: 14px;
-				font-weight: bold;
+				//font-weight: bold;
 				color: $link-color;
 				line-height: 1.1rem;
 				max-height: 40px;
@@ -195,7 +213,7 @@
 			.ad2-cont5.ad-price {
 				position: absolute;
 				font-size: 16px;
-				font-weight: bold;
+				//font-weight: bold;
 				text-shadow: 1px 1px 4px #000000;
 				text-transform: capitalize;
 				line-height: 1.1rem;
@@ -243,9 +261,35 @@
 
 	@include media-breakpoint-up(lg) {
 		@include make-col(4);
+		.ad2-maincontainer {
+
+
+			.ad2-cont1{
+
+
+				.ad-image.none:before {
+
+					top: 0px;
+					left: 60px;
+				}
+			}
+		}
 	}
 	@include media-breakpoint-up(xl) {
 		@include make-col(4);
+		.ad2-maincontainer {
+
+
+			.ad2-cont1{
+
+
+				.ad-image.none:before {
+
+					top: 0px;
+					left: 80px;
+				}
+			}
+		}
 	}
 }
 
@@ -307,7 +351,7 @@
 			.ad2-cont4.ad-title {
 				@include make-col(4);
 				font-size: 14px;
-				font-weight: bold;
+				//font-weight: bold;
 				color: #005A9C;
 				line-height: .9rem;
 				padding-left: 5px;
@@ -360,17 +404,17 @@
 				font-size: 12px;
 				font-style: italic;
 				color: #868e96;
-				left: 94px;
-				bottom: 26px;
+				left: 211px;
+				bottom: 5px;
 
 			}
 			.ad2-cont8.ad-location{
 				position: absolute;
 				font-size: 12px;
 				color: #868e96;
-				//right: 10px;
-				left: 216px;
+				right: 10px;
 				bottom: 5px;
+				text-align: right;
 			}
 
 		}
@@ -430,7 +474,7 @@
 			.ad2-cont4.ad-title {
 				@include make-col(4);
 				font-size: 14px;
-				font-weight: bold;
+				//font-weight: bold;
 				color: #005A9C;
 				line-height: .9rem;
 				padding-left: 5px;
@@ -483,8 +527,8 @@
 				font-size: 12px;
 				font-style: italic;
 				color: #868e96;
-				left: 124px;
-				bottom: 26px;
+				left: 296px;
+				bottom: 5px;
 
 			}
 			.ad2-cont8.ad-location{
@@ -553,7 +597,7 @@
 			.ad2-cont4.ad-title {
 				@include make-col(4);
 				font-size: 14px;
-				font-weight: bold;
+				//font-weight: bold;
 				color: #005A9C;
 				line-height: .9rem;
 				padding-left: 5px;
@@ -606,8 +650,8 @@
 				font-size: 12px;
 				font-style: italic;
 				color: #868e96;
-				left: 145px;
-				bottom: 26px;
+				left: 361px;
+				bottom: 5px;
 
 			}
 			.ad2-cont8.ad-location{
