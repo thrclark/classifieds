@@ -11,10 +11,8 @@ $page_title = '';
 .faded {
 	opacity: .5;
 }
-.section-head .section-head-utilities .dropdown {
-	    
-}
-.section-head .section-head-utilities .util-filter .dropdown-menu 
+
+
 </style>
 <?php include('includes/user-styles.php') ?>
 </head>
@@ -90,14 +88,14 @@ $page_title = '';
                                         </div>
                                         <div class="dropdown util-filter"><i class="fa fa-filter" aria-hidden="true"></i>
                                             <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class=" d-none d-sm-inline">All Ads</span></button>
-                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#"> <i  title="Selling"class="fa fa-tag" aria-hidden="true"></i> Selling</a> <a class="dropdown-item" href="#"> <i  title="Selling"class="fa fa-search" aria-hidden="true"></i> In Search Of</a>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#"> Selling</a> <a class="dropdown-item" href="#"> Seeking</a>
                                                 <div class="dropdown-divider"></div>
                                                 <a class="dropdown-item" href="#">All Ads</a> </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto align-self-end"> <strong class="d-none d-sm-inline">Sort:</strong> 
+                                    <div class="col-auto align-self-end"> <strong class="d-none d-sm-inline">Sort:</strong>
                                         <div class="dropdown util-sort" >
-                                            <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-sort d-sm-none" aria-hidden="true"></i>  <span class="d-none d-sm-inline">By</span> Date </button>
+                                            <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-sort d-sm-none" aria-hidden="true"></i> <span class="d-none d-sm-inline">By</span> Date </button>
                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#">By Relevance</a> <a class="dropdown-item" href="#">By Date</a> </div>
                                         </div>
                                         <div class="btn-group util-view-switch d-none d-sm-inline" data-toggle="buttons">
@@ -119,7 +117,7 @@ $page_title = '';
                     <div class="row">
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/drums1.jpg)"> </div>
                                     </div>
@@ -127,7 +125,7 @@ $page_title = '';
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
                                     <div class="ad2-cont3 banner">New</div>
-                                    <div class="ad2-cont4 ad-title">Drum Set - Like New!</div>
+                                    <div class="ad2-cont4 ad-title">For Sale: Drum Set - Like New!</div>
                                     <div class="ad2-cont5 ad-price">$1200</div>
                                     <div class="ad2-cont5-1 ad-type"> <i  title="Selling"class="fa fa-tag" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
@@ -139,7 +137,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/piano1.jpg)"> </div>
                                     </div>
@@ -147,7 +145,7 @@ $page_title = '';
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
                                     <div class="ad2-cont3 banner">New</div>
-                                    <div class="ad2-cont4 ad-title">Stienway grand piano, 1932</div>
+                                    <div class="ad2-cont4 ad-title">For Sale: Stienway grand piano, 1932</div>
                                     <div class="ad2-cont5 ad-price">Negotiable</div>
                                     <div class="ad2-cont5-1 ad-type"> <i  title="Selling"class="fa fa-tag" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
@@ -159,15 +157,15 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/sax1.jpg)"> </div>
                                     </div>
                                     <div class="ad2-cont2">
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
-                                    <div class="ad2-cont4 ad-title">Student Model Saxophone, with mouthpiece, strap, and reeds</div>
-                                    <div class="ad2-cont5 ad-price">$400</div>
+                                    <div class="ad2-cont4 ad-title">Seeking: Student Model Saxophone, with mouthpiece, strap, and reeds</div>
+                                    <div class="ad2-cont5 ad-price">up to $400</div>
                                     <div class="ad2-cont5-1 ad-type"> <i  title="Selling"class="fa fa-tag" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
                                     <div class="ad2-cont6 ad-description">Nam ultrices iaculis dapibus.</div>
@@ -178,9 +176,9 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
-                                        <div class="ad-image" style="background-image:url(../img/ad-pics/guitar1.jpg)"> </div>
+                                        <div class="ad-image none"> </div>
                                     </div>
                                     <div class="ad2-cont2">
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
@@ -197,14 +195,14 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/flute1.jpg)"> </div>
                                     </div>
                                     <div class="ad2-cont2">
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
-                                    <div class="ad2-cont4 ad-title">I need a flute</div>
+                                    <div class="ad2-cont4 ad-title">Seeking: I need a flute</div>
                                     <div class="ad2-cont5 ad-price">Wanted</div>
                                     <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
@@ -231,7 +229,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/drums2.jpg)"> </div>
                                     </div>
@@ -239,7 +237,7 @@ $page_title = '';
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
                                     <div class="ad2-cont3 banner">New</div>
-                                    <div class="ad2-cont4 ad-title">Jazz kit, with stands and cymbals</div>
+                                    <div class="ad2-cont4 ad-title">For Sale: Jazz kit, with stands and cymbals</div>
                                     <div class="ad2-cont5 ad-price">$2000</div>
                                     <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
@@ -251,7 +249,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/piano2.jpg)"> </div>
                                     </div>
@@ -270,14 +268,14 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/sax2.jpg)"> </div>
                                     </div>
                                     <div class="ad2-cont2">
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
-                                    <div class="ad2-cont4 ad-title">Selmer M6, mint contidtion</div>
+                                    <div class="ad2-cont4 ad-title">For Sale: Selmer M6, mint contidtion</div>
                                     <div class="ad2-cont5 ad-price">$7900</div>
                                     <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
@@ -289,14 +287,14 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/guitar2.jpg)"> </div>
                                     </div>
                                     <div class="ad2-cont2">
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
-                                    <div class="ad2-cont4 ad-title">Classical guitar</div>
+                                    <div class="ad2-cont4 ad-title">For Sale: Classical guitar</div>
                                     <div class="ad2-cont5 ad-price">$500</div>
                                     <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
@@ -308,7 +306,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/flute2.jpg)"> </div>
                                     </div>
@@ -327,14 +325,14 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/drums3.jpg)"> </div>
                                     </div>
                                     <div class="ad2-cont2">
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
-                                    <div class="ad2-cont4 ad-title">Steve Jordan signature snare drum, used twice</div>
+                                    <div class="ad2-cont4 ad-title">For Sale: Steve Jordan signature snare drum, used twice</div>
                                     <div class="ad2-cont5 ad-price">$400</div>
                                     <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
@@ -346,7 +344,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/piano3.jpg)"> </div>
                                     </div>
@@ -365,14 +363,14 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/sax3.jpg)"> </div>
                                     </div>
                                     <div class="ad2-cont2">
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
-                                    <div class="ad2-cont4 ad-title">saxophone stand with doubler pegs</div>
+                                    <div class="ad2-cont4 ad-title">Seeking: saxophone stand with doubler pegs</div>
                                     <div class="ad2-cont5 ad-price">$45</div>
                                     <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
@@ -384,14 +382,14 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/guitar3.jpg)"> </div>
                                     </div>
                                     <div class="ad2-cont2">
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
-                                    <div class="ad2-cont4 ad-title">Guitar lessons with a pro</div>
+                                    <div class="ad2-cont4 ad-title">For Sale: Guitar lessons with a pro</div>
                                     <div class="ad2-cont5 ad-price">$30/hr</div>
                                     <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
@@ -403,7 +401,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/flute3.jpg)"> </div>
                                     </div>
@@ -422,14 +420,14 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/drums4.jpg)"> </div>
                                     </div>
                                     <div class="ad2-cont2">
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
-                                    <div class="ad2-cont4 ad-title">Double bass drum set with all hardware</div>
+                                    <div class="ad2-cont4 ad-title">For Sale: Double bass drum set with all hardware</div>
                                     <div class="ad2-cont5 ad-price">$1500</div>
                                     <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
@@ -441,14 +439,14 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/piano4.jpg)"> </div>
                                     </div>
                                     <div class="ad2-cont2">
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
-                                    <div class="ad2-cont4 ad-title">Piano Lessons </div>
+                                    <div class="ad2-cont4 ad-title">For Sale: Piano Lessons </div>
                                     <div class="ad2-cont5 ad-price">$40/hr</div>
                                     <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
@@ -460,14 +458,14 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/sax4.jpg)"> </div>
                                     </div>
                                     <div class="ad2-cont2">
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
-                                    <div class="ad2-cont4 ad-title">sax player needed for gigs</div>
+                                    <div class="ad2-cont4 ad-title">Seeking: sax player needed for gigs</div>
                                     <div class="ad2-cont5 ad-price">Negotiable</div>
                                     <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
@@ -479,7 +477,7 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/guitar4.jpg)"> </div>
                                     </div>
@@ -498,14 +496,14 @@ $page_title = '';
                         </div>
                         <div class="ad2 grid">
                             <div class="ad2-maincontainer">
-                                <div class="row">
+                                <div class="ad2-row">
                                     <div class="ad2-cont1">
                                         <div class="ad-image" style="background-image:url(../img/ad-pics/flute4.jpg)"> </div>
                                     </div>
                                     <div class="ad2-cont2">
                                         <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
                                     </div>
-                                    <div class="ad2-cont4 ad-title">Ethnic flute collection</div>
+                                    <div class="ad2-cont4 ad-title">For Sale: Ethnic flute collection</div>
                                     <div class="ad2-cont5 ad-price">$300</div>
                                     <div class="ad2-cont5-1 ad-type"> <i title="In search of" class="fa fa-search" aria-hidden="true"></i> </div>
                                     <div class="w-100"></div>
@@ -594,17 +592,20 @@ $(document).ready(function() {
         $('.ad2').addClass('grid');
         $('.ad2').removeClass('thumb');
 		$('.ad2').removeClass('list');
+        $('.ad2').removeClass('mobile');
     });
 	
 	$('#set_thumb').click(function() {
         $('.ad2').addClass('thumb');
         $('.ad2').removeClass('grid');
 		$('.ad2').removeClass('list');
+        $('.ad2').removeClass('mobile');
     });
 	$('#set_list').click(function() {
         $('.ad2').addClass('list');
         $('.ad2').removeClass('grid');
-		 $('.ad2').removeClass('thumb');
+        $('.ad2').removeClass('thumb');
+        $('.ad2').removeClass('mobile');
     });
 	
 });
@@ -617,6 +618,38 @@ $(function() {
   });
 });
 });
-</script>
+</script> 
+<script>
+    $(document).ready(function() {
+
+        $(window).resize(function(){
+            if ($(window).width() < 576) {
+                $(".grid").removeClass("grid").addClass("mobile");
+                $(".thumb").removeClass("thumb").addClass("mobile");
+                $(".list").removeClass("list").addClass("mobile");
+            } else {
+
+
+            }
+        });
+
+        $(window).resize(function(){
+            if ($(window).width() > 577) {
+                $(".mobile").removeClass("mobile").addClass("grid");
+
+            } else {
+
+            }
+        });
+
+
+
+
+
+
+     });
+
+
+    </script>
 </body>
 </html>
