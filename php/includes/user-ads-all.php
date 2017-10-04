@@ -272,7 +272,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-announcement">
+    <div class="ad2 grid cat-announcements">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>

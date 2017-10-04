@@ -6461,14 +6461,24 @@ a.text-dark:focus, a.text-dark:hover {
       left: 0px; }
       .ad2.mobile .ad2-maincontainer .ad2-cont1 .ad-image {
         background-color: #e9ecef;
-        background-repeat: no-repeat;
-        background-position: center;
         background-size: auto 100%;
         min-height: 77px;
         width: 100%; }
       .ad2.mobile .ad2-maincontainer .ad2-cont1 .ad-image.none:before {
-        top: 0px;
-        left: 60px; }
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        font-size: 6rem;
+        color: white;
+        z-index: 1;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        text-align: center; }
     .ad2.mobile .ad2-maincontainer .ad2-cont2 {
       position: absolute;
       right: 5px;
@@ -6558,12 +6568,16 @@ a.text-dark:focus, a.text-dark:hover {
             font-style: normal;
             font-weight: normal;
             text-decoration: inherit;
-            position: absolute;
             font-size: 6rem;
             color: white;
             z-index: 1;
-            top: 0px;
-            left: 80px; }
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            text-align: center; }
         .ad2.grid .ad2-maincontainer .ad2-cont2 {
           position: absolute;
           right: 11px;
@@ -6636,17 +6650,11 @@ a.text-dark:focus, a.text-dark:hover {
   @media (min-width: 992px) {
     .ad2.grid {
       flex: 0 0 33.33333%;
-      max-width: 33.33333%; }
-      .ad2.grid .ad2-maincontainer .ad2-cont1 .ad-image.none:before {
-        top: 0px;
-        left: 60px; } }
+      max-width: 33.33333%; } }
   @media (min-width: 1200px) {
     .ad2.grid {
       flex: 0 0 33.33333%;
-      max-width: 33.33333%; }
-      .ad2.grid .ad2-maincontainer .ad2-cont1 .ad-image.none:before {
-        top: 0px;
-        left: 80px; } }
+      max-width: 33.33333%; } }
 
 .ad2.thumb {
   position: relative;
@@ -6676,6 +6684,21 @@ a.text-dark:focus, a.text-dark:hover {
             background-size: auto 100%;
             min-height: 77px;
             width: 100%; }
+          .ad2.thumb .ad2-maincontainer .ad2-cont1 .ad-image.none:before {
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: inherit;
+            font-size: 6rem;
+            color: white;
+            z-index: 1;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            text-align: center; }
         .ad2.thumb .ad2-maincontainer .ad2-cont2 {
           position: absolute;
           right: 11px;
@@ -7039,6 +7062,15 @@ a.text-dark:focus, a.text-dark:hover {
 
 .ad2.cat-announcements .ad-image.none:before {
   content: "\f0a1"; }
+
+.ad2.cat-jobs .ad-image.none:before {
+  content: "\f2b5"; }
+
+.ad2.cat-rideboard .ad-image.none:before {
+  content: "\f087"; }
+
+.ad2.cat-misc .ad-image.none:before {
+  content: "\f02c"; }
 
 .footer-menu {
   position: fixed;
