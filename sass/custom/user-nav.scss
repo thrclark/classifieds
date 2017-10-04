@@ -1,4 +1,5 @@
 .main-nav {
+	margin-top: 2px;
 
 	.sub-menu .watchlist {
 		border-bottom: 3px solid #ced4da;
@@ -6,8 +7,7 @@
 	.sub-menu .watchlist a .fa {
 		margin-top: 10px;
 	}
-
-
+	
 	ul, li {
 		list-style: none;
 		padding: 0px;
@@ -15,6 +15,7 @@
 		line-height: 32px;
 		cursor: pointer;
 	}
+
 	ul :not(collapsed) .arrow:before, li :not(collapsed) .arrow:before {
 		font-family: FontAwesome;
 		content: "\f107";
@@ -76,9 +77,10 @@
 			padding-left: 10px;
 			color: $gray-800;
 			i {
-				padding-left: 10px;
+				padding-left: 5px;
 				width: 20px;
-				padding-right: 20px;
+				padding-right: 15px;
+				padding-top: 9px;
 			}
 		}
 		&:hover {
@@ -90,6 +92,13 @@
 			-ms-transition: all 1s ease;
 			transition: all 1s ease;
 		}
+	}
+	li.divider {
+		border-bottom: 2px solid #ced4da;
+	}
+	.post-nav-links {
+		padding-top: 30px;
+		font-style: italic;
 	}
 }
 

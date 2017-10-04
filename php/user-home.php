@@ -1,19 +1,11 @@
 <?php 
-$section = '';
-$page_title = '';
+$page_title = 'cat_music';
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <?php include ('includes/head-meta.php') ?>
-<style type="text/css">
-.faded {
-	opacity: .5;
-}
-
-
-</style>
 <?php include('includes/user-styles.php') ?>
 </head>
 <body>
@@ -74,7 +66,7 @@ $page_title = '';
                 <div class="col-xs-12 col-md-9 main-content-section" style="">
                     <div class="row align-items-center section-head">
                         <div class="col-auto section-head-title">
-                            <h2 class="">Musicians &amp; Artists</h2>
+                            <h2 class="">IUK: Musicians &amp; Artists</h2>
                         </div>
                         <div class="col-12">
                             <div class="section-head-utilities">

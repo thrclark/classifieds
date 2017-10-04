@@ -6079,6 +6079,9 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+.faded {
+  opacity: .5; }
+
 @font-face {
   font-family: 'BentonSansRegular';
   src: url("https://fonts.iu.edu/fonts/benton-sans-regular.eot");

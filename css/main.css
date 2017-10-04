@@ -6078,6 +6078,9 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+.faded {
+  opacity: .5; }
+
 @font-face {
   font-family: 'BentonSansRegular';
   src: url("https://fonts.iu.edu/fonts/benton-sans-regular.eot");
@@ -6218,72 +6221,80 @@ a.text-dark:focus, a.text-dark:hover {
     display: inline; }
   .app-header .container .row .search .search-container .search-geo .short-name {
     display: none; } }
-.main-nav .sub-menu .watchlist {
-  border-bottom: 3px solid #ced4da; }
-.main-nav .sub-menu .watchlist a .fa {
-  margin-top: 10px; }
-.main-nav ul, .main-nav li {
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-  line-height: 32px;
-  cursor: pointer; }
-.main-nav ul :not(collapsed) .arrow:before, .main-nav li :not(collapsed) .arrow:before {
-  font-family: FontAwesome;
-  content: "\f107";
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
-  vertical-align: middle;
-  float: right; }
-.main-nav ul .active, .main-nav li .active {
-  background-color: #fff; }
-.main-nav ul .sub-menu li.active, .main-nav li .sub-menu li.active, .main-nav ul .sub-menu li.active a, .main-nav li .sub-menu li.active a {
-  color: #343a40; }
-.main-nav ul .sub-menu li, .main-nav li .sub-menu li {
-  background-color: #e9ecef;
-  border: none;
-  line-height: 28px;
-  border-bottom: 1px solid #dee2e6;
-  margin-left: 0px; }
-.main-nav ul .sub-menu li:hover, .main-nav li .sub-menu li:hover {
-  background-color: #f8f9fa; }
-.main-nav ul .sub-menu li:before {
-  font-family: FontAwesome;
-  content: "\f111";
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 0px;
-  font-size: 6px;
-  vertical-align: middle;
-  color: #e9ecef; }
-.main-nav ul .sub-menu li.active:before {
-  color: #868e96; }
-.main-nav li {
-  border-bottom: 1px solid #ced4da; }
-  .main-nav li .sub-menu li:before {
+.main-nav {
+  margin-top: 2px; }
+  .main-nav .sub-menu .watchlist {
+    border-bottom: 3px solid #ced4da; }
+  .main-nav .sub-menu .watchlist a .fa {
+    margin-top: 10px; }
+  .main-nav ul, .main-nav li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 32px;
+    cursor: pointer; }
+  .main-nav ul :not(collapsed) .arrow:before, .main-nav li :not(collapsed) .arrow:before {
+    font-family: FontAwesome;
+    content: "\f107";
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    float: right; }
+  .main-nav ul .active, .main-nav li .active {
+    background-color: #fff; }
+  .main-nav ul .sub-menu li.active, .main-nav li .sub-menu li.active, .main-nav ul .sub-menu li.active a, .main-nav li .sub-menu li.active a {
+    color: #343a40; }
+  .main-nav ul .sub-menu li, .main-nav li .sub-menu li {
+    background-color: #e9ecef;
+    border: none;
+    line-height: 28px;
+    border-bottom: 1px solid #dee2e6;
+    margin-left: 0px; }
+  .main-nav ul .sub-menu li:hover, .main-nav li .sub-menu li:hover {
+    background-color: #f8f9fa; }
+  .main-nav ul .sub-menu li:before {
     font-family: FontAwesome;
     content: "\f111";
     display: inline-block;
     padding-left: 10px;
     padding-right: 0px;
     font-size: 6px;
-    vertical-align: middle; }
-  .main-nav li a {
-    text-decoration: none;
-    padding-left: 10px;
-    color: #343a40; }
-    .main-nav li a i {
+    vertical-align: middle;
+    color: #e9ecef; }
+  .main-nav ul .sub-menu li.active:before {
+    color: #868e96; }
+  .main-nav li {
+    border-bottom: 1px solid #ced4da; }
+    .main-nav li .sub-menu li:before {
+      font-family: FontAwesome;
+      content: "\f111";
+      display: inline-block;
       padding-left: 10px;
-      width: 20px;
-      padding-right: 20px; }
-  .main-nav li:hover {
-    background-color: #f8f9fa;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease; }
+      padding-right: 0px;
+      font-size: 6px;
+      vertical-align: middle; }
+    .main-nav li a {
+      text-decoration: none;
+      padding-left: 10px;
+      color: #343a40; }
+      .main-nav li a i {
+        padding-left: 5px;
+        width: 20px;
+        padding-right: 15px;
+        padding-top: 9px; }
+    .main-nav li:hover {
+      background-color: #f8f9fa;
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease; }
+  .main-nav li.divider {
+    border-bottom: 2px solid #ced4da; }
+  .main-nav .post-nav-links {
+    padding-top: 30px;
+    font-style: italic; }
 
 @media (max-width: 767px) {
   .nav-side-menu {
