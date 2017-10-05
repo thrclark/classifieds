@@ -6222,7 +6222,7 @@ a.text-dark:focus, a.text-dark:hover {
   .app-header .container .row .search .search-container .search-geo .short-name {
     display: none; } }
 .main-nav {
-  margin-top: 2px; }
+  margin-top: 5px; }
   .main-nav .sub-menu .watchlist {
     border-bottom: 3px solid #ced4da; }
   .main-nav .sub-menu .watchlist a .fa {
