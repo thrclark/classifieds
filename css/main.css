@@ -6469,12 +6469,12 @@ a.text-dark:focus, a.text-dark:hover {
         font-style: normal;
         font-weight: normal;
         text-decoration: inherit;
-        font-size: 6rem;
+        font-size: 2rem;
         color: white;
         z-index: 1;
         margin: auto;
         position: absolute;
-        top: 0;
+        top: 8px;
         left: 0;
         bottom: 0;
         right: 0;
@@ -6501,7 +6501,8 @@ a.text-dark:focus, a.text-dark:hover {
       left: -39px;
       top: 0px;
       transform: rotate(-35deg);
-      -webkit-transform: rotate(-35deg); }
+      -webkit-transform: rotate(-35deg);
+      z-index: 1; }
     .ad2.mobile .ad2-maincontainer .ad2-cont4.ad-title {
       font-size: 14px;
       color: #005A9C;
@@ -6568,10 +6569,11 @@ a.text-dark:focus, a.text-dark:hover {
             font-style: normal;
             font-weight: normal;
             text-decoration: inherit;
-            font-size: 6rem;
+            font-size: 4rem;
             color: white;
             z-index: 1;
             margin: auto;
+            margin-top: 35px;
             position: absolute;
             top: 0;
             left: 0;
@@ -6683,18 +6685,19 @@ a.text-dark:focus, a.text-dark:hover {
             background-position: center;
             background-size: auto 100%;
             min-height: 77px;
-            width: 100%; }
+            width: 100%;
+            position: relative; }
           .ad2.thumb .ad2-maincontainer .ad2-cont1 .ad-image.none:before {
             font-family: FontAwesome;
             font-style: normal;
             font-weight: normal;
             text-decoration: inherit;
-            font-size: 6rem;
+            font-size: 2.5rem;
             color: white;
             z-index: 1;
             margin: auto;
             position: absolute;
-            top: 0;
+            top: 7px;
             left: 0;
             bottom: 0;
             right: 0;
@@ -6721,7 +6724,8 @@ a.text-dark:focus, a.text-dark:hover {
           left: -39px;
           top: 0px;
           transform: rotate(-35deg);
-          -webkit-transform: rotate(-35deg); }
+          -webkit-transform: rotate(-35deg);
+          z-index: 1; }
         .ad2.thumb .ad2-maincontainer .ad2-cont4.ad-title {
           flex: 0 0 33.33333%;
           max-width: 33.33333%;
@@ -6897,7 +6901,8 @@ a.text-dark:focus, a.text-dark:hover {
             background-position: center;
             background-size: 100% auto;
             min-height: 77px;
-            width: 100%; }
+            width: 100%;
+            position: relative; }
         .ad2.thumb .ad2-maincontainer .ad2-cont2 {
           position: absolute;
           right: 11px;
@@ -7022,17 +7027,20 @@ a.text-dark:focus, a.text-dark:hover {
           flex: 0 0 50%;
           max-width: 50%;
           font-size: 14px;
-          font-weight: bold;
+          font-weight: normal;
           color: #005A9C;
           line-height: .9rem;
           padding-left: 5px;
           max-height: 24px;
-          padding-top: 4px; }
+          padding-top: 4px;
+          padding-right: 10px; }
         .ad2.list .ad2-maincontainer .ad2-cont5.ad-price {
           flex: 0 0 16.66667%;
           max-width: 16.66667%;
-          font-weight: bold;
-          font-size: 14px; }
+          font-weight: normal;
+          font-size: 14px;
+          height: 21px;
+          padding-right: 10px; }
         .ad2.list .ad2-maincontainer .ad2-cont5-1.ad-type {
           display: none; }
         .ad2.list .ad2-maincontainer .w-100 {
@@ -7044,12 +7052,14 @@ a.text-dark:focus, a.text-dark:hover {
           max-width: 16.66667%;
           font-size: 12px;
           font-style: italic;
-          color: #868e96; }
+          color: #868e96;
+          padding-top: 2px; }
         .ad2.list .ad2-maincontainer .ad2-cont8.ad-location {
           flex: 0 0 16.66667%;
           max-width: 16.66667%;
           font-size: 12px;
-          color: #868e96; } }
+          color: #868e96;
+          padding-top: 2px; } }
 
 .ad2.cat-music .ad-image.none:before {
   content: "\f001"; }

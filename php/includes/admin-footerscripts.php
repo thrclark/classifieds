@@ -48,15 +48,15 @@
 </script>
 <script>
     $(document).ready(function() {
-        $(".ad-title,.ad-description").dotdotdot({
+        $(".ad-title,.ad-description,.ad-price").dotdotdot({
             /*	The text to add as ellipsis. */
             ellipsis: '...',
 
             /*	How to cut off the text/html: 'word'/'letter'/'children' */
-            wrap: 'letter',
+            wrap: 'word',
 
             /*	Wrap-option fallback to 'letter' for long words */
-            fallbackToLetter: 'letter',
+            fallbackToLetter: 'word',
 
             /*	jQuery-selector for the element to keep and put after the ellipsis. */
             after: null,
