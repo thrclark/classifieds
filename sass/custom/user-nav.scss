@@ -12,7 +12,7 @@
 		list-style: none;
 		padding: 0px;
 		margin: 0px;
-		line-height: 32px;
+		//line-height: 32px;
 		cursor: pointer;
 	}
 
@@ -60,6 +60,11 @@
 
 
 	li {
+		border-bottom: 1px solid #e1e1e1;
+		padding-left: 10px;
+		line-height: 16px;
+		padding-top: 7px;
+		padding-bottom: 7px;
 		.sub-menu li:before {
 			font-family: FontAwesome;
 			content: "\f111";
@@ -74,13 +79,13 @@
 		a {
 			text-decoration: none;
 
-			padding-left: 10px;
+			//padding-left: 10px;
 			color: $gray-800;
 			i {
 				padding-left: 5px;
 				width: 20px;
 				padding-right: 15px;
-				padding-top: 9px;
+				padding-top: 1px;
 			}
 		}
 		&:hover {
@@ -94,7 +99,8 @@
 		}
 	}
 	li.divider {
-		border-bottom: 2px solid #ced4da;
+		border-bottom: 2px solid #e1e1e1;
+		padding: 0px;
 	}
 	.post-nav-links {
 		padding-top: 30px;

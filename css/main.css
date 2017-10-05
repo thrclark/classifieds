@@ -6231,7 +6231,6 @@ a.text-dark:focus, a.text-dark:hover {
     list-style: none;
     padding: 0px;
     margin: 0px;
-    line-height: 32px;
     cursor: pointer; }
   .main-nav ul :not(collapsed) .arrow:before, .main-nav li :not(collapsed) .arrow:before {
     font-family: FontAwesome;
@@ -6265,6 +6264,11 @@ a.text-dark:focus, a.text-dark:hover {
   .main-nav ul .sub-menu li.active:before {
     color: #868e96; }
   .main-nav li {
+    border-bottom: 1px solid #e1e1e1;
+    padding-left: 10px;
+    line-height: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     border-bottom: 1px solid #ced4da; }
     .main-nav li .sub-menu li:before {
       font-family: FontAwesome;
@@ -6276,13 +6280,12 @@ a.text-dark:focus, a.text-dark:hover {
       vertical-align: middle; }
     .main-nav li a {
       text-decoration: none;
-      padding-left: 10px;
       color: #343a40; }
       .main-nav li a i {
         padding-left: 5px;
         width: 20px;
         padding-right: 15px;
-        padding-top: 9px; }
+        padding-top: 1px; }
     .main-nav li:hover {
       background-color: #f8f9fa;
       -webkit-transition: all 1s ease;
@@ -6291,7 +6294,8 @@ a.text-dark:focus, a.text-dark:hover {
       -ms-transition: all 1s ease;
       transition: all 1s ease; }
   .main-nav li.divider {
-    border-bottom: 2px solid #ced4da; }
+    border-bottom: 2px solid #e1e1e1;
+    padding: 0px; }
   .main-nav .post-nav-links {
     padding-top: 30px;
     font-style: italic; }
@@ -7117,7 +7121,7 @@ a.text-dark:focus, a.text-dark:hover {
       font-size: 4rem;
       background: #ffffff;
       padding: 5px;
-      border-radius: 20%;
+      border-radius: 10%;
       width: 110px;
       height: 110px;
       text-align: center;
