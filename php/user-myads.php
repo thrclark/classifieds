@@ -7,8 +7,6 @@ $page_title = 'cat_myads';
 <head>
 <?php include ('includes/head-meta.php') ?>
 <?php include('includes/user-styles.php') ?>
-
-
 </head>
 <body>
 <?php include('includes/user-mobiledrawer.php') ?>
@@ -29,15 +27,17 @@ $page_title = 'cat_myads';
                             <h2 class="">My Ads</h2>
                         </div>
                         <div class="col-12">
-                                <div class="section-head-utilities">
-                                <div class="row align-items-center">
-                                    <div class="col">
+                            <div class="section-head-utilities">
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col-auto">
                                         <div class="dropdown util-location"><i class="fa fa-map-marker" aria-hidden="true"></i>
                                             <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="long-name">IU Kokomo</span> <span class="short-name">IUK</span></button>
                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#"><span class="long-name">IU Bloomington</span></a> <a class="dropdown-item" href="#"><span class="long-name">IUPUI</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU Kokomo</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU Northwest</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU South Bend</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU East</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU South</span></a>
                                                 <div class="dropdown-divider"></div>
                                                 <a class="dropdown-item" href="#"><span class="long-name">All Campuses</span></a> </div>
                                         </div>
+                                    </div>
+                                    <div class="col-auto">
                                         <div class="dropdown util-filter"><i class="fa fa-filter" aria-hidden="true"></i>
                                             <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class=" d-none d-sm-inline">All Ads</span></button>
                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#"> Selling</a> <a class="dropdown-item" href="#"> Seeking</a>
@@ -45,8 +45,7 @@ $page_title = 'cat_myads';
                                                 <a class="dropdown-item" href="#">All Ads</a> </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto align-self-end"> 
-                                       
+                                    <div class="col text-right">
                                         <div class="btn-group util-view-switch d-none d-sm-inline" data-toggle="buttons">
                                             <label class="btn btn-sm btn-outline-dark active" id="set_grid">
                                                 <input type="radio" name="options" id="" autocomplete="off" checked>
@@ -71,6 +70,5 @@ $page_title = 'cat_myads';
     <?php include('includes/user-footer-menu.php') ?>
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
-
 </body>
 </html>
