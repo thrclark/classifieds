@@ -1,6 +1,6 @@
 
 <div class="row">
- <div class="col-12 text-center other-ads">
+    <div class="col-12 text-center other-ads">
         <div class="other-ads-content">My current ads</div>
         <hr>
     </div>
@@ -24,11 +24,11 @@
             </div>
         </div>
     </div>
-
     <div class="ad2 grid cat-electronics">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
-                <div class="ad2-cont1"> <div class="ad-image none" > </div>
+                <div class="ad2-cont1">
+                    <div class="ad-image none" > </div>
                 </div>
                 <div class="ad2-cont2">
                     <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
@@ -48,8 +48,7 @@
             </div>
         </div>
     </div>
-    
-      <div class="col-12 text-center other-ads">
+    <div class="col-12 text-center other-ads">
         <div class="other-ads-content">My expired ads</div>
         <hr>
     </div>
@@ -72,13 +71,11 @@
             </div>
         </div>
     </div>
-    
-    
-    
     <div class="ad2 grid cat-misc">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
-                <div class="ad2-cont1"> <div class="ad-image none"> </div>
+                <div class="ad2-cont1">
+                    <div class="ad-image none"> </div>
                 </div>
                 <div class="ad2-cont2">
                     <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
@@ -88,20 +85,13 @@
                 <div class="ad2-cont5-1 ad-type"> <i title="Selling" class="fa fa-tag" aria-hidden="true"></i> </div>
                 <div class="w-100"></div>
                 <div class="ad2-cont6 ad-description" style="word-wrap: break-word;">Are you looking for somewhere to store your luggage, funiture, bed, etc..? (for short or long term) 
-Extremely large, clean and safe room at my apartment.
-(prices ; luggage ($25/mo) , funiture, etc - negotiable ) 
- </div>
+                    Extremely large, clean and safe room at my apartment.
+                    (prices ; luggage ($25/mo) , funiture, etc - negotiable ) </div>
                 <div class="ad2-cont7 ad-date">Oct 16</div>
                 <div class="ad2-cont8 ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
             </div>
         </div>
     </div>
-    
-    
-    
-    
-    
-    
     <div class="ad2 grid cat-misc">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
@@ -134,9 +124,4 @@ Extremely large, clean and safe room at my apartment.
             </div>
         </div>
     </div>
-    
-    
-    
-    
-   
 </div>

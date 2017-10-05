@@ -7230,10 +7230,11 @@ fieldset .form-group:last-child {
   .main-content .main-content-section .section-head .section-head-title h2 {
     font-size: 1.2rem; }
   .main-content .main-content-section .section-head .section-head-utilities {
-    padding: 5px;
-    border-top: solid 1px #a6a6a6; }
+    padding: 0px;
+    border-top: solid 1px #a6a6a6;
+    padding-top: 7px; }
     .main-content .main-content-section .section-head .section-head-utilities .fa {
-      margin-top: 0px;
+      margin-top: 2px;
       font-size: 16px;
       color: #868e96; }
     .main-content .main-content-section .section-head .section-head-utilities .dropdown {
