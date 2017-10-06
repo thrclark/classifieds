@@ -6190,7 +6190,7 @@ a.text-dark:focus, a.text-dark:hover {
       .app-header .container .row .search .search-container .search-geo .dropdown .dropdown-menu {
         border: solid 1px #868e96;
         border-top: none;
-        top: 11px !important;
+        top: 9px !important;
         left: 31px !important; }
   .app-header .container .row .post .btn {
     border-radius: 20px;
@@ -6215,7 +6215,9 @@ a.text-dark:focus, a.text-dark:hover {
   .app-header .container .row .brand h1 {
     font-size: 2rem; }
   .app-header .container .row .search {
-    padding-right: 15px; } }
+    padding-right: 15px; }
+    .app-header .container .row .search .search-container .search-geo .dropdown .dropdown-menu {
+      top: 9px !important; } }
 @media (min-width: 992px) {
   .app-header .container .row .search .search-container .search-geo .long-name {
     display: inline; }

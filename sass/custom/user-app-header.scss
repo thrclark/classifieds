@@ -1,3 +1,7 @@
+
+
+
+
 @include media-breakpoint-up(xs) {
 	.app-header {
 		background: #FFFFFF;
@@ -62,7 +66,7 @@
 
 								border:solid 1px $gray-600;
 								border-top: none;
-								top: 11px !important;
+								top: 9px !important;
 								left: 31px !important;
 
 
@@ -104,6 +108,8 @@
 
 
 }
+
+
 @include media-breakpoint-up(md) {
 
 	.app-header {
@@ -144,6 +150,9 @@
 
 							}
 							.dropdown .dropdown-menu {
+
+								top: 9px !important;
+
 
 
 							}

@@ -1,5 +1,5 @@
 <?php 
-$page_title = 'cat_myads';
+$page_title = 'search_results';
 ?>
 
 <!DOCTYPE html>
@@ -24,13 +24,13 @@ $page_title = 'cat_myads';
                 <div class="col-xs-12 col-md-9 main-content-section" style="">
                     <div class="row align-items-center section-head">
                         <div class="col-auto section-head-title">
-                            <h2 class="">My Ads</h2>
+                            <h2 class="">Search Results: 'iPhone' </h2>
                         </div>
                         <div class="col-12">
-                                  <?php include('includes/user-section-utilities.php') ?>
+                            <?php include('includes/user-section-utilities.php') ?>
                         </div>
                     </div>
-                    <?php include('includes/user-ads-myads.php') ?>
+                    <?php include('includes/user-ads-searchresults.php') ?>
                 </div>
             </div>
         </div>
@@ -38,5 +38,6 @@ $page_title = 'cat_myads';
     <?php include('includes/user-footer-menu.php') ?>
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
+
 </body>
 </html>

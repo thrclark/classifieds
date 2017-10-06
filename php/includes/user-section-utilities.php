@@ -17,11 +17,13 @@
                     <a class="dropdown-item" href="#">All Ads</a> </div>
             </div>
         </div>
-        <div class="col text-right"> <strong class="d-none d-sm-inline">Sort:</strong>
+        <div class="col text-right"> 
+        
+          <span class="hidethis" <?php if ($page_title == 'search_results') { echo 'style=" display:inline-block"'; } ?>>  <strong class="d-none d-sm-inline">Sort:</strong>
             <div class="dropdown util-sort" >
                 <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-sort d-sm-none" aria-hidden="true"></i> <span class="d-none d-sm-inline">By</span> Date </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#">By Relevance</a> <a class="dropdown-item" href="#">By Date</a> </div>
-            </div>
+            </div></span>
             <div class="btn-group util-view-switch d-none d-sm-inline" data-toggle="buttons">
                 <label class="btn btn-sm btn-outline-dark active" id="set_grid">
                     <input type="radio" name="options" id="" autocomplete="off" checked>
