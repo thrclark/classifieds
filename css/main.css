@@ -6285,7 +6285,8 @@ a.text-dark:focus, a.text-dark:hover {
         padding-left: 5px;
         width: 20px;
         padding-right: 15px;
-        padding-top: 1px; }
+        padding-top: 1px;
+        margin-right: 2px; }
     .main-nav li:hover {
       background-color: #f8f9fa;
       -webkit-transition: all 1s ease;

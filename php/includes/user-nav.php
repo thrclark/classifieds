@@ -1,7 +1,7 @@
 
 <ul class="sub-menu" id="" style="">
     <li <?php if ($page_title == 'cat_myads') { echo 'class="active"'; } ?>> <a href="user-myads.php">My Ads (2)</a></li>
-    <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"> My Watchlist (4) <i aria-hidden="true" class="fa fa-heart-o pull-right"></i></a></li>
+    <li <?php if ($page_title == 'cat_watchlist') { echo 'class="active"'; } ?>> <a href="user-watchlist.php"> My Watchlist (4) <i aria-hidden="true" class="fa fa-heart-o pull-right"></i></a></li>
     <li class="divider"></li>
     <li <?php if ($page_title == 'cat_all') { echo 'class="active"'; } ?>> <a href="user-home.php">All Ads</a></li>
     <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">Activity Partners</a></li>
