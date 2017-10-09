@@ -38,6 +38,5 @@ $page_title = 'cat_all';
     <?php include('includes/user-footer-menu.php') ?>
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
-
 </body>
 </html>

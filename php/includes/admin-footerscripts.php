@@ -108,14 +108,18 @@
 </script>
 <script>
     $(document).ready(function() {
+        if ($(window).width() < 576) {
+             $(".grid").removeClass("grid").addClass("mobile");
+        } else {
+           
+        }
 
         $(window).resize(function() {
             if ($(window).width() < 576) {
                 $(".grid").removeClass("grid").addClass("mobile");
                 $(".thumb").removeClass("thumb").addClass("mobile");
                 $(".list").removeClass("list").addClass("mobile");
-            } else {
-            }
+            } else {}
         });
 
         $(window).resize(function() {
