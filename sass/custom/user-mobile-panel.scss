@@ -79,9 +79,12 @@
 				color: #b8b8b8;
 			}
 			.dropdown .dropdown-menu {
+				border: solid 1px $gray-800;
 				border-top: none;
 				top: 9px !important;
 				left: 31px !important;
+				float: right;
+				min-width: inherit;
 
 
 			}

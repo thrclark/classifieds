@@ -1,7 +1,7 @@
 
 @include media-breakpoint-up(xs) {
 	.main-content .main-content-section .section-head {
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 		.section-head-title h2 {
 			font-size: 1.2rem;
 		}
@@ -16,7 +16,7 @@
 			}
 			.dropdown {
 				display: inline-flex;
-				border: solid 1px #ced4d9;
+				border: solid 1px $gray-600;
 				padding: 2px;
 				border-radius: 20px;
 				padding-left: 10px;

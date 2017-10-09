@@ -6198,7 +6198,10 @@ a.text-dark:focus, a.text-dark:hover {
     letter-spacing: 1px;
     font-size: 18px;
     padding-top: .4rem;
-    border-color: #868e96; }
+    border-color: #868e96;
+    color: #212529; }
+    .app-header .container .row .post .btn:hover {
+      color: #fff; }
   .app-header .container .row .user-ads .menu-trigger {
     padding-left: 8px;
     padding-right: 15px;
@@ -6217,7 +6220,9 @@ a.text-dark:focus, a.text-dark:hover {
   .app-header .container .row .search {
     padding-right: 15px; }
     .app-header .container .row .search .search-container .search-geo .dropdown .dropdown-menu {
-      top: 9px !important; } }
+      top: 9px !important;
+      float: right;
+      min-width: inherit; } }
 @media (min-width: 992px) {
   .app-header .container .row .search .search-container .search-geo .long-name {
     display: inline; }
@@ -6342,7 +6347,7 @@ a.text-dark:focus, a.text-dark:hover {
 .user-access a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1.2rem;
   color: #ddd;
   display: block;
   transition: 0.3s; }
@@ -6352,9 +6357,9 @@ a.text-dark:focus, a.text-dark:hover {
 
 .user-access .closebtn {
   position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
+  top: -14px;
+  right: 15px;
+  font-size: 2.2rem;
   margin-left: 50px; }
 
 #main {
@@ -7164,9 +7169,12 @@ a.text-dark:focus, a.text-dark:hover {
     margin-right: 10px;
     color: #b8b8b8; }
   .mobile-panel.search .search-container .search-geo .dropdown .dropdown-menu {
+    border: solid 1px #343a40;
     border-top: none;
     top: 9px !important;
-    left: 31px !important; }
+    left: 31px !important;
+    float: right;
+    min-width: inherit; }
 
 @media (min-width: 768px) {
   .mobile-panel {
@@ -7229,7 +7237,7 @@ fieldset .form-group:last-child {
   padding-bottom: 5px; }
 
 .main-content .main-content-section .section-head {
-  margin-bottom: 10px; }
+  margin-bottom: 20px; }
   .main-content .main-content-section .section-head .section-head-title h2 {
     font-size: 1.2rem; }
   .main-content .main-content-section .section-head .section-head-utilities {
@@ -7242,7 +7250,7 @@ fieldset .form-group:last-child {
       color: #868e96; }
     .main-content .main-content-section .section-head .section-head-utilities .dropdown {
       display: inline-flex;
-      border: solid 1px #ced4d9;
+      border: solid 1px #868e96;
       padding: 2px;
       border-radius: 20px;
       padding-left: 10px;

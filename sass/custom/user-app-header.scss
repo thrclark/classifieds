@@ -82,8 +82,12 @@
 					font-size: 18px;
 					padding-top: .4rem;
 					border-color: $gray-600;
-					//color: $gray-600;
+					color: $gray-900;
+					&:hover {
+						color: $white;
+					}
 				}
+
 				.user-ads {
 					.menu-trigger {
 						padding-left: 8px;
@@ -152,6 +156,8 @@
 							.dropdown .dropdown-menu {
 
 								top: 9px !important;
+								float: right;
+								min-width: inherit;
 
 
 
