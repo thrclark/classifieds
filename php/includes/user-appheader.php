@@ -25,12 +25,12 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#"><span class="short-name">All</span><span class="long-name">All Campuses</span></a> </div>
                             </span> </div>
-                        <div class="col-auto search-button text-right"> <a href="user-searchresults.php" class="btn btn-dark"> <i class="fa fa-search" aria-hidden="true"></i> <span class="search-label d-none d-lg-inline">Search</span></a> </div>
+                        <div class="col-auto search-button text-right"> <a href="user-searchresults.php" class="btn"> <i class="fa fa-search" aria-hidden="true"></i> <span class="search-label d-none d-lg-inline">Search</span></a> </div>
                     </div>
                 </div>
             </div>
             <div class="col-auto post d-none d-md-block">
-                <button type="button" class="btn btn-outline-secondary toggle_mobilepost">Post Ad</button>
+                <button type="button" class="btn toggle_mobilepost">Post Ad</button>
             </div>
             <div class="col-auto user-ads d-md-none text-right">
                 <div class="menu-trigger" onclick="openNav()"><i class="fa fa-ellipsis-v" aria-hidden="true" ></i></div>

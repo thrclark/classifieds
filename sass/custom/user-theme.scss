@@ -1,0 +1,65 @@
+
+//$theme-header-background: #0288ba;
+//$theme-header-background: #ffffff;
+$theme-header-background: white;
+
+
+@function set-header-text-color($color) {
+	@if (lightness($color) > 50) {
+		@return $gray-800; // Lighter backgorund, return dark color
+	} @else {
+		@return $white; // Darker background, return light color
+	}
+}
+
+.brand-text,
+.post .btn,
+.user-ads .menu-trigger .fa {
+	color: set-header-text-color($theme-header-background);
+}
+
+.post .btn{
+	border-color: set-header-text-color($theme-header-background);
+}
+
+
+
+
+
+
+
+
+@function set-searchbutton-color($color) {
+	@if (lightness($color) > 50) {
+		@return $gray-800;
+	} @else {
+		@return $theme-header-background;
+	}
+}
+
+.search .search-container .search-button .btn
+{
+	background: set-searchbutton-color($theme-header-background);
+}
+
+
+
+
+@function set-pricebackground-color($color) {
+	@if (lightness($color) > 50) {
+		@return transparentize($gray-800, 0.2);
+	} @else {
+		@return transparentize($theme-header-background, 0.2);
+	}
+}
+
+
+
+
+.ad2.grid .ad2-maincontainer .ad2-cont5.ad-price
+{
+	background: set-pricebackground-color($theme-header-background);
+	//background: transparentize($theme-header-background, 0.4);
+}
+
+

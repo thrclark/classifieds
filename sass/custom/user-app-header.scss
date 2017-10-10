@@ -4,7 +4,7 @@
 
 @include media-breakpoint-up(xs) {
 	.app-header {
-		background: #FFFFFF;
+		background: $theme-header-background;
 		//height: 90px;
 		//padding-top: 1rem;
 		//padding-bottom: 1rem;
@@ -32,7 +32,8 @@
 						border: solid 1px $gray-600;
 						padding: 3px;
 						border-radius: 50px;
-						.search-button .btn.btn-dark {
+						background: $white;
+						.search-button .btn {
 							-webkit-border-top-right-radius: 20px;
 							-webkit-border-bottom-right-radius: 20px;
 							-moz-border-radius-topright: 20px;
@@ -40,6 +41,8 @@
 							border-top-right-radius: 20px;
 							border-bottom-right-radius: 20px;
 							padding-top: .4rem;
+							color: $white;
+							//background: $theme-header-background;
 							.search-label {
 								font-variant: all-petite-caps;
 								letter-spacing: 1px;
@@ -81,8 +84,7 @@
 					letter-spacing: 1px;
 					font-size: 18px;
 					padding-top: .4rem;
-					border-color: $gray-600;
-					color: $gray-900;
+					background: transparent;
 					&:hover {
 						color: $white;
 					}
@@ -97,7 +99,7 @@
 
 						.fa.fa-ellipsis-v {
 							font-size: 20px;
-							color: $gray-600;
+
 						}
 					}
 
