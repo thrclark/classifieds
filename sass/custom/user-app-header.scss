@@ -4,7 +4,6 @@
 @include media-breakpoint-up(xs) {
 	.app-header {
 		background: $theme-header-background;
-		height: 70px;
 		//height: 90px;
 		//padding-top: 1rem;
 		//padding-bottom: 1rem;
@@ -14,6 +13,7 @@
 		@include shadow;
 		.container {
 			.row {
+				height: 42px;
 				.brand {
 					//margin-bottom: 7px;
 					img {
@@ -126,6 +126,7 @@
 
 		.container {
 			.row {
+				height: 70px;
 				.brand {
 					img {
 						width: auto;
@@ -141,33 +142,29 @@
 				.search {
 					padding-right: 15px;
 					.search-container {
+						.row {
+							height: inherit;
+							.search-geo {
 
-						.search-button .btn.btn-dark {
 
-							.search-label {
 
+								.fa.fa-map-marker {
+
+								}
+								.dropdown .dropdown-menu {
+
+									top: 9px !important;
+									float: right;
+									min-width: inherit;
+
+
+
+								}
 							}
 						}
-						.search-input {
-
-						}
-						.search-geo {
 
 
 
-							.fa.fa-map-marker {
-
-							}
-							.dropdown .dropdown-menu {
-
-								top: 9px !important;
-								float: right;
-								min-width: inherit;
-
-
-
-							}
-						}
 					}
 				}
 
