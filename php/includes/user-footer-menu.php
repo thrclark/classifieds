@@ -3,12 +3,12 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <button type="button" class="btn btn-link btn-lg btn-block toggle_mobilesearch" id=""><i class="fa fa-search" aria-hidden="true"></i>
+                <button type="button" class="btn btn-link btn-lg btn-block toggle_mobilesearch" ><i class="fa fa-search" aria-hidden="true"></i>
                 <div class="footer-menu-label">Search</div>
                 </button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-link btn-lg btn-block toggle_mobilepost" id=""><i class="fa fa-plus" aria-hidden="true"> </i>
+                <button type="button" class="btn btn-link btn-lg btn-block toggle_mobilepost" ><i class="fa fa-plus" aria-hidden="true"> </i>
                 <div class="footer-menu-label">Post</div>
                 </button>
             </div>

@@ -1,5 +1,5 @@
 
-<ul class="sub-menu" id="" style="">
+<ul class="sub-menu"  >
     <li <?php if ($page_title == 'cat_myads') { echo 'class="active"'; } ?>> <a href="user-myads.php">My Ads (2)</a></li>
     <li <?php if ($page_title == 'cat_watchlist') { echo 'class="active"'; } ?>> <a href="user-watchlist.php"> My Watchlist (4) <i aria-hidden="true" class="fa fa-heart-o pull-right"></i></a></li>
     <li class="divider"></li>

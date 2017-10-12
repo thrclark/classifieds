@@ -1,7 +1,6 @@
 
 
 
-
 @include media-breakpoint-up(xs) {
 	.app-header {
 		background: $theme-header-background;
@@ -65,14 +64,16 @@
 								margin-right: 10px;
 								color: #b8b8b8;
 							}
-							.dropdown .dropdown-menu {
+							.dropdown {
+								display: inline;
+								.dropdown-menu {
+									border:solid 1px $gray-600;
+									border-top: none;
+									top: 9px !important;
+									left: 31px !important;
 
-								border:solid 1px $gray-600;
-								border-top: none;
-								top: 9px !important;
-								left: 31px !important;
 
-
+								}
 							}
 						}
 					}

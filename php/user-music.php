@@ -21,7 +21,7 @@ $page_title = 'cat_music';
                 <div class="col-3 main-nav d-none d-md-block">
                     <?php include('includes/user-nav.php') ?>
                 </div>
-                <div class="col-xs-12 col-md-9 main-content-section" style="">
+                <div class="col-xs-12 col-md-9 main-content-section" >
                     <div class="row align-items-center section-head">
                         <div class="col-auto section-head-title">
                             <h2 class="">IUK: Musicians &amp; Artists</h2>

@@ -64,7 +64,7 @@
             <div class="col-6 category-card"> <a href="user-music.php">
                 <div class="category-icon mx-auto"> <span class="fa fa-bicycle" aria-hidden="true"></span> </div>
                 <div class="category-title">Vehicles</div>
-            </div>
+                </a> </div>
         </div>
     </div>
 </div>

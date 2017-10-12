@@ -6203,11 +6203,13 @@ a.text-dark:focus, a.text-dark:hover {
       .app-header .container .row .search .search-container .search-geo .fa.fa-map-marker {
         margin-right: 10px;
         color: #b8b8b8; }
-      .app-header .container .row .search .search-container .search-geo .dropdown .dropdown-menu {
-        border: solid 1px #868e96;
-        border-top: none;
-        top: 9px !important;
-        left: 31px !important; }
+      .app-header .container .row .search .search-container .search-geo .dropdown {
+        display: inline; }
+        .app-header .container .row .search .search-container .search-geo .dropdown .dropdown-menu {
+          border: solid 1px #868e96;
+          border-top: none;
+          top: 9px !important;
+          left: 31px !important; }
   .app-header .container .row .post .btn {
     border-radius: 20px;
     font-variant: all-petite-caps;
@@ -7181,13 +7183,15 @@ a.text-dark:focus, a.text-dark:hover {
   .mobile-panel.search .search-container .search-geo .fa.fa-map-marker {
     margin-right: 10px;
     color: #b8b8b8; }
-  .mobile-panel.search .search-container .search-geo .dropdown .dropdown-menu {
-    border: solid 1px #343a40;
-    border-top: none;
-    top: 9px !important;
-    left: 31px !important;
-    float: right;
-    min-width: inherit; }
+  .mobile-panel.search .search-container .search-geo .dropdown {
+    display: inline; }
+    .mobile-panel.search .search-container .search-geo .dropdown .dropdown-menu {
+      border: solid 1px #343a40;
+      border-top: none;
+      top: 9px !important;
+      left: 31px !important;
+      float: right;
+      min-width: inherit; }
 
 @media (min-width: 768px) {
   .mobile-panel {
