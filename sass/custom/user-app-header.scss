@@ -4,6 +4,7 @@
 @include media-breakpoint-up(xs) {
 	.app-header {
 		background: $theme-header-background;
+		height: 70px;
 		//height: 90px;
 		//padding-top: 1rem;
 		//padding-bottom: 1rem;
@@ -32,6 +33,7 @@
 						padding: 3px;
 						border-radius: 50px;
 						background: $white;
+
 						.search-button .btn {
 							-webkit-border-top-right-radius: 20px;
 							-webkit-border-bottom-right-radius: 20px;
@@ -127,7 +129,7 @@
 				.brand {
 					img {
 						width: auto;
-						height: 68px;
+						height: 70px;
 					}
 					h1 {
 

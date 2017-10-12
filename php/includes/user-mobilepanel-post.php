@@ -1,24 +1,3 @@
-<style type="text/css">
-.form-group.ad-images .ad-images-container {
-	display: block;
-	width: 100%;
-	padding: 0.5rem 0.75rem;
-	font-size: 0.875rem;
-	line-height: 1.25;
-	color: #495057;
-	background-color: #fff;
-	background-image: none;
-	background-clip: padding-box;
-	border: 1px solid rgba(0, 0, 0, 0.15);
-	border-radius: 0;
-	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-}
-.form-group.ad-images .ad-images-container img {
-	height: 72px;
-	width: auto;
-	margin: 5px;
-}
-</style>
 
 <div class="mobile-panel post" style="display:">
     <div class="container">
@@ -42,8 +21,7 @@
                     </div>
                     <div class="form-group">
                         <label for="adCategory">Ad Category</label>
-                        <select name="adCategory" id="adCategory" class="form-control " required="">
-                            <option value="?" selected="selected"></option>
+                        <select name="adCategory" id="adCategory" class="form-control">
                             <option label="Activity Partners" value="number:14">Activity Partners</option>
                             <option label="Announcements" value="number:2">Announcements</option>
                             <option label="Antiques &amp; Collectibles" value="number:16">Antiques &amp; Collectibles</option>
@@ -62,8 +40,7 @@
                     </div>
                     <div class="form-group">
                         <label for="adCampus">Ad Campus</label>
-                        <select name="adCampus" id="adCampus" class="form-control " required="">
-                            <option value="?" selected="selected"></option>
+                        <select name="adCampus" id="adCampus" class="form-control">
                             <option label="IPFW Fort Wayne" value="string:FW">IPFW Fort Wayne</option>
                             <option label="IU Southeast" value="string:SE">IU Southeast</option>
                             <option label="IU Kokomo" value="string:KO">IU Kokomo</option>

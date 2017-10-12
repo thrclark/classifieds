@@ -16,7 +16,7 @@
                 <div class="ad2-cont3 banner">New </div>
                 <div class="ad2-cont4 ad-title">Oct 6. Ride to Northwest Indiana </div>
                 <div class="ad2-cont5 ad-price">$25</div>
-                <div class="ad2-cont5-1 ad-type"> <i  title="Selling"class="fa fa-tag" aria-hidden="true"></i> </div>
+                <div class="ad2-cont5-1 ad-type"> <i  title="Selling" class="fa fa-tag" aria-hidden="true"></i> </div>
                 <div class="w-100"></div>
                 <div class="ad2-cont6 ad-description">My girlfriend and I will be leaving to The Region on Friday October 6. We will be leaving at 11:00am or 12:00pm on Friday and we only have 2 seats left out of 3. Text me if you are interested or have any questions and I will get back to you. </div>
                 <div class="ad2-cont7 ad-date">Oct 16</div>
@@ -36,7 +36,7 @@
                 <div class="ad2-cont3 banner">New </div>
                 <div class="ad2-cont4 ad-title">Downsizing Sale - Games/Electronics/Bike Basket/Home </div>
                 <div class="ad2-cont5 ad-price">Varies</div>
-                <div class="ad2-cont5-1 ad-type"> <i  title="Selling"class="fa fa-tag" aria-hidden="true"></i> </div>
+                <div class="ad2-cont5-1 ad-type"> <i  title="Selling" class="fa fa-tag" aria-hidden="true"></i> </div>
                 <div class="w-100"></div>
                 <div class="ad2-cont6 ad-description">Doing some downsizing and have a few things I'd like to get rid of. Please click here to view items: https://djhumphries.files.wordpress.com/2017/10/classifieds-listing.pdf
                     

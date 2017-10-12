@@ -6163,7 +6163,8 @@ a.text-dark:focus, a.text-dark:hover {
       transition: all 0.5s; }
 
 .app-header {
-  background: white;
+  background: #ffffff;
+  height: 70px;
   z-index: 10;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
@@ -6230,7 +6231,7 @@ a.text-dark:focus, a.text-dark:hover {
 @media (min-width: 768px) {
   .app-header .container .row .brand img {
     width: auto;
-    height: 68px; }
+    height: 70px; }
   .app-header .container .row .brand h1 {
     font-size: 2rem; }
   .app-header .container .row .search {

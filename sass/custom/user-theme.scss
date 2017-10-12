@@ -1,7 +1,7 @@
 
 //$theme-header-background: #0288ba;
-//$theme-header-background: #ffffff;
-$theme-header-background: white;
+$theme-header-background: #ffffff;
+
 
 
 @function set-header-text-color($color) {
@@ -21,13 +21,6 @@ $theme-header-background: white;
 .post .btn{
 	border-color: set-header-text-color($theme-header-background);
 }
-
-
-
-
-
-
-
 
 @function set-searchbutton-color($color) {
 	@if (lightness($color) > 50) {

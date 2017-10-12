@@ -12,7 +12,7 @@
                 <div class="ad2-cont3 banner">New</div>
                 <div class="ad2-cont4 ad-title">For Sale: Drum Set - Like New!</div>
                 <div class="ad2-cont5 ad-price">$1200</div>
-                <div class="ad2-cont5-1 ad-type"> <i  title="Selling"class="fa fa-tag" aria-hidden="true"></i> </div>
+                <div class="ad2-cont5-1 ad-type"> <i  title="Selling" class="fa fa-tag" aria-hidden="true"></i> </div>
                 <div class="w-100"></div>
                 <div class="ad2-cont6 ad-description">Integer semper ligula a neque consequat aliquet. Duis ullamcorper venenatis nisi, in blandit lectus maximus quis. </div>
                 <div class="ad2-cont7 ad-date">Sep 16</div>
@@ -32,7 +32,7 @@
                 <div class="ad2-cont3 banner">New</div>
                 <div class="ad2-cont4 ad-title">For Sale: Stienway grand piano, 1932</div>
                 <div class="ad2-cont5 ad-price">Negotiable</div>
-                <div class="ad2-cont5-1 ad-type"> <i  title="Selling"class="fa fa-tag" aria-hidden="true"></i> </div>
+                <div class="ad2-cont5-1 ad-type"> <i  title="Selling" class="fa fa-tag" aria-hidden="true"></i> </div>
                 <div class="w-100"></div>
                 <div class="ad2-cont6 ad-description">Nunc eu urna vitae lectus imperdiet cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                 <div class="ad2-cont7 ad-date">Sep 16</div>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="ad2-cont4 ad-title">Seeking: Student Model Saxophone, with mouthpiece, strap, and reeds</div>
                 <div class="ad2-cont5 ad-price">up to $400</div>
-                <div class="ad2-cont5-1 ad-type"> <i  title="Selling"class="fa fa-tag" aria-hidden="true"></i> </div>
+                <div class="ad2-cont5-1 ad-type"> <i  title="Selling" class="fa fa-tag" aria-hidden="true"></i> </div>
                 <div class="w-100"></div>
                 <div class="ad2-cont6 ad-description">Nam ultrices iaculis dapibus.</div>
                 <div class="ad2-cont7 ad-date">Sep 14</div>
@@ -70,7 +70,7 @@
                 </div>
                 <div class="ad2-cont4 ad-title">Gibson Guitar w/ effects</div>
                 <div class="ad2-cont5 ad-price">$750</div>
-                <div class="ad2-cont5-1 ad-type"> <i  title="Selling"class="fa fa-tag" aria-hidden="true"></i> </div>
+                <div class="ad2-cont5-1 ad-type"> <i  title="Selling" class="fa fa-tag" aria-hidden="true"></i> </div>
                 <div class="w-100"></div>
                 <div class="ad2-cont6 ad-description">Vestibulum nec erat nunc. Nulla orci lectus, efficitur in lorem at, volutpat pretium libero. Sed sagittis vel sem nec pellentesque. Mauris at finibus odio, sed viverra nisl. Nulla a semper arcu. Proin efficitur egestas odio, sed vulputate purus hendrerit at. Quisque interdum nulla vitae metus pulvinar volutpat. Suspendisse porta gravida urna, ut blandit arcu aliquet et. Class aptent taciti sociosqu.</div>
                 <div class="ad2-cont7 ad-date">Sep 13</div>
