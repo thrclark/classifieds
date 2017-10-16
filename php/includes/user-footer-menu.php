@@ -1,5 +1,5 @@
 
-<div class="footer-menu d-md-none">
+<div class="footer-menu d-md-none" role="navigation">
     <div class="container">
         <div class="row">
             <div class="col"> <a href="#" class="btn btn-link btn-lg btn-block toggle_mobilesearch" ><i class="fa fa-search" aria-hidden="true"></i>

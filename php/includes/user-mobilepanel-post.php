@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xs-12 col-md-6">
-                <form>
+                <form role="form">
                     <div class="mobile-panel-header">
                         <h2>Post Ad</h2>
                     </div>
@@ -83,27 +83,12 @@
                         <div class="text-right" style="padding-top:5px">
                             <button type="button" class="btn btn-outline-secondary btn-sm">Add Image</button>
                         </div>
+               
+                        <hr>
+                        <button type="button" class="btn btn-primary">Post Ad</button>
+                        <button type="button" class="btn btn-outline-primary">Cancel</button>
                     </div>
                 </form>
-            </div>
-            <div class="col-xs-12 col-md-3 col-lg-3">
-                <div class="mobile-panel-header">
-                    <h2>Ad Preview</h2>
-                </div>
-                <div class="ad">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
-                    <div class="ad-image" style="background-image:url(../img/ad-pics/piano1.jpg)"></div>
-                    <div class="form-row ad-titleprice">
-                        <div class="col ad-title"> Grand Piano - gently used</div>
-                        <div class="col-auto ad-price">$2450</div>
-                    </div>
-                    <div class="ad-location"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-9">
-                <hr>
-                <button type="button" class="btn btn-primary">Post Ad</button>
-                <button type="button" class="btn btn-outline-primary">Cancel</button>
             </div>
         </div>
     </div>

@@ -10,18 +10,18 @@ $page_title = 'cat_all';
 </head>
 <body>
 <?php include('includes/user-mobiledrawer.php') ?>
-<div id="main">
+<div id="main" >
     <?php include('includes/user-appheader.php') ?>
     <?php include('includes/user-mobilepanel-search.php') ?>
     <?php include('includes/user-mobilepanel-post.php') ?>
     <?php include('includes/user-mobilepanel-categories.php') ?>
-    <section class="main-content" style="display:">
+    <section class="main-content" role="main">
         <div class="container">
             <div class="row">
                 <div class="col-3 main-nav d-none d-md-block">
                     <?php include('includes/user-nav.php') ?>
                 </div>
-                <div class="col-xs-12 col-md-9 main-content-section" >
+                 <div class="col-xs-12 col-md-9 main-content-section" >
                     <div class="row align-items-center section-head">
                         <div class="col-auto section-head-title">
                             <h2 class="">IUK: All Ads</h2>

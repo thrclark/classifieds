@@ -1,6 +1,4 @@
-
-
-<div class="mobile-panel search d-md-none">
+<div class="mobile-panel search d-md-none" role="search">
     <div class="container">
         <div class="mobile-panel-header">
             <h2>Search Ads</h2>
