@@ -1,58 +1,51 @@
 
-//$theme-header-background: #0288ba;
 $theme-header-background: #ffffff;
-
 
 
 @function set-header-text-color($color) {
 	@if (lightness($color) > 50) {
-		@return $gray-800; // Lighter backgorund, return dark color
-	} @else {
-		@return $white; // Darker background, return light color
+		@return $gray-800;
+	}
+	@else {
+		@return $white;
 	}
 }
-
-.brand-text,
-.post .btn,
-.user-ads .menu-trigger .fa {
+.brand-text, .post .btn, .user-ads .menu-trigger .fa {
 	color: set-header-text-color($theme-header-background);
 }
-
-.post .btn{
+.post .btn {
 	border-color: set-header-text-color($theme-header-background);
 }
-
 @function set-searchbutton-color($color) {
 	@if (lightness($color) > 50) {
 		@return $gray-800;
-	} @else {
+	}
+	@else {
 		@return $theme-header-background;
 	}
 }
-
-.search .search-container .search-button .btn
-{
+.search .search-container .search-button .btn {
 	background: set-searchbutton-color($theme-header-background);
 }
-
-
-
-
 @function set-pricebackground-color($color) {
 	@if (lightness($color) > 50) {
 		@return transparentize($gray-800, 0.2);
-	} @else {
+	}
+	@else {
 		@return transparentize($theme-header-background, 0.2);
 	}
 }
-
-
-
-
-.ad2.grid .ad2-maincontainer .ad2-cont5.ad-price
-{
+.ad2.grid .ad2-maincontainer .ad2-cont5.ad-price {
 	background: set-pricebackground-color($theme-header-background);
-	//background: transparentize($theme-header-background, 0.4);
 }
-
-
+@function set-newbadge-color($color) {
+	@if (lightness($color) > 50) {
+		@return $gray-800;
+	}
+	@else {
+		@return $theme-header-background;
+	}
+}
+.ad2-cont3.banner {
+	background: set-newbadge-color($theme-header-background);
+}
