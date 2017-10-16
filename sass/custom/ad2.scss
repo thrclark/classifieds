@@ -124,7 +124,7 @@
 
 				font-size: 12px;
 				font-style: italic;
-				color: #868e96;
+				color: $gray-700;
 				@extend .col-3;
 				padding-top: 5px;
 
@@ -133,7 +133,7 @@
 			.ad2-cont8.ad-location{
 
 				font-size: 12px;
-				color: #868e96;
+				color: $gray-700;
 				position: absolute;
 				right: 10px;
 				bottom: 5px;
@@ -263,14 +263,14 @@
 
 				font-size: 12px;
 				font-style: italic;
-				color: #868e96;
+				color: $gray-700;
 
 			}
 			.ad2-cont8.ad-location{
 				@include make-col(6);
 				text-align: right;
 				font-size: 12px;
-				color: #868e96;
+				color: $gray-700;
 			}
 		}
 
@@ -436,7 +436,7 @@
 				position: absolute;
 				font-size: 12px;
 				font-style: italic;
-				color: #868e96;
+				color: $gray-700;
 				left: 211px;
 				bottom: 5px;
 
@@ -444,7 +444,7 @@
 			.ad2-cont8.ad-location{
 				position: absolute;
 				font-size: 12px;
-				color: #868e96;
+				color: $gray-700;
 				right: 10px;
 				bottom: 5px;
 				text-align: right;
@@ -559,7 +559,7 @@
 				position: absolute;
 				font-size: 12px;
 				font-style: italic;
-				color: #868e96;
+				color: $gray-700;
 				left: 296px;
 				bottom: 5px;
 
@@ -567,7 +567,7 @@
 			.ad2-cont8.ad-location{
 				position: absolute;
 				font-size: 12px;
-				color: #868e96;
+				color: $gray-700;
 				//right: 10px;
 				left: 304px;
 				bottom: 5px;
@@ -683,7 +683,7 @@
 				position: absolute;
 				font-size: 12px;
 				font-style: italic;
-				color: #868e96;
+				color: $gray-700;
 				left: 361px;
 				bottom: 5px;
 
@@ -691,7 +691,7 @@
 			.ad2-cont8.ad-location{
 				position: absolute;
 				font-size: 12px;
-				color: #868e96;
+				color: $gray-700;
 				//right: 10px;
 				left: 370px;
 				bottom: 5px;
@@ -791,15 +791,15 @@
 				@include make-col(2);
 				font-size: 12px;
 				font-style: italic;
-				color: #868e96;
-				padding-top: 2px;
+				color: $gray-700;
+				padding-top: 2px;	
 
 
 			}
 			.ad2-cont8.ad-location{
 				@include make-col(2);
 				font-size: 12px;
-				color: #868e96;
+				color: $gray-700;
 				padding-top: 2px;
 
 

@@ -6559,11 +6559,11 @@ a.text-dark:focus, a.text-dark:hover {
     .ad2.mobile .ad2-maincontainer .ad2-cont7.ad-date {
       font-size: 12px;
       font-style: italic;
-      color: #868e96;
+      color: #495057;
       padding-top: 5px; }
     .ad2.mobile .ad2-maincontainer .ad2-cont8.ad-location {
       font-size: 12px;
-      color: #868e96;
+      color: #495057;
       position: absolute;
       right: 10px;
       bottom: 5px; }
@@ -6675,13 +6675,13 @@ a.text-dark:focus, a.text-dark:hover {
           max-width: 50%;
           font-size: 12px;
           font-style: italic;
-          color: #868e96; }
+          color: #495057; }
         .ad2.grid .ad2-maincontainer .ad2-cont8.ad-location {
           flex: 0 0 50%;
           max-width: 50%;
           text-align: right;
           font-size: 12px;
-          color: #868e96; } }
+          color: #495057; } }
   @media (min-width: 992px) {
     .ad2.grid {
       flex: 0 0 33.33333%;
@@ -6803,13 +6803,13 @@ a.text-dark:focus, a.text-dark:hover {
           position: absolute;
           font-size: 12px;
           font-style: italic;
-          color: #868e96;
+          color: #495057;
           left: 211px;
           bottom: 5px; }
         .ad2.thumb .ad2-maincontainer .ad2-cont8.ad-location {
           position: absolute;
           font-size: 12px;
-          color: #868e96;
+          color: #495057;
           right: 10px;
           bottom: 5px;
           text-align: right; } }
@@ -6902,13 +6902,13 @@ a.text-dark:focus, a.text-dark:hover {
           position: absolute;
           font-size: 12px;
           font-style: italic;
-          color: #868e96;
+          color: #495057;
           left: 296px;
           bottom: 5px; }
         .ad2.thumb .ad2-maincontainer .ad2-cont8.ad-location {
           position: absolute;
           font-size: 12px;
-          color: #868e96;
+          color: #495057;
           left: 304px;
           bottom: 5px; } }
   @media (min-width: 1200px) {
@@ -7001,13 +7001,13 @@ a.text-dark:focus, a.text-dark:hover {
           position: absolute;
           font-size: 12px;
           font-style: italic;
-          color: #868e96;
+          color: #495057;
           left: 361px;
           bottom: 5px; }
         .ad2.thumb .ad2-maincontainer .ad2-cont8.ad-location {
           position: absolute;
           font-size: 12px;
-          color: #868e96;
+          color: #495057;
           left: 370px;
           bottom: 5px; } }
 
@@ -7081,13 +7081,13 @@ a.text-dark:focus, a.text-dark:hover {
           max-width: 16.66667%;
           font-size: 12px;
           font-style: italic;
-          color: #868e96;
+          color: #495057;
           padding-top: 2px; }
         .ad2.list .ad2-maincontainer .ad2-cont8.ad-location {
           flex: 0 0 16.66667%;
           max-width: 16.66667%;
           font-size: 12px;
-          color: #868e96;
+          color: #495057;
           padding-top: 2px; } }
   .ad2.list:last-child {
     margin-bottom: 20px; }

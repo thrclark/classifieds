@@ -26,13 +26,13 @@
             </div>
             <div class="btn-group util-view-switch d-none d-sm-inline" data-toggle="buttons">
                 <label class="btn btn-sm btn-outline-dark active" id="set_grid">
-                    <input type="radio" name="options"   checked>
+                    <input type="radio" name="options"   checked> <span class="sr-only">Grid View</span>
                     <i class="fa fa-th-large" aria-hidden="true"></i> </label>
                 <label class="btn btn-sm btn-outline-dark" id="set_thumb">
-                    <input type="radio" name="options"  >
+                    <input type="radio" name="options"  ><span class="sr-only">Thumbnail View</span>
                     <i class="fa fa-list-ul" aria-hidden="true"></i> </label>
                 <label class="btn btn-sm btn-outline-dark" id="set_list">
-                    <input type="radio" name="options"  >
+                    <input type="radio" name="options"  ><span class="sr-only">List View</span>
                     <i class="fa fa-list" aria-hidden="true"></i> </label>
             </div>
         </div>

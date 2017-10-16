@@ -5,7 +5,7 @@
             <div class="col-auto brand">
                 <div class="form-row align-items-center">
                     <div class="col-auto">
-                        <div class="brand-image"> <img src="../img/trident-large.png" alt="logo" /></div>
+                        <div class="brand-image"> <img src="../img/trident-large.png" alt="Indiana University" /></div>
                     </div>
                     <div class="col-auto">
                         <h1 class="brand-text text-center">Classifieds</h1>

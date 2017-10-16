@@ -57,10 +57,10 @@
                         <textarea class="form-control" id="adDescription" rows="3"></textarea>
                     </div>
                     <div class="form-group">
-                        <label for="adDescription">Email</label>
+                        <label for="adEmail">Email</label>
                         <div class="row">
                             <div class="col-8">
-                                <input class="form-control" type="text" placeholder="thrclark@indiana.edu" readonly>
+                                <input class="form-control" id="adEmail" type="text" placeholder="thrclark@indiana.edu" readonly>
                             </div>
                             <div class="col-4">
                                 <div class="form-check form-check-inline">
@@ -78,7 +78,7 @@
                             <span class="input-group-addon" id="sizing-addon2"><i class="fa fa-calendar" aria-hidden="true"></i></span> </div>
                     </div>
                     <div class="form-group ad-images">
-                        <label for="adExpiration">Images</label>
+                        <label for="adImages">Images</label>
                         <div class="ad-images-container"><img src="../img/ad-pics/piano1.jpg" alt="" class="img-fluid"/><img src="../img/ad-pics/piano2.jpg" alt="" class="img-fluid"/><img src="../img/ad-pics/piano3.jpg" alt="" class="img-fluid"/><img src="../img/ad-pics/piano4.jpg" alt="" class="img-fluid"/></div>
                         <div class="text-right" style="padding-top:5px">
                             <button type="button" class="btn btn-outline-secondary btn-sm">Add Image</button>
