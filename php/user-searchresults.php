@@ -31,6 +31,7 @@ $page_title = 'search_results';
                         </div>
                     </div>
                     <?php include('includes/user-ads-searchresults.php') ?>
+                    <?php include('includes/user-pagination.php') ?>
                 </div>
             </div>
         </div>

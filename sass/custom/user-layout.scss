@@ -2,8 +2,9 @@
 
 	.main-content {
 		margin-top: 60px;
-
-
+		.main-content-section {
+			padding-bottom: 60px;
+		}
 	}
 }
 
@@ -12,11 +13,11 @@
 
 	.main-content {
 		margin-top: 95px;
-
-
+		.main-content-section {
+			padding-bottom: 0px;
+		}
 	}
 }
-
 
 .other-ads {
 	margin-bottom: 10px;

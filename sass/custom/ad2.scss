@@ -588,7 +588,7 @@
 			.ad2-cont1{
 				@include make-col(2);
 				.ad-image {
-					background-color: #e9ecef;
+					background-color: $gray-200;
 
 					background-repeat: no-repeat;
 					background-position: center;
@@ -807,6 +807,9 @@
 
 		}
 
+	}
+	&:last-child {
+		margin-bottom: 20px;
 	}
 
 

@@ -31,6 +31,7 @@ $page_title = 'cat_all';
                         </div>
                     </div>
                     <?php include('includes/user-ads-all.php') ?>
+                    <?php include('includes/user-pagination.php') ?>
                 </div>
             </div>
         </div>

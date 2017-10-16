@@ -2668,7 +2668,7 @@ tbody.collapse.show {
   color: #868e96;
   pointer-events: none;
   background-color: #fff;
-  border-color: #ddd; }
+  border-color: #868e96; }
 
 .page-link {
   position: relative;
@@ -2678,7 +2678,7 @@ tbody.collapse.show {
   line-height: 1.25;
   color: #005A9C;
   background-color: #fff;
-  border: 1px solid #ddd; }
+  border: 1px solid #868e96; }
   .page-link:focus, .page-link:hover {
     color: #002e50;
     text-decoration: none;
@@ -6929,7 +6929,7 @@ a.text-dark:focus, a.text-dark:hover {
           flex: 0 0 16.66667%;
           max-width: 16.66667%; }
           .ad2.thumb .ad2-maincontainer .ad2-cont1 .ad-image {
-            background-color: #e9ecef;
+            background-color: #ededed;
             background-repeat: no-repeat;
             background-position: center;
             background-size: 100% auto;
@@ -7093,6 +7093,8 @@ a.text-dark:focus, a.text-dark:hover {
           font-size: 12px;
           color: #868e96;
           padding-top: 2px; } }
+  .ad2.list:last-child {
+    margin-bottom: 20px; }
 
 .ad2.cat-music .ad-image.none:before {
   content: "\f001"; }
@@ -7208,10 +7210,14 @@ a.text-dark:focus, a.text-dark:hover {
         font-size: 1.2rem; } }
 .main-content {
   margin-top: 60px; }
+  .main-content .main-content-section {
+    padding-bottom: 60px; }
 
 @media (min-width: 768px) {
   .main-content {
-    margin-top: 95px; } }
+    margin-top: 95px; }
+    .main-content .main-content-section {
+      padding-bottom: 0px; } }
 .other-ads {
   margin-bottom: 10px; }
   .other-ads .other-ads-content {
@@ -7258,6 +7264,22 @@ fieldset .form-group:last-child {
   color: #a94442;
   padding-top: 5px;
   padding-bottom: 5px; }
+
+.pagination .page-item .page-link {
+  background: transparent; }
+  .pagination .page-item .page-link:hover {
+    border-color: #868e96;
+    background: #fff; }
+  .pagination .page-item .page-link:focus {
+    border-color: #868e96; }
+.pagination .page-item:first-child .page-link {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px; }
+.pagination .page-item:last-child .page-link {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px; }
+.pagination .page-item.current {
+  background: #fff; }
 
 .main-content .main-content-section .section-head {
   margin-bottom: 20px; }

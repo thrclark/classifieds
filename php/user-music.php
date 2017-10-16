@@ -21,7 +21,7 @@ $page_title = 'cat_music';
                 <div class="col-3 main-nav d-none d-md-block">
                     <?php include('includes/user-nav.php') ?>
                 </div>
-                 <div class="col-xs-12 col-md-9 main-content-section" role="main">
+                <div class="col-xs-12 col-md-9 main-content-section" role="main">
                     <div class="row align-items-center section-head">
                         <div class="col-auto section-head-title">
                             <h2 class="">IUK: Musicians &amp; Artists</h2>
@@ -31,6 +31,7 @@ $page_title = 'cat_music';
                         </div>
                     </div>
                     <?php include('includes/user-ads-music.php') ?>
+                    <?php include('includes/user-pagination.php') ?>
                 </div>
             </div>
         </div>
@@ -38,6 +39,5 @@ $page_title = 'cat_music';
     <?php include('includes/user-footer-menu.php') ?>
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
-
 </body>
 </html>
