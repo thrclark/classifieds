@@ -10,12 +10,20 @@ $theme-header-background: #ffffff;
 		@return $white;
 	}
 }
-.brand-text, .post .btn, .user-ads .menu-trigger .fa {
+.brand-text, .app-header .post .btn, .user-ads .menu-trigger .fa {
 	color: set-header-text-color($theme-header-background);
 }
-.post .btn {
+
+.app-header .post .btn:hover {
+	color: set-header-text-color($theme-header-background);
+}
+.app-header .post .btn {
 	border-color: set-header-text-color($theme-header-background);
 }
+
+
+
+
 @function set-searchbutton-color($color) {
 	@if (lightness($color) > 50) {
 		@return $gray-800;

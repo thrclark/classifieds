@@ -4,24 +4,20 @@
 @include media-breakpoint-up(xs) {
 	.app-header {
 		background: $theme-header-background;
-		//height: 90px;
-		//padding-top: 1rem;
-		//padding-bottom: 1rem;
-		//margin-bottom: 1rem;
-		//position: relative;
+
 		z-index: 10;
 		@include shadow;
 		.container {
 			.row {
 				height: 42px;
 				.brand {
-					//margin-bottom: 7px;
+
 					img {
 						width: auto;
 						height: 42px;
 					}
 					h1 {
-						//font-family: BentonSansCondRegular;
+
 						font-size: 1.6rem;
 						margin: 0;
 					}
@@ -43,7 +39,7 @@
 							border-bottom-right-radius: 20px;
 							padding-top: .4rem;
 							color: $white;
-							//background: $theme-header-background;
+
 							.search-label {
 								font-variant: all-petite-caps;
 								letter-spacing: 1px;
@@ -89,7 +85,7 @@
 					padding-top: .4rem;
 					background: transparent;
 					&:hover {
-						color: $white;
+						//color: $white;
 					}
 				}
 
@@ -122,7 +118,7 @@
 @include media-breakpoint-up(md) {
 
 	.app-header {
-		//height: 72px;
+
 
 		.container {
 			.row {
@@ -183,7 +179,7 @@
 @include media-breakpoint-up(lg) {
 
 	.app-header {
-		//height: 72px;
+
 
 		.container {
 			.row {

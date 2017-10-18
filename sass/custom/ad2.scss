@@ -3,10 +3,6 @@
 	@include make-row();
 	margin: 0px;
 }
-
-
-
-
 .ad2.mobile {
 	@include make-col-ready();
 
@@ -15,7 +11,7 @@
 		@include make-col(12);
 		.ad2-maincontainer {
 			padding: 5px;
-			background: #ffffff;
+			background: $white;
 			overflow: hidden;
 			position: relative;
 			margin-bottom: 10px;
@@ -29,7 +25,7 @@
 				height: 47px;
 				left: 0px;
 				.ad-image {
-					background-color: #e9ecef;
+					background-color: $gray-200;
 
 
 					background-size: auto 100%;
@@ -46,7 +42,7 @@
 					font-weight: normal;
 					text-decoration: inherit;
 					font-size: 2rem;
-					color: white;
+					color: $white;
 					z-index: 1;
 					margin: auto;
 					position: absolute;
@@ -63,7 +59,7 @@
 				right: 5px;
 				top: 3px;
 				.watchlist-set {
-					background: #fff;
+					background: $white;
 					padding-left: 4px;
 					padding-right: 4px;
 					padding-bottom: 1px;
@@ -71,9 +67,8 @@
 			}
 			.ad2-cont3.banner{
 
-				background: #08b;
 				border: 0 solid rgba(0, 0, 0, 0.2);
-				color: #fff;
+				color: $white;
 				font-size: 12px;
 				font-weight: bold;
 				border-width: 1px 0;
@@ -153,7 +148,7 @@
 		.ad2-maincontainer {
 			padding: 10px;
 			padding-bottom: 3px;
-			background: #ffffff;
+			background: $white;
 			overflow: hidden;
 			position: relative;
 			margin-bottom: 20px;
@@ -177,7 +172,7 @@
 					font-weight: normal;
 					text-decoration: inherit;
 					font-size: 4rem;
-					color: white;
+					color: $white;
 					z-index: 1;
 					margin: auto;
 					margin-top: 35px;
@@ -194,7 +189,7 @@
 				right: 11px;
 				top: 11px;
 				.watchlist-set {
-					background: #fff;
+					background: $white;
 					padding-left: 4px;
 					padding-right: 4px;
 					padding-bottom: 1px;
@@ -204,7 +199,7 @@
 
 
 				border: 0 solid rgba(0, 0, 0, 0.2);
-				color: #fff;
+				color: $white;
 				font-size: 12px;
 				font-weight: bold;
 				border-width: 1px 0;
@@ -315,7 +310,7 @@
 		@include make-col(12);
 		.ad2-maincontainer {
 			padding: 5px;
-			background: #ffffff;
+			background: $white;
 			overflow: hidden;
 			position: relative;
 			margin-bottom: 10px;
@@ -323,13 +318,12 @@
 			.ad2-cont1{
 				@include make-col(2);
 				.ad-image {
-					background-color: #e9ecef;
+					background-color: $gray-200;
 
 					background-repeat: no-repeat;
 					background-position: center;
 					background-size: auto 100%;
 					min-height: 77px;
-					//margin-bottom: 5px;
 					width: 100%;
 					position: relative;
 
@@ -341,7 +335,7 @@
 					font-weight: normal;
 					text-decoration: inherit;
 					font-size: 2.5rem;
-					color: white;
+					color: $white;
 					z-index: 1;
 					margin: auto;
 					position: absolute;
@@ -357,7 +351,7 @@
 				right: 11px;
 				top: 5px;
 				.watchlist-set {
-					background: #fff;
+					background: $white;
 					padding-left: 4px;
 					padding-right: 4px;
 					padding-bottom: 1px;
@@ -365,9 +359,8 @@
 			}
 			.ad2-cont3.banner{
 
-				//background: #08b;
 				border: 0 solid rgba(0, 0, 0, 0.2);
-				color: #fff;
+				color: $white;
 				font-size: 12px;
 				font-weight: bold;
 				border-width: 1px 0;
@@ -405,7 +398,6 @@
 				position: absolute;
 				font-size: 14px;
 				left: 357px;
-				/* margin-top: -3px; */
 				top: 2px;
 				display: none;
 			}
@@ -424,7 +416,7 @@
 				height: 77px;
 				position: relative;
 				&:before {
-					background: #e9ecef;
+					background: $gray-200;
 					position: absolute;
 					width: 2px;
 					height: 76px;
@@ -457,7 +449,7 @@
 		@include make-col(12);
 		.ad2-maincontainer {
 			padding: 5px;
-			background: #ffffff;
+			background: $white;
 			overflow: hidden;
 			position: relative;
 			margin-bottom: 10px;
@@ -465,13 +457,12 @@
 			.ad2-cont1{
 				@include make-col(2);
 				.ad-image {
-					background-color: #e9ecef;
+					background-color: $gray-200;
 
 					background-repeat: no-repeat;
 					background-position: center;
 					background-size: auto 100%;
 					min-height: 77px;
-					//margin-bottom: 5px;
 					width: 100%;
 
 				}
@@ -481,7 +472,7 @@
 				right: 11px;
 				top: 5px;
 				.watchlist-set {
-					background: #fff;
+					background: $white;
 					padding-left: 4px;
 					padding-right: 4px;
 					padding-bottom: 1px;
@@ -489,9 +480,8 @@
 			}
 			.ad2-cont3.banner{
 
-				//background: #08b;
 				border: 0 solid rgba(0, 0, 0, 0.2);
-				color: #fff;
+				color: $white;
 				font-size: 12px;
 				font-weight: bold;
 				border-width: 1px 0;
@@ -507,7 +497,6 @@
 			.ad2-cont4.ad-title {
 				@include make-col(4);
 				font-size: 14px;
-				//font-weight: bold;
 				color: #005A9C;
 				line-height: .9rem;
 				padding-left: 5px;
@@ -528,7 +517,6 @@
 				position: absolute;
 				font-size: 14px;
 				left: 357px;
-				/* margin-top: -3px; */
 				top: 2px;
 				display: none;
 			}
@@ -547,7 +535,7 @@
 				height: 77px;
 				position: relative;
 				&:before {
-					background: #e9ecef;
+					background: $gray-200;
 					position: absolute;
 					width: 2px;
 					height: 76px;
@@ -568,7 +556,6 @@
 				position: absolute;
 				font-size: 12px;
 				color: $gray-700;
-				//right: 10px;
 				left: 304px;
 				bottom: 5px;
 			}
@@ -580,7 +567,7 @@
 		@include make-col(12);
 		.ad2-maincontainer {
 			padding: 5px;
-			background: #ffffff;
+			background: $white;
 			overflow: hidden;
 			position: relative;
 			margin-bottom: 10px;
@@ -594,7 +581,6 @@
 					background-position: center;
 					background-size: 100% auto;
 					min-height: 77px;
-					//margin-bottom: 5px;
 					width: 100%;
 					position: relative;
 
@@ -605,7 +591,7 @@
 				right: 11px;
 				top: 5px;
 				.watchlist-set {
-					background: #fff;
+					background: $white;
 					padding-left: 4px;
 					padding-right: 4px;
 					padding-bottom: 1px;
@@ -613,9 +599,8 @@
 			}
 			.ad2-cont3.banner{
 
-				//background: #08b;
 				border: 0 solid rgba(0, 0, 0, 0.2);
-				color: #fff;
+				color: $white;
 				font-size: 12px;
 				font-weight: bold;
 				border-width: 1px 0;
@@ -631,7 +616,6 @@
 			.ad2-cont4.ad-title {
 				@include make-col(4);
 				font-size: 14px;
-				//font-weight: bold;
 				color: #005A9C;
 				line-height: .9rem;
 				padding-left: 5px;
@@ -652,7 +636,6 @@
 				position: absolute;
 				font-size: 14px;
 				left: 357px;
-				/* margin-top: -3px; */
 				top: 2px;
 				display: none;
 			}
@@ -671,7 +654,7 @@
 				height: 77px;
 				position: relative;
 				&:before {
-					background: #e9ecef;
+					background: $gray-200;
 					position: absolute;
 					width: 2px;
 					height: 76px;
@@ -692,7 +675,6 @@
 				position: absolute;
 				font-size: 12px;
 				color: $gray-700;
-				//right: 10px;
 				left: 370px;
 				bottom: 5px;
 			}
@@ -712,7 +694,7 @@
 		@include make-col(12);
 		.ad2-maincontainer {
 			padding: 5px;
-			background: #ffffff;
+			background: $white;
 			overflow: hidden;
 			position: relative;
 			margin-bottom: 0px;
@@ -728,9 +710,8 @@
 			.ad2-cont2{
 				position: absolute;
 				right:10px;
-				//@extend .order-12;
 				.watchlist-set {
-					background: #fff;
+					background: $white;
 					padding-left: 4px;
 					padding-right: 4px;
 					padding-bottom: 1px;
@@ -738,11 +719,9 @@
 			}
 			.ad2-cont3.banner{
 
-				//background: #08b;
 				border: 0 solid rgba(0, 0, 0, 0.2);
 				color: transparent;
 				font-size: 10px;
-				/* font-weight: bold; */
 				border-width: 1px 0;
 				border-color: rgba(0, 0, 0, 0.3);
 				padding: 0px 5px 0px 5px;
@@ -815,7 +794,7 @@
 
 }
 
-
+// Ad Category Icons - these need to be dynamically driven
 
 .ad2.cat-music {
 	.ad-image.none:before {
