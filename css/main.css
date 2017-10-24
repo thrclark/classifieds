@@ -2668,7 +2668,7 @@ tbody.collapse.show {
   color: #868e96;
   pointer-events: none;
   background-color: #fff;
-  border-color: #868e96; }
+  border-color: #ced4da; }
 
 .page-link {
   position: relative;
@@ -2678,7 +2678,7 @@ tbody.collapse.show {
   line-height: 1.25;
   color: #005A9C;
   background-color: #fff;
-  border: 1px solid #868e96; }
+  border: 1px solid #ced4da; }
   .page-link:focus, .page-link:hover {
     color: #002e50;
     text-decoration: none;
@@ -7196,10 +7196,10 @@ fieldset .form-group:last-child {
 .pagination .page-item .page-link {
   background: transparent; }
   .pagination .page-item .page-link:hover {
-    border-color: #868e96;
+    border-color: #ced4da;
     background: #fff; }
   .pagination .page-item .page-link:focus {
-    border-color: #868e96; }
+    border-color: #ced4da; }
 .pagination .page-item:first-child .page-link {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px; }
@@ -7220,25 +7220,23 @@ fieldset .form-group:last-child {
     .main-content .main-content-section .section-head .section-head-utilities .fa {
       margin-top: 2px;
       font-size: 16px;
-      color: #868e96; }
+      color: #ededed; }
     .main-content .main-content-section .section-head .section-head-utilities .dropdown {
       display: inline-flex;
-      border: solid 1px #868e96;
+      border: solid 1px #ced4da;
       padding: 2px;
       border-radius: 20px;
       padding-left: 10px;
       padding-right: 10px;
       background: #ffffff; }
-      .main-content .main-content-section .section-head .section-head-utilities .dropdown:hover {
-        background: #868e96;
-        box-shadow: none;
-        border: solid 1px #ededed; }
-        .main-content .main-content-section .section-head .section-head-utilities .dropdown:hover .btn.btn-link {
-          color: #fff; }
-        .main-content .main-content-section .section-head .section-head-utilities .dropdown:hover .fa {
-          color: #fff; }
-        .main-content .main-content-section .section-head .section-head-utilities .dropdown:hover .dropdown-item .fa {
-          color: #868e96; }
+    .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .fa {
+      color: #868e96;
+      margin-right: 5px; }
+    .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-filter {
+      margin-left: 5px; }
+      .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-filter .fa {
+        color: #868e96;
+        margin-right: 5px; }
     .main-content .main-content-section .section-head .section-head-utilities .btn.btn-link {
       padding: 0px;
       color: #777; }
@@ -7257,9 +7255,12 @@ fieldset .form-group:last-child {
         top: -12px; }
       .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn {
         padding: 0.1rem 0.4rem;
-        margin-top: -5px; }
-    .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-filter {
-      margin-left: 5px; }
+        margin-top: -5px;
+        border-color: #ced4da; }
+        .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm .fa, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn .fa {
+          color: #868e96; }
+        .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm.active .fa, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn.active .fa {
+          color: #ededed; }
     .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .btn.btn-link .long-name {
       display: none; }
     .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .btn.btn-link .short-name {
@@ -7275,8 +7276,5 @@ fieldset .form-group:last-child {
     display: inline; }
   .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .btn.btn-link .short-name {
     display: none; } }
-@media (min-width: 1200px) {
-  .testbox {
-    background: purple; } }
 
 /*# sourceMappingURL=main.css.map */

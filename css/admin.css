@@ -2669,7 +2669,7 @@ tbody.collapse.show {
   color: #868e96;
   pointer-events: none;
   background-color: #fff;
-  border-color: #868e96; }
+  border-color: #ced4da; }
 
 .page-link {
   position: relative;
@@ -2679,7 +2679,7 @@ tbody.collapse.show {
   line-height: 1.25;
   color: #005A9C;
   background-color: #fff;
-  border: 1px solid #868e96; }
+  border: 1px solid #ced4da; }
   .page-link:focus, .page-link:hover {
     color: #002e50;
     text-decoration: none;

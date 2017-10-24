@@ -3,11 +3,11 @@
     .page-link{
       background: transparent;
       &:hover {
-        border-color: $gray-600;
+        border-color: $gray-400;
         background: $white;
       }
       &:focus {
-        border-color: $gray-600;
+        border-color: $gray-400;
       }
 
     }
@@ -35,9 +35,6 @@
   }
 
 }
-
-
-
 
 
 
