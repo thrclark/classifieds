@@ -25,21 +25,23 @@
 				.search {
 					padding-right: 0px;
 					.search-container {
-						border: solid 1px $gray-600;
-						padding: 3px;
+						border-style: solid;
+						border-width: 1px;
+						padding-top: 2px;
 						border-radius: 50px;
 						background: $white;
+						padding-bottom: 1px;
+
 
 						.search-button .btn {
-							-webkit-border-top-right-radius: 20px;
-							-webkit-border-bottom-right-radius: 20px;
-							-moz-border-radius-topright: 20px;
-							-moz-border-radius-bottomright: 20px;
-							border-top-right-radius: 20px;
-							border-bottom-right-radius: 20px;
-							padding-top: .4rem;
-							color: $white;
 
+							padding-top: .3rem;
+							color: #fff;
+							border-top-right-radius: 18px;
+							margin-top: -1px;
+							border-bottom-right-radius: 18px;
+							height: 35px;
+							margin-right: 1px;
 							.search-label {
 								font-variant: all-petite-caps;
 								letter-spacing: 1px;
@@ -82,8 +84,9 @@
 					font-variant: all-petite-caps;
 					letter-spacing: 1px;
 					font-size: 18px;
-					padding-top: .4rem;
+					padding-top: .3rem;
 					background: transparent;
+					height: 37px;
 					&:hover {
 						//color: $white;
 					}

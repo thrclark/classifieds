@@ -6090,6 +6090,9 @@ a.text-dark:focus, a.text-dark:hover {
 .search .search-container .search-button .btn {
   background: #343a40; }
 
+.app-header .container .row .search .search-container {
+  border-color: #343a40; }
+
 .ad2.grid .ad2-maincontainer .ad2-cont5.ad-price {
   background: rgba(52, 58, 64, 0.8); }
 
@@ -6182,19 +6185,20 @@ a.text-dark:focus, a.text-dark:hover {
     .app-header .container .row .search {
       padding-right: 0px; }
       .app-header .container .row .search .search-container {
-        border: solid 1px #868e96;
-        padding: 3px;
+        border-style: solid;
+        border-width: 1px;
+        padding-top: 2px;
         border-radius: 50px;
-        background: #fff; }
+        background: #fff;
+        padding-bottom: 1px; }
         .app-header .container .row .search .search-container .search-button .btn {
-          -webkit-border-top-right-radius: 20px;
-          -webkit-border-bottom-right-radius: 20px;
-          -moz-border-radius-topright: 20px;
-          -moz-border-radius-bottomright: 20px;
-          border-top-right-radius: 20px;
-          border-bottom-right-radius: 20px;
-          padding-top: .4rem;
-          color: #fff; }
+          padding-top: .3rem;
+          color: #fff;
+          border-top-right-radius: 18px;
+          margin-top: -1px;
+          border-bottom-right-radius: 18px;
+          height: 35px;
+          margin-right: 1px; }
           .app-header .container .row .search .search-container .search-button .btn .search-label {
             font-variant: all-petite-caps;
             letter-spacing: 1px;
@@ -6221,8 +6225,9 @@ a.text-dark:focus, a.text-dark:hover {
       font-variant: all-petite-caps;
       letter-spacing: 1px;
       font-size: 18px;
-      padding-top: .4rem;
-      background: transparent; }
+      padding-top: .3rem;
+      background: transparent;
+      height: 37px; }
     .app-header .container .row .user-ads .menu-trigger {
       padding-left: 8px;
       padding-right: 15px;
