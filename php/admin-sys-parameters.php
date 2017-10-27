@@ -85,7 +85,6 @@ $page_title = '';
         </div>
     </div>
 </div>
-
 <?php include ('modals/modal-sysparam-appemail.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>

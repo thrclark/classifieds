@@ -4,6 +4,7 @@
 		color: $white;
 		padding-top: 5px;
 		padding-bottom: 5px;
+		@include shadow;
 	}
 	.app-header h1 {
 		font-size: 1.6rem;
@@ -20,4 +21,3 @@
 		margin-top: 20px;
 	}
 }
-
