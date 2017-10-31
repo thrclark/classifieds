@@ -48,7 +48,7 @@
 </script>
 <script>
     $(document).ready(function() {
-        $(".ad-title,.ad-description,.ad-price").dotdotdot({
+        $(".ad2 .ad-title, .ad2 .ad-description, .ad2 .ad-price").dotdotdot({
             /*	The text to add as ellipsis. */
             ellipsis: '...',
 

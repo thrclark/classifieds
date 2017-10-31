@@ -1,0 +1,66 @@
+.ad-detail{
+	.ad-body {
+
+		padding: 20px;
+		min-height: 400px;
+
+		.ad-titlee {
+			padding-top: 0px;
+			h3 {
+				margin-bottom: 0px;
+			}
+
+		}
+		.ad-close {
+			font-size: 24px;
+			color: $gray-600;
+			border-left: solid 1px $gray-400;
+			border-bottom: solid 1px $gray-400;
+			position: absolute;
+			right: 0px;
+			top:0px;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-bottom: 5px;
+
+		}
+		.ad-datelocation {
+			color: $gray-700;
+			margin-bottom: 15px;
+			.ad-datelocation-date {
+				font-style: italic;
+				display: inline-block;
+				padding-right: 5px;
+			}
+			.ad-datelocation-location {
+				display: inline-block;
+				padding-left: 5px;
+
+			}
+		}
+		.ad-price {
+
+			font-size: 1.25rem;
+			text-shadow: 1px 1px 4px #000000;
+			text-transform: capitalize;
+			line-height: 1.1rem;
+			color: white;
+
+			padding: 8px;
+			padding-right: 16px;
+
+			-webkit-border-top-right-radius: 15px;
+			-webkit-border-bottom-right-radius: 15px;
+			-moz-border-radius-topright: 15px;
+			-moz-border-radius-bottomright: 15px;
+			border-top-right-radius: 15px;
+			border-bottom-right-radius: 15px;
+			z-index: 5;
+			background: rgba(52, 58, 64, 0.8);
+			display: inline-block;
+		}
+
+	}
+
+}
+
