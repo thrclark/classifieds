@@ -4,6 +4,7 @@
 <script src="../bower_components/filament-tablesaw/dist/tablesaw.jquery.js"></script>
 <script src="../bower_components/filament-tablesaw/dist/tablesaw-init.js"></script>
 <script src="../js/jquery.dotdotdot.min.js"></script>
+<script src="../js/slick/slick.min.js"></script>
 
 
 
@@ -132,3 +133,14 @@
         });
     });
 </script>
+
+
+ <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick({
+
+      });
+    });
+  </script>
+  
+  
