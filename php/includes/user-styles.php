@@ -5,5 +5,8 @@
 
 .hidethis {
 	display:none}
+	
+	.your-class {
+		margin-bottom:15px}
 
 </style>

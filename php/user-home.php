@@ -35,7 +35,7 @@ $page_title = 'cat_all';
                 </div>
             </div>
         </div>
-        <?php include('modals/modal-ad-detail.php') ?>
+        <?php include('modals/modal-ad-detail1-1.php') ?>
     </section>
     <?php include('includes/user-footer-menu.php') ?>
 </div>

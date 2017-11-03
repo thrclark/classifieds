@@ -1,6 +1,6 @@
 
 <div class="row">
-    <div class="ad2 grid cat-roomate" data-toggle="modal" data-target="#exampleModal">
+    <div class="ad2 grid cat-roomate" data-toggle="modal" data-target="#ad_detail1-1">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>

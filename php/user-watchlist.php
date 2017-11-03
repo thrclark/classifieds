@@ -34,6 +34,7 @@ $page_title = 'cat_watchlist';
                 </div>
             </div>
         </div>
+        <?php include('modals/modal-ad-detail2-1.php') ?>
     </section>
     <?php include('includes/user-footer-menu.php') ?>
 </div>

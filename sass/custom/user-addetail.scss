@@ -53,6 +53,7 @@
 				border: none;
 				width: 42px;
 				text-align: center;
+				display: none;
 
 
 
@@ -145,16 +146,17 @@
 
 				font-size: 24px;
 				border: solid 1px $gray-500;
+				//display: block;
 
 				&.prev{
 					left: -41px;
-					border-top-left-radius: 15px;
-					border-bottom-left-radius: 15px;
+					//border-top-left-radius: 15px;
+					//border-bottom-left-radius: 15px;
 				}
 				&.next {
 					right: -41px;
-					border-top-right-radius: 15px;
-					border-bottom-right-radius: 15px;
+					//border-top-right-radius: 15px;
+					//border-bottom-right-radius: 15px;
 				}
 			}
 

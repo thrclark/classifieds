@@ -135,12 +135,15 @@
 </script>
 
 
- <script type="text/javascript">
-    $(document).ready(function(){
-      $('.your-class').slick({
 
-      });
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".ad2").click(function() {
+			//$('#ad_detail2-1').modal('show')
+            setTimeout(function() {
+                $('.your-class').slick({});
+            }, 150);
+        });
     });
-  </script>
-  
-  
+</script>

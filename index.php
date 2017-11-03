@@ -12,9 +12,7 @@ $page_title = '';
 <meta name="author" content="">
 <title>IU Classifieds</title>
 <link href="css/admin.css" rel="stylesheet" type="text/css">
-
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
 <style type="text/css">
 .btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
 	color: #868e96;
@@ -33,7 +31,6 @@ $page_title = '';
         </div>
     </div>
 </div>
-
 <div class="container" style="padding-top:4rem">
     <div class="row">
         <div class="col">
@@ -88,7 +85,16 @@ $page_title = '';
         </div>
     </div>
 </div>
-
+<div class="container" style="padding-top:4rem">
+    <div class="row">
+        <div class="col">
+            <h2 class="h3">Ad Detail View</h2>
+            <ul>
+                <li><a href="php/user-detaildemo.php" target="_blank">Gallery of Examples</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
 <div class="container" style="padding-top:4rem">
     <div class="row">
         <div class="col">
@@ -101,8 +107,6 @@ $page_title = '';
         </div>
     </div>
 </div>
-
-
 <div class="container">
     <hr>
     on <a href="https://github.com/thrclark/classifieds" target="_blank">Github</a></div>
