@@ -20,31 +20,30 @@
                     </div>
                 </div>
                 <hr>
-                <dl class="row">
-                    <dt class="col-sm-3">Description</dt>
-                    <dd class="col-sm-9">This is a beautiful original lacquer Mark VI tenor saxophone from 1962, serial number 99015. The lacquer finish on the horn is in exquisite condition. Its original finish displays a very dark honey tint which is perfectly complemented by the crisp American floral engraving. The lacquer condition is about as clean and pristine as you will ever see. While there is a few light scratches here and there the saxophone has no history of past repair or solder work. There is one very tiny tiny ding on the bow of the saxophone. I want to stress that it is a very small minimal cosmetic spot on the horn.  The body tube, bell, bell flare are all in great original condition. This saxophones neck is a non original neck from a 69 thousand Mark VI from 1957. The neck is in outstanding condition and has never been pulled down. This saxophones previous owner switched the neck out a very long time ago which was very common at the time. </dd>
-                    <dt class="col-sm-3">Contact</dt>
-                    <dd class="col-sm-9"> 812-555-4567 </dd>
-                    <dt class="col-sm-3">Email</dt>
-                    <dd class="col-sm-9"><a href="mailto:thrclark@iu.edu">thrclark@iu.edu</a></dd>
-                    <dt class="col-sm-3">Actions</dt>
-                    <dd class="col-sm-9">
-                        <a href="#" class="btn btn-outline-secondary btn-sm"><i class="fa fa-envelope-o" aria-hidden="true"></i> Share Ad</a>
-                        <a href="#" class="btn btn-outline-secondary btn-sm"><i class="fa fa-heart-o" aria-hidden="true"></i> Add to Watchlist</a>
-                    </dd>
-                </dl>
-                <hr>
-                <div class="your-class">
-                    <div><img src="../img/ad-pics/1105499015MarkVITen1.jpg"  class="img-fluid img-thumbnail" alt=""/></div>
-                    <div><img src="../img/ad-pics/1105499015MarkVITen2.jpg"  class="img-fluid img-thumbnail" alt=""/></div>
-                    <div><img src="../img/ad-pics/1105499015MarkVITen3.jpg"  class="img-fluid img-thumbnail" alt=""/></div>
-                    <div><img src="../img/ad-pics/1105499015MarkVITen4.jpg"  class="img-fluid img-thumbnail" alt=""/></div>
-                    <div><img src="../img/ad-pics/1105499015MarkVITen5.jpg"  class="img-fluid img-thumbnail" alt=""/></div>
-                    <div><img src="../img/ad-pics/1105499015MarkVITen6.jpg"  class="img-fluid img-thumbnail" alt=""/></div>
-                    <div><img src="../img/ad-pics/1105499015MarkVITen7.jpg"  class="img-fluid img-thumbnail" alt=""/></div>
-                    <div><img src="../img/ad-pics/1105499015MarkVITen8.jpg"  class="img-fluid img-thumbnail" alt=""/></div>
-                   
+                
+                  <div class="your-class">
+                    <div> <img src="../img/ad-pics/1105499015MarkVITen1.jpg" class="img-fluid img-thumbnail " alt=""/></div>
+                    <div> <img src="../img/ad-pics/1105499015MarkVITen2.jpg" class="img-fluid img-thumbnail " alt=""/></div>
+                    <div> <img src="../img/ad-pics/1105499015MarkVITen3.jpg" class="img-fluid img-thumbnail " alt=""/></div>
+                    <div> <img src="../img/ad-pics/1105499015MarkVITen4.jpg" class="img-fluid img-thumbnail " alt=""/></div>
+                    <div> <img src="../img/ad-pics/1105499015MarkVITen5.jpg" class="img-fluid img-thumbnail " alt=""/></div>
+                    <div> <img src="../img/ad-pics/1105499015MarkVITen6.jpg" class="img-fluid img-thumbnail " alt=""/></div>
+                    <div> <img src="../img/ad-pics/1105499015MarkVITen7.jpg" class="img-fluid img-thumbnail " alt=""/></div>
+                    <div> <img src="../img/ad-pics/1105499015MarkVITen8.jpg" class="img-fluid img-thumbnail " alt=""/></div>
                 </div>
+                   <hr>
+                <dl class="row">
+                    <dt class="col-sm-12">Description</dt>
+                    <dd class="col-sm-12">This is a beautiful original lacquer Mark VI tenor saxophone from 1962, serial number 99015. The lacquer finish on the horn is in exquisite condition. Its original finish displays a very dark honey tint which is perfectly complemented by the crisp American floral engraving. The lacquer condition is about as clean and pristine as you will ever see. While there is a few light scratches here and there the saxophone has no history of past repair or solder work. There is one very tiny tiny ding on the bow of the saxophone. I want to stress that it is a very small minimal cosmetic spot on the horn.  The body tube, bell, bell flare are all in great original condition. This saxophones neck is a non original neck from a 69 thousand Mark VI from 1957. The neck is in outstanding condition and has never been pulled down. This saxophones previous owner switched the neck out a very long time ago which was very common at the time. </dd>
+                    <dt class="col-sm-12">Contact</dt>
+                    <dd class="col-sm-12"> 812-555-4567 </dd>
+                    <dt class="col-sm-12">Email</dt>
+                    <dd class="col-sm-12"><a href="mailto:thrclark@iu.edu">thrclark@iu.edu</a></dd>
+                    <dt class="col-sm-12">Actions</dt>
+                    <dd class="col-sm-12"> <a href="#" class="btn btn-outline-secondary btn-sm"><i class="fa fa-envelope-o" aria-hidden="true"></i> Share Ad</a> <a href="#" class="btn btn-outline-secondary btn-sm"><i class="fa fa-heart-o" aria-hidden="true"></i> Add to Watchlist</a> </dd>
+                </dl>
+             
+              
             </div>
         </div>
     </div>

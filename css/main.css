@@ -7423,7 +7423,8 @@ fieldset .form-group:last-child {
 
 .slick-slide {
   float: left;
-  height: 100%;
+  background: #ededed;
+  height: 346px;
   min-height: 1px;
   display: none; }
   [dir="rtl"] .slick-slide {

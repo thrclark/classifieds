@@ -142,7 +142,9 @@
         $(".ad2").click(function() {
 			//$('#ad_detail2-1').modal('show')
             setTimeout(function() {
-                $('.your-class').slick({});
+                $('.your-class').slick({
+					slidesToShow: 1,
+					});
             }, 150);
         });
     });
