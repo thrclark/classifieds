@@ -49,7 +49,7 @@
 </script>
 <script>
     $(document).ready(function() {
-        $(".ad2 .ad-title, .ad2 .ad-description, .ad2 .ad-price").dotdotdot({
+        $(".postitem-post-title, .postitem-description, .postitem222222 .ad-price").dotdotdot({
             /*	The text to add as ellipsis. */
             ellipsis: '...',
 
@@ -77,23 +77,23 @@
 <script>
     $(document).ready(function() {
         $('#set_grid').click(function() {
-            $('.ad2').addClass('grid');
-            $('.ad2').removeClass('thumb');
-            $('.ad2').removeClass('list');
-            $('.ad2').removeClass('mobile');
+            $('.postitem').addClass('grid');
+            $('.postitem').removeClass('thumb');
+            $('.postitem').removeClass('list');
+            $('.postitem').removeClass('mobile');
         });
 
         $('#set_thumb').click(function() {
-            $('.ad2').addClass('thumb');
-            $('.ad2').removeClass('grid');
-            $('.ad2').removeClass('list');
-            $('.ad2').removeClass('mobile');
+            $('.postitem').addClass('thumb');
+            $('.postitem').removeClass('grid');
+            $('.postitem').removeClass('list');
+            $('.postitem').removeClass('mobile');
         });
         $('#set_list').click(function() {
-            $('.ad2').addClass('list');
-            $('.ad2').removeClass('grid');
-            $('.ad2').removeClass('thumb');
-            $('.ad2').removeClass('mobile');
+            $('.postitem').addClass('list');
+            $('.postitem').removeClass('grid');
+            $('.postitem').removeClass('thumb');
+            $('.postitem').removeClass('mobile');
         });
 
     });
@@ -101,7 +101,7 @@
 <script>
     $(document).ready(function() {
         $(function() {
-            $(".ad2").click(function() {
+            $(".postitem").click(function() {
                 $(this).addClass("faded");
             });
         });
@@ -139,8 +139,8 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-        $(".ad2").click(function() {
-			//$('#ad_detail2-1').modal('show')
+        $(".postitem").click(function() {
+			//$('#post_detail2-1').modal('show')
             setTimeout(function() {
                 $('.your-class').slick({
 					slidesToShow: 1,

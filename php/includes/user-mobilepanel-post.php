@@ -77,9 +77,9 @@
                             <input type="text" class="form-control" placeholder="dd/mm/yyyy" aria-label="adExpiration" aria-describedby="sizing-addon2">
                             <span class="input-group-addon" id="sizing-addon2"><i class="fa fa-calendar" aria-hidden="true"></i></span> </div>
                     </div>
-                    <div class="form-group ad-images">
+                    <div class="form-group post-images">
                         <label for="adImages">Images</label>
-                        <div class="ad-images-container"><img src="../img/ad-pics/piano1.jpg" alt="" class="img-fluid"/><img src="../img/ad-pics/piano2.jpg" alt="" class="img-fluid"/><img src="../img/ad-pics/piano3.jpg" alt="" class="img-fluid"/><img src="../img/ad-pics/piano4.jpg" alt="" class="img-fluid"/></div>
+                        <div class="post-images-container"><img src="../img/post-pics/piano1.jpg" alt="" class="img-fluid"/><img src="../img/post-pics/piano2.jpg" alt="" class="img-fluid"/><img src="../img/post-pics/piano3.jpg" alt="" class="img-fluid"/><img src="../img/post-pics/piano4.jpg" alt="" class="img-fluid"/></div>
                         <div class="text-right" style="padding-top:5px">
                             <button type="button" class="btn btn-outline-secondary btn-sm">Add Image</button>
                         </div>

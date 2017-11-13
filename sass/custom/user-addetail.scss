@@ -1,12 +1,12 @@
 @include media-breakpoint-up(xs) {
-	.ad-detail{
-		.ad-body {
+	.post-detail{
+		.post-details-body {
 
 			padding: 20px;
 			min-height: 400px;
 			padding-top: 48px;
 
-			.ad-titlee {
+			.post-detail-title {
 				padding-top: 0px;
 				margin-bottom: 10px;
 				h3 {
@@ -14,8 +14,7 @@
 				}
 
 			}
-			.ad-close {
-
+			.post-detail-close {
 
 
 
@@ -39,7 +38,7 @@
 
 
 			}
-			.ad-browse {
+			.post-detail-browse {
 
 
 
@@ -112,16 +111,16 @@
 	}
 }
 @include media-breakpoint-up(sm) {
-	.ad-detail{
-		.ad-body {
+	.post-detail{
+		.post-details-body {
 			padding-top: 15px;
-			.ad-titlee {
+			.post-detail-title {
 				padding-right: 35px;
 			}
 
 
 
-			.ad-close {
+			.post-detail-close {
 				font-size: 18px;
 				color: $gray-600;
 				border: solid 1px $gray-600;
@@ -137,7 +136,7 @@
 
 
 			}
-			.ad-browse {
+			.post-detail-browse {
 				position: absolute;
 				padding: 15px;
 				top: 107px;

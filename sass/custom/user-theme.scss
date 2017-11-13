@@ -50,7 +50,7 @@ $theme-header-background: #ffffff;
 		@return transparentize($theme-header-background, 0.2);
 	}
 }
-.ad2.grid .ad2-maincontainer .ad2-cont5.ad-price {
+.postitem.grid .postitem-container .postitem-price {
 	background: set-pricebackground-color($theme-header-background);
 }
 @function set-newbadge-color($color) {
@@ -61,6 +61,6 @@ $theme-header-background: #ffffff;
 		@return $theme-header-background;
 	}
 }
-.ad2-cont3.banner {
+.postitem-newbanner {
 	background: set-newbadge-color($theme-header-background);
 }

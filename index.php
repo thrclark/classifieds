@@ -85,16 +85,7 @@ $page_title = '';
         </div>
     </div>
 </div>
-<div class="container" style="padding-top:4rem">
-    <div class="row">
-        <div class="col">
-            <h2 class="h3">Ad Detail View</h2>
-            <ul>
-                <li><a href="php/user-detaildemo.php" target="_blank">Gallery of Examples</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
+
 <div class="container" style="padding-top:4rem">
     <div class="row">
         <div class="col">

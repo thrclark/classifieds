@@ -528,7 +528,7 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
-.col-1, .col-2, .col-3, .ad2.mobile .ad2-maincontainer .ad2-cont7.ad-date, .col-4, .col-5, .col-6, .col-7, .ad2.mobile .ad2-maincontainer .ad2-cont5.ad-price, .col-8, .col-9, .col-10, .col-11, .col-12, .ad2.mobile .ad2-maincontainer .ad2-cont4.ad-title, .col,
+.col-1, .col-2, .col-3, .postitem.mobile .postitem-container .postitem-postdate, .col-4, .col-5, .col-6, .col-7, .postitem.mobile .postitem-container .postitem-price, .col-8, .col-9, .col-10, .col-11, .col-12, .postitem.mobile .postitem-container .postitem-post-title, .col,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
@@ -558,7 +558,7 @@ pre {
   flex: 0 0 16.66667%;
   max-width: 16.66667%; }
 
-.col-3, .ad2.mobile .ad2-maincontainer .ad2-cont7.ad-date {
+.col-3, .postitem.mobile .postitem-container .postitem-postdate {
   flex: 0 0 25%;
   max-width: 25%; }
 
@@ -574,7 +574,7 @@ pre {
   flex: 0 0 50%;
   max-width: 50%; }
 
-.col-7, .ad2.mobile .ad2-maincontainer .ad2-cont5.ad-price {
+.col-7, .postitem.mobile .postitem-container .postitem-price {
   flex: 0 0 58.33333%;
   max-width: 58.33333%; }
 
@@ -594,7 +594,7 @@ pre {
   flex: 0 0 91.66667%;
   max-width: 91.66667%; }
 
-.col-12, .ad2.mobile .ad2-maincontainer .ad2-cont4.ad-title {
+.col-12, .postitem.mobile .postitem-container .postitem-post-title {
   flex: 0 0 100%;
   max-width: 100%; }
 
@@ -6094,10 +6094,10 @@ a.text-dark:focus, a.text-dark:hover {
 .app-header .container .row .search .search-container {
   border-color: #343a40; }
 
-.ad2.grid .ad2-maincontainer .ad2-cont5.ad-price {
+.postitem.grid .postitem-container .postitem-price {
   background: rgba(52, 58, 64, 0.8); }
 
-.ad2-cont3.banner {
+.postitem-newbanner {
   background: #343a40; }
 
 .faded {
@@ -6401,14 +6401,14 @@ a.text-dark:focus, a.text-dark:hover {
 
   .user-access a {
     font-size: 18px; } }
-.ad2-row {
+.postitem-row {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
   margin: 0px; }
 
-.ad2.mobile {
+.postitem.mobile {
   position: relative;
   width: 100%;
   min-height: 1px;
@@ -6416,7 +6416,7 @@ a.text-dark:focus, a.text-dark:hover {
   padding-left: 15px;
   flex: 0 0 100%;
   max-width: 100%; }
-  .ad2.mobile .ad2-maincontainer {
+  .postitem.mobile .postitem-container {
     padding: 5px;
     background: #fff;
     overflow: hidden;
@@ -6425,19 +6425,19 @@ a.text-dark:focus, a.text-dark:hover {
     height: 66px;
     -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
-    .ad2.mobile .ad2-maincontainer .ad2-cont1 {
+    .postitem.mobile .postitem-container .postitem-image-container {
       position: absolute;
       padding: 0px;
       top: 0px;
       width: 64px;
       height: 47px;
       left: 0px; }
-      .ad2.mobile .ad2-maincontainer .ad2-cont1 .ad-image {
+      .postitem.mobile .postitem-container .postitem-image-container .post-image {
         background-color: #ededed;
         background-size: auto 100%;
         min-height: 77px;
         width: 100%; }
-      .ad2.mobile .ad2-maincontainer .ad2-cont1 .ad-image.none:before {
+      .postitem.mobile .postitem-container .postitem-image-container .post-image.none:before {
         font-family: FontAwesome;
         font-style: normal;
         font-weight: normal;
@@ -6452,16 +6452,16 @@ a.text-dark:focus, a.text-dark:hover {
         bottom: 0;
         right: 0;
         text-align: center; }
-    .ad2.mobile .ad2-maincontainer .ad2-cont2 {
+    .postitem.mobile .postitem-container .postitem-watchlist {
       position: absolute;
       right: 5px;
       top: 3px; }
-      .ad2.mobile .ad2-maincontainer .ad2-cont2 .watchlist-set {
+      .postitem.mobile .postitem-container .postitem-watchlist .watchlist-set {
         background: #fff;
         padding-left: 4px;
         padding-right: 4px;
         padding-bottom: 1px; }
-    .ad2.mobile .ad2-maincontainer .ad2-cont3.banner {
+    .postitem.mobile .postitem-container .postitem-newbanner {
       border: 0 solid rgba(0, 0, 0, 0.2);
       color: #fff;
       font-size: 12px;
@@ -6475,7 +6475,7 @@ a.text-dark:focus, a.text-dark:hover {
       transform: rotate(-35deg);
       -webkit-transform: rotate(-35deg);
       z-index: 1; }
-    .ad2.mobile .ad2-maincontainer .ad2-cont4.ad-title {
+    .postitem.mobile .postitem-container .postitem-post-title {
       font-size: 14px;
       color: #005A9C;
       line-height: .9rem;
@@ -6483,39 +6483,37 @@ a.text-dark:focus, a.text-dark:hover {
       padding-right: 30px;
       height: 33px;
       overflow: hidden; }
-    .ad2.mobile .ad2-maincontainer .ad2-cont5.ad-price {
+    .postitem.mobile .postitem-container .postitem-price {
       font-weight: bold;
       padding-left: 64px;
       font-size: 16px; }
-    .ad2.mobile .ad2-maincontainer .ad2-cont5-1.ad-type {
+    .postitem.mobile .postitem-container .w-100 {
       display: none; }
-    .ad2.mobile .ad2-maincontainer .w-100 {
+    .postitem.mobile .postitem-container .postitem-description {
       display: none; }
-    .ad2.mobile .ad2-maincontainer .ad2-cont6.ad-description {
-      display: none; }
-    .ad2.mobile .ad2-maincontainer .ad2-cont7.ad-date {
+    .postitem.mobile .postitem-container .postitem-postdate {
       font-size: 12px;
       font-style: italic;
       color: #495057;
       padding-top: 5px; }
-    .ad2.mobile .ad2-maincontainer .ad2-cont8.ad-location {
+    .postitem.mobile .postitem-container .postitem-postlocation {
       font-size: 12px;
       color: #495057;
       position: absolute;
       right: 10px;
       bottom: 5px; }
 
-.ad2.grid {
+.postitem.grid {
   position: relative;
   width: 100%;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px; }
   @media (min-width: 576px) {
-    .ad2.grid {
+    .postitem.grid {
       flex: 0 0 50%;
       max-width: 50%; }
-      .ad2.grid .ad2-maincontainer {
+      .postitem.grid .postitem-container {
         padding: 10px;
         padding-bottom: 3px;
         background: #fff;
@@ -6524,10 +6522,10 @@ a.text-dark:focus, a.text-dark:hover {
         margin-bottom: 20px;
         -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
-        .ad2.grid .ad2-maincontainer .ad2-cont1 {
+        .postitem.grid .postitem-container .postitem-image-container {
           flex: 0 0 100%;
           max-width: 100%; }
-          .ad2.grid .ad2-maincontainer .ad2-cont1 .ad-image {
+          .postitem.grid .postitem-container .postitem-image-container .post-image {
             background-color: #ededed;
             background-repeat: no-repeat;
             background-position: center;
@@ -6536,7 +6534,7 @@ a.text-dark:focus, a.text-dark:hover {
             margin-bottom: 5px;
             width: 100%;
             height: 50px; }
-          .ad2.grid .ad2-maincontainer .ad2-cont1 .ad-image.none:before {
+          .postitem.grid .postitem-container .postitem-image-container .post-image.none:before {
             font-family: FontAwesome;
             font-style: normal;
             font-weight: normal;
@@ -6552,16 +6550,16 @@ a.text-dark:focus, a.text-dark:hover {
             bottom: 0;
             right: 0;
             text-align: center; }
-        .ad2.grid .ad2-maincontainer .ad2-cont2 {
+        .postitem.grid .postitem-container .postitem-watchlist {
           position: absolute;
           right: 11px;
           top: 11px; }
-          .ad2.grid .ad2-maincontainer .ad2-cont2 .watchlist-set {
+          .postitem.grid .postitem-container .postitem-watchlist .watchlist-set {
             background: #fff;
             padding-left: 4px;
             padding-right: 4px;
             padding-bottom: 1px; }
-        .ad2.grid .ad2-maincontainer .ad2-cont3.banner {
+        .postitem.grid .postitem-container .postitem-newbanner {
           border: 0 solid rgba(0, 0, 0, 0.2);
           color: #fff;
           font-size: 12px;
@@ -6574,7 +6572,7 @@ a.text-dark:focus, a.text-dark:hover {
           top: 0px;
           transform: rotate(-35deg);
           -webkit-transform: rotate(-35deg); }
-        .ad2.grid .ad2-maincontainer .ad2-cont4.ad-title {
+        .postitem.grid .postitem-container .postitem-post-title {
           flex: 0 0 100%;
           max-width: 100%;
           font-size: 14px;
@@ -6582,7 +6580,7 @@ a.text-dark:focus, a.text-dark:hover {
           line-height: 1.1rem;
           max-height: 40px;
           height: 40px; }
-        .ad2.grid .ad2-maincontainer .ad2-cont5.ad-price {
+        .postitem.grid .postitem-container .postitem-price {
           position: absolute;
           font-size: 14px;
           text-shadow: 1px 1px 4px #000000;
@@ -6600,45 +6598,40 @@ a.text-dark:focus, a.text-dark:hover {
           border-top-right-radius: 15px;
           border-bottom-right-radius: 15px;
           z-index: 5; }
-        .ad2.grid .ad2-maincontainer .ad2-cont5-1.ad-type {
-          display: none;
-          text-align: right;
-          font-size: 14px;
-          margin-top: -3px; }
-        .ad2.grid .ad2-maincontainer .ad2-cont6.ad-description {
+        .postitem.grid .postitem-container .postitem-description {
           display: none; }
-        .ad2.grid .ad2-maincontainer .ad2-cont7.ad-date {
+        .postitem.grid .postitem-container .postitem-postdate {
           flex: 0 0 50%;
           max-width: 50%;
           font-size: 12px;
           font-style: italic;
           color: #495057; }
-        .ad2.grid .ad2-maincontainer .ad2-cont8.ad-location {
+        .postitem.grid .postitem-container .postitem-postlocation {
           flex: 0 0 50%;
           max-width: 50%;
           text-align: right;
           font-size: 12px;
           color: #495057; } }
   @media (min-width: 992px) {
-    .ad2.grid {
+    .postitem.grid {
       flex: 0 0 33.33333%;
       max-width: 33.33333%; } }
   @media (min-width: 1200px) {
-    .ad2.grid {
+    .postitem.grid {
       flex: 0 0 33.33333%;
       max-width: 33.33333%; } }
 
-.ad2.thumb {
+.postitem.thumb {
   position: relative;
   width: 100%;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px; }
   @media (min-width: 576px) {
-    .ad2.thumb {
+    .postitem.thumb {
       flex: 0 0 100%;
       max-width: 100%; }
-      .ad2.thumb .ad2-maincontainer {
+      .postitem.thumb .postitem-container {
         padding: 5px;
         background: #fff;
         overflow: hidden;
@@ -6646,10 +6639,10 @@ a.text-dark:focus, a.text-dark:hover {
         margin-bottom: 10px;
         -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
-        .ad2.thumb .ad2-maincontainer .ad2-cont1 {
+        .postitem.thumb .postitem-container .postitem-image-container {
           flex: 0 0 16.66667%;
           max-width: 16.66667%; }
-          .ad2.thumb .ad2-maincontainer .ad2-cont1 .ad-image {
+          .postitem.thumb .postitem-container .postitem-image-container .post-image {
             background-color: #ededed;
             background-repeat: no-repeat;
             background-position: center;
@@ -6657,7 +6650,7 @@ a.text-dark:focus, a.text-dark:hover {
             min-height: 77px;
             width: 100%;
             position: relative; }
-          .ad2.thumb .ad2-maincontainer .ad2-cont1 .ad-image.none:before {
+          .postitem.thumb .postitem-container .postitem-image-container .post-image.none:before {
             font-family: FontAwesome;
             font-style: normal;
             font-weight: normal;
@@ -6672,16 +6665,16 @@ a.text-dark:focus, a.text-dark:hover {
             bottom: 0;
             right: 0;
             text-align: center; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont2 {
+        .postitem.thumb .postitem-container .postitem-watchlist {
           position: absolute;
           right: 11px;
           top: 5px; }
-          .ad2.thumb .ad2-maincontainer .ad2-cont2 .watchlist-set {
+          .postitem.thumb .postitem-container .postitem-watchlist .watchlist-set {
             background: #fff;
             padding-left: 4px;
             padding-right: 4px;
             padding-bottom: 1px; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont3.banner {
+        .postitem.thumb .postitem-container .postitem-newbanner {
           border: 0 solid rgba(0, 0, 0, 0.2);
           color: #fff;
           font-size: 12px;
@@ -6695,7 +6688,7 @@ a.text-dark:focus, a.text-dark:hover {
           transform: rotate(-35deg);
           -webkit-transform: rotate(-35deg);
           z-index: 1; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont4.ad-title {
+        .postitem.thumb .postitem-container .postitem-post-title {
           flex: 0 0 33.33333%;
           max-width: 33.33333%;
           font-size: 14px;
@@ -6704,21 +6697,15 @@ a.text-dark:focus, a.text-dark:hover {
           padding-left: 5px;
           max-height: 40px;
           overflow: hidden; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont5.ad-price {
+        .postitem.thumb .postitem-container .postitem-price {
           position: absolute;
           font-weight: bold;
           font-size: 16px;
           left: 94px;
           bottom: 5px; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont5-1.ad-type {
-          position: absolute;
-          font-size: 14px;
-          left: 357px;
-          top: 2px;
+        .postitem.thumb .postitem-container .w-100 {
           display: none; }
-        .ad2.thumb .ad2-maincontainer .w-100 {
-          display: none; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont6.ad-description {
+        .postitem.thumb .postitem-container .postitem-description {
           flex: 0 0 50%;
           max-width: 50%;
           line-height: 1.3;
@@ -6728,21 +6715,21 @@ a.text-dark:focus, a.text-dark:hover {
           max-height: 77px;
           height: 77px;
           position: relative; }
-          .ad2.thumb .ad2-maincontainer .ad2-cont6.ad-description:before {
+          .postitem.thumb .postitem-container .postitem-description:before {
             background: #ededed;
             position: absolute;
             width: 2px;
             height: 76px;
             content: "";
             left: 2px; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont7.ad-date {
+        .postitem.thumb .postitem-container .postitem-postdate {
           position: absolute;
           font-size: 12px;
           font-style: italic;
           color: #495057;
           left: 211px;
           bottom: 5px; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont8.ad-location {
+        .postitem.thumb .postitem-container .postitem-postlocation {
           position: absolute;
           font-size: 12px;
           color: #495057;
@@ -6750,10 +6737,10 @@ a.text-dark:focus, a.text-dark:hover {
           bottom: 5px;
           text-align: right; } }
   @media (min-width: 992px) {
-    .ad2.thumb {
+    .postitem.thumb {
       flex: 0 0 100%;
       max-width: 100%; }
-      .ad2.thumb .ad2-maincontainer {
+      .postitem.thumb .postitem-container {
         padding: 5px;
         background: #fff;
         overflow: hidden;
@@ -6761,26 +6748,26 @@ a.text-dark:focus, a.text-dark:hover {
         margin-bottom: 10px;
         -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
-        .ad2.thumb .ad2-maincontainer .ad2-cont1 {
+        .postitem.thumb .postitem-container .postitem-image-container {
           flex: 0 0 16.66667%;
           max-width: 16.66667%; }
-          .ad2.thumb .ad2-maincontainer .ad2-cont1 .ad-image {
+          .postitem.thumb .postitem-container .postitem-image-container .post-image {
             background-color: #ededed;
             background-repeat: no-repeat;
             background-position: center;
             background-size: auto 100%;
             min-height: 77px;
             width: 100%; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont2 {
+        .postitem.thumb .postitem-container .postitem-watchlist {
           position: absolute;
           right: 11px;
           top: 5px; }
-          .ad2.thumb .ad2-maincontainer .ad2-cont2 .watchlist-set {
+          .postitem.thumb .postitem-container .postitem-watchlist .watchlist-set {
             background: #fff;
             padding-left: 4px;
             padding-right: 4px;
             padding-bottom: 1px; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont3.banner {
+        .postitem.thumb .postitem-container .postitem-newbanner {
           border: 0 solid rgba(0, 0, 0, 0.2);
           color: #fff;
           font-size: 12px;
@@ -6793,7 +6780,7 @@ a.text-dark:focus, a.text-dark:hover {
           top: 0px;
           transform: rotate(-35deg);
           -webkit-transform: rotate(-35deg); }
-        .ad2.thumb .ad2-maincontainer .ad2-cont4.ad-title {
+        .postitem.thumb .postitem-container .postitem-post-title {
           flex: 0 0 33.33333%;
           max-width: 33.33333%;
           font-size: 14px;
@@ -6802,21 +6789,15 @@ a.text-dark:focus, a.text-dark:hover {
           padding-left: 5px;
           max-height: 40px;
           overflow: hidden; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont5.ad-price {
+        .postitem.thumb .postitem-container .postitem-price {
           position: absolute;
           font-weight: bold;
           font-size: 16px;
           left: 124px;
           bottom: 5px; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont5-1.ad-type {
-          position: absolute;
-          font-size: 14px;
-          left: 357px;
-          top: 2px;
+        .postitem.thumb .postitem-container .w-100 {
           display: none; }
-        .ad2.thumb .ad2-maincontainer .w-100 {
-          display: none; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont6.ad-description {
+        .postitem.thumb .postitem-container .postitem-description {
           flex: 0 0 50%;
           max-width: 50%;
           line-height: 1.3;
@@ -6826,31 +6807,31 @@ a.text-dark:focus, a.text-dark:hover {
           max-height: 77px;
           height: 77px;
           position: relative; }
-          .ad2.thumb .ad2-maincontainer .ad2-cont6.ad-description:before {
+          .postitem.thumb .postitem-container .postitem-description:before {
             background: #ededed;
             position: absolute;
             width: 2px;
             height: 76px;
             content: "";
             left: -2px; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont7.ad-date {
+        .postitem.thumb .postitem-container .postitem-postdate {
           position: absolute;
           font-size: 12px;
           font-style: italic;
           color: #495057;
           left: 296px;
           bottom: 5px; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont8.ad-location {
+        .postitem.thumb .postitem-container .postitem-postlocation {
           position: absolute;
           font-size: 12px;
           color: #495057;
           left: 304px;
           bottom: 5px; } }
   @media (min-width: 1200px) {
-    .ad2.thumb {
+    .postitem.thumb {
       flex: 0 0 100%;
       max-width: 100%; }
-      .ad2.thumb .ad2-maincontainer {
+      .postitem.thumb .postitem-container {
         padding: 5px;
         background: #fff;
         overflow: hidden;
@@ -6858,10 +6839,10 @@ a.text-dark:focus, a.text-dark:hover {
         margin-bottom: 10px;
         -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
-        .ad2.thumb .ad2-maincontainer .ad2-cont1 {
+        .postitem.thumb .postitem-container .postitem-image-container {
           flex: 0 0 16.66667%;
           max-width: 16.66667%; }
-          .ad2.thumb .ad2-maincontainer .ad2-cont1 .ad-image {
+          .postitem.thumb .postitem-container .postitem-image-container .post-image {
             background-color: #ededed;
             background-repeat: no-repeat;
             background-position: center;
@@ -6869,16 +6850,16 @@ a.text-dark:focus, a.text-dark:hover {
             min-height: 77px;
             width: 100%;
             position: relative; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont2 {
+        .postitem.thumb .postitem-container .postitem-watchlist {
           position: absolute;
           right: 11px;
           top: 5px; }
-          .ad2.thumb .ad2-maincontainer .ad2-cont2 .watchlist-set {
+          .postitem.thumb .postitem-container .postitem-watchlist .watchlist-set {
             background: #fff;
             padding-left: 4px;
             padding-right: 4px;
             padding-bottom: 1px; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont3.banner {
+        .postitem.thumb .postitem-container .postitem-newbanner {
           border: 0 solid rgba(0, 0, 0, 0.2);
           color: #fff;
           font-size: 12px;
@@ -6891,7 +6872,7 @@ a.text-dark:focus, a.text-dark:hover {
           top: 0px;
           transform: rotate(-35deg);
           -webkit-transform: rotate(-35deg); }
-        .ad2.thumb .ad2-maincontainer .ad2-cont4.ad-title {
+        .postitem.thumb .postitem-container .postitem-post-title {
           flex: 0 0 33.33333%;
           max-width: 33.33333%;
           font-size: 14px;
@@ -6900,21 +6881,15 @@ a.text-dark:focus, a.text-dark:hover {
           padding-left: 5px;
           max-height: 40px;
           overflow: hidden; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont5.ad-price {
+        .postitem.thumb .postitem-container .postitem-price {
           position: absolute;
           font-weight: bold;
           font-size: 16px;
           left: 145px;
           bottom: 5px; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont5-1.ad-type {
-          position: absolute;
-          font-size: 14px;
-          left: 357px;
-          top: 2px;
+        .postitem.thumb .postitem-container .w-100 {
           display: none; }
-        .ad2.thumb .ad2-maincontainer .w-100 {
-          display: none; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont6.ad-description {
+        .postitem.thumb .postitem-container .postitem-description {
           flex: 0 0 50%;
           max-width: 50%;
           line-height: 1.3;
@@ -6924,38 +6899,38 @@ a.text-dark:focus, a.text-dark:hover {
           max-height: 77px;
           height: 77px;
           position: relative; }
-          .ad2.thumb .ad2-maincontainer .ad2-cont6.ad-description:before {
+          .postitem.thumb .postitem-container .postitem-description:before {
             background: #ededed;
             position: absolute;
             width: 2px;
             height: 76px;
             content: "";
             left: -2px; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont7.ad-date {
+        .postitem.thumb .postitem-container .postitem-postdate {
           position: absolute;
           font-size: 12px;
           font-style: italic;
           color: #495057;
           left: 361px;
           bottom: 5px; }
-        .ad2.thumb .ad2-maincontainer .ad2-cont8.ad-location {
+        .postitem.thumb .postitem-container .postitem-postlocation {
           position: absolute;
           font-size: 12px;
           color: #495057;
           left: 370px;
           bottom: 5px; } }
 
-.ad2.list {
+.postitem.list {
   position: relative;
   width: 100%;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px; }
   @media (min-width: 576px) {
-    .ad2.list {
+    .postitem.list {
       flex: 0 0 100%;
       max-width: 100%; }
-      .ad2.list .ad2-maincontainer {
+      .postitem.list .postitem-container {
         padding: 5px;
         background: #fff;
         overflow: hidden;
@@ -6963,17 +6938,17 @@ a.text-dark:focus, a.text-dark:hover {
         margin-bottom: 0px;
         -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
-        .ad2.list .ad2-maincontainer .ad2-cont1 {
+        .postitem.list .postitem-container .postitem-image-container {
           display: none; }
-        .ad2.list .ad2-maincontainer .ad2-cont2 {
+        .postitem.list .postitem-container .postitem-watchlist {
           position: absolute;
           right: 10px; }
-          .ad2.list .ad2-maincontainer .ad2-cont2 .watchlist-set {
+          .postitem.list .postitem-container .postitem-watchlist .watchlist-set {
             background: #fff;
             padding-left: 4px;
             padding-right: 4px;
             padding-bottom: 1px; }
-        .ad2.list .ad2-maincontainer .ad2-cont3.banner {
+        .postitem.list .postitem-container .postitem-newbanner {
           border: 0 solid rgba(0, 0, 0, 0.2);
           color: transparent;
           font-size: 10px;
@@ -6985,7 +6960,7 @@ a.text-dark:focus, a.text-dark:hover {
           top: 7px;
           transform: rotate(-90deg);
           -webkit-transform: rotate(-90deg); }
-        .ad2.list .ad2-maincontainer .ad2-cont4.ad-title {
+        .postitem.list .postitem-container .postitem-post-title {
           flex: 0 0 50%;
           max-width: 50%;
           font-size: 14px;
@@ -6996,54 +6971,52 @@ a.text-dark:focus, a.text-dark:hover {
           max-height: 24px;
           padding-top: 4px;
           padding-right: 10px; }
-        .ad2.list .ad2-maincontainer .ad2-cont5.ad-price {
+        .postitem.list .postitem-container .postitem-price {
           flex: 0 0 16.66667%;
           max-width: 16.66667%;
           font-weight: normal;
           font-size: 14px;
           height: 21px;
           padding-right: 10px; }
-        .ad2.list .ad2-maincontainer .ad2-cont5-1.ad-type {
+        .postitem.list .postitem-container .w-100 {
           display: none; }
-        .ad2.list .ad2-maincontainer .w-100 {
+        .postitem.list .postitem-container .postitem-description {
           display: none; }
-        .ad2.list .ad2-maincontainer .ad2-cont6.ad-description {
-          display: none; }
-        .ad2.list .ad2-maincontainer .ad2-cont7.ad-date {
+        .postitem.list .postitem-container .postitem-postdate {
           flex: 0 0 16.66667%;
           max-width: 16.66667%;
           font-size: 12px;
           font-style: italic;
           color: #495057;
           padding-top: 2px; }
-        .ad2.list .ad2-maincontainer .ad2-cont8.ad-location {
+        .postitem.list .postitem-container .postitem-postlocation {
           flex: 0 0 16.66667%;
           max-width: 16.66667%;
           font-size: 12px;
           color: #495057;
           padding-top: 2px; } }
-  .ad2.list:last-child {
+  .postitem.list:last-child {
     margin-bottom: 20px; }
 
-.ad2.cat-music .ad-image.none:before {
+.postitem.cat-music .post-image.none:before {
   content: "\f001"; }
 
-.ad2.cat-roomate .ad-image.none:before {
+.postitem.cat-roomate .post-image.none:before {
   content: "\f2b9"; }
 
-.ad2.cat-electronics .ad-image.none:before {
+.postitem.cat-electronics .post-image.none:before {
   content: "\f0e7"; }
 
-.ad2.cat-announcements .ad-image.none:before {
+.postitem.cat-announcements .post-image.none:before {
   content: "\f0a1"; }
 
-.ad2.cat-jobs .ad-image.none:before {
+.postitem.cat-jobs .post-image.none:before {
   content: "\f2b5"; }
 
-.ad2.cat-rideboard .ad-image.none:before {
+.postitem.cat-rideboard .post-image.none:before {
   content: "\f087"; }
 
-.ad2.cat-misc .ad-image.none:before {
+.postitem.cat-misc .post-image.none:before {
   content: "\f02c"; }
 
 .footer-menu {
@@ -7277,16 +7250,16 @@ fieldset .form-group:last-child {
     display: inline; }
   .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .btn.btn-link .short-name {
     display: none; } }
-.ad-detail .ad-body {
+.post-detail .post-details-body {
   padding: 20px;
   min-height: 400px;
   padding-top: 48px; }
-  .ad-detail .ad-body .ad-titlee {
+  .post-detail .post-details-body .post-detail-title {
     padding-top: 0px;
     margin-bottom: 10px; }
-    .ad-detail .ad-body .ad-titlee h3 {
+    .post-detail .post-details-body .post-detail-title h3 {
       margin-bottom: 0px; }
-  .ad-detail .ad-body .ad-close {
+  .post-detail .post-details-body .post-detail-close {
     font-size: 24px;
     color: #868e96;
     border: solid 1px #868e96;
@@ -7297,7 +7270,7 @@ fieldset .form-group:last-child {
     text-align: center;
     padding: 1px;
     width: 43px; }
-  .ad-detail .ad-body .ad-browse {
+  .post-detail .post-details-body .post-detail-browse {
     position: absolute;
     padding: 2px;
     top: 0px;
@@ -7308,24 +7281,24 @@ fieldset .form-group:last-child {
     width: 42px;
     text-align: center;
     display: none; }
-    .ad-detail .ad-body .ad-browse.prev {
+    .post-detail .post-details-body .post-detail-browse.prev {
       left: 0px;
       border-top-left-radius: 0px;
       border-bottom-left-radius: 0px; }
-    .ad-detail .ad-body .ad-browse.next {
+    .post-detail .post-details-body .post-detail-browse.next {
       right: 0px;
       border-top-right-radius: 0px;
       border-bottom-right-radius: 0px; }
-  .ad-detail .ad-body .ad-datelocation {
+  .post-detail .post-details-body .ad-datelocation {
     color: #495057; }
-    .ad-detail .ad-body .ad-datelocation .ad-datelocation-date {
+    .post-detail .post-details-body .ad-datelocation .ad-datelocation-date {
       font-style: italic;
       display: inline-block;
       padding-right: 5px; }
-    .ad-detail .ad-body .ad-datelocation .ad-datelocation-location {
+    .post-detail .post-details-body .ad-datelocation .ad-datelocation-location {
       display: inline-block;
       padding-left: 5px; }
-  .ad-detail .ad-body .ad-price {
+  .post-detail .post-details-body .ad-price {
     font-size: 1.25rem;
     text-shadow: 1px 1px 4px #000000;
     text-transform: capitalize;
@@ -7344,11 +7317,11 @@ fieldset .form-group:last-child {
     display: inline-block; }
 
 @media (min-width: 576px) {
-  .ad-detail .ad-body {
+  .post-detail .post-details-body {
     padding-top: 15px; }
-    .ad-detail .ad-body .ad-titlee {
+    .post-detail .post-details-body .post-detail-title {
       padding-right: 35px; }
-    .ad-detail .ad-body .ad-close {
+    .post-detail .post-details-body .post-detail-close {
       font-size: 18px;
       color: #868e96;
       border: solid 1px #868e96;
@@ -7359,7 +7332,7 @@ fieldset .form-group:last-child {
       width: 32px;
       height: 32px;
       text-align: center; }
-    .ad-detail .ad-body .ad-browse {
+    .post-detail .post-details-body .post-detail-browse {
       position: absolute;
       padding: 15px;
       top: 107px;
@@ -7367,9 +7340,9 @@ fieldset .form-group:last-child {
       background: #000;
       font-size: 24px;
       border: solid 1px #adb5bd; }
-      .ad-detail .ad-body .ad-browse.prev {
+      .post-detail .post-details-body .post-detail-browse.prev {
         left: -41px; }
-      .ad-detail .ad-body .ad-browse.next {
+      .post-detail .post-details-body .post-detail-browse.next {
         right: -41px; } }
 /* Slider */
 .slick-slider {
