@@ -9,7 +9,7 @@
                 <div class="post-detail-browse prev"><i class="fa fa-chevron-left" aria-hidden="true"></i><span class="sr-only">Previous Ad</span></div>
                 <div class="post-detail-browse next"><i class="fa fa-chevron-right" aria-hidden="true"></i><span class="sr-only">Next Ad</span></div>
                 <div class="post-detail-title">
-                    <h3 id="exampleModalLabel">Original Lacquer Mark VI Tenor Sax</h3>
+                    <h3 id="exampleModalLabel">Original Mark VI Tenor Sax</h3>
                 </div>
                 <hr>
                 <div class="your-class">
