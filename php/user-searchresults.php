@@ -21,7 +21,7 @@ $page_title = 'search_results';
                 <div class="col-3 main-nav d-none d-md-block">
                     <?php include('includes/user-nav.php') ?>
                 </div>
-                 <div class="col-xs-12 col-md-9 main-content-section" role="main">
+                <div class="col-xs-12 col-md-9 main-content-section" role="main">
                     <div class="row align-items-center section-head">
                         <div class="col-auto section-head-title">
                             <h2 class="">Search Results: 'iPhone' </h2>
@@ -35,10 +35,10 @@ $page_title = 'search_results';
                 </div>
             </div>
         </div>
+        <?php include('modals/modal-ad-detail.php') ?>
     </section>
     <?php include('includes/user-footer-menu.php') ?>
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
-
 </body>
 </html>

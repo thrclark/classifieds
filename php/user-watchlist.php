@@ -21,20 +21,20 @@ $page_title = 'cat_watchlist';
                 <div class="col-3 main-nav d-none d-md-block">
                     <?php include('includes/user-nav.php') ?>
                 </div>
-                 <div class="col-xs-12 col-md-9 main-content-section" role="main">
+                <div class="col-xs-12 col-md-9 main-content-section" role="main">
                     <div class="row align-items-center section-head">
                         <div class="col-auto section-head-title">
                             <h2 class="">My Watchlist</h2>
                         </div>
                         <div class="col-12">
-                           <?php include('includes/user-section-utilities.php') ?>
+                            <?php include('includes/user-section-utilities.php') ?>
                         </div>
                     </div>
                     <?php include('includes/user-ads-watchlist.php') ?>
                 </div>
             </div>
         </div>
-        <?php include('modals/modal-ad-detail2-1.php') ?>
+        <?php include('modals/modal-ad-detail.php') ?>
     </section>
     <?php include('includes/user-footer-menu.php') ?>
 </div>

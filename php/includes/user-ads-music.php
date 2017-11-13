@@ -1,6 +1,6 @@
 
 <div class="row">
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -20,7 +20,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -40,7 +40,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -59,7 +59,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -78,7 +78,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -101,7 +101,7 @@
         <div class="other-ads-content">Listings from other campuses</div>
         <hr>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -121,7 +121,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -140,7 +140,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -159,7 +159,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -178,7 +178,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -197,7 +197,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -216,7 +216,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -235,7 +235,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -254,7 +254,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -273,7 +273,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -292,7 +292,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -311,7 +311,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -330,7 +330,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -349,7 +349,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -368,7 +368,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-music">
+    <div class="ad2 grid cat-music"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">

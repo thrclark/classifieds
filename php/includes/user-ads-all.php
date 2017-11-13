@@ -1,6 +1,6 @@
 
 <div class="row">
-    <div class="ad2 grid cat-roomate" data-toggle="modal" data-target="#ad_detail1-1">
+    <div class="ad2 grid cat-roomate"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>
@@ -19,7 +19,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-roomate">
+    <div class="ad2 grid cat-roomate"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>
@@ -38,7 +38,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-rideboard">
+    <div class="ad2 grid cat-rideboard"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -58,7 +58,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-misc">
+    <div class="ad2 grid cat-misc"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -78,7 +78,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-electronics">
+    <div class="ad2 grid cat-electronics" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>
@@ -101,7 +101,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-announcements">
+    <div class="ad2 grid cat-announcements" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>
@@ -119,7 +119,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-electronics">
+    <div class="ad2 grid cat-electronics" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -139,7 +139,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-jobs">
+    <div class="ad2 grid cat-jobs" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>
@@ -157,7 +157,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-rideboard">
+    <div class="ad2 grid cat-rideboard" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>
@@ -176,7 +176,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-furniture">
+    <div class="ad2 grid cat-furniture" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -195,7 +195,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-misc">
+    <div class="ad2 grid cat-misc" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -215,7 +215,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-roomate">
+    <div class="ad2 grid cat-roomate" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>
@@ -233,7 +233,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-jobs">
+    <div class="ad2 grid cat-jobs" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>
@@ -251,7 +251,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-vehicles">
+    <div class="ad2 grid cat-vehicles" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -272,7 +272,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-announcements">
+    <div class="ad2 grid cat-announcements" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>
@@ -290,7 +290,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-roomate">
+    <div class="ad2 grid cat-roomate" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>
@@ -309,7 +309,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-misc">
+    <div class="ad2 grid cat-misc" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -341,7 +341,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-rideboard">
+    <div class="ad2 grid cat-rideboard" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>
@@ -359,7 +359,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-roomate">
+    <div class="ad2 grid cat-roomate" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -378,7 +378,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-misc">
+    <div class="ad2 grid cat-misc" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>
@@ -396,7 +396,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-vehicles">
+    <div class="ad2 grid cat-vehicles" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -415,7 +415,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-roomate">
+    <div class="ad2 grid cat-roomate" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>
@@ -433,7 +433,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-furniture">
+    <div class="ad2 grid cat-furniture" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -452,7 +452,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-electronics">
+    <div class="ad2 grid cat-electronics" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -471,7 +471,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-rideboard">
+    <div class="ad2 grid cat-rideboard" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>
@@ -489,7 +489,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-vehicles">
+    <div class="ad2 grid cat-vehicles" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -512,7 +512,7 @@ Run good on gas
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-electronics">
+    <div class="ad2 grid cat-electronics" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>
@@ -530,7 +530,7 @@ Run good on gas
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-rideboard">
+    <div class="ad2 grid cat-rideboard" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>
@@ -548,7 +548,7 @@ Run good on gas
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-misc">
+    <div class="ad2 grid cat-misc" data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1"> <div class="ad-image none" > </div>

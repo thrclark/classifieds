@@ -4,7 +4,7 @@
         <div class="other-ads-content">My current ads</div>
         <hr>
     </div>
-    <div class="ad2 grid cat-rideboard">
+    <div class="ad2 grid cat-rideboard"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -24,7 +24,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-electronics">
+    <div class="ad2 grid cat-electronics"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -52,7 +52,7 @@
         <div class="other-ads-content">My inactive ads</div>
         <hr>
     </div>
-    <div class="ad2 grid cat-vehicles">
+    <div class="ad2 grid cat-vehicles"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -71,7 +71,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-misc">
+    <div class="ad2 grid cat-misc"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
@@ -92,7 +92,7 @@
             </div>
         </div>
     </div>
-    <div class="ad2 grid cat-misc">
+    <div class="ad2 grid cat-misc"  data-toggle="modal" data-target="#ad_detail">
         <div class="ad2-maincontainer">
             <div class="ad2-row">
                 <div class="ad2-cont1">
