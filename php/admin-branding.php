@@ -1,0 +1,153 @@
+<?php 
+$section = '';
+$page_title = '';
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<?php include ('includes/head-meta.php') ?>
+<?php include('includes/admin-styles.php') ?>
+<style type="text/css">
+.btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
+	color: #868e96;
+	background-color: white;
+}
+</style>
+</head>
+<body>
+<?php include ('includes/custom-header.php') ?>
+<?php include('includes/admin-appheader.php') ?>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-3">
+            <?php include('includes/admin-nav.php') ?>
+        </div>
+        <div class="col-12 col-md-9">
+            <div class="main-content">
+                <div class="doc-header" style="    margin-bottom: 15px;">
+                    <div class="row">
+                        <div class="col-8 col-6-sm doc-title">
+                            <h2> Application Branding</h2>
+                        </div>
+                        <div class="col doc-controls text-right">
+                            <div id="help_toggle" class=""> Help: <a href="#" id="help_toggle_switch" style="display: inline;">on</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <table class="table table-sm table-actions tablesaw tablesaw-stack" data-tablesaw-mode="stack">
+                    <thead>
+                        <tr>
+                            <th class="w-50"> Name</th>
+                            <th class="w-50"> Value</th>
+                            <th><span class="d-md-none">Actions</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Application Logo Image (optional)
+                                <div class="small text-muted helper-text"> Select an image to be used as an application logo in the header.</div></td>
+                            <td><img src="../img/trident-large.png" style="height:70px; width:auto" alt=""/></td>
+                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#sadfasdfasdfasdfasdfasdfasdfasdfasdf">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>Application Title Display
+                                <div class="small text-muted helper-text">Choose whether or not to display the application name in the header</div></td>
+                            <td> displayed</td>
+                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#sadfasdfasdfasdfasdfasdfasdfasdfasdf">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>Primary Brand Color<div class="small text-muted helper-text">Choose the color to be used for the header background & accent colors.</div></td>
+                            <td> <div class="asdf" style="width: 24px;
+    height: 24px;
+    border: solid 1px #CCCCCC;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;"></div><span class="align-middle">#ffffff</span> </td>
+                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#sadfasdfasdfasdfasdfasdfasdfasdfasdf">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>Font Family for Headers
+                                <div class="small text-muted helper-text">Choose whether or not to display the application name in the header</div></td>
+                            <td> BentonSansBold</td>
+                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#sadfasdfasdfasdfasdfasdfasdfasdfasdf">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>Font Family for Body Text
+                                <div class="small text-muted helper-text">Choose whether or not to display the application name in the header</div></td>
+                            <td> BentonSans</td>
+                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#sadfasdfasdfasdfasdfasdfasdfasdfasdf">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>Custom Header HTML (optional)
+                                <div class="small text-muted helper-text">Specify optional HTML markup to be displayed at the top of the application vews.</div></td>
+                            <td><div class="code" style=" height:70px">
+                            <code>&lt;div id=&quot;custom_header&quot;&gt;
+                                &lt;div id=&quot;branding-bar&quot; itemscope=&quot;itemscope&quot; itemtype=&quot;http://schema.org/CollegeOrUniversity&quot; role=&quot;complementary&quot; aria-labelledby=&quot;iu-campus&quot; class=&quot;hidden-xs hidden-sm&quot;&gt;
+                                &lt;div class=&quot;container&quot;&gt;
+                                &lt;div class=&quot;row pad&quot;&gt;
+                                &lt;img src=&quot;https://sd-prd-images.s3.amazonaws.com/prd/test-uisapp2/20150702T0521167633961_trident-large.png&quot; alt=&quot;Indiana University Home Page&quot;&gt;
+                                &lt;p id=&quot;iu-campus&quot;&gt;
+                                &lt;a href=&quot;http://www.iu.edu&quot; title=&quot;Indiana University&quot;&gt;
+                                &lt;span itemprop=&quot;name&quot;&gt;Indiana University&lt;/span&gt;
+                                &lt;/a&gt;
+                                &lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt; &lt;/div&gt;</code></div></td>
+                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#sadfasdfasdfasdfasdfasdfasdfasdfasdf">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>Custom Footer HTML (optional)
+                                <div class="small text-muted helper-text">Specify optional HTML markup to be displayed at the bottom of the application vews.</div></td>
+                            <td><div class="code" style=" height:70px"> <code>&lt;footer role=&quot;contentinfo&quot;&gt;
+                                &lt;div class=&quot;container&quot;&gt;
+                                &lt;div class=&quot;row pad&quot;&gt;
+                                &lt;p class=&quot;tagline&quot;&gt;Fulfilling &lt;span&gt;the&lt;/span&gt; Promise&lt;/p&gt;
+                                &lt;img src=&quot;https://sd-prd-images.s3.amazonaws.com/prd/test-uisapp2/20150702T0521168403962_trident-small.png&quot; alt=&quot;Indiana University&quot;&gt;
+                                &lt;p class=&quot;copyright&quot;&gt;
+                                &lt;a href=&quot;http://www.iu.edu/copyright/index.shtml&quot; title=&quot;Copyright&quot;&gt;Copyright&lt;/a&gt; © 2017 &lt;span class=&quot;line-break&quot;&gt;The Trustees of &lt;a href=&quot;http://www.iu.edu/&quot; title=&quot;Indiana University&quot; itemprop=&quot;url&quot;&gt;&lt;span itemprop=&quot;name&quot;&gt;Indiana University&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
+                                &lt;/p&gt;
+                                &lt;p class=&quot;privacy&quot;&gt;&lt;a href=&quot;https://www.iu.edu/~espd/one/privacyStatement.html&quot; id=&quot;privacy-policy-link&quot; title=&quot;Privacy Policy&quot; target=&quot;_blank&quot;&gt;Privacy Notice&lt;/a&gt;
+                                &lt;/p&gt;&lt;/div&gt;
+                                &lt;/div&gt; &lt;/footer&gt;</code></div></td>
+                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#sadfasdfasdfasdfasdfasdfasdfasdfasdf">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>Custom  CSS (optional)
+                                <div class="small text-muted helper-text">Specify optional CSS markup that will style the HTML for the custom header and footer.</div></td>
+                            <td><div class="code" style=" height:70px"> <code>@font-face {
+                                    font-family: 'BentonSansRegular';
+                                    src: url(&quot;https://fonts.iu.edu/fonts/benton-sans-regular.eot&quot;);
+                                    src: url(&quot;https://fonts.iu.edu/fonts/benton-sans-regular.eot?#iefix&quot;) format(&quot;embedded-opentype&quot;), url(&quot;https://fonts.iu.edu/fonts/benton-sans-regular.woff&quot;) format(&quot;woff&quot;), url(&quot;https://fonts.iu.edu/fonts/benton-sans-regular.ttf&quot;) format(&quot;truetype&quot;), url(&quot;https://fonts.iu.edu/fonts/benton-sans-regular.svg#BentonSansRegular&quot;) format(&quot;svg&quot;);
+                                    font-style: normal;
+                                    font-weight: normal;
+                            </code> </div></td>
+                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#sadfasdfasdfasdfasdfasdfasdfasdfasdf">Edit</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+              
+            </div>
+        </div>
+    </div>
+</div>
+<?php include ('modals/modal-sysparam-appemail.php') ?>
+<?php include('includes/admin-footerscripts.php') ?>
+<script>
+    $(document).ready(function() {
+        $("#help_toggle").click(function() {
+            $("#help_toggle_switch").fadeOut(function() {
+                $("#help_toggle_switch").text(($("#help_toggle_switch").text() == 'off') ? 'on' : 'off').fadeIn();
+            })
+        })
+    });
+</script> 
+<script>
+    $("#help_toggle").click(function() {
+        $(".helper-text").fadeToggle();
+    });
+</script>
+</body>
+</html>

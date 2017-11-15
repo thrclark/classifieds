@@ -49,7 +49,7 @@
 </script>
 <script>
     $(document).ready(function() {
-        $(".postitem-post-title, .postitem-description, .postitem222222 .ad-price").dotdotdot({
+        $(".postitem-post-title, .postitem-description, .postitem222222 .ad-price, .code").dotdotdot({
             /*	The text to add as ellipsis. */
             ellipsis: '...',
 
