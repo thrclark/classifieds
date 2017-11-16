@@ -5,7 +5,7 @@
 <script src="../bower_components/filament-tablesaw/dist/tablesaw-init.js"></script>
 <script src="../js/jquery.dotdotdot.min.js"></script>
 <script src="../js/slick/slick.min.js"></script>
-
+<script src="../js/jscolor.js"></script>
 
 
 
@@ -149,3 +149,5 @@
         });
     });
 </script>
+
+
