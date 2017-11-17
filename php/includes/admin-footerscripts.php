@@ -5,7 +5,7 @@
 <script src="../bower_components/filament-tablesaw/dist/tablesaw-init.js"></script>
 <script src="../js/jquery.dotdotdot.min.js"></script>
 <script src="../js/slick/slick.min.js"></script>
-
+<script src="../js/jscolor.js"></script>
 
 
 
@@ -49,7 +49,7 @@
 </script>
 <script>
     $(document).ready(function() {
-        $(".postitem-post-title, .postitem-description, .postitem222222 .ad-price").dotdotdot({
+        $(".postitem-post-title, .postitem-description, .postitem222222 .ad-price, .code").dotdotdot({
             /*	The text to add as ellipsis. */
             ellipsis: '...',
 
@@ -149,3 +149,5 @@
         });
     });
 </script>
+
+
