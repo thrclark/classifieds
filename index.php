@@ -85,7 +85,6 @@ $page_title = '';
         </div>
     </div>
 </div>
-
 <div class="container" style="padding-top:4rem">
     <div class="row">
         <div class="col">
@@ -94,6 +93,7 @@ $page_title = '';
                 <li><a href="php/admin-template-index.php" target="_blank">Index Layout Template</a></li>
                 <li><a href="php/admin-template-form.php" target="_blank">Form Layout Template</a></li>
                 <li><a href="php/admin-sys-parameters.php" target="_blank">System Parameters</a></li>
+                <li><a href="php/admin-branding.php" target="_blank">Branding Configuration</a></li>
             </ul>
         </div>
     </div>

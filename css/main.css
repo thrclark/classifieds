@@ -4627,7 +4627,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   padding-top: 0.25rem !important;
   padding-bottom: 0.25rem !important; }
 
-.p-2 {
+.p-2, .imageuploader .imageuploader-controls, .imageuploader .imageuploader-images {
   padding: 0.5rem !important; }
 
 .pt-2 {
@@ -7543,5 +7543,30 @@ fieldset .form-group:last-child {
     .slick-dots li.slick-active button:before {
       color: black;
       opacity: 0.75; }
+
+.imageuploader {
+  border: solid 1px #ced4da; }
+  .imageuploader .imageuploader-controls {
+    background: #f8f9fa;
+    color: #868e96; }
+  .imageuploader .imageuploader-images .imageuploader-image {
+    position: relative;
+    display: inline-block; }
+    .imageuploader .imageuploader-images .imageuploader-image img {
+      max-height: 70px;
+      min-height: 36px;
+      width: auto; }
+    .imageuploader .imageuploader-images .imageuploader-image .deleteimage {
+      position: absolute;
+      background: #000;
+      top: -5px;
+      right: -7px;
+      border: solid 1px #ffffff;
+      color: white;
+      font-size: 10px;
+      padding: 0px;
+      padding-left: 4px;
+      padding-right: 4px;
+      border-radius: 9px; }
 
 /*# sourceMappingURL=main.css.map */

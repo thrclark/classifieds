@@ -1,3 +1,4 @@
+<p>&nbsp;</p>
 <div class="modal fade" id="pub_fontbody" tabindex="-1" role="dialog" aria-labelledby="pub_fontbody" aria-hidden="true">
     <div class="modal-dialog modal-default" role="document">
         <div class="modal-content">
@@ -84,7 +85,7 @@
                             <tbody>
                                 <tr>
                                     <td class="w-50"><input type="text" class="form-control" placeholder="Enter URL"></td>
-                                    <td class="w-50"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-required ng-touched" required="" aria-invalid="false">
+                                    <td class="w-50"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-required ng-touched" required aria-invalid="false">
                                             <option selected="">Select Type</option>
                                             <option label="Embedded OpenType" value="string:EMBEDDED_OPEN_TYPE">Embedded OpenType</option>
                                             <option label="OpenType" value="string:OPEN_TYPE">OpenType</option>

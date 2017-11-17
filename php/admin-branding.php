@@ -45,16 +45,28 @@ $page_title = '';
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Application Logo Image (optional)
+                            <td>Application Logo  (optional)
                                 <div class="small text-muted helper-text"> Select an image to be used as an application logo in the header.</div></td>
-                            <td><img src="../img/trident-large.png" style="height:70px; width:auto" alt=""/></td>
+                            <td><img src="../img/app-icon-generic.png" style="height:70px; width:auto" alt=""/></td>
                             <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_brandingimage">Edit</button></td>
                         </tr>
                         <tr>
-                            <td>Application Favicon Image (optional)
-                                <div class="small text-muted helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
-                            <td><img src="../img/favicon.png" width="16" height="16" alt=""/></td>
+                            <td> Favicon Icon (.ico)
+<div class="small text-muted helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
+                            <td><img src="../img/app-favicon-generic.png" width="16" height="16" alt=""/></td>
                             <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_favicon">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td> Favicon Image
+<div class="small text-muted helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
+                            <td><img src="../img/app-icon-generic.png" style="height:70px; width:auto" alt=""/></td>
+                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_faviconimage">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td> Apple Touch Image
+                                <div class="small text-muted helper-text"> Select an image to be displayed in iOS as a desktop bookmark.</div></td>
+                            <td><img src="../img/app-icon-generic.png" style="height:70px; width:auto" alt=""/></td>
+                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_appletouch">Edit</button></td>
                         </tr>
                         <tr>
                             <td>Application Title Display
@@ -139,6 +151,8 @@ $page_title = '';
 </div>
 <?php include ('modals/modal-pub-branding-image.php') ?>
 <?php include ('modals/modal-pub-branding-favicon.php') ?>
+<?php include ('modals/modal-pub-branding-faviconimage.php') ?>
+<?php include ('modals/modal-pub-branding-appletouch.php') ?>
 <?php include ('modals/modal-pub-branding-titledisplay.php') ?>
 <?php include ('modals/modal-pub-branding-color.php') ?>
 <?php include ('modals/modal-pub-branding-fontheader.php') ?>
