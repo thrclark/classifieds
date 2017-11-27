@@ -5,21 +5,21 @@ $page_title = 'search_results';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<?php include ('includes/head-meta.php') ?>
-<?php include('includes/user-styles.php') ?>
+<?php include('includes/all-head-meta.php') ?>
+<?php include('includes/main-styles.php') ?>
 </head>
 <body>
-<?php include('includes/user-mobiledrawer.php') ?>
+<?php include('includes/main-mobiledrawer.php') ?>
 <div id="main">
-    <?php include('includes/user-appheader.php') ?>
-    <?php include('includes/user-mobilepanel-search.php') ?>
-    <?php include('includes/user-mobilepanel-post.php') ?>
-    <?php include('includes/user-mobilepanel-categories.php') ?>
+    <?php include('includes/main-appheader.php') ?>
+    <?php include('includes/main-mobilepanel-search.php') ?>
+    <?php include('includes/main-mobilepanel-post.php') ?>
+    <?php include('includes/main-mobilepanel-categories.php') ?>
     <section class="main-content" style="display:">
         <div class="container">
             <div class="row">
                 <div class="col-3 main-nav d-none d-md-block">
-                    <?php include('includes/user-nav.php') ?>
+                    <?php include('includes/main-nav.php') ?>
                 </div>
                 <div class="col-xs-12 col-md-9 main-content-section" role="main">
                     <div class="row align-items-center section-head">
@@ -27,17 +27,17 @@ $page_title = 'search_results';
                             <h2 class="">Search Results: 'iPhone' </h2>
                         </div>
                         <div class="col-12">
-                            <?php include('includes/user-section-utilities.php') ?>
+                            <?php include('includes/main-section-utilities.php') ?>
                         </div>
                     </div>
-                    <?php include('includes/user-ads-searchresults.php') ?>
-                    <?php include('includes/user-pagination.php') ?>
+                    <?php include('includes/main-ads-searchresults.php') ?>
+                    <?php include('includes/main-pagination.php') ?>
                 </div>
             </div>
         </div>
-        <?php include('modals/modal-ad-detail.php') ?>
+        <?php include('modals/modal-main-ad-detail.php') ?>
     </section>
-    <?php include('includes/user-footer-menu.php') ?>
+    <?php include('includes/main-footer-menu.php') ?>
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
 </body>

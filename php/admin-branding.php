@@ -6,7 +6,7 @@ $page_title = '';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<?php include ('includes/head-meta.php') ?>
+<?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
 <style type="text/css">
 .btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
@@ -16,7 +16,7 @@ $page_title = '';
 </style>
 </head>
 <body>
-<?php include ('includes/custom-header.php') ?>
+<?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
 <div class="container">
     <div class="row">
@@ -149,17 +149,17 @@ $page_title = '';
         </div>
     </div>
 </div>
-<?php include ('modals/modal-pub-branding-image.php') ?>
-<?php include ('modals/modal-pub-branding-favicon.php') ?>
-<?php include ('modals/modal-pub-branding-faviconimage.php') ?>
-<?php include ('modals/modal-pub-branding-appletouch.php') ?>
-<?php include ('modals/modal-pub-branding-titledisplay.php') ?>
-<?php include ('modals/modal-pub-branding-color.php') ?>
-<?php include ('modals/modal-pub-branding-fontheader.php') ?>
-<?php include ('modals/modal-pub-branding-fontbody.php') ?>
-<?php include ('modals/modal-pub-branding-customcss.php') ?>
-<?php include ('modals/modal-pub-branding-customfooter.php') ?>
-<?php include ('modals/modal-pub-branding-customheader.php') ?>
+<?php include('modals/modal-admin-branding-image.php') ?>
+<?php include('modals/modal-admin-branding-favicon.php') ?>
+<?php include('modals/modal-admin-branding-faviconimage.php') ?>
+<?php include('modals/modal-admin-branding-appletouch.php') ?>
+<?php include('modals/modal-admin-branding-titledisplay.php') ?>
+<?php include('modals/modal-admin-branding-color.php') ?>
+<?php include('modals/modal-admin-branding-fontheader.php') ?>
+<?php include('modals/modal-admin-branding-fontbody.php') ?>
+<?php include('modals/modal-admin-branding-customcss.php') ?>
+<?php include('modals/modal-admin-branding-customfooter.php') ?>
+<?php include('modals/modal-admin-branding-customheader.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
     $(document).ready(function() {
