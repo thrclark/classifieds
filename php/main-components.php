@@ -5,8 +5,8 @@ $page_title = 'cat_all';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<?php include ('includes/head-meta.php') ?>
-<?php include('includes/user-styles.php') ?>
+<?php include('includes/all-head-meta.php') ?>
+<?php include('includes/main-styles.php') ?>
 <style>
 h2 {
 	font-size: 18px;

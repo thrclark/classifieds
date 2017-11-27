@@ -19,7 +19,7 @@
                             <label for="mainsearch" class="sr-only">Search</label>
                             <input type="text" class="form-control search-input" id="mainsearch" placeholder="">
                         </div>
-                        <div class="col-auto search-button text-right"> <a href="user-searchresults.php" class="btn"> <i class="fa fa-search" aria-hidden="true"></i> <span class="search-label d-none d-lg-inline">Search</span></a> </div>
+                        <div class="col-auto search-button text-right"> <a href="main-searchresults.php" class="btn"> <i class="fa fa-search" aria-hidden="true"></i> <span class="search-label d-none d-lg-inline">Search</span></a> </div>
                     </div>
                 </div>
             </div>

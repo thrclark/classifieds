@@ -36,11 +36,11 @@ $page_title = '';
         <div class="col">
             <h2 class="h3">IU 1</h2>
             <ul>
-                <li> <a href="php/user-home.php" target="_blank">Main View</a></li>
-                <li><a href="php/user-searchresults.php" target="_blank">Search Result</a></li>
-                <li><a href="php/user-myads.php">My Ads</a></li>
-                <li><a href="php/user-watchlist.php" target="_blank">My Watchlist</a></li>
-                <li><a href="php/user-music.php" target="_blank">Category View</a></li>
+                <li> <a href="php/main-home.php" target="_blank">Main View</a></li>
+                <li><a href="php/main-searchresults.php" target="_blank">Search Result</a></li>
+                <li><a href="php/main-myads.php">My Ads</a></li>
+                <li><a href="php/main-watchlist.php" target="_blank">My Watchlist</a></li>
+                <li><a href="php/main-music.php" target="_blank">Category View</a></li>
             </ul>
         </div>
         <div class="col">

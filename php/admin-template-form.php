@@ -6,7 +6,7 @@ $page_title = '';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<?php include ('includes/head-meta.php') ?>
+<?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
 <style type="text/css">
 .btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
@@ -16,7 +16,7 @@ $page_title = '';
 </style>
 </head>
 <body>
-<?php include ('includes/custom-header.php') ?>
+<?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
 <div class="container">
     <div class="row">
