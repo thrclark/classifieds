@@ -31,7 +31,7 @@ $page_title = 'search_results';
                         </div>
                     </div>
                     <?php include('includes/main-ads-searchresults.php') ?>
-                    <?php include('includes/main-pagination.php') ?>
+                    <?php include('includes/all-pagination.php') ?>
                 </div>
             </div>
         </div>
