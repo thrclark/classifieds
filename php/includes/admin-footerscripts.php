@@ -7,7 +7,7 @@
 <script src="../js/slick/slick.min.js"></script>
 <script src="../js/jscolor.js"></script>
 
-
+<script src="../js/bootstrap-maxlength.js"></script>	
 
 
 <script type="text/javascript">
