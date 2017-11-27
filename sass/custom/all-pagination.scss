@@ -30,8 +30,13 @@
 
     }
   }
-  .page-item.current {
+  .page-item.active {
      background: $gray-300;
+    .page-link {
+      color: $gray-900;
+      border-color: $gray-400;
+    }
+
   }
 
 }

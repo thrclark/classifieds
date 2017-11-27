@@ -4,7 +4,7 @@
         <li class="page-item"><a class="page-link" href="#">...</a></li>
         <li class="page-item "><a class="page-link" href="#">11</a></li>
         <li class="page-item"><a class="page-link" href="#">12</a></li>
-        <li class="page-item current"><a class="page-link" href="#">13</a></li>
+        <li class="page-item active"><a class="page-link" href="#">13</a></li>
         <li class="page-item"><a class="page-link" href="#">14</a></li>
         <li class="page-item"><a class="page-link" href="#">15</a></li>
         <li class="page-item"><a class="page-link" href="#">...</a></li>
