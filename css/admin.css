@@ -7221,8 +7221,11 @@ dialog .modal-content .modal-header .modal-title [class*='icon-'] {
 .pagination .page-item:last-child .page-link {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px; }
-.pagination .page-item.current {
+.pagination .page-item.active {
   background: #dee2e6; }
+  .pagination .page-item.active .page-link {
+    color: #212529;
+    border-color: #ced4da; }
 
 .imageuploader {
   border: solid 1px #ced4da; }

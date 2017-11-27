@@ -7180,8 +7180,11 @@ fieldset .form-group:last-child {
 .pagination .page-item:last-child .page-link {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px; }
-.pagination .page-item.current {
+.pagination .page-item.active {
   background: #dee2e6; }
+  .pagination .page-item.active .page-link {
+    color: #212529;
+    border-color: #ced4da; }
 
 .main-content .main-content-section .section-head {
   margin-bottom: 20px; }
