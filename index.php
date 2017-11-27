@@ -98,6 +98,17 @@ $page_title = '';
         </div>
     </div>
 </div>
+<div class="container" style="padding-top:4rem">
+    <div class="row">
+        <div class="col">
+            <h2 class="h3"> UI Components</h2>
+            <ul>
+                <li><a href="php/admin-components.php" target="_blank">Component styling - admin</a></li>
+                <li><a href="php/main-components.php" target="_blank">Component styling - main</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
 <div class="container">
     <hr>
     on <a href="https://github.com/thrclark/classifieds" target="_blank">Github</a></div>

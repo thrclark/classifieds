@@ -7208,6 +7208,22 @@ dialog .modal-content .modal-header .modal-title [class*='icon-'] {
 @media (min-width: 1200px) {
   .testbox {
     background: purple; } }
+.pagination .page-item .page-link {
+  background: transparent; }
+  .pagination .page-item .page-link:hover {
+    border-color: #ced4da;
+    background: #fff; }
+  .pagination .page-item .page-link:focus {
+    border-color: #ced4da; }
+.pagination .page-item:first-child .page-link {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px; }
+.pagination .page-item:last-child .page-link {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px; }
+.pagination .page-item.current {
+  background: #dee2e6; }
+
 .imageuploader {
   border: solid 1px #ced4da; }
   .imageuploader .imageuploader-controls {

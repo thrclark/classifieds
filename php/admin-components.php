@@ -6,7 +6,7 @@ $page_title = 'cat_all';
 <html lang="en">
 <head>
 <?php include('includes/all-head-meta.php') ?>
-<?php include('includes/main-styles.php') ?>
+<?php include('includes/admin-styles.php') ?>
 <style>
 h2 {
 	font-size: 18px;
@@ -16,7 +16,7 @@ h2 {
 </head>
 <body>
 <div id="main" >
-    <section class="mt-5" role="main">
+      <section class="mt-5" role="main">
         <div class="container">
             <h1>Classifieds UI Components</h1>
             <hr>

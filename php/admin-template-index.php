@@ -195,6 +195,9 @@ $page_title = '';
                     </tbody>
                 </table>
                 
+                    <?php include('includes/all-pagination.php') ?>
+                    
+                
                 <!-- <div class="testbox">asdf</div>--> 
             </div>
         </div>

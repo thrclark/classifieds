@@ -31,7 +31,7 @@ $page_title = 'cat_music';
                         </div>
                     </div>
                     <?php include('includes/main-ads-music.php') ?>
-                    <?php include('includes/main-pagination.php') ?>
+                    <?php include('includes/all-pagination.php') ?>
                 </div>
             </div>
         </div>
