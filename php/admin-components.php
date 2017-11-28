@@ -20,6 +20,21 @@ $page_title = 'cat_all';
         <div class="container">
             <h1 class="mb-5">Classifieds UI Components</h1>
             <div class="card border-light mb-5">
+                <div class="card-header"> Button Progress Messaging</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <button type="button" class="btn btn-primary	" id="ButtonProgressDemo"><span class="btn-label">Click Me</span></button>
+                        </div>
+                        <div class="col-12"> <small>HTML</small>
+                            <pre data-src="components/buttonprogress.html" class="language-html"></pre>
+                            <small>JS</small>
+                            <pre data-src="components/buttonprogress-js.html" class="language-js"></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-light mb-5">
                 <div class="card-header">Character Count Constraint</div>
                 <div class="card-body">
                     <div class="row">
@@ -33,8 +48,14 @@ $page_title = 'cat_all';
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" maxlength="30" placeholder="type anything here"></textarea>
                             </div>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12"> <small>HTML</small>
                             <pre data-src="components/counter.html" class="language-html"></pre>
+                            
+                            
+                            <small>JS</small>
+                            <pre data-src="components/counter-js.html" class="language-js"></pre>
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -96,7 +117,7 @@ $page_title = 'cat_all';
                                 </ul>
                             </nav>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12"> <small>HTML</small>
                             <pre data-src="components/pagination.html" class="language-html"></pre>
                         </div>
                     </div>
@@ -116,7 +137,7 @@ $page_title = 'cat_all';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12"> <small>HTML</small>
                             <pre data-src="components/imageuploader.html" class="language-html"></pre>
                         </div>
                     </div>
@@ -134,6 +155,16 @@ $page_title = 'cat_all';
 			warningClass: "badge badge-success counter",
             limitReachedClass: "badge badge-danger counter",
 			placement: 'bottom',
+        });
+    });
+</script> 
+<script>
+    $(document).ready(function() {
+        $("#ButtonProgressDemo").click(function() {
+            $("#ButtonProgressDemo").toggleClass("btn-progress");
+            $(".btn-label").fadeOut("fast",function() {
+                $(".btn-label").text(($(".btn-label").text() == 'Saving...') ? 'Click Me' : 'Saving...').fadeIn(200);
+            })
         });
     });
 </script>
