@@ -103,8 +103,8 @@ $page_title = '';
         <div class="col">
             <h2 class="h3"> UI Components</h2>
             <ul>
-                <li><a href="php/admin-components.php" target="_blank">Component styling - admin</a></li>
-                <li><a href="php/main-components.php" target="_blank">Component styling - main</a></li>
+                <li><a href="php/main-components.php" target="_blank">Component styling (main.css)</a></li>
+                <li><a href="php/admin-components.php" target="_blank">Component styling (admin.css)</a></li>
             </ul>
         </div>
     </div>

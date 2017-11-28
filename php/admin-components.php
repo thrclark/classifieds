@@ -9,14 +9,14 @@ $page_title = 'cat_all';
 <?php include('includes/admin-styles.php') ?>
 <style>
 h2 {
-	font-size: 18px;
+	font-size: 24px;
 	margin-bottom: 20px;
 }
 </style>
 </head>
-<body>
+<body style="background:#FFFFFF">
 <div id="main" >
-      <section class="mt-5" role="main">
+    <section class="mt-5" role="main">
         <div class="container">
             <h1>Classifieds UI Components</h1>
             <hr>
@@ -90,6 +90,28 @@ h2 {
                     </nav>
                 </div>
             </div>
+            
+            
+              <hr>
+            
+                        <h2 >Image Uploader</h2>
+            <div class="row">
+                <div class="col-6">
+                   
+                   
+                   <div class="imageuploader">
+                        <div class="imageuploader-controls"> <span class="btn btn-outline-secondary btn-sm mr-2">Upload image</span> or drop image here</div>
+                        <div class="imageuploader-images">
+                            <div class="imageuploader-image"><img src="../img/trident-large.png" alt="">
+                                <div class="deleteimage"><i class="fa fa-close" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                   
+                </div>
+            </div>
+            <hr>
         </div>
     </section>
 </div>
