@@ -52,13 +52,13 @@ $page_title = '';
                         </tr>
                         <tr>
                             <td> Favicon Icon (.ico)
-<div class="small text-muted helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
+                                <div class="small text-muted helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
                             <td><img src="../img/app-favicon-generic.png" width="16" height="16" alt=""/></td>
                             <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_favicon">Edit</button></td>
                         </tr>
                         <tr>
                             <td> Favicon Image
-<div class="small text-muted helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
+                                <div class="small text-muted helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
                             <td><img src="../img/app-icon-generic.png" style="height:70px; width:auto" alt=""/></td>
                             <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_faviconimage">Edit</button></td>
                         </tr>
@@ -147,6 +147,7 @@ $page_title = '';
                 </table>
             </div>
         </div>
+        w
     </div>
 </div>
 <?php include('modals/modal-admin-branding-image.php') ?>
@@ -210,6 +211,17 @@ $page_title = '';
 
         });
     }); //]]>
+</script> 
+<script>
+ $(document).ready(function() {
+     $(".btn-progressable").click(function() {
+         $(".btn-progressable").toggleClass("btn-progress");
+         $(".btn-label").fadeOut("fast", function() {
+             $(".btn-label").text(($(".btn-label").text() == 'Saving...') ? 'Save' : 'Saving...').fadeIn(200);
+         })
+     });
+ });
+
 </script>
 </body>
 </html>
