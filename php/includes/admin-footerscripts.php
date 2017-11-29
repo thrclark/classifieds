@@ -10,24 +10,22 @@
 <script src="../js/bootstrap-maxlength.js"></script>	
 
 
+<script>
+$(".menu-trigger").click(function(){
+    $("#UserAccess").addClass("display");
+});
+$(".closebtn").click(function(){
+    $("#UserAccess").removeClass("display");
+});
+</script>
+
+
 <script type="text/javascript">
     $(function() {
         $("#mainsearch").focus();
-    });
+    });	
 </script>
-<script>
-    function openNav() {
-        if (window.innerWidth < 560) {
-            document.getElementById("UserAccess").style.width = "80%";
-        } else {
-            document.getElementById("UserAccess").style.width = "40%";
-        }
-    }
 
-    function closeNav() {
-        document.getElementById("UserAccess").style.width = "0";
-    }
-</script>
 <script>
     $(document).ready(function() {
         $(".toggle_mobilesearch").click(function() {

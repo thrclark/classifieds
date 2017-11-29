@@ -1,43 +1,42 @@
 .user-access {
-  height: 100%;
-  width: 0;
-  position: fixed;
   z-index: 15;
-  top: 0;
-  right: 0;
-  background-color: #111;
-  overflow-x: hidden;
+  background-color: $white;
   transition: 0.5s;
-  padding-top: 60px;
-}
-.user-access a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 1.2rem;
-  color: #ddd;
-  display: block;
-  transition: 0.3s;
-}
-.user-access a:hover {
-  color: #f1f1f1;
-}
-.user-access .closebtn {
   position: absolute;
-  top: -14px;
-  right: 15px;
-  font-size: 2.2rem;
-  margin-left: 50px;
-}
-#main {
-  transition: margin-left .5s;
+  width: 100%;
+  top: -300px;
+  padding-bottom: 45px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  &.display {
+    top: 43px;
+  }
+  .container {
+    position: relative;
+    .closebtn {
+      position: absolute;
+      top: -37px;
+      right: 19px;
+      font-size: 2.1rem;
+      background: #fff;
+      width: 36px;
+      height: 38px;
+      text-align: center;
+      border: solid 1px #bfbfbf;
+      border-bottom: none;
+      line-height: .2;
+      border-radius: 0px;
+    }
+    a {
+      padding: 10px 8px 10px 0px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: #22252a;
+      display: block;
+      transition: 0.3s;
+      border-bottom: solid 1px #e0dddd;
+
+    }
+  }
 }
 
-@media screen and (max-height: 450px) {
-  .user-access {
-    padding-top: 15px;
-  }
-  .user-access a {
-    font-size: 18px;
-  }
 
-}
