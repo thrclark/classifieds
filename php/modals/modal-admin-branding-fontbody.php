@@ -109,7 +109,7 @@
             
               <div class="modal-footer">
                     <button type="button" class="btn btn-outline-secondary">Cancel</button>
-                    <button type="button" class="btn btn-primary">Save</button>
+                     <button type="button" class="btn btn-primary btn-progressable" id=""> <span class="btn-label">Save</span> </button>
                 </div>
                 
         </div>
