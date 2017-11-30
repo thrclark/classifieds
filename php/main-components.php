@@ -24,27 +24,76 @@ $page_title = 'cat_all';
                 <div class="card-body">
                     <div class="row">
                         <div class="col-6 mb-3">
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> Launch demo modal </button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1"> Default </button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2"> w/Text Blocks </button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3"> w/Form Fields </button>
+                            <!--Modals-->
                             
-                            <!--Modal-->
-                            
-                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
+                            <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModal1" aria-hidden="true">
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title" id="exampleModalLabel">Modal title</h1>
+                                            <h3 class="modal-title" id="exampleModal1Label">Modal title</h3>
                                             <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close" style=""> <span aria-hidden="true"> <i class="fa fa-close" aria-hidden="true"></i> </span> </button>
                                         </div>
-                                        <div class="modal-body"> asdf asdfasdfasdfasdfasdfasdf </div>
+                                        <div class="modal-body">
+                                            <p>Well, hello there.</p>
+                                        </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                            <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+                                            <button type="button" class="btn btn-primary">Action</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModal2" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title" id="exampleModal2Label">Modal title</h3>
+                                            <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close" style=""> <span aria-hidden="true"> <i class="fa fa-close" aria-hidden="true"></i> </span> </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>In friendship diminution instrument so. Son sure paid door with say them. Two among sir sorry men court. Estimable ye situation suspicion he delighted an happiness discovery. Fact are size cold why had part. If believing or sweetness otherwise in we forfeited. Tolerably an unwilling arranging of determine. Beyond rather sooner so if up wishes or. </p>
+                                            <dl class="row">
+                                                <dt class="col-12">Description</dt>
+                                                <dd class="col-12">So feel been kept be at gate. Be september it extensive oh concluded of certainty. In read most gate at body held it ever no.</dd>
+                                                <dt class="col-12">Short</dt>
+                                                <dd class="col-12">Very short indeed.</dd>
+                                                <dt class="col-12">Long Description</dt>
+                                                <dd class="col-12">Up branch to easily missed by do. Admiration considered acceptance too led one melancholy expression. Are will took form the nor true. Winding enjoyed minuter her letters evident use eat colonel. He attacks observe mr cottage inquiry am examine gravity. Are dear but near left was. Year kept on over so as this of. She steepest doubtful betrayed formerly him. Active one called uneasy our seeing see cousin tastes its. Ye am it formed indeed agreed relied piqued. Not him old music think his found enjoy merry. Listening acuteness dependent at or an. Apartments thoroughly unsatiable terminated  how themselves. She are ten hours wrong walls stand early. Domestic perceive on an ladyship extended received do. Why jennings our whatever his learning gay perceive. Is against no he without subject. Bed connection unreserved preference partiality not unaffected. Years merit trees so think in hoped we as. .</dd>
+                                            </dl>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+                                            <button type="button" class="btn btn-primary">Action</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title" id="exampleModal3Label">Modal title</h3>
+                                            <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close" style=""> <span aria-hidden="true"> <i class="fa fa-close" aria-hidden="true"></i> </span> </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="form-group">
+                                                <label class="control-label" for="appemail"> Text area </label>
+                                                <small id="textfieldHelp" class="form-text text-muted">Instructional text for this text area.</small>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" maxlength="40"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+                                            <button type="button" class="btn btn-primary">Action</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             
-                            <!-- End Modal--> 
+                            <!-- End Modals--> 
                             
                         </div>
                         <div class="col-12"> <small>HTML</small>

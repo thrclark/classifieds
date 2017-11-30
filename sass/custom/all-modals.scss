@@ -7,8 +7,8 @@
         }
         .modal-close {
           font-size: 18px;
-          color: $gray-600;
-          border: solid 1px $gray-600;
+          color: $gray-700;
+          border: solid 1px $gray-700;
           position: absolute;
           right: 15px;
           top: 15px;
@@ -16,6 +16,10 @@
           width: 32px;
           height: 32px;
           text-align: center;
+          &:hover {
+            color: $gray-900;
+            border: solid 1px $gray-900;
+          }
         }
 
       }
