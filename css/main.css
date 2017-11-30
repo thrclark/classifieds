@@ -327,7 +327,7 @@ template {
   display: none !important; }
 
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+.h1, .h2, .h3, .modal .modal-dialog .modal-content .modal-header .modal-title, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 500;
@@ -340,7 +340,7 @@ h1, .h1 {
 h2, .h2 {
   font-size: 2rem; }
 
-h3, .h3 {
+h3, .h3, .modal .modal-dialog .modal-content .modal-header .modal-title {
   font-size: 1.75rem; }
 
 h4, .h4 {
@@ -7577,5 +7577,17 @@ fieldset .form-group:last-child {
   animation: progress-bar-stripes 1s linear infinite;
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 1rem 1rem; }
+
+.modal .modal-dialog .modal-content .modal-header .modal-close {
+  font-size: 18px;
+  color: #868e96;
+  border: solid 1px #868e96;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
