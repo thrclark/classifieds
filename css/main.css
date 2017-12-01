@@ -6490,6 +6490,9 @@ a.text-dark:focus, a.text-dark:hover {
         padding-left: 4px;
         padding-right: 4px;
         padding-bottom: 1px; }
+        .postitem.mobile .postitem-container .postitem-watchlist .watchlist-set .btn-link {
+          padding: 0px;
+          margin-top: -3px; }
     .postitem.mobile .postitem-container .postitem-newbanner {
       border: 0 solid rgba(0, 0, 0, 0.2);
       color: #fff;
@@ -6706,6 +6709,9 @@ a.text-dark:focus, a.text-dark:hover {
             padding-left: 4px;
             padding-right: 4px;
             padding-bottom: 1px; }
+            .postitem.thumb .postitem-container .postitem-watchlist .watchlist-set .btn-link {
+              padding: 0px;
+              margin-top: -3px; }
         .postitem.thumb .postitem-container .postitem-newbanner {
           border: 0 solid rgba(0, 0, 0, 0.2);
           color: #fff;
@@ -6799,6 +6805,9 @@ a.text-dark:focus, a.text-dark:hover {
             padding-left: 4px;
             padding-right: 4px;
             padding-bottom: 1px; }
+            .postitem.thumb .postitem-container .postitem-watchlist .watchlist-set .btn-link {
+              padding: 0px;
+              margin-top: -3px; }
         .postitem.thumb .postitem-container .postitem-newbanner {
           border: 0 solid rgba(0, 0, 0, 0.2);
           color: #fff;
@@ -6891,6 +6900,9 @@ a.text-dark:focus, a.text-dark:hover {
             padding-left: 4px;
             padding-right: 4px;
             padding-bottom: 1px; }
+            .postitem.thumb .postitem-container .postitem-watchlist .watchlist-set .btn-link {
+              padding: 0px;
+              margin-top: -3px; }
         .postitem.thumb .postitem-container .postitem-newbanner {
           border: 0 solid rgba(0, 0, 0, 0.2);
           color: #fff;
@@ -6980,6 +6992,9 @@ a.text-dark:focus, a.text-dark:hover {
             padding-left: 4px;
             padding-right: 4px;
             padding-bottom: 1px; }
+            .postitem.list .postitem-container .postitem-watchlist .watchlist-set .btn-link {
+              padding: 0px;
+              margin-top: -3px; }
         .postitem.list .postitem-container .postitem-newbanner {
           border: 0 solid rgba(0, 0, 0, 0.2);
           color: transparent;
