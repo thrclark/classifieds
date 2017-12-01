@@ -23,6 +23,9 @@ $page_title = 'cat_all';
                 <div class="card-header">Modals</div>
                 <div class="card-body">
                     <div class="row">
+                        <div class="col-12">
+                            <p>Note - the modal header has been incorporated into the brand color theming framework. When a specific brand color is selected, the modal header background color will change accordingly.</p>
+                        </div>
                         <div class="col-6 mb-3">
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1"> Default </button>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2"> w/Text Blocks </button>

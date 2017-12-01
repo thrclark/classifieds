@@ -21,5 +21,5 @@
             <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">Vehicles </a></li>
         </ul>
     </nav>
-    <div class="post-nav-links"><a href="#"> Ads Policy</a> | <a href="#">Admin</a></div>
+    <div class="post-nav-links"><a href="#" data-toggle="modal" data-target="#adspolicy"> Ads Policy</a> | <a href="#">Admin</a></div>
 </div>

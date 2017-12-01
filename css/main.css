@@ -6079,17 +6079,49 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
-.brand-text, .app-header .post .btn, .user-ads .menu-trigger .fa {
+.modal .modal-dialog .modal-content .modal-header {
+  padding-top: 10px;
+  padding-bottom: 5px; }
+  .modal .modal-dialog .modal-content .modal-header .modal-title {
+    padding-right: 40px; }
+  .modal .modal-dialog .modal-content .modal-header .modal-close {
+    font-size: 18px;
+    color: #495057;
+    border: solid 1px #495057;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-align: center; }
+    .modal .modal-dialog .modal-content .modal-header .modal-close:hover {
+      color: #212529;
+      border: solid 1px #212529; }
+.modal .modal-dialog .modal-content .modal-footer {
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+.brand-text,
+.app-header .post .btn,
+.user-ads .menu-trigger .fa,
+.modal .modal-dialog .modal-content .modal-header .modal-title,
+.modal .modal-dialog .modal-content .modal-header .modal-close {
   color: #343a40; }
 
 .app-header .post .btn:hover {
   color: #343a40; }
 
-.app-header .post .btn {
+.app-header .post .btn,
+.modal .modal-dialog .modal-content .modal-header .modal-close {
   border-color: #343a40; }
 
 .search .search-container .search-button .btn {
   background: #343a40; }
+
+.modal .modal-dialog .modal-content .modal-header,
+.modal .modal-dialog .modal-content .modal-header .modal-close {
+  background: #fff; }
 
 .app-header .container .row .search .search-container {
   border-color: #343a40; }
@@ -7570,20 +7602,5 @@ fieldset .form-group:last-child {
   animation: progress-bar-stripes 1s linear infinite;
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 1rem 1rem; }
-
-.modal .modal-dialog .modal-content .modal-header .modal-close {
-  font-size: 18px;
-  color: #495057;
-  border: solid 1px #495057;
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  text-align: center; }
-  .modal .modal-dialog .modal-content .modal-header .modal-close:hover {
-    color: #212529;
-    border: solid 1px #212529; }
 
 /*# sourceMappingURL=main.css.map */
