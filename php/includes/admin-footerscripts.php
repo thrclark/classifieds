@@ -6,6 +6,7 @@
 <script src="../js/jquery.dotdotdot.min.js"></script>
 <script src="../js/slick/slick.min.js"></script>
 <script src="../js/jscolor.js"></script>
+<<<<<<< HEAD
 
 <script src="../js/bootstrap-maxlength.js"></script>	
 
@@ -20,6 +21,20 @@ $(".closebtn").click(function(){
 </script>
 
 
+=======
+<script src="../js/jquery.sticky.js"></script>
+<script src="../js/bootstrap-maxlength.js"></script>
+<script>
+  $(document).ready(function(){
+    $(".app-header").sticky({topSpacing:0});
+  });
+  
+  $(document).ready(function(){
+    $("#mainNav").sticky({topSpacing:90});
+  });
+  
+</script>
+>>>>>>> master
 <script type="text/javascript">
     $(function() {
         $("#mainsearch").focus();
@@ -131,10 +146,6 @@ $(".closebtn").click(function(){
         });
     });
 </script>
-
-
-
-
 <script type="text/javascript">
     $(document).ready(function() {
         $(".postitem").click(function() {
@@ -147,5 +158,3 @@ $(".closebtn").click(function(){
         });
     });
 </script>
-
-

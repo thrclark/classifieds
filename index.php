@@ -37,6 +37,7 @@ $page_title = '';
             <h2 class="h3">IU 1</h2>
             <ul>
                 <li> <a href="php/main-home.php" target="_blank">Main View</a></li>
+                 <li> <a href="php/main-home-customheader.php" target="_blank">Main View w/ custom header</a></li>
                 <li><a href="php/main-searchresults.php" target="_blank">Search Result</a></li>
                 <li><a href="php/main-myads.php">My Ads</a></li>
                 <li><a href="php/main-watchlist.php" target="_blank">My Watchlist</a></li>
