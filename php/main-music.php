@@ -15,7 +15,7 @@ $page_title = 'cat_music';
     <?php include('includes/main-mobilepanel-search.php') ?>
     <?php include('includes/main-mobilepanel-post.php') ?>
     <?php include('includes/main-mobilepanel-categories.php') ?>
-     <section class="main-content pt-3" role="main">
+    <section class="main-content pt-3" role="main">
         <div class="container">
             <div class="row">
                 <div class="col-3 main-nav d-none d-md-block">
@@ -36,6 +36,7 @@ $page_title = 'cat_music';
             </div>
         </div>
         <?php include('modals/modal-main-ad-detail.php') ?>
+        <?php include('modals/modal-policy.php') ?>
     </section>
     <?php include('includes/main-footer-menu.php') ?>
 </div>

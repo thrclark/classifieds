@@ -10,14 +10,19 @@ $theme-header-background: #ffffff;
 		@return $white;
 	}
 }
-.brand-text, .app-header .post .btn, .user-ads .menu-trigger .fa {
+.brand-text,
+.app-header .post .btn,
+.user-ads .menu-trigger .fa,
+.modal .modal-dialog .modal-content .modal-header .modal-title,
+.modal .modal-dialog .modal-content .modal-header .modal-close {
 	color: set-header-text-color($theme-header-background);
 }
 
 .app-header .post .btn:hover {
 	color: set-header-text-color($theme-header-background);
 }
-.app-header .post .btn {
+.app-header .post .btn,
+.modal .modal-dialog .modal-content .modal-header .modal-close {
 	border-color: set-header-text-color($theme-header-background);
 }
 @function set-searchbutton-color($color) {
@@ -28,8 +33,22 @@ $theme-header-background: #ffffff;
 		@return $theme-header-background;
 	}
 }
-.search .search-container .search-button .btn {
+.search .search-container .search-button .btn,
+ {
 	background: set-searchbutton-color($theme-header-background);
+}
+@function set-modalheader-background($color) {
+	@if (lightness($color) > 50) {
+		@return $white;
+	}
+	@else {
+		@return $theme-header-background;
+	}
+}
+.modal .modal-dialog .modal-content .modal-header,
+.modal .modal-dialog .modal-content .modal-header .modal-close
+{
+	background: set-modalheader-background($theme-header-background);
 }
 @function set-searchcontainer-bordercolor($color) {
 	@if (lightness($color) > 50) {
