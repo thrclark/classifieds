@@ -18,6 +18,17 @@
   });
   
 </script>
+
+<script>
+$(".menu-trigger").click(function(){
+    $("#UserAccess").addClass("display");
+});
+$(".closebtn").click(function(){
+    $("#UserAccess").removeClass("display");
+});
+</script>
+
+
 <script type="text/javascript">
     $(function() {
         $("#mainsearch").focus();
