@@ -11,7 +11,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/ride1.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
+                    <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
                 <div class="postitem-newbanner">New </div>
                 <div class="postitem-post-title">Oct 6. Ride to Northwest Indiana </div> <div class="postitem-price">$25</div>
@@ -28,7 +28,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
+                    <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
                 <div class="postitem-newbanner">New </div>
                 <div class="postitem-post-title">Downsizing Sale - Games/Electronics/Bike Basket/Home </div> <div class="postitem-price">Varies</div>
