@@ -33,7 +33,7 @@ $theme-header-background: #ffffff;
 		@return $theme-header-background;
 	}
 }
-.search .search-container .search-button .btn,
+.search .search-container .search-button .btn
  {
 	background: set-searchbutton-color($theme-header-background);
 }
