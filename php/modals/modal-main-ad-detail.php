@@ -39,7 +39,7 @@
                     <dt class="col-sm-12">Email</dt>
                     <dd class="col-sm-12"><a href="mailto:thrclark@iu.edu">thrclark@iu.edu</a></dd>
                     <dt class="col-sm-12">Actions</dt>
-                    <dd class="col-sm-12"> <a href="#" class="btn btn-outline-secondary btn-sm"><i class="fa fa-envelope-o" aria-hidden="true"></i> Share Ad</a> <a href="#" class="btn btn-outline-secondary btn-sm"><i class="fa fa-heart-o" aria-hidden="true"></i> Add to Watchlist</a> </dd>
+                    <dd class="col-sm-12"> <a href="#" class="btn btn-outline-secondary btn-sm"><i class="fa fa-envelope-o" aria-hidden="true"></i> Share Ad</a> <a href="#" class="btn btn-outline-secondary btn-sm"><i class="fa fa-star-o" aria-hidden="true"></i> Add to Watchlist</a> </dd>
                 </dl>
             </div>
         </div>
