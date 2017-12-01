@@ -1,3 +1,8 @@
+<style type="text/css">
+.fa.fa-star {
+	color: red;
+}
+</style>
 
 <div class="row">
     <div class="postitem grid cat-roomate"  data-toggle="modal" data-target="#post_detail">
@@ -7,7 +12,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-newbanner">New </div>
                 <div class="postitem-post-title">For Sale: Subleasing Townhouse </div>
@@ -26,7 +31,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star"></i> </div>
                 </div>
                 <div class="postitem-newbanner">New </div>
                 <div class="postitem-post-title">Seeking: Looking for roommate! </div>
@@ -45,7 +50,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/ride1.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star"></i> </div>
                 </div>
                 <div class="postitem-newbanner">New </div>
                 <div class="postitem-post-title">Oct 6. Ride to Northwest Indiana </div>
@@ -64,7 +69,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/furniture1.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-newbanner">New </div>
                 <div class="postitem-post-title">For Sale: Crate and Barrel wood folding chair </div>
@@ -83,7 +88,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star"></i> </div>
                 </div>
                 <div class="postitem-newbanner">New </div>
                 <div class="postitem-post-title">Downsizing Sale - Games/Electronics/Bike Basket/Home </div>
@@ -106,7 +111,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Seeking: Eye disease subjects </div>
                 <div class="postitem-price">$20/hour</div>
@@ -124,7 +129,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/electronics1.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Macbook Pro 2012 For Sale </div>
                 <div class="postitem-price">$250 OBO</div>
@@ -143,7 +148,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Calculus/Finite Math tutor </div>
                 <div class="postitem-price">$30/hr</div>
@@ -161,7 +166,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Seeking: Thanksgiving Ride to Methuen MA via Columbus, Erie, Syracuse Dep22 -Rtn 26 </div>
                 <div class="postitem-price">Negotiable</div>
@@ -180,7 +185,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/furniture2.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Selling: West Elm Vintage Mirror (brand new!!) </div>
                 <div class="postitem-price">best offer</div>
@@ -198,7 +203,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/misc1.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Selling: women's size 8 hunter boots (LIKE NEW!!!) </div>
                 <div class="postitem-price">$50</div>
@@ -217,7 +222,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Seeking: looking for roommate </div>
                 <div class="postitem-price">$370+util</div>
@@ -235,7 +240,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Seeking: B461 Database Concepts Tutor </div>
                 <div class="postitem-price">TBD</div>
@@ -253,7 +258,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/vehicles1.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Selling: 1995 Honda Accord LX 4-dr Sedan </div>
                 <div class="postitem-price">$4,995</div>
@@ -273,7 +278,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Found ring </div>
                 <div class="postitem-price">$0</div>
@@ -291,7 +296,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Looking For A Sublet For Next Semester </div>
                 <div class="postitem-price">$780</div>
@@ -310,7 +315,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/misc2.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Selling: 38 pieces Blue Indies Dish Set </div>
                 <div class="postitem-price">$50</div>
@@ -341,7 +346,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Seeking: Look for a ride from Bloomington to Chicago O'hare 10/15 (Sunday) at 8AM</div>
                 <div class="postitem-price">Neg</div>
@@ -359,7 +364,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/roomate1.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Office Spaces for Rent </div>
                 <div class="postitem-price">$220/month</div>
@@ -377,7 +382,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">I-Core Management Access Card </div>
                 <div class="postitem-price">$5</div>
@@ -395,7 +400,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/vehicles2.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Selling: Honda Accord 2001 (150 K miles) </div>
                 <div class="postitem-price">$2950</div>
@@ -413,7 +418,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Selling: Subleasing Studio Apartment </div>
                 <div class="postitem-price">$750</div>
@@ -431,7 +436,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/furniture3.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Selling: 3 Wood Stools </div>
                 <div class="postitem-price">$30</div>
@@ -449,7 +454,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/electronics2.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">(NEW) Beats Solo 3 Wireless Headphone </div>
                 <div class="postitem-price">$200</div>
@@ -467,7 +472,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Seeking: Bloomington to Ann Arbor </div>
                 <div class="postitem-price">Negotiable</div>
@@ -485,7 +490,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/vehicles3.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Selling: Rent my car </div>
                 <div class="postitem-price">$150 a day</div>
@@ -506,7 +511,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Speaker For Sale </div>
                 <div class="postitem-price">$125</div>
@@ -524,7 +529,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Selling: Indy to Btown WEDNESDAY </div>
                 <div class="postitem-price">$15</div>
@@ -542,7 +547,7 @@
                     <div class="post-image none" > </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Selling: Storage Open !! </div>
                 <div class="postitem-price">$25/mo</div>

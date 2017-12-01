@@ -7,7 +7,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/drums1.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-newbanner">New</div>
                 <div class="postitem-post-title">For Sale: Drum Set - Like New!</div> <div class="postitem-price">$1200</div>
@@ -24,7 +24,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/piano1.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-newbanner">New</div>
                 <div class="postitem-post-title">For Sale: Stienway grand piano, 1932</div> <div class="postitem-price">Negotiable</div>
@@ -41,7 +41,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/sax1.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Seeking: Student Model Saxophone, with mouthpiece, strap, and reeds</div> <div class="postitem-price">up to $400</div>
                 <div class="w-100"></div>
@@ -57,7 +57,7 @@
                     <div class="post-image none"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Gibson Guitar w/ effects</div> <div class="postitem-price">$750</div>
                 <div class="w-100"></div>
@@ -73,7 +73,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/flute1.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Seeking: I need a flute</div> <div class="postitem-price">Wanted</div>
                 <div class="w-100"></div>
@@ -93,7 +93,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/drums2.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-newbanner">New</div>
                 <div class="postitem-post-title">For Sale: Jazz kit, with stands and cymbals</div> <div class="postitem-price">$2000</div>
@@ -110,7 +110,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/piano2.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Studio piano for sale</div> <div class="postitem-price">$50 Per Session</div>
                 <div class="w-100"></div>
@@ -126,7 +126,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/sax2.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">For Sale: Selmer M6, mint contidtion</div> <div class="postitem-price">$7900</div>
                 <div class="w-100"></div>
@@ -142,7 +142,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/guitar2.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">For Sale: Classical guitar</div> <div class="postitem-price">$500</div>
                 <div class="w-100"></div>
@@ -158,7 +158,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/flute2.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Yamaha student model flute </div> <div class="postitem-price">$350.00</div>
                 <div class="w-100"></div>
@@ -174,7 +174,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/drums3.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">For Sale: Steve Jordan signature snare drum, used twice</div> <div class="postitem-price">$400</div>
                 <div class="w-100"></div>
@@ -190,7 +190,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/piano3.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Free piano, come and get it</div> <div class="postitem-price">$0</div>
                 <div class="w-100"></div>
@@ -206,7 +206,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/sax3.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Seeking: saxophone stand with doubler pegs</div> <div class="postitem-price">$45</div>
                 <div class="w-100"></div>
@@ -222,7 +222,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/guitar3.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">For Sale: Guitar lessons with a pro</div> <div class="postitem-price">$30/hr</div>
                 <div class="w-100"></div>
@@ -238,7 +238,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/flute3.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Gold plated flute</div> <div class="postitem-price">$1200</div>
                 <div class="w-100"></div>
@@ -254,7 +254,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/drums4.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">For Sale: Double bass drum set with all hardware</div> <div class="postitem-price">$1500</div>
                 <div class="w-100"></div>
@@ -270,7 +270,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/piano4.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">For Sale: Piano Lessons </div> <div class="postitem-price">$40/hr</div>
                 <div class="w-100"></div>
@@ -286,7 +286,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/sax4.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Seeking: sax player needed for gigs</div> <div class="postitem-price">Negotiable</div>
                 <div class="w-100"></div>
@@ -302,7 +302,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/guitar4.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">Hollow body ibanez guitar</div> <div class="postitem-price">$899</div>
                 <div class="w-100"></div>
@@ -318,7 +318,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/flute4.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
                 <div class="postitem-post-title">For Sale: Ethnic flute collection</div> <div class="postitem-price">$300</div>
                 <div class="w-100"></div>
