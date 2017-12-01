@@ -27,7 +27,7 @@
                 <button type="button" class="btn toggle_mobilepost">Post Ad</button>
             </div>
             <div class="col-auto user-ads d-md-none text-right">
-                <div class="menu-trigger" onclick="openNav()"><i class="fa fa-ellipsis-v" aria-hidden="true" ></i></div>
+                <button class="btn btn-link menu-trigger"><i class="fa fa-ellipsis-v" aria-hidden="true" ></i></button>
             </div>
         </div>
     </div>
