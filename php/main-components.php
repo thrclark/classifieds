@@ -281,6 +281,5 @@ $page_title = 'cat_all';
         })
     });
 </script>
-
 </body>
 </html>
