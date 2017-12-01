@@ -6,22 +6,6 @@
 <script src="../js/jquery.dotdotdot.min.js"></script>
 <script src="../js/slick/slick.min.js"></script>
 <script src="../js/jscolor.js"></script>
-<<<<<<< HEAD
-
-<script src="../js/bootstrap-maxlength.js"></script>	
-
-
-<script>
-$(".menu-trigger").click(function(){
-    $("#UserAccess").addClass("display");
-});
-$(".closebtn").click(function(){
-    $("#UserAccess").removeClass("display");
-});
-</script>
-
-
-=======
 <script src="../js/jquery.sticky.js"></script>
 <script src="../js/bootstrap-maxlength.js"></script>
 <script>
@@ -34,13 +18,11 @@ $(".closebtn").click(function(){
   });
   
 </script>
->>>>>>> master
 <script type="text/javascript">
     $(function() {
         $("#mainsearch").focus();
     });	
 </script>
-
 <script>
     $(document).ready(function() {
         $(".toggle_mobilesearch").click(function() {
