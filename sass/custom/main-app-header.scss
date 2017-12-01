@@ -4,9 +4,11 @@
 @include media-breakpoint-up(xs) {
 	.app-header {
 		background: $theme-header-background;
+		z-index: 20 !important;
 
 		z-index: 10;
 		@include shadow;
+
 		.container {
 			.row {
 				height: 42px;

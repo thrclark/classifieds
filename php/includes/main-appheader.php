@@ -1,5 +1,5 @@
 
-<div class="app-header fixed-top" role="banner">
+<div class="app-header mb-3" role="banner">
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-auto brand">
