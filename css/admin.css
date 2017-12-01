@@ -6945,20 +6945,28 @@ fieldset .form-group:last-child {
   padding-top: 5px;
   padding-bottom: 5px; }
 
-.modal .modal-dialog .modal-content .modal-header .modal-close {
-  font-size: 18px;
-  color: #495057;
-  border: solid 1px #495057;
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  text-align: center; }
-  .modal .modal-dialog .modal-content .modal-header .modal-close:hover {
-    color: #212529;
-    border: solid 1px #212529; }
+.modal .modal-dialog .modal-content .modal-header {
+  padding-top: 10px;
+  padding-bottom: 5px; }
+  .modal .modal-dialog .modal-content .modal-header .modal-title {
+    padding-right: 40px; }
+  .modal .modal-dialog .modal-content .modal-header .modal-close {
+    font-size: 18px;
+    color: #495057;
+    border: solid 1px #495057;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-align: center; }
+    .modal .modal-dialog .modal-content .modal-header .modal-close:hover {
+      color: #212529;
+      border: solid 1px #212529; }
+.modal .modal-dialog .modal-content .modal-footer {
+  padding-bottom: 10px;
+  padding-top: 10px; }
 
 .testbox {
   background: green; }
