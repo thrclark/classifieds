@@ -8,6 +8,7 @@
 <script src="../js/jscolor.js"></script>
 <script src="../js/jquery.sticky.js"></script>
 <script src="../js/bootstrap-maxlength.js"></script>
+
 <script>
   $(document).ready(function(){
     $(".app-header").sticky({topSpacing:0});
@@ -151,6 +152,7 @@ $(".closebtn").click(function(){
         });
     });
 </script>
+
 <script>
     $(document).ready(function() {
         $(".favorite").click(function() {
