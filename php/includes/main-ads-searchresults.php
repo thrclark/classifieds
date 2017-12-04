@@ -7,7 +7,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone1.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
                 <div class="postitem-newbanner">New </div>
                 <div class="postitem-post-title">For Sale: iPhone 5S 32G </div> <div class="postitem-price">$150</div>
@@ -24,7 +24,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone2.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
                 
                 <div class="postitem-post-title">For Sale: Apple iPhone 6 </div> <div class="postitem-price">$290</div>
@@ -41,7 +41,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone3.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
                 
                 <div class="postitem-post-title">For Sale: Verizon iPhone 6s </div> <div class="postitem-price">$280</div>
@@ -65,7 +65,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone4.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
                 
                 <div class="postitem-post-title">Trade ONLY: iPhone 7 Plus 256gb Jet Black Verizon </div> <div class="postitem-price">$0</div>
@@ -82,7 +82,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone5.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
                 
                 <div class="postitem-post-title">For Sale:  Gold iPhone 8 plus 64GB </div> <div class="postitem-price">$550</div>
@@ -100,7 +100,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone6.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
                 
                 <div class="postitem-post-title">For Sale: iPhone 6s </div> <div class="postitem-price">$150</div>
@@ -117,7 +117,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone7.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
                 
                 <div class="postitem-post-title">For Sale: iPhone SE Rose Gold 16gb ATT or Cricket </div> <div class="postitem-price">$225</div>
@@ -134,7 +134,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone8.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
                 
                 <div class="postitem-post-title">For Sale: IPhone 6/6s casebrite cover </div> <div class="postitem-price">$30</div>
@@ -151,7 +151,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone9.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
                 
                 <div class="postitem-post-title">For Sale: iPhone 7Plus 256gb Jet Black </div> <div class="postitem-price">$700</div>

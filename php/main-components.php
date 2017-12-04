@@ -20,6 +20,25 @@ $page_title = 'cat_all';
         <div class="container">
             <h1 class="mb-5">Classifieds UI Components</h1>
             <div class="card border-light mb-5">
+                <div class="card-header">'Favoriting'</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <p> Click on the examples below.</p>
+                            <!--Icon only-->
+                            <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button>
+                            <!--Button with icon-->
+                            <button class="btn btn-outline-secondary btn-sm favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="">Add to Watchlist</span></button>
+                        </div>
+                        <div class="col-12"> <small>HTML</small>
+                            <pre data-src="components/favoriting.html" class="language-html"></pre>
+                            <small>JS</small>
+                            <pre data-src="components/favoriting-js.html" class="language-js"></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-light mb-5">
                 <div class="card-header">Modals</div>
                 <div class="card-body">
                     <div class="row">

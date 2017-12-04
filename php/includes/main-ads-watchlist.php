@@ -7,7 +7,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/sax1.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
                 <div class="postitem-post-title">Original Lacquer Mark VI Tenor Sax</div> <div class="postitem-price">$11,225.00</div>
                 <div class="w-100"></div>
@@ -23,7 +23,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/sax2.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
                 <div class="postitem-post-title">For Sale: Selmer M6, mint contidtion</div> <div class="postitem-price">$7900</div>
                 
@@ -40,7 +40,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/sax3.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
                 <div class="postitem-post-title">Seeking: saxophone stand with doubler pegs</div> <div class="postitem-price">$45</div>
                 
@@ -57,7 +57,7 @@
                     <div class="post-image" style="background-image:url(../img/post-pics/sax4.jpg)"> </div>
                 </div>
                 <div class="postitem-watchlist">
-                    <div class="watchlist-set"> <i aria-hidden="true" class="fa fa-heart-o"></i> </div>
+                    <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
                 <div class="postitem-post-title">Seeking: sax player needed for gigs</div> <div class="postitem-price">Negotiable</div>
                 
