@@ -11,10 +11,10 @@
                 <div class="postitem-newbanner">New </div>
                 <div class="postitem-post-title">For Sale: Subleasing Townhouse </div>
                 <div class="postitem-price">$455/month</div>
-                <div class="w-100"></div>
+                <div class="w-100"></div> 
                 <div class="postitem-description">Looking for someone to take my room in our 3 bed, 3.5 bath townhouse. Spacious living room and kitchen. Each room has its own full bathroom, and the laundry room is on the first floor inside the kitchen. My roommates are both athletes here at IU, and are great guys. I was medically DQ'd so unfortunately I have to transfer at semester. </div>
                 <div class="postitem-postdate">Oct 16</div>
-                <div class="postitem-postlocation"><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
+                <div class="postitem-postlocation"><i class="fa fa-map-marker" aria-hidden="true"></i> IUPUI</div>
             </div>
         </div>
     </div>
