@@ -99,7 +99,7 @@
                 <div class="postitem-post-title">For Sale: Jazz kit, with stands and cymbals</div> <div class="postitem-price">$2000</div>
                 <div class="w-100"></div>
                 <div class="postitem-description">Praesent faucibus eros a ex vulputate, a semper lorem convallis.</div>
-                <div class="postitem-postdate">Sep 16</div> <div class="postitem-postlocation"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
+                <div class="postitem-postdate">Sep 16</div> <div class="postitem-postlocation"><i class="fa fa-map-marker" aria-hidden="true"></i> IUPUI</div>
             </div>
         </div>
     </div>
