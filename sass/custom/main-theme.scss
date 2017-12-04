@@ -39,7 +39,7 @@ $theme-header-background: #ffffff;
 }
 @function set-modalheader-background($color) {
 	@if (lightness($color) > 50) {
-		@return $white;
+		@return $gray-200;
 	}
 	@else {
 		@return $theme-header-background;
