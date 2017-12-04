@@ -6518,7 +6518,9 @@ a.text-dark:focus, a.text-dark:hover {
     .postitem.mobile .postitem-container .postitem-price {
       font-weight: bold;
       padding-left: 64px;
-      font-size: 16px; }
+      font-size: 16px;
+      max-height: 32px;
+      padding-top: 1px; }
     .postitem.mobile .postitem-container .w-100 {
       display: none; }
     .postitem.mobile .postitem-container .postitem-description {
@@ -6527,7 +6529,8 @@ a.text-dark:focus, a.text-dark:hover {
       font-size: 12px;
       font-style: italic;
       color: #495057;
-      padding-top: 5px; }
+      padding-top: 5px;
+      padding-left: 0px; }
     .postitem.mobile .postitem-container .postitem-postlocation {
       font-size: 12px;
       color: #495057;

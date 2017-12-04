@@ -56,7 +56,7 @@ $(".closebtn").click(function(){
 </script>
 <script>
     $(document).ready(function() {
-        $(".postitem-post-title, .postitem-description, .postitem222222 .ad-price, .code").dotdotdot({
+        $(".postitem-post-title, .postitem-description, .postitem222222 .ad-price, .code, .postitem-price").dotdotdot({
             /*	The text to add as ellipsis. */
             ellipsis: '...',
 
