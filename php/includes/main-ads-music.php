@@ -115,7 +115,7 @@
                 <div class="postitem-post-title">Studio piano for sale</div> <div class="postitem-price">$50 Per Session</div>
                 <div class="w-100"></div>
                 <div class="postitem-description">Sed aliquet diam in porttitor suscipit. Nulla ac tellus varius, vehicula .</div>
-                <div class="postitem-postdate">Sep 14</div> <div class="postitem-postlocation"><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
+                <div class="postitem-postdate">Sep 14</div> <div class="postitem-postlocation"><i class="fa fa-map-marker" aria-hidden="true"></i> Indiana University Bloomington</div>
             </div>
         </div>
     </div>
