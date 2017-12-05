@@ -147,7 +147,6 @@ $page_title = '';
                 </table>
             </div>
         </div>
-        w
     </div>
 </div>
 <?php include('modals/modal-admin-branding-image.php') ?>
