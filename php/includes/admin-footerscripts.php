@@ -56,12 +56,12 @@ $(".closebtn").click(function(){
 </script>
 <script>
     $(document).ready(function() {
-        $(".postitem-post-title, .postitem-description, .postitem222222 .ad-price, .code, .postitem-price").dotdotdot({
+        $(".postitem-post-title, .postitem-description, .postitem222222 .ad-price, .code, .postitem-price, .postitem-postlocation").dotdotdot({
             /*	The text to add as ellipsis. */
             ellipsis: '...',
 
             /*	How to cut off the text/html: 'word'/'letter'/'children' */
-            wrap: 'word',
+            wrap: 'letter',
 
             /*	Wrap-option fallback to 'letter' for long words */
             fallbackToLetter: 'word',
