@@ -72,6 +72,9 @@ $theme-header-background: #ffffff;
 .postitem.grid .postitem-container .postitem-price {
 	background: set-pricebackground-color($theme-header-background);
 }
+.category-card .category-icon .fa {
+	color: set-pricebackground-color($theme-header-background);
+}
 @function set-newbadge-color($color) {
 	@if (lightness($color) > 50) {
 		@return $gray-800;

@@ -6129,6 +6129,9 @@ a.text-dark:focus, a.text-dark:hover {
 .postitem.grid .postitem-container .postitem-price {
   background: rgba(52, 58, 64, 0.8); }
 
+.category-card .category-icon .fa {
+  color: rgba(52, 58, 64, 0.8); }
+
 .postitem-newbanner {
   background: #343a40; }
 
@@ -7113,8 +7116,6 @@ a.text-dark:focus, a.text-dark:hover {
       text-align: center;
       margin-top: 5px;
       color: #495057; }
-    .mobile-panel .category-card .category-icon .fa {
-      color: #84bfea; }
 
 .mobile-panel.search .search-container {
   border: solid 1px #343a40;
