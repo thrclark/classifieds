@@ -55,7 +55,7 @@
                 <div class="postitem-watchlist">
                     <div class="watchlist-set" style="display:none"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
-                <div class="postitem-post-title">Selling: Honda Accord 2001 (150 K miles) </div> <div class="postitem-price">$2950</div>
+                <div class="postitem-post-title">For Sale:  Honda Accord 2001 (150 K miles) </div> <div class="postitem-price">$2950</div>
                 <div class="w-100"></div>
                 <div class="postitem-description">Great student car which is in mechanically perfect condition. Sunroof, A/C &amp; Heater works perfectly. Regular check and maintenance done at Firestone. No mechanical issues, clean title and car fax report available on request. Very reliable and low maintenance. Shall only accept cash, please feel free to get in touch for test drive and inspection. </div>
                 <div class="postitem-postdate">Oct 16</div> <div class="postitem-postlocation"><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
@@ -71,7 +71,7 @@
                 <div class="postitem-watchlist">
                    <div class="watchlist-set" style="display:none"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
-                <div class="postitem-post-title">Selling: Storage Open !! </div> <div class="postitem-price">$25/mo</div>
+                <div class="postitem-post-title">For Sale:  Storage Open !! </div> <div class="postitem-price">$25/mo</div>
                 <div class="w-100"></div>
                 <div class="postitem-description">Are you looking for somewhere to store your luggage, funiture, bed, etc..? (for short or long term) 
                     Extremely large, clean and safe room at my apartment.
@@ -89,7 +89,7 @@
                 <div class="postitem-watchlist">
                     <div class="watchlist-set" style="display:none"> <i aria-hidden="true" class="fa fa-star-o"></i> </div>
                 </div>
-                <div class="postitem-post-title">Selling: 38 pieces Blue Indies Dish Set </div> <div class="postitem-price">$50</div>
+                <div class="postitem-post-title">For Sale:  38 pieces Blue Indies Dish Set </div> <div class="postitem-price">$50</div>
                 <div class="w-100"></div>
                 <div class="postitem-description">Johnson Brothers Blue Indies Ironstone Dinnerware
                     Pattern in Cobalt Blue Flowers and Birds on white, subtle fluting

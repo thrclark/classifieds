@@ -12,7 +12,7 @@
         <div class="col-auto">
             <div class="dropdown util-filter"><i class="fa fa-filter" aria-hidden="true"></i>
                 <button class="btn btn-link dropdown-toggle" type="button" id="select_type" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="d-none d-sm-inline">All Ads</span></button>
-                <div class="dropdown-menu" aria-labelledby="select_type"> <a class="dropdown-item" href="#"> Selling</a> <a class="dropdown-item" href="#"> Seeking</a>
+                <div class="dropdown-menu" aria-labelledby="select_type"> <a class="dropdown-item" href="#"> For Sale</a> <a class="dropdown-item" href="#"> Seeking</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">All Ads</a> </div>
             </div>
