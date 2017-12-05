@@ -2,7 +2,8 @@
     <div class="modal-dialog modal-default" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="">Application Branding</h5> <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close" style=""> <span aria-hidden="true"> <i class="fa fa-close" aria-hidden="true"></i> </span> </button>
+                <h5 class="modal-title" id="">Application Branding</h5>
+                <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close" style=""> <span aria-hidden="true"> <i class="fa fa-close" aria-hidden="true"></i> </span> </button>
             </div>
             <div class="modal-body">
                 <div class="form-group">
@@ -83,7 +84,7 @@
                             <tbody>
                                 <tr>
                                     <td class="w-50"><input type="text" class="form-control" placeholder="Enter URL"></td>
-                                    <td class="w-50"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-required ng-touched" required="" aria-invalid="false">
+                                    <td class="w-50"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-required ng-touched" required aria-invalid="false">
                                             <option selected="">Select Type</option>
                                             <option label="Embedded OpenType" value="string:EMBEDDED_OPEN_TYPE">Embedded OpenType</option>
                                             <option label="OpenType" value="string:OPEN_TYPE">OpenType</option>
@@ -101,11 +102,11 @@
                         </div>
                     </div>
                 </div>
-                
-            </div><div class="modal-footer">
-                    <button type="button" class="btn btn-outline-secondary">Cancel</button>
-                    <button type="button" class="btn btn-primary btn-progressable" id=""> <span class="btn-label">Save</span> </button>
-                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-link">Cancel</button>
+                <button type="button" class="btn btn-primary btn-progressable" id=""> <span class="btn-label">Save</span> </button>
+            </div>
         </div>
     </div>
 </div>

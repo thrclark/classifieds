@@ -181,7 +181,7 @@
                 <div class="postitem-watchlist">
                     <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
-                <div class="postitem-post-title">Selling: West Elm Vintage Mirror (brand new!!) </div>
+                <div class="postitem-post-title">For Sale:  West Elm Vintage Mirror (brand new!!) </div>
                 <div class="postitem-price">best offer</div>
                 <div class="w-100"></div>
                 <div class="postitem-description">Bought this Vintage mirror from west elm Indy last year for 350$ original price. Did not get the chance to hang it or use it even. been sitting in the closet for too long now, asking only 150$ for it. The mirror's brand new. </div>
@@ -199,7 +199,7 @@
                 <div class="postitem-watchlist">
                     <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
-                <div class="postitem-post-title">Selling: women's size 8 hunter boots (LIKE NEW!!!) </div>
+                <div class="postitem-post-title">For Sale:  women's size 8 hunter boots (LIKE NEW!!!) </div>
                 <div class="postitem-price">$50</div>
                 <div class="w-100"></div>
                 <div class="postitem-description">selling womens shoes size 8. They are barely worn (3 times maybe)
@@ -254,7 +254,7 @@
                 <div class="postitem-watchlist">
                     <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
-                <div class="postitem-post-title">Selling: 1995 Honda Accord LX 4-dr Sedan </div>
+                <div class="postitem-post-title">For Sale:  1995 Honda Accord LX 4-dr Sedan </div>
                 <div class="postitem-price">$4,995</div>
                 <div class="w-100"></div>
                 <div class="postitem-description">t looks brand new, and has been very well-kept.
@@ -311,7 +311,7 @@
                 <div class="postitem-watchlist">
                     <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
-                <div class="postitem-post-title">Selling: 38 pieces Blue Indies Dish Set </div>
+                <div class="postitem-post-title">For Sale:  38 pieces Blue Indies Dish Set </div>
                 <div class="postitem-price">$50</div>
                 <div class="w-100"></div>
                 <div class="postitem-description">Johnson Brothers Blue Indies Ironstone Dinnerware
@@ -396,7 +396,7 @@
                 <div class="postitem-watchlist">
                     <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
-                <div class="postitem-post-title">Selling: Honda Accord 2001 (150 K miles) </div>
+                <div class="postitem-post-title">For Sale:  Honda Accord 2001 (150 K miles) </div>
                 <div class="postitem-price">$2950</div>
                 <div class="w-100"></div>
                 <div class="postitem-description">Great student car which is in mechanically perfect condition. Sunroof, A/C & Heater works perfectly. Regular check and maintenance done at Firestone. No mechanical issues, clean title and car fax report available on request. Very reliable and low maintenance. Shall only accept cash, please feel free to get in touch for test drive and inspection. </div>
@@ -414,7 +414,7 @@
                 <div class="postitem-watchlist">
                     <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
-                <div class="postitem-post-title">Selling: Subleasing Studio Apartment </div>
+                <div class="postitem-post-title">For Sale:  Subleasing Studio Apartment </div>
                 <div class="postitem-price">$750</div>
                 <div class="w-100"></div>
                 <div class="postitem-description">I am looking to sublet my studio apartment on 2nd St. and Fess. Ave. It is a very nice studio apartment in a good location with hardwood floors, high quality appliances, and nice granite counter top and bar in the kitchen. It is spacious for a studio, with plenty of room for a bed, couch, and desk. The apartment has central A/C and heating, storage space and a washer and </div>
@@ -432,7 +432,7 @@
                 <div class="postitem-watchlist">
                     <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
-                <div class="postitem-post-title">Selling: 3 Wood Stools </div>
+                <div class="postitem-post-title">For Sale:  3 Wood Stools </div>
                 <div class="postitem-price">$30</div>
                 <div class="w-100"></div>
                 <div class="postitem-description">3 Sturdy Wood Stools $10 each or $25 for all 3. Please email if interested. I can bring them to campus. </div>
@@ -486,7 +486,7 @@
                 <div class="postitem-watchlist">
                     <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
-                <div class="postitem-post-title">Selling: Rent my car </div>
+                <div class="postitem-post-title">For Sale:  Rent my car </div>
                 <div class="postitem-price">$150 a day</div>
                 <div class="w-100"></div>
                 <div class="postitem-description">Rent my car for 150$ a day.
@@ -525,7 +525,7 @@
                 <div class="postitem-watchlist">
                     <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
-                <div class="postitem-post-title">Selling: Indy to Btown WEDNESDAY </div>
+                <div class="postitem-post-title">For Sale:  Indy to Btown WEDNESDAY </div>
                 <div class="postitem-price">$15</div>
                 <div class="w-100"></div>
                 <div class="postitem-description">Ride from Indy to Btown WEDNESDAY 1 pmish </div>
@@ -543,7 +543,7 @@
                 <div class="postitem-watchlist">
                     <div class="watchlist-set"> <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button> </div>
                 </div>
-                <div class="postitem-post-title">Selling: Storage Open !! </div>
+                <div class="postitem-post-title">For Sale:  Storage Open !! </div>
                 <div class="postitem-price">$25/mo</div>
                 <div class="w-100"></div>
                 <div class="postitem-description">Are you looking for somewhere to store your luggage, funiture, bed, etc..? (for short or long term) 
