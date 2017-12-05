@@ -8,7 +8,9 @@
             <div class="modal-body">
                 <p>asdf asdf asdf asdf asdf asdf asdf asdf asdf asfd asfd asd fasdf asdf asdf asdf asdf asdf asdf asdf asdf asfd asfd asd fasdf asdf asdf asdf asdf asdf asdf asdf asdf asfd asfd asd fasdf asdf asdf asdf asdf asdf asdf asdf asdf asfd asfd asd fasdf asdf asdf asdf asdf asdf asdf asdf asdf asfd asfd asd fasdf asdf asdf asdf asdf asdf asdf asdf asdf asfd asfd asd fasdf asdf asdf asdf asdf asdf asdf asdf asdf asfd asfd asd fasdf asdf asdf asdf asdf asdf asdf asdf asdf asfd asfd asd fasdf asdf asdf asdf asdf asdf asdf asdf asdf asfd asfd asd fasdf asdf asdf asdf asdf asdf asdf asdf asdf asfd asfd asd fasdf asdf asdf asdf asdf asdf asdf asdf asdf asfd asfd asd fa</p>
             </div>
-            
+            <div class="modal-footer">
+                <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+            </div>
         </div>
     </div>
 </div>
