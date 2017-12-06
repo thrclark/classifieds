@@ -15,7 +15,7 @@ $page_title = 'cat_all';
 </style>
 </head>
 <body style="background:">
-<div id="main" >
+<div id="main">
     <section class="mt-5" role="main">
         <div class="container">
             <h1 class="mb-5">Classifieds UI Components</h1>

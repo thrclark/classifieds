@@ -1,7 +1,7 @@
 
 <div class="nav-side-menu small"> <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
     <div class="menu-list">
-        <ul id="menu-content" class="menu-content collapse out" >
+        <ul id="menu-content" class="menu-content collapse out">
             <li  data-toggle="collapse" data-target="#moderator" class="collapsed active"> <a href="#">Moderator <span class="arrow"></span></a>
                 <ul class="sub-menu collapse show" id="moderator">
                     <li><a href="#">Maintain Ads</a></li>

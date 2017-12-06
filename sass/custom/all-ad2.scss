@@ -9,6 +9,22 @@
 
 	@include media-breakpoint-up(xs) {
 		@include make-col(12);
+		.postitem-watchlist{
+			position: absolute;
+			right: 16px;
+			top: 3px;
+			z-index: 1;
+			.watchlist-set {
+				background: $white;
+				padding-left: 4px;
+				padding-right: 4px;
+				padding-bottom: 1px;
+				.btn-link {
+					padding: 0px;
+					margin-top: -3px;
+				}
+			}
+		}
 		.postitem-container {
 			padding: 5px;
 			background: $white;
@@ -54,21 +70,7 @@
 				}
 
 			}
-			.postitem-watchlist{
-				position: absolute;
-				right: 5px;
-				top: 3px;
-				.watchlist-set {
-					background: $white;
-					padding-left: 4px;
-					padding-right: 4px;
-					padding-bottom: 1px;
-					.btn-link {
-						padding: 0px;
-						margin-top: -3px;
-					}
-				}
-			}
+
 			.postitem-newbanner{
 				border: 0 solid rgba(0, 0, 0, 0.2);
 				color: $white;
@@ -149,6 +151,23 @@
 
 	@include media-breakpoint-up(sm) {
 		@include make-col(6);
+
+		.postitem-watchlist{
+			position: absolute;
+			right: 26px;
+			top: 11px;
+			z-index: 1;
+			.watchlist-set {
+				background: $white;
+				padding-left: 4px;
+				padding-right: 4px;
+				padding-bottom: 1px;
+				.btn-link {
+					padding: 0px;
+					margin-top: -3px;
+				}
+			}
+		}
 		.postitem-container {
 			padding: 10px;
 			padding-bottom: 3px;
@@ -188,21 +207,7 @@
 					text-align: center;
 				}
 			}
-			.postitem-watchlist{
-				position: absolute;
-				right: 11px;
-				top: 11px;
-				.watchlist-set {
-					background: $white;
-					padding-left: 4px;
-					padding-right: 4px;
-					padding-bottom: 1px;
-					.btn-link {
-						padding: 0px;
-						margin-top: -3px;
-					}
-				}
-			}
+
 			.postitem-newbanner{
 
 
@@ -310,6 +315,22 @@
 
 	@include media-breakpoint-up(sm) {
 		@include make-col(12);
+		.postitem-watchlist{
+			position: absolute;
+			right: 21px;
+			top: 5px;
+			z-index: 1;
+			.watchlist-set {
+				background: $white;
+				padding-left: 4px;
+				padding-right: 4px;
+				padding-bottom: 1px;
+				.btn-link {
+					padding: 0px;
+					margin-top: -3px;
+				}
+			}
+		}
 		.postitem-container {
 			padding: 5px;
 			background: $white;
@@ -348,21 +369,7 @@
 					text-align: center;
 				}
 			}
-			.postitem-watchlist{
-				position: absolute;
-				right: 11px;
-				top: 5px;
-				.watchlist-set {
-					background: $white;
-					padding-left: 4px;
-					padding-right: 4px;
-					padding-bottom: 1px;
-					.btn-link {
-						padding: 0px;
-						margin-top: -3px;
-					}
-				}
-			}
+
 			.postitem-newbanner{
 
 				border: 0 solid rgba(0, 0, 0, 0.2);
@@ -694,6 +701,22 @@
 
 	@include media-breakpoint-up(sm) {
 		@include make-col(12);
+		.postitem-watchlist{
+			position: absolute;
+			right: 18px;
+			z-index: 1;
+			top: 4px;
+			.watchlist-set {
+				background: $white;
+				padding-left: 4px;
+				padding-right: 4px;
+				padding-bottom: 1px;
+				.btn-link {
+					padding: 0px;
+					margin-top: -3px;
+				}
+			}
+		}
 		.postitem-container {
 			padding: 5px;
 			background: $white;
@@ -709,20 +732,7 @@
 
 				}
 			}
-			.postitem-watchlist{
-				position: absolute;
-				right: 4px;
-				.watchlist-set {
-					background: $white;
-					padding-left: 4px;
-					padding-right: 4px;
-					padding-bottom: 1px;
-					.btn-link {
-						padding: 0px;
-						margin-top: -3px;
-					}
-				}
-			}
+
 			.postitem-newbanner{
 
 				border: 0 solid rgba(0, 0, 0, 0.2);

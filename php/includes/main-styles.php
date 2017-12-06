@@ -8,11 +8,9 @@
 	margin-bottom: 15px;
 }
 .your-class img {
-	    max-height: 346px;
+	max-height: 346px;
 	margin-left: auto;
 	margin-right: auto;
 	vertical-align: middle;
 }
-
-
 </style>
