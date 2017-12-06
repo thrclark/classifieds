@@ -83,7 +83,6 @@
                         <div class="text-right" style="padding-top:5px">
                             <button type="button" class="btn btn-outline-secondary btn-sm">Add Image</button>
                         </div>
-               
                         <hr>
                         <button type="button" class="btn btn-primary">Post Ad</button>
                         <button type="button" class="btn btn-outline-primary">Cancel</button>

@@ -8,7 +8,6 @@
 <script src="../js/jscolor.js"></script>
 <script src="../js/jquery.sticky.js"></script>
 <script src="../js/bootstrap-maxlength.js"></script>
-
 <script>
   $(document).ready(function(){
     $(".app-header").sticky({topSpacing:0});
@@ -19,7 +18,6 @@
   });
   
 </script>
-
 <script>
 $(".menu-trigger").click(function(){
     $("#UserAccess").addClass("display");
@@ -28,8 +26,6 @@ $(".closebtn").click(function(){
     $("#UserAccess").removeClass("display");
 });
 </script>
-
-
 <script type="text/javascript">
     $(function() {
         $("#mainsearch").focus();
@@ -108,14 +104,14 @@ $(".closebtn").click(function(){
 <script>
     $(document).ready(function() {
         $(function() {
-            $(".postitem").click(function() {
+            $(".postitem-container").click(function() {
                 $(this).addClass("faded");
             });
         });
     });
 </script>
 <script>
-    $(document).ready(function() {
+    $(document).ready(function() {	
         if ($(window).width() < 576) {
              $(".grid").removeClass("grid").addClass("mobile");
         } else {
@@ -152,7 +148,6 @@ $(".closebtn").click(function(){
         });
     });
 </script>
-
 <script>
     $(document).ready(function() {
         $(".favorite").click(function() {

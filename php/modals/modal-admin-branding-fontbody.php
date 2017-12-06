@@ -25,12 +25,12 @@
                             <option label="" value="usecustomfont">Use Custom Font</option>
                         </select>
                     </div>
-                    <div class="form-group custom-bodyfont" >
+                    <div class="form-group custom-bodyfont">
                         <label class="control-label" for="font_family"> Font Family Name</label>
                         <small id="textfieldHelp" class="form-text text-muted">Specify the name of this custom font.</small>
                         <input class="form-control" id="font_family" name="font_family" type="text" required="required">
                     </div>
-                    <div class="form-group custom-bodyfont" >
+                    <div class="form-group custom-bodyfont">
                         <label class="control-label" for="font_family"> Weight</label>
                         <small id="textfieldHelp" class="form-text text-muted">Specify the weight of this custom font.</small>
                         <select ng-model="fontFace.fontWeight" name="fontFaces[0].fontWeight" id="fontFaces[0].fontWeight" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontWeights" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
@@ -47,7 +47,7 @@
                             <option label="900" value="string:W_900">900</option>
                         </select>
                     </div>
-                    <div class="form-group custom-bodyfont" >
+                    <div class="form-group custom-bodyfont">
                         <label class="control-label" for="font_family"> Style</label>
                         <small id="textfieldHelp" class="form-text text-muted">Specify the style of this custom font.</small>
                         <select ng-model="fontFace.fontStyle" name="fontFaces[0].fontStyle" id="fontFaces[0].fontStyle" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStyles" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
@@ -56,7 +56,7 @@
                             <option label="oblique" value="string:OBLIQUE">oblique</option>
                         </select>
                     </div>
-                    <div class="form-group custom-bodyfont" >
+                    <div class="form-group custom-bodyfont">
                         <label class="control-label" for="font_family"> Stretch</label>
                         <small id="textfieldHelp" class="form-text text-muted">Specify the stretch of this custom font.</small>
                         <select ng-model="fontFace.fontStretch" name="fontFaces[0].fontStretch" id="fontFaces[0].fontStretch" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStretches" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
@@ -71,7 +71,7 @@
                             <option label="ultra-expanded" value="string:ULTRA_EXPANDED">ultra-expanded</option>
                         </select>
                     </div>
-                    <div class="form-group custom-bodyfont" >
+                    <div class="form-group custom-bodyfont">
                         <div class="form-label"> Font URLs</div>
                         <small id="textfieldHelp" class="form-text text-muted">Specify URLs for this custom font.</small>
                         <table class="table table-actions" id="myTable" style="margin-bottom: 0px">
@@ -94,7 +94,7 @@
                                             <option label="WOFF" value="string:WOFF">WOFF</option>
                                             <option label="WOFF 2" value="string:WOFF2">WOFF 2</option>
                                         </select></td>
-                                    <td><a href="#" class="btn btn-outline-secondary btn-sm" ><i class="fa fa-trash" aria-hidden="true"></i> <span class="sr-only">Delete</span></a></td>
+                                    <td><a href="#" class="btn btn-outline-secondary btn-sm"><i class="fa fa-trash" aria-hidden="true"></i> <span class="sr-only">Delete</span></a></td>
                                 </tr>
                             </tbody>
                         </table>

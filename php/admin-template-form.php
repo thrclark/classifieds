@@ -23,7 +23,7 @@ $page_title = '';
         <div class="col-12 col-md-3">
             <div class="nav-side-menu small"> <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
                 <div class="menu-list">
-                    <ul id="menu-content" class="menu-content collapse out" >
+                    <ul id="menu-content" class="menu-content collapse out">
                         <li  data-toggle="collapse" data-target="#products" class="collapsed active"> <a href="#">Nav 1 <span class="arrow"></span></a>
                             <ul class="sub-menu collapse show" id="products">
                                 <li><a href="#">Page Title</a></li>
@@ -97,7 +97,7 @@ $page_title = '';
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group" >
+                        <div class="form-group">
                             <label for="textfield1">Extra Large Textfield</label>
                             <small id="textfieldHelp" class="form-text text-muted">Textfield help content. You're doesn't whales itself kind had were they're open. Brought unto form great yielding green grass likeness. Morning may living.</small>
                             <div class="row">

@@ -6448,6 +6448,19 @@ a.text-dark:focus, a.text-dark:hover {
   padding-left: 15px;
   flex: 0 0 100%;
   max-width: 100%; }
+  .postitem.mobile .postitem-watchlist {
+    position: absolute;
+    right: 16px;
+    top: 3px;
+    z-index: 1; }
+    .postitem.mobile .postitem-watchlist .watchlist-set {
+      background: #fff;
+      padding-left: 4px;
+      padding-right: 4px;
+      padding-bottom: 1px; }
+      .postitem.mobile .postitem-watchlist .watchlist-set .btn-link {
+        padding: 0px;
+        margin-top: -3px; }
   .postitem.mobile .postitem-container {
     padding: 5px;
     background: #fff;
@@ -6484,18 +6497,6 @@ a.text-dark:focus, a.text-dark:hover {
         bottom: 0;
         right: 0;
         text-align: center; }
-    .postitem.mobile .postitem-container .postitem-watchlist {
-      position: absolute;
-      right: 5px;
-      top: 3px; }
-      .postitem.mobile .postitem-container .postitem-watchlist .watchlist-set {
-        background: #fff;
-        padding-left: 4px;
-        padding-right: 4px;
-        padding-bottom: 1px; }
-        .postitem.mobile .postitem-container .postitem-watchlist .watchlist-set .btn-link {
-          padding: 0px;
-          margin-top: -3px; }
     .postitem.mobile .postitem-container .postitem-newbanner {
       border: 0 solid rgba(0, 0, 0, 0.2);
       color: #fff;
@@ -6554,6 +6555,19 @@ a.text-dark:focus, a.text-dark:hover {
     .postitem.grid {
       flex: 0 0 50%;
       max-width: 50%; }
+      .postitem.grid .postitem-watchlist {
+        position: absolute;
+        right: 26px;
+        top: 11px;
+        z-index: 1; }
+        .postitem.grid .postitem-watchlist .watchlist-set {
+          background: #fff;
+          padding-left: 4px;
+          padding-right: 4px;
+          padding-bottom: 1px; }
+          .postitem.grid .postitem-watchlist .watchlist-set .btn-link {
+            padding: 0px;
+            margin-top: -3px; }
       .postitem.grid .postitem-container {
         padding: 10px;
         padding-bottom: 3px;
@@ -6591,18 +6605,6 @@ a.text-dark:focus, a.text-dark:hover {
             bottom: 0;
             right: 0;
             text-align: center; }
-        .postitem.grid .postitem-container .postitem-watchlist {
-          position: absolute;
-          right: 11px;
-          top: 11px; }
-          .postitem.grid .postitem-container .postitem-watchlist .watchlist-set {
-            background: #fff;
-            padding-left: 4px;
-            padding-right: 4px;
-            padding-bottom: 1px; }
-            .postitem.grid .postitem-container .postitem-watchlist .watchlist-set .btn-link {
-              padding: 0px;
-              margin-top: -3px; }
         .postitem.grid .postitem-container .postitem-newbanner {
           border: 0 solid rgba(0, 0, 0, 0.2);
           color: #fff;
@@ -6676,6 +6678,19 @@ a.text-dark:focus, a.text-dark:hover {
     .postitem.thumb {
       flex: 0 0 100%;
       max-width: 100%; }
+      .postitem.thumb .postitem-watchlist {
+        position: absolute;
+        right: 21px;
+        top: 5px;
+        z-index: 1; }
+        .postitem.thumb .postitem-watchlist .watchlist-set {
+          background: #fff;
+          padding-left: 4px;
+          padding-right: 4px;
+          padding-bottom: 1px; }
+          .postitem.thumb .postitem-watchlist .watchlist-set .btn-link {
+            padding: 0px;
+            margin-top: -3px; }
       .postitem.thumb .postitem-container {
         padding: 5px;
         background: #fff;
@@ -6710,18 +6725,6 @@ a.text-dark:focus, a.text-dark:hover {
             bottom: 0;
             right: 0;
             text-align: center; }
-        .postitem.thumb .postitem-container .postitem-watchlist {
-          position: absolute;
-          right: 11px;
-          top: 5px; }
-          .postitem.thumb .postitem-container .postitem-watchlist .watchlist-set {
-            background: #fff;
-            padding-left: 4px;
-            padding-right: 4px;
-            padding-bottom: 1px; }
-            .postitem.thumb .postitem-container .postitem-watchlist .watchlist-set .btn-link {
-              padding: 0px;
-              margin-top: -3px; }
         .postitem.thumb .postitem-container .postitem-newbanner {
           border: 0 solid rgba(0, 0, 0, 0.2);
           color: #fff;
@@ -6987,6 +6990,19 @@ a.text-dark:focus, a.text-dark:hover {
     .postitem.list {
       flex: 0 0 100%;
       max-width: 100%; }
+      .postitem.list .postitem-watchlist {
+        position: absolute;
+        right: 18px;
+        z-index: 1;
+        top: 4px; }
+        .postitem.list .postitem-watchlist .watchlist-set {
+          background: #fff;
+          padding-left: 4px;
+          padding-right: 4px;
+          padding-bottom: 1px; }
+          .postitem.list .postitem-watchlist .watchlist-set .btn-link {
+            padding: 0px;
+            margin-top: -3px; }
       .postitem.list .postitem-container {
         padding: 5px;
         background: #fff;
@@ -6997,17 +7013,6 @@ a.text-dark:focus, a.text-dark:hover {
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
         .postitem.list .postitem-container .postitem-image-container {
           display: none; }
-        .postitem.list .postitem-container .postitem-watchlist {
-          position: absolute;
-          right: 4px; }
-          .postitem.list .postitem-container .postitem-watchlist .watchlist-set {
-            background: #fff;
-            padding-left: 4px;
-            padding-right: 4px;
-            padding-bottom: 1px; }
-            .postitem.list .postitem-container .postitem-watchlist .watchlist-set .btn-link {
-              padding: 0px;
-              margin-top: -3px; }
         .postitem.list .postitem-container .postitem-newbanner {
           border: 0 solid rgba(0, 0, 0, 0.2);
           color: transparent;

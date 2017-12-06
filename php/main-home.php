@@ -10,7 +10,7 @@ $page_title = 'cat_all';
 </head>
 <body>
 <?php include('includes/main-mobiledrawer.php') ?>
-<div id="main" >
+<div id="main">
     <?php include('includes/main-appheader.php') ?>
     <?php include('includes/main-mobilepanel-search.php') ?>
     <?php include('includes/main-mobilepanel-post.php') ?>
@@ -21,7 +21,7 @@ $page_title = 'cat_all';
                 <div class="col-3 main-nav d-none d-md-block">
                     <?php include('includes/main-nav.php') ?>
                 </div>
-                <div class="col-xs-12 col-md-9 main-content-section" >
+                <div class="col-xs-12 col-md-9 main-content-section">
                     <div class="row align-items-center section-head">
                         <div class="col-auto section-head-title">
                             <h2 class="">IUK: All Ads</h2>
