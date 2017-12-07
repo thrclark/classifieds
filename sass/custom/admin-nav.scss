@@ -1,98 +1,93 @@
 .nav-side-menu {
-
-
 	background-color: $white;
-
 	font-size: 0.875rem;
-
 	margin-right: -30px;
 	margin-top: 25px;
 
 	.toggle-btn {
 		display: none;
 	}
+
+	.menu-content {
+		border-top: solid 2px $gray-200;
+	}
+
 	ul, li {
 		list-style: none;
 		padding: 0px;
 		margin: 0px;
 		line-height: 35px;
 		cursor: pointer;
-	}
-	ul :not(collapsed) .arrow:before, li :not(collapsed) .arrow:before {
-		font-family: FontAwesome;
-		content: "\f107";
-		display: inline-block;
-		padding-left: 10px;
-		padding-right: 10px;
-		vertical-align: middle;
-		float: right;
-	}
-	ul .active, li .active {
 
-		background-color: $white;
-	}
-	ul .sub-menu li.active, li .sub-menu li.active, ul .sub-menu li.active a, li .sub-menu li.active a {
-		color: $gray-800;
-	}
-	ul .sub-menu li, li .sub-menu li {
-		background-color: $gray-200;
-		border: none;
-		line-height: 28px;
-		border-bottom: 1px solid $gray-300;
-		margin-left: 0px;
-	}
-	ul .sub-menu li:hover, li .sub-menu li:hover {
-		background-color: $gray-100;
-	}
-	ul .sub-menu li:before {
-		font-family: FontAwesome;
-		content: "\f111";
-		display: inline-block;
-		padding-left: 10px;
-		padding-right: 0px;
-		font-size: 6px;
-		vertical-align: middle;
-		color: $gray-200;
-	}
-	ul .sub-menu li.active:before {
-
-		color: $gray-600;
-	}
-
-
-
-	li {
-		.sub-menu li:before {
+		.arrow:before {
 			font-family: FontAwesome;
-			content: "\f111";
+			content: "\f107";
 			display: inline-block;
 			padding-left: 10px;
-			padding-right: 0px;
-			font-size: 6px;
+			padding-right: 10px;
 			vertical-align: middle;
+			float: right;
 		}
 
-		border-bottom: 1px solid $gray-100;
-		a {
-			text-decoration: none;
+		.sub-menu li {
+			background-color: $gray-200;
+			border: none;
+			line-height: 28px;
+			border-bottom: 1px solid $gray-300;
+			margin-left: 0px;
 
-			padding-left: 10px;
-			color: $gray-800;
-			i {
+			&:hover {
+				background-color: $gray-100;
+				-webkit-transition: all 1s ease;
+				-moz-transition: all 1s ease;
+				-o-transition: all 1s ease;
+				-ms-transition: all 1s ease;
+				transition: all 1s ease;
+			}
+
+			&:before {
+				font-family: FontAwesome;
+				content: "\f105";
+				display: inline-block;
+				float: left;
 				padding-left: 10px;
-				width: 20px;
-				padding-right: 20px;
+				padding-right: 10px;
+				vertical-align: middle;
+				color: $gray-200;
+			}
+
+			&.active {
+				button {
+					color: $gray-800;
+				}
+
+				&:before {
+					color: $gray-600;
+				}
+			}
+
+			a {
+				display: block;
+				color: $gray-800;
+				text-decoration: none;
 			}
 		}
-		&:hover {
+	}
 
-			background-color: $gray-100;
-			-webkit-transition: all 1s ease;
-			-moz-transition: all 1s ease;
-			-o-transition: all 1s ease;
-			-ms-transition: all 1s ease;
-			transition: all 1s ease;
+	li {
+		border-bottom: 1px solid $gray-100;
+
+		button {
+			display: block;
+			width: 100%;
+			text-align: left;
+			border: none;
+			cursor: pointer;
+			background-color: transparent;
+			padding-left: 5px;
+			color: $gray-800;
 		}
+
 	}
 }
 
@@ -100,17 +95,19 @@
 	.nav-side-menu {
 		position: relative;
 		width: 100%;
-		margin-bottom: 5px;
+		margin-bottom: 10px;
 		.toggle-btn {
 			display: block;
 			cursor: pointer;
+			//position: absolute;
+			right: 10px;
+			top: 10px;
 			z-index: 10 !important;
-			background-color: $gray-200;
-			color: $gray-600;
+			padding: 3px;
+			background-color: #ffffff;
+			color: $gray-200;
+			//width: 40px;
 			text-align: right;
-			font-size: 20px;
-			padding-right: 6px;
-			padding-bottom: 5px;
 		}
 	}
 
@@ -118,19 +115,12 @@
 
 @include media-breakpoint-up(md) {
 	.nav-side-menu .menu-list .menu-content {
-		display: block;
+		display: block !important;
 	}
 }
-
-
 
 @include media-breakpoint-up(xs) {
 	.nav-side-menu {
 		margin-top: 10px;
 	}
-
 }
-
-
-.menu-content {
-	border-top: solid 2px $gray-200;}
