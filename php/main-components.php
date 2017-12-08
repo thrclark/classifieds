@@ -12,6 +12,10 @@ $page_title = 'cat_all';
 .card-header {
 	font-size: 24px;
 }
+.demo-container {
+	padding: 30px;
+	background: #ededed
+}
 </style>
 </head>
 <body style="background:">
@@ -19,6 +23,64 @@ $page_title = 'cat_all';
     <section class="mt-5" role="main">
         <div class="container">
             <h1 class="mb-5">Classifieds UI Components</h1>
+            <div class="card border-light mb-5">
+                <div class="card-header">Site Navigation</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-3 mb-3">
+                            <p>Default</p>
+                            <div class="demo-container">
+                                <div class="nav-side-menu"> <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+                                    <div class="menu-list">
+                                        <div class="menu-content">
+                                            <ul class="menu-items collapse show " id="group3">
+                                                <li><a href="#"> Navigation </a></li>
+                                                <li><a href="#"> Navigation </a></li>
+                                                <li><a href="#"> Navigation </a></li>
+                                                <li><a href="#"> Navigation </a></li>
+                                                <li><a href="#"> Navigation </a></li>
+                                                <li><a href="#"> Navigation </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-3">
+                            <p>With Categories</p>
+                            <div class="demo-container">
+                                <div class="nav-side-menu"> <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+                                    <div class="menu-list">
+                                        <ul class="menu-content" id="menu-content" aria-expanded="false" aria-hidden="true" style="">
+                                            <li>
+                                                <button data-toggle="collapse" data-target="#group1" aria-expanded="true" aria-controls="group1"> Category 1 <span class="arrow"></span> </button>
+                                                <ul class="menu-items collapse show " id="group1">
+                                                    <li><a href="#"> Navigation </a></li>
+                                                    <li><a href="#"> Navigation </a></li>
+                                                    <li><a href="#"> Navigation </a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <button data-toggle="collapse" data-target="#group2" aria-expanded="false" aria-controls="group2" class="collapsed"> Category 2 <span class="arrow"></span> </button>
+                                                <ul class="menu-items collapse" id="group2">
+                                                    <li><a href="#"> Navigation </a></li>
+                                                    <li><a href="#"> Navigation </a></li>
+                                                    <li><a href="#"> Navigation </a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12"> <small>HTML -DEFAULT</small>
+                            <pre data-src="components/menu-default.html" class="language-html"></pre>
+                            <small>HTML - CATEGORIES</small>
+                            <pre data-src="components/menu-categories.html" class="language-html"></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="card border-light mb-5">
                 <div class="card-header">'Favoriting'</div>
                 <div class="card-body">
