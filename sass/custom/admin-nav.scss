@@ -2,7 +2,7 @@
 	background-color: $white;
 	font-size: 0.875rem;
 	margin-right: -30px;
-	margin-top: 25px;
+	//margin-top: 25px;
 
 	.toggle-btn {
 		display: none;
@@ -129,6 +129,6 @@
 
 @include media-breakpoint-up(xs) {
 	.nav-side-menu {
-		margin-top: 10px;
+		//margin-top: 10px;
 	}
 }

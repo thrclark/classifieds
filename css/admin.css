@@ -6186,8 +6186,7 @@ a.text-dark:focus, a.text-dark:hover {
 .nav-side-menu {
   background-color: #fff;
   font-size: 0.875rem;
-  margin-right: -30px;
-  margin-top: 25px; }
+  margin-right: -30px; }
   .nav-side-menu .toggle-btn {
     display: none; }
   .nav-side-menu .menu-content {
@@ -6267,9 +6266,6 @@ a.text-dark:focus, a.text-dark:hover {
 @media (min-width: 768px) {
   .nav-side-menu .menu-list .menu-content {
     display: block !important; } }
-.nav-side-menu {
-  margin-top: 10px; }
-
 .main-content {
   background: white;
   padding: 15px;
