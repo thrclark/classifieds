@@ -73,7 +73,7 @@ $page_title = 'cat_all';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12"> <small>HTML -DEFAULT</small>
+                        <div class="col-12"> <small>HTML - DEFAULT</small>
                             <pre data-src="components/menu-default.html" class="language-html"></pre>
                             <small>HTML - CATEGORIES</small>
                             <pre data-src="components/menu-categories.html" class="language-html"></pre>
