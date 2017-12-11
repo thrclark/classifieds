@@ -6195,7 +6195,6 @@ a.text-dark:focus, a.text-dark:hover {
     .nav-side-menu .menu-content .menu-items li {
       background-color: #ededed;
       border: none;
-      line-height: 28px;
       border-bottom: 1px solid #dee2e6;
       margin-left: 0px; }
       .nav-side-menu .menu-content .menu-items li:hover {

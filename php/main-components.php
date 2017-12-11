@@ -36,7 +36,7 @@ $page_title = 'cat_all';
                                             <ul class="menu-items collapse show " id="group3">
                                                 <li><a href="#"> Navigation </a></li>
                                                 <li><a href="#"> Navigation </a></li>
-                                                <li><a href="#"> Navigation </a></li>
+                                                <li class="active"><a href="#"> Navigation </a></li>
                                                 <li><a href="#"> Navigation </a></li>
                                                 <li><a href="#"> Navigation </a></li>
                                                 <li><a href="#"> Navigation </a></li>
@@ -56,7 +56,7 @@ $page_title = 'cat_all';
                                                 <button data-toggle="collapse" data-target="#group1" aria-expanded="true" aria-controls="group1"> Category 1 <span class="arrow"></span> </button>
                                                 <ul class="menu-items collapse show " id="group1">
                                                     <li><a href="#"> Navigation </a></li>
-                                                    <li><a href="#"> Navigation </a></li>
+                                                    <li class="active"><a href="#"> Navigation </a></li>
                                                     <li><a href="#"> Navigation </a></li>
                                                 </ul>
                                             </li>
