@@ -24,6 +24,28 @@ $page_title = 'cat_all';
         <div class="container">
             <h1 class="mb-5">Classifieds UI Components</h1>
             <div class="card border-light mb-5">
+                <div class="card-header"> Buttons</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <h5>LARGE</h5>
+                            <?php include('components/buttons-large.php') ?>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <h5>SMALL</h5>
+                            <?php include('components/buttons-small.php') ?>
+                        </div>
+                        <div class="col-12"> <small>HTML - LARGE</small>
+                            <pre data-src="components/buttons-large.php" class="language-html"></pre>
+                        </div>
+                        <div class="col-12"> <small>HTML - SMALL</small>
+                            <pre data-src="components/buttons-small.php" class="language-html"></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card border-light mb-5">
                 <div class="card-header">Site Navigation</div>
                 <div class="card-body">
                     <div class="row">
