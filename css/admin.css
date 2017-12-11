@@ -6185,8 +6185,7 @@ a.text-dark:focus, a.text-dark:hover {
     margin-top: 20px; } }
 .nav-side-menu {
   background-color: #fff;
-  font-size: 0.875rem;
-  margin-right: -30px; }
+  font-size: 0.875rem; }
   .nav-side-menu .toggle-btn {
     display: none; }
   .nav-side-menu .menu-content {
