@@ -20,9 +20,9 @@ $page_title = 'cat_all';
             <div class="row">
                 <div class="col-3 d-none d-md-block">
                     <ul class="nav flex-column user-options">
-                        <li class="nav-item"> <a class="nav-link" href="#">My Ads (2)</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#">Watchlist (4) <i aria-hidden="true" class="fa fa-star pull-right"></i></a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#">Admin</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="main-myads.php">My Ads (2)</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="main-watchlist.php">Watchlist (4) <i aria-hidden="true" class="fa fa-star pull-right"></i></a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="admin-branding.php">Admin</a> </li>
                     </ul>
                     <?php include('includes/main-nav.php') ?>
                 </div>
