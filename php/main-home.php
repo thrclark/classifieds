@@ -18,7 +18,13 @@ $page_title = 'cat_all';
     <section class="main-content pt-3" role="main">
         <div class="container">
             <div class="row">
-                <div class="col-3 main-nav d-none d-md-block">
+                <div class="col-3 d-none d-md-block">
+                    <nav>
+                        <ul class="sub-menu">
+                            <li> <a href="main-myads.php">My Ads (2)</a></li>
+                            <li> <a href="main-watchlist.php"> My Watchlist (4) <i aria-hidden="true" class="fa fa-star pull-right"></i></a></li>
+                        </ul>
+                    </nav>
                     <?php include('includes/main-nav.php') ?>
                 </div>
                 <div class="col-xs-12 col-md-9 main-content-section">
