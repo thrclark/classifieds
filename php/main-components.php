@@ -12,6 +12,10 @@ $page_title = 'cat_all';
 .card-header {
 	font-size: 24px;
 }
+.demo-container {
+	padding: 30px;
+	background: #ededed
+}
 </style>
 </head>
 <body style="background:">
@@ -20,20 +24,41 @@ $page_title = 'cat_all';
         <div class="container">
             <h1 class="mb-5">Classifieds UI Components</h1>
             <div class="card border-light mb-5">
+                <div class="card-header">Site Navigation</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-3 mb-3">
+                            <p>Default</p>
+                            <div class="demo-container">
+                                <?php include('components/menu-default.php') ?>
+                            </div>
+                        </div>
+                        <div class="col-3 mb-3">
+                            <p>With Categories</p>
+                            <div class="demo-container">
+                                <?php include('components/menu-categories.php') ?>
+                            </div>
+                        </div>
+                        <div class="col-12"> <small>HTML - DEFAULT</small>
+                            <pre data-src="components/menu-default.php" class="language-html"></pre>
+                            <small>HTML - CATEGORIES</small>
+                            <pre data-src="components/menu-categories.php" class="language-html"></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-light mb-5">
                 <div class="card-header">'Favoriting'</div>
                 <div class="card-body">
                     <div class="row">
                         <div class="col-6 mb-3">
                             <p> Click on the examples below.</p>
-                            <!--Icon only-->
-                            <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button>
-                            <!--Button with icon-->
-                            <button class="btn btn-outline-secondary btn-sm favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="">Add to Watchlist</span></button>
+                            <?php include('components/favoriting.php') ?>
                         </div>
                         <div class="col-12"> <small>HTML</small>
-                            <pre data-src="components/favoriting.html" class="language-html"></pre>
+                            <pre data-src="components/favoriting.php" class="language-html"></pre>
                             <small>JS</small>
-                            <pre data-src="components/favoriting-js.html" class="language-js"></pre>
+                            <pre data-src="components/favoriting-js.php" class="language-js"></pre>
                         </div>
                     </div>
                 </div>
@@ -49,25 +74,9 @@ $page_title = 'cat_all';
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1"> Default </button>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2"> w/Text Blocks </button>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3"> w/Form Fields </button>
-                            <!--Modals-->
-                            
-                            <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModal1" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h3 class="modal-title" id="exampleModal1Label">Modal title</h3>
-                                            <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close" style=""> <span aria-hidden="true"> <i class="fa fa-close" aria-hidden="true"></i> </span> </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>Well, hello there.</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
-                                            <button type="button" class="btn btn-primary">Action</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <!--Modal 1-->
+                            <?php include('components/modal.php') ?>
+                            <!--Modal 2-->
                             <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModal2" aria-hidden="true">
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
@@ -92,6 +101,7 @@ $page_title = 'cat_all';
                                     </div>
                                 </div>
                             </div>
+                            <!--Modal 3-->
                             <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3" aria-hidden="true">
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
@@ -118,12 +128,10 @@ $page_title = 'cat_all';
                                     </div>
                                 </div>
                             </div>
-                            
-                            <!-- End Modals--> 
-                            
+                            <!-- End Demo Modals--> 
                         </div>
                         <div class="col-12"> <small>HTML</small>
-                            <pre data-src="components/modal.html" class="language-html"></pre>
+                            <pre data-src="components/modal.php" class="language-html"></pre>
                         </div>
                     </div>
                 </div>
@@ -133,12 +141,12 @@ $page_title = 'cat_all';
                 <div class="card-body">
                     <div class="row">
                         <div class="col-6 mb-3">
-                            <button type="button" class="btn btn-primary	" id="ButtonProgressDemo"><span class="btn-label">Click Me</span></button>
+                            <?php include('components/buttonprogress.php') ?>
                         </div>
                         <div class="col-12"> <small>HTML</small>
-                            <pre data-src="components/buttonprogress.html" class="language-html"></pre>
+                            <pre data-src="components/buttonprogress.php" class="language-html"></pre>
                             <small>JS</small>
-                            <pre data-src="components/buttonprogress-js.html" class="language-js"></pre>
+                            <pre data-src="components/buttonprogress-js.php" class="language-js"></pre>
                         </div>
                     </div>
                 </div>
@@ -148,19 +156,12 @@ $page_title = 'cat_all';
                 <div class="card-body">
                     <div class="row">
                         <div class="col-6">
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Text input (20 characters)</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="type anything here" maxlength="20">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Textarea (30 characters)</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" maxlength="30" placeholder="type anything here"></textarea>
-                            </div>
+                            <?php include('components/counter.php') ?>
                         </div>
                         <div class="col-12"> <small>HTML</small>
-                            <pre data-src="components/counter.html" class="language-html"></pre>
+                            <pre data-src="components/counter.php" class="language-html"></pre>
                             <small>JS</small>
-                            <pre data-src="components/counter-js.html" class="language-js"></pre>
+                            <pre data-src="components/counter-js.php" class="language-js"></pre>
                         </div>
                     </div>
                 </div>
@@ -208,22 +209,10 @@ $page_title = 'cat_all';
                                 </ul>
                             </nav>
                             <p>Middle of a large set</p>
-                            <nav aria-label="Page navigation">
-                                <ul class="pagination pagination-sm">
-                                    <li class="page-item"> <span class="page-link"  tabindex="-1"><i class="fa fa-angle-double-left" aria-hidden="true"></i><span class="sr-only">Previous</span></span> </li>
-                                    <li class="page-item"><a class="page-link" href="#">...</a></li>
-                                    <li class="page-item "><a class="page-link" href="#">11</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">12</a></li>
-                                    <li class="page-item active"><a class="page-link" href="#">13</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">14</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">15</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">...</a></li>
-                                    <li class="page-item"> <a class="page-link" href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i><span class="sr-only">Next</span></a> </li>
-                                </ul>
-                            </nav>
+                            <?php include('components/pagination.php') ?>
                         </div>
                         <div class="col-12"> <small>HTML</small>
-                            <pre data-src="components/pagination.html" class="language-html"></pre>
+                            <pre data-src="components/pagination.php" class="language-html"></pre>
                         </div>
                     </div>
                 </div>
@@ -232,18 +221,11 @@ $page_title = 'cat_all';
                 <div class="card-header">Image Uploader</div>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-6">
-                            <div class="imageuploader mb-3">
-                                <div class="imageuploader-controls"> <span class="btn btn-outline-secondary btn-sm mr-2">Upload image</span> or drop image here</div>
-                                <div class="imageuploader-images">
-                                    <div class="imageuploader-image"><img src="../img/trident-large.png" alt="">
-                                        <div class="deleteimage"><i class="fa fa-close" aria-hidden="true"></i></div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="col-6 mb-3">
+                            <?php include('components/imageuploader.php') ?>
                         </div>
                         <div class="col-12"> <small>HTML</small>
-                            <pre data-src="components/imageuploader.html" class="language-html"></pre>
+                            <pre data-src="components/imageuploader.php" class="language-html"></pre>
                         </div>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
 	background-color: $white;
 	font-size: 0.875rem;
 	margin-right: -30px;
-	margin-top: 25px;
+	//margin-top: 25px;
 
 	.toggle-btn {
 		display: none;
@@ -10,29 +10,10 @@
 
 	.menu-content {
 		border-top: solid 2px $gray-200;
-	}
-
-	ul, li {
-		list-style: none;
-		padding: 0px;
-		margin: 0px;
-		line-height: 35px;
-		cursor: pointer;
-
-		.arrow:before {
-			font-family: FontAwesome;
-			content: "\f107";
-			display: inline-block;
-			padding-left: 10px;
-			padding-right: 10px;
-			vertical-align: middle;
-			float: right;
-		}
-
-		.sub-menu li {
+		.menu-items li {
 			background-color: $gray-200;
 			border: none;
-			line-height: 28px;
+			//line-height: 28px;
 			border-bottom: 1px solid $gray-300;
 			margin-left: 0px;
 
@@ -74,6 +55,26 @@
 		}
 	}
 
+	ul, li {
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+		line-height: 35px;
+		cursor: pointer;
+
+		.arrow:before {
+			font-family: FontAwesome;
+			content: "\f107";
+			display: inline-block;
+			padding-left: 10px;
+			padding-right: 10px;
+			vertical-align: middle;
+			float: right;
+		}
+
+
+	}
+
 	li {
 		border-bottom: 1px solid $gray-100;
 
@@ -86,6 +87,13 @@
 			background-color: transparent;
 			padding-left: 5px;
 			color: $gray-800;
+			&.collapsed {
+				.arrow {
+					&:before{transform: rotate(90deg);}
+
+
+				}
+			}
 		}
 
 	}
@@ -121,6 +129,6 @@
 
 @include media-breakpoint-up(xs) {
 	.nav-side-menu {
-		margin-top: 10px;
+		//margin-top: 10px;
 	}
 }
