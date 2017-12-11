@@ -1,6 +1,5 @@
 
-
-<nav class="nav-side-menu"> <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+<nav class="nav-side-menu" style="margin-right: -30px; margin-top:10px"> <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
     <div class="menu-list">
         <ul class="menu-content" id="menu-content" aria-expanded="false" aria-hidden="true" style="">
             <li>
@@ -25,7 +24,7 @@
                 <button data-toggle="collapse" data-target="#group3" aria-expanded="false" aria-controls="group3" class="collapsed"> Branding <span class="arrow"></span> </button>
                 <ul class="menu-items collapse" id="group3">
                     <li><a href="#">Header and Footer</a></li>
-                    <li><a href="#">Page View Styles</a></li>	
+                    <li><a href="#">Page View Styles</a></li>
                     <li><a href="#">Application Icons</a></li>
                 </ul>
             </li>
@@ -40,5 +39,4 @@
         </ul>
     </div>
 </nav>
-
-<div style="font-style:italic; padding-top:30px"> <a href="main-home.php">Main View</a></div>
+<div style="font-style:italic; padding-top:20px"> <a href="main-home.php">Main View</a></div>

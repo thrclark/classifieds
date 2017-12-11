@@ -27,12 +27,12 @@ $page_title = 'cat_all';
                 <div class="card-header"> Buttons</div>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-6 mb-3">
-                            <h5>LARGE</h5>
+                        <div class="col-3 mb-3">
+                            <p>Large</p>
                             <?php include('components/buttons-large.php') ?>
                         </div>
-                        <div class="col-6 mb-3">
-                            <h5>SMALL</h5>
+                        <div class="col-3 mb-3">
+                            <p>Small</p>
                             <?php include('components/buttons-small.php') ?>
                         </div>
                         <div class="col-12"> <small>HTML - LARGE</small>
@@ -44,6 +44,7 @@ $page_title = 'cat_all';
                     </div>
                 </div>
             </div>
+            <blockquote>&nbsp;</blockquote>
             
             <div class="card border-light mb-5">
                 <div class="card-header">Site Navigation</div>

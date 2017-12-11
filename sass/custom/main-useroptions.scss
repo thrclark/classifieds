@@ -1,9 +1,12 @@
 .user-options {
+  margin-top: 34px;
   .nav-item {
     .nav-link {
+      background: $gray-100;
       border: solid 1px $gray-300;
-      margin-top: 5px;
-      @include shadow;
+      margin-top: -1px;
+      padding: 0.3rem 1rem;
+      //@include shadow;
     }
   }
 }
