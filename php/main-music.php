@@ -18,7 +18,7 @@ $page_title = 'cat_music';
     <section class="main-content pt-3" role="main">
         <div class="container">
             <div class="row">
-                <div class="col-3 main-nav d-none d-md-block">
+                <div class="col-3 d-none d-md-block">
                     <?php include('includes/main-nav.php') ?>
                 </div>
                 <div class="col-xs-12 col-md-9 main-content-section" role="main">

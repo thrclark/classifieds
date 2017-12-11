@@ -1,4 +1,4 @@
-<div class="nav-side-menu"> <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+<nav class="nav-side-menu"> <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
     <div class="menu-list">
         <ul class="menu-content" id="menu-content" aria-expanded="false" aria-hidden="true" style="">
             <li>
@@ -19,4 +19,4 @@
             </li>
         </ul>
     </div>
-</div>
+</nav>
