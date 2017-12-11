@@ -19,11 +19,11 @@ $page_title = 'cat_all';
         <div class="container">
             <div class="row">
                 <div class="col-3 d-none d-md-block">
-                    <!--<ul class="nav flex-column user-options">
+                    <ul class="nav flex-column user-options">
                         <li class="nav-item"> <a class="nav-link" href="#">My Ads (2)</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#">My Watchlist (4) <i aria-hidden="true" class="fa fa-star pull-right"></i></a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Watchlist (4) <i aria-hidden="true" class="fa fa-star pull-right"></i></a> </li>
                         <li class="nav-item"> <a class="nav-link" href="#">Admin</a> </li>
-                    </ul>-->
+                    </ul>
                     <?php include('includes/main-nav.php') ?>
                 </div>
                 <div class="col-xs-12 col-md-9 main-content-section">
