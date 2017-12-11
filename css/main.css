@@ -7554,8 +7554,7 @@ fieldset .form-group:last-child {
 
 .nav-side-menu {
   background-color: #fff;
-  font-size: 0.875rem;
-  margin-right: -30px; }
+  font-size: 0.875rem; }
   .nav-side-menu .toggle-btn {
     display: none; }
   .nav-side-menu .menu-content {
@@ -7635,5 +7634,10 @@ fieldset .form-group:last-child {
 @media (min-width: 768px) {
   .nav-side-menu .menu-list .menu-content {
     display: block !important; } }
+.user-options .nav-item .nav-link {
+  border: solid 1px #dee2e6;
+  margin-top: 5px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
 
 /*# sourceMappingURL=main.css.map */

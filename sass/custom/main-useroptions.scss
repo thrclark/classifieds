@@ -1,0 +1,9 @@
+.user-options {
+  .nav-item {
+    .nav-link {
+      border: solid 1px $gray-300;
+      margin-top: 5px;
+      @include shadow;
+    }
+  }
+}
