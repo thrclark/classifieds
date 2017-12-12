@@ -44,8 +44,6 @@ $page_title = 'cat_all';
                     </div>
                 </div>
             </div>
-            <blockquote>&nbsp;</blockquote>
-            
             <div class="card border-light mb-5">
                 <div class="card-header">Site Navigation</div>
                 <div class="card-body">
