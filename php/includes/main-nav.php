@@ -1,7 +1,3 @@
-
-
-
-
 <nav class="nav-side-menu"> 
     <div class="menu-list">
         <div class="menu-content">
@@ -25,10 +21,3 @@
         </div>
     </div>
 </nav>
-
-
-
-
-
-
-<!--    <div class="post-nav-links"><a href="#" data-toggle="modal" data-target="#adspolicy"> Ads Policy</a> | <a href="admin-branding.php">Admin</a></div>-->

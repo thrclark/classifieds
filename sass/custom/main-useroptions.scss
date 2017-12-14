@@ -5,8 +5,10 @@
       background: $gray-100;
       border: solid 1px $gray-300;
       margin-top: -1px;
-      padding: 0.3rem 1rem;
-      //@include shadow;
+      padding: 0.2rem 1rem;
+      .fa {
+        margin-top: 1px;
+      }
     }
   }
-}
+} 

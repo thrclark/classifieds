@@ -7646,6 +7646,8 @@ fieldset .form-group:last-child {
     background: #f8f9fa;
     border: solid 1px #dee2e6;
     margin-top: -1px;
-    padding: 0.3rem 1rem; }
+    padding: 0.2rem 1rem; }
+    .user-options .nav-item .nav-link .fa {
+      margin-top: 1px; }
 
 /*# sourceMappingURL=main.css.map */
