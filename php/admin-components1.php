@@ -6,7 +6,7 @@ $page_title = 'cat_all';
 <html lang="en">
 <head>
 <?php include('includes/all-head-meta.php') ?>
-<?php include('includes/main-styles.php') ?>
+<?php include('includes/admin-styles.php') ?>
 <link href="../css/prism.css" rel="stylesheet" type="text/css">
 <style>
 .card-header {
@@ -23,6 +23,20 @@ $page_title = 'cat_all';
     <section class="mt-5" role="main">
         <div class="container">
             <h1 class="mb-5">Classifieds UI Components</h1>
+            <div class="card border-light mb-5">
+                <div class="card-header"> Icon Selector</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                          
+                            <?php include('components/iconselector.php') ?>
+                        </div>
+                        <div class="col-12"> <small>HTML</small>
+                            <pre data-src="components/iconselector.php" class="language-html"></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="card border-light mb-5">
                 <div class="card-header"> Buttons</div>
                 <div class="card-body">
@@ -257,50 +271,6 @@ $page_title = 'cat_all';
 <?php include('includes/admin-footerscripts.php') ?>
 <script src="../js/prism.js"></script> 
 <script>
-
-</script> 
-<script>
-    // Open/close search panel
-    $("#findIcon").click(function() {
-        $(".icon-search").slideDown("slow");
-    });
-    $("#cancelSearch,#iconSelection button ").click(function() {
-        $(".icon-search").slideUp("slow");
-    });
-    // Set icon name
-    $("#iconSelection button").click(function() {
-        $(".icon-name").replaceWith("<div class='col icon-name'>" + $(this).text() + "</div>");
-    });
-
-    // Set icon class
-    $("#iconSelection button i").click(function() {
-        var iconClass = $(this).attr("class");
-		$( ".icon-display i" ).removeClass();
-		$( ".icon-display i" ).addClass(iconClass);
-    });
-	
-	
-	
-
-    // Filtering function
-    function selectIcon() {
-        var input, filter, iconSelection, button, span, i;
-        input = document.getElementById("selectIcon");
-        filter = input.value.toUpperCase();
-        iconSelection = document.getElementById("iconSelection");
-        button = iconSelection.getElementsByTagName("button");
-        for (i = 0; i < button.length; i++) {
-            span = button[i].getElementsByTagName("span")[0];
-            if (span.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                button[i].style.display = "";
-            } else {
-                button[i].style.display = "none";
-
-            }
-        }
-    }
-</script> 
-<script>
     $(document).ready(function() {
         $('#counterDemo1,#counterDemo2').maxlength({
             threshold: 10,
@@ -309,7 +279,7 @@ $page_title = 'cat_all';
             placement: 'bottom',
         });
     });
-</script> 
+</script>
 <script>
     $(document).ready(function() {
         $("#ButtonProgressDemo").click(function() {

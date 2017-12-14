@@ -383,7 +383,8 @@ hr {
 
 small,
 .small,
-.form-group.form-group-error .validation-fieldmessage {
+.form-group.form-group-error .validation-fieldmessage,
+.icon-selector .icon-current .icon-name {
   font-size: 80%;
   font-weight: normal; }
 
@@ -5951,7 +5952,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .text-left {
   text-align: left !important; }
 
-.text-right {
+.text-right, .icon-selector .icon-current .icon-select {
   text-align: right !important; }
 
 .text-center {
@@ -7026,5 +7027,32 @@ fieldset .form-group:last-child {
   animation: progress-bar-stripes 1s linear infinite;
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 1rem 1rem; }
+
+.icon-selector {
+  position: relative; }
+  .icon-selector .icon-current {
+    padding: 10px;
+    border: solid 1px #dee2e6; }
+    .icon-selector .icon-current .icon-display {
+      padding-left: 30px; }
+      .icon-selector .icon-current .icon-display .fa {
+        font-size: 50px; }
+    .icon-selector .icon-current .icon-name {
+      text-transform: uppercase; }
+  .icon-selector .icon-search {
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+    width: 100%; }
+    .icon-selector .icon-search .card .card-body, .icon-selector .icon-search .utility-bar .card-body {
+      max-height: 400px;
+      overflow: auto; }
+      .icon-selector .icon-search .card .card-body .btn, .icon-selector .icon-search .utility-bar .card-body .btn {
+        margin-right: 5px;
+        margin-bottom: 5px;
+        width: 36px;
+        height: 36px;
+        border-color: #dee2e6;
+        font-size: 18px; }
 
 /*# sourceMappingURL=admin.css.map */

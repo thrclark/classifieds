@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('input.form-control, textarea.form-control').maxlength({
+    $('#counterDemo1,#counterDemo2,').maxlength({
         threshold: 10,
         warningClass: "badge badge-success counter",
         limitReachedClass: "badge badge-danger counter",
