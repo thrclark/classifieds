@@ -273,9 +273,6 @@ $page_title = 'cat_all';
 <?php include('includes/admin-footerscripts.php') ?>
 <script src="../js/prism.js"></script> 
 <script>
-
-</script> 
-<script>
     // Open/close search panel
     $("#findIcon").click(function() {
         $(".icon-search").slideDown("slow");
@@ -310,7 +307,7 @@ $page_title = 'cat_all';
             }
         }
     }
-</script>
+</script> 
 <script>
     $(document).ready(function() {
         $('#counterDemo1,#counterDemo2').maxlength({
