@@ -24,6 +24,22 @@ $page_title = 'cat_all';
         <div class="container">
             <h1 class="mb-5">Classifieds UI Components</h1>
             <div class="card border-light mb-5">
+                <div class="card-header"> Icon Selector</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <?php include('components/iconselector.php') ?>
+                        </div>
+                        <div class="col-12"> <small>HTML</small>
+                            <pre data-src="components/iconselector.php" class="language-html"></pre>
+                        </div>
+                        <div class="col-12"> <small>JS</small>
+                            <pre data-src="components/iconselector-js.php" class="language-js"></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-light mb-5">
                 <div class="card-header"> Buttons</div>
                 <div class="card-body">
                     <div class="row">
@@ -257,12 +273,48 @@ $page_title = 'cat_all';
 <?php include('includes/admin-footerscripts.php') ?>
 <script src="../js/prism.js"></script> 
 <script>
+    // Open/close search panel
+    $("#findIcon").click(function() {
+        $(".icon-search").slideDown("slow");
+    });
+    $("#cancelSearch,#iconSelection button ").click(function() {
+        $(".icon-search").slideUp("fast");
+    });
+    // Set icon name
+    $("#iconSelection button").click(function() {
+        $(".icon-name").replaceWith("<div class='col icon-name'>" + $(this).text() + "</div>");
+    });
+
+    // Set icon class
+    $("#iconSelection button i").click(function() {
+        var iconClass = $(this).attr("class");
+		$( ".icon-display i" ).removeClass();
+		$( ".icon-display i" ).addClass(iconClass);
+    });
+    // Filtering function
+    function selectIcon() {
+        var input, filter, iconSelection, button, span, i;
+        input = document.getElementById("selectIcon");
+        filter = input.value.toUpperCase();
+        iconSelection = document.getElementById("iconSelection");
+        button = iconSelection.getElementsByTagName("button");
+        for (i = 0; i < button.length; i++) {
+            span = button[i].getElementsByTagName("span")[0];
+            if (span.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                button[i].style.display = "";
+            } else {
+                button[i].style.display = "none";
+            }
+        }
+    }
+</script> 
+<script>
     $(document).ready(function() {
-        $('input.form-control, textarea.form-control').maxlength({
+        $('#counterDemo1,#counterDemo2').maxlength({
             threshold: 10,
-			warningClass: "badge badge-success counter",
+            warningClass: "badge badge-success counter",
             limitReachedClass: "badge badge-danger counter",
-			placement: 'bottom',
+            placement: 'bottom',
         });
     });
 </script> 
