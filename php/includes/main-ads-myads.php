@@ -55,11 +55,6 @@
         <hr>
     </div>
     <div class="postitem grid cat-vehicles">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
-                <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button>
-            </div>
-        </div>
         <div class="postitem-container" data-toggle="modal" data-target="#post_detail">
             <div class="postitem-row">
                 <div class="postitem-image-container">
@@ -78,11 +73,6 @@
         </div>
     </div>
     <div class="postitem grid cat-misc">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
-                <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button>
-            </div>
-        </div>
         <div class="postitem-container" data-toggle="modal" data-target="#post_detail">
             <div class="postitem-row">
                 <div class="postitem-image-container">
@@ -103,11 +93,6 @@
         </div>
     </div>
     <div class="postitem grid cat-misc">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
-                <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button>
-            </div>
-        </div>
         <div class="postitem-container" data-toggle="modal" data-target="#post_detail">
             <div class="postitem-row">
                 <div class="postitem-image-container">

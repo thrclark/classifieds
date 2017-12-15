@@ -7153,7 +7153,7 @@ fieldset .form-group:last-child {
     font-size: 1.2rem; }
   .main-content .main-content-section .section-head .section-head-utilities {
     padding: 0px;
-    border-top: solid 1px #a6a6a6;
+    border-top: solid 1px #868e96;
     padding-top: 7px; }
     .main-content .main-content-section .section-head .section-head-utilities .fa {
       margin-top: 2px;
@@ -7187,7 +7187,7 @@ fieldset .form-group:last-child {
       .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch:before {
         position: absolute;
         content: '';
-        border-left: solid 1px #a6a6a6;
+        border-left: solid 1px #868e96;
         left: -9px;
         height: 33px;
         top: -12px; }
@@ -7591,8 +7591,8 @@ fieldset .form-group:last-child {
         color: #343a40;
         text-decoration: none;
         line-height: 1.2;
-        padding-top: 5px;
-        padding-bottom: 5px; }
+        padding-top: 7px;
+        padding-bottom: 7px; }
   .nav-side-menu ul, .nav-side-menu li {
     list-style: none;
     padding: 0px;
@@ -7622,6 +7622,9 @@ fieldset .form-group:last-child {
       .nav-side-menu li button.collapsed .arrow:before {
         transform: rotate(90deg); }
 
+.nav-side-menu.user-options li:last-child {
+  border-color: #868e96; }
+
 @media (max-width: 767px) {
   .nav-side-menu {
     position: relative;
@@ -7641,7 +7644,7 @@ fieldset .form-group:last-child {
   .nav-side-menu .menu-list .menu-content {
     display: block !important; } }
 .user-options {
-  margin-top: 34px; }
+  margin-top: 2px; }
   .user-options .nav-item .nav-link {
     background: #f8f9fa;
     border: solid 1px #dee2e6;

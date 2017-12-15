@@ -53,8 +53,8 @@
 				color: $gray-800;
 				text-decoration: none;
 				line-height: 1.2;
-				padding-top: 5px;
-				padding-bottom: 5px;
+				padding-top: 7px;
+				padding-bottom: 7px;
 			}
 		}
 	}
@@ -103,6 +103,15 @@
 
 	}
 }
+.nav-side-menu.user-options {
+	li {
+		&:last-child {
+			border-color: $gray-600;
+		}
+	}
+
+}
+
 
 @include media-breakpoint-down(sm) {
 	.nav-side-menu {
