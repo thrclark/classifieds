@@ -19,13 +19,15 @@ $page_title = 'cat_all';
         <div class="container">
             <div class="row">
                 <div class="col-3 d-none d-md-block">
-                    <?php include('includes/main-user-options.php') ?>
-                    <?php include('includes/main-nav.php') ?>
+                   <div id="siteNav">
+                        <?php include('includes/main-user-options.php') ?>
+                        <?php include('includes/main-nav.php') ?>
+                    </div>
                 </div>
                 <div class="col-xs-12 col-md-9 main-content-section">
                     <div class="row align-items-center section-head">
                         <div class="col-auto section-head-title">
-                            <h2 class="">IUK: All Ads</h2>
+                            <h2 class="">All Ads</h2>
                         </div>
                         <div class="col-12">
                             <?php include('includes/main-section-utilities.php') ?>

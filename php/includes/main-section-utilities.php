@@ -4,9 +4,9 @@
         <div class="col-auto"  <?php if ($page_title == 'cat_watchlist') { echo 'style=" display:none"'; } ?> <?php if ($page_title == 'cat_myads') { echo 'style=" display:none"'; } ?>>
             <div class="dropdown util-location"><i class="fa fa-map-marker" aria-hidden="true"></i>
                 <button class="btn btn-link dropdown-toggle" type="button" id="select_geo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="long-name">IU Kokomo</span> <span class="short-name">IUK</span></button>
-                <div class="dropdown-menu" aria-labelledby="select_geo"> <a class="dropdown-item" href="#"><span class="long-name">IU Bloomington</span></a> <a class="dropdown-item" href="#"><span class="long-name">IUPUI</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU Kokomo</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU Northwest</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU South Bend</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU East</span></a> <a class="dropdown-item" href="#"><span class="long-name">IU South</span></a>
+                <div class="dropdown-menu" aria-labelledby="select_geo"> <a class="dropdown-item" href="#"> IU Bloomington (IUB)</a> <a class="dropdown-item" href="#"> IUPUI (IUPUI)</a> <a class="dropdown-item" href="#"> IU Kokomo (IUK)</a> <a class="dropdown-item" href="#"> IU Northwest (IUN)</a> <a class="dropdown-item" href="#"> IU South Bend (IUSB)</a> <a class="dropdown-item" href="#"> IU East (IUE)</a> <a class="dropdown-item" href="#"> IU South (IUS)</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#"><span class="long-name">All Campuses</span></a> </div>
+                    <a class="dropdown-item" href="#">All Campuses</a> </div>
             </div>
         </div>
         <div class="col-auto">
