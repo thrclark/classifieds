@@ -16,16 +16,26 @@ $page_title = 'cat_all';
 	padding: 30px;
 	background: #ededed
 }
+.card-header .fa {
+	margin-top: 3px;
+}
+.card-header[aria-expanded="true"] .fa:before {
+	content: "\f107";
+}
+pre {
+	max-height: 350px;
+}
 </style>
 </head>
 <body style="background:">
 <div id="main">
     <section class="mt-5" role="main">
         <div class="container">
-            <h1 class="mb-5">Classifieds UI Components</h1>
-            <div class="card border-light mb-5">
-                <div class="card-header"> Icon Selector</div>
-                <div class="card-body">
+            <h1 class="mb-5">Classifieds UI Components <br>
+                <small class="text-muted">Admin Interface</small></h1>
+            <div class="card border-light mb-3">
+                <div class="card-header" data-toggle="collapse" href="#collapse_iconselect" aria-expanded="false" aria-controls="collapse_iconselect"> Icon Selector <i class="fa fa-angle-left pull-right" aria-hidden="true"></i></div>
+                <div class="card-body collapse" id="collapse_iconselect">
                     <div class="row">
                         <div class="col-6 mb-3">
                             <?php include('components/iconselector.php') ?>
@@ -39,9 +49,9 @@ $page_title = 'cat_all';
                     </div>
                 </div>
             </div>
-            <div class="card border-light mb-5">
-                <div class="card-header"> Buttons</div>
-                <div class="card-body">
+            <div class="card border-light mb-3">
+                <div class="card-header" data-toggle="collapse" href="#collapse_buttons" aria-expanded="false" aria-controls="collapse_buttons"> Buttons <i class="fa fa-angle-left pull-right" aria-hidden="true"></i></div>
+                <div class="card-body collapse" id="collapse_buttons">
                     <div class="row">
                         <div class="col-3 mb-3">
                             <p>Large</p>
@@ -60,9 +70,9 @@ $page_title = 'cat_all';
                     </div>
                 </div>
             </div>
-            <div class="card border-light mb-5">
-                <div class="card-header">Site Navigation</div>
-                <div class="card-body">
+            <div class="card border-light mb-3">
+                <div class="card-header" data-toggle="collapse" href="#collapse_sitenav" aria-expanded="false" aria-controls="collapse_sitenav">Site Navigation <i class="fa fa-angle-left pull-right" aria-hidden="true"></i></div>
+                <div class="card-body collapse" id="collapse_sitenav">
                     <div class="row">
                         <div class="col-3 mb-3">
                             <p>Default</p>
@@ -84,9 +94,9 @@ $page_title = 'cat_all';
                     </div>
                 </div>
             </div>
-            <div class="card border-light mb-5">
-                <div class="card-header">'Favoriting'</div>
-                <div class="card-body">
+            <div class="card border-light mb-3">
+                <div class="card-header" data-toggle="collapse" href="#collapse_favoriting" aria-expanded="false" aria-controls="collapse_favoriting">Favoriting <i class="fa fa-angle-left pull-right" aria-hidden="true"></i></div>
+                <div class="card-body collapse" id="collapse_favoriting">
                     <div class="row">
                         <div class="col-6 mb-3">
                             <p> Click on the examples below.</p>
@@ -100,9 +110,9 @@ $page_title = 'cat_all';
                     </div>
                 </div>
             </div>
-            <div class="card border-light mb-5">
-                <div class="card-header">Modals</div>
-                <div class="card-body">
+            <div class="card border-light mb-3">
+                <div class="card-header" data-toggle="collapse" href="#collapse_modals" aria-expanded="false" aria-controls="collapse_modals">Modals <i class="fa fa-angle-left pull-right" aria-hidden="true"></i></div>
+                <div class="card-body collapse" id="collapse_modals">
                     <div class="row">
                         <div class="col-12">
                             <p>Note - the modal header has been incorporated into the brand color theming framework. When a specific brand color is selected, the modal header background color will change accordingly.</p>
@@ -173,9 +183,9 @@ $page_title = 'cat_all';
                     </div>
                 </div>
             </div>
-            <div class="card border-light mb-5">
-                <div class="card-header"> Button Progress Messaging</div>
-                <div class="card-body">
+            <div class="card border-light mb-3">
+                <div class="card-header" data-toggle="collapse" href="#collapse_progress" aria-expanded="false" aria-controls="collapse_progress">Button Progress Messaging <i class="fa fa-angle-left pull-right" aria-hidden="true"></i></div>
+                <div class="card-body collapse" id="collapse_progress">
                     <div class="row">
                         <div class="col-6 mb-3">
                             <?php include('components/buttonprogress.php') ?>
@@ -188,9 +198,9 @@ $page_title = 'cat_all';
                     </div>
                 </div>
             </div>
-            <div class="card border-light mb-5">
-                <div class="card-header">Character Count Constraint</div>
-                <div class="card-body">
+            <div class="card border-light mb-3">
+                <div class="card-header" data-toggle="collapse" href="#collapse_counter" aria-expanded="false" aria-controls="collapse_counter">Character Count Constraint <i class="fa fa-angle-left pull-right" aria-hidden="true"></i></div>
+                <div class="card-body collapse" id="collapse_counter">
                     <div class="row">
                         <div class="col-6">
                             <?php include('components/counter.php') ?>
@@ -203,9 +213,9 @@ $page_title = 'cat_all';
                     </div>
                 </div>
             </div>
-            <div class="card border-light mb-5">
-                <div class="card-header">Pagination</div>
-                <div class="card-body">
+            <div class="card border-light mb-3">
+                <div class="card-header" data-toggle="collapse" href="#collapse_pagination" aria-expanded="false" aria-controls="collapse_pagination">Pagination <i class="fa fa-angle-left pull-right" aria-hidden="true"></i></div>
+                <div class="card-body collapse" id="collapse_pagination">
                     <div class="row">
                         <div class="col-6">
                             <p>With 5 or less pages</p>
@@ -254,9 +264,9 @@ $page_title = 'cat_all';
                     </div>
                 </div>
             </div>
-            <div class="card border-light mb-5">
-                <div class="card-header">Image Uploader</div>
-                <div class="card-body">
+            <div class="card border-light mb-3">
+                <div class="card-header" data-toggle="collapse" href="#collapse_uploader" aria-expanded="false" aria-controls="collapse_uploader">Image Uploader <i class="fa fa-angle-left pull-right" aria-hidden="true"></i></div>
+                <div class="card-body collapse" id="collapse_uploader">
                     <div class="row">
                         <div class="col-6 mb-3">
                             <?php include('components/imageuploader.php') ?>
