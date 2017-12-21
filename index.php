@@ -91,9 +91,9 @@ $page_title = '';
         <div class="col">
             <h2 class="h3"> Publishing Views</h2>
             <ul>
-                <li><a href="php/admin-template-index.php" target="_blank">Index Layout Template</a></li>
-                <li><a href="php/admin-template-form.php" target="_blank">Form Layout Template</a></li>
-                <li><a href="php/admin-sys-parameters.php" target="_blank">System Parameters</a></li>
+                <li><a href="php/template-admin-index.php" target="_blank">Index Layout Template</a></li>
+                <li><a href="php/template-admin-form.php" target="_blank">Form Layout Template</a></li>
+                <li><a href="php/admin-sysparameters.php" target="_blank">System Parameters</a></li>
                 <li><a href="php/admin-branding.php" target="_blank">Branding Configuration</a></li>
             </ul>
         </div>
@@ -104,8 +104,8 @@ $page_title = '';
         <div class="col">
             <h2 class="h3"> UI Components</h2>
             <ul>
-                <li><a href="php/main-components.php" target="_blank">Component styling (main.css)</a></li>
-                <li><a href="php/admin-components.php" target="_blank">Component styling (admin.css)</a></li>
+                <li><a href="php/components-main.php" target="_blank">Component styling (main.css)</a></li>
+                <li><a href="php/components-admin.php" target="_blank">Component styling (admin.css)</a></li>
             </ul>
         </div>
     </div>

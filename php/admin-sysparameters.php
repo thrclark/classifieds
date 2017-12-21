@@ -1,6 +1,6 @@
 <?php 
-$section = '';
-$page_title = '';
+$section = 'appconfig';
+$page_title = 'sysparameters';
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +21,7 @@ $page_title = '';
 <div class="container">
     <div class="row">
         <div class="col-12 col-md-3">
-             <div id="adminNav">
+            <div id="adminNav">
                 <?php include('includes/admin-nav.php') ?>
             </div>
         </div>
