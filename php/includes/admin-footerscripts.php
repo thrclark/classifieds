@@ -164,3 +164,27 @@
         })
     });
 </script>
+
+
+
+
+<script>
+
+	
+	
+	
+	$("#togle_help").change(function() {
+    if(this.checked) {
+        $(".helper-text").fadeIn();
+		
+    }
+	else {
+		 $(".helper-text").fadeOut();
+            }
+});
+
+
+
+</script> 
+
+

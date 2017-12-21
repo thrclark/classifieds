@@ -6154,6 +6154,10 @@ a.text-dark:focus, a.text-dark:hover {
   min-height: 40px; }
   .main-content .doc-header .doc-title h2 {
     font-size: 1rem; }
+  .main-content .doc-header .doc-controls .switch {
+    margin-right: 36px; }
+    .main-content .doc-header .doc-controls .switch label {
+      padding-left: 36px; }
 
 @media (min-width: 768px) {
   .app-header {

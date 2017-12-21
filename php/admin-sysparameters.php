@@ -33,7 +33,11 @@ $page_title = 'sysparameters';
                             <h2> System Parameters</h2>
                         </div>
                         <div class="col doc-controls text-right">
-                            <div id="help_toggle" class=""> Help: <a href="#" id="help_toggle_switch" style="display: inline;">on</a> </div>
+                            <div class="switch">
+                                <label> Help
+                                    <input id="togle_help" type="checkbox" checked>
+                                    <span class="slider"></span> </label>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -89,19 +93,5 @@ $page_title = 'sysparameters';
 </div>
 <?php include('modals/modal-admin-sysparam-appemail.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
-<script>
-    $(document).ready(function() {
-        $("#help_toggle").click(function() {
-            $("#help_toggle_switch").fadeOut(function() {
-                $("#help_toggle_switch").text(($("#help_toggle_switch").text() == 'off') ? 'on' : 'off').fadeIn();
-            })
-        })
-    });
-</script> 
-<script>
-    $("#help_toggle").click(function() {
-        $(".helper-text").fadeToggle();
-    });
-</script>
 </body>
 </html>
