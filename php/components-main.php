@@ -34,6 +34,19 @@ pre {
             <h1 class="mb-5">Classifieds UI Components <br>
                 <small class="text-muted">Main Interface</small></h1>
             <div class="card border-light mb-3">
+                <div class="card-header" data-toggle="collapse" href="#collapse_radiocheck" aria-expanded="false" aria-controls="collapse_radiocheck"> Radio &amp; Checkbox <i class="fa fa-angle-left pull-right" aria-hidden="true"></i></div>
+                <div class="card-body collapse" id="collapse_radiocheck">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <?php include('components/radiocheck.php') ?>
+                        </div>
+                        <div class="col-12"> <small>HTML</small>
+                            <pre data-src="components/radiocheck.php" class="language-html"></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-light mb-3">
                 <div class="card-header" data-toggle="collapse" href="#collapse_buttons" aria-expanded="false" aria-controls="collapse_buttons"> Buttons <i class="fa fa-angle-left pull-right" aria-hidden="true"></i></div>
                 <div class="card-body collapse" id="collapse_buttons">
                     <div class="row">
