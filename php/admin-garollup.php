@@ -37,7 +37,7 @@ $page_title = 'garollup';
                         </div>
                     </div>
                 </div>
-               <?php include('includes/admin-utilitybar.php') ?>
+                <!--<?php include('includes/admin-utilitybar.php') ?>-->
                 <table class="table table-sm table-actions">
                     <thead>
                         <tr>
@@ -55,136 +55,16 @@ $page_title = 'garollup';
                             <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
                         </tr>
                         <tr>
-                            <td>Steve</td>
-                            <td>Dog</td>
-                            <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                        </tr>
-                        <tr>
-                            <td>Jill</td>
-                            <td>Giraffe</td>
-                            <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                        </tr>
-                        <tr>
-                            <td>Stacey</td>
-                            <td>Elephant</td>
-                            <td>03/21/2017</td>
-                            <td><div class="dropdown show"> <a class="btn btn-outline-secondary btn-sm dropdown-toggle" href="#" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-                                    <div class="dropdown-menu" aria-labelledby=""> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a> </div>
-                                </div></td>
-                        </tr>
-                        <tr>
-                            <td>Rob</td>
-                            <td>Penguin</td>
-                            <td>03/21/2017</td>
-                            <td><div class="dropdown show"> <a class="btn btn-outline-secondary btn-sm dropdown-toggle" href="#" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-                                    <div class="dropdown-menu" aria-labelledby=""> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a></div>
-                                </div></td>
-                        </tr>
-                        <tr>
                             <td>Mark</td>
                             <td>Cat</td>
                             <td>03/21/2017</td>
                             <td><div class="dropdown show"> <a class="btn btn-outline-secondary btn-sm dropdown-toggle" href="#" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
                                     <div class="dropdown-menu" aria-labelledby=""> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a></div>
                                 </div></td>
-                        </tr>
-                        <tr>
-                            <td>Steve</td>
-                            <td>Dog</td>
-                            <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                        </tr>
-                        <tr>
-                            <td>Jill</td>
-                            <td>Giraffe</td>
-                            <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                        </tr>
-                        <tr>
-                            <td>Stacey</td>
-                            <td>Elephant</td>
-                            <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                        </tr>
-                        <tr>
-                            <td>Rob</td>
-                            <td>Penguin</td>
-                            <td>03/21/2017</td>
-                            <td><div class="dropdown show"> <a class="btn btn-outline-secondary btn-sm dropdown-toggle" href="#" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-                                    <div class="dropdown-menu" aria-labelledby=""> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a></div>
-                                </div></td>
-                        </tr>
-                        <tr>
-                            <td>Mark</td>
-                            <td>Cat</td>
-                            <td>03/21/2017</td>
-                            <td><div class="dropdown show"> <a class="btn btn-outline-secondary btn-sm dropdown-toggle" href="#" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-                                    <div class="dropdown-menu" aria-labelledby=""> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a></div>
-                                </div></td>
-                        </tr>
-                        <tr>
-                            <td>Steve</td>
-                            <td>Dog</td>
-                            <td>03/21/2017</td>
-                            <td><div class="dropdown show"> <a class="btn btn-outline-secondary btn-sm dropdown-toggle" href="#" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-                                    <div class="dropdown-menu" aria-labelledby=""> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a></div>
-                                </div></td>
-                        </tr>
-                        <tr>
-                            <td>Jill</td>
-                            <td>Giraffe</td>
-                            <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                        </tr>
-                        <tr>
-                            <td>Stacey</td>
-                            <td>Elephant</td>
-                            <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                        </tr>
-                        <tr>
-                            <td>Rob</td>
-                            <td>Penguin</td>
-                            <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                        </tr>
-                        <tr>
-                            <td>Mark</td>
-                            <td>Cat</td>
-                            <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                        </tr>
-                        <tr>
-                            <td>Steve</td>
-                            <td>Dog</td>
-                            <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                        </tr>
-                        <tr>
-                            <td>Jill</td>
-                            <td>Giraffe</td>
-                            <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                        </tr>
-                        <tr>
-                            <td>Stacey</td>
-                            <td>Elephant</td>
-                            <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                        </tr>
-                        <tr>
-                            <td>Rob</td>
-                            <td>Penguin</td>
-                            <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
                         </tr>
                     </tbody>
                 </table>
-                
-                    <?php include('includes/all-pagination.php') ?>
-                    
+                <?php include('includes/all-pagination.php') ?>
                 
                 <!-- <div class="testbox">asdf</div>--> 
             </div>
