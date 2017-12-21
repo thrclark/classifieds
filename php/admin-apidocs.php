@@ -32,41 +32,8 @@ $page_title = 'apidocs';
                         <div class="col doc-title">
                             <h2>API Documentation</h2>
                         </div>
-                        <div class="col doc-controls">
-                            <button type="button" class="btn btn-outline-secondary btn-sm float-md-right"> New Item</button>
-                        </div>
                     </div>
                 </div>
-                <!--<?php include('includes/admin-utilitybar.php') ?>-->
-                <table class="table table-sm table-actions">
-                    <thead>
-                        <tr>
-                            <th> Name</th>
-                            <th>Type</th>
-                            <th>Date</th>
-                            <th><span class="sr-only">Actions</span></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Mark</td>
-                            <td>Cat</td>
-                            <td>03/21/2017</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                        </tr>
-                        <tr>
-                            <td>Mark</td>
-                            <td>Cat</td>
-                            <td>03/21/2017</td>
-                            <td><div class="dropdown show"> <a class="btn btn-outline-secondary btn-sm dropdown-toggle" href="#" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-                                    <div class="dropdown-menu" aria-labelledby=""> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a></div>
-                                </div></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <?php include('includes/all-pagination.php') ?>
-                
-                <!-- <div class="testbox">asdf</div>--> 
             </div>
         </div>
     </div>
