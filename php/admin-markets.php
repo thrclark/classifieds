@@ -1,6 +1,6 @@
 <?php 
-$section = '';
-$page_title = '';
+$section = 'settings';
+$page_title = 'markets';
 ?>
 
 <!DOCTYPE html>
@@ -30,28 +30,14 @@ $page_title = '';
                 <div class="doc-header" style="    margin-bottom: 15px;">
                     <div class="row">
                         <div class="col doc-title">
-                            <h2> Page Title</h2>
+                            <h2>Markets</h2>
                         </div>
                         <div class="col doc-controls">
                             <button type="button" class="btn btn-outline-secondary btn-sm float-md-right"> New Item</button>
                         </div>
                     </div>
                 </div>
-                <div class="utility-bar">
-                    <div class="row">
-                        <div class="utility-bar-item col-md-auto">
-                            <div class="form-check form-check-inline">
-                                <label class="form-check-label small">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                    Checkbox </label>
-                            </div>
-                        </div>
-                        <div class="utility-bar-item col-4">
-                            <label for="utilityitem1" class="sr-only">Search</label>
-                            <input class="form-control form-control-sm" type="text" placeholder="Filter" id="utilityitem1">
-                        </div>
-                    </div>
-                </div>
+               <?php include('includes/admin-utilitybar.php') ?>
                 <table class="table table-sm table-actions">
                     <thead>
                         <tr>

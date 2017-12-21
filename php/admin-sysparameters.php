@@ -1,6 +1,6 @@
 <?php 
-$section = '';
-$page_title = '';
+$section = 'appconfig';
+$page_title = 'sysparameters';
 ?>
 
 <!DOCTYPE html>

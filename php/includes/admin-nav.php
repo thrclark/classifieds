@@ -3,37 +3,30 @@
     <div class="menu-list">
         <ul class="menu-content" id="menu-content" aria-expanded="false" aria-hidden="true" style="">
             <li>
-                <button data-toggle="collapse" data-target="#group1" aria-expanded="true" aria-controls="group1"> Figure out a good name... <span class="arrow"></span> </button>
-                <ul class="menu-items collapse show " id="group1">
-                    <li><a href="#">Ads</a></li>
-                    <li><a href="#">Restricted Users</a></li>
+                <button  <?php if ($section == 'moderator') {echo 'class=""';} else {echo 'class="collapsed"';} ?> data-toggle="collapse" data-target="#group1" aria-expanded="true" aria-controls="group1"> Moderator <span class="arrow"></span> </button>
+                <ul <?php if ($section == 'moderator') {echo 'class="menu-items collapse show"';} else {echo 'class="menu-items collapse"';} ?> class="menu-items collapse show " id="group1">
+                    <li <?php if ($page_title == 'userads') { echo 'class="active"'; } ?>><a href="admin-userads.php">User Ads</a></li>
+                    <li <?php if ($page_title == 'restrictedusers') { echo 'class="active"'; } ?>><a href="admin-restrictedusers.php">Restricted Users</a></li>
                 </ul>
             </li>
             <li>
-                <button data-toggle="collapse" data-target="#group2" aria-expanded="false" aria-controls="group2" class="collapsed"> Settings <span class="arrow"></span> </button>
-                <ul class="menu-items collapse" id="group2">
-                    <li><a href="#">API Accounts</a></li>
-                    <li><a href="#">Categories</a></li>
-                    <li><a href="#">Markets</a></li>
-                    <li><a href="#">LDAP Configuration</a></li>
-                    <li><a href="#">General Settings</a></li>
-                    <li><a href="#">API Documentation</a></li>
+                <button  <?php if ($section == 'settings') {echo 'class=""';} else {echo 'class="collapsed"';} ?> data-toggle="collapse" data-target="#group2" aria-expanded="false" aria-controls="group2" class="collapsed"> Settings <span class="arrow"></span> </button>
+                <ul <?php if ($section == 'settings') {echo 'class="menu-items collapse show"';} else {echo 'class="menu-items collapse"';} ?> class="menu-items collapse" id="group2">
+                    <li <?php if ($page_title == 'generalsettings') { echo 'class="active"'; } ?>><a href="admin-generalsettings.php">General Settings</a></li>
+                    <li <?php if ($page_title == 'branding') { echo 'class="active"'; } ?>><a href="admin-branding.php">Branding</a></li>
+                    <li <?php if ($page_title == 'categories') { echo 'class="active"'; } ?>><a href="admin-categories.php">Categories</a></li>
+                    <li <?php if ($page_title == 'markets') { echo 'class="active"'; } ?>><a href="admin-markets.php">Markets</a></li>
+                    <li <?php if ($page_title == 'ldap') { echo 'class="active"'; } ?>><a href="admin-ldap.php">LDAP Configuration</a></li>
+                    <li <?php if ($page_title == 'apiaccounts') { echo 'class="active"'; } ?>><a href="admin-apiaccounts.php">API Accounts</a></li>
+                    <li <?php if ($page_title == 'apidocs') { echo 'class="active"'; } ?>><a href="admin-apidocs.php">API Documentation</a></li>
                 </ul>
             </li>
             <li>
-                <button data-toggle="collapse" data-target="#group3" aria-expanded="false" aria-controls="group3" class="collapsed"> Branding <span class="arrow"></span> </button>
-                <ul class="menu-items collapse" id="group3">
-                    <li><a href="#">Header and Footer</a></li>
-                    <li><a href="#">Page View Styles</a></li>
-                    <li><a href="#">Application Icons</a></li>
-                </ul>
-            </li>
-            <li>
-                <button data-toggle="collapse" data-target="#group4" aria-expanded="false" aria-controls="group4" class="collapsed"> Application Configuration <span class="arrow"></span> </button>
-                <ul class="menu-items collapse" id="group4">
-                    <li><a href="#">Google Analytics Rollup</a></li>
-                    <li><a href="#">System Parameters</a></li>
-                    <li><a href="#">Reload Cache </a></li>
+                <button  <?php if ($section == 'appconfig') {echo 'class=""';} else {echo 'class="collapsed"';} ?> data-toggle="collapse" data-target="#group4" aria-expanded="false" aria-controls="group4" class="collapsed"> Application Configuration <span class="arrow"></span> </button>
+                <ul <?php if ($section == 'appconfig') {echo 'class="menu-items collapse show"';} else {echo 'class="menu-items collapse"';} ?> 	class="menu-items collapse" id="group4">
+                    <li <?php if ($page_title == 'garollup') { echo 'class="active"'; } ?>><a href="admin-garollup.php">Google Analytics Rollup</a></li>
+                    <li <?php if ($page_title == 'sysparameters') { echo 'class="active"'; } ?>><a href="admin-sysparameters.php">System Parameters</a></li>
+                    <li <?php if ($page_title == 'reloadcache') { echo 'class="active"'; } ?>><a href="admin-reloadcache.php">Reload Cache </a></li>
                 </ul>
             </li>
         </ul>

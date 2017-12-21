@@ -1,6 +1,6 @@
 <?php 
-$section = '';
-$page_title = '';
+$section = 'settings';
+$page_title = 'branding';
 ?>
 
 <!DOCTYPE html>
@@ -30,7 +30,7 @@ $page_title = '';
                 <div class="doc-header" style="margin-bottom: 15px;">
                     <div class="row">
                         <div class="col-8 col-6-sm doc-title">
-                            <h2> Application Branding</h2>
+                            <h2> Branding</h2>
                         </div>
                         <div class="col doc-controls text-right">
                             <div id="help_toggle" class=""> Help: <a href="#" id="help_toggle_switch" style="display: inline;">on</a> </div>
