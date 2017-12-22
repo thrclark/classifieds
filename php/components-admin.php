@@ -34,6 +34,22 @@ pre {
             <h1 class="mb-5">Classifieds UI Components <br>
                 <small class="text-muted">Admin Interface</small></h1>
             <div class="card border-light mb-3">
+                <div class="card-header" data-toggle="collapse" href="#collapse_clearfield" aria-expanded="false" aria-controls="collapse_clearfield"> Clear Field <i class="fa fa-angle-left pull-right" aria-hidden="true"></i></div>
+                <div class="card-body collapse" id="collapse_clearfield">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <?php include('components/clearfield.php') ?>
+                        </div>
+                        <div class="col-12"> <small>HTML</small>
+                            <pre data-src="components/clearfield.php" class="language-html"></pre>
+                        </div>
+                        <div class="col-12"> <small>JS</small>
+                            <pre data-src="components/clearfield-js.php" class="language-js"></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-light mb-3">
                 <div class="card-header" data-toggle="collapse" href="#collapse_radiocheck" aria-expanded="false" aria-controls="collapse_radiocheck"> Radio &amp; Checkbox <i class="fa fa-angle-left pull-right" aria-hidden="true"></i></div>
                 <div class="card-body collapse" id="collapse_radiocheck">
                     <div class="row">
@@ -350,6 +366,28 @@ pre {
             })
         });
     });
+</script> 
+<script>
+$(document).ready(function() {
+    $('#table_filter').keydown(function() {
+        tmpval = $(this).val();
+        if (tmpval == '') {
+            $(".cleartext").css({
+                "display": "none"
+            });
+        } else {
+            $(".cleartext").css({
+                "display": "block"
+            });
+        }
+    });
+    $(".cleartext").click(function() {
+        $(".cleartext").hide();
+        $("#table_userads tr").show();
+        $("#table_filter").val("");
+        $("#table_filter").focus();
+    });
+});
 </script>
 </body>
 </html>
