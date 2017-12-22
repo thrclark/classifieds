@@ -27,7 +27,7 @@ $page_title = '';
         </div>
         <div class="col-12 col-md-9">
             <div class="main-content">
-                <div class="doc-header" style="    margin-bottom: 15px;">
+                <div class="doc-header mb-3">
                     <div class="row">
                         <div class="col doc-title">
                             <h2> Page Title</h2>
@@ -37,7 +37,7 @@ $page_title = '';
                         </div>
                     </div>
                 </div>
-               <?php include('includes/admin-utilitybar.php') ?>
+                <?php include('includes/admin-utilitybar.php') ?>
                 <table class="table table-sm table-actions">
                     <thead>
                         <tr>
@@ -182,9 +182,7 @@ $page_title = '';
                         </tr>
                     </tbody>
                 </table>
-                
-                    <?php include('includes/all-pagination.php') ?>
-                    
+                <?php include('includes/all-pagination.php') ?>
                 
                 <!-- <div class="testbox">asdf</div>--> 
             </div>
