@@ -7274,4 +7274,13 @@ input[type="radio"] .styled:checked + label::after {
         border-color: #dee2e6;
         font-size: 18px; }
 
+.clear-field {
+  position: relative; }
+  .clear-field .cleartext {
+    position: absolute;
+    top: 3px;
+    right: 7px;
+    font-size: 18px;
+    color: #ced4da; }
+
 /*# sourceMappingURL=admin.css.map */

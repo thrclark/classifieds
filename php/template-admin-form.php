@@ -54,7 +54,7 @@ $page_title = '';
         </div>
         <div class="col-12 col-md-9">
             <div class="main-content">
-                <div class="doc-header" style="    margin-bottom: 15px;">
+                <div class="doc-header mb-3">
                     <div class="row">
                         <div class="col doc-title">
                             <h2> Page Title</h2>
