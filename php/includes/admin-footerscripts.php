@@ -187,4 +187,46 @@
 
 </script> 
 
+<script>
+    $(document).ready(function() {
+        $('#mainsearch').keydown(function() {
+            tmpval = $(this).val();
+            if (tmpval == '') {
+                $(".cleartext").css({
+                    "display": "none"
+                });
+            } else {
+                $(".cleartext").css({
+                    "display": "block"
+                });
+            }
+        });
+        $(".cleartext").click(function() {
+            $(".cleartext").hide();
+            $("#mainsearch").val("");
+            $("#mainsearch").focus();
+        });
+    });
+</script>
 
+<script>
+    $(document).ready(function() {
+        $('#mainsearch-mobile').keydown(function() {
+            tmpval = $(this).val();
+            if (tmpval == '') {
+                $(".cleartext").css({
+                    "display": "none"
+                });
+            } else {
+                $(".cleartext").css({
+                    "display": "block"
+                });
+            }
+        });
+        $(".cleartext").click(function() {
+            $(".cleartext").hide();
+            $("#mainsearch-mobile").val("");
+            $("#mainsearch-mobile").focus();
+        });
+    });
+</script>
