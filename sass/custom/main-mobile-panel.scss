@@ -47,6 +47,11 @@
 		padding: 3px;
 		border-radius: 50px;
 		background: #ffffff;
+		.clear-field {
+			.cleartext {
+				right:-5px;
+			}
+		}
 		.search-button .btn.btn-dark {
 			-webkit-border-top-right-radius: 20px;
 			-webkit-border-bottom-right-radius: 20px;

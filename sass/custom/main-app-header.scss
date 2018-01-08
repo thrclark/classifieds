@@ -33,7 +33,11 @@
 						border-radius: 50px;
 						background: $white;
 						padding-bottom: 2px;
-
+						.clear-field {
+							.cleartext {
+								right:-5px;
+							}
+						}
 
 						.search-button .btn {
 
