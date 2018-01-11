@@ -7283,4 +7283,24 @@ input[type="radio"] .styled:checked + label::after {
     font-size: 18px;
     color: #ced4da; }
 
+.table-postdetails .open {
+  background: #f8f9fa; }
+.table-postdetails .post-maininfo {
+  padding-left: 20px;
+  position: relative; }
+  .table-postdetails .post-maininfo .toggle-indicator {
+    position: absolute;
+    left: 5px;
+    font-size: 10px;
+    top: 9px; }
+  .table-postdetails .post-maininfo dt {
+    font-weight: normal;
+    font-variant: all-petite-caps;
+    color: #868e96; }
+  .table-postdetails .post-maininfo dd img {
+    max-height: 70px;
+    margin: 1px; }
+.table-postdetails td:last-child {
+  text-align: center; }
+
 /*# sourceMappingURL=admin.css.map */

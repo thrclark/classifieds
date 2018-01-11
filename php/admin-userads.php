@@ -36,7 +36,6 @@ $page_title = 'userads';
                 </div>
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item"> <a class="nav-link active" id="allads-tab" data-toggle="tab" href="#allads" role="tab" aria-controls="allads" aria-selected="true">All Ads</a> </li>
-               
                     <li class="nav-item"> <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Restricted Users</a> </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
@@ -50,7 +49,7 @@ $page_title = 'userads';
                                 </div>
                             </div>
                         </div>
-                        <table class="table table-sm" >
+                        <table class="table table-sm table-postdetails" >
                             <thead>
                                 <tr>
                                     <th>Ad Title</th>
@@ -60,592 +59,251 @@ $page_title = 'userads';
                             </thead>
                             <tbody id="table_userads">
                                 <tr>
-                                    <td>Sublease for Brownstone Apartments for Spring Semester </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Sublease for Brownstone Apartments for Spring Semester </td>
                                     <td>tutorsmob</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Math-M211 and M212 Textbook "Calculus Single Variable Early Transcendentals" ISBN: 9781305748217 </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Math-M211 and M212 Textbook "Calculus Single Variable Early Transcendentals" ISBN: 9781305748217 </td>
                                     <td>skylardy</td>
-                                    <td>Flagged</td>
+                                    <td><span class="fa fa-circle text-danger" aria-hidden="true"><span class="sr-only">Flagged</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td><i class="fa fa-chevron-down" aria-hidden="true"></i> Self Defense Boxing Gloves <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-</td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i> Self Defense Boxing Gloves </div>
+                                        <div class="card mt-3 mb-3 post-details">
+                                            <div class="card-body">
+                                                <dl class="row">
+                                                    <dt class="col-sm-3">Title</dt>
+                                                    <dd class="col-sm-9">Self Defense Boxing Gloves </dd>
+                                                    <dt class="col-sm-3">Posted By</dt>
+                                                    <dd class="col-sm-9">diewillow </dd>
+                                                    <dt class="col-sm-3">Status</dt>
+                                                    <dd class="col-sm-9"><span class="fa fa-circle text-success" aria-hidden="true"></span> Active </dd>
+                                                    <dt class="col-sm-3">Description</dt>
+                                                    <dd class="col-sm-9">This is a beautiful original lacquer Mark VI tenor saxophone from 1962, serial number 99015. The lacquer finish on the horn is in exquisite condition. Its original finish displays a very dark honey tint which is perfectly complemented by the crisp American floral engraving. The lacquer condition is about as clean and pristine as you will ever see.</dd>
+                                                    <dt class="col-sm-3">Contact Info</dt>
+                                                    <dd class="col-sm-9">812-555-4567</dd>
+                                                    <dt class="col-sm-3">Email</dt>
+                                                    <dd class="col-sm-9"><a href="mailto:">diewillow@indiana.edu</a></dd>
+                                                    <dt class="col-sm-3">Category</dt>
+                                                    <dd class="col-sm-9">Books</dd>
+                                                    <dt class="col-sm-3">Price</dt>
+                                                    <dd class="col-sm-9">$400.00</dd>
+                                                    <dt class="col-sm-3">Campus</dt>
+                                                    <dd class="col-sm-9">IU Bloomington</dd>
+                                                    <dt class="col-sm-3">Ad Purpose</dt>
+                                                    <dd class="col-sm-9">For Sale</dd>
+                                                    <dt class="col-sm-3">Posted Date</dt>
+                                                    <dd class="col-sm-9">12/26/2017</dd>
+                                                    <dt class="col-sm-3">Expiration Date</dt>
+                                                    <dd class="col-sm-9">01/26/2018</dd>
+                                                    
+                                                    
+                                                    <dt class="col-sm-3">Images</dt>
+                                                    <dd class="col-sm-9"><img src="../img/post-pics/electronics2.jpg"  alt=""/><img src="../img/post-pics/1105499015MarkVITen7.jpg"  alt=""/><img src="../img/post-pics/drums3.jpg"  alt=""/><img src="../img/post-pics/ride1.jpg"  alt=""/><img src="../img/post-pics/iphone6.jpg"  alt=""/><img src="../img/post-pics/iphone2.jpg"  alt=""/><img src="../img/post-pics/sax4.jpg"  alt=""/><img src="../img/post-pics/piano4.jpg"  alt=""/></dd>
+                                                    
+                                                    
+                                                    
+                                                </dl>
+                                            </div>
+                                            <div class="card-footer text-center">
+                                            
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Deactivate Ad</button>
+                                            </div>
+                                        </div></td>
                                     <td>diewillow</td>
-                                    <td>Inactive</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Offering ride to Indy Dec 21 around 10:30am </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Offering ride to Indy Dec 21 around 10:30am </td>
                                     <td>glintgodly</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>2018 Spring sublease Jan-July the Fields room Waterchase </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2018 Spring sublease Jan-July the Fields room Waterchase </td>
                                     <td>roadmasked</td>
-                                    <td>Removed</td>
+                                    <td><span class="fa fa-ban text-danger" aria-hidden="true"><span class="sr-only">Removed</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Business Law with Online Access Code (16th Edition) </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Business Law with Online Access Code (16th Edition) </td>
                                     <td>backlisp</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Spring 2018 Sublease 7Ten Apartments</td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring 2018 Sublease 7Ten Apartments</td>
                                     <td>numbadze</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Essentials of Helth Information Management (3rd Edition) </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Essentials of Helth Information Management (3rd Edition) </td>
                                     <td>testifytub</td>
-                                    <td>Inactive</td>
+                                    <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner </td>
                                     <td>velaribbon</td>
-                                    <td>Inactive</td>
+                                    <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Spring Sublease Large Room with Walk in </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring Sublease Large Room with Walk in </td>
                                     <td>reamcoals</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>NOW HIRING '18 BARTENDERS AND SERVERS </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>NOW HIRING '18 BARTENDERS AND SERVERS </td>
                                     <td>factbest</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Folding table and chairs </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Folding table and chairs </td>
                                     <td>oinkskier</td>
-                                    <td>Inactive</td>
+                                    <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>RIDE TO/FROM CHI FRI 12/22 </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>RIDE TO/FROM CHI FRI 12/22 </td>
                                     <td>killspine</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Need a ride from Indy to Bloomington on Dec 30 </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Need a ride from Indy to Bloomington on Dec 30 </td>
                                     <td>jawplenty</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>One bedroom sublet in 8th street </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>One bedroom sublet in 8th street </td>
                                     <td>mendwhinny</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Math-M211 and M212 Textbook "Calculus Single Variable Early Transcendentals" ISBN: 9781305748217 </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Math-M211 and M212 Textbook "Calculus Single Variable Early Transcendentals" ISBN: 9781305748217 </td>
                                     <td>sharinggym</td>
-                                    <td>Flagged</td>
+                                    <td><span class="fa fa-circle text-danger" aria-hidden="true"><span class="sr-only">Flagged</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Self Defense Boxing Gloves </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Self Defense Boxing Gloves </td>
                                     <td>growlsicko</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Offering ride to Indy Dec 21 around 10:30am </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Offering ride to Indy Dec 21 around 10:30am </td>
                                     <td>bomblove</td>
-                                    <td>Removed</td>
+                                    <td><span class="fa fa-ban text-danger" aria-hidden="true"><span class="sr-only">Removed</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>2018 Spring sublease Jan-July the Fields room Waterchase </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2018 Spring sublease Jan-July the Fields room Waterchase </td>
                                     <td>backlisp</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Business Law with Online Access Code (16th Edition) </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Business Law with Online Access Code (16th Edition) </td>
                                     <td>factbest</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Spring 2018 Sublease 7Ten Apartments</td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring 2018 Sublease 7Ten Apartments</td>
                                     <td>tutorsmob</td>
-                                    <td>Inactive</td>
+                                    <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Essentials of Helth Information Management (3rd Edition) </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Essentials of Helth Information Management (3rd Edition) </td>
                                     <td>skylardy</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner </td>
                                     <td>diewillow</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Spring Sublease Large Room with Walk in </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring Sublease Large Room with Walk in </td>
                                     <td>glintgodly</td>
-                                    <td>Inactive</td>
+                                    <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>NOW HIRING '18 BARTENDERS AND SERVERS </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>NOW HIRING '18 BARTENDERS AND SERVERS </td>
                                     <td>roadmasked</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Folding table and chairs </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Folding table and chairs </td>
                                     <td>backlisp</td>
-                                    <td>Inactive</td>
+                                    <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>RIDE TO/FROM CHI FRI 12/22 </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>RIDE TO/FROM CHI FRI 12/22 </td>
                                     <td>numbadze</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Need a ride from Indy to Bloomington on Dec 30 </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Need a ride from Indy to Bloomington on Dec 30 </td>
                                     <td>testifytub</td>
-                                    <td>Removed</td>
+                                    <td><span class="fa fa-ban text-danger" aria-hidden="true"><span class="sr-only">Removed</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>One bedroom sublet in 8th street </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>One bedroom sublet in 8th street </td>
                                     <td>factbest</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Math-M211 and M212 Textbook "Calculus Single Variable Early Transcendentals" ISBN: 9781305748217 </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Math-M211 and M212 Textbook "Calculus Single Variable Early Transcendentals" ISBN: 9781305748217 </td>
                                     <td>oinkskier</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Self Defense Boxing Gloves </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Self Defense Boxing Gloves </td>
                                     <td>killspine</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Offering ride to Indy Dec 21 around 10:30am </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Offering ride to Indy Dec 21 around 10:30am </td>
                                     <td>jawplenty</td>
-                                    <td>Inactive</td>
+                                    <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>2018 Spring sublease Jan-July the Fields room Waterchase </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2018 Spring sublease Jan-July the Fields room Waterchase </td>
                                     <td>mendwhinny</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Business Law with Online Access Code (16th Edition) </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Business Law with Online Access Code (16th Edition) </td>
                                     <td>sharinggym</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Spring 2018 Sublease 7Ten Apartments</td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring 2018 Sublease 7Ten Apartments</td>
                                     <td>growlsicko</td>
-                                    <td>Inactive</td>
+                                    <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Essentials of Helth Information Management (3rd Edition) </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Essentials of Helth Information Management (3rd Edition) </td>
                                     <td>bomblove</td>
-                                    <td>Inactive</td>
+                                    <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner </td>
                                     <td>diewillow</td>
-                                    <td>Inactive</td>
+                                    <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Spring Sublease Large Room with Walk in </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring Sublease Large Room with Walk in </td>
                                     <td>bushmildew</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>NOW HIRING '18 BARTENDERS AND SERVERS </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>NOW HIRING '18 BARTENDERS AND SERVERS </td>
                                     <td>rakeplank</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Folding table and chairs </td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Folding table and chairs </td>
                                     <td>velaribbon</td>
-                                    <td>Active</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                             </tbody>
                         </table>
                         
-                        <!--  <table class="table table-sm table-actions" >
-                    <thead>
-                        <tr>
-                            <th> Market</th>
-                            <th>Category</th>
-                            <th>Ad Title</th>
-                            <th>Email</th>
-                            <th>Posted</th>
-                            <th>Status</th>
-                            <th><span class="sr-only">Actions</span></th>
-                        </tr>
-                    </thead>
-                    <tbody id="table_userads">
-                        <tr>
-                            <td>IUB</td>
-                            <td>Jobs</td>
-                            <td>Sublease for Brownstone Apartments for Spring Semester </td>
-                            <td>idea@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Activity Partners</td>
-                            <td>Math-M211 and M212 Textbook "Calculus Single Variable Early Transcendentals" ISBN: 9781305748217 </td>
-                            <td>j0sh23@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Books</td>
-                            <td>Self Defense Boxing Gloves </td>
-                            <td>jyx_qc@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUK</td>
-                            <td>Books</td>
-                            <td>Offering ride to Indy Dec 21 around 10:30am </td>
-                            <td>kerz06@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUPUI</td>
-                            <td>Jobs</td>
-                            <td>2018 Spring sublease Jan-July the Fields room Waterchase </td>
-                            <td>kimmy@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Jobs</td>
-                            <td>Business Law with Online Access Code (16th Edition) </td>
-                            <td>kiutl@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Announcements</td>
-                            <td>Spring 2018 Sublease 7Ten Apartments</td>
-                            <td>kles1710@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUSE</td>
-                            <td>Electronics</td>
-                            <td>Essentials of Helth Information Management (3rd Edition) </td>
-                            <td>ko41@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Jobs</td>
-                            <td>2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner </td>
-                            <td>algraphy@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUPUI</td>
-                            <td>Antiques &amp; Collectibles</td>
-                            <td>Spring Sublease Large Room with Walk in </td>
-                            <td>anuresis@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUK</td>
-                            <td>Electronics</td>
-                            <td>NOW HIRING '18 BARTENDERS AND SERVERS </td>
-                            <td>apatetic@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUSE</td>
-                            <td>Activity Partners</td>
-                            <td>Folding table and chairs </td>
-                            <td>bert7733@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUK</td>
-                            <td>Electronics</td>
-                            <td>RIDE TO/FROM CHI FRI 12/22 </td>
-                            <td>bie77@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Electronics</td>
-                            <td>Need a ride from Indy to Bloomington on Dec 30 </td>
-                            <td>blembzp@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUPUI</td>
-                            <td>Jobs</td>
-                            <td>One bedroom sublet in 8th street </td>
-                            <td>boyx33@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Activity Partners</td>
-                            <td>Math-M211 and M212 Textbook "Calculus Single Variable Early Transcendentals" ISBN: 9781305748217 </td>
-                            <td>mer2246@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Musicians &amp; Artists</td>
-                            <td>Self Defense Boxing Gloves </td>
-                            <td>mewl@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUSE</td>
-                            <td>Vehicles</td>
-                            <td>Offering ride to Indy Dec 21 around 10:30am </td>
-                            <td>monaxial@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Announcements</td>
-                            <td>2018 Spring sublease Jan-July the Fields room Waterchase </td>
-                            <td>mott03@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUPUI</td>
-                            <td>Vehicles</td>
-                            <td>Business Law with Online Access Code (16th Edition) </td>
-                            <td>narquois@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Lost &amp; Found</td>
-                            <td>Spring 2018 Sublease 7Ten Apartments</td>
-                            <td>nick_v@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUSE</td>
-                            <td>Jobs</td>
-                            <td>Essentials of Helth Information Management (3rd Edition) </td>
-                            <td>oblivion@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Musicians &amp; Artists</td>
-                            <td>2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner </td>
-                            <td>papyrus@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUK</td>
-                            <td>Musicians &amp; Artists</td>
-                            <td>Spring Sublease Large Room with Walk in </td>
-                            <td>parchy@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUPUI</td>
-                            <td>Books</td>
-                            <td>NOW HIRING '18 BARTENDERS AND SERVERS </td>
-                            <td>tin657@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Books</td>
-                            <td>Folding table and chairs </td>
-                            <td>tistry@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Vehicles</td>
-                            <td>RIDE TO/FROM CHI FRI 12/22 </td>
-                            <td>tus99@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Activity Partners</td>
-                            <td>Need a ride from Indy to Bloomington on Dec 30 </td>
-                            <td>vah777@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Vehicles</td>
-                            <td>One bedroom sublet in 8th street </td>
-                            <td>vaulty@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUPUI</td>
-                            <td>Miscellaneous</td>
-                            <td>Math-M211 and M212 Textbook "Calculus Single Variable Early Transcendentals" ISBN: 9781305748217 </td>
-                            <td>vesicate@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUK</td>
-                            <td>Books</td>
-                            <td>Self Defense Boxing Gloves </td>
-                            <td>ruth@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUK</td>
-                            <td>Musicians &amp; Artists</td>
-                            <td>Offering ride to Indy Dec 21 around 10:30am </td>
-                            <td>sexton@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Antiques &amp; Collectibles</td>
-                            <td>2018 Spring sublease Jan-July the Fields room Waterchase </td>
-                            <td>son22@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUSE</td>
-                            <td>Jobs</td>
-                            <td>Business Law with Online Access Code (16th Edition) </td>
-                            <td>spelter@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUPUI</td>
-                            <td>Vehicles</td>
-                            <td>Spring 2018 Sublease 7Ten Apartments</td>
-                            <td>oblivion@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUK</td>
-                            <td>Announcements</td>
-                            <td>Essentials of Helth Information Management (3rd Edition) </td>
-                            <td>papyrus@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Jobs</td>
-                            <td>2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner </td>
-                            <td>parchy@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Electronics</td>
-                            <td>Spring Sublease Large Room with Walk in </td>
-                            <td>tin657@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUB</td>
-                            <td>Electronics</td>
-                            <td>NOW HIRING '18 BARTENDERS AND SERVERS </td>
-                            <td>tistry@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                        <tr>
-                            <td>IUK</td>
-                            <td>Activity Partners</td>
-                            <td>Folding table and chairs </td>
-                            <td>ruth@iu.edu</td>
-                            <td>12/03/17</td>
-                            <td>Active</td>
-                            <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#pub_addetails">View</button></td>
-                        </tr>
-                    </tbody>
-                </table>--> 
+                       
                     </div>
-               
                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                         <table class="table table-sm table-actions">
                             <thead>
@@ -658,43 +316,43 @@ $page_title = 'userads';
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>thrclark</td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>thrclark</td>
                                     <td>0001328543</td>
-                                    <td>Flagged</td>
+                                    <td><span class="fa fa-circle text-danger" aria-hidden="true"><span class="sr-only">Flagged</span></span></td>
                                     <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
                                 </tr>
                                 <tr>
-                                    <td>tewtband</td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>tewtband</td>
                                     <td>0003023985</td>
-                                    <td>Flagged</td>
+                                    <td><span class="fa fa-circle text-danger" aria-hidden="true"><span class="sr-only">Flagged</span></span></td>
                                     <td>&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td>zealfleo</td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>zealfleo</td>
                                     <td>0003956434</td>
-                                    <td>Flagged</td>
+                                    <td><span class="fa fa-circle text-danger" aria-hidden="true"><span class="sr-only">Flagged</span></span></td>
                                     <td>&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td>languid</td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>languid</td>
                                     <td>0002534347</td>
                                     <td>Warned</td>
                                     <td>&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td>accljones</td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>accljones</td>
                                     <td>0004436419</td>
-                                    <td>Flagged</td>
+                                    <td><span class="fa fa-circle text-danger" aria-hidden="true"><span class="sr-only">Flagged</span></span></td>
                                     <td>&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td>sgdsteven</td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>sgdsteven</td>
                                     <td>0002635478</td>
                                     <td>Restricted</td>
                                     <td>&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td>lerrome</td>
+                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>lerrome</td>
                                     <td>0002888753</td>
                                     <td>Warned</td>
                                     <td>&nbsp;</td>
@@ -766,5 +424,18 @@ $page_title = 'userads';
         });
     });
 </script>
+
+<script>
+    $(document).ready(function() {
+        $(".post-details").hide();
+        $(".post-title").on('click', function() {
+            $(this).next(".post-details").fadeToggle();
+            $(this).parents("tr").toggleClass("open");
+            $(this).children(".fa-chevron-right").toggleClass("fa-chevron-down");
+        });
+    });
+</script>
+
+
 </body>
 </html>
