@@ -42,7 +42,7 @@ $page_title = 'userads';
                     <div class="tab-pane fade show active" id="allads" role="tabpanel" aria-labelledby="allads-tab">
                         <div class="row">
                             <div class="col-6">
-                                <div class="form-group clear-field">
+                                <div class="form-group clear-field mt-3">
                                     <label class="sr-only" for="table_filter">Filter table</label>
                                     <input type="text" class="form-control" id="table_filter" placeholder="filter" >
                                     <div class="cleartext" style="display:none"> <i class="fa fa-window-close"></i></div>
@@ -59,250 +59,247 @@ $page_title = 'userads';
                             </thead>
                             <tbody id="table_userads">
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Sublease for Brownstone Apartments for Spring Semester </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Sublease for Brownstone Apartments for Spring Semester  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>tutorsmob</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Math-M211 and M212 Textbook "Calculus Single Variable Early Transcendentals" ISBN: 9781305748217 </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Math-M211 and M212 Textbook </div>
+                                        <?php include('includes/admin-postdetail-inactive.php') ?></td>
                                     <td>skylardy</td>
+                                    <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
+                                </tr>
+                                <tr class="flagged">
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i> Self Defense Boxing Gloves </div>
+                                        <?php include('includes/admin-postdetail-flagged.php') ?></td>
+                                    <td>diewillow</td>
                                     <td><span class="fa fa-circle text-danger" aria-hidden="true"><span class="sr-only">Flagged</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i> Self Defense Boxing Gloves </div>
-                                        <div class="card mt-3 mb-3 post-details">
-                                            <div class="card-body">
-                                                <dl class="row">
-                                                    <dt class="col-sm-3">Title</dt>
-                                                    <dd class="col-sm-9">Self Defense Boxing Gloves </dd>
-                                                    <dt class="col-sm-3">Posted By</dt>
-                                                    <dd class="col-sm-9">diewillow </dd>
-                                                    <dt class="col-sm-3">Status</dt>
-                                                    <dd class="col-sm-9"><span class="fa fa-circle text-success" aria-hidden="true"></span> Active </dd>
-                                                    <dt class="col-sm-3">Description</dt>
-                                                    <dd class="col-sm-9">This is a beautiful original lacquer Mark VI tenor saxophone from 1962, serial number 99015. The lacquer finish on the horn is in exquisite condition. Its original finish displays a very dark honey tint which is perfectly complemented by the crisp American floral engraving. The lacquer condition is about as clean and pristine as you will ever see.</dd>
-                                                    <dt class="col-sm-3">Contact Info</dt>
-                                                    <dd class="col-sm-9">812-555-4567</dd>
-                                                    <dt class="col-sm-3">Email</dt>
-                                                    <dd class="col-sm-9"><a href="mailto:">diewillow@indiana.edu</a></dd>
-                                                    <dt class="col-sm-3">Category</dt>
-                                                    <dd class="col-sm-9">Books</dd>
-                                                    <dt class="col-sm-3">Price</dt>
-                                                    <dd class="col-sm-9">$400.00</dd>
-                                                    <dt class="col-sm-3">Campus</dt>
-                                                    <dd class="col-sm-9">IU Bloomington</dd>
-                                                    <dt class="col-sm-3">Ad Purpose</dt>
-                                                    <dd class="col-sm-9">For Sale</dd>
-                                                    <dt class="col-sm-3">Posted Date</dt>
-                                                    <dd class="col-sm-9">12/26/2017</dd>
-                                                    <dt class="col-sm-3">Expiration Date</dt>
-                                                    <dd class="col-sm-9">01/26/2018</dd>
-                                                    
-                                                    
-                                                    <dt class="col-sm-3">Images</dt>
-                                                    <dd class="col-sm-9"><img src="../img/post-pics/electronics2.jpg"  alt=""/><img src="../img/post-pics/1105499015MarkVITen7.jpg"  alt=""/><img src="../img/post-pics/drums3.jpg"  alt=""/><img src="../img/post-pics/ride1.jpg"  alt=""/><img src="../img/post-pics/iphone6.jpg"  alt=""/><img src="../img/post-pics/iphone2.jpg"  alt=""/><img src="../img/post-pics/sax4.jpg"  alt=""/><img src="../img/post-pics/piano4.jpg"  alt=""/></dd>
-                                                    
-                                                    
-                                                    
-                                                </dl>
-                                            </div>
-                                            <div class="card-footer text-center">
-                                            
-                                                <button type="button" class="btn btn-sm btn-outline-secondary">Deactivate Ad</button>
-                                            </div>
-                                        </div></td>
-                                    <td>diewillow</td>
-                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
-                                </tr>
-                                <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Offering ride to Indy Dec 21 around 10:30am </td>
-                                    <td>glintgodly</td>
-                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
-                                </tr>
-                                <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2018 Spring sublease Jan-July the Fields room Waterchase </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2018 Spring sublease Jan-July the Fields room Waterchase  </div>
+                                        <?php include('includes/admin-postdetail-removed.php') ?></td>
                                     <td>roadmasked</td>
                                     <td><span class="fa fa-ban text-danger" aria-hidden="true"><span class="sr-only">Removed</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Business Law with Online Access Code (16th Edition) </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Offering ride to Indy Dec 21 around 10:30am  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td>glintgodly</td>
+                                    <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
+                                </tr>
+                                <tr>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Business Law with Online Access Code (16th Edition)  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>backlisp</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring 2018 Sublease 7Ten Apartments</td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring 2018 Sublease 7Ten Apartments </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>numbadze</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Essentials of Helth Information Management (3rd Edition) </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Essentials of Helth Information Management (3rd Edition)  </div>
+                                        <?php include('includes/admin-postdetail-inactive.php') ?></td>
                                     <td>testifytub</td>
                                     <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner  </div>
+                                        <?php include('includes/admin-postdetail-inactive.php') ?></td>
                                     <td>velaribbon</td>
                                     <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring Sublease Large Room with Walk in </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring Sublease Large Room with Walk in  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>reamcoals</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>NOW HIRING '18 BARTENDERS AND SERVERS </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>NOW HIRING '18 BARTENDERS AND SERVERS  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>factbest</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Folding table and chairs </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Folding table and chairs  </div>
+                                        <?php include('includes/admin-postdetail-inactive.php') ?></td>
                                     <td>oinkskier</td>
                                     <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>RIDE TO/FROM CHI FRI 12/22 </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>RIDE TO/FROM CHI FRI 12/22  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>killspine</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Need a ride from Indy to Bloomington on Dec 30 </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Need a ride from Indy to Bloomington on Dec 30  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>jawplenty</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>One bedroom sublet in 8th street </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>One bedroom sublet in 8th street  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>mendwhinny</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
-                                <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Math-M211 and M212 Textbook "Calculus Single Variable Early Transcendentals" ISBN: 9781305748217 </td>
+                                <tr class="flagged">
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i> Math-M211 and M212 Textbook "Calculus Single Variable </div>
+                                        <?php include('includes/admin-postdetail-flagged.php') ?></td>
                                     <td>sharinggym</td>
                                     <td><span class="fa fa-circle text-danger" aria-hidden="true"><span class="sr-only">Flagged</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Self Defense Boxing Gloves </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Self Defense Boxing Gloves  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>growlsicko</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Offering ride to Indy Dec 21 around 10:30am </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Offering ride to Indy Dec 21 around 10:30am  </div>
+                                        <?php include('includes/admin-postdetail-removed.php') ?></td>
                                     <td>bomblove</td>
                                     <td><span class="fa fa-ban text-danger" aria-hidden="true"><span class="sr-only">Removed</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2018 Spring sublease Jan-July the Fields room Waterchase </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2018 Spring sublease Jan-July the Fields room Waterchase  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>backlisp</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Business Law with Online Access Code (16th Edition) </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Business Law with Online Access Code (16th Edition)  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>factbest</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring 2018 Sublease 7Ten Apartments</td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring 2018 Sublease 7Ten Apartments </div>
+                                        <?php include('includes/admin-postdetail-inactive.php') ?></td>
                                     <td>tutorsmob</td>
                                     <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Essentials of Helth Information Management (3rd Edition) </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Essentials of Helth Information Management (3rd Edition)  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>skylardy</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>diewillow</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring Sublease Large Room with Walk in </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring Sublease Large Room with Walk in  </div>
+                                        <?php include('includes/admin-postdetail-inactive.php') ?></td>
                                     <td>glintgodly</td>
                                     <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>NOW HIRING '18 BARTENDERS AND SERVERS </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>NOW HIRING '18 BARTENDERS AND SERVERS  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>roadmasked</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Folding table and chairs </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Folding table and chairs  </div>
+                                        <?php include('includes/admin-postdetail-inactive.php') ?></td>
                                     <td>backlisp</td>
                                     <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>RIDE TO/FROM CHI FRI 12/22 </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>RIDE TO/FROM CHI FRI 12/22  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>numbadze</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Need a ride from Indy to Bloomington on Dec 30 </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Need a ride from Indy to Bloomington on Dec 30  </div>
+                                        <?php include('includes/admin-postdetail-removed.php') ?></td>
                                     <td>testifytub</td>
                                     <td><span class="fa fa-ban text-danger" aria-hidden="true"><span class="sr-only">Removed</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>One bedroom sublet in 8th street </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>One bedroom sublet in 8th street  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>factbest</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Math-M211 and M212 Textbook "Calculus Single Variable Early Transcendentals" ISBN: 9781305748217 </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Math-M211 and M212 Textbook "Calculus Single Variable Early Transcendentals" ISBN: 9781305748217  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>oinkskier</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Self Defense Boxing Gloves </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Self Defense Boxing Gloves  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>killspine</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Offering ride to Indy Dec 21 around 10:30am </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Offering ride to Indy Dec 21 around 10:30am  </div>
+                                        <?php include('includes/admin-postdetail-inactive.php') ?></td>
                                     <td>jawplenty</td>
                                     <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2018 Spring sublease Jan-July the Fields room Waterchase </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2018 Spring sublease Jan-July the Fields room Waterchase  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>mendwhinny</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Business Law with Online Access Code (16th Edition) </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Business Law with Online Access Code (16th Edition)  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>sharinggym</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring 2018 Sublease 7Ten Apartments</td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring 2018 Sublease 7Ten Apartments </div>
+                                        <?php include('includes/admin-postdetail-inactive.php') ?></td>
                                     <td>growlsicko</td>
                                     <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Essentials of Helth Information Management (3rd Edition) </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Essentials of Helth Information Management (3rd Edition)  </div>
+                                        <?php include('includes/admin-postdetail-inactive.php') ?></td>
                                     <td>bomblove</td>
                                     <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner  </div>
+                                        <?php include('includes/admin-postdetail-inactive.php') ?></td>
                                     <td>diewillow</td>
                                     <td><span class="fa fa-circle-thin text-success" aria-hidden="true"><span class="sr-only">Inactive</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring Sublease Large Room with Walk in </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Spring Sublease Large Room with Walk in  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>bushmildew</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>NOW HIRING '18 BARTENDERS AND SERVERS </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>NOW HIRING '18 BARTENDERS AND SERVERS  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>rakeplank</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Folding table and chairs </td>
+                                    <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Folding table and chairs  </div>
+                                        <?php include('includes/admin-postdetail-active.php') ?></td>
                                     <td>velaribbon</td>
                                     <td><span class="fa fa-circle text-success" aria-hidden="true"><span class="sr-only">Active</span></span></td>
                                 </tr>
                             </tbody>
                         </table>
-                        
-                       
                     </div>
                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                         <table class="table table-sm table-actions">
@@ -316,43 +313,43 @@ $page_title = 'userads';
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>thrclark</td>
+                                    <td class="post-maininfo">thrclark</td>
                                     <td>0001328543</td>
                                     <td><span class="fa fa-circle text-danger" aria-hidden="true"><span class="sr-only">Flagged</span></span></td>
                                     <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>tewtband</td>
+                                    <td class="post-maininfo">tewtband</td>
                                     <td>0003023985</td>
                                     <td><span class="fa fa-circle text-danger" aria-hidden="true"><span class="sr-only">Flagged</span></span></td>
                                     <td>&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>zealfleo</td>
+                                    <td class="post-maininfo">zealfleo</td>
                                     <td>0003956434</td>
                                     <td><span class="fa fa-circle text-danger" aria-hidden="true"><span class="sr-only">Flagged</span></span></td>
                                     <td>&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>languid</td>
+                                    <td class="post-maininfo">languid</td>
                                     <td>0002534347</td>
                                     <td>Warned</td>
                                     <td>&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>accljones</td>
+                                    <td class="post-maininfo">accljones</td>
                                     <td>0004436419</td>
                                     <td><span class="fa fa-circle text-danger" aria-hidden="true"><span class="sr-only">Flagged</span></span></td>
                                     <td>&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>sgdsteven</td>
+                                    <td class="post-maininfo">sgdsteven</td>
                                     <td>0002635478</td>
                                     <td>Restricted</td>
                                     <td>&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td class="post-maininfo"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>lerrome</td>
+                                    <td class="post-maininfo">lerrome</td>
                                     <td>0002888753</td>
                                     <td>Warned</td>
                                     <td>&nbsp;</td>
@@ -423,8 +420,7 @@ $page_title = 'userads';
 			$("#table_filter").focus();
         });
     });
-</script>
-
+</script> 
 <script>
     $(document).ready(function() {
         $(".post-details").hide();
@@ -435,7 +431,5 @@ $page_title = 'userads';
         });
     });
 </script>
-
-
 </body>
 </html>

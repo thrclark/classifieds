@@ -1,8 +1,16 @@
 .table-postdetails {
+
 	.open {
 		background: $gray-100;
+		&.flagged {
+			background:  lighten($red, 42%);
+		}
 
 	}
+	.flagged {
+		background:  lighten($red, 42%);
+	}
+
 	.post-maininfo {
 		padding-left: 20px;
 		position: relative;
@@ -12,15 +20,30 @@
 			font-size: 10px;
 			top: 9px;
 		}
-		dt {
-			font-weight: normal;
-			font-variant: all-petite-caps;
-			color: $gray-600;
-		}
-		dd {
-			img {
-				max-height: 70px;
-				margin: 1px;
+		.post-details {
+			margin-right: -132px;
+			.card-header {
+				padding: 0.2rem 1.25rem;
+			}
+			.card-body {
+				background: $white;
+				dt {
+					font-weight: normal;
+					font-variant: all-petite-caps;
+					color: $gray-600;
+				}
+				dd {
+					img {
+						max-height: 70px;
+						margin: 1px;
+					}
+				}
+			}
+
+			&.flagged {
+				.card-footer {
+					background:  lighten($red, 42%);
+				}
 			}
 		}
 
