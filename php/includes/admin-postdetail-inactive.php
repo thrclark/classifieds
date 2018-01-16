@@ -41,6 +41,6 @@
         </dl>
     </div>
     <div class="card-footer text-center">
-        <button type="button" class="btn btn-sm btn-outline-secondary">Deactivate Ad</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#post_detail">View As Posted</button>  <button type="button" class="btn btn-sm btn-outline-secondary">Activate Ad</button>
     </div>
 </div>

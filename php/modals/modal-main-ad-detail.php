@@ -1,11 +1,21 @@
-<div class="modal fade" id="post_detail" tabindex="-1" role="dialog" aria-labelledby="post_detail" aria-hidden="true">
+<div class="modal post-detail fade" id="post_detail" tabindex="-1" role="dialog" aria-labelledby="post_detail" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title" id="exampleModal1Label">Modal title</h3>
+                <h3 class="modal-title" id="exampleModal1Label">For Sale: Selmer VI Tenor Sax</h3>
                 <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close" style=""> <span aria-hidden="true"> <i class="fa fa-close" aria-hidden="true"></i> </span> </button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body post-details-body">
+            
+             <div class="row">
+                    <div class="col">
+                        <div class="post-price">$11,225.00</div>
+                    </div>
+                    <div class="col align-self-end text-right">
+                        <div class=" ad-datelocation"><span class="ad-datelocation-date">Oct 31</span> | <span class="ad-datelocation-location"> <i class="fa fa-map-marker" aria-hidden="true"></i> IUK</span></div>
+                    </div>
+                </div>
+                <hr>
                 <div class="your-class">
                     <div> <img src="../img/post-pics/1105499015MarkVITen1.jpg" class="img-fluid img-thumbnail " alt=""/></div>
                     <div> <img src="../img/post-pics/1105499015MarkVITen2.jpg" class="img-fluid img-thumbnail " alt=""/></div>
@@ -16,15 +26,7 @@
                     <div> <img src="../img/post-pics/1105499015MarkVITen7.jpg" class="img-fluid img-thumbnail " alt=""/></div>
                     <div> <img src="../img/post-pics/1105499015MarkVITen8.jpg" class="img-fluid img-thumbnail " alt=""/></div>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="ad-price">$11,225.00</div>
-                    </div>
-                    <div class="col align-self-end text-right">
-                        <div class=" ad-datelocation"><span class="ad-datelocation-date">Oct 31</span> | <span class="ad-datelocation-location"> <i class="fa fa-map-marker" aria-hidden="true"></i> IUK</span></div>
-                    </div>
-                </div>
-                <hr>
+               
                 <dl class="row">
                     <dt class="col-sm-12">Description</dt>
                     <dd class="col-sm-12">This is a beautiful original lacquer Mark VI tenor saxophone from 1962, serial number 99015. The lacquer finish on the horn is in exquisite condition. Its original finish displays a very dark honey tint which is perfectly complemented by the crisp American floral engraving. The lacquer condition is about as clean and pristine as you will ever see. </dd>

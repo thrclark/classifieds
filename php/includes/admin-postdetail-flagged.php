@@ -34,6 +34,11 @@
         </dl>
     </div>
     <div class="card-footer text-center">
+    
+    
+    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#post_detail">View As Posted</button> 
+    
+    
         <div class="btn-group" role="group">
             <button id="btnGroupDrop1" type="button" class="btn btn-sm btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Admin Actions </button>
             <div class="dropdown-menu" aria-labelledby="btnGroupDrop1"> <a class="dropdown-item" href="#">Remove Ad</a> <a class="dropdown-item" href="#">Remove Flag</a> </div>

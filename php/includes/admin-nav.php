@@ -3,11 +3,8 @@
     <div class="menu-list">
         <ul class="menu-content" id="menu-content" aria-expanded="false" aria-hidden="true" style="">
             <li>
-                <button  <?php if ($section == 'moderator') {echo 'class=""';} else {echo 'class="collapsed"';} ?> data-toggle="collapse" data-target="#group1" aria-expanded="true" aria-controls="group1"> Moderator <span class="arrow"></span> </button>
-                <ul <?php if ($section == 'moderator') {echo 'class="menu-items collapse show"';} else {echo 'class="menu-items collapse"';} ?> class="menu-items collapse show " id="group1">
-                    <li <?php if ($page_title == 'userads') { echo 'class="active"'; } ?>><a href="admin-userads.php">User Ads</a></li>
-                    <li <?php if ($page_title == 'restrictedusers') { echo 'class="active"'; } ?>><a href="admin-restrictedusers.php">Restricted Users</a></li>
-                </ul>
+                <button onclick="location.href = 'admin-userads.php';" > Moderator </button>
+               
             </li>
             <li>
                 <button  <?php if ($section == 'settings') {echo 'class=""';} else {echo 'class="collapsed"';} ?> data-toggle="collapse" data-target="#group2" aria-expanded="false" aria-controls="group2" class="collapsed"> Settings <span class="arrow"></span> </button>
