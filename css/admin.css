@@ -6125,6 +6125,30 @@ a.text-dark:focus, a.text-dark:hover {
   src: url("https://fonts.iu.edu/fonts/benton-sans-cond-bold-italic.eot?#iefix") format("embedded-opentype"), url("https://fonts.iu.edu/fonts/benton-sans-cond-bold-italic.woff") format("woff"), url("https://fonts.iu.edu/fonts/benton-sans-cond-bold-italic.ttf") format("truetype"), url("https://fonts.iu.edu/fonts/benton-sans-cond-bold-italic.svg#BentonSansCondBoldItalic") format("svg");
   font-style: normal;
   font-weight: normal; }
+.modal .modal-dialog .modal-content .modal-header {
+  padding-top: 10px;
+  padding-bottom: 5px; }
+  .modal .modal-dialog .modal-content .modal-header .modal-title {
+    padding-right: 40px; }
+  .modal .modal-dialog .modal-content .modal-header .modal-close {
+    font-size: 18px;
+    color: #495057;
+    border: solid 1px #495057;
+    position: absolute;
+    right: 15px;
+    top: 7px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-align: center; }
+    .modal .modal-dialog .modal-content .modal-header .modal-close:hover {
+      color: #212529;
+      border: solid 1px #212529; }
+.modal .modal-dialog .modal-content .modal-footer {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  justify-content: center; }
+
 .brand-text,
 .app-header .post .btn,
 .user-ads .menu-trigger .fa {
@@ -7198,30 +7222,6 @@ input[type="radio"] .styled:checked + label::after {
       transition: .4s;
       border-radius: 50%; }
 
-.modal .modal-dialog .modal-content .modal-header {
-  padding-top: 10px;
-  padding-bottom: 5px; }
-  .modal .modal-dialog .modal-content .modal-header .modal-title {
-    padding-right: 40px; }
-  .modal .modal-dialog .modal-content .modal-header .modal-close {
-    font-size: 18px;
-    color: #495057;
-    border: solid 1px #495057;
-    position: absolute;
-    right: 15px;
-    top: 10px;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-    text-align: center; }
-    .modal .modal-dialog .modal-content .modal-header .modal-close:hover {
-      color: #212529;
-      border: solid 1px #212529; }
-.modal .modal-dialog .modal-content .modal-footer {
-  padding-bottom: 10px;
-  padding-top: 10px;
-  justify-content: center; }
-
 .testbox {
   background: green; }
 
@@ -7343,7 +7343,8 @@ input[type="radio"] .styled:checked + label::after {
   .table-postdetails .post-maininfo .post-details {
     margin-right: -132px; }
     .table-postdetails .post-maininfo .post-details .card-header {
-      padding: 0.2rem 1.25rem; }
+      padding: 0.2rem;
+      background: #495057; }
     .table-postdetails .post-maininfo .post-details .card-body {
       background: #fff; }
       .table-postdetails .post-maininfo .post-details .card-body dt {

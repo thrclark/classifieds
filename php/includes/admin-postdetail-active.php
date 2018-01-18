@@ -1,5 +1,13 @@
 
 <div class="card mt-3 mb-3 post-details">
+    <div class="card-header text-light">
+        <div class="row">
+            <div class="col pl-4"> <strong>Ad Details</strong></div>
+            <div class="col-auto">
+                <button type="button" class="btn btn-sm btn-outline-light" data-toggle="modal" data-target="#post_detail_active">View/Maintain Ad</button>
+            </div>
+        </div>
+    </div>
     <div class="card-body">
         <dl class="row">
             <dt class="col-sm-3">Title</dt>
@@ -31,8 +39,5 @@
             <dt class="col-sm-3">Images</dt>
             <dd class="col-sm-9"><img src="../img/post-pics/electronics2.jpg"  alt=""/><img src="../img/post-pics/1105499015MarkVITen7.jpg"  alt=""/><img src="../img/post-pics/drums3.jpg"  alt=""/><img src="../img/post-pics/ride1.jpg"  alt=""/><img src="../img/post-pics/iphone6.jpg"  alt=""/><img src="../img/post-pics/iphone2.jpg"  alt=""/><img src="../img/post-pics/sax4.jpg"  alt=""/><img src="../img/post-pics/piano4.jpg"  alt=""/></dd>
         </dl>
-    </div>
-    <div class="card-footer text-center">
-         <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#post_detail">View As Posted</button>  <button type="button" class="btn btn-sm btn-outline-secondary">Deactivate</button>
     </div>
 </div>

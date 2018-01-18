@@ -1,4 +1,5 @@
 <?php 
+$audience = 'admin';
 $section = 'moderator';
 $page_title = 'userads';
 ?>
@@ -84,7 +85,7 @@ $page_title = 'userads';
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i> Self Defense Boxing Gloves </div>
                                         <?php include('includes/admin-postdetail-flagged.php') ?></td>
                                     <td>diewillow</td>
-                                    <td><span class="fa fa-circle text-danger post-status" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Flagged (Expires 02/15/2018)"><span class="sr-only"> Flagged </span></span></td>
+                                    <td><span class="fa fa-circle text-danger post-status" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Flagged on 01/15/2018"><span class="sr-only"> Flagged </span></span></td>
                                 </tr>
                                 <tr>
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>2018 Spring sublease Jan-July the Fields room Waterchase  </div>
@@ -162,7 +163,7 @@ $page_title = 'userads';
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i> Math-M211 and M212 Textbook "Calculus Single Variable </div>
                                         <?php include('includes/admin-postdetail-flagged.php') ?></td>
                                     <td>sharinggym</td>
-                                    <td><span class="fa fa-circle text-danger post-status" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Flagged (Expires 02/15/2018)"><span class="sr-only"> Flagged </span></span></td>
+                                    <td><span class="fa fa-circle text-danger post-status" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Flagged on 01/15/2018"><span class="sr-only"> Flagged </span></span></td>
                                 </tr>
                                 <tr>
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>Self Defense Boxing Gloves  </div>
@@ -383,7 +384,7 @@ $page_title = 'userads';
         </div>
     </div>
 </div>
-<?php include('modals/modal-main-ad-detail.php') ?>
+<?php include('modals/modal-admin-ad-detail.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script type='text/javascript'>
     $(document).ready(function() {

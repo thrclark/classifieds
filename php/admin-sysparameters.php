@@ -1,4 +1,5 @@
 <?php 
+$audience = 'admin';
 $section = 'appconfig';
 $page_title = 'sysparameters';
 ?>

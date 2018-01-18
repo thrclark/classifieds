@@ -1,6 +1,19 @@
 
 <div class="card mt-3 mb-3 post-details flagged">
-    <div class="card-header bg-danger text-center text-white"> This ad has been flagged for potential policy violations </div>
+   
+    
+    
+    <div class="card-header bg-danger text-light">
+        <div class="row">
+            <div class="col pl-4"> <strong>Ad Details</strong> <small>(Flagged for policy review)</small></div>
+            <div class="col-auto">
+                <button type="button" class="btn btn-sm btn-outline-light" data-toggle="modal" data-target="#post_detail">View/Maintain Ad</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    
     <div class="card-body">
         <dl class="row">
             <dt class="col-sm-3">Title</dt>
@@ -33,15 +46,5 @@
             <dd class="col-sm-9"><img src="../img/post-pics/1105499015MarkVITen4.jpg"  alt=""/><img src="../img/post-pics/drums1.jpg"  alt=""/><img src="../img/post-pics/vehicles2.jpg"  alt=""/></dd>
         </dl>
     </div>
-    <div class="card-footer text-center">
-    
-    
-    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#post_detail">View As Posted</button> 
-    
-    
-        <div class="btn-group" role="group">
-            <button id="btnGroupDrop1" type="button" class="btn btn-sm btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Admin Actions </button>
-            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1"> <a class="dropdown-item" href="#">Remove Ad</a> <a class="dropdown-item" href="#">Remove Flag</a> </div>
-        </div>
-    </div>
+   
 </div>

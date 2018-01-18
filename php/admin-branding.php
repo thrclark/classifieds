@@ -1,4 +1,5 @@
 <?php 
+$audience = 'admin';
 $section = 'settings';
 $page_title = 'branding';
 ?>

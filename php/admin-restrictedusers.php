@@ -1,4 +1,5 @@
 <?php 
+$audience = 'admin';
 $section = 'moderator';
 $page_title = 'restrictedusers';
 ?>

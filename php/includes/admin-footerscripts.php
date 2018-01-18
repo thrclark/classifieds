@@ -241,3 +241,54 @@
         });
     });
 </script>
+
+
+
+
+<script>
+$(document).ready(function(){
+    $(".btn-report").click(function(){
+        $(".post-details-body, .modal-footer").hide();
+		$(".report-post").show();
+    });
+	
+	$(".btn-reportcancel").click(function(){
+        $(".post-details-body, .modal-footer").show();
+		$(".report-post").hide();
+    });
+	
+	$(".btn-reportsubmit").click(function(){
+        $(".report-post-confirm").show();
+		$(".report-post").hide();
+    });
+	
+	
+	
+	
+    
+});
+</script>
+
+
+<script>
+$(function(){
+    
+    $("[data-toggle=popover]").popover({
+        html : true,
+        content: function() {
+            var content = $(this).attr("data-popover-content");
+            return $(content).children(".popover-body").html();
+        },
+        title: function() {
+            var title = $(this).attr("data-popover-content");
+            return $(title).children(".popover-heading").html();
+        }
+    });
+    
+});
+
+
+</script>
+
+
+
