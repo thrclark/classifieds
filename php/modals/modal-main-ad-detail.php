@@ -27,7 +27,7 @@
                 </div>
                 <dl class="row">
                     <dt class="col-sm-12">Description</dt>
-                    <dd class="col-sm-12">This is a beautiful original lacquer Mark VI tenor saxophone from 1962, serial number 99015. The lacquer finish on the horn is in exquisite condition. Its original finish displays a very dark honey tint which is perfectly complemented by the crisp American floral engraving. The lacquer condition is about as clean and pristine as you will ever see. </dd>
+                    <dd class="col-sm-12">This is a beautiful original lacquer Mark VI tenor saxophone from 1962, serial number 99015. The lacquer finish on the horn is in exquisite condition. Its original finish displays a very dark honey tint which is perfectly complemented by the crisp American floral engraving. The lacquer condition is about as clean and pristine as you will ever see. <span <?php if ($audience == 'user') { echo 'class="d-none"'; } ?>>(<a href="#" class="btn-report font-italic">report this</a>)</span></dd>
                     <dt class="col-sm-12">Contact</dt>
                     <dd class="col-sm-12"> 812-555-4567 </dd>
                     <dt class="col-sm-12">Email</dt>
@@ -44,7 +44,7 @@
                 <div <?php if ($audience == 'main') { echo 'class="d-block"'; } ?>  class="d-none">
                     <button type="button" class="btn btn-smmm btn-primary favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> Watchlist</button>
                     <button type="button" class="btn btn-smmm btn-primary">Share</button>
-                    <button type="button" class="btn btn-smmm btn-secondary ml-3 btn-report" >Report</button>
+                   <!-- <button type="button" class="btn btn-smmm btn-secondary ml-3 btn-report" >Report</button>-->
                 </div>
                 
                 

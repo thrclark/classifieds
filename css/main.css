@@ -7870,6 +7870,7 @@ input[type="radio"] .styled:checked + label::after {
     top: 3px;
     right: 7px;
     font-size: 18px;
-    color: #ced4da; }
+    color: #ced4da;
+    z-index: 10; }
 
 /*# sourceMappingURL=main.css.map */

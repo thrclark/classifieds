@@ -7321,7 +7321,8 @@ input[type="radio"] .styled:checked + label::after {
     top: 3px;
     right: 7px;
     font-size: 18px;
-    color: #ced4da; }
+    color: #ced4da;
+    z-index: 10; }
 
 .table-filter .card-body {
   padding: .5rem; }
@@ -7356,8 +7357,6 @@ input[type="radio"] .styled:checked + label::after {
         margin: 1px; }
     .table-postdetails .post-maininfo .post-details.flagged .card-footer {
       background: #fceced; }
-.table-postdetails td:last-child {
-  text-align: center; }
 
 .post-detail .post-details-body {
   padding: 20px;

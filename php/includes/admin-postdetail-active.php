@@ -1,5 +1,5 @@
 
-<div class="card mt-3 mb-3 post-details">
+<div class="card m-4 post-details">
     <div class="card-header text-light">
         <div class="row">
             <div class="col pl-4"> <strong>Ad Details</strong></div>

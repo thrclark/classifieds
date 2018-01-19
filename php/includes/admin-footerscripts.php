@@ -141,27 +141,34 @@
         });
     });
 </script>
+
+
+
+
+
+
+
 <script type="text/javascript">
     $(document).ready(function() {
-        $(".postitem").click(function() {
+        $(".postitem, .btn").click(function() {
             //$('#post_detail2-1').modal('show')
             setTimeout(function() {
                 $('.your-class').slick({
                     slidesToShow: 1,
                 });
-            }, 150);
+            }, 200);
         });
     });
 </script>
 
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('.your-class').slick({
-                    slidesToShow: 1,
-                });
-    });
-</script>
+
+
+
+
+
+
+
 
 
 <script>
