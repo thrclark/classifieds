@@ -1,70 +1,65 @@
 
-
 .table-filter {
-	.card-body {
-		padding: .5rem;
-	}
+  .card-body {
+    padding: .5rem;
+  }
 
 }
 
-
-
-
-
 .table-postdetails {
 
-	.open {
-		background: $gray-100;
-		&.flagged {
-			background:  lighten($red, 42%);
-		}
+  .open {
+    background: $gray-100;
+    &.flagged {
+      background: lighten($red, 42%);
+    }
 
-	}
-	.flagged {
-		background:  lighten($red, 42%);
-	}
+  }
+  .flagged {
+    background: lighten($red, 42%);
+  }
 
-	.post-maininfo {
-		padding-left: 20px;
-		position: relative;
-		.toggle-indicator {
-			position: absolute;
-			left: 5px;
-			font-size: 10px;
-			top: 9px;
-		}
-		.post-details {
-			margin-right: -132px;
-			.card-header {
-				padding: 0.2rem;
-				background: $gray-700;
-			}
-			.card-body {
-				background: $white;
-				dt {
-					font-weight: normal;
-					font-variant: all-petite-caps;
-					color: $gray-600;
-				}
-				dd {
-					img {
-						max-height: 70px;
-						margin: 1px;
-					}
-				}
-			}
+  .post-maininfo {
+    padding-left: 20px;
+    position: relative;
+    .toggle-indicator {
+      position: absolute;
+      left: 5px;
+      font-size: 10px;
+      top: 9px;
+    }
 
-			&.flagged {
-				.card-footer {
-					background:  lighten($red, 42%);
-				}
-			}
-		}
+  }
+  .post-details {
+    margin-right: -132px;
+    .card-header {
+      padding: 0.2rem;
+      background: $gray-700;
+    }
+    .card-body {
+      background: $white;
+      dt {
+        font-weight: normal;
+        font-variant: all-petite-caps;
+        color: $gray-600;
+      }
+      dd {
+        img {
+          max-height: 70px;
+          margin: 1px;
+        }
+      }
+    }
 
-	}
-	td {
-		&:last-child {
-			//text-align: center;
-		}
-	}
+    &.flagged {
+      .card-footer {
+        background: lighten($red, 42%);
+      }
+    }
+  }
+  td {
+    &:last-child {
+      //text-align: center;
+    }
+  }
 }

@@ -54,10 +54,10 @@ $page_title = 'userads';
                                             <div class="cleartext" style="display:none"> <i class="fa fa-window-close"></i></div>
                                         </div>
                                     </div>
-                                    s </div>
+                                </div>
                             </div>
                         </div>
-                        <table class="table table-sm table-postdetails" id="accordion1">
+                        <table class="table table-sm table-postdetails" id="accordion1111">
                             <thead>
                                 <tr>
                                     <th>Ad Title</th>
@@ -74,7 +74,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--01">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--02" aria-expanded="false" aria-controls="ad_table_row--02">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -83,7 +83,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--02">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--03" aria-expanded="false" aria-controls="ad_table_row--03">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -92,7 +92,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--03">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--04" aria-expanded="false" aria-controls="ad_table_row--04">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -101,7 +101,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--04">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--05" aria-expanded="false" aria-controls="ad_table_row--05">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -110,7 +110,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--05">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--06" aria-expanded="false" aria-controls="ad_table_row--06">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -119,7 +119,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--06">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--07" aria-expanded="false" aria-controls="ad_table_row--07">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -128,7 +128,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--07">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--08" aria-expanded="false" aria-controls="ad_table_row--08">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -137,7 +137,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--08">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--09" aria-expanded="false" aria-controls="ad_table_row--09">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -146,7 +146,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--09">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--10" aria-expanded="false" aria-controls="ad_table_row--10">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -155,7 +155,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--10">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--11" aria-expanded="false" aria-controls="ad_table_row--11">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -164,7 +164,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--11">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--12" aria-expanded="false" aria-controls="ad_table_row--12">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -173,7 +173,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--12">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--13" aria-expanded="false" aria-controls="ad_table_row--13">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -182,7 +182,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--13">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--14" aria-expanded="false" aria-controls="ad_table_row--14">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -191,7 +191,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--14">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--15" aria-expanded="false" aria-controls="ad_table_row--15">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -200,7 +200,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--15">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--16" aria-expanded="false" aria-controls="ad_table_row--16">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -209,7 +209,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--16">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--17" aria-expanded="false" aria-controls="ad_table_row--17">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -218,7 +218,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--17">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--18" aria-expanded="false" aria-controls="ad_table_row--18">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -227,7 +227,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--18">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--19" aria-expanded="false" aria-controls="ad_table_row--19">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -236,7 +236,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--19">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--20" aria-expanded="false" aria-controls="ad_table_row--20">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -245,7 +245,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--20">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--21" aria-expanded="false" aria-controls="ad_table_row--21">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -254,7 +254,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--21">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--22" aria-expanded="false" aria-controls="ad_table_row--22">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -263,7 +263,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--22">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--23" aria-expanded="false" aria-controls="ad_table_row--23">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -272,7 +272,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--23">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--24" aria-expanded="false" aria-controls="ad_table_row--24">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -281,7 +281,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--24">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--25" aria-expanded="false" aria-controls="ad_table_row--25">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -290,7 +290,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--25">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--26" aria-expanded="false" aria-controls="ad_table_row--26">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -299,7 +299,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--26">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--27" aria-expanded="false" aria-controls="ad_table_row--27">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -308,7 +308,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--27">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--28" aria-expanded="false" aria-controls="ad_table_row--28">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -317,7 +317,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--28">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--29" aria-expanded="false" aria-controls="ad_table_row--29">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -326,7 +326,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--29">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--30" aria-expanded="false" aria-controls="ad_table_row--30">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -335,7 +335,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--30">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--31" aria-expanded="false" aria-controls="ad_table_row--31">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -344,7 +344,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--31">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--32" aria-expanded="false" aria-controls="ad_table_row--32">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -353,7 +353,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--32">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--33" aria-expanded="false" aria-controls="ad_table_row--33">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -362,7 +362,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--33">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--34" aria-expanded="false" aria-controls="ad_table_row--34">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -371,7 +371,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--34">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--35" aria-expanded="false" aria-controls="ad_table_row--35">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -380,7 +380,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--35">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--36" aria-expanded="false" aria-controls="ad_table_row--36">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -389,7 +389,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--36">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--37" aria-expanded="false" aria-controls="ad_table_row--37">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -398,7 +398,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--37">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--38" aria-expanded="false" aria-controls="ad_table_row--38">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -407,7 +407,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--38">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--39" aria-expanded="false" aria-controls="ad_table_row--39">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -416,7 +416,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--39">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                                 <tr data-toggle="collapse" data-target="#ad_table_row--40" aria-expanded="false" aria-controls="ad_table_row--40">
                                     <td class="post-maininfo"><div class="post-title"><i class="fa fa-chevron-right toggle-indicator" aria-hidden="true"></i>ghkjghjkghjkghjk</div></td>
@@ -425,7 +425,7 @@ $page_title = 'userads';
                                     <td>asdf</td>
                                 </tr>
                                 <tr class="collapse" data-parent="#accordion1" id="ad_table_row--40">
-                                    <td class="post-maininfo" colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
+                                    <td colspan="4"><?php include('includes/admin-postdetail-active.php') ?></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -838,6 +838,8 @@ $page_title = 'userads';
     $(document).ready(function() {
         //$(".post-details").hide();
         $("[data-toggle=collapse]").on('click', function() {
+			//$("[data-toggle=collapse]").removeClass("open");
+			//$("i").removeClass("fa-chevron-down");
             $(this).next("tr").toggleClass("open");
             $(this).toggleClass("open");
             $(this).find(".fa-chevron-right").toggleClass("fa-chevron-down");
