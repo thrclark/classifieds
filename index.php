@@ -34,7 +34,7 @@ $page_title = '';
 <div class="container" style="padding-top:4rem">
     <div class="row">
         <div class="col">
-            <h2 class="h3">IU 1</h2>
+            <h2 class="h3">Main Views</h2>
             <ul>
                 <li> <a href="php/main-home.php" target="_blank">Main View</a></li>
                 <li> <a href="php/main-home-customheader.php" target="_blank">Main View w/ custom header</a></li>
@@ -45,71 +45,25 @@ $page_title = '';
             </ul>
         </div>
         <div class="col">
-            <h2 class="h3"> IU 2</h2>
+            <h2 class="h3"> Admin Views</h2>
             <ul>
-                <li> <a href="php-iu1/user-home.php" target="_blank">Main View</a></li>
-                <li><a href="php-iu1/user-searchresults.php" target="_blank">Search Result</a></li>
-                <li><a href="php-iu1/user-myads.php">My Ads</a></li>
-                <li><a href="php-iu1/user-watchlist.php" target="_blank">My Watchlist</a></li>
-                <li><a href="php-iu1/user-music.php" target="_blank">Category View</a></li>
-            </ul>
-        </div>
-        <div class="col">
-            <h2 class="h3"> IU 3</h2>
-            <ul>
-                <li> <a href="php-iu2/user-home.php" target="_blank">Main View</a></li>
-                <li><a href="php-iu2/user-searchresults.php" target="_blank">Search Result</a></li>
-                <li><a href="php-iu2/user-myads.php">My Ads</a></li>
-                <li><a href="php-iu2/user-watchlist.php" target="_blank">My Watchlist</a></li>
-                <li><a href="php-iu2/user-music.php" target="_blank">Category View</a></li>
-            </ul>
-        </div>
-        <div class="col">
-            <h2 class="h3"> ND</h2>
-            <ul>
-                <li> <a href="php-nd/user-home.php" target="_blank">Main View</a></li>
-                <li><a href="php-nd/user-searchresults.php" target="_blank">Search Result</a></li>
-                <li><a href="php-nd/user-myads.php">My Ads</a></li>
-                <li><a href="php-nd/user-watchlist.php" target="_blank">My Watchlist</a></li>
-                <li><a href="php-nd/user-music.php" target="_blank">Category View</a></li>
-            </ul>
-        </div>
-        <div class="col">
-            <h2 class="h3"> rSmart</h2>
-            <ul>
-                <li> <a href="php-rs/user-home.php" target="_blank">Main View</a></li>
-                <li><a href="php-rs/user-searchresults.php" target="_blank">Search Result</a></li>
-                <li><a href="php-rs/user-myads.php">My Ads</a></li>
-                <li><a href="php-rs/user-watchlist.php" target="_blank">My Watchlist</a></li>
-                <li><a href="php-rs/user-music.php" target="_blank">Category View</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-<div class="container" style="padding-top:4rem">
-    <div class="row">
-        <div class="col">
-            <h2 class="h3"> Publishing Views</h2>
-            <ul>
-                <li><a href="php/template-admin-index.php" target="_blank">Index Layout Template</a></li>
-                <li><a href="php/template-admin-form.php" target="_blank">Form Layout Template</a></li>
+                <li><a href="php/admin-userads.php" target="_blank">Moderator</a></li>
                 <li><a href="php/admin-sysparameters.php" target="_blank">System Parameters</a></li>
                 <li><a href="php/admin-branding.php" target="_blank">Branding Configuration</a></li>
             </ul>
         </div>
-    </div>
-</div>
-<div class="container" style="padding-top:4rem">
-    <div class="row">
         <div class="col">
-            <h2 class="h3"> UI Components</h2>
+            <h2 class="h3"> Components &amp; Templates</h2>
             <ul>
                 <li><a href="php/components-main.php" target="_blank">Component styling (main.css)</a></li>
                 <li><a href="php/components-admin.php" target="_blank">Component styling (admin.css)</a></li>
+                <li><a href="php/template-admin-index.php" target="_blank">Index Layout Template</a></li>
+                <li><a href="php/template-admin-form.php" target="_blank">Form Layout Template</a></li>
             </ul>
         </div>
     </div>
 </div>
+
 <div class="container">
     <hr>
     on <a href="https://github.com/thrclark/classifieds" target="_blank">Github</a></div>

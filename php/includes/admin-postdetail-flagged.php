@@ -1,8 +1,5 @@
 
-<div class="card mt-3 mb-3 post-details flagged">
-   
-    
-    
+<div class="card m-4 post-details flagged">
     <div class="card-header bg-danger text-light">
         <div class="row">
             <div class="col pl-4"> <strong>Ad Details</strong> <small>(Flagged for policy review)</small></div>
@@ -11,9 +8,6 @@
             </div>
         </div>
     </div>
-    
-    
-    
     <div class="card-body">
         <dl class="row">
             <dt class="col-sm-3">Title</dt>
@@ -46,5 +40,4 @@
             <dd class="col-sm-9"><img src="../img/post-pics/1105499015MarkVITen4.jpg"  alt=""/><img src="../img/post-pics/drums1.jpg"  alt=""/><img src="../img/post-pics/vehicles2.jpg"  alt=""/></dd>
         </dl>
     </div>
-   
 </div>

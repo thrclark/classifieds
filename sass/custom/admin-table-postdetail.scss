@@ -7,9 +7,28 @@
 }
 
 .table-postdetails {
+  th {
+    .btn {
+      margin-left: 3px;
+      width: 25px;
+      border: solid 1px #ccc;
+    }
+  }
+  .checkbox {
+    padding-left: 10px;
+    margin-top: -10px;
+    label {
+      &:before {
+        margin-top: 0px;
+      }
+      &:after {
+        top: -2px;
+      }
+    }
 
+  }
   .open {
-    background: $gray-100;
+    background: $gray-200;
     &.flagged {
       background: lighten($red, 42%);
     }
@@ -17,6 +36,9 @@
   }
   .flagged {
     background: lighten($red, 42%);
+    .open {
+      background: lighten($red, 42%);
+    }
   }
 
   .post-maininfo {
@@ -31,7 +53,7 @@
 
   }
   .post-details {
-    margin-right: -132px;
+
     .card-header {
       padding: 0.2rem;
       background: $gray-700;
@@ -59,7 +81,17 @@
   }
   td {
     &:last-child {
-      //text-align: center;
+      text-align: center;
+    }
+    &:first-child {
+      padding-right:0px;
+      position: relative;
     }
   }
+  .open {
+    &:first-child {
+      text-align: left;
+    }
+    }
+
 }

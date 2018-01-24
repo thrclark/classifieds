@@ -65,6 +65,17 @@
                         <label for="exampleFormControlTextarea1">Additional information (optional)</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                     </div>
+                    
+                    
+                    
+                     <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message sent to poster (thrclark)</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                    
+                    
+                    
+                    
                     <div class="text-center"><span class="btn btn-link btn-reportcancel">Cancel</span> <span class="btn btn-primary btn-reportsubmit">Submit</span></div>
                 </form>
             </div>
