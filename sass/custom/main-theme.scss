@@ -1,5 +1,6 @@
-$theme-header-background: $theme-primary;
+//$theme-header-background: $theme-primary;
 
+$theme-header-background: $theme-primary;
 
 
 
@@ -28,7 +29,7 @@ $theme-header-background: $theme-primary;
 
 @function set-modalheader-text-color($color) {
 	@if (lightness($color) > 50) {
-		@return $white;
+		@return $gray-800;
 	}
 	@else {
 		@return $white;
@@ -36,12 +37,12 @@ $theme-header-background: $theme-primary;
 }
 
 .modal .modal-dialog .modal-content .modal-header .modal-title,
-.modal .modal-dialog .modal-content .modal-header .modal-close {
+.modal .modal-dialog .modal-content .modal-header .modal-close,
+.modal .modal-dialog .modal-content .modal-header .modal-close:hover
+{
 	color: set-modalheader-text-color($theme-header-background);
+	border-color: set-modalheader-text-color($theme-header-background);
 }
-
-
-
 
 
 
@@ -67,9 +68,14 @@ $theme-header-background: $theme-primary;
  {
 	background: set-searchbutton-color($theme-header-background);
 }
+
+
+
+
+
 @function set-modalheader-background($color) {
 	@if (lightness($color) > 50) {
-		@return $gray-800;
+		@return $gray-100;
 	}
 	@else {
 		@return $theme-header-background;
@@ -91,10 +97,11 @@ $theme-header-background: $theme-primary;
 
 @function set-modalfooter-background($color) {
 	@if (lightness($color) > 50) {
-		@return $gray-800;
+		@return $gray-100;
 	}
 	@else {
-		@return transparentize($theme-header-background, 0.4);
+		//@return transparentize($theme-header-background, 0.4);
+		@return $gray-100;
 	}
 }
 

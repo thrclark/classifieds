@@ -38,7 +38,7 @@
                 
                 <!--buttons for admin/moderator-->
                 <div <?php if ($audience == 'admin') { echo 'class="d-block"'; } ?>  class="d-none">
-                    <button type="button" class="btn btn-smmm btn-primary btn-report">Remove Ad</button>
+                    <button type="button" class="btn btn-primary btn-report">Remove Ad</button>
                 </div>
             </div>
             <div class="modal-body report-post" style="display:none">
@@ -69,7 +69,7 @@
                     
                     
                      <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message sent to poster (thrclark)</label>
+                        <label for="exampleFormControlTextarea1">Send message to poster (thrclark)</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                     </div>
                     

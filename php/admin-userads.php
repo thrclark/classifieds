@@ -5,7 +5,7 @@ $page_title = 'userads';
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>	
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
 <style type="text/css">
@@ -19,7 +19,7 @@ $page_title = 'userads';
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
 <div class="container">
-    <div class="row">
+    <div class="row">	
         <div class="col-12 col-md-3">
             <div id="adminNav">
                 <?php include('includes/admin-nav.php') ?>

@@ -42,28 +42,27 @@
                 
                 <!--buttons for general userbase-->
                 <div <?php if ($audience == 'main') { echo 'class="d-block"'; } ?>  class="d-none">
-                    <button type="button" class="btn btn-smmm btn-primary favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> Watchlist</button>
-                    <button type="button" class="btn btn-smmm btn-primary">Share</button>
-                   <!-- <button type="button" class="btn btn-smmm btn-secondary ml-3 btn-report" >Report</button>-->
+                    <button type="button" class="btn btn-outline-secondary favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> Watchlist</button>
+                    <button type="button" class="btn btn-outline-secondary">Share</button>
+                   <!-- <button type="button" class="btn btn-outline-secondary ml-3 btn-report" >Report</button>-->
                 </div>
                 
-                
-                
+           	
                 <!--buttons for ad poster-->
                 <div <?php if ($audience == 'user') { echo 'class="d-block"'; } ?>  class="d-none">
-                    <button type="button" class="btn btn-smmm btn-primary favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> Watchlist</button>
-                    <button type="button" class="btn btn-smmm btn-primary">Share</button>
-                    <button type="button" class="btn btn-smmm btn-primary ml-3">Edit</button>
-                    <button type="button" class="btn btn-smmm btn-primary">Deactivate</button>
+                    <button type="button" class="btn btn-outline-secondary favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> Watchlist</button>
+                    <button type="button" class="btn btn-outline-secondary">Share</button>
+                    <button type="button" class="btn btn-outline-secondary ml-3">Edit</button>
+                    <button type="button" class="btn btn-outline-secondary">Deactivate</button>
                 </div>
                
                
                
                 <!--buttons for admin/moderator-->
                 <div <?php if ($audience == 'admin') { echo 'class="d-block"'; } ?>  class="d-none">
-                    <button type="button" class="btn btn-smmm btn-primary">View Flag Report</button>
-                    <button type="button" class="btn btn-smmm btn-primary">Remove Ad</button>
-                    <button type="button" class="btn btn-smmm btn-primary">Reinstate Ad</button>
+                    <button type="button" class="btn btn-outline-secondary">View Flag Report</button>
+                    <button type="button" class="btn btn-outline-secondary">Remove Ad</button>
+                    <button type="button" class="btn btn-outline-secondary">Reinstate Ad</button>
 			  	</div>
                 
                 
