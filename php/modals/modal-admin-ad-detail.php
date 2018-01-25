@@ -65,27 +65,17 @@
                         <label for="exampleFormControlTextarea1">Additional information (optional)</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                     </div>
-                    
-                    
-                    
-                     <div class="form-group">
+                    <div class="form-group">
                         <label for="exampleFormControlTextarea1">Send message to poster (thrclark)</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                     </div>
-                    
-                    
-                    
-                    
                     <div class="text-center"><span class="btn btn-link btn-reportcancel">Cancel</span> <span class="btn btn-primary btn-reportsubmit">Submit</span></div>
                 </form>
             </div>
             <div class="modal-body report-post-confirm" style="display:none">
                 <h4>Ad Removed</h4>
-                <p>This ad was posted by the user '<span class="font-weight-bold">thrclark</span>'. Would you like to take administrative action on this user account?</p>
-                
-                 <div class="text-center"><span class="btn btn-outline-secondary">No</span> <span class="btn btn-primary">Yes</span></div>
-                 
-                 
+                <p>This ad was posted by the user '<span class="font-weight-bold">thrclark</span>'. Would you like to review all ads posted by this user?</p>
+                <div class="text-center"><button class="btn btn-outline-secondary" data-dismiss="modal">No</button> <button class="btn btn-primary" data-dismiss="modal" id="populatefilter">Review thrclark's ads</button></div>
             </div>
         </div>
     </div>

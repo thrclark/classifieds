@@ -30,7 +30,7 @@ $page_title = 'userads';
                 <div class="doc-header mb-3">
                     <div class="row">
                         <div class="col doc-title">
-                            <h2>Moderator</h2>
+                            <h2>Moderate Ads &amp; Users</h2>
                         </div>
                     </div>
                 </div>
@@ -788,5 +788,21 @@ $page_title = 'userads';
         });
     }); //]]>
 </script>
+
+
+
+<script>
+    $(document).ready(function() {	
+        $(function() {
+            $("#populatefilter").click(function () {
+                $("#table_filter").val("thrclark");
+				$("#table_filter").css( "color", "#212529" );
+            });
+        });
+    });
+</script>
+
+
+
 </body>
 </html>
