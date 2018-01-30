@@ -21,12 +21,6 @@ $theme-header-background: $theme-primary;
 
 
 
-
-
-
-
-
-
 @function set-modalheader-text-color($color) {
 	@if (lightness($color) > 50) {
 		@return $gray-800;
@@ -82,7 +76,7 @@ $theme-header-background: $theme-primary;
 	}
 }
 .modal .modal-dialog .modal-content .modal-header,
-.modal .modal-dialog .modal-content .modal-header .modal-close,
+.modal .modal-dialog .modal-content .modal-header .modal-close
 {
 	background: set-modalheader-background($theme-header-background);
 }
