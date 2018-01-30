@@ -21,12 +21,6 @@ $theme-header-background: $theme-primary;
 
 
 
-
-
-
-
-
-
 @function set-modalheader-text-color($color) {
 	@if (lightness($color) > 50) {
 		@return $gray-800;
