@@ -6213,92 +6213,95 @@ a.text-dark:focus, a.text-dark:hover {
       -moz-transition: all 0.5s;
       transition: all 0.5s; }
 
+.fixElement {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0; }
+
 .app-header {
   background: #fff;
-  z-index: 20 !important;
   z-index: 10;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
-  .app-header .container .row {
+  .app-header .container .row .brand img {
+    width: auto;
     height: 42px; }
-    .app-header .container .row .brand img {
-      width: auto;
-      height: 42px; }
-    .app-header .container .row .brand h1 {
-      font-size: 1.6rem;
-      margin: 0; }
-    .app-header .container .row .search {
-      padding-right: 0px; }
-      .app-header .container .row .search .search-container {
-        border-style: solid;
-        border-width: 1px;
-        padding-top: 3px;
-        border-radius: 50px;
-        background: #fff;
-        padding-bottom: 2px; }
-        .app-header .container .row .search .search-container .clear-field .cleartext {
-          right: -5px; }
-        .app-header .container .row .search .search-container .search-button .btn {
-          padding-top: .3rem;
-          color: #fff;
-          border-top-right-radius: 18px;
-          margin-top: -1px;
-          border-bottom-right-radius: 18px;
-          height: 35px;
-          margin-right: 2px; }
-          .app-header .container .row .search .search-container .search-button .btn .search-label {
-            font-variant: all-petite-caps;
-            letter-spacing: 1px;
-            font-size: 18px; }
-        .app-header .container .row .search .search-container .search-input {
-          border: none;
-          background: transparent; }
-        .app-header .container .row .search .search-container .search-geo .long-name {
-          display: none; }
-        .app-header .container .row .search .search-container .search-geo .short-name {
-          display: inline; }
-        .app-header .container .row .search .search-container .search-geo .fa.fa-map-marker {
-          margin-right: 10px;
-          color: #b8b8b8; }
-        .app-header .container .row .search .search-container .search-geo .dropdown {
-          display: inline; }
-          .app-header .container .row .search .search-container .search-geo .dropdown .dropdown-menu {
-            border: solid 1px #868e96;
-            border-top: none;
-            top: 9px !important;
-            left: 31px !important; }
-    .app-header .container .row .post .btn {
-      border-radius: 20px;
-      font-variant: all-petite-caps;
-      letter-spacing: 1px;
-      font-size: 18px;
-      padding-top: .4rem;
-      background: transparent;
-      height: 37px; }
-    .app-header .container .row .user-ads .menu-trigger {
-      padding-left: 8px;
-      padding-right: 15px;
-      padding-top: 5px;
-      padding-bottom: 5px; }
-      .app-header .container .row .user-ads .menu-trigger .fa.fa-ellipsis-v {
-        font-size: 20px; }
+  .app-header .container .row .brand h1 {
+    font-size: 1.6rem;
+    margin: 0; }
+  .app-header .container .row .search {
+    padding-right: 0px; }
+    .app-header .container .row .search .search-container {
+      border-style: solid;
+      border-width: 1px;
+      padding-top: 3px;
+      border-radius: 50px;
+      background: #fff;
+      padding-bottom: 2px; }
+      .app-header .container .row .search .search-container .search-button .btn {
+        padding-top: .3rem;
+        color: #fff;
+        border-top-right-radius: 18px;
+        margin-top: -1px;
+        border-bottom-right-radius: 18px;
+        height: 35px;
+        margin-right: 2px; }
+        .app-header .container .row .search .search-container .search-button .btn .search-label {
+          font-variant: all-petite-caps;
+          letter-spacing: 1px;
+          font-size: 18px; }
+      .app-header .container .row .search .search-container .row {
+        height: 35px; }
+      .app-header .container .row .search .search-container .search-input {
+        border: none;
+        background: transparent; }
+      .app-header .container .row .search .search-container .search-geo .long-name {
+        display: none; }
+      .app-header .container .row .search .search-container .search-geo .short-name {
+        display: inline; }
+      .app-header .container .row .search .search-container .search-geo .fa.fa-map-marker {
+        margin-right: 10px;
+        color: #b8b8b8; }
+      .app-header .container .row .search .search-container .search-geo .dropdown {
+        display: inline; }
+        .app-header .container .row .search .search-container .search-geo .dropdown .dropdown-menu {
+          border: solid 1px #868e96;
+          border-top: none;
+          top: 9px !important;
+          left: 31px !important; }
+  .app-header .container .row .post .btn {
+    border-radius: 20px;
+    font-variant: all-petite-caps;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding-top: .4rem;
+    background: transparent;
+    height: 37px; }
+  .app-header .container .row .user-ads .menu-trigger {
+    background-color: transparent;
+    border: none;
+    padding-left: 8px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+    .app-header .container .row .user-ads .menu-trigger .fa.fa-ellipsis-v {
+      font-size: 20px; }
 
 @media (min-width: 768px) {
-  .app-header .container .row {
+  .app-header .container .row .brand img {
+    width: auto;
     height: 70px; }
-    .app-header .container .row .brand img {
-      width: auto;
-      height: 70px; }
-    .app-header .container .row .brand h1 {
-      font-size: 2rem; }
-    .app-header .container .row .search {
-      padding-right: 15px; }
-      .app-header .container .row .search .search-container .row {
-        height: inherit; }
-        .app-header .container .row .search .search-container .row .search-geo .dropdown .dropdown-menu {
-          top: 9px !important;
-          float: right;
-          min-width: inherit; } }
+  .app-header .container .row .brand h1 {
+    font-size: 2rem; }
+  .app-header .container .row .search {
+    padding-right: 15px; }
+    .app-header .container .row .search .search-container .row {
+      height: 35px; }
+      .app-header .container .row .search .search-container .row .search-geo .dropdown .dropdown-menu {
+        top: 9px !important;
+        float: right;
+        min-width: inherit; } }
 @media (min-width: 992px) {
   .app-header .container .row .search .search-container .search-geo .long-name {
     display: inline; }

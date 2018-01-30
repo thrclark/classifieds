@@ -1,25 +1,23 @@
-
-
+.fixElement {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
 
 @include media-breakpoint-up(xs) {
 	.app-header {
-		background: $theme-header-background;
-		z-index: 20 !important;
-
+		background: $theme-header-background;	
 		z-index: 10;
 		@include shadow;
-
 		.container {
 			.row {
-				height: 42px;
 				.brand {
-
 					img {
 						width: auto;
 						height: 42px;
 					}
 					h1 {
-
 						font-size: 1.6rem;
 						margin: 0;
 					}
@@ -33,14 +31,7 @@
 						border-radius: 50px;
 						background: $white;
 						padding-bottom: 2px;
-						.clear-field {
-							.cleartext {
-								right:-5px;
-							}
-						}
-
 						.search-button .btn {
-
 							padding-top: .3rem;
 							color: #fff;
 							border-top-right-radius: 18px;
@@ -54,12 +45,14 @@
 								font-size: 18px;
 							}
 						}
+						.row {
+							height: 35px;
+						}
 						.search-input {
 							border: none;
 							background: transparent;
 						}
 						.search-geo {
-
 							.long-name {
 								display: none;
 							}
@@ -77,14 +70,11 @@
 									border-top: none;
 									top: 9px !important;
 									left: 31px !important;
-
-
 								}
 							}
 						}
 					}
 				}
-
 				.post .btn {
 					border-radius: 20px;
 					font-variant: all-petite-caps;
@@ -93,163 +83,76 @@
 					padding-top: .4rem;
 					background: transparent;
 					height: 37px;
-					&:hover {
-						//color: $white;
-					}
 				}
-
 				.user-ads {
 					.menu-trigger {
+						background-color: transparent;
+						border: none;
 						padding-left: 8px;
 						padding-right: 15px;
 						padding-top: 5px;
 						padding-bottom: 5px;
-
 						.fa.fa-ellipsis-v {
 							font-size: 20px;
-
 						}
 					}
-
 				}
 			}
-
 		}
 	}
-
 }
 @include media-breakpoint-up(sm) {
-
-
 }
 
-
 @include media-breakpoint-up(md) {
-
 	.app-header {
-
-
 		.container {
 			.row {
-				height: 70px;
 				.brand {
 					img {
 						width: auto;
 						height: 70px;
 					}
 					h1 {
-
 						font-size: 2rem;
-
 					}
-
 				}
 				.search {
 					padding-right: 15px;
 					.search-container {
 						.row {
-							height: inherit;
+							height: 35px;
 							.search-geo {
-
-
-
-								.fa.fa-map-marker {
-
-								}
 								.dropdown .dropdown-menu {
-
 									top: 9px !important;
 									float: right;
 									min-width: inherit;
-
-
-
 								}
 							}
 						}
-
-
-
 					}
-				}
-
-
-
-				.post .btn {
-
-				}
-				.user-ads .fa.fa-ellipsis-v {
-
 				}
 			}
 		}
 	}
 }
 @include media-breakpoint-up(lg) {
-
 	.app-header {
-
-
 		.container {
 			.row {
-				.brand {
-					img {
-
-					}
-					h1 {
-
-
-
-					}
-
-				}
 				.search {
-
 					.search-container {
-
-						.search-button .btn.btn-dark {
-
-							.search-label {
-
-							}
-						}
-						.search-input {
-
-						}
 						.search-geo {
-
 							.long-name {
 								display: inline;
 							}
 							.short-name {
 								display: none;
 							}
-
-							.fa.fa-map-marker {
-
-							}
-							.dropdown .dropdown-menu {
-
-
-							}
 						}
 					}
-				}
-
-				.post .btn {
-
-				}
-				.user-ads .fa.fa-ellipsis-v {
-
 				}
 			}
 		}
 	}
 }
-@include media-breakpoint-up(xl) {
-
-}
-
-
-
-
