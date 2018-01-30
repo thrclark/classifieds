@@ -1,4 +1,5 @@
 <?php 
+$audience = 'user';
 $page_title = 'cat_myads';
 ?>
 

@@ -1,5 +1,8 @@
+//$theme-header-background: $theme-primary;
 
-$theme-header-background: #ffffff;
+$theme-header-background: $theme-primary;
+
+
 
 
 @function set-header-text-color($color) {
@@ -12,11 +15,39 @@ $theme-header-background: #ffffff;
 }
 .brand-text,
 .app-header .post .btn,
-.user-ads .menu-trigger .fa,
-.modal .modal-dialog .modal-content .modal-header .modal-title,
-.modal .modal-dialog .modal-content .modal-header .modal-close {
+.user-ads .menu-trigger .fa {
 	color: set-header-text-color($theme-header-background);
 }
+
+
+
+
+
+
+
+
+
+@function set-modalheader-text-color($color) {
+	@if (lightness($color) > 50) {
+		@return $gray-800;
+	}
+	@else {
+		@return $white;
+	}
+}
+
+.modal .modal-dialog .modal-content .modal-header .modal-title,
+.modal .modal-dialog .modal-content .modal-header .modal-close,
+.modal .modal-dialog .modal-content .modal-header .modal-close:hover
+{
+	color: set-modalheader-text-color($theme-header-background);
+	border-color: set-modalheader-text-color($theme-header-background);
+}
+
+
+
+
+
 
 .app-header .post .btn:hover {
 	color: set-header-text-color($theme-header-background);
@@ -37,19 +68,55 @@ $theme-header-background: #ffffff;
  {
 	background: set-searchbutton-color($theme-header-background);
 }
+
+
+
+
+
 @function set-modalheader-background($color) {
 	@if (lightness($color) > 50) {
-		@return $gray-200;
+		@return $gray-100;
 	}
 	@else {
 		@return $theme-header-background;
 	}
 }
 .modal .modal-dialog .modal-content .modal-header,
-.modal .modal-dialog .modal-content .modal-header .modal-close
+.modal .modal-dialog .modal-content .modal-header .modal-close,
 {
 	background: set-modalheader-background($theme-header-background);
 }
+
+
+
+
+
+
+
+
+
+@function set-modalfooter-background($color) {
+	@if (lightness($color) > 50) {
+		@return $gray-100;
+	}
+	@else {
+		//@return transparentize($theme-header-background, 0.4);
+		@return $gray-100;
+	}
+}
+
+.modal .modal-dialog .modal-content .modal-footer
+{
+	background: set-modalfooter-background($theme-header-background);
+}
+
+
+
+
+
+
+
+
 @function set-searchcontainer-bordercolor($color) {
 	@if (lightness($color) > 50) {
 		@return $gray-800;
@@ -86,3 +153,4 @@ $theme-header-background: #ffffff;
 .postitem-newbanner {
 	background: set-newbadge-color($theme-header-background);
 }
+

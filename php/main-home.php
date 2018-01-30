@@ -1,4 +1,5 @@
 <?php 
+$audience = 'main';
 $page_title = 'cat_all';
 ?>
 

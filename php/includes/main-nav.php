@@ -21,3 +21,4 @@
         </div>
     </div>
 </nav>
+<div class="mt-4 mb-3 pl-3 font-italic"> <a href="#">Policy</a></div>

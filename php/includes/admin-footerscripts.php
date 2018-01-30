@@ -2,7 +2,7 @@
     window.jQuery || document.write('<script src="../bower_components/jquery/dist/jquery.min.js"><\/script>')
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
 <script src="../bower_components/filament-tablesaw/dist/tablesaw.jquery.js"></script>
 <script src="../bower_components/filament-tablesaw/dist/tablesaw-init.js"></script>
 <script src="../js/jquery.dotdotdot.min.js"></script>
@@ -141,18 +141,36 @@
         });
     });
 </script>
+
+
+
+
+
+
+
 <script type="text/javascript">
     $(document).ready(function() {
-        $(".postitem").click(function() {
+        $(".postitem, .btn").click(function() {
             //$('#post_detail2-1').modal('show')
             setTimeout(function() {
                 $('.your-class').slick({
                     slidesToShow: 1,
                 });
-            }, 150);
+            }, 200);
         });
     });
 </script>
+
+
+
+
+
+
+
+
+
+
+
 <script>
     $(document).ready(function() {
         $(".favorite").click(function() {
@@ -230,3 +248,54 @@
         });
     });
 </script>
+
+
+
+
+<script>
+$(document).ready(function(){
+    $(".btn-report").click(function(){
+        $(".post-details-body, .modal-footer").hide();
+		$(".report-post").show();
+    });
+	
+	$(".btn-reportcancel").click(function(){
+        $(".post-details-body, .modal-footer").show();
+		$(".report-post").hide();
+    });
+	
+	$(".btn-reportsubmit").click(function(){
+        $(".report-post-confirm").show();
+		$(".report-post").hide();
+    });
+	
+	
+	
+	
+    
+});
+</script>
+
+
+<script>
+$(function(){
+    
+    $("[data-toggle=popover]").popover({
+        html : true,
+        content: function() {
+            var content = $(this).attr("data-popover-content");
+            return $(content).children(".popover-body").html();
+        },
+        title: function() {
+            var title = $(this).attr("data-popover-content");
+            return $(title).children(".popover-heading").html();
+        }
+    });
+    
+});
+
+
+</script>
+
+
+
