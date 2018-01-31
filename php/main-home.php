@@ -19,7 +19,7 @@ $page_title = 'cat_all';
     <section class="main-content pt-3" role="main">
         <div class="container">
             <div class="row">
-                <div class="col-3 d-none d-md-block">
+                <div class="col-3 d-none d-md-block">	
                     <div id="siteNav">
                         <?php include('includes/main-user-options.php') ?>
                         <?php include('includes/main-nav.php') ?>

@@ -7,15 +7,6 @@
 			.doc-title {
 				h2 {font-size: 1rem;}
 			}
-			.doc-controls {
-				.switch {
-					margin-right: 36px;
-					label {
-						padding-left: 36px;
-					}
-				}	
-
-			}
 		}
 	}
 }
@@ -26,14 +17,11 @@
 		min-height: 100px;
 	}
 	.main-content {
-		margin-top: -45px;
+		margin-top: -40px;
 		min-height: 600px;
 		.doc-header {
 			.doc-title {
 				h2 {font-size: 1.5rem;}
-			}
-			.doc-controls {
-
 			}
 		}
 	}

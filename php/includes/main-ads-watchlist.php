@@ -1,12 +1,13 @@
 
 <div class="row">
-    <div class="postitem grid cat-music">
+    <div class="postitem grid">
         <div class="postitem-watchlist">
             <div class="watchlist-set">
                 <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star"></i> <span class="sr-only">Add to watchlist</span></button>
             </div>
         </div>
-        <div class="postitem-container" data-toggle="modal" data-target="#post_detail">
+        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
+<div class="overlay"></div>
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/sax1.jpg)"> </div>
@@ -18,15 +19,16 @@
                 <div class="postitem-postdate" >Sep 14</div>
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
             </div>
-        </div>
+        </a>
     </div>
-    <div class="postitem grid cat-music">
+    <div class="postitem grid">
         <div class="postitem-watchlist">
             <div class="watchlist-set">
                 <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star"></i> <span class="sr-only">Add to watchlist</span></button>
             </div>
         </div>
-        <div class="postitem-container" data-toggle="modal" data-target="#post_detail">
+        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
+<div class="overlay"></div>
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/sax2.jpg)"> </div>
@@ -38,15 +40,16 @@
                 <div class="postitem-postdate" >Sep 14</div>
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
             </div>
-        </div>
+        </a>
     </div>
-    <div class="postitem grid cat-music">
+    <div class="postitem grid">
         <div class="postitem-watchlist">
             <div class="watchlist-set">
                 <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star"></i> <span class="sr-only">Add to watchlist</span></button>
             </div>
         </div>
-        <div class="postitem-container" data-toggle="modal" data-target="#post_detail">
+        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
+<div class="overlay"></div>
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/sax3.jpg)"> </div>
@@ -58,15 +61,16 @@
                 <div class="postitem-postdate" >Sep 7</div>
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
             </div>
-        </div>
+        </a>
     </div>
-    <div class="postitem grid cat-music">
+    <div class="postitem grid">
         <div class="postitem-watchlist">
             <div class="watchlist-set">
                 <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star"></i> <span class="sr-only">Add to watchlist</span></button>
             </div>
         </div>
-        <div class="postitem-container" data-toggle="modal" data-target="#post_detail">
+        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
+<div class="overlay"></div>
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/sax4.jpg)"> </div>
@@ -78,6 +82,6 @@
                 <div class="postitem-postdate" >Sep 3</div>
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
             </div>
-        </div>
+        </a>
     </div>
 </div>

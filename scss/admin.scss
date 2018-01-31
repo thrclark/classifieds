@@ -1,27 +1,24 @@
 @import "custom/variables";
-@import "custom/all-effects";
-@import "custom/all-custom-fonts";
-@import "custom/all-modals";
-@import "custom/main-theme";
-@import "custom/all-custom-header";
+
+@import "../bower_components/bootstrap/scss/bootstrap.scss";
+//@import 'font-awesome/font-awesome';
+
+@import "custom/layout";
 @import "custom/admin-layout";
 @import "custom/admin-app-header";
-@import "custom/all-nav";
+@import "custom/admin-nav";
 @import "custom/admin-main-content";
 @import "custom/admin-utility-bar";
-@import "custom/all-tables";
-@import "custom/all-forms";
-@import "custom/all-test-mediaqueries";
+@import "custom/modals";
+@import "custom/tables";
+@import "custom/counter";
+@import "custom/forms";
+@import "custom/dropdowns";
+@import "custom/alerts";
+@import "custom/modals";
+@import "custom/acl";
+@import "custom/markdown-editor";
 @import "custom/all-pagination";
-@import "custom/all-imageuploader";
-@import "custom/all-savebutton";
-@import "custom/admin-iconselector";
-@import "custom/all-clearfield";
-@import "custom/admin-table-postdetail";
-@import "custom/all-postdetail";
-@import "custom/all-image-slider";
-@import "custom/all-imageslider-theme";
-@import "custom/admin-user-timeline";
-
-
+@import "custom/all-image-upload";
+@import "custom/all-nav";
 

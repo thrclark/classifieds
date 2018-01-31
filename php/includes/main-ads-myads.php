@@ -4,18 +4,21 @@
         <div class="other-ads-content">My current ads</div>
         <hr>
     </div>
-    <div class="postitem grid cat-rideboard">
+    <div class="postitem grid">
         <div class="postitem-watchlist">
-            <div class="watchlist-set">
-                <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button>
+           <div class="watchlist-set">
+                <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
+                <message key="main.watchlist.add">Add to Watchlist</message>
+                </span> </button>
             </div>
         </div>
-        <div class="postitem-container" data-toggle="modal" data-target="#post_detail">
+        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
+<div class="overlay"></div>
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/ride1.jpg)"> </div>
                 </div>
-                <div class="postitem-newbanner" >New</div>
+                <!--<div class="postitem-newbanner" >New</div>-->
                 <div class="postitem-post-title" >Oct 6. Ride to Northwest Indiana </div>
                 <div class="postitem-price" >$25</div>
                 <div class="w-100"></div>
@@ -23,20 +26,23 @@
                 <div class="postitem-postdate" >Oct 16</div>
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
             </div>
-        </div>
+        </a>
     </div>
-    <div class="postitem grid cat-electronics">
+    <div class="postitem grid">
         <div class="postitem-watchlist">
-            <div class="watchlist-set">
-                <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">Add to watchlist</span></button>
+           <div class="watchlist-set">
+                <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
+                <message key="main.watchlist.add">Add to Watchlist</message>
+                </span> </button>
             </div>
         </div>
-        <div class="postitem-container" data-toggle="modal" data-target="#post_detail">
+        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
+<div class="overlay"></div>
             <div class="postitem-row">
-                <div class="postitem-image-container">
-                    <div class="post-image none" > </div>
-                </div>
-                <div class="postitem-newbanner" >New</div>
+                 <div class="postitem-image-container">
+                <div class="post-image none"> <i aria-hidden="true" class="fa fa-asterisk"></i> <span class="sr-only">asdf</span> </div>
+            </div>
+                <!--<div class="postitem-newbanner" >New</div>-->
                 <div class="postitem-post-title" >Downsizing Sale - Games/Electronics/Bike Basket/Home </div>
                 <div class="postitem-price" >Varies</div>
                 <div class="w-100"></div>
@@ -48,14 +54,15 @@
                 <div class="postitem-postdate" >Oct 16</div>
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
             </div>
-        </div>
+        </a>
     </div>
     <div class="col-12 text-center other-ads">
         <div class="other-ads-content">My inactive ads</div>
         <hr>
     </div>
-    <div class="postitem grid cat-vehicles">
-        <div class="postitem-container" data-toggle="modal" data-target="#post_detail">
+    <div class="postitem grid">
+        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
+<div class="overlay"></div>
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/vehicles2.jpg)"> </div>
@@ -70,10 +77,11 @@
                 <div class="postitem-postdate" >Oct 16</div>
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
             </div>
-        </div>
+        </a>
     </div>
-    <div class="postitem grid cat-misc">
-        <div class="postitem-container" data-toggle="modal" data-target="#post_detail">
+    <div class="postitem grid">
+        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
+<div class="overlay"></div>
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image none"> </div>
@@ -90,10 +98,11 @@
                 <div class="postitem-postdate" >Oct 16</div>
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
             </div>
-        </div>
+        </a>
     </div>
-    <div class="postitem grid cat-misc">
-        <div class="postitem-container" data-toggle="modal" data-target="#post_detail">
+    <div class="postitem grid">
+        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
+<div class="overlay"></div>
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/misc2.jpg)"> </div>
@@ -121,6 +130,6 @@
                 <div class="postitem-postdate" >Oct 16</div>
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
             </div>
-        </div>
+        </a>
     </div>
 </div>

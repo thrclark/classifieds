@@ -1,35 +1,32 @@
 @include media-breakpoint-up(xs) {
-
 	.main-content {
-		//margin-top: 60px;
 		.main-content-section {
 			padding-bottom: 60px;
 		}
 	}
+	.main-content.hidden {
+		display:none;
+	}
 }
 
 @include media-breakpoint-up(md) {
-
-
 	.main-content {
-		//margin-top: 95px;
 		.main-content-section {
 			padding-bottom: 0px;
 		}
 	}
+	.main-content.hidden {
+		display:inherit;
+	}
 }
 
-.other-ads {
-	margin-bottom: 10px;
-	.other-ads-content {
-		background: #ededed;
-		display: inline-block;
-		padding-left: 10px;
-		padding-right: 10px;
-		font-size: 1.3rem;
-		margin-top: 10px;
-	}
-	hr {
-		margin-top: -16px;
+.pt-3 {
+    padding-top: 1rem !important;
+}
+
+@include media-breakpoint-down(xs) {
+	#custom-header {
+		display: none;
 	}
 }
+

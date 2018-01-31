@@ -1,0 +1,42 @@
+
+.icon-selector {
+	position: relative;
+	.icon-current {
+		padding:10px;
+		border: solid 1px $gray-300;
+		.icon-display {
+			padding-left: 30px;
+			.fa {
+				font-size: 50px;
+			}
+		}
+		.icon-name {
+			@extend .small;
+			text-transform: uppercase;
+		}
+		.icon-select {
+			@extend .text-right;
+		}
+
+	}
+	.icon-search {
+		position: absolute;
+		top:0px;
+		z-index: 5;
+		width: 100%;
+		.card {
+			.card-body {
+				max-height: 400px;
+				overflow: auto;
+				.btn {
+					margin-right: 5px;
+					margin-bottom: 5px;
+					width: 36px;
+					height: 36px;
+					border-color: $gray-300;
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}

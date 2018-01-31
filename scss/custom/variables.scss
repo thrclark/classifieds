@@ -1,6 +1,7 @@
+$fa-font-path: "../fonts";
 
-
-
+$brand-danger:          #d9534f;
+$text-color:            #333;
 //
 // Color system
 //
@@ -29,9 +30,6 @@ $grays: (
         900: $gray-900
 ) !default;
 
-
-//$theme-primary: #7D110C !default;
-$theme-primary: $white !default;
 $blue: #005A9C !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
@@ -123,7 +121,7 @@ $enable-print-styles:       true !default;
 
 $card-border-color:        rgba($black,.125) !default;
 
-$text-muted: $gray-600 !default;
+$text-muted: $gray-700 !default;
 
 $pagination-border-color: $gray-400;
 $pagination-disabled-border-color: $gray-400;
@@ -131,6 +129,5 @@ $pagination-disabled-border-color: $gray-400;
 
 
 
-@import "../../bower_components/bootstrap/scss/bootstrap.scss";
+//@import "../../bower_components/bootstrap/scss/bootstrap.scss";
 //@import "../../node_modules/bootstrap/scss/bootstrap.scss";
-

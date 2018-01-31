@@ -1,0 +1,23 @@
+@include media-breakpoint-up(xs) {
+	.app-header {
+		background: #333;
+		color: $white;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		@include shadow;
+	}
+	.app-header h1 {
+		font-size: 1.6rem;
+		margin-top: 15px;
+		line-height: 0.4;
+	}
+	.app-header a {
+		color: $white;
+	}
+}
+@include media-breakpoint-up(md) {
+	.app-header h1 {
+		font-size: 2rem;
+		margin-top: 20px;
+	}
+}

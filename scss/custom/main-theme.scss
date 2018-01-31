@@ -1,8 +1,4 @@
-//$theme-header-background: $theme-primary;
-
-$theme-header-background: $theme-primary;
-
-
+$theme-header-background: #ffffff;
 
 
 @function set-header-text-color($color) {
@@ -13,41 +9,14 @@ $theme-header-background: $theme-primary;
 		@return $white;
 	}
 }
-.brand-text,
-.app-header .post .btn,
-.user-ads .menu-trigger .fa {
+.brand-text, .app-header .post .btn, .user-ads .menu-trigger .fa {
 	color: set-header-text-color($theme-header-background);
 }
-
-
-
-@function set-modalheader-text-color($color) {
-	@if (lightness($color) > 50) {
-		@return $gray-800;
-	}
-	@else {
-		@return $white;
-	}
-}
-
-.modal .modal-dialog .modal-content .modal-header .modal-title,
-.modal .modal-dialog .modal-content .modal-header .modal-close,
-.modal .modal-dialog .modal-content .modal-header .modal-close:hover
-{
-	color: set-modalheader-text-color($theme-header-background);
-	border-color: set-modalheader-text-color($theme-header-background);
-}
-
-
-
-
-
 
 .app-header .post .btn:hover {
 	color: set-header-text-color($theme-header-background);
 }
-.app-header .post .btn,
-.modal .modal-dialog .modal-content .modal-header .modal-close {
+.app-header .post .btn {
 	border-color: set-header-text-color($theme-header-background);
 }
 @function set-searchbutton-color($color) {
@@ -58,53 +27,9 @@ $theme-header-background: $theme-primary;
 		@return $theme-header-background;
 	}
 }
-.search .search-container .search-button .btn
- {
+.search .search-container .search-button .btn {
 	background: set-searchbutton-color($theme-header-background);
 }
-
-
-
-@function set-modalheader-background($color) {
-	@if (lightness($color) > 50) {
-		@return $gray-100;
-	}
-	@else {
-		@return $theme-header-background;
-	}
-}
-.modal .modal-dialog .modal-content .modal-header,
-.modal .modal-dialog .modal-content .modal-header .modal-close
-{
-	background: set-modalheader-background($theme-header-background);
-}
-
-
-
-
-
-@function set-modalfooter-background($color) {
-	@if (lightness($color) > 50) {
-		@return $gray-100;
-	}
-	@else {
-		//@return transparentize($theme-header-background, 0.4);
-		@return $gray-100;
-	}
-}
-
-.modal .modal-dialog .modal-content .modal-footer
-{
-	background: set-modalfooter-background($theme-header-background);
-}
-
-
-
-
-
-
-
-
 @function set-searchcontainer-bordercolor($color) {
 	@if (lightness($color) > 50) {
 		@return $gray-800;
@@ -125,10 +50,9 @@ $theme-header-background: $theme-primary;
 	}
 }
 .postitem.grid .postitem-container .postitem-price {
-	background: set-pricebackground-color($theme-header-background);
-}
-.category-card .category-icon .fa {
-	color: set-pricebackground-color($theme-header-background);
+	@include media-breakpoint-up(sm) {
+		background: set-pricebackground-color($theme-header-background);
+	}
 }
 @function set-newbadge-color($color) {
 	@if (lightness($color) > 50) {
@@ -141,4 +65,3 @@ $theme-header-background: $theme-primary;
 .postitem-newbanner {
 	background: set-newbadge-color($theme-header-background);
 }
-

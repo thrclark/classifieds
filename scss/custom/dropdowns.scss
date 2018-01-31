@@ -1,0 +1,23 @@
+.dropdown-menu > li > button {
+    display: block;
+    width: 100%;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: transparent;
+    border: none;
+    white-space: nowrap;
+    text-align: left;
+    
+    &:hover, &:focus {
+    	color: #262626;
+    	background-color: #f5f5f5;
+	}
+}
+
+.dropdown-menu > .disabled > button, .dropdown-menu > .disabled > button:hover, .dropdown-menu > .disabled > button:focus {
+    color: #777777;
+    cursor: not-allowed;
+}
