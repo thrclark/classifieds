@@ -7,7 +7,7 @@
 
 @include media-breakpoint-up(xs) {
 	.app-header {
-		background: $theme-header-background;	
+		background: $theme-header-background;
 		z-index: 10;
 		@include shadow;
 		.container {
