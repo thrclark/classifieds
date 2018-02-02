@@ -1,0 +1,44 @@
+.pagination {
+  .page-item {
+    .page-link{
+      background: transparent;
+      &:hover {
+        border-color: $gray-400;
+        background: $white;
+      }
+      &:focus {
+        border-color: $gray-400;
+      }
+
+    }
+
+    &:first-child {
+      .page-link {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+
+      }
+    }
+    &:last-child {
+      .page-link {
+
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+      }
+
+
+    }
+  }
+  .page-item.active {
+     background: $gray-300;
+    .page-link {
+      color: $gray-900;
+      border-color: $gray-400;
+    }
+
+  }
+
+}
+
+

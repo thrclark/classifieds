@@ -1,0 +1,28 @@
+@include media-breakpoint-up(xs) {
+
+	.main-content {
+		margin-top: 0px;
+		min-height: 40px;
+		.doc-header {
+			.doc-title {
+				h2 {font-size: 1rem;}
+			}
+		}
+	}
+}
+
+@include media-breakpoint-up(md) {
+
+	.app-header {
+		min-height: 100px;
+	}
+	.main-content {
+		margin-top: -40px;
+		min-height: 600px;
+		.doc-header {
+			.doc-title {
+				h2 {font-size: 1.5rem;}
+			}
+		}
+	}
+}

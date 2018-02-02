@@ -1,0 +1,31 @@
+@import "custom/variables";
+@import "../bower_components/bootstrap/scss/bootstrap.scss";
+@import 'ngx-bootstrap/datepicker/bs-datepicker';
+//@import 'font-awesome/font-awesome';
+@import "custom/all-effects";
+
+@import "custom/main-theme";
+@import "custom/main-app-header";
+@import "custom/main-layout";
+@import "custom/main-useraccess";
+@import "custom/main-footer-menu";
+@import "custom/main-side-nav";
+@import "custom/main-mobile-nav";
+@import "custom/main-posting";
+@import "custom/main-favoriting";
+@import "custom/main-section-header";
+@import "custom/all-pagination";
+@import "custom/main-post-details";
+@import "custom/main-image-slider";
+@import "custom/main-useroptions";
+@import "custom/main-favoriting";
+
+@import "custom/layout";
+@import "custom/counter";
+@import "custom/forms";
+@import "custom/alerts";
+@import "custom/all-image-upload";
+@import "custom/all-nav";
+@import "custom/main-m-search";
+
+@import "../bower_components/bootstrap/scss/mixins/text-truncate";

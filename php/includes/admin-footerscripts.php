@@ -1,4 +1,4 @@
-<script>
+	<script>
     window.jQuery || document.write('<script src="../bower_components/jquery/dist/jquery.min.js"><\/script>')
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
@@ -15,11 +15,14 @@
         $(".app-header").sticky({
             topSpacing: 0
         });
-        $("#siteNav").sticky({
-            topSpacing: 70
-        });
-        $("#adminNav").sticky({
-            topSpacing: 100
+        var resizeTimer;
+        $(window).on('resize', function(e) {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(function() {
+                $(".app-header").sticky({
+                    topSpacing: 0
+                });
+            }, 250);
         });
     });
 </script>
@@ -36,25 +39,7 @@
         $("#mainsearch").focus();
     });
 </script>
-<script>
-    $(document).ready(function() {
-        $(".toggle_mobilesearch").click(function() {
-            $(".mobile-panel.search").slideToggle();
-            $(".main-content").toggle();
-            $(".mobile-panel.post, .mobile-panel.categories").slideUp();
-        });
-        $(".toggle_mobilepost").click(function() {
-            $(".mobile-panel.post").slideToggle();
-            $(".main-content").toggle();
-            $(".mobile-panel.search, .mobile-panel.categories").slideUp();
-        });
-        $(".toggle_mobilecategories").click(function() {
-            $(".mobile-panel.categories").slideToggle();
-            $(".main-content").toggle();
-            $(".mobile-panel.post, .mobile-panel.search").slideUp();
-        });
-    });
-</script>
+
 <script>
     $(document).ready(function() {
         $(".postitem-post-title, .postitem-description, .postitem222222 .ad-price, .code, .postitem-price, .postitem-postlocation").dotdotdot({

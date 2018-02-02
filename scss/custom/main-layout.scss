@@ -1,0 +1,32 @@
+@include media-breakpoint-up(xs) {
+	.main-content {
+		.main-content-section {
+			padding-bottom: 60px;
+		}
+	}
+	.main-content.hidden {
+		display:none;
+	}
+}
+
+@include media-breakpoint-up(md) {
+	.main-content {
+		.main-content-section {
+			padding-bottom: 0px;
+		}
+	}
+	.main-content.hidden {
+		display:inherit;
+	}
+}
+
+.pt-3 {
+    padding-top: 1rem !important;
+}
+
+@include media-breakpoint-down(xs) {
+	#custom-header {
+		display: none;
+	}
+}
+
