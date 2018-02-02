@@ -6980,6 +6980,12 @@ ul li, ol li {
   color: #f7f7f7;
   -webkit-font-smoothing: antialiased; }
 
+.input-group .form-control {
+  padding: .5rem; }
+.input-group .input-group-append .btn {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px; }
+
 .fixElement {
   position: fixed;
   top: 0;

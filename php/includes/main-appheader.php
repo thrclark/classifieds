@@ -7,22 +7,52 @@
             <div class="col-auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"/> </div>
             
             <!--App Title-->
-            <div class="col col-lg-auto rbt-brand-title-container">
-                <h1 class="rbt-brand-title">Classifieds </h1>
+            <div class="col col-md-auto rbt-brand-title-container">
+                <h1 class="rbt-brand-title"><strong>Classifieds</strong> </h1>
             </div>
-            <div class="col">
+            <div class="col d-none d-md-block">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <label for="mainSearch" class="sr-only">
+                        <message>Search classifieds</message>
+                    </label>
+                    <input type="text" class="form-control" placeholder="" aria-label="Search" aria-describedby="search" id="mainSearch">
                     <div class="input-group-append">
-                        <button class="btn btn-primary" type="button">Button</button>
+                        <button class="btn btn-primary" type="button"><i aria-hidden="true" class="fa fa-search"></i>
+                       <span class="d-none d-lg-inline"> <message>Search</message></span>
+                        </button>
                     </div>
                 </div>
             </div>
+            <div class="col-auto d-none d-md-block"> <a href="main-postad.php" class="btn btn-outline-primary">
+                <message>Post Ad</message>
+                </a></div>
+                
+                
+                 <div class="col-auto user-ads d-md-none text-right">
+                <button class="menu-trigger" type="button"> <i aria-hidden="true" class="fa fa-ellipsis-v"></i> <i class="sr-only">
+                <message key="global.button.openNavigation">Open User Menu</message>
+                </i> </button>
+            </div>
+            
+            
+            
         </div>
     </div>
 </header>
 <br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
