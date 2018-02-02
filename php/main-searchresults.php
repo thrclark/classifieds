@@ -28,7 +28,7 @@ $page_title = 'search_results';
                 <div class="col-xs-12 col-md-9 main-content-section" role="main">
                     <div class="row align-items-center section-head">
                         <div class="col-auto section-head-title">
-                            <h2 class="">Search Results: 'iPhone' </h2>
+                            <h2 class="h4">Results for 'iPhone' </h2>
                         </div>
                         <div class="col-12">
                             <?php include('includes/main-section-utilities.php') ?>

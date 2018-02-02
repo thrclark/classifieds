@@ -17,11 +17,13 @@ $page_title = 'cat_all';
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xs-12 col-md-8">
-                    <section id="policy" class="mb-5">
-                        <h2 class="h3">
-                            <message>Ad Policy</message>
+                    <section id="policy" class="mb-5 pb-3">
+                        <h2 class="h4">
+                            <message>Post Ad</message>
                         </h2>
                         <hr>
+                       
+                        <p><strong>Ad Policy</strong></p>
                         <p>The IU Classifieds contain items of interest to the Indiana University community. Please remember that the use of the University's computer network for these messages is a privilege extended to students and employees for personal, non-commercial use. University resources are not allowed to be used for the promotion of commercial or personal businesses. In addition, the use of IU Classifieds to promote or provide pornographic materials or sexual services is strictly prohibited.  The buying or selling of IU parking permits is prohibited as parking permits are the property of the university. The terms of any transactions are between the buyer and seller. Classifieds may contain office telephone numbers; however, it is the shared responsibility of supervisors and employees to assure that this privilege is not abused. Honor all copyrights when posting images or text in the Classifieds.</p>
                         <p>Any housing postings must follow Federal and State laws. Please read <a href="http://www.craigslist.org/about/FHA" target="_blank">Fair Housing laws.</a> </p>
                         <p>By using this site, you agree to abide by Indiana Universitys "Appropriate Technology Use" Policies as outlined by the <a href="http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml" target="_blank"> Information Policy Office </a> and to use the Classifieds appropriately. These pages are not intended for solicitation, political purposes and publishing opinions, nor are they to be used to make jokes or mislead others. The University reserves the right to remove any posting that it deems inappropriate.</p>
@@ -32,8 +34,8 @@ $page_title = 'cat_all';
                             <button class="btn btn-primary" id="acceptPolicy">Accept</button>
                         </div>
                     </section>
-                    <section id="postform" style="display:none" class="mb-5">
-                        <h2 class="h3">
+                    <section id="postform" style="display:none" class="mb-5 pb-3">
+                        <h2 class="h4">
                             <message key="main.header.ad" ng-reflect-key="main.header.ad">Post Ad</message>
                         </h2>
                         <hr>
