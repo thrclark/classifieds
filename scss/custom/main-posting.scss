@@ -5,17 +5,21 @@
 }
 .postitem {
 	@include make-col-ready();
-	.postitem-watchlist{
+	.postitem-functions{
 		position: absolute;
 		z-index: 1;
-		.watchlist-set {
+		.postitem-functions-set {
 			background: transparent;
 			padding-left: 4px;
 			padding-right: 4px;
 			padding-bottom: 1px;		
 			.btn-link {
 				padding: 0px;
-				margin-top: -3px;
+				color: $gray-600;
+				margin-top: 0px;
+				background: $white;
+				width: 24px;
+				height: 24px;
 			}
 		}
 	}
@@ -78,7 +82,7 @@
 	
 	@include media-breakpoint-down(xs) {
 		@include make-col(12);
-		.postitem-watchlist{
+		.postitem-functions{
 			right: 16px;
 			top: 3px;
 		}
@@ -145,11 +149,11 @@
 .postitem.grid {
 	@include media-breakpoint-up(sm) {
 		@include make-col(6);
-		.postitem-watchlist{
-			right: 26px;
+		.postitem-functions{
+			right: 24px;
 			top: 11px;
-			.watchlist-set {
-				background: $white;
+			.postitem-functions-set {
+				//background: $white;
 			}
 		}
 		.postitem-container {
@@ -161,6 +165,7 @@
 				.post-image {
 					background-repeat: no-repeat;
 					background-position: center;
+					background-size: 235px auto;
 					min-height: 150px;
 					margin-bottom: 5px;
 					height:50px;
@@ -228,8 +233,8 @@
 .postitem.thumb {
 	@include media-breakpoint-up(sm) {
 		@include make-col(12);
-		.postitem-watchlist{
-			right: 21px;
+		.postitem-functions{
+			right: 15px;
 			top: 5px;
 		}
 		.postitem-container {
@@ -238,6 +243,7 @@
 				.post-image {
 					background-repeat: no-repeat;
 					background-position: center;
+					background-size: 140px auto;
 					position: relative;
 				}
 				.post-image.none i {
@@ -318,7 +324,7 @@
 			.postitem-image-container{
 				@include make-col(2);
 			}
-			.postitem-watchlist{
+			.postitem-functions{
 				right: 11px;
 			}
 //			.postitem-newbanner{
@@ -380,9 +386,9 @@
 .postitem.list {
 	@include media-breakpoint-up(sm) {
 		@include make-col(12);
-		.postitem-watchlist{
+		.postitem-functions{
 			right: 18px;
-			top: 4px;
+			top: 2px;
 		}
 		.postitem-container {
 			margin-bottom: 0px;

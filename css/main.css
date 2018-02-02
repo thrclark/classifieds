@@ -6499,7 +6499,9 @@ a.text-dark:focus, a.text-dark:hover {
 
 .app-header {
   background: #ffffff;
-  z-index: 10; }
+  z-index: 10 !important;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
   .app-header .container .row .brand img {
     width: auto;
     height: 42px; }
@@ -6660,9 +6662,6 @@ a.text-dark:focus, a.text-dark:hover {
   .footer-menu .btn-link {
     color: #ffffff; }
 
-.footer-menu .btn .footer-menu-label {
-  font-size: 12px; }
-
 .nav-side-menu {
   background-color: #fff;
   font-size: 0.875rem; }
@@ -6762,17 +6761,7 @@ a.text-dark:focus, a.text-dark:hover {
     transform: scaleY(1); }
 
 .mobile-panel {
-  background: #ededed;
-  position: absolute;
-  width: 100%;
-  padding-top: 0;
-  padding-bottom: 0;
-  height: 0;
-  z-index: 5; }
-  .mobile-panel .container {
-    transform: scaleY(0);
-    transform-origin: bottom;
-    transition: transform 0.26s ease; }
+  background: #ededed; }
   .mobile-panel .mobile-panel-header {
     text-align: center;
     margin-bottom: 20px; }
@@ -6788,6 +6777,7 @@ a.text-dark:focus, a.text-dark:hover {
       width: 110px;
       height: 110px;
       text-align: center;
+      -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
     .mobile-panel .category-card .category-title {
       text-align: center;
@@ -6816,17 +6806,21 @@ a.text-dark:focus, a.text-dark:hover {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px; }
-  .postitem .postitem-watchlist {
+  .postitem .postitem-functions {
     position: absolute;
     z-index: 1; }
-    .postitem .postitem-watchlist .watchlist-set {
+    .postitem .postitem-functions .postitem-functions-set {
       background: transparent;
       padding-left: 4px;
       padding-right: 4px;
       padding-bottom: 1px; }
-      .postitem .postitem-watchlist .watchlist-set .btn-link {
+      .postitem .postitem-functions .postitem-functions-set .btn-link {
         padding: 0px;
-        margin-top: -3px; }
+        color: #868e96;
+        margin-top: 0px;
+        background: #fff;
+        width: 24px;
+        height: 24px; }
   .postitem .postitem-container {
     display: block;
     color: #212529;
@@ -6882,7 +6876,7 @@ a.text-dark:focus, a.text-dark:hover {
     .postitem {
       flex: 0 0 100%;
       max-width: 100%; }
-      .postitem .postitem-watchlist {
+      .postitem .postitem-functions {
         right: 16px;
         top: 3px; }
       .postitem .postitem-container {
@@ -6932,11 +6926,9 @@ a.text-dark:focus, a.text-dark:hover {
   .postitem.grid {
     flex: 0 0 50%;
     max-width: 50%; }
-    .postitem.grid .postitem-watchlist {
-      right: 26px;
+    .postitem.grid .postitem-functions {
+      right: 24px;
       top: 11px; }
-      .postitem.grid .postitem-watchlist .watchlist-set {
-        background: #fff; }
     .postitem.grid .postitem-container {
       padding: 10px;
       padding-bottom: 3px;
@@ -6947,6 +6939,7 @@ a.text-dark:focus, a.text-dark:hover {
         .postitem.grid .postitem-container .postitem-image-container .post-image {
           background-repeat: no-repeat;
           background-position: center;
+          background-size: 235px auto;
           min-height: 150px;
           margin-bottom: 5px;
           height: 50px; }
@@ -6999,8 +6992,8 @@ a.text-dark:focus, a.text-dark:hover {
   .postitem.thumb {
     flex: 0 0 100%;
     max-width: 100%; }
-    .postitem.thumb .postitem-watchlist {
-      right: 21px;
+    .postitem.thumb .postitem-functions {
+      right: 15px;
       top: 5px; }
     .postitem.thumb .postitem-container .postitem-image-container {
       flex: 0 0 16.66667%;
@@ -7008,6 +7001,7 @@ a.text-dark:focus, a.text-dark:hover {
       .postitem.thumb .postitem-container .postitem-image-container .post-image {
         background-repeat: no-repeat;
         background-position: center;
+        background-size: 140px auto;
         position: relative; }
       .postitem.thumb .postitem-container .postitem-image-container .post-image.none i {
         font-size: 2.5rem;
@@ -7066,7 +7060,7 @@ a.text-dark:focus, a.text-dark:hover {
     .postitem.thumb .postitem-container .postitem-image-container {
       flex: 0 0 16.66667%;
       max-width: 16.66667%; }
-    .postitem.thumb .postitem-container .postitem-watchlist {
+    .postitem.thumb .postitem-container .postitem-functions {
       right: 11px; }
     .postitem.thumb .postitem-container .postitem-price {
       left: 124px;
@@ -7096,9 +7090,9 @@ a.text-dark:focus, a.text-dark:hover {
   .postitem.list {
     flex: 0 0 100%;
     max-width: 100%; }
-    .postitem.list .postitem-watchlist {
+    .postitem.list .postitem-functions {
       right: 18px;
-      top: 4px; }
+      top: 2px; }
     .postitem.list .postitem-container {
       margin-bottom: 0px; }
       .postitem.list .postitem-container .postitem-image-container {
@@ -7139,7 +7133,6 @@ a.text-dark:focus, a.text-dark:hover {
   font-size: 16px; }
 
 .fa.fa-star-o {
-  color: #868e96;
   font-size: 16px; }
 
 .btn-sm .fa.fa-star, .btn-group-sm > .btn .fa.fa-star {
@@ -7310,7 +7303,6 @@ ccf-image-slider {
   font-size: 16px; }
 
 .fa.fa-star-o {
-  color: #868e96;
   font-size: 16px; }
 
 .btn-sm .fa.fa-star, .btn-group-sm > .btn .fa.fa-star {
@@ -7456,5 +7448,28 @@ div.main-view {
   font-style: italic;
   padding-top: 20px;
   background-color: #ededed; }
+
+.mobile-panel.search .search-container {
+  border: solid 1px #343a40;
+  padding: 3px;
+  border-radius: 50px;
+  background: #ffffff; }
+  .mobile-panel.search .search-container .clear-field .cleartext {
+    right: -5px; }
+  .mobile-panel.search .search-container .search-button .btn.btn-dark {
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: .4rem; }
+    .mobile-panel.search .search-container .search-button .btn.btn-dark .search-label {
+      font-variant: all-petite-caps;
+      letter-spacing: 1px;
+      font-size: 18px; }
+  .mobile-panel.search .search-container .search-input {
+    border: none;
+    background: transparent; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,8 +1,8 @@
 
 <div class="row">
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -24,8 +24,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -47,8 +47,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -69,8 +69,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -91,8 +91,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -117,8 +117,8 @@
         <hr>
     </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -140,8 +140,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -162,8 +162,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -184,8 +184,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -206,8 +206,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -228,8 +228,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -250,8 +250,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -272,8 +272,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -294,8 +294,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -316,8 +316,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -338,8 +338,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -360,8 +360,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -382,8 +382,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -404,8 +404,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
@@ -426,8 +426,8 @@
         </div>
         </a> </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
                 <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>

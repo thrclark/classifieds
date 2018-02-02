@@ -14,9 +14,9 @@ $page_title = 'cat_all';
 <div id="main">
     <?php include('includes/all-customheader.php') ?>
     <?php include('includes/main-appheader.php') ?>
-    <?php include('includes/main-mobilepanel-search.php') ?>
-    <?php include('includes/main-mobilepanel-post.php') ?>
-    <?php include('includes/main-mobilepanel-categories.php') ?>
+    
+   
+    
     <section class="main-content pt-3" role="main">
         <div class="container">
             <div class="row">

@@ -1,8 +1,8 @@
 
 <div class="row">
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star"></i> <span class="sr-only">Add to watchlist</span></button>
             </div>
         </div>
@@ -22,8 +22,8 @@
         </a>
     </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star"></i> <span class="sr-only">Add to watchlist</span></button>
             </div>
         </div>
@@ -43,8 +43,8 @@
         </a>
     </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star"></i> <span class="sr-only">Add to watchlist</span></button>
             </div>
         </div>
@@ -64,8 +64,8 @@
         </a>
     </div>
     <div class="postitem grid">
-        <div class="postitem-watchlist">
-            <div class="watchlist-set">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite"> <i aria-hidden="true" class="fa fa-star"></i> <span class="sr-only">Add to watchlist</span></button>
             </div>
         </div>

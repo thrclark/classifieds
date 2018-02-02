@@ -12,8 +12,17 @@
 <script src="../js/bootstrap-maxlength.js"></script>
 <script>
     $(document).ready(function() {
-        $(".app-headerrr").sticky({
+        $(".app-header").sticky({
             topSpacing: 0
+        });
+        var resizeTimer;
+        $(window).on('resize', function(e) {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(function() {
+                $(".app-header").sticky({
+                    topSpacing: 0
+                });
+            }, 250);
         });
     });
 </script>
@@ -30,25 +39,7 @@
         $("#mainsearch").focus();
     });
 </script>
-<script>
-    $(document).ready(function() {
-        $(".toggle_mobilesearch").click(function() {
-            $(".mobile-panel.search").slideToggle();
-            $(".main-content").toggle();
-            $(".mobile-panel.post, .mobile-panel.categories").slideUp();
-        });
-        $(".toggle_mobilepost").click(function() {
-            $(".mobile-panel.post").slideToggle();
-            $(".main-content").toggle();
-            $(".mobile-panel.search, .mobile-panel.categories").slideUp();
-        });
-        $(".toggle_mobilecategories").click(function() {
-            $(".mobile-panel.categories").slideToggle();
-            $(".main-content").toggle();
-            $(".mobile-panel.post, .mobile-panel.search").slideUp();
-        });
-    });
-</script>
+
 <script>
     $(document).ready(function() {
         $(".postitem-post-title, .postitem-description, .postitem222222 .ad-price, .code, .postitem-price, .postitem-postlocation").dotdotdot({

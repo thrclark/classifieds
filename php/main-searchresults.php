@@ -13,9 +13,9 @@ $page_title = 'search_results';
 <?php include('includes/main-mobiledrawer.php') ?>
 <div id="main">
     <?php include('includes/main-appheader.php') ?>
-    <?php include('includes/main-mobilepanel-search.php') ?>
-    <?php include('includes/main-mobilepanel-post.php') ?>
-    <?php include('includes/main-mobilepanel-categories.php') ?>
+    
+   
+    
     <section class="main-content pt-3" role="main">
         <div class="container">
             <div class="row">

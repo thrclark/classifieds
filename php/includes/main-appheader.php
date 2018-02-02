@@ -22,7 +22,7 @@
 							<input class="form-control search-input ng-pristine ng-valid ng-touched" id="mainsearch" type="text">
 						</div>
 						<div class="col-auto search-button text-right">
-							<button class="btn">
+							<button class="btn" onclick="location.href = 'main-searchresults.php';">
 								<i aria-hidden="true" class="fa fa-search"></i>
 								<span class="search-label d-none d-lg-inline"><message key="global.button.search">Search</message></span>
 							</button>
@@ -31,7 +31,7 @@
 				</div>
 			</div>
 			<div class="col-auto post d-none d-md-block">
-				<a class="btn toggle_mobilepost" routerlink="/posting" href="/classifieds/posting"><message key="global.header.button.postAd">Post Ad</message></a>
+				<a class="btn toggle_mobilepost" routerlink="/posting" href="main-postad.php"><message key="global.header.button.postAd">Post Ad</message></a>
 			</div>
 			<div class="col-auto user-ads d-md-none text-right">
 				<button class="menu-trigger" type="button">
