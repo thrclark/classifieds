@@ -1,0 +1,17 @@
+.close {
+
+  text-shadow: none;
+  position: relative;
+  opacity: 1;
+  padding: 0px 0px 0px 0px;
+  margin-right: 10px;
+  margin-top: 10px;;
+  .rbt-icon-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 16px;
+    color: #333;
+  }
+
+}

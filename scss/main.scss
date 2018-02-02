@@ -1,31 +1,35 @@
-@import "custom/variables";
+@import "rbt/rbt-variables";
+
+
 @import "../bower_components/bootstrap/scss/bootstrap.scss";
-@import 'ngx-bootstrap/datepicker/bs-datepicker';
-//@import 'font-awesome/font-awesome';
-@import "custom/all-effects";
 
-@import "custom/main-theme";
-@import "custom/main-app-header";
-@import "custom/main-layout";
-@import "custom/main-useraccess";
-@import "custom/main-footer-menu";
-@import "custom/main-side-nav";
-@import "custom/main-mobile-nav";
-@import "custom/main-posting";
-@import "custom/main-favoriting";
-@import "custom/main-section-header";
-@import "custom/all-pagination";
-@import "custom/main-post-details";
-@import "custom/main-image-slider";
-@import "custom/main-useroptions";
-@import "custom/main-favoriting";
 
-@import "custom/layout";
-@import "custom/counter";
-@import "custom/forms";
-@import "custom/alerts";
-@import "custom/all-image-upload";
-@import "custom/all-nav";
-@import "custom/main-m-search";
+
+
+
+@import "rbt/rbt-alerts.scss";
+@import "rbt/rbt-badges.scss";
+@import "rbt/rbt-breadcrumbs.scss";
+@import "rbt/rbt-buttons.scss";
+@import "rbt/rbt-closebutton.scss";
+@import "rbt/rbt-custom-fonts.scss";
+@import "rbt/rbt-demostyles.scss";
+@import "rbt/rbt-drawer.scss";
+@import "rbt/rbt-dropdown.scss";
+@import "rbt/rbt-fonts.scss";
+@import "rbt/rbt-footer.scss";
+@import "rbt/rbt-forms.scss";
+@import "rbt/rbt-header.scss";
+@import "rbt/rbt-lists.scss";
+@import "rbt/rbt-modal.scss";
+@import "rbt/rbt-pagination.scss";
+@import "rbt/rbt-panels.scss";
+@import "rbt/rbt-tables.scss";
+@import "rbt/rbt-typescale.scss";
+@import "rbt/rbt-userprofile.scss";
+
+
+@import "rbt/all-app-header";
+
 
 @import "../bower_components/bootstrap/scss/mixins/text-truncate";

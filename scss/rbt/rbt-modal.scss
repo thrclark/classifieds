@@ -1,0 +1,19 @@
+.modal-content {
+  .modal-header {
+    margin-bottom: 1rem;
+    .modal-title {
+      font-weight: bold;
+    }
+    .close {
+      .rbt-icon-close {
+        top: -13px;
+        right: -6px;
+      }
+    }
+  }
+
+  .modal-footer{
+    padding: 1rem 1.5rem;
+    background: $gray-50;
+  }
+}

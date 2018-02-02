@@ -1,0 +1,62 @@
+.btn {
+  font-weight: bold;
+  border-width: 2px;
+  //padding: .625rem 1rem;
+  //line-height: 1;
+}
+
+
+//this is hacky...need a better way via bootstrap mixins
+.btn.btn-outline-primary:hover {
+  background: #cce0ea;
+  color: $blue;
+}
+
+
+.btn.btn-outline-success:hover {
+  background-color: #d9eddf;
+  color: $green;
+}
+
+
+.btn.btn-outline-danger:hover {
+  background-color: #fae1d9;
+  border-color: #df3603;
+  color: #df3603;
+}
+
+
+.btn.btn-link:hover {
+  background: #cce0ea;
+}
+
+
+
+.btn.btn-link {
+text-decoration: none;
+}
+
+
+button:disabled, button:disabled:hover, .button:disabled, .button:disabled:hover, .rvt-button:disabled, .rvt-button:disabled:hover {
+  background-color: #eeeeee;
+  color: #666666;
+  border-color: #aaaaaa;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+.btn.disabled, .btn:disabled {
+  opacity: 1;
+}
+
+
+.rbt-button-group {
+  display: flex;
+  > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
+.rbt-button-group-right {
+  justify-content: flex-end;
+}

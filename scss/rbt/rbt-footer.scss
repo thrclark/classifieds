@@ -1,0 +1,46 @@
+.rbt-footer {
+  @extend .rbt-ts-12;
+  //@extend .fixed-bottom;
+  background-color: $gray-50;
+  border-top: 1px solid $gray-100;
+  width: 100%;
+
+  .row {
+    height: 60px;
+    img {
+      width: 24px;
+      height: auto;
+      display: inline;
+      margin-right: 1rem;
+    }
+    p {
+      display: inline;
+    }
+    a {
+      color: #990000;
+      text-decoration: none;
+    }
+    .rbt-footer-aux-links {
+      list-style: none;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: auto;
+      padding: 0;
+      .rbt-footer-aux-item {
+        display: inline-block;
+        &:after {
+          content: "|";
+          color: #999999;
+          margin: 0 0.5rem;
+        }
+        &:last-child:after {
+          content:none;
+          margin: 0 0.5rem;
+        }
+
+      }
+    }
+  }
+
+}
+
