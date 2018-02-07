@@ -32,7 +32,14 @@
 		position: relative;
 		margin-bottom: 10px;
 		text-decoration: none;
-		@include shadow;
+
+		box-shadow: 0 2px 0 #dddddd;
+		border-radius: 4px;
+		&:hover {
+			-webkit-box-shadow: 0px 0px 15px 2px rgba(227,227,227,1);
+			-moz-box-shadow: 0px 0px 15px 2px rgba(227,227,227,1);
+			box-shadow: 0px 0px 15px 2px rgba(227,227,227,1);
+		}
 		.postitem-image-container{
 			.post-image {
 				background-color: $gray-100;
@@ -96,6 +103,7 @@
 				width: 64px;
 				height: 47px;
 				left: 0px;
+
 				.post-image.none i {
 					font-size: 2rem;
 					top: 16px;
@@ -210,9 +218,11 @@
 				-webkit-border-bottom-right-radius: 15px;
 				-moz-border-radius-topright: 15px;
 				-moz-border-radius-bottomright: 15px;
-				border-top-right-radius: 15px;
-				border-bottom-right-radius: 15px;
+				border-top-right-radius: .25rem;
+				border-bottom-right-radius: .25rem;
 				z-index: 5;
+				background: $blue; //temporary
+
 				&:empty {
 					display:none;
 				}
@@ -393,6 +403,13 @@
 		}
 		.postitem-container {
 			margin-bottom: 0px;
+			box-shadow:none;
+			border-radius: 0px;
+			&:hover {
+				-webkit-box-shadow: none;
+				-moz-box-shadow: none;
+				box-shadow: none;
+			}
 			.postitem-image-container{
 				display: none;
 			}

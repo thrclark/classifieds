@@ -3,7 +3,8 @@ $audience = 'main';
 $page_title = 'All ads';
 ?>
 
-<!DOCTYPE <html></html>
+<!DOCTYPE <html>
+</html>
 <html lang="en">
 <head>
 <?php include('includes/all-head-meta.php') ?>
@@ -16,12 +17,10 @@ $page_title = 'All ads';
     <section class="main-content pt-3" role="main">
         <div class="container">
             <div class="row">
-                <div class="col-3 d-none d-md-block">
-                    <div id="siteNav">
-                        <?php include('includes/main-user-options.php') ?>
-                        <hr>
-                        <?php include('includes/main-nav.php') ?>
-                    </div>
+                <div class="col-3 d-none d-md-block nav-section">
+                    <?php include('includes/main-user-options.php') ?>
+                    <hr>
+                    <?php include('includes/main-nav.php') ?>
                 </div>
                 <div class="col-xs-12 col-md-9 main-content-section">
                     <div class="row align-items-center section-head">

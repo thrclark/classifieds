@@ -1,3 +1,6 @@
 body {
 	background: $gray-50;
+	.nav-section {
+		border-right: solid 1px $gray-200;
+	}
 }

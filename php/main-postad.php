@@ -1,6 +1,6 @@
 <?php 
 $audience = 'main';
-$page_title = 'cat_all';
+$page_title = 'Post ad';
 ?>
 
 <!DOCTYPE html>
@@ -18,9 +18,9 @@ $page_title = 'cat_all';
             <div class="row justify-content-center">
                 <div class="col-xs-12 col-md-8">
                     <section id="policy" class="mb-5 pb-3">
-                        <h2 class="h4">
+                        <h1>
                             <message>Post Ad</message>
-                        </h2>
+                        </h1>
                         <hr>
                        
                         <p><strong>Ad Policy</strong></p>
@@ -30,14 +30,14 @@ $page_title = 'cat_all';
                         <p>Questions regarding the IU Classifieds may be addressed to <a href="mailto:one@iu.edu">one@iu.edu</a> </p>
                         <p><strong>Do you accept these terms?</strong></p>
                         <div class="text-left">
-                            <a href="main-home.php" class="btn btn-outline-secondary">Decline</a>
+                            <a href="main-home.php" class="btn btn-outline-primary">Decline</a>
                             <button class="btn btn-primary" id="acceptPolicy">Accept</button>
                         </div>
                     </section>
                     <section id="postform" style="display:none" class="mb-5 pb-3">
-                        <h2 class="h4">
+                        <h1>
                             <message key="main.header.ad" ng-reflect-key="main.header.ad">Post Ad</message>
-                        </h2>
+                        </h1>
                         <hr>
                         <form novalidate ng-reflect-form="[object Object]" class="ng-untouched ng-pristine ng-invalid">
                             <div class="form-row">
@@ -174,10 +174,10 @@ $page_title = 'cat_all';
                                     </div>
                                 </ccf-image-upload>
                             </div>-->
-                            <p class="text-right"> <a class="btn btn-outline-secondary" routerlink="/" ng-reflect-router-link="/" href="main-home.php">
+                            <p class="text-right"> <a class="btn btn-outline-primary" href="main-home.php">
                                 <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Cancel</message>
                                 </a>
-                                <button class="btn btn-primary" type="submit" disabled="">
+                                <button class="btn btn-primary" type="submit">
                                 <message key="main.header.button.postAd" ng-reflect-key="main.header.button.postAd">Post Ad</message>
                                 </button>
                             </p>

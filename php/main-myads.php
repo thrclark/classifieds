@@ -1,6 +1,6 @@
 <?php 
 $audience = 'user';
-$page_title = 'cat_myads';
+$page_title = 'My ads';
 ?>
 
 <!DOCTYPE html>
@@ -19,16 +19,16 @@ $page_title = 'cat_myads';
     <section class="main-content pt-3" role="main">
         <div class="container">
             <div class="row">
-                <div class="col-3 d-none d-md-block">
-                    <div id="siteNav">
-                        <?php include('includes/main-user-options.php') ?>
+                <div class="col-3 d-none d-md-block nav-section">
+                     <?php include('includes/main-user-options.php') ?>
+                        <hr>
                         <?php include('includes/main-nav.php') ?>
-                    </div>
+                    
                 </div>
                 <div class="col-xs-12 col-md-9 main-content-section" role="main">
                     <div class="row align-items-center section-head">
                         <div class="col-auto section-head-title">
-                            <h2 class="h4">My Ads</h2>
+                             <h1 class="mb-1"> <?php echo $page_title; ?></h1>
                         </div>
                         <div class="col-12">
                             <?php include('includes/main-section-utilities.php') ?>
