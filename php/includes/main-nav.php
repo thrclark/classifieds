@@ -1,7 +1,7 @@
 
 <nav class="sidebar px-4 pt-0">
     <ul class="list-unstyled toc">
-        <li <?php if ($page_title == 'cat_all') { echo 'class="active"'; } ?>> <a href="main-home.php">All Ads</a></li>
+        <li <?php if ($page_title == 'All ads') { echo 'class="active"'; } ?>> <a href="main-home.php">All Ads</a></li>
                 <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">Activity Partners</a></li>
                 <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">Announcements</a></li>
                 <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">Antiques &amp; Collectibles</a></li>

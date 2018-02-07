@@ -6830,6 +6830,7 @@ pre[class*="language-"] {
       left: -4px;
       top: 8px; }
   .rbt-app-header .rbt-brand-image-container {
+    padding-left: 0rem;
     padding-right: 0rem; }
     .rbt-app-header .rbt-brand-image-container .rbt-brand-image {
       height: 70px;
@@ -6837,7 +6838,8 @@ pre[class*="language-"] {
   .rbt-app-header .rbt-brand-title-container .rbt-brand-title {
     font-size: 1.4375rem;
     font-weight: normal;
-    margin-bottom: 0rem; }
+    margin-bottom: 0rem;
+    color: #444444; }
   .rbt-app-header .nav .nav-item .nav-link {
     color: #444444;
     padding-left: 0rem;

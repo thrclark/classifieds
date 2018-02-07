@@ -27,7 +27,7 @@
     }
   }
   .rbt-brand-image-container {
-    //padding-left: 0rem;
+    padding-left: 0rem;
     padding-right: 0rem;
 
     .rbt-brand-image {
@@ -40,6 +40,7 @@
       font-size: 1.4375rem;
       font-weight: normal;
       margin-bottom: 0rem;
+      color: $body-color;
     }
   }
   .nav {

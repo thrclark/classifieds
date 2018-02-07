@@ -6,4 +6,4 @@
         <li <?php if ($page_title == 'cat_watchlist') { echo 'class="active"'; } ?>> <a href="main-watchlist.php">Watchlist (4)</a> </li>
     </ul>
 </nav>
-<hr>
+

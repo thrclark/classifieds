@@ -6,15 +6,15 @@
                 <button class="btn btn-link dropdown-toggle" type="button" id="select_geo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="long-name">IU Kokomo</span> <span class="short-name">IUK</span></button>
                 <div class="dropdown-menu" aria-labelledby="select_geo"> <a class="dropdown-item" href="#"> IU Bloomington (IUB)</a> <a class="dropdown-item" href="#"> IUPUI (IUPUI)</a> <a class="dropdown-item" href="#"> IU Kokomo (IUK)</a> <a class="dropdown-item" href="#"> IU Northwest (IUN)</a> <a class="dropdown-item" href="#"> IU South Bend (IUSB)</a> <a class="dropdown-item" href="#"> IU East (IUE)</a> <a class="dropdown-item" href="#"> IU South (IUS)</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">All Campuses</a> </div>
+                    <a class="dropdown-item" href="#">All locations</a> </div>
             </div>
         </div>
         <div class="col-auto">
             <div class="dropdown util-filter">
-                <button class="btn btn-link dropdown-toggle" type="button" id="select_type" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="d-none d-sm-inline">All Ads</span></button>
-                <div class="dropdown-menu" aria-labelledby="select_type"> <a class="dropdown-item" href="#"> For Sale</a> <a class="dropdown-item" href="#"> Seeking</a>
+                <button class="btn btn-link dropdown-toggle" type="button" id="select_type" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="d-none d-sm-inline">All types</span></button>
+                <div class="dropdown-menu" aria-labelledby="select_type"> <a class="dropdown-item" href="#"> For sale</a> <a class="dropdown-item" href="#"> Seeking</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">All Ads</a> </div>
+                    <a class="dropdown-item" href="#">All types</a> </div>
             </div>
         </div>
         <div class="col text-right">
