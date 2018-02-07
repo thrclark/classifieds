@@ -27,7 +27,7 @@
     }
   }
   .rbt-brand-image-container {
-    padding-left: 0rem;
+    //padding-left: 0rem;
     padding-right: 0rem;
 
     .rbt-brand-image {
@@ -68,13 +68,26 @@
     padding-left: 3rem;
 
   }
-  .rbt-mobile-menu {
+  .rbt-drawer-button {
     height: 70px;
     width: 70px;
-    border-left: 1px solid $gray-300;
-    .fa {
-      font-size: 2rem;
-    }
+    border-left: 1px solid $gray-200;
+    &.open {
+      background: $gray-100;
+      .rbt-icon-menu:before {
+        content: "\61";
+      }
 
+    }
+    .btn {
+      height: 70px;
+      width: 70px;
+      font-size: 24px;
+      margin-left: -16px;
+      color: $body-color;
+    }
+    .btn.btn-link:hover {
+      background: none;
+    }
   }
 }

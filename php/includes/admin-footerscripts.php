@@ -10,6 +10,14 @@
 <script src="../js/jscolor.js"></script>
 <script src="../js/jquery.sticky.js"></script>
 <script src="../js/bootstrap-maxlength.js"></script>
+
+<script>
+    $(".rbt-drawer-button").click(function() {
+        $(".rbt-drawer,.rbt-drawer-button").toggleClass("open");
+    });
+</script>
+
+
 <script>
     $(document).ready(function() {
         $(".app-header").sticky({
