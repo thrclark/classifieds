@@ -6711,6 +6711,8 @@ pre[class*="language-"] {
     -o-appearance: none;
     appearance: none;
     padding-right: 2.5rem; }
+  .form-group select.form-control:not([size]):not([multiple]) {
+    height: calc(2.25rem + 4px); }
   .form-group .rbt-select-helper:before {
     position: absolute;
     font-family: FontAwesome;
@@ -6723,6 +6725,9 @@ pre[class*="language-"] {
   .form-group .row .rbt-select-helper:before {
     right: 24px;
     top: 0px; }
+
+.form-control {
+  padding: 0.5rem 1rem; }
 
 .form-check-label {
   padding-left: 0rem;
@@ -7000,8 +7005,6 @@ ul li, ol li {
   color: #f7f7f7;
   -webkit-font-smoothing: antialiased; }
 
-.input-group .form-control {
-  padding: .5rem; }
 .input-group .input-group-append .btn {
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px; }
@@ -7161,6 +7164,8 @@ body {
       text-decoration: none; }
     .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-filter {
       margin-left: 35px; }
+    .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-sort {
+      margin-right: 30px; }
     .main-content .main-content-section .section-head .section-head-utilities .dropdown-toggle::after {
       margin-left: 2px; }
     .main-content .main-content-section .section-head .section-head-utilities .btn.btn-link {

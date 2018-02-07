@@ -18,10 +18,10 @@
             </div>
         </div>
         <div class="col text-right">
-            <div class="hidethis" <?php if ($page_title == 'search_results') { echo 'style=" display:inline-block"'; } ?>> <strong class="d-none d-sm-inline">Sort:</strong>
+            <div class="hidethis" <?php if ($page_title == 'Results for') { echo 'style=" display:inline-block"'; } ?>>
                 <div class="dropdown util-sort">
-                    <button class="btn btn-link dropdown-toggle" type="button" id="select_sort" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-sort d-sm-none" aria-hidden="true"></i> <span class="d-none d-sm-inline">By</span> Date </button>
-                    <div class="dropdown-menu" aria-labelledby="select_sort"> <a class="dropdown-item" href="#">By Relevance</a> <a class="dropdown-item" href="#">By Date</a> </div>
+                    <button class="btn btn-link dropdown-toggle" type="button" id="select_sort" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-sort d-sm-none" aria-hidden="true"></i> By date </button>
+                    <div class="dropdown-menu" aria-labelledby="select_sort"> <a class="dropdown-item" href="#">By relevance</a> <a class="dropdown-item" href="#">By date</a> </div>
                 </div>
             </div>
             <div class="btn-group util-view-switch d-none d-sm-inline" data-toggle="buttons">

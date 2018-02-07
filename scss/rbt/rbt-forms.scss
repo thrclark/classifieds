@@ -22,8 +22,10 @@
     -o-appearance: none;
     appearance: none;
     padding-right: 2.5rem;
-    // background-color: red;
 
+  }
+  select.form-control:not([size]):not([multiple]) {
+    height: calc(2.25rem + 4px);
   }
 
   .rbt-select-helper:before {
@@ -42,11 +44,13 @@
     right: 24px;
     top: 0px;
   }
+
 }
 
-
-
-
+.form-control {
+  //padding: 0.45rem 1rem;
+  padding: 0.5rem 1rem;
+}
 .form-check-label {
   padding-left:0rem;
   margin-bottom: 0;

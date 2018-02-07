@@ -10,7 +10,7 @@ $page_title = 'Post ad';
 <?php include('includes/main-styles.php') ?>
 </head>
 <body>
-<?php include('includes/main-mobiledrawer.php') ?>	
+<?php include('includes/main-mobiledrawer.php') ?>
 <div id="main">
     <?php include('includes/main-appheader.php') ?>
     <section class="main-content pt-3" role="main">
@@ -22,15 +22,13 @@ $page_title = 'Post ad';
                             <message>Post Ad</message>
                         </h1>
                         <hr>
-                       
                         <p><strong>Ad Policy</strong></p>
                         <p>The IU Classifieds contain items of interest to the Indiana University community. Please remember that the use of the University's computer network for these messages is a privilege extended to students and employees for personal, non-commercial use. University resources are not allowed to be used for the promotion of commercial or personal businesses. In addition, the use of IU Classifieds to promote or provide pornographic materials or sexual services is strictly prohibited.  The buying or selling of IU parking permits is prohibited as parking permits are the property of the university. The terms of any transactions are between the buyer and seller. Classifieds may contain office telephone numbers; however, it is the shared responsibility of supervisors and employees to assure that this privilege is not abused. Honor all copyrights when posting images or text in the Classifieds.</p>
                         <p>Any housing postings must follow Federal and State laws. Please read <a href="http://www.craigslist.org/about/FHA" target="_blank">Fair Housing laws.</a> </p>
                         <p>By using this site, you agree to abide by Indiana Universitys "Appropriate Technology Use" Policies as outlined by the <a href="http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml" target="_blank"> Information Policy Office </a> and to use the Classifieds appropriately. These pages are not intended for solicitation, political purposes and publishing opinions, nor are they to be used to make jokes or mislead others. The University reserves the right to remove any posting that it deems inappropriate.</p>
                         <p>Questions regarding the IU Classifieds may be addressed to <a href="mailto:one@iu.edu">one@iu.edu</a> </p>
                         <p><strong>Do you accept these terms?</strong></p>
-                        <div class="text-left">
-                            <a href="main-home.php" class="btn btn-outline-primary">Decline</a>
+                        <div class="text-left"> <a href="main-home.php" class="btn btn-outline-primary">Decline</a>
                             <button class="btn btn-primary" id="acceptPolicy">Accept</button>
                         </div>
                     </section>
@@ -40,7 +38,7 @@ $page_title = 'Post ad';
                         </h1>
                         <hr>
                         <form novalidate ng-reflect-form="[object Object]" class="ng-untouched ng-pristine ng-invalid">
-                            <div class="form-row">
+                            <div class="row">
                                 <div class="col-12">
                                     <div class="form-group form-group-error-main">
                                         <label class="control-label" id="titleLabel">
@@ -52,7 +50,7 @@ $page_title = 'Post ad';
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-row">
+                            <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
                                         <label class="control-label" id="descriptionLabel">
@@ -62,7 +60,7 @@ $page_title = 'Post ad';
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-row">
+                            <div class="row">
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group form-group-error-main">
                                         <label class="control-label" id="contactNameLabel">
@@ -74,16 +72,14 @@ $page_title = 'Post ad';
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-12">
-                                    <div class="form-group form-group-error-main">
-                                        <label class="control-label" id="categoryIdLabel">
+                                    <div class="form-group">
+                                        <label for="textinput-full">
                                             <message key="global.ad.field.category" ng-reflect-key="global.ad.field.category">Category</message>
                                             <span class="subLabel small">
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
-                                            </span> </label>
-                                        <select aria-labelledby="categoryIdLabel" class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="categoryId" ng-reflect-name="categoryId">
-                                            <option value="0: null">
-                                            <message key="global.select.blank" ng-reflect-key="global.select.blank"></message>
-                                            </option>
+                                            </span></label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            
                                             <option value="1000" ng-reflect-value="1000">Vehicles</option>
                                             <option value="1001" ng-reflect-value="1001">Announcements</option>
                                             <option value="1002" ng-reflect-value="1002">Activity Partners</option>
@@ -93,10 +89,10 @@ $page_title = 'Post ad';
                                             <option value="1006" ng-reflect-value="1006">Furniture</option>
                                             <option value="1007" ng-reflect-value="1007">Roommates &amp; Sublets</option>
                                         </select>
-                                    </div>
+                                        <span class="rbt-select-helper"></span> </div>
                                 </div>
                             </div>
-                            <div class="form-row">
+                            <div class="row">
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
                                         <label class="control-label" id="priceLabel">
@@ -106,45 +102,41 @@ $page_title = 'Post ad';
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-12">
-                                    <div class="form-group form-group-error-main">
+                                    <div class="form-group">
                                         <label class="control-label" id="marketIdLabel">Campus</label>
-                                        <select aria-labelledby="marketIdLabel" class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="marketId" ng-reflect-name="marketId">
-                                            <option value="0: null">
-                                            <message key="global.select.blank" ng-reflect-key="global.select.blank"></message>
-                                            </option>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            
                                             <option value="100" ng-reflect-value="100">Bloomington (IUB)</option>
                                             <option value="102" ng-reflect-value="102">Koko,o (IUK)</option>
                                         </select>
-                                    </div>
+                                        <span class="rbt-select-helper"></span> </div>
                                 </div>
                             </div>
-                            <div class="form-row">
+                            <div class="row">
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
                                         <label class="control-label" id="typeLabel">
                                             <message key="global.ad.field.type" ng-reflect-key="global.ad.field.type">Ad Purpose</message>
                                         </label>
-                                        <select aria-labelledby="typeLabel" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="type" ng-reflect-name="type">
-                                            <option value="0: null">
-                                            <message key="global.select.blank" ng-reflect-key="global.select.blank"></message>
-                                            </option>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                           
                                             <option value="NEED" ng-reflect-value="NEED">Seeking</option>
                                             <option value="OFFER" ng-reflect-value="OFFER">For Sale</option>
                                         </select>
-                                    </div>
+                                        <span class="rbt-select-helper"></span> </div>
                                 </div>
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
                                         <label class="control-label" id="expireDateLabel">
                                             <message key="global.ad.field.expireDate" ng-reflect-key="global.ad.field.expireDate">Expiration Date</message>
                                         </label>
-                                      <div class="rbt-fieldicon rbt-fieldicon-right">
-            <input type="text" class="form-control" placeholder="Right icon">
-            <i aria-hidden="true" class="fa fa-calendar"></i> </div>
+                                        <div class="rbt-fieldicon rbt-fieldicon-right">
+                                            <input type="text" class="form-control" placeholder="mm/dd/yyyy">
+                                            <i aria-hidden="true" class="fa fa-calendar"></i> </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-row">
+                            <div class="row">
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
                                         <label class="control-label" id="emailLabel">
@@ -154,7 +146,7 @@ $page_title = 'Post ad';
                                     </div>
                                 </div>
                             </div>
-                           <!-- <div class="form-group">
+                            <!-- <div class="form-group">
                                 <ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                     <div ng-reflect-form="[object Object]" class="ng-untouched ng-pristine ng-invalid">
                                         <div ng-reflect-name="media" class="ng-untouched ng-pristine ng-valid">
@@ -190,7 +182,6 @@ $page_title = 'Post ad';
     <?php include('includes/main-footer-menu.php') ?>
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
-
 <script>
 
     $(document).ready(function() {
@@ -202,11 +193,5 @@ $page_title = 'Post ad';
 
     });
 </script>
-
-
-
-
-
-
 </body>
 </html>

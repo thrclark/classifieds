@@ -17,7 +17,7 @@
                     </label>
                     <input type="text" class="form-control" placeholder="" aria-label="Search" aria-describedby="search" id="mainSearch">
                     <div class="input-group-append">
-                        <button class="btn btn-primary" type="button"><i aria-hidden="true" class="fa fa-search"></i> <span class="d-none d-lg-inline">
+                        <button class="btn btn-primary" type="button" onclick="location.href = 'main-searchresults.php';"><i aria-hidden="true" class="fa fa-search"></i> <span class="d-none d-lg-inline">
                         <message>Search</message>
                         </span> </button>
                     </div>
