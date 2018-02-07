@@ -7006,6 +7006,20 @@ ul li, ol li {
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px; }
 
+.rbt-fieldicon {
+  position: relative; }
+  .rbt-fieldicon .fa {
+    position: absolute;
+    top: 14px; }
+  .rbt-fieldicon.rbt-fieldicon-left .form-control {
+    padding-left: 30px; }
+  .rbt-fieldicon.rbt-fieldicon-left .fa {
+    left: 10px; }
+  .rbt-fieldicon.rbt-fieldicon-right .form-control {
+    padding-right: 30px; }
+  .rbt-fieldicon.rbt-fieldicon-right .fa {
+    right: 10px; }
+
 .rbt-app-header .rbt-brand-image-container {
   padding-left: 0rem; }
 

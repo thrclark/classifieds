@@ -1,0 +1,24 @@
+.rbt-fieldicon {
+  position: relative;
+  .fa {
+    position: absolute;
+    top: 14px;
+  }
+  &.rbt-fieldicon-left {
+    .form-control {
+      padding-left: 30px;
+    }
+    .fa {
+      left: 10px;
+    }
+  }
+  &.rbt-fieldicon-right {
+    .form-control {
+      padding-right: 30px;
+    }
+    .fa {
+      right:10px;
+    }
+  }
+}
+

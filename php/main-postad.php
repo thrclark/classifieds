@@ -138,9 +138,9 @@ $page_title = 'Post ad';
                                         <label class="control-label" id="expireDateLabel">
                                             <message key="global.ad.field.expireDate" ng-reflect-key="global.ad.field.expireDate">Expiration Date</message>
                                         </label>
-                                        <div class="input-group">
-                                            <input aria-describedby="sizing-addon2" aria-labelledby="expireDateLabel" bsdatepicker="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="expireDate" type="text" ng-reflect-min-date="Fri Feb 02 2018 10:22:33 GMT-0" ng-reflect-max-date="Sun Mar 04 2018 10:22:33 GMT-0" ng-reflect-name="expireDate">
-                                            <span class="input-group-addon" id="sizing-addon2"><i aria-hidden="true" class="fa fa-calendar"></i></span> </div>
+                                      <div class="rbt-fieldicon rbt-fieldicon-right">
+            <input type="text" class="form-control" placeholder="Right icon">
+            <i aria-hidden="true" class="fa fa-calendar"></i> </div>
                                     </div>
                                 </div>
                             </div>
