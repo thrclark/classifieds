@@ -1,0 +1,13 @@
+.footer-menu {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	background: #333;
+	z-index: 6;
+	@include shadow;
+	.btn {
+		color: #ffffff;
+		border-width: 0px;
+	}
+}

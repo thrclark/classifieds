@@ -272,7 +272,6 @@ $(document).ready(function(){
 
 <script>
 $(function(){
-    
     $("[data-toggle=popover]").popover({
         html : true,
         content: function() {
@@ -284,11 +283,17 @@ $(function(){
             return $(title).children(".popover-heading").html();
         }
     });
-    
 });
-
-
 </script>
 
-
-
+<script> //page reset for prototype only
+    $(document).ready(function() {
+        $(window).resize(function() {
+            if ($(window).width() > 767) {
+                window.location = "main-home.php";
+            } else {
+                
+            }
+        });
+    });
+</script>

@@ -10,7 +10,7 @@ $page_title = 'Post ad';
 <?php include('includes/main-styles.php') ?>
 </head>
 <body>
-<?php include('includes/main-mobiledrawer.php') ?>
+
 <div id="main">
     <?php include('includes/main-appheader.php') ?>
     <section class="main-content pt-3" role="main">
@@ -142,7 +142,7 @@ $page_title = 'Post ad';
                                         <label class="control-label" id="emailLabel">
                                             <message key="global.ad.field.email" ng-reflect-key="global.ad.field.email">Email</message>
                                         </label>
-                                        <input aria-labelledby="emailLabel" class="form-control" disabled="disabled">
+                                        <input aria-labelledby="emailLabel" class="form-control" value="thrclark@iu.edu" disabled="disabled">
                                     </div>
                                 </div>
                             </div>

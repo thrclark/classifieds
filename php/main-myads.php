@@ -10,7 +10,7 @@ $page_title = 'My ads';
 <?php include('includes/main-styles.php') ?>
 </head>	
 <body>
-<?php include('includes/main-mobiledrawer.php') ?>
+
 <div id="main">
     <?php include('includes/main-appheader.php') ?>
     
@@ -27,7 +27,7 @@ $page_title = 'My ads';
                 </div>
                 <div class="col-xs-12 col-md-9 main-content-section" role="main">
                     <div class="row align-items-center section-head">
-                        <div class="col-auto section-head-title">
+                        <div class="col-12 section-head-title">
                              <h1 class="mb-1"> <?php echo $page_title; ?></h1>
                         </div>
                         <div class="col-12">
@@ -39,7 +39,7 @@ $page_title = 'My ads';
             </div>
         </div>
         <?php include('modals/modal-main-ad-detail.php') ?>
-        <?php include('modals/modal-policy.php') ?>
+        
     </section>
     <?php include('includes/main-footer-menu.php') ?>
 </div>
