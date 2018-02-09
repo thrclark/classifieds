@@ -1,3 +1,6 @@
+.faded {
+  opacity: .6; }
+
 /*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -6227,9 +6230,6 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
-.faded {
-  opacity: .6; }
-
 .alert {
   border: none;
   border-left: 0.25rem solid; }
@@ -6876,13 +6876,16 @@ pre[class*="language-"] {
 ul li, ol li {
   line-height: 2; }
 
-.modal-content .modal-header .modal-title {
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: 1; }
-.modal-content .modal-header .close .rbt-icon-close {
-  top: -13px;
-  right: -6px; }
+.modal-content .modal-header {
+  wmargin-bottom: 1rem;
+  padding: 1.5rem 1rem; }
+  .modal-content .modal-header .modal-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1; }
+  .modal-content .modal-header .close .rbt-icon-close {
+    top: -13px;
+    right: -6px; }
 .modal-content .modal-footer {
   padding: 1rem 1.5rem;
   background: #fafafa; }
