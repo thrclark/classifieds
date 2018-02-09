@@ -6877,7 +6877,7 @@ ul li, ol li {
   line-height: 2; }
 
 .modal-content .modal-header {
-  wmargin-bottom: 1rem;
+  margin-bottom: 1rem;
   padding: 1.5rem 1rem; }
   .modal-content .modal-header .modal-title {
     font-size: 1.25rem;
@@ -7026,6 +7026,16 @@ ul li, ol li {
     padding-right: 30px; }
   .rbt-fieldicon.rbt-fieldicon-right .fa {
     right: 10px; }
+
+.rbt-drawer {
+  z-index: 3; }
+
+.rbt-app-header {
+  z-index: 10 !important; }
+
+.is-sticky .rbt-app-header {
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
 
 .rbt-app-header .rbt-brand-image-container {
   padding-left: 0rem; }
@@ -7633,15 +7643,5 @@ body {
         padding-right: 30px; } }
 .postitem.list:last-child {
   margin-bottom: 20px; }
-
-.rbt-drawer {
-  z-index: 3; }
-
-.rbt-app-header {
-  z-index: 10 !important; }
-
-.is-sticky .rbt-app-header {
-  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
 
 /*# sourceMappingURL=main.css.map */

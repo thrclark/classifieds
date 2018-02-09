@@ -1,7 +1,14 @@
+
+// load custom variables & mixins
 @import "rbt/rbt-variables";
 @import "rbt/all-effects";
 
+
+// import core Bootstrap
 @import "../bower_components/bootstrap/scss/bootstrap.scss";
+
+
+// import core Ribet
 @import "rbt/rbt-alerts.scss";
 @import "rbt/rbt-badges.scss";
 @import "rbt/rbt-breadcrumbs.scss";
@@ -24,16 +31,17 @@
 @import "rbt/rbt-userprofile.scss";
 @import "rbt/rbt-extra-inputgroup";
 @import "rbt/rbt-extra-field-icon";
+
+
+// import Classifieds specific styles
+@import "rbt/all-rbt-override";
 @import "rbt/all-app-header";
 @import "rbt/all-modals";
 @import "rbt/main-footer-menu";
 @import "rbt/main-mobile-nav";
-@import "rbt/main-image-slider";
+@import "rbt/main-image-slider";  
 @import "rbt/all-nav";
 @import "rbt/all-layout";
 @import "rbt/all-favoriting";
 @import "rbt/all-section-header";
 @import "rbt/all-posting";
-@import "rbt/all-rbt-override";
-
-@import "../bower_components/bootstrap/scss/mixins/text-truncate";
