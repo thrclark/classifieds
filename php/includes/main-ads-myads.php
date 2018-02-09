@@ -1,8 +1,14 @@
 <div class="row">
-    <div class="col-12 text-center other-ads">
-        <div class="other-ads-content">My current ads</div>
-        <hr>
+  
+    
+    
+    
+      <div class="col-12 my-3">
+        <h2>My current ads</h2>
     </div>
+    
+    
+    
     <div class="postitem grid">
         <div class="postitem-functions">
            <div class="postitem-functions-set">
@@ -60,10 +66,17 @@
             <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
         </div>
         </a> </div>
-    <div class="col-12 text-center other-ads">
-        <div class="other-ads-content">My inactive ads</div>
-        <hr>
+        
+        
+    
+    
+      <div class="col-12 my-3">
+        <h2>My inactive ads</h2>
     </div>
+    
+    
+        
+        
     <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
         <div class="overlay"></div>
         <div class="postitem-row">

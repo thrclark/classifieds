@@ -20,15 +20,15 @@
 
 <script>
     $(document).ready(function() {
-        $(".app-header").sticky({
+        $(".rbt-app-header").sticky({
             topSpacing: 0
         });
         var resizeTimer;
         $(window).on('resize', function(e) {
             clearTimeout(resizeTimer);
             resizeTimer = setTimeout(function() {
-                $(".app-header").sticky({
-                    topSpacing: 0
+                $(".rbt-app-header").sticky({
+                    topSpacing: 0	
                 });
             }, 250);
         });
@@ -169,9 +169,9 @@
         $(".favorite").click(function() {
             $(this).children(".fa").toggleClass("fa-star-o");
             $(this).children(".fa").toggleClass("fa-star");
-            $(this).children("span").text(function(i, v) {
-                return v === 'Add to Watchlist' ? 'Remove from Watchlist' : 'Add to Watchlist'
-            })
+            //$(this).children("span").text(function(i, v) {
+                //return v === 'Add to watchlist' ? 'Remove from watchlist' : 'Add to watchlist'
+            //})
         })
     });
 </script>
@@ -288,7 +288,7 @@ $(function(){
 
 <script> //page reset for prototype only
     $(document).ready(function() {
-        $(window).resize(function() {
+        $(window).resizeee(function() {
             if ($(window).width() > 767) {
                 window.location = "main-home.php";
             } else {
