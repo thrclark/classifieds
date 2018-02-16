@@ -23,14 +23,13 @@ ccf-image-slider {
 	}
 
 	.controls {
-		height: 50px;
 		position: absolute;
-		bottom: 20px;
-		left: 20px;
+		bottom: 5px;
+		left: 5px;
 		
 		button {
-			margin: 0 5px;
-			background-color: #fff;
+			margin: 0px;
+			background-color:$white;
 		}
 	}
 }

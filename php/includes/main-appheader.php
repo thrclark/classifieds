@@ -7,9 +7,7 @@
             <div class="col-auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"/> </div>
             
             <!--App Title-->
-            <div class="col col-md-auto rbt-brand-title-container">
-                <span class="rbt-header-title"> <a  href="main-home.php"class="rbt-brand-title"><strong>Classifieds</strong> </a></span>
-            </div>
+            <div class="col col-md-auto rbt-brand-title-container"> <span class="rbt-header-title"> <a  href="main-home.php"class="rbt-brand-title"><strong>Classifieds</strong> </a></span> </div>
             <div class="col d-none d-md-block">
                 <div class="input-group">
                     <label for="mainSearch" class="sr-only">
