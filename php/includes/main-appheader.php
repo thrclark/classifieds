@@ -9,10 +9,10 @@
             <!--App Title-->
             <div class="col col-md-auto rbt-brand-title-container"> <span class="rbt-header-title"> <a  href="main-home.php"class="rbt-brand-title"><strong>Classifieds</strong> </a></span> </div>
             <div class="col d-none d-md-block">
+                <label for="mainSearch" class="sr-only">
+                    <message>Search classifieds</message>
+                </label>
                 <div class="input-group">
-                    <label for="mainSearch" class="sr-only">
-                        <message>Search classifieds</message>
-                    </label>
                     <input type="text" class="form-control" placeholder="" aria-label="Search" aria-describedby="search" id="mainSearch">
                     <div class="input-group-append">
                         <button class="btn btn-primary" type="button" onclick="location.href = 'main-searchresults.php';"><i aria-hidden="true" class="fa fa-search"></i> <span class="d-none d-lg-inline">

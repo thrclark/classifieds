@@ -7344,6 +7344,8 @@ body {
           color: #fff; }
           .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm.active .fa:hover, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn.active .fa:hover {
             color: #006298; }
+        .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm input, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn input {
+          display: none; }
     .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .btn.btn-link .long-name {
       display: none; }
     .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .btn.btn-link .short-name {
