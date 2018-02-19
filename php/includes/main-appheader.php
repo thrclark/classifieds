@@ -39,10 +39,10 @@
 <div class="rbt-drawer">
     <nav>
         <ul class="list-group mt-3">
-            <li class="list-group-item">My ads (1)</li>
-            <li class="list-group-item">My watchlist (4)</li>
-            <li class="list-group-item">Ads policy</li>
-            <li class="list-group-item">Admin</li>
+            <li class="list-group-item"><a href="main-myads.php">My ads (1)</a></li>
+            <li class="list-group-item"><a href="main-watchlist.php">My watchlist (4)</a></li>
+            <li class="list-group-item"><a href="">Ads policy</a></li>
+            <li class="list-group-item"><a href="admin-userads.php">Admin</a></li>
         </ul>
     </nav>
 </div>

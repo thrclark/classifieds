@@ -1,6 +1,6 @@
 
 <nav class="sidebar">
-      <ul class="rbt-sidebar-nav">
+    <ul class="rbt-sidebar-nav">
         <li <?php if ($page_title == 'All ads') { echo 'class="active"'; } ?>> <a href="main-home.php">All Ads</a></li>
         <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">Activity Partners</a></li>
         <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">Announcements</a></li>
@@ -19,4 +19,8 @@
     </ul>
 </nav>
 <hr>
-<div class="mb-3 font-italic"> <a href="#">Policy</a></div>
+<nav class="sidebar">
+    <ul class="rbt-sidebar-nav font-italic">
+        <li> <a href="#">Policy</a></li>
+    </ul>
+</nav>
