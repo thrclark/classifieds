@@ -376,7 +376,7 @@ mark,
   padding: 0.2em;
   background-color: #fcf8e3; }
 
-.list-unstyled {
+.list-unstyled, .rbt-sidebar-nav {
   padding-left: 0;
   list-style: none; }
 
@@ -6900,13 +6900,14 @@ button:disabled, button:disabled:hover, .button:disabled, .button:disabled:hover
     padding-left: 0rem;
     padding-right: 0rem; }
     .rbt-app-header .rbt-brand-image-container .rbt-brand-image {
-      height: 70px;
+      height: 48px;
       width: auto; }
   .rbt-app-header .rbt-brand-title-container .rbt-brand-title {
-    font-size: 1.4375rem;
     font-weight: normal;
     margin-bottom: 0rem;
-    color: #444444; }
+    color: #444444;
+    font-size: 1.125rem;
+    margin-left: -.5rem; }
   .rbt-app-header .nav .nav-item .nav-link {
     color: #444444;
     padding-left: 0rem;
@@ -6919,22 +6920,35 @@ button:disabled, button:disabled:hover, .button:disabled, .button:disabled:hover
   .rbt-app-header .rbt-user-info {
     padding-left: 3rem; }
   .rbt-app-header .rbt-drawer-button {
-    height: 70px;
-    width: 70px;
+    height: 48px;
+    width: 48px;
     border-left: 1px solid #dddddd; }
     .rbt-app-header .rbt-drawer-button.open {
       background: #eeeeee; }
       .rbt-app-header .rbt-drawer-button.open .rbt-icon-menu:before {
         content: "\61"; }
     .rbt-app-header .rbt-drawer-button .btn {
-      height: 70px;
-      width: 70px;
-      font-size: 24px;
+      height: 48px;
+      width: 48px;
+      font-size: 16px;
       margin-left: -16px;
       color: #444444; }
     .rbt-app-header .rbt-drawer-button .btn.btn-link:hover {
       background: none; }
 
+@media (min-width: 576px) {
+  .rbt-app-header .rbt-brand-image-container .rbt-brand-image {
+    height: 70px; }
+  .rbt-app-header .rbt-brand-title-container .rbt-brand-title {
+    font-size: 1.4375rem;
+    margin-left: inherit; }
+  .rbt-app-header .rbt-drawer-button {
+    height: 70px;
+    width: 70px; }
+    .rbt-app-header .rbt-drawer-button .btn {
+      height: 70px;
+      width: 70px;
+      font-size: 24px; } }
 ul li, ol li {
   line-height: 2; }
 
@@ -6946,8 +6960,8 @@ ul li, ol li {
     font-weight: 700;
     line-height: 1; }
   .modal-content .modal-header .close .rbt-icon-close {
-    top: -13px;
-    right: -6px; }
+    top: 15px;
+    right: 15px; }
 .modal-content .modal-footer {
   padding: 1rem 1.5rem;
   background: #fafafa; }
@@ -7085,6 +7099,443 @@ ul li, ol li {
   border-right-color: #fff;
   padding-right: 0px; }
 
+.rbt-sidebar-nav li {
+  line-height: 1.75; }
+  .rbt-sidebar-nav li.active:before {
+    content: "";
+    margin-left: -0.25rem;
+    padding-left: 0.25rem;
+    box-shadow: -2px 0 0 #333333; }
+  .rbt-sidebar-nav li.active a {
+    color: #444444; }
+  .rbt-sidebar-nav li a {
+    text-decoration: none; }
+  .rbt-sidebar-nav li span {
+    color: #666666;
+    display: block;
+    font-size: 0.875rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    letter-spacing: .04rem; }
+  .rbt-sidebar-nav li:first-child span {
+    margin-top: 0rem; }
+
+.rbt-charcount .badge {
+  position: absolute;
+  top: 10px;
+  right: -5px; }
+
+ccf-image-upload {
+  display: block;
+  border: solid 1px #cccccc;
+  background: #fff;
+  border-radius: 0.25rem; }
+  ccf-image-upload image-upload {
+    background: #eeeeee; }
+    ccf-image-upload image-upload .img-ul {
+      border: none !important; }
+      ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button {
+        color: #666666;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid;
+        border-color: #777777;
+        text-transform: none;
+        font-size: inherit;
+        box-shadow: none;
+        display: inline-block;
+        font-weight: normal;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        user-select: none;
+        padding: 0.1rem 0.2rem;
+        font-size: 0.75rem;
+        line-height: 1.5; }
+        ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:focus {
+          color: #eeeeee;
+          background-color: #777777; }
+      ccf-image-upload image-upload .img-ul .img-ul-file-upload div.img-ul-drag-box-msg {
+        color: #666666;
+        font-weight: inherit;
+        padding-top: initial; }
+      ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-clear {
+        display: none !important; }
+  ccf-image-upload .img-preview {
+    padding: 0.5rem !important;
+    min-height: 36px;
+    box-sizing: content-box; }
+    ccf-image-upload .img-preview > div {
+      position: relative;
+      display: inline-block; }
+      ccf-image-upload .img-preview > div + div {
+        margin-left: 10px; }
+      ccf-image-upload .img-preview > div img {
+        max-height: 70px;
+        min-height: 36px;
+        width: auto; }
+      ccf-image-upload .img-preview > div button {
+        line-height: 1;
+        position: absolute;
+        background: #000;
+        top: -5px;
+        right: -7px;
+        border: solid 1px #ffffff;
+        font-size: 10px;
+        padding: 3px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 9px; }
+
+.img-ul[_ngcontent-c0] {
+  --active-color: #3C9;
+  --common-radius: 3px;
+  background-color: #f8f8f8;
+  border-radius: var(--common-radius);
+  border: #d0d0d0 dashed 1px;
+  font-family: sans-serif;
+  position: relative;
+  color: #9b9b9b; }
+
+.img-ul-file-is-over[_ngcontent-c0] {
+  border: var(--active-color) solid; }
+
+.img-ul-hr-inline-group[_ngcontent-c0]:after {
+  clear: both;
+  content: "";
+  display: table; }
+
+.img-ul-file-upload[_ngcontent-c0] {
+  padding: 16px; }
+
+.img-ul-drag-box-msg[_ngcontent-c0] {
+  display: inline-block;
+  font-weight: 600;
+  margin-left: 12px;
+  padding-top: 14px; }
+
+label.img-ul-button[_ngcontent-c0] input[type=file][_ngcontent-c0] {
+  display: none;
+  position: fixed;
+  top: -99999px; }
+
+.img-ul-clear[_ngcontent-c0] {
+  background-color: #FF0000; }
+
+.img-ul-upload[_ngcontent-c0] {
+  background-color: var(--active-color); }
+
+.img-ul-button[_ngcontent-c0] {
+  -moz-box-shadow: 2px 2px 4px 0 rgba(148, 148, 148, 0.6);
+  -webkit-box-shadow: 2px 2px 4px 0 rgba(148, 148, 148, 0.6);
+  box-shadow: 2px 2px 4px 0 rgba(148, 148, 148, 0.6);
+  color: #FFF;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  font-size: 1.25em;
+  font-weight: 500;
+  padding: 10px;
+  text-transform: uppercase; }
+
+.img-ul-button[_ngcontent-c0]:active span[_ngcontent-c0] {
+  display: block;
+  position: relative;
+  top: 1px; }
+
+.img-ul-container[_ngcontent-c0] {
+  background-color: #fdfdfd;
+  padding: 0 10px; }
+
+.img-ul-image[_ngcontent-c0] {
+  background: center center no-repeat;
+  background-size: contain;
+  display: inline-block;
+  float: left;
+  height: 86px;
+  margin: 6px;
+  position: relative;
+  width: 86px; }
+
+.img-ul-x-mark[_ngcontent-c0] {
+  background-color: #000;
+  border-radius: 2px;
+  color: #FFF;
+  cursor: pointer;
+  float: right;
+  height: 20px;
+  margin: 2px;
+  opacity: .7;
+  text-align: center;
+  width: 20px; }
+
+.img-ul-close[_ngcontent-c0] {
+  height: 20px;
+  opacity: .7;
+  padding-right: 3px;
+  position: relative;
+  width: 20px; }
+
+.img-ul-x-mark[_ngcontent-c0]:hover .img-ul-close[_ngcontent-c0] {
+  opacity: 1; }
+
+.img-ul-close[_ngcontent-c0]:before, .img-ul-close[_ngcontent-c0]:after {
+  background-color: #FFF;
+  border-radius: 2px;
+  content: '';
+  height: 15px;
+  position: absolute;
+  top: 0;
+  width: 2px; }
+
+.img-ul-close[_ngcontent-c0]:before {
+  transform: rotate(45deg); }
+
+.img-ul-close[_ngcontent-c0]:after {
+  transform: rotate(-45deg); }
+
+.img-ul-loading-overlay[_ngcontent-c0] {
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  opacity: .7;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.img-ul-spinning-circle[_ngcontent-c0] {
+  height: 30px;
+  width: 30px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0);
+  border-top: 3px solid #FFF;
+  border-right: 3px solid #FFF;
+  -webkit-animation: spinner 2s infinite cubic-bezier(0.085, 0.625, 0.855, 0.36);
+  animation: spinner 2s infinite cubic-bezier(0.085, 0.625, 0.855, 0.36); }
+
+.img-ul-file-too-large[_ngcontent-c0] {
+  color: red;
+  padding: 0 15px; }
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+.bs-datepicker {
+  display: inline-block;
+  vertical-align: top;
+  min-width: 279px;
+  min-height: 250px;
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(84, 112, 139, 0.1);
+  position: relative;
+  z-index: 1; }
+  .bs-datepicker:after {
+    clear: both;
+    content: '';
+    display: block; }
+  .bs-datepicker .bs-datepicker-container {
+    z-index: 3; }
+    .bs-datepicker .bs-datepicker-container button:hover, .bs-datepicker .bs-datepicker-container button:focus, .bs-datepicker .bs-datepicker-container button:active {
+      outline: none; }
+    .bs-datepicker .bs-datepicker-container input:hover, .bs-datepicker .bs-datepicker-container input:focus, .bs-datepicker .bs-datepicker-container input:active {
+      outline: none; }
+    .bs-datepicker .bs-datepicker-container .bs-datepicker-head {
+      min-width: 270px;
+      height: 50px;
+      padding: 10px;
+      border-radius: 3px 3px 0 0;
+      text-align: justify;
+      background-color: #555555; }
+      .bs-datepicker .bs-datepicker-container .bs-datepicker-head:after {
+        content: "";
+        display: inline-block;
+        vertical-align: top;
+        width: 100%; }
+      .bs-datepicker .bs-datepicker-container .bs-datepicker-head button {
+        display: inline-block;
+        vertical-align: top;
+        padding: 0;
+        height: 30px;
+        line-height: 30px;
+        border: 0;
+        background: transparent;
+        text-align: center;
+        cursor: pointer;
+        color: #fff;
+        transition: 0.3s; }
+        .bs-datepicker .bs-datepicker-container .bs-datepicker-head button.next, .bs-datepicker .bs-datepicker-container .bs-datepicker-head button.previous {
+          border-radius: 50%;
+          width: 30px;
+          height: 30px; }
+        .bs-datepicker .bs-datepicker-container .bs-datepicker-head button.next span, .bs-datepicker .bs-datepicker-container .bs-datepicker-head button.previous span {
+          font-size: 28px;
+          line-height: 1;
+          display: inline-block;
+          position: relative;
+          top: -1px; }
+        .bs-datepicker .bs-datepicker-container .bs-datepicker-head button.current {
+          border-radius: 15px;
+          max-width: 155px;
+          padding: 0 13px; }
+      .bs-datepicker .bs-datepicker-container .bs-datepicker-head.years button.current, .bs-datepicker .bs-datepicker-container .bs-datepicker-head.months button.current {
+        width: 155px;
+        padding: 0; }
+      .bs-datepicker .bs-datepicker-container .bs-datepicker-head button:hover, .bs-datepicker .bs-datepicker-container .bs-datepicker-head button.colored:hover:after {
+        background-color: rgba(0, 0, 0, 0.1); }
+    .bs-datepicker .bs-datepicker-container .bs-datepicker-body {
+      padding: 10px;
+      border-radius: 0 0 3px 3px;
+      min-height: 230px;
+      border: 1px solid #e9edf0;
+      /* .bs-datepicker .bs-datepicker-body table */ }
+      .bs-datepicker .bs-datepicker-container .bs-datepicker-body .days.weeks {
+        position: relative;
+        z-index: 1; }
+      .bs-datepicker .bs-datepicker-container .bs-datepicker-body table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        /* .bs-datepicker .bs-datepicker-body table.days */
+        /* .bs-datepicker .bs-datepicker-body table.weeks */ }
+        .bs-datepicker .bs-datepicker-container .bs-datepicker-body table th {
+          font-size: 13px;
+          color: #9aaec1;
+          font-weight: 400;
+          text-align: center; }
+        .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td {
+          color: #006298;
+          text-align: center;
+          position: relative;
+          padding: 0; }
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td.week span {
+            display: none; }
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td span {
+            display: block;
+            margin: 0 auto;
+            font-size: 13px;
+            width: 32px;
+            height: 32px;
+            line-height: 32px;
+            border-radius: 50%;
+            position: relative;
+            /*z-index: 1;*/
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none; }
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td:not(.disabled) span {
+            cursor: pointer; }
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td.is-highlighted:not(.disabled):not(.selected) span {
+            background-color: #e9edf0;
+            transition: 0s; }
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td span.is-highlighted:not(.disabled):not(.selected) {
+            background-color: #e9edf0;
+            transition: 0s; }
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td span.disabled {
+            color: #9aaec1;
+            text-decoration-line: line-through; }
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td.disabled span {
+            color: #9aaec1; }
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td span.selected, .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td.selected span {
+            color: #fff; }
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td.active {
+            position: relative; }
+            .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td.active.select-start:before {
+              left: 35%; }
+            .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td.active.select-end:before {
+              left: -85%; }
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td span.active.select-start:after, .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td span.active.select-end:after {
+            content: "";
+            display: block;
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            transition: 0.3s;
+            top: 0;
+            border-radius: 50%; }
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td.active.select-start span:after, .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td.active.select-end span:after {
+            content: "";
+            display: block;
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            transition: 0.3s;
+            top: 0;
+            border-radius: 50%; }
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td:before, .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td span:before {
+            content: "";
+            display: block;
+            position: absolute;
+            z-index: -1;
+            top: 6px;
+            bottom: 6px;
+            left: -2px;
+            right: -2px;
+            box-sizing: content-box;
+            background: transparent; }
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td.active.select-start + td.active:before {
+            left: -20%; }
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td:last-child.active:before {
+            border-radius: 0 3px 3px 0;
+            width: 125%;
+            left: -25%; }
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td span[class*="select-"], .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td[class*="select-"] span {
+            border-radius: 50%;
+            color: #fff; }
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td span.selected, .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td.selected span,
+          .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td span[class*="select-"]:after, .bs-datepicker .bs-datepicker-container .bs-datepicker-body table td[class*="select-"] span:after {
+            background-color: #555555; }
+        .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.days td.active:not(.select-start):before, .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.days td.in-range:not(.select-start):before {
+          background: #e9edf0; }
+        .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.days span.active:not(.select-start):before, .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.days span.in-range:not(.select-start):before {
+          background: #e9edf0; }
+        .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.days span.select-start {
+          z-index: 2; }
+        .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.days span.is-highlighted.in-range:before, .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.days span.in-range.select-end:before {
+          background: none;
+          right: 0;
+          left: 0; }
+        .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.days td.select-start + td.select-end:before, .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.days td.select-start + td.is-highlighted:before {
+          background: #e9edf0;
+          width: 100%; }
+        .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.days td.active + td.is-highlighted:before, .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.days td.active + td.select-end:before {
+          background: #e9edf0;
+          width: 100%; }
+        .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.days td.in-range + td.is-highlighted:before, .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.days td.in-range + td.select-end:before {
+          background: #e9edf0;
+          width: 100%; }
+        .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.weeks tr td:nth-child(2).active:before {
+          border-radius: 3px 0 0 3px;
+          left: 0;
+          width: 100%; }
+        .bs-datepicker .bs-datepicker-container .bs-datepicker-body table:not(.weeks) tr td:first-child:before {
+          border-radius: 3px 0 0 3px; }
+        .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.months td span, .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.years td span {
+          width: 46px;
+          height: 46px;
+          line-height: 45px;
+          margin: 0 auto; }
+        .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.months tr:not(:last-child) td span, .bs-datepicker .bs-datepicker-container .bs-datepicker-body table.years tr:not(:last-child) td span {
+          margin-bottom: 8px; }
+
 .rbt-drawer {
   z-index: 3; }
 
@@ -7181,111 +7632,6 @@ ccf-image-slider {
     ccf-image-slider .controls button {
       margin: 0px;
       background-color: #fff; }
-
-.nav-side-menu {
-  background-color: #fff;
-  font-size: 0.875rem; }
-  .nav-side-menu .toggle-btn {
-    display: none; }
-  .nav-side-menu .menu-content {
-    border-top: solid 2px #dddddd; }
-    .nav-side-menu .menu-content .menu-items li {
-      background-color: #dddddd;
-      border: none;
-      border-bottom: 1px solid #cccccc;
-      margin-left: 0px;
-      padding-left: 15px;
-      position: relative; }
-      .nav-side-menu .menu-content .menu-items li:hover {
-        background-color: #eeeeee;
-        -webkit-transition: all 1s ease;
-        -moz-transition: all 1s ease;
-        -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-        transition: all 1s ease; }
-      .nav-side-menu .menu-content .menu-items li:before {
-        font-family: FontAwesome;
-        content: "\f105";
-        display: inline-block;
-        position: absolute;
-        left: 5px;
-        top: -5px;
-        vertical-align: middle;
-        color: #dddddd; }
-      .nav-side-menu .menu-content .menu-items li.active button {
-        color: #555555; }
-      .nav-side-menu .menu-content .menu-items li.active:before {
-        color: #777777; }
-      .nav-side-menu .menu-content .menu-items li a {
-        display: block;
-        color: #555555;
-        text-decoration: none;
-        line-height: 1.2;
-        padding-top: 7px;
-        padding-bottom: 7px; }
-  .nav-side-menu ul, .nav-side-menu li {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-    line-height: 35px;
-    cursor: pointer; }
-    .nav-side-menu ul .arrow:before, .nav-side-menu li .arrow:before {
-      font-family: FontAwesome;
-      content: "\f107";
-      display: inline-block;
-      padding-left: 10px;
-      padding-right: 10px;
-      vertical-align: middle;
-      float: right; }
-  .nav-side-menu li {
-    border-bottom: 1px solid #eeeeee; }
-    .nav-side-menu li button {
-      display: block;
-      width: 100%;
-      text-align: left;
-      border: none;
-      cursor: pointer;
-      background-color: transparent;
-      padding-left: 5px;
-      color: #555555;
-      line-height: 2; }
-      .nav-side-menu li button.collapsed .arrow:before {
-        transform: rotate(90deg); }
-
-.nav-side-menu.user-options li:last-child {
-  border-color: #777777; }
-
-@media (max-width: 767.98px) {
-  .nav-side-menu {
-    position: relative;
-    width: 100%;
-    margin-bottom: 10px; }
-    .nav-side-menu .toggle-btn {
-      display: block;
-      cursor: pointer;
-      right: 10px;
-      top: 10px;
-      z-index: 10 !important;
-      padding: 3px;
-      background-color: #ffffff;
-      color: #dddddd;
-      text-align: right; } }
-@media (min-width: 768px) {
-  .nav-side-menu .menu-list .menu-content {
-    display: block !important; } }
-.sidebar {
-  background: #fafafa; }
-  .sidebar .toc li {
-    line-height: 1.75; }
-    .sidebar .toc li.active:before {
-      content: "";
-      margin-left: -2px;
-      padding-left: 2px;
-      box-shadow: -2px 0 0 #333333; }
-    .sidebar .toc li.active a {
-      color: #444444; }
-    .sidebar .toc li a {
-      text-decoration: none; }
 
 body {
   background: #fafafa; }

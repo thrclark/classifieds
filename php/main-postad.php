@@ -8,9 +8,15 @@ $page_title = 'Post ad';
 <head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/main-styles.php') ?>
+<style>
+.bs-datepicker {
+	position:absolute;
+	display:none;
+	}
+
+</style>
 </head>
 <body>
-
 <div id="main">
     <?php include('includes/main-appheader.php') ?>
     <section class="main-content pt-3" role="main">
@@ -40,36 +46,36 @@ $page_title = 'Post ad';
                         <form novalidate ng-reflect-form="[object Object]" class="ng-untouched ng-pristine ng-invalid">
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="form-group form-group-error-main">
-                                        <label class="control-label" id="titleLabel">
+                                    <div class="form-group rbt-charcount">
+                                        <label for="titleLabel">
                                             <message key="global.ad.field.title" ng-reflect-key="global.ad.field.title">Title</message>
-                                            <span class="subLabel small">
+                                            <small>
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
-                                            </span> </label>
-                                        <input aria-labelledby="titleLabel" class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="title" ng-reflect-name="title">
-                                    </div>
+                                            </small></label>
+                                        <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="titleLabel" placeholder="" maxlength="200">
+                                        <span class="badge badge-success" id="titleLabel_badge"><span id="titleLabel_counter">0</span>/200</span> </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="form-group">
-                                        <label class="control-label" id="descriptionLabel">
+                                    <div class="form-group rbt-charcount">
+                                        <label class="control-label" for="descriptionLabel">
                                             <message key="global.ad.field.description" ng-reflect-key="global.ad.field.description">Description</message>
                                         </label>
-                                        <textarea aria-labelledby="descriptionLabel" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="description" rows="8" ng-reflect-name="description"></textarea>
-                                    </div>
+                                        <textarea aria-labelledby="descriptionLabel" class="form-control" formcontrolname="description" rows="8" ng-reflect-name="description" maxlength="2000" id="descriptionLabel"></textarea>
+                                        <span class="badge badge-success" id="descriptionLabel_badge"><span id="descriptionLabel_counter">0</span>/2000</span> </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-6 col-12">
-                                    <div class="form-group form-group-error-main">
-                                        <label class="control-label" id="contactNameLabel">
-                                            <message key="global.ad.field.contact" ng-reflect-key="global.ad.field.contact">Contact Info</message>
-                                            <span class="subLabel small">
+                                    <div class="form-group rbt-charcount">
+                                        <label for="contactNameLabel">
+                                            <message key="global.ad.field.title" ng-reflect-key="global.ad.field.title">Contact Info</message>
+                                            <small>
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
-                                            </span> </label>
-                                        <input aria-labelledby="contactNameLabel" class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="contactName" ng-reflect-name="contactName">
-                                    </div>
+                                            </small></label>
+                                        <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="contactNameLabel" placeholder="" maxlength="50">
+                                        <span class="badge badge-success" id="contactNameLabel_badge"><span id="contactNameLabel_counter">0</span>/50</span> </div>
                                 </div>
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
@@ -79,7 +85,6 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </span></label>
                                         <select class="form-control" id="exampleFormControlSelect1">
-                                            
                                             <option value="1000" ng-reflect-value="1000">Vehicles</option>
                                             <option value="1001" ng-reflect-value="1001">Announcements</option>
                                             <option value="1002" ng-reflect-value="1002">Activity Partners</option>
@@ -94,18 +99,17 @@ $page_title = 'Post ad';
                             </div>
                             <div class="row">
                                 <div class="col-lg-6 col-12">
-                                    <div class="form-group">
-                                        <label class="control-label" id="priceLabel">
+                                    <div class="form-group rbt-charcount">
+                                        <label for="priceLabel">
                                             <message key="global.ad.field.price" ng-reflect-key="global.ad.field.price">Price</message>
                                         </label>
-                                        <input aria-labelledby="priceLabel" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="price" ng-reflect-name="price">
-                                    </div>
+                                        <input type="text" aria-labelledby="priceLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="priceLabel" placeholder="" maxlength="20">
+                                        <span class="badge badge-success" id="priceLabel_badge"><span id="priceLabel_counter">0</span>/20</span> </div>
                                 </div>
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
                                         <label class="control-label" id="marketIdLabel">Campus</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
-                                            
                                             <option value="100" ng-reflect-value="100">Bloomington (IUB)</option>
                                             <option value="102" ng-reflect-value="102">Koko,o (IUK)</option>
                                         </select>
@@ -119,7 +123,6 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.type" ng-reflect-key="global.ad.field.type">Ad Purpose</message>
                                         </label>
                                         <select class="form-control" id="exampleFormControlSelect1">
-                                           
                                             <option value="NEED" ng-reflect-value="NEED">Seeking</option>
                                             <option value="OFFER" ng-reflect-value="OFFER">For Sale</option>
                                         </select>
@@ -130,9 +133,121 @@ $page_title = 'Post ad';
                                         <label class="control-label" id="expireDateLabel">
                                             <message key="global.ad.field.expireDate" ng-reflect-key="global.ad.field.expireDate">Expiration Date</message>
                                         </label>
-                                        <div class="rbt-fieldicon rbt-fieldicon-right">
-                                            <input type="text" class="form-control" placeholder="mm/dd/yyyy">
-                                            <i aria-hidden="true" class="fa fa-calendar"></i> </div>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="dateLabel" placeholder="mm/dd/yyyy" aria-label="" aria-describedby="basic-addon2">
+                                            <div class="input-group-append"> <span class="input-group-text" id="basic-addon2"><i aria-hidden="true" class="fa fa-calendar"></i></span> </div>
+                                            
+                                            
+                                            
+                                            
+                                      
+
+
+
+
+                                        </div>
+                                        
+                                              
+                                            <div class="bs-datepicker">
+    <div class="bs-datepicker-container">
+        <div class="bs-calendar-container">
+            <div>
+                <bs-days-calendar-view>
+                    <bs-calendar-layout>
+                        <div class="bs-datepicker-head">
+                            <bs-datepicker-navigation-view>
+                                <button class="previous" style="visibility: visible;"><span>‹</span> </button>
+                                <button class="current"><span>February</span> </button>
+                                <button class="current"><span>2018</span></button>
+                                <button class="next" style="visibility: visible;"><span>›</span> </button>
+                            </bs-datepicker-navigation-view>
+                        </div>
+                        <div class="bs-datepicker-body">
+                            <table class="days weeks" role="grid">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th aria-label="weekday">Su </th>
+                                        <th aria-label="weekday">Mo </th>
+                                        <th aria-label="weekday">Tu </th>
+                                        <th aria-label="weekday">We </th>
+                                        <th aria-label="weekday">Th </th>
+                                        <th aria-label="weekday">Fr </th>
+                                        <th aria-label="weekday">Sa </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="week"><span>9</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="is-other-month">25</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="is-other-month">26</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="is-other-month">27</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="is-other-month">28</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="">1</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="">2</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">3</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="week"><span>10</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">4</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">5</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">6</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="">7</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">8</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">9</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">10</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="week"><span>11</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">11</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">12</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">13</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="">14</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">15</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="selected">16</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">17</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="week"><span>12</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">18</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">19</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">20</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">21</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">22</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">23</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">24</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="week"><span>13</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">25</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">26</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">27</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">28</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">29</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">30</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">31</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="week"><span>14</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">1</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">2</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">3</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">4</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">5</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">6</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">7</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </bs-calendar-layout>
+                </bs-days-calendar-view>
+            </div>
+        </div>
+    </div>
+</div>
+
+
                                     </div>
                                 </div>
                             </div>
@@ -146,26 +261,43 @@ $page_title = 'Post ad';
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="form-group">
+                            <div class="form-group">
                                 <ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
-                                    <div ng-reflect-form="[object Object]" class="ng-untouched ng-pristine ng-invalid">
-                                        <div ng-reflect-name="media" class="ng-untouched ng-pristine ng-valid">
-                                            <image-upload _nghost-c0="" ng-reflect-before-upload="function (metadata) {" ng-reflect-button-caption="Upload Image" ng-reflect-drop-box-message="or drop image here" ng-reflect-headers="[object Object]" ng-reflect-max-file-size="10485760" ng-reflect-preview="false" ng-reflect-supported-extensions="png,jpg,jpeg" ng-reflect-url="/ccf2-unt/upload">
+                                    <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
+                                        <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
+                                            <image-upload _nghost-c0="" ng-reflect-before-upload="function (metadata) {" ng-reflect-button-caption="Upload Image" ng-reflect-drop-box-message="or drop image here" ng-reflect-file-too-large-message="Image must be no larger than 1" ng-reflect-headers="[object Object]" ng-reflect-max-file-size="10485760" ng-reflect-preview="false" ng-reflect-supported-extensions="png,jpg,jpeg" ng-reflect-url="/ccf2-unt/upload">
                                                 <div _ngcontent-c0="" filedrop="" class="img-ul" ng-reflect-ng-class="img-ul" ng-reflect-accept="image/png,image/jpg,image/jpeg">
                                                     <div _ngcontent-c0="" class="img-ul-file-upload img-ul-hr-inline-group">
                                                         <label _ngcontent-c0="" class="img-ul-upload img-ul-button" tabindex="0"> <span _ngcontent-c0="">Upload Image</span>
                                                             <input _ngcontent-c0="" multiple type="file" accept="image/png,image/jpg,image/jpeg">
                                                         </label>
+                                                        <label _ngcontent-c0="" class="img-ul-clear img-ul-button"> <span _ngcontent-c0="">Clear</span> </label>
                                                         <div _ngcontent-c0="" class="img-ul-drag-box-msg">or drop image here</div>
                                                     </div>
                                                 </div>
                                             </image-upload>
-                                            <div class="img-preview" dnd-sortable-container="" draggable="false" ng-reflect-sortable-data="" style="cursor: pointer;"> </div>
+                                            <div class="img-preview" dnd-sortable-container="" draggable="false" ng-reflect-sortable-data="" style="cursor: pointer;">
+                                                <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="0" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
+                                                    <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
+                                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                                    </span> </button>
+                                                </div>
+                                                <div dnd-sortable="" draggable="true" ng-reflect-index="1" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="1" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
+                                                    <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
+                                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                                    </span> </button>
+                                                </div>
+                                                <div dnd-sortable="" draggable="true" ng-reflect-index="2" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="2" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
+                                                    <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
+                                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                                    </span> </button>
+                                                </div>
+                                            </div>
                                             <div class="validation-fieldmessage"> </div>
                                         </div>
                                     </div>
                                 </ccf-image-upload>
-                            </div>-->
+                            </div>
                             <p class="text-right"> <a class="btn btn-outline-primary" href="main-home.php">
                                 <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Cancel</message>
                                 </a>
@@ -183,15 +315,90 @@ $page_title = 'Post ad';
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
-
     $(document).ready(function() {
         $("#acceptPolicy").click(function() {
             $("#policy").hide();
             $("#postform").show();
         });
-
-
     });
 </script>
+<script>
+    $(document).ready(function() {
+        $(".rbt-charcount .badge").hide(); // hide all counter badges
+
+        $("#titleLabel").keyup(function() {
+            var length = $(this).val().length;
+            $('#titleLabel_counter').text(length);
+            if ($("#titleLabel").val().length > 190) {
+                $("#titleLabel_badge").last().addClass("badge-danger");
+            } else {
+                $("#titleLabel_badge").last().removeClass("badge-danger");
+            }
+        });
+        $("#titleLabel").focusin(function() {
+            $("#titleLabel_badge").show();
+        }).focusout(function() {
+            $("#titleLabel_badge").hide();
+        });
+        $("#descriptionLabel").keyup(function() {
+            var length = $(this).val().length;
+            $('#descriptionLabel_counter').text(length);
+            if ($("#descriptionLabel").val().length > 1990) {
+                $("#descriptionLabel_badge").last().addClass("badge-danger");
+            } else {
+                $("#descriptionLabel_badge").last().removeClass("badge-danger");
+            }
+        });
+        $("#descriptionLabel").focusin(function() {
+            $("#descriptionLabel_badge").show();
+        }).focusout(function() {
+            $("#descriptionLabel_badge").hide();
+        });
+
+        $("#contactNameLabel").keyup(function() {
+            var length = $(this).val().length;
+            $('#contactNameLabel_counter').text(length);
+            if ($("#contactNameLabel").val().length > 45) {
+                $("#contactNameLabel_badge").last().addClass("badge-danger");
+            } else {
+                $("#contactNameLabel_badge").last().removeClass("badge-danger");
+            }
+        });
+        $("#contactNameLabel").focusin(function() {
+            $("#contactNameLabel_badge").show();
+        }).focusout(function() {
+            $("#contactNameLabel_badge").hide();
+        });
+
+        $("#priceLabel").keyup(function() {
+            var length = $(this).val().length;
+            $('#priceLabel_counter').text(length);
+            if ($("#priceLabel").val().length > 15) {
+                $("#priceLabel_badge").last().addClass("badge-danger");
+            } else {
+                $("#priceLabel_badge").last().removeClass("badge-danger");
+            }
+        });
+        $("#priceLabel").focusin(function() {
+            $("#priceLabel_badge").show();
+        }).focusout(function() {
+            $("#priceLabel_badge").hide();
+        });
+    });
+</script>
+
+
+<script>
+    $(document).ready(function() {
+        $("#dateLabel").focusin(function() {
+            $(".bs-datepicker").show();
+        }).focusout(function() {
+            $(".bs-datepicker").hide();
+        });
+    });
+</script>
+
+
+
 </body>
 </html>
