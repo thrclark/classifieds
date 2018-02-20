@@ -6610,6 +6610,20 @@ a.text-dark:hover, a.text-dark:focus {
   border-width: 2px;
   text-decoration: none; }
 
+.btn-primary:focus,
+.btn-outline-primary:focus,
+.btn-link:focus,
+.btn-outline-link:focus {
+  box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.2875rem #006298 !important; }
+
+.btn-success:focus,
+.btn-outline-success:focus {
+  box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.2875rem #008a28 !important; }
+
+.btn-danger:focus,
+.btn-outline-danger:focus {
+  box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.2875rem #df3603 !important; }
+
 .btn.btn-outline-primary:hover {
   background: #cce0ea;
   color: #006298; }

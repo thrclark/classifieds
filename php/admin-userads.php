@@ -5,7 +5,7 @@ $page_title = 'userads';
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>	
+<head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
 <style type="text/css">
@@ -19,7 +19,7 @@ $page_title = 'userads';
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
 <div class="container">
-    <div class="row">	
+    <div class="row">
         <div class="col-12 col-md-3">
             <div id="adminNav">
                 <?php include('includes/admin-nav.php') ?>
@@ -34,15 +34,19 @@ $page_title = 'userads';
                         </div>
                     </div>
                 </div>
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item"><a class="nav-link active" id="allads-tab" data-toggle="tab" href="#allads" role="tab" aria-controls="allads" aria-selected="true">All Ads</a></li>
-                    <li class="nav-item"><a class="nav-link" id="profile-tab2" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Moderated Users</a></li>
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <button class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Ads</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Users</button>
+                    </li>
                 </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="allads" role="tabpanel" aria-labelledby="allads-tab">
-                        <div class="bg-light mb-3 mt-3 table-filter">
-                            <div class="card-body">
-                                <div class="row align-items-center">
+                <div class="tab-content" id="pills-tabContent" tabindex="0" role="tabpanel">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <h3 class="rbt-ts-23 font-weight-bold mb-3">Moderate ads</h3>
+                        <div class="mb-3 mt-3 table-filter">
+                            <div class="row align-items-center">
                                     <div class="col-6">
                                         <div class="form-group clear-field mb-0">
                                             <label class="sr-only" for="table_filter">Filter table</label>
@@ -55,7 +59,6 @@ $page_title = 'userads';
                                         <div class="dropdown-menu"><a class="dropdown-item" href="#">All</a><a class="dropdown-item" href="#">Active</a><a class="dropdown-item" href="#">Inactive</a><a class="dropdown-item" href="#">Flagged</a><a class="dropdown-item" href="#">Removed</a></div>
                                     </div>
                                 </div>
-                            </div>
                         </div>
                         <table class="table table-sm table-postdetails">
                             <thead>
@@ -592,7 +595,8 @@ $page_title = 'userads';
                         </table>
                         <?php include('includes/all-pagination.php') ?>
                     </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab2">
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <h3 class="rbt-ts-23 font-weight-bold mb-3">Moderate users</h3>
                         <div class="bg-light mb-3 mt-3 table-filter">
                             <div class="card-body">
                                 <div class="row align-items-center">
@@ -787,10 +791,7 @@ $page_title = 'userads';
             submitButt.attr("disabled", !checkboxes.is(":checked"));
         });
     }); //]]>
-</script>
-
-
-
+</script> 
 <script>
     $(document).ready(function() {	
         $(function() {
@@ -801,8 +802,5 @@ $page_title = 'userads';
         });
     });
 </script>
-
-
-
 </body>
 </html>
