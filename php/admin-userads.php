@@ -18,7 +18,7 @@ $page_title = 'userads';
 <body>
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
-<div class="container">
+<div class="container pt-3">
     <div class="row">
         <div class="col-12 col-md-3">
             <div id="adminNav">
@@ -26,7 +26,11 @@ $page_title = 'userads';
             </div>
         </div>
         <div class="col-12 col-md-9">
-            <div class="main-content">
+            <div class="main-content"> <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                    <button type="button" class="close" aria-label="Close" data-dismiss="alert"> <span class="rbt-icon-close"></span> </button>
+                    <h4 class="alert-heading">Post-MVP prototype</h4>
+                    <p class="small">The design presented here is for post-MVP.</p>
+                </div>
                 <div class="doc-header mb-3">
                     <div class="row">
                         <div class="col doc-title">
@@ -34,6 +38,7 @@ $page_title = 'userads';
                         </div>
                     </div>
                 </div>
+               
                 <ul class="nav nav-pills" id="pills-tab" role="tablist">
                     <li class="nav-item">
                         <button class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Ads</button>
@@ -47,18 +52,18 @@ $page_title = 'userads';
                         <h3 class="rbt-ts-23 font-weight-bold mb-3">Moderate ads</h3>
                         <div class="mb-3 mt-3 table-filter">
                             <div class="row align-items-center">
-                                    <div class="col-6">
-                                        <div class="form-group clear-field mb-0">
-                                            <label class="sr-only" for="table_filter">Filter table</label>
-                                            <input type="text" class="form-control" id="table_filter" placeholder="filter">
-                                            <div class="cleartext" style="display:none"><i class="fa fa-window-close"></i></div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Status: All</button>
-                                        <div class="dropdown-menu"><a class="dropdown-item" href="#">All</a><a class="dropdown-item" href="#">Active</a><a class="dropdown-item" href="#">Inactive</a><a class="dropdown-item" href="#">Flagged</a><a class="dropdown-item" href="#">Removed</a></div>
+                                <div class="col-6">
+                                    <div class="form-group clear-field mb-0">
+                                        <label class="sr-only" for="table_filter">Filter table</label>
+                                        <input type="text" class="form-control" id="table_filter" placeholder="filter">
+                                        <div class="cleartext" style="display:none"><i class="fa fa-window-close"></i></div>
                                     </div>
                                 </div>
+                                <div class="col">
+                                    <button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Status: All</button>
+                                    <div class="dropdown-menu"><a class="dropdown-item" href="#">All</a><a class="dropdown-item" href="#">Active</a><a class="dropdown-item" href="#">Inactive</a><a class="dropdown-item" href="#">Flagged</a><a class="dropdown-item" href="#">Removed</a></div>
+                                </div>
+                            </div>
                         </div>
                         <table class="table table-sm table-postdetails">
                             <thead>

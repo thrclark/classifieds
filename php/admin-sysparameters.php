@@ -19,7 +19,7 @@ $page_title = 'sysparameters';
 <body>
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
-<div class="container">
+<div class="container pt-3">
     <div class="row">
         <div class="col-12 col-md-3">
             <div id="adminNav">

@@ -1,13 +1,14 @@
 
 <nav class="sidebar">
-    <ul class="rbt-sidebar-nav font-italic">
+    <ul class="rbt-sidebar-nav">
         <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="main-home.php">Main View</a> </li>
     </ul>
 </nav>
 <hr>
 <nav class="sidebar">
     <ul class="rbt-sidebar-nav">
-        <li <?php if ($page_title == 'userads') { echo 'class="active"'; } ?>><a href="admin-userads.php">Moderate Ads & Users</a></li>
+        <li <?php if ($page_title == 'ads') { echo 'class="active"'; } ?>><a href="admin-ads.php">Moderator</a></li>
+         <li <?php if ($page_title == 'userads') { echo 'class="active"'; } ?>><a href="admin-userads.php">Moderate Ads &amp; Users</a> </li>
         <li <?php if ($page_title == 'generalsettings') { echo 'class="active"'; } ?>><a href="admin-generalsettings.php">General Settings</a></li>
         <li <?php if ($page_title == 'branding') { echo 'class="active"'; } ?>><a href="admin-branding.php">Branding</a></li>
         <li <?php if ($page_title == 'categories') { echo 'class="active"'; } ?>><a href="admin-categories.php">Categories</a></li>

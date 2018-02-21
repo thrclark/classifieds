@@ -297,3 +297,21 @@ $(function(){
         });
     });
 </script>
+
+
+
+
+<script>
+
+$(document).ready(function() {
+  function setHeight() {
+    windowHeight = $(document).height();	
+    $('.rbt-drawer').css('min-height', windowHeight);
+  };
+  setHeight();
+  
+  $(window).resize(function() {
+    setHeight();
+  });
+});
+</script>

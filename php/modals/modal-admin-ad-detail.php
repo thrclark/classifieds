@@ -1,81 +1,57 @@
-<div class="modal post-detail fade" id="post_detail_active" tabindex="-1" role="dialog" aria-labelledby="post_detail" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title" id="exampleModal1Label">For Sale: Selmer VI Tenor Sax</h3>
-                <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close" style=""> <span aria-hidden="true"> <i class="fa fa-close" aria-hidden="true"></i> </span> </button>
-            </div>
-            <div class="modal-body post-details-body">
-                <div class="row">
-                    <div class="col">
-                        <div class="post-price">$11,225.00</div>
-                    </div>
-                    <div class="col align-self-end text-right">
-                        <div class=" ad-datelocation"><span class="ad-datelocation-date">Oct 31</span> | <span class="ad-datelocation-location"> <i class="fa fa-map-marker" aria-hidden="true"></i> IUK</span></div>
-                    </div>
+<div class="modal post-detail fade" id="admin_ad_detail" tabindex="-1" role="dialog" aria-labelledby="post_detail" aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLabel">Ad details</h3>
+            <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
+        </div>
+        <article>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="modal-title" id="exampleModalLabel">For sale: Selmer VI Tenor Sax</h2>
                 </div>
-                <hr>
-                <div class="your-class">
-                    <div> <img src="../img/post-pics/1105499015MarkVITen1.jpg" class="img-fluid img-thumbnail " alt=""/></div>
-                    <div> <img src="../img/post-pics/1105499015MarkVITen2.jpg" class="img-fluid img-thumbnail " alt=""/></div>
-                    <div> <img src="../img/post-pics/1105499015MarkVITen3.jpg" class="img-fluid img-thumbnail " alt=""/></div>
-                    <div> <img src="../img/post-pics/1105499015MarkVITen4.jpg" class="img-fluid img-thumbnail " alt=""/></div>
-                    <div> <img src="../img/post-pics/1105499015MarkVITen5.jpg" class="img-fluid img-thumbnail " alt=""/></div>
-                    <div> <img src="../img/post-pics/1105499015MarkVITen6.jpg" class="img-fluid img-thumbnail " alt=""/></div>
-                    <div> <img src="../img/post-pics/1105499015MarkVITen7.jpg" class="img-fluid img-thumbnail " alt=""/></div>
-                    <div> <img src="../img/post-pics/1105499015MarkVITen8.jpg" class="img-fluid img-thumbnail " alt=""/></div>
+                <div class="col">$1400.00</div>
+                <div class="col text-right"> <span class="font-italic">2/14/18</span> | IUK </div>
+            </div>
+            <hr>
+            <div class="mb-3">
+                <ccf-image-slider ng-reflect-image-urls="/ccf2-unt/postings/images/1800">
+                    <div class="overflow" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                        <div class="inner" ng-reflect-ng-style="[object Object]" style="width: 400%; margin-left: 0%;"> <img ng-reflect-ng-style="[object Object]" src="../img/post-pics/1105499015MarkVITen5.jpg" style="width: 25%;"> </div>
+                    </div>
+                    <div class="controls">
+                        <button class="btn btn-sm btn-outline-primary" type="button"> <i aria-hidden="true" class="fa fa-angle-left"></i> <span class="sr-only">
+                        <message key="main.imageSlider.prev" ng-reflect-key="main.imageSlider.prev">Previous image</message>
+                        </span> </button>
+                        <button class="btn btn-sm btn-outline-primary" type="button"> <i aria-hidden="true" class="fa fa-angle-right"></i> <span class="sr-only">
+                        <message key="main.imageSlider.next" ng-reflect-key="main.imageSlider.next">Next image</message>
+                        </span> </button>
+                    </div>
+                </ccf-image-slider>
+                <!--<div class="post-descrip">asfd asdf asfd asfd asfd asf asdfasdf asfd asdf asdf asdf asdf </div>--> 
+            </div>
+            <dl>
+                <dt>Description</dt>
+                <dd>This is a beautiful original lacquer Mark VI tenor saxophone from 1962, serial number 99015. The lacquer finish on the horn is in exquisite condition. Its original finish displays a very dark honey tint which is perfectly complemented by the crisp American floral engraving. The lacquer condition is about as clean and pristine as you will ever see. </dd>
+                <dt>Contact</dt>
+                <dd>812-555-4567</dd>
+                <dt>Email</dt>
+                <dd><a href="mailto:thrclark@iu.edu">thrclark@iu.edu</a></dd>
+                <dt>Status</dt>
+                <dd>Active</dd>
+                <dt>Ad Purpose</dt>
+                <dd>For sale</dd>
+                <dt>Post Date</dt>
+                <dd>02/25/2018 3:26pm</dd>
+                <dt>Expiration Date</dt>
+                <dd>03/25/2018 3:26pm</dd>
+            </dl>
+            </article>
+            <div class="modal-footer">
+                <div class="rbt-button-group">
+                    <button class="btn btn-outline-primary"> <span class="">Remove ad</span></button>
                 </div>
-                <dl class="row">
-                    <dt class="col-sm-12">Description</dt>
-                    <dd class="col-sm-12">This is a beautiful original lacquer Mark VI tenor saxophone from 1962, serial number 99015. The lacquer finish on the horn is in exquisite condition. Its original finish displays a very dark honey tint which is perfectly complemented by the crisp American floral engraving. The lacquer condition is about as clean and pristine as you will ever see. </dd>
-                    <dt class="col-sm-12">Contact</dt>
-                    <dd class="col-sm-12"> 812-555-4567 </dd>
-                    <dt class="col-sm-12">Email</dt>
-                    <dd class="col-sm-12"><a href="mailto:thrclark@iu.edu">thrclark@iu.edu</a></dd>
-                </dl>
-            </div>
-            <div class="modal-footer"> 
-                
-                <!--buttons for admin/moderator-->
-                <div <?php if ($audience == 'admin') { echo 'class="d-block"'; } ?>  class="d-none">
-                    <button type="button" class="btn btn-primary btn-report">Remove Ad</button>
-                </div>
-            </div>
-            <div class="modal-body report-post" style="display:none">
-                <h4>Remove this ad</h4>
-                <p>Please provide a reason for removing this ad. </p>
-                <form>
-                    <div class="form-group">
-                        <label for="postedby">Posted by</label>
-                        <input class="form-control" type="text" id="postedby" placeholder="thrclark" readonly>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect1">Reason for removal</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option>Fraudulent activity</option>
-                            <option>Contains offensive material</option>
-                            <option>Promotes personal/commercial business</option>
-                            <option>Promotes a political/social agenda</option>
-                            <option>Selling IU parking permit</option>
-                            <option>This is a fake ad</option>
-                            <option>Other</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Additional information (optional)</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Send message to poster (thrclark)</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                    </div>
-                    <div class="text-center"><span class="btn btn-link btn-reportcancel">Cancel</span> <span class="btn btn-primary btn-reportsubmit">Submit</span></div>
-                </form>
-            </div>
-            <div class="modal-body report-post-confirm" style="display:none">
-                <h4>Ad Removed</h4>
-                <p>This ad was posted by the user '<span class="font-weight-bold">thrclark</span>'. Would you like to review all ads posted by this user?</p>
-                <div class="text-center"><button class="btn btn-outline-secondary" data-dismiss="modal">No</button> <button class="btn btn-primary" data-dismiss="modal" id="populatefilter">Review thrclark's ads</button></div>
             </div>
         </div>
     </div>

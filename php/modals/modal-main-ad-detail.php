@@ -40,16 +40,15 @@
                         <dt>Email</dt>
                         <dd><a href="mailto:thrclark@iu.edu">thrclark@iu.edu</a></dd>
                     </dl>
-                    <button class="btn btn-sm btn-outline-primary favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="">Watchlist</span></button>
-                    <a href="mailto:" class="btn btn-sm btn-outline-primary">Share</a> </div>
+                 </div>
             </article>
-            <!-- <div class="modal-footer">
+         <div class="modal-footer">
                 <div class="rbt-button-group">
                     <button type="button" class="btn btn-outline-primary">Share</button>
                     
                     <button class="btn btn-outline-primary favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="">Watchlist</span></button>
                 </div>
-            </div>--> 
+            </div>
         </div>
     </div>
 </div>

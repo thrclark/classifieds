@@ -18,7 +18,7 @@ $page_title = '';
 <body>
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
-<div class="container">
+<div class="container pt-3">
     <div class="row">
         <div class="col-12 col-md-3">
             <div class="nav-side-menu small"> <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
