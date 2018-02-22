@@ -19,6 +19,10 @@ $page_title = 'userads';
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
+    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+        <button type="button" class="close" aria-label="Close" data-dismiss="alert"> <span class="rbt-icon-close"></span> </button>
+        <h4 class="alert-heading">Post-MVP prototype</h4>
+    </div>
     <div class="row">
         <div class="col-12 col-md-3">
             <div id="adminNav">
@@ -26,11 +30,7 @@ $page_title = 'userads';
             </div>
         </div>
         <div class="col-12 col-md-9">
-            <div class="main-content"> <div class="alert alert-primary alert-dismissible fade show" role="alert">
-                    <button type="button" class="close" aria-label="Close" data-dismiss="alert"> <span class="rbt-icon-close"></span> </button>
-                    <h4 class="alert-heading">Post-MVP prototype</h4>
-                    <p class="small">The design presented here is for post-MVP.</p>
-                </div>
+            <div class="main-content">
                 <div class="doc-header mb-3">
                     <div class="row">
                         <div class="col doc-title">
@@ -38,7 +38,6 @@ $page_title = 'userads';
                         </div>
                     </div>
                 </div>
-               
                 <ul class="nav nav-pills" id="pills-tab" role="tablist">
                     <li class="nav-item">
                         <button class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Ads</button>
