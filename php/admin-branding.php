@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'settings';
-$page_title = 'branding';
+$page_title = 'Branding';
 ?>
 
 <!DOCTYPE html>
@@ -9,12 +9,7 @@ $page_title = 'branding';
 <head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
-<style type="text/css">
-.btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
-	color: #868e96;
-	background-color: white;
-}
-</style>
+
 </head>
 <body>
 <?php include('includes/all-custom-header.php') ?>
@@ -28,10 +23,9 @@ $page_title = 'branding';
         </div>
         <div class="col-12 col-md-9">
             <div class="main-content">
-                <div class="doc-header" style="margin-bottom: 15px;">
-                    <div class="row justify-content-between align-items-center">
+                <div class="row justify-content-between align-items-center">
                         <div class="col-auto">
-                            <h1>Branding</h1>
+                              <h1> <?php echo $page_title; ?></h1>
                         </div>
                         <div class="col-auto">
                             <div class="form-check rbt-checkbox" >
@@ -41,7 +35,6 @@ $page_title = 'branding';
                             </div>
                         </div>
                     </div>
-                </div>
                 <table class="table table-sm table-actions tablesawww tablesaw-stackkk" data-tablesaw-mode="stackkk">
                     <thead>
                         <tr>

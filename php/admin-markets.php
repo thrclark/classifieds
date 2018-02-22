@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'settings';
-$page_title = 'markets';
+$page_title = 'Markets';
 ?>
 
 <!DOCTYPE html>
@@ -9,12 +9,7 @@ $page_title = 'markets';
 <head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
-<style type="text/css">
-.btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
-	color: #868e96;
-	background-color: white;
-}
-</style>
+
 </head>
 <body>
 <?php include('includes/all-custom-header.php') ?>
@@ -28,13 +23,7 @@ $page_title = 'markets';
         </div>
         <div class="col-12 col-md-9">
             <div class="main-content">
-                <div class="doc-header mb-3">
-                    <div class="row">
-                        <div class="col doc-title">
-                            <h2>Markets</h2>
-                        </div>
-                    </div>
-                </div>
+            <h1> <?php echo $page_title; ?></h1>
             </div>
         </div>
     </div>

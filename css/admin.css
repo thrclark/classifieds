@@ -7747,6 +7747,9 @@ body {
   body .main-content-section {
     padding-bottom: 100px; }
 
+.ccf-table-categories .fa {
+  font-size: 26px; }
+
 .fa.fa-star {
   color: #fd7e14;
   font-size: 16px; }

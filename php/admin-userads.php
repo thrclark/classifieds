@@ -1,19 +1,13 @@
 <?php 
 $audience = 'admin';
 $section = 'moderator';
-$page_title = 'userads';
+$page_title = 'Moderate Ads &amp; Users';
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
-<style type="text/css">
-.btn-outline-secondary:active, .btn-outline-secondary.active, .show> .btn-outline-secondary.dropdown-toggle {
-	color: #868e96;
-	background-color: white;
-}
-</style>
 </head>
 <body>
 <?php include('includes/all-custom-header.php') ?>
@@ -30,14 +24,7 @@ $page_title = 'userads';
             </div>
         </div>
         <div class="col-12 col-md-9">
-            <div class="main-content">
-                <div class="doc-header mb-3">
-                    <div class="row">
-                        <div class="col doc-title">
-                            <h2>Moderate Ads &amp; Users</h2>
-                        </div>
-                    </div>
-                </div>
+            <div class="main-content"><h1> <?php echo $page_title; ?></h1>
                 <ul class="nav nav-pills" id="pills-tab" role="tablist">
                     <li class="nav-item">
                         <button class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Ads</button>

@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'moderator';
-$page_title = 'restrictedusers';
+$page_title = 'Restricted users';
 ?>
 
 <!DOCTYPE html>
@@ -9,12 +9,7 @@ $page_title = 'restrictedusers';
 <head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
-<style type="text/css">
-.btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
-	color: #868e96;
-	background-color: white;
-}
-</style>
+
 </head>
 <body>
 <?php include('includes/all-custom-header.php') ?>
@@ -31,7 +26,7 @@ $page_title = 'restrictedusers';
                 <div class="doc-header mb-3">
                     <div class="row">
                         <div class="col doc-title">
-                            <h2>Restricted Users</h2>
+                              <h1> <?php echo $page_title; ?></h1>
                         </div>
                         <div class="col doc-controls"> 
                             <!-- <button type="button" class="btn btn-outline-secondary btn-sm float-md-right">Restrict User</button>--> 

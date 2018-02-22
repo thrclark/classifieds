@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'settings';
-$page_title = 'apiaccounts';
+$page_title = 'API accounts';
 ?>
 
 <!DOCTYPE html>
@@ -9,12 +9,7 @@ $page_title = 'apiaccounts';
 <head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
-<style type="text/css">
-.btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
-	color: #868e96;
-	background-color: white;
-}
-</style>
+
 </head>
 <body>
 <?php include('includes/all-custom-header.php') ?>
@@ -28,13 +23,7 @@ $page_title = 'apiaccounts';
         </div>
         <div class="col-12 col-md-9">
             <div class="main-content">
-                <div class="doc-header mb-3">
-                    <div class="row">
-                        <div class="col doc-title">
-                            <h2>API Accounts</h2>
-                        </div>
-                    </div>
-                </div>
+              <h1> <?php echo $page_title; ?></h1>
             </div>
         </div>
     </div>

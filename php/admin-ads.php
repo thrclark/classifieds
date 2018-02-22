@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'moderator';
-$page_title = 'ads';
+$page_title = 'Moderator';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,8 +21,7 @@ $page_title = 'ads';
         </div>
         <div class="col-12 col-md-9">
             <div class="main-content">
-            
-            <h1 class="mb-4">Moderator</h1> 
+                    <h1> <?php echo $page_title; ?></h1>
                 <ul class="nav nav-pills" id="pills-tab" role="tablist">
                     <li class="nav-item">
                         <button class="nav-link active" id="moderate-ads-tab" data-toggle="pill" href="#moderate-ads" role="tab" aria-controls="moderate-ads" aria-selected="true">Ads</button>
@@ -32,7 +31,7 @@ $page_title = 'ads';
                     </li>
                 </ul>
                 <div class="tab-content" id="pills-tabContent" tabindex="0" role="tabpanel">
-                 <div class="tab-pane fade show active" id="moderate-ads" role="tabpanel" aria-labelledby="moderate-ads-tab">
+                    <div class="tab-pane fade show active" id="moderate-ads" role="tabpanel" aria-labelledby="moderate-ads-tab">
                         <div class="row">
                             <div class="col">
                                 <h2>Ads</h2>
@@ -390,12 +389,6 @@ $page_title = 'ads';
                             </div>
                             <div class="col-auto">
                                 <button class="btn btn-sm btn-outline-primary " data-toggle="modal" data-target="#modal_restrictuser">Restrict user</button>
-                                
-                                
-                                
-                                
-                                
-                                
                             </div>
                         </div>
                         <table class="table table-sm rbt-table-actions">
@@ -441,9 +434,7 @@ $page_title = 'ads';
     </div>
 </div>
 <?php include('modals/modal-admin-ad-detail.php') ?>
-
 <?php include('modals/modal-admin-restrictuser.php') ?>
-
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
     $(document).ready(function() {	
