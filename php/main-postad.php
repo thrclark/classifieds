@@ -93,8 +93,7 @@ $page_title = 'Post ad';
                                             <option value="1005" ng-reflect-value="1005">Electronics</option>
                                             <option value="1006" ng-reflect-value="1006">Furniture</option>
                                             <option value="1007" ng-reflect-value="1007">Roommates &amp; Sublets</option>
-                                        </select>
-                                        <span class="rbt-select-helper"></span> </div>
+                                        </select> </div>
                                 </div>
                             </div>
                             <div class="row">
@@ -112,8 +111,7 @@ $page_title = 'Post ad';
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option value="100" ng-reflect-value="100">Bloomington (IUB)</option>
                                             <option value="102" ng-reflect-value="102">Koko,o (IUK)</option>
-                                        </select>
-                                        <span class="rbt-select-helper"></span> </div>
+                                        </select> </div>
                                 </div>
                             </div>
                             <div class="row">
@@ -125,8 +123,7 @@ $page_title = 'Post ad';
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option value="NEED" ng-reflect-value="NEED">Seeking</option>
                                             <option value="OFFER" ng-reflect-value="OFFER">For Sale</option>
-                                        </select>
-                                        <span class="rbt-select-helper"></span> </div>
+                                        </select> </div>
                                 </div>
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
