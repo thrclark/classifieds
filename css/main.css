@@ -6978,7 +6978,6 @@ ul li, ol li {
   line-height: 2; }
 
 .modal-content .modal-header {
-  margin-bottom: 1rem;
   padding: 1.5rem 1rem; }
   .modal-content .modal-header .modal-title {
     font-size: 1.25rem;
@@ -7097,6 +7096,13 @@ ul li, ol li {
 .ts-52,
 .rbt-ts-52 {
   font-size: 3.25rem !important; }
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px; }
 
 .rbt-avatar {
   display: inline-block;
