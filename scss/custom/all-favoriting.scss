@@ -1,19 +1,11 @@
-.fa.fa-star {
-	color: $orange;
-	font-size: 16px;
-}
 
-.fa.fa-star-o {
-	color: $gray-600;
-	font-size: 16px;
-}
-
-.btn-sm {
+.favorite {
 	.fa.fa-star {
-		font-size: 14px;
+		color: $orange;
+		font-size: 16px;
 	}
-
 	.fa.fa-star-o {
-		font-size: 14px;
+		color: $link-color;
+		font-size: 16px;
 	}
 }

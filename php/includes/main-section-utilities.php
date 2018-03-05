@@ -32,11 +32,9 @@
             <div class="btn-group util-view-switch d-none d-sm-inline" data-toggle="buttons">
                 <label class="btn btn-sm btn-outline-primary active" id="set_grid">
                     <input type="radio" name="options"   checked>
-                    <span class="sr-only">Grid</span> <i class="fa fa-th-large" aria-hidden="true"></i> </label>
-                <label class="btn btn-sm btn-outline-primary" id="set_thumb">
+                    <span class="sr-only">Grid</span> <i class="fa fa-th-large" aria-hidden="true"></i> </label><label class="btn btn-sm btn-outline-primary" id="set_thumb">
                     <input type="radio" name="options">
-                    <span class="sr-only">Thumbnail</span> <i class="fa fa-list-ul" aria-hidden="true"></i> </label>
-                <label class="btn btn-sm btn-outline-primary" id="set_list">
+                    <span class="sr-only">Thumbnail</span> <i class="fa fa-list-ul" aria-hidden="true"></i> </label><label class="btn btn-sm btn-outline-primary" id="set_list">
                     <input type="radio" name="options">
                     <span class="sr-only">List</span> <i class="fa fa-list" aria-hidden="true"></i> </label>
             </div>

@@ -1,11 +1,10 @@
 .rbt-app-header {
-  //@include shadow;
+  z-index: 10 !important;
+  transition: box-shadow .5s;
   .rbt-brand-image-container {
     padding-left: 0rem;
   }
 }
-
-
 
 @include media-breakpoint-up(sm) {
   .rbt-app-header {
@@ -14,15 +13,13 @@
     }
   }
 }
-@include media-breakpoint-up(md) {
 
-
-
-}
-@include media-breakpoint-up(lg) {
-
+.rbt-drawer {
+  z-index: 3;
 }
 
-@include media-breakpoint-up(xl) {
-
+.is-sticky {
+  .rbt-app-header {
+    @include shadow;
+  }
 }

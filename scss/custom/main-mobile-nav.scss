@@ -1,18 +1,11 @@
-.mobile-panel.open {
-	height:auto;
-	padding-top: 25px;
-	padding-bottom: 60px;
-	.container {
-		transform: scaleY(1);
-	}
-}
-.mobile-panel-header {
-	//text-align: center;
-	margin-bottom: 20px;
-	h2 {
-		//font-size: 1.2rem;
-	}
-}
+//.mobile-panel.open {
+//	height:auto;
+//	padding-top: 25px;
+//	padding-bottom: 60px;
+//	.container {
+//		transform: scaleY(1);
+//	}
+//}
 
 .category-card {
 
@@ -42,14 +35,14 @@
 	}
 }
 
-@include media-breakpoint-up(md) {
-	.mobile-panel {
-		top: 60px;
-		.mobile-panel-header {
-			text-align: left;
-			h2 {
-				font-size: 1.2rem;
-			}
-		}
-	}
-}
+//@include media-breakpoint-up(md) {
+//	.mobile-panel {
+//		top: 60px;
+//		.mobile-panel-header {
+//			text-align: left;
+//			h2 {
+//				font-size: 1.2rem;
+//			}
+//		}
+//	}
+//}

@@ -24,6 +24,6 @@
     "prismjs": "^1.11.0"
   },
   "devDependencies": {
-    "rivet-bootstrap": "0.0.1"
+    "rivet-bootstrap": "^0.4.1"
   }
 }

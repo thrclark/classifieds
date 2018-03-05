@@ -2,10 +2,7 @@
 	.section-head-utilities {
 		@extend .mb-3;
 		.btn-group {
-			.btn.btn-sm.btn-outline-secondary {
-				padding: 0.1rem 0.4rem;
 
-			}
 			&.util-view-switch {
 				vertical-align: inherit;
 
@@ -43,14 +40,6 @@
 
 }
 
-@include media-breakpoint-up(sm) {
-	.main-content .main-content-section .section-head {
-
-	}
-}
-@include media-breakpoint-up(md) {
-
-}
 @include media-breakpoint-up(lg) {
 	.main-content .main-content-section .section-head {
 

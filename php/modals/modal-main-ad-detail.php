@@ -1,5 +1,5 @@
 
-<div class="post-details modal fade" id="post_detail" tabindex="-1" role="dialog" aria-labelledby="post_detail" aria-hidden="true">
+<div class="modal fade" id="post_detail" tabindex="-1" role="dialog" aria-labelledby="post_detail" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -44,8 +44,8 @@
                     <div class="row align-items-center">
                         <div class="col">
                             <div class="rbt-button-group">
-                                <button type="button" class="btn btn-outline-primary">Share</button>
                                 <button class="btn btn-outline-primary favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="">Watchlist</span></button>
+                                <button type="button" class="btn btn-outline-primary"> <i class="fa fa-share-alt d-sm-none"></i> <span class="d-none d-sm-inline">Share</span></button>
                             </div>
                         </div>
                         <div class="col-auto"> <a href="#" class="font-italic small">Report this</a> </div>

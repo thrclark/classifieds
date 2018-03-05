@@ -395,7 +395,7 @@ $page_title = 'Moderator';
                             <thead>
                                 <tr >
                                     <th>User</th>
-                                    <th>University ID</th>
+                                    <th>Person ID</th>
                                     <th>Remove</th>
                                 </tr>
                             </thead>

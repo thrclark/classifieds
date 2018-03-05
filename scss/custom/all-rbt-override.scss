@@ -1,16 +1,5 @@
-.rbt-drawer {
-	z-index: 3;
-}
-
-.rbt-app-header {
-	z-index: 10 !important;
-	transition: box-shadow .5s;
-}
-
-.is-sticky {
-	.rbt-app-header {
-		@include shadow;
-	}
+.modal-body {
+	padding-top: .5rem;
 }
 
 

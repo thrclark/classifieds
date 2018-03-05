@@ -7585,16 +7585,8 @@ label.img-ul-button[_ngcontent-c0] input[type=file][_ngcontent-c0] {
   padding-right: .75rem;
   padding-left: .75rem; }
 
-.rbt-drawer {
-  z-index: 3; }
-
-.rbt-app-header {
-  z-index: 10 !important;
-  transition: box-shadow .5s; }
-
-.is-sticky .rbt-app-header {
-  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
+.modal-body {
+  padding-top: .5rem; }
 
 @media (max-width: 575.98px) {
   h1 {
@@ -7602,14 +7594,21 @@ label.img-ul-button[_ngcontent-c0] input[type=file][_ngcontent-c0] {
 
   h2 {
     font-size: 1.25rem; } }
-.rbt-app-header .rbt-brand-image-container {
-  padding-left: 0rem; }
+.rbt-app-header {
+  z-index: 10 !important;
+  transition: box-shadow .5s; }
+  .rbt-app-header .rbt-brand-image-container {
+    padding-left: 0rem; }
 
 @media (min-width: 576px) {
   .rbt-app-header .rbt-brand-image-container {
     padding-left: 15px; } }
-.modal-body {
-  padding-top: .5rem; }
+.rbt-drawer {
+  z-index: 3; }
+
+.is-sticky .rbt-app-header {
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
 
 .footer-menu {
   position: fixed;
@@ -7625,16 +7624,6 @@ label.img-ul-button[_ngcontent-c0] input[type=file][_ngcontent-c0] {
     border-width: 0px; }
     .footer-menu .btn:hover {
       background: #444444; }
-
-.mobile-panel.open {
-  height: auto;
-  padding-top: 25px;
-  padding-bottom: 60px; }
-  .mobile-panel.open .container {
-    transform: scaleY(1); }
-
-.mobile-panel-header {
-  margin-bottom: 20px; }
 
 .category-card {
   margin-bottom: 1.2rem; }
@@ -7657,13 +7646,6 @@ label.img-ul-button[_ngcontent-c0] input[type=file][_ngcontent-c0] {
   .category-card .category-icon .fa {
     color: #006298; }
 
-@media (min-width: 768px) {
-  .mobile-panel {
-    top: 60px; }
-    .mobile-panel .mobile-panel-header {
-      text-align: left; }
-      .mobile-panel .mobile-panel-header h2 {
-        font-size: 1.2rem; } }
 ccf-image-slider {
   display: block;
   position: relative; }
@@ -7698,21 +7680,13 @@ body {
 .ccf-table-categories .fa {
   font-size: 26px; }
 
-.fa.fa-star {
+.favorite .fa.fa-star {
   color: #fd7e14;
   font-size: 16px; }
-
-.fa.fa-star-o {
-  color: #777777;
+.favorite .fa.fa-star-o {
+  color: #006298;
   font-size: 16px; }
 
-.btn-sm .fa.fa-star, .btn-group-sm > .btn .fa.fa-star {
-  font-size: 14px; }
-.btn-sm .fa.fa-star-o, .btn-group-sm > .btn .fa.fa-star-o {
-  font-size: 14px; }
-
-.main-content .main-content-section .section-head .section-head-utilities .btn-group .btn.btn-sm.btn-outline-secondary, .main-content .main-content-section .section-head .section-head-utilities .btn-group .btn-group-sm > .btn.btn-outline-secondary {
-  padding: 0.1rem 0.4rem; }
 .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch {
   vertical-align: inherit; }
   .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn {
