@@ -7,50 +7,6 @@
                 </span> </button>
             </div>
         </div>
-        <a class="postitem-container" href="#">
-        <div class="overlay"></div>
-        <div class="postitem-row">
-            <div class="postitem-image-container">
-                <div class="post-image" style="background-image: url(&quot;/postings/images/180015/1014&quot;);"></div>
-            </div>
-            <div class="postitem-post-title"> TitleTitleTitle </div>
-            <div class="postitem-price">$100</div>
-            <div class="w-100"></div>
-            <div class="postitem-description">Description </div>
-            <div class="postitem-postdate">Jan 29</div>
-            <div class="postitem-postlocation"> <i aria-hidden="true" class="fa fa-map-marker"></i> IUK </div>
-        </div>
-        </a></div>
-    <div class="postitem grid">
-        <div class="postitem-functions">
-            <div class="postitem-functions-set">
-                <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
-                <message key="main.watchlist.add">Add to Watchlist</message>
-                </span> </button>
-            </div>
-        </div>
-        <a class="postitem-container" href="#">
-        <div class="overlay"></div>
-        <div class="postitem-row">
-            <div class="postitem-image-container">
-                <div class="post-image none"> <i aria-hidden="true" class="fa fa-asterisk"></i> <span class="sr-only">asdf</span> </div>
-            </div>
-            <div class="postitem-post-title"> TitleTitleTitle </div>
-            <div class="postitem-price">$100</div>
-            <div class="w-100"></div>
-            <div class="postitem-description">Description </div>
-            <div class="postitem-postdate">Jan 29</div>
-            <div class="postitem-postlocation"> <i aria-hidden="true" class="fa fa-map-marker"></i> IUK </div>
-        </div>
-        </a> </div>
-    <div class="postitem grid">
-        <div class="postitem-functions">
-            <div class="postitem-functions-set">
-                <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
-                <message key="main.watchlist.add">Add to Watchlist</message>
-                </span> </button>
-            </div>
-        </div>
         <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
         <div class="overlay"></div>
         <div class="postitem-row">

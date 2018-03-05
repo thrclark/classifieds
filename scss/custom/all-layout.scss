@@ -1,0 +1,19 @@
+body {
+	background: $gray-50;
+	.nav-section {
+		border-right: solid 1px $gray-200;
+	}
+	.main-content-section {
+		padding-bottom: 100px;
+	}
+
+}
+
+
+//used in admin - categories
+.ccf-table-categories {
+	.fa {
+		font-size: 26px;
+	}
+}
+

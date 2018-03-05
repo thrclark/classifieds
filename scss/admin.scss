@@ -1,24 +1,50 @@
-@import "custom/variables";
 
-@import "../bower_components/bootstrap/scss/bootstrap.scss";
-//@import 'font-awesome/font-awesome';
+// load custom variables & mixins
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-variables";
+@import "custom/all-effects";
 
-@import "custom/layout";
-@import "custom/admin-layout";
-@import "custom/admin-app-header";
-@import "custom/admin-nav";
-@import "custom/admin-main-content";
-@import "custom/admin-utility-bar";
-@import "custom/modals";
-@import "custom/tables";
-@import "custom/counter";
-@import "custom/forms";
-@import "custom/dropdowns";
-@import "custom/alerts";
-@import "custom/modals";
-@import "custom/acl";
-@import "custom/markdown-editor";
-@import "custom/all-pagination";
-@import "custom/all-image-upload";
-@import "custom/all-nav";
+
+// import core Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+// import core Ribet
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-alerts.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-badges.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-breadcrumbs.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-buttons.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-closebutton.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-drawer.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-dropdown.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-fonts.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-footer.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-forms.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-header.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-lists.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-modal.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-pagination.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-panels.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-tables.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-typescale.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-userprofile.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-inputgroup";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-sidebarnav";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-charcount";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-imageupload";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-datepicker";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-tabs";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-clearfield";
+
+// import Classifieds specific styles
+@import "custom/all-rbt-override";
+@import "custom/all-app-header";
+@import "custom/all-modals";
+@import "custom/main-footer-menu";
+@import "custom/main-mobile-nav";
+@import "custom/main-image-slider";
+//@import "custom/all-nav";
+@import "custom/all-layout";
+@import "custom/all-favoriting";
+@import "custom/all-section-header";
+@import "custom/all-posting";
 

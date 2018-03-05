@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'appconfig';
-$page_title = 'sysparameters';
+$page_title = 'System parameters';
 ?>
 
 <!DOCTYPE html>
@@ -9,17 +9,12 @@ $page_title = 'sysparameters';
 <head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
-<style type="text/css">
-.btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
-	color: #868e96;
-	background-color: white;
-}
-</style>
+
 </head>
 <body>
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
-<div class="container">
+<div class="container pt-3">
     <div class="row">
         <div class="col-12 col-md-3">
             <div id="adminNav">
@@ -31,7 +26,7 @@ $page_title = 'sysparameters';
                 <div class="doc-header mb-3">
                     <div class="row">
                         <div class="col-8 col-6-sm doc-title">
-                            <h2> System Parameters</h2>
+                               <h1> <?php echo $page_title; ?></h1>
                         </div>
                         <div class="col doc-controls text-right">
                             <div class="switch">

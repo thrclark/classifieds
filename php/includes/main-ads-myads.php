@@ -1,17 +1,32 @@
 <div class="row">
-    <div class="col-12 text-center other-ads">
-        <div class="other-ads-content">My current ads</div>
-        <hr>
-    </div>
     <div class="postitem grid">
         <div class="postitem-functions">
-           <div class="postitem-functions-set">
-               
-                <button class="btn btn-link" type="button"> <i aria-hidden="true" class="fa fa-pencil"></i> <span class="sr-only">
-                <message key="">Edit</message>
+            <div class="postitem-functions-set">
+                <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
+                <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
-                 <button class="btn btn-link" type="button"> <i aria-hidden="true" class="fa fa-trash-o"></i> <span class="sr-only">
-                <message key="">Delete</message>
+            </div>
+        </div>
+        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
+        <div class="overlay"></div>
+        <div class="postitem-row">
+            <div class="postitem-image-container">
+                <div class="post-image none"> <i aria-hidden="true" class="fa fa-asterisk"></i> <span class="sr-only">asdf</span> </div>
+            </div>
+            <!--<div class="postitem-newbanner" >New</div>-->
+            <div class="postitem-post-title" >Seeking: Looking for roommate! </div>
+            <div class="postitem-price" >$330/month</div>
+            <div class="w-100"></div>
+            <div class="postitem-description" >Looking for a guy or girl that's super chill to live with me & my two other roommates! We have two dogs and we love to have fun! We live at The Quarry on Copper Beech! Let me know ASAP!!!! </div>
+            <div class="postitem-postdate" >Oct 16</div>
+            <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
+        </div>
+        </a> </div>
+    <div class="postitem grid">
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
+                <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
+                <message key="main.watchlist.add">Add to Watchlist</message>
                 </span> </button>
             </div>
         </div>
@@ -30,39 +45,8 @@
             <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
         </div>
         </a> </div>
-    <div class="postitem grid">
-        <div class="postitem-functions">
-            <div class="postitem-functions-set">
-                  <button class="btn btn-link" type="button"> <i aria-hidden="true" class="fa fa-pencil"></i> <span class="sr-only">
-                <message key="">Edit</message>
-                </span> </button>
-                 <button class="btn btn-link" type="button"> <i aria-hidden="true" class="fa fa-trash-o"></i> <span class="sr-only">
-                <message key="">Delete</message>
-                </span> </button>
-            </div>
-        </div>
-        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
-        <div class="overlay"></div>
-        <div class="postitem-row">
-            <div class="postitem-image-container">
-                <div class="post-image none"> <i aria-hidden="true" class="fa fa-asterisk"></i> <span class="sr-only">asdf</span> </div>
-            </div>
-            <!--<div class="postitem-newbanner" >New</div>-->
-            <div class="postitem-post-title" >Downsizing Sale - Games/Electronics/Bike Basket/Home </div>
-            <div class="postitem-price" >Varies</div>
-            <div class="w-100"></div>
-            <div class="postitem-description" >Doing some downsizing and have a few things I'd like to get rid of. Please click here to view items: https://djhumphries.files.wordpress.com/2017/10/classifieds-listing.pdf
-                
-                Includes some gaming systems, games and accessories, bicycle basket, bluetooth earpiece, spotlifter, diffuser, cat box, etc.
-                
-                I live on the south side of town and don't bring all of these with me every day so I do need warning to meet up on Bloomington campus. Cash or Googlewallet only. Let me know if you have questions! </div>
-            <div class="postitem-postdate" >Oct 16</div>
-            <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
-        </div>
-        </a> </div>
-    <div class="col-12 text-center other-ads">
-        <div class="other-ads-content">My inactive ads</div>
-        <hr>
+    <div class="col-12 my-3">
+        <h2>My inactive ads</h2>
     </div>
     <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
         <div class="overlay"></div>

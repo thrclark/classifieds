@@ -112,9 +112,8 @@
             <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
         </div>
         </a> </div>
-    <div class="col-12 text-center other-ads">
-        <div class="other-ads-content">Listings from other campuses</div>
-        <hr>
+    <div class="col-12 my-3">
+        <h2>Listings from other campuses</h2>
     </div>
     <div class="postitem grid">
         <div class="postitem-functions">

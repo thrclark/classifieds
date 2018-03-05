@@ -1,0 +1,14 @@
+.modal-body {
+	padding-top: .5rem;
+}
+
+
+
+@include media-breakpoint-down(xs) {
+	h1 {
+		font-size: 1.5rem;
+	}
+	h2 {
+		font-size: 1.25rem;
+	}
+}

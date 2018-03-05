@@ -2,15 +2,14 @@
 <div class="modal fade" id="pub_fontbody" tabindex="-1" role="dialog" aria-labelledby="pub_fontbody" aria-hidden="true">
     <div class="modal-dialog modal-default" role="document">
         <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="">Application Branding</h5>
-                <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close" style=""> <span aria-hidden="true"> <i class="fa fa-close" aria-hidden="true"></i> </span> </button>
-            </div>
-            <div class="modal-body">
+             <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Body font family </h5>
+                <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
+            </div>            <div class="modal-body">
                 <div class="form-group">
                     <div class="form-group ">
-                        <label class="control-label " for="bodyfont">Font Family for Body Text </label>
-                        <small id="textfieldHelp" class="form-text text-muted">Choose a font family to be used for the body text.</small>
+                        <label class="control-label " for="bodyfont">Font family for body text </label>
+                        <div class="small helper-text">Choose a font family to be used for the body text.</div>
                         <select class="select form-control" id="bodyfont" name="bodyfont">
                             <option label="" value="Arial, Helvetica, sans-serif">Sans-Serif - Arial, Helvetica </option>
                             <option label="" value="'Arial Black', Gadget, sans-serif">Sans-Serif - "Arial Black", Gadget</option>
@@ -26,13 +25,13 @@
                         </select>
                     </div>
                     <div class="form-group custom-bodyfont">
-                        <label class="control-label" for="font_family"> Font Family Name</label>
-                        <small id="textfieldHelp" class="form-text text-muted">Specify the name of this custom font.</small>
+                        <label class="control-label" for="font_family"> Font family name</label>
+                        <div class="small helper-text">Specify the name of this custom font.</div>
                         <input class="form-control" id="font_family" name="font_family" type="text" required="required">
                     </div>
                     <div class="form-group custom-bodyfont">
                         <label class="control-label" for="font_family"> Weight</label>
-                        <small id="textfieldHelp" class="form-text text-muted">Specify the weight of this custom font.</small>
+                        <div class="small helper-text">Specify the weight of this custom font.</div>
                         <select ng-model="fontFace.fontWeight" name="fontFaces[0].fontWeight" id="fontFaces[0].fontWeight" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontWeights" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
                             <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                             <option label="bold" value="string:BOLD">bold</option>
@@ -49,7 +48,7 @@
                     </div>
                     <div class="form-group custom-bodyfont">
                         <label class="control-label" for="font_family"> Style</label>
-                        <small id="textfieldHelp" class="form-text text-muted">Specify the style of this custom font.</small>
+                        <div class="small helper-text">Specify the style of this custom font.</div>
                         <select ng-model="fontFace.fontStyle" name="fontFaces[0].fontStyle" id="fontFaces[0].fontStyle" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStyles" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
                             <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                             <option label="italic" value="string:ITALIC">italic</option>
@@ -58,7 +57,7 @@
                     </div>
                     <div class="form-group custom-bodyfont">
                         <label class="control-label" for="font_family"> Stretch</label>
-                        <small id="textfieldHelp" class="form-text text-muted">Specify the stretch of this custom font.</small>
+                        <div class="small helper-text">Specify the stretch of this custom font.</div>
                         <select ng-model="fontFace.fontStretch" name="fontFaces[0].fontStretch" id="fontFaces[0].fontStretch" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStretches" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
                             <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                             <option label="condensed" value="string:CONDENSED">condensed</option>
@@ -73,8 +72,8 @@
                     </div>
                     <div class="form-group custom-bodyfont">
                         <div class="form-label"> Font URLs</div>
-                        <small id="textfieldHelp" class="form-text text-muted">Specify URLs for this custom font.</small>
-                        <table class="table table-actions" id="myTable" style="margin-bottom: 0px">
+                        <div class="small helper-text">Specify URLs for this custom font.</div>
+                        <table class="table rbt-table-actions mb-2" id="myTable" style="margin-bottom: 0px">
                             <thead class="sr-only">
                                 <tr>
                                     <th >URL</th>
@@ -86,7 +85,7 @@
                                 <tr>
                                     <td class="w-50"><input type="text" class="form-control" placeholder="Enter URL"></td>
                                     <td class="w-50"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-required ng-touched" required aria-invalid="false">
-                                            <option selected="">Select Type</option>
+                                            <option selected="">Select type</option>
                                             <option label="Embedded OpenType" value="string:EMBEDDED_OPEN_TYPE">Embedded OpenType</option>
                                             <option label="OpenType" value="string:OPEN_TYPE">OpenType</option>
                                             <option label="SVG" value="string:SVG">SVG</option>
@@ -94,19 +93,19 @@
                                             <option label="WOFF" value="string:WOFF">WOFF</option>
                                             <option label="WOFF 2" value="string:WOFF2">WOFF 2</option>
                                         </select></td>
-                                    <td><a href="#" class="btn btn-outline-secondary btn-sm"><i class="fa fa-trash" aria-hidden="true"></i> <span class="sr-only">Delete</span></a></td>
+                                    <td><a href="#" class="btn btn-outline-primary btn-sm"><i class="fa fa-trash" aria-hidden="true"></i> <span class="sr-only">Delete</span></a></td>
                                 </tr>
                             </tbody>
                         </table>
                         <div class="row">
-                            <div class="col"><a href="#myTable" class="btn btn-outline-secondary btn-sm pull-right"><i class="fa fa-plus" aria-hidden="true"></i> URL</a></div>
+                            <div class="col"><a href="#myTable" class="btn btn-outline-primary btn-sm pull-right"><i class="fa fa-plus" aria-hidden="true"></i> URL</a></div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-link">Cancel</button>
                 <button type="button" class="btn btn-primary btn-progressable" id=""> <span class="btn-label">Save</span> </button>
+                <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Cancel</button>
             </div>
         </div>
     </div>
