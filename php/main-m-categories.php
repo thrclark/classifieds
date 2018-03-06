@@ -20,68 +20,22 @@ $page_title = '';
                         <h1>Categories</h1>
                     </div>
                     <nav>
-                        <div class="row">
-                            <div class="col-6 category-card"> <a href="main-home.php">
-                                <div class="category-icon mx-auto"> <span class="fa fa-th" aria-hidden="true"></span> </div>
-                                <div class="category-title">All ads</div>
-                                </a></div>
-                            <div class="col-6 category-card"> <a href="main-music.php">
-                                <div class="category-icon mx-auto"> <span class="fa fa-soccer-ball-o" aria-hidden="true"></span> </div>
-                                <div class="category-title">Activity partners</div>
-                                </a></div>
-                            <div class="col-6 category-card"> <a href="main-music.php">
-                                <div class="category-icon mx-auto"> <span class="fa fa-bullhorn" aria-hidden="true"></span> </div>
-                                <div class="category-title">Announcements</div>
-                                </a></div>
-                            <div class="col-6 category-card"> <a href="main-music.php">
-                                <div class="category-icon mx-auto"> <span class="fa fa-shield" aria-hidden="true"></span> </div>
-                                <div class="category-title">Antiques &amp; collectibles</div>
-                                </a></div>
-                            <div class="col-6 category-card"> <a href="main-music.php">
-                                <div class="category-icon mx-auto"> <span class="fa fa-book" aria-hidden="true"></span> </div>
-                                <div class="category-title">Books</div>
-                                </a></div>
-                            <div class="col-6 category-card"> <a href="main-music.php">
-                                <div class="category-icon mx-auto"> <span class="fa fa-bolt" aria-hidden="true"></span> </div>
-                                <div class="category-title">Electronics</div>
-                                </a></div>
-                            <div class="col-6 category-card"> <a href="main-music.php">
-                                <div class="category-icon mx-auto"> <span class="fa fa-hotel" aria-hidden="true"></span> </div>
-                                <div class="category-title">Furniture</div>
-                                </a></div>
-                            <div class="col-6 category-card"> <a href="main-music.php">
-                                <div class="category-icon mx-auto"> <span class="fa fa-handshake-o" aria-hidden="true"></span> </div>
-                                <div class="category-title">Jobs</div>
-                                </a></div>
-                            <div class="col-6 category-card"> <a href="main-music.php">
-                                <div class="category-icon mx-auto"> <span class="fa fa-question" aria-hidden="true"></span> </div>
-                                <div class="category-title">Lost &amp; found</div>
-                                </a></div>
-                            <div class="col-6 category-card"> <a href="main-music.php">
-                                <div class="category-icon mx-auto"> <span class="fa fa-tags" aria-hidden="true"></span> </div>
-                                <div class="category-title">Miscellaneous</div>
-                                </a></div>
-                            <div class="col-6 category-card"> <a href="main-music.php">
-                                <div class="category-icon mx-auto"> <span class="fa fa-music" aria-hidden="true"></span> </div>
-                                <div class="category-title">Musicians &amp; artists</div>
-                                </a></div>
-                            <div class="col-6 category-card"> <a href="main-music.php">
-                                <div class="category-icon mx-auto"> <span class="fa fa-thumbs-o-up" aria-hidden="true"></span> </div>
-                                <div class="category-title">Rideboard &amp; carpools</div>
-                                </a></div>
-                            <div class="col-6 category-card"> <a href="main-music.php">
-                                <div class="category-icon mx-auto"> <span class="fa fa-address-book" aria-hidden="true"></span> </div>
-                                <div class="category-title">Roommates &amp; sublets</div>
-                                </a></div>
-                            <div class="col-6 category-card"> <a href="main-music.php">
-                                <div class="category-icon mx-auto"> <span class="fa fa-ticket" aria-hidden="true"></span> </div>
-                                <div class="category-title">Tickets &amp; events</div>
-                                </a></div>
-                            <div class="col-6 category-card"> <a href="main-music.php">
-                                <div class="category-icon mx-auto"> <span class="fa fa-bicycle" aria-hidden="true"></span> </div>
-                                <div class="category-title">Vehicles</div>
-                                </a> </div>
-                        </div>
+                        <ul class="ccf-mobile-categories">
+                            <li class="list-group-item"><a href="main-music.php"><span class="fa fa-soccer-ball-o" aria-hidden="true"></span> Activity partners</a></li>
+                            <li class="list-group-item"><a href="main-music.php"><span class="fa fa-bullhorn" aria-hidden="true"></span> Announcements</a></li>
+                            <li class="list-group-item"><a href="main-music.php"><span class="fa fa-shield" aria-hidden="true"></span> Antiques &amp; collectibles</a></li>
+                            <li class="list-group-item"><a href="main-music.php"><span class="fa fa-book" aria-hidden="true"></span> Books</a></li>
+                            <li class="list-group-item"><a href="main-music.php"><span class="fa fa-bolt" aria-hidden="true"></span> Electronics</a></li>
+                            <li class="list-group-item"><a href="main-music.php"><span class="fa fa-hotel" aria-hidden="true"></span> Furniture</a></li>
+                            <li class="list-group-item"><a href="main-music.php"><span class="fa fa-handshake-o" aria-hidden="true"></span> Jobs</a></li>
+                            <li class="list-group-item"><a href="main-music.php"><span class="fa fa-question" aria-hidden="true"></span> Lost &amp; found</a></li>
+                            <li class="list-group-item"><a href="main-music.php"><span class="fa fa-tags" aria-hidden="true"></span> Miscellaneous</a></li>
+                            <li class="list-group-item"><a href="main-music.php"><span class="fa fa-music" aria-hidden="true"></span> Musicians &amp; artists</a></li>
+                            <li class="list-group-item"><a href="main-music.php"><span class="fa fa-thumbs-o-up" aria-hidden="true"></span> Rideboard &amp; carpools</a></li>
+                            <li class="list-group-item"><a href="main-music.php"><span class="fa fa-address-book" aria-hidden="true"></span> Roommates &amp; sublets</a></li>
+                            <li class="list-group-item"><a href="main-music.php"><span class="fa fa-ticket" aria-hidden="true"></span> Tickets &amp; events</a></li>
+                            <li class="list-group-item"><a href="main-music.php"><span class="fa fa-bicycle" aria-hidden="true"></span> Vehicles</a></li>
+                        </ul>
                     </nav>
                 </div>
             </div>

@@ -3029,10 +3029,10 @@ tbody.collapse.show {
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
-  .card > .list-group:first-child .list-group-item:first-child {
+  .card > .list-group:first-child .list-group-item:first-child, .card > .ccf-mobile-categories:first-child .list-group-item:first-child {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px; }
-  .card > .list-group:last-child .list-group-item:last-child {
+  .card > .list-group:last-child .list-group-item:last-child, .card > .ccf-mobile-categories:last-child .list-group-item:last-child {
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px; }
 
@@ -3062,7 +3062,7 @@ tbody.collapse.show {
   border-bottom: 0px solid rgba(0, 0, 0, 0.125); }
   .card-header:first-child {
     border-radius: calc(4px - 0px) calc(4px - 0px) 0 0; }
-  .card-header + .list-group .list-group-item:first-child {
+  .card-header + .list-group .list-group-item:first-child, .card-header + .ccf-mobile-categories .list-group-item:first-child {
     border-top: 0; }
 
 .card-footer {
@@ -3502,7 +3502,7 @@ tbody.collapse.show {
 .media-body {
   flex: 1; }
 
-.list-group {
+.list-group, .ccf-mobile-categories {
   display: flex;
   flex-direction: column;
   padding-left: 0;
@@ -5126,7 +5126,7 @@ button.bg-dark:focus {
 .m-3 {
   margin: 1rem !important; }
 
-.mt-3, .form-group .alert,
+.mt-3, .form-group .alert, .ccf-mobile-categories,
 .my-3 {
   margin-top: 1rem !important; }
 
@@ -6693,7 +6693,7 @@ button:disabled, button:disabled:hover,
   display: none; }
   .rbt-drawer.open {
     display: block; }
-  .rbt-drawer .list-group .list-group-item a {
+  .rbt-drawer .list-group .list-group-item a, .rbt-drawer .ccf-mobile-categories .list-group-item a {
     text-decoration: none;
     color: #444444; }
 
@@ -7700,6 +7700,15 @@ body {
 
 .ccf-table-categories .fa {
   font-size: 26px; }
+
+.ccf-mobile-categories {
+  margin-bottom: 100px; }
+  .ccf-mobile-categories .list-group-item a {
+    text-decoration: none;
+    color: #444444; }
+    .ccf-mobile-categories .list-group-item a .fa {
+      margin-right: 10px;
+      font-size: 24px; }
 
 .favorite .fa.fa-star {
   color: #fd7e14;
