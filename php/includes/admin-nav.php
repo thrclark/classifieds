@@ -2,13 +2,9 @@
 <nav class="sidebar">
     <ul class="rbt-sidebar-nav">
         <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="main-home.php">Main View</a> </li>
-    </ul>
-</nav>
-<hr>
-<nav class="sidebar">
-    <ul class="rbt-sidebar-nav">
+        <li class="dropdown-divider"> </li>
         <li <?php if ($page_title == 'Moderator') { echo 'class="active"'; } ?>><a href="admin-ads.php">Moderator</a></li>
-         <li <?php if ($page_title == 'Moderate Ads &amp; Users') { echo 'class="active"'; } ?>><a href="admin-userads.php">Moderate ads &amp; asers</a> </li>
+        <li <?php if ($page_title == 'Moderate Ads &amp; Users') { echo 'class="active"'; } ?>><a href="admin-userads.php">Moderate ads &amp; asers</a> </li>
         <li <?php if ($page_title == 'General Settings') { echo 'class="active"'; } ?>><a href="admin-generalsettings.php">General settings</a></li>
         <li <?php if ($page_title == 'Branding') { echo 'class="active"'; } ?>><a href="admin-branding.php">Branding</a></li>
         <li <?php if ($page_title == 'Categories') { echo 'class="active"'; } ?>><a href="admin-categories.php">Categories</a></li>

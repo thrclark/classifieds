@@ -9,7 +9,6 @@ $page_title = 'Restricted users';
 <head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
-
 </head>
 <body>
 <?php include('includes/all-custom-header.php') ?>
@@ -22,11 +21,11 @@ $page_title = 'Restricted users';
             </div>
         </div>
         <div class="col-12 col-md-9">
-            <div class="main-content">
+            <div class="main-content" id="main-content">
                 <div class="doc-header mb-3">
                     <div class="row">
                         <div class="col doc-title">
-                              <h1> <?php echo $page_title; ?></h1>
+                            <h1> <?php echo $page_title; ?></h1>
                         </div>
                         <div class="col doc-controls"> 
                             <!-- <button type="button" class="btn btn-outline-secondary btn-sm float-md-right">Restrict User</button>--> 

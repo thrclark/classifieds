@@ -9,7 +9,6 @@ $page_title = 'Markets';
 <head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
-
 </head>
 <body>
 <?php include('includes/all-custom-header.php') ?>
@@ -22,8 +21,8 @@ $page_title = 'Markets';
             </div>
         </div>
         <div class="col-12 col-md-9">
-            <div class="main-content">
-            <h1> <?php echo $page_title; ?></h1>
+            <div class="main-content" id="main-content">
+                <h1> <?php echo $page_title; ?></h1>
             </div>
         </div>
     </div>

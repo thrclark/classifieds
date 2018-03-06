@@ -20,8 +20,8 @@ $page_title = 'Moderator';
             </div>
         </div>
         <div class="col-12 col-md-9">
-            <div class="main-content">
-                    <h1> <?php echo $page_title; ?></h1>
+            <div class="main-content" id="main-content">
+                <h1> <?php echo $page_title; ?></h1>
                 <ul class="nav nav-pills" id="pills-tab" role="tablist">
                     <li class="nav-item">
                         <button class="nav-link active" id="moderate-ads-tab" data-toggle="pill" href="#moderate-ads" role="tab" aria-controls="moderate-ads" aria-selected="true">Ads</button>

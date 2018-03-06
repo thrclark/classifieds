@@ -9,7 +9,6 @@ $page_title = 'System parameters';
 <head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
-
 </head>
 <body>
 <?php include('includes/all-custom-header.php') ?>
@@ -22,11 +21,11 @@ $page_title = 'System parameters';
             </div>
         </div>
         <div class="col-12 col-md-9">
-            <div class="main-content">
+            <div class="main-content" id="main-content">
                 <div class="doc-header mb-3">
                     <div class="row">
                         <div class="col-8 col-6-sm doc-title">
-                               <h1> <?php echo $page_title; ?></h1>
+                            <h1> <?php echo $page_title; ?></h1>
                         </div>
                         <div class="col doc-controls text-right">
                             <div class="switch">

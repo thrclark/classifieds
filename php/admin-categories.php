@@ -21,7 +21,7 @@ $page_title = 'Categories';
             </div>
         </div>
         <div class="col-12 col-md-9">
-            <div class="main-content">
+            <div class="main-content" id="main-content">
                 <h1> <?php echo $page_title; ?></h1>
                 <table class="table table-sm rbt-table-actions ccf-table-categories tablesawww tablesaw-stackkk">
                     <thead>
@@ -51,7 +51,7 @@ $page_title = 'Categories';
                                 <message key="global.buttons.edit" ng-reflect-key="global.buttons.edit">Edit</message>
                                 </button>
                                 <button class="btn btn-outline-primary btn-sm" type="button">
-                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                 </button></td>
                         </tr>
                         <tr>
@@ -61,7 +61,7 @@ $page_title = 'Categories';
                                 <message key="global.buttons.edit" ng-reflect-key="global.buttons.edit">Edit</message>
                                 </button>
                                 <button class="btn btn-outline-primary btn-sm" type="button">
-                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                 </button></td>
                         </tr>
                         <tr>
@@ -71,7 +71,7 @@ $page_title = 'Categories';
                                 <message key="global.buttons.edit" ng-reflect-key="global.buttons.edit">Edit</message>
                                 </button>
                                 <button class="btn btn-outline-primary btn-sm" type="button">
-                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                 </button></td>
                         </tr>
                         <tr>
@@ -81,7 +81,7 @@ $page_title = 'Categories';
                                 <message key="global.buttons.edit" ng-reflect-key="global.buttons.edit">Edit</message>
                                 </button>
                                 <button class="btn btn-outline-primary btn-sm" type="button">
-                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                 </button></td>
                         </tr>
                         <tr>
@@ -91,7 +91,7 @@ $page_title = 'Categories';
                                 <message key="global.buttons.edit" ng-reflect-key="global.buttons.edit">Edit</message>
                                 </button>
                                 <button class="btn btn-outline-primary btn-sm" type="button">
-                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                 </button></td>
                         </tr>
                         <tr>
@@ -101,7 +101,7 @@ $page_title = 'Categories';
                                 <message key="global.buttons.edit" ng-reflect-key="global.buttons.edit">Edit</message>
                                 </button>
                                 <button class="btn btn-outline-primary btn-sm" type="button">
-                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                 </button></td>
                         </tr>
                         <tr>
@@ -111,7 +111,7 @@ $page_title = 'Categories';
                                 <message key="global.buttons.edit" ng-reflect-key="global.buttons.edit">Edit</message>
                                 </button>
                                 <button class="btn btn-outline-primary btn-sm" type="button">
-                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                 </button></td>
                         </tr>
                         <tr>
@@ -121,7 +121,7 @@ $page_title = 'Categories';
                                 <message key="global.buttons.edit" ng-reflect-key="global.buttons.edit">Edit</message>
                                 </button>
                                 <button class="btn btn-outline-primary btn-sm" type="button">
-                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                 </button></td>
                         </tr>
                         <tr>
@@ -131,7 +131,7 @@ $page_title = 'Categories';
                                 <message key="global.buttons.edit" ng-reflect-key="global.buttons.edit">Edit</message>
                                 </button>
                                 <button class="btn btn-outline-primary btn-sm" type="button">
-                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                 </button></td>
                         </tr>
                         <tr>
@@ -141,7 +141,7 @@ $page_title = 'Categories';
                                 <message key="global.buttons.edit" ng-reflect-key="global.buttons.edit">Edit</message>
                                 </button>
                                 <button class="btn btn-outline-primary btn-sm" type="button">
-                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                 </button></td>
                         </tr>
                         <tr>
@@ -151,7 +151,7 @@ $page_title = 'Categories';
                                 <message key="global.buttons.edit" ng-reflect-key="global.buttons.edit">Edit</message>
                                 </button>
                                 <button class="btn btn-outline-primary btn-sm" type="button">
-                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                 </button></td>
                         </tr>
                         <tr>
@@ -161,7 +161,7 @@ $page_title = 'Categories';
                                 <message key="global.buttons.edit" ng-reflect-key="global.buttons.edit">Edit</message>
                                 </button>
                                 <button class="btn btn-outline-primary btn-sm" type="button">
-                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                 </button></td>
                         </tr>
                         <tr>
@@ -171,7 +171,7 @@ $page_title = 'Categories';
                                 <message key="global.buttons.edit" ng-reflect-key="global.buttons.edit">Edit</message>
                                 </button>
                                 <button class="btn btn-outline-primary btn-sm" type="button">
-                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                 </button></td>
                         </tr>
                     </tbody>
