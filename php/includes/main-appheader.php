@@ -1,5 +1,5 @@
 
-<header class="rbt-app-header rbt-app-header--light">
+<header class="rbt-app-header rbt-app-header--light"><a class="rbt-skip-link" href="#main-content">Skip to content</a>
     <div class="container">
         <div class="row align-items-center"> 
             

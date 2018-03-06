@@ -3720,7 +3720,7 @@ button.close {
   .modal-backdrop.fade {
     opacity: 0; }
   .modal-backdrop.show {
-    opacity: 0.5; }
+    opacity: 0.7; }
 
 .modal-header {
   display: flex;
@@ -6644,15 +6644,17 @@ a.text-dark:hover, a.text-dark:focus {
 .btn.btn-link {
   text-decoration: none; }
 
-button:disabled, button:disabled:hover, .button:disabled, .button:disabled:hover, .rvt-button:disabled, .rvt-button:disabled:hover {
-  background-color: #eeeeee;
-  color: #666666;
-  border-color: #aaaaaa;
-  cursor: not-allowed;
-  opacity: 1; }
-
-.btn.disabled, .btn:disabled {
-  opacity: 1; }
+button:disabled, button:disabled:hover,
+.button:disabled,
+.button:disabled:hover,
+.rvt-button:disabled,
+.rvt-button:disabled:hover,
+.btn.disabled {
+  background-color: #eeeeee !important;
+  color: #666666 !important;
+  border-color: #aaaaaa !important;
+  cursor: not-allowed !important;
+  opacity: 1 !important; }
 
 .rbt-button-group {
   display: flex; }
@@ -6812,6 +6814,10 @@ input[type="radio"] {
   input[type="radio"]:checked:disabled + label:before {
     background-color: #cccccc;
     box-shadow: inset 0 0 0 3px #dddddd, 0 0 0 2px #cccccc; }
+  input[type="radio"]:checked:focus + label:before {
+    box-shadow: inset 0 0 0 3px #fff, 0 0 0 2px #006298, 0 0 1px 5px rgba(0, 98, 152, 0.5); }
+  input[type="radio"]:focus + label:before {
+    box-shadow: 0 0 0 2px #006298, 0 0 1px 5px rgba(0, 98, 152, 0.5); }
 
 input[type="checkbox"] {
   position: absolute;
@@ -6827,6 +6833,8 @@ input[type="checkbox"] {
     box-shadow: 0 0 0 2px #cccccc;
     vertical-align: middle;
     margin-top: -.1rem; }
+  input[type="checkbox"]:focus + label:before {
+    box-shadow: 0 0 0 2px #006298, 0 0 1px 5px rgba(0, 98, 152, 0.5); }
   input[type="checkbox"]:checked + label:before {
     color: #fff;
     background-color: #006298;
@@ -6836,6 +6844,8 @@ input[type="checkbox"] {
     font-size: 12px;
     padding-left: 2px;
     line-height: 1.4; }
+  input[type="checkbox"]:checked:focus + label:before {
+    box-shadow: 0 0 0 2px #006298, 0 0 1px 5px rgba(0, 98, 152, 0.5); }
   input[type="checkbox"]:disabled + label {
     color: #cccccc;
     cursor: default; }
@@ -6890,10 +6900,18 @@ select.form-control {
     list-style: none; }
 
 .rbt-app-header {
-  border-bottom: 1px solid #eaeaea;
-  background-color: #f7f7f7;
+  border-bottom: 1px solid #eeeeee;
+  background-color: #fafafa;
   position: relative;
   z-index: 5; }
+  .rbt-app-header .rbt-skip-link {
+    position: fixed;
+    top: -6rem;
+    padding: 0.5rem; }
+    .rbt-app-header .rbt-skip-link:focus {
+      top: 0;
+      background-color: #fff;
+      z-index: 1; }
   .rbt-app-header a {
     text-decoration: none; }
   .rbt-app-header.rbt-app-header--light {
@@ -6974,9 +6992,8 @@ ul li, ol li {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1; }
-  .modal-content .modal-header .close .rbt-icon-close {
-    top: 15px;
-    right: 15px; }
+  .modal-content .modal-header .close {
+    margin: -7px -5px -15px auto; }
 .modal-content .modal-footer {
   padding: 1rem 1.5rem;
   background: #fafafa; }
@@ -6994,9 +7011,11 @@ ul li, ol li {
 
 .table th {
   font-weight: normal;
-  padding: 1rem; }
+  padding: 1rem;
+  border-top: none; }
 .table td {
-  padding: 1rem; }
+  padding: 1rem;
+  border-top: none; }
 .table thead {
   text-transform: uppercase;
   font-size: .875rem;
@@ -7026,8 +7045,10 @@ ul li, ol li {
   white-space: nowrap;
   text-align: right; }
 
-.table-striped tbody tr:nth-of-type(even) {
-  background-color: rgba(0, 0, 0, 0.05); }
+.table-striped tbody tr {
+  border: none; }
+  .table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(0, 0, 0, 0.05); }
 
 .table-striped tbody tr:nth-of-type(odd) {
   background-color: transparent; }
