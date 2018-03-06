@@ -9,7 +9,6 @@ $page_title = 'Branding';
 <head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
-
 </head>
 <body>
 <?php include('includes/all-custom-header.php') ?>
@@ -22,19 +21,19 @@ $page_title = 'Branding';
             </div>
         </div>
         <div class="col-12 col-md-9">
-            <div class="main-content">
+            <div class="main-content" id="main-content">
                 <div class="row justify-content-between align-items-center">
-                        <div class="col-auto">
-                              <h1> <?php echo $page_title; ?></h1>
-                        </div>
-                        <div class="col-auto">
-                            <div class="form-check rbt-checkbox" >
-                                <label class="form-check-label" tabindex="0">
-                                    <input class="form-check-input" type="checkbox" name="togle_help" id="togle_help" checked value="on" >
-                                    <span class="rbt-radiocheck-helper"> </span>Help</label>
-                            </div>
+                    <div class="col-auto">
+                        <h1> <?php echo $page_title; ?></h1>
+                    </div>
+                    <div class="col-auto">
+                        <div class="form-check rbt-checkbox" >
+                            <label class="form-check-label" tabindex="0">
+                                <input class="form-check-input" type="checkbox" name="togle_help" id="togle_help" checked value="on" >
+                                <span class="rbt-radiocheck-helper"> </span>Help</label>
                         </div>
                     </div>
+                </div>
                 <table class="table table-sm table-actions tablesawww tablesaw-stackkk" data-tablesaw-mode="stackkk">
                     <thead>
                         <tr>

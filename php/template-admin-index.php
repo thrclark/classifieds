@@ -21,7 +21,7 @@ $page_title = '';
             </div>
         </div>
         <div class="col-12 col-md-9">
-            <div class="main-content">
+            <div class="main-content" id="main-content">
                 <div class="doc-header mb-3">
                     <div class="row">
                         <div class="col doc-title">

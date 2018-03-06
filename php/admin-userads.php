@@ -24,7 +24,8 @@ $page_title = 'Moderate Ads &amp; Users';
             </div>
         </div>
         <div class="col-12 col-md-9">
-            <div class="main-content"><h1> <?php echo $page_title; ?></h1>
+            <div class="main-content" id="main-content">
+                <h1> <?php echo $page_title; ?></h1>
                 <ul class="nav nav-pills" id="pills-tab" role="tablist">
                     <li class="nav-item">
                         <button class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Ads</button>
