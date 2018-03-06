@@ -20,7 +20,7 @@ $page_title = 'My ads';
                     <hr>
                     <?php include('includes/main-nav.php') ?>
                 </div>
-                <div class="col-xs-12 col-md-9 main-content-section" role="main">
+                <div class="col-xs-12 col-md-9 main-content-section" id="main-conten">
                     <div class="row align-items-center section-head">
                         <div class="col-12 section-head-title">
                             <h1 class="mb-1"> <?php echo $page_title; ?></h1>
