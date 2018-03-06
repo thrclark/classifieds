@@ -9,14 +9,6 @@ body {
 
 }
 
-
-//used in admin - categories
-.ccf-table-categories {
-	.fa {
-		font-size: 26px;
-	}
-}
-
 .ccf-mobile-categories {
 	@extend .list-group;
 	@extend .mt-3;

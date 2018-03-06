@@ -7055,8 +7055,7 @@ ul li, ol li {
 
 .ts-12,
 .rbt-ts-12,
-.rbt-footer,
-.category-card .category-title {
+.rbt-footer {
   font-size: 0.75rem !important; }
 
 .ts-14,
@@ -7696,27 +7695,6 @@ label.img-ul-button[_ngcontent-c0] input[type=file][_ngcontent-c0] {
     .footer-menu .btn:hover {
       background: #444444; }
 
-.category-card {
-  margin-bottom: 1.2rem; }
-  .category-card a {
-    text-decoration: none; }
-  .category-card .category-icon {
-    font-size: 4rem;
-    background: #fff;
-    padding: 5px;
-    border-radius: 5px;
-    height: 110px;
-    text-align: center;
-    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
-  .category-card .category-title {
-    text-align: center;
-    margin-top: 5px;
-    color: #006298;
-    text-decoration: none; }
-  .category-card .category-icon .fa {
-    color: #006298; }
-
 ccf-image-slider {
   display: block;
   position: relative; }
@@ -7747,9 +7725,6 @@ body {
     border-right: solid 1px #dddddd; }
   body .main-content-section {
     padding-bottom: 100px; }
-
-.ccf-table-categories .fa {
-  font-size: 26px; }
 
 .ccf-mobile-categories {
   margin-bottom: 100px; }
