@@ -1,5 +1,5 @@
 
-<div class="modal fade" id="post_detail" tabindex="-1" role="dialog" aria-labelledby="post_detail" aria-hidden="true">
+<div class="post-details modal fade" id="post_detail" tabindex="-1" role="dialog" aria-labelledby="post_detail" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -8,7 +8,7 @@
             </div>
             <div class="modal-body">
                 <div class="row no-gutters mb-3">
-                    <div class="col-12 rbt-ts-26">$1400.00 or best offer</div>
+                    <div class="col-12 rbt-ts-23">$1400.00 or best offer</div>
                     <div class="col-auto small"> <span class="font-italic">2/14/18 </span> </div>
                     <div class="col-auto small">
                         <div class="mx-2 text-muted">|</div>
@@ -31,11 +31,11 @@
                 <!--<div class="post-descrip">asfd asdf asfd asfd asfd asf asdfasdf asfd asdf asdf asdf asdf </div>-->
                 
                 <dl>
-                    <dt>Description</dt>
+                    <dt class="hidethis">Description</dt>
                     <dd>This is a beautiful original lacquer Mark VI tenor saxophone from 1962, serial number 99015. The lacquer finish on the horn is in exquisite condition. Its original finish displays a very dark honey tint which is perfectly complemented by the crisp American floral engraving. The lacquer condition is about as clean and pristine as you will ever see. </dd>
-                    <dt>Contact</dt>
+                    <dt class="line-it-up">Contact:</dt>
                     <dd>812-555-4567</dd>
-                    <dt>Email</dt>
+                    <dt class="line-it-up">Email:</dt>
                     <dd><a href="mailto:thrclark@iu.edu">thrclark@iu.edu</a></dd>
                 </dl>
             </div>
@@ -44,8 +44,8 @@
                     <div class="row align-items-center">
                         <div class="col">
                             <div class="rbt-button-group">
-                                <button class="btn btn-outline-primary favorite"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="">Watchlist</span></button>
-                                <button type="button" class="btn btn-outline-primary"> <i class="fa fa-share-alt d-sm-none"></i> <span class="d-none d-sm-inline">Share</span></button>
+                                <button class="btn btn-outline-primary favorite mod-actions"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="">Watchlist</span></button>
+                                <button type="button" class="btn btn-outline-primary mod-actions"> <i aria-hidden="true" class="fa fa-envelope-o"></i> <span class="">Share</span></button>
                             </div>
                         </div>
                         <div class="col-auto"> <a href="#" class="font-italic small">Report this</a> </div>
