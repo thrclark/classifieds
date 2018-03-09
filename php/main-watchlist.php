@@ -16,6 +16,8 @@ $page_title = 'Watchlist';
         <div class="container">
             <div class="row">
                 <div class="col-3 d-none d-md-block nav-section">
+                    <?php include('includes/main-user-options.php') ?>
+                    <hr>
                     <?php include('includes/main-nav.php') ?>
                 </div>
                 <div class="col-xs-12 col-md-9 main-content-section" id="main-conten">
@@ -31,7 +33,7 @@ $page_title = 'Watchlist';
                 </div>
             </div>
         </div>
-        <?php include('modals/modal-main-ad-detail.php') ?>
+        <?php include('modals/modal-watchlist-ad-detail.php') ?>
     </section>
     <?php include('includes/main-footer-menu.php') ?>
 </div>
