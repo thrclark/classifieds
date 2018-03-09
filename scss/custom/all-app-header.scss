@@ -17,9 +17,3 @@
 .rbt-drawer {
   z-index: 3;
 }
-
-.is-sticky {
-  .rbt-app-header {
-    @include shadow;
-  }
-}
