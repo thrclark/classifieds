@@ -13,4 +13,21 @@
 	margin-right: auto;
 	vertical-align: middle;
 }
+.line-it-up{
+	float: left;
+	width: 80px;
+}
+.rbt-right-group {
+    margin-right: 15px;
+}
+@media(max-width:564px) {
+	.mod-actions{
+		padding: .3rem .3rem;
+		margin-right: .25rem !important;
+    	font-size: 78% !important;
+	}
+	.favorite .fa.fa-star-o {
+    	font-size: 14px;
+	}
+}
 </style>
