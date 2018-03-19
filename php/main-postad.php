@@ -248,6 +248,7 @@ $page_title = 'Post ad';
                                 </div>
                             </div>
                             <div class="form-group">
+                                <div class="font-weight-bold rbt-ts-14">Upload Images</div>
                                 <ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                     <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
                                         <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
