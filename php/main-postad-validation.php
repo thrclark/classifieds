@@ -45,39 +45,51 @@ $page_title = 'Post ad';
                         <form novalidate ng-reflect-form="[object Object]" class="ng-untouched ng-pristine ng-invalid">
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="form-group rbt-charcount">
+                                    <div class="form-group rbt-charcount rbt-has-error">
                                         <label for="titleLabel">
                                             <message key="global.ad.field.title" ng-reflect-key="global.ad.field.title">Title</message>
                                             <small>
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </small></label>
                                         <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="titleLabel" placeholder="" maxlength="200">
-                                        <span class="badge badge-success" id="titleLabel_badge"><span id="titleLabel_counter">0</span>/200</span> </div>
+                                        <span class="badge badge-success" id="titleLabel_badge"><span id="titleLabel_counter">0</span>/200</span>
+                                        <div class="alert alert-danger" role="alert">
+                                            <div class="rbt-alert-inline-message">A title is required.</div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="form-group rbt-charcount">
+                                    <div class="form-group rbt-charcount rbt-has-error">
                                         <label class="control-label" for="descriptionLabel">
                                             <message key="global.ad.field.description" ng-reflect-key="global.ad.field.description">Description</message>
                                         </label>
                                         <textarea aria-labelledby="descriptionLabel" class="form-control" formcontrolname="description" rows="8" ng-reflect-name="description" maxlength="2000" id="descriptionLabel"></textarea>
-                                        <span class="badge badge-success" id="descriptionLabel_badge"><span id="descriptionLabel_counter">0</span>/2000</span> </div>
+                                        <span class="badge badge-success" id="descriptionLabel_badge"><span id="descriptionLabel_counter">0</span>/2000</span>
+                                        <div class="alert alert-danger" role="alert">
+                                            <div class="rbt-alert-inline-message">Description must be under 2000 characters.</div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-6 col-12">
-                                    <div class="form-group rbt-charcount">
+                                    <div class="form-group rbt-charcount rbt-has-error">
                                         <label for="contactNameLabel">
                                             <message key="global.ad.field.title" ng-reflect-key="global.ad.field.title">Contact Info</message>
                                             <small>
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </small></label>
                                         <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="contactNameLabel" placeholder="" maxlength="50">
-                                        <span class="badge badge-success" id="contactNameLabel_badge"><span id="contactNameLabel_counter">0</span>/50</span> </div>
+                                        <span class="badge badge-success" id="contactNameLabel_badge"><span id="contactNameLabel_counter">0</span>/50</span>
+                                        <div class="alert alert-danger" role="alert">
+                                            <div class="rbt-alert-inline-message">Contact info is required.</div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-lg-6 col-12">
-                                    <div class="form-group">
+                                    <div class="form-group rbt-has-error">
                                         <label for="textinput-full">
                                             <message key="global.ad.field.category" ng-reflect-key="global.ad.field.category">Category</message>
                                             <span class="subLabel small">
@@ -93,25 +105,35 @@ $page_title = 'Post ad';
                                             <option value="1006" ng-reflect-value="1006">Furniture</option>
                                             <option value="1007" ng-reflect-value="1007">Roommates &amp; Sublets</option>
                                         </select>
+                                        <div class="alert alert-danger" role="alert">
+                                            <div class="rbt-alert-inline-message">A category is required.</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-6 col-12">
-                                    <div class="form-group rbt-charcount">
+                                    <div class="form-group rbt-charcount rbt-has-error">
                                         <label for="priceLabel">
                                             <message key="global.ad.field.price" ng-reflect-key="global.ad.field.price">Price</message>
                                         </label>
                                         <input type="text" aria-labelledby="priceLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="priceLabel" placeholder="" maxlength="20">
-                                        <span class="badge badge-success" id="priceLabel_badge"><span id="priceLabel_counter">0</span>/20</span> </div>
+                                        <span class="badge badge-success" id="priceLabel_badge"><span id="priceLabel_counter">0</span>/20</span>
+                                        <div class="alert alert-danger" role="alert">
+                                            <div class="rbt-alert-inline-message">Price must be under 20 characters.</div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-lg-6 col-12">
-                                    <div class="form-group">
+                                    <div class="form-group rbt-has-error">
                                         <label class="control-label" id="marketIdLabel">Campus</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option value="100" ng-reflect-value="100">Bloomington (IUB)</option>
                                             <option value="102" ng-reflect-value="102">Koko,o (IUK)</option>
                                         </select>
+                                        <div class="alert alert-danger" role="alert">
+                                            <div class="rbt-alert-inline-message">A campus is required.</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -122,19 +144,23 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.type" ng-reflect-key="global.ad.field.type">Ad Purpose</message>
                                         </label>
                                         <select class="form-control" id="exampleFormControlSelect1">
+                                            <option value="UNSPECIFIED" ng-reflect-value="UNSPECIFIED">Unspecified</option>
                                             <option value="NEED" ng-reflect-value="NEED">Seeking</option>
                                             <option value="OFFER" ng-reflect-value="OFFER">For Sale</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-12">
-                                    <div class="form-group">
+                                    <div class="form-group rbt-has-error">
                                         <label class="control-label" id="expireDateLabel">
                                             <message key="global.ad.field.expireDate" ng-reflect-key="global.ad.field.expireDate">Expiration Date</message>
                                         </label>
                                         <div class="input-group">
                                             <input type="text" class="form-control" id="dateLabel" placeholder="mm/dd/yyyy" aria-label="" aria-describedby="basic-addon2">
                                             <div class="input-group-append"> <span class="input-group-text" id="basic-addon2"><i aria-hidden="true" class="fa fa-calendar"></i></span> </div>
+                                        </div>
+                                        <div class="alert alert-danger" role="alert">
+                                            <div class="rbt-alert-inline-message">Invalid date format.</div>
                                         </div>
                                         <div class="bs-datepicker">
                                             <div class="bs-datepicker-container">

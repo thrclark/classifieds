@@ -42,6 +42,8 @@ $page_title = '';
                 <li><a href="php/main-myads.php">My Ads</a></li>
                 <li><a href="php/main-watchlist.php" target="_blank">My Watchlist</a></li>
                 <li><a href="php/main-music.php" target="_blank">Category View</a></li>
+                <li><a href="php/main-postad.php" target="_blank">Post Ad</a></li>
+                <li><a href="php/main-postad-validation.php" target="_blank">Post Ad - Validation</a></li>
             </ul>
         </div>
         <div class="col">
@@ -63,7 +65,6 @@ $page_title = '';
         </div>
     </div>
 </div>
-
 <div class="container">
     <hr>
     on <a href="https://github.com/thrclark/classifieds" target="_blank">Github</a></div>
