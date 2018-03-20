@@ -10,7 +10,7 @@
             <div class="col rbt-brand-title-container"> <span class="rbt-header-title"> <a  href="main-home.php"class="rbt-brand-title"><strong>Classifieds</strong> Admin</a></span> </div>
             
             <!--App Nav-->
-            <div class="col-auto">
+           <!-- <div class="col-auto">
                 <div class="row align-items-center">
                     <div class="col-auto d-none d-lg-block">
                         <ul class="nav align-items-center">
@@ -25,7 +25,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div>-->
             
             <!-- App Mobile Menu-->
             <div class="col-auto d-lg-none rbt-drawer-button">
@@ -40,7 +40,7 @@
 <!--Drawer menu-->
 <div class="rbt-drawer">
     <nav>
-        <h3 class="rbt-ts-14 text-uppercase mt-1 mb-2">Moderator</h3>
+        <h3 class="rbt-ts-14 text-uppercase mt-4 mb-2">Moderator</h3>
         <ul class="list-group ">
             <li class="list-group-item"> <a href="admin-ads.php">Moderate ads</a></li>
             <li class="list-group-item"> <a href="main-home.php">Main view</a></li>

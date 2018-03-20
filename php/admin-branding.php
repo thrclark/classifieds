@@ -28,9 +28,10 @@ $page_title = 'Branding';
                     </div>
                     <div class="col-auto">
                         <div class="form-check rbt-checkbox" >
-                            <label class="form-check-label" tabindex="0">
-                                <input class="form-check-input" type="checkbox" name="togle_help" id="togle_help" checked value="on" >
-                                <span class="rbt-radiocheck-helper"> </span>Help</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="togle_help" value="on" checked>
+                                <label class="form-check-label" for="togle_help">Help</label>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -199,7 +200,7 @@ $page_title = 'Branding';
 <script>
  $(document).ready(function() {
      $(".btn-progressable").click(function() {
-         $(".btn-progressable").toggleClass("btn-progress");
+         $(".btn-progressable").toggleClass("rbt-btn-progress");
          $(".btn-label").fadeOut("fast", function() {
              $(".btn-label").text(($(".btn-label").text() == 'Saving...') ? 'Save' : 'Saving...').fadeIn(200);
          })

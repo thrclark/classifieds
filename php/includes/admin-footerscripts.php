@@ -82,6 +82,9 @@
             $('.postitem').removeClass('thumb');	
             $('.postitem').removeClass('list');
             $('.postitem').removeClass('mobile');
+			$('#set_grid').addClass('active');
+			$('#set_thumb, #set_list').removeClass('active');
+			
         });
 
         $('#set_thumb').click(function() {
@@ -89,12 +92,16 @@
             $('.postitem').removeClass('grid');
             $('.postitem').removeClass('list');
             $('.postitem').removeClass('mobile');
+			$('#set_thumb').addClass('active');
+			$('#set_grid, #set_list').removeClass('active');
         });
         $('#set_list').click(function() {
             $('.postitem').addClass('list');
             $('.postitem').removeClass('grid');
             $('.postitem').removeClass('thumb');
             $('.postitem').removeClass('mobile');
+			$('#set_list').addClass('active');
+			$('#set_thumb, #set_grid').removeClass('active');
         });
 
     });
@@ -288,12 +295,12 @@ $(function(){
 
 <script> //page reset for prototype only
     $(document).ready(function() {
-        $(window).resizeee(function() {
-            if ($(window).width() > 767) {
-                window.location = "main-home.php";
-            } else {
+        $(window).resize(function() {
+            //if ($(window).width() > 767) {
+            //    window.location = "main-home.php";
+            //} else {
                 
-            }
+            //}
         });
     });
 </script>
