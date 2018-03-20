@@ -8,7 +8,7 @@
             </div>
             <div class="modal-body">
                 <div class="row no-gutters mb-3">
-                    <div class="col-12 rbt-ts-26">$1400.00 or best offer</div>
+                    <div class="col-12 rbt-ts-23">$1400.00 or best offer</div>
                     <div class="col-auto small"> <span class="font-italic">2/14/18 </span> </div>
                     <div class="col-auto small">
                         <div class="mx-2 text-muted">|</div>

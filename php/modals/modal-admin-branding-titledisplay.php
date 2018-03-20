@@ -8,15 +8,13 @@
             </div>
             <div class="modal-body">
                 <p> Choose whether or not to display the application name in the header.</p>
-                <div class="form-check rbt-radio">
-                    <label class="form-check-label">
-                        <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios1" value="option1" checked>
-                        <span class="rbt-radiocheck-helper"> </span> Display application name </label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="stacked1" value="option1" checked>
+                    <label class="form-check-label" for="stacked1"> Display application name </label>
                 </div>
-                <div class="form-check rbt-radio">
-                    <label class="form-check-label">
-                        <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option2">
-                        <span class="rbt-radiocheck-helper"> </span> Do not display application name </label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="stacked2" value="option2">
+                    <label class="form-check-label" for="stacked2"> Do not display application name </label>
                 </div>
             </div>
             <div class="modal-footer">
