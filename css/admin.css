@@ -7765,6 +7765,9 @@ label.img-ul-button[_ngcontent-c0] input[type=file][_ngcontent-c0] {
 .rbt-drawer {
   z-index: 3; }
 
+.ccf-searchtrigger .btn {
+  color: #444444; }
+
 .footer-menu {
   position: fixed;
   left: 0px;
