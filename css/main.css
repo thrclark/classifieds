@@ -1422,7 +1422,7 @@ pre {
   color: #666666;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #cccccc;
+  border: 1px solid #666666;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   .form-control::-ms-expand {
@@ -2491,7 +2491,7 @@ tbody.collapse.show {
   text-align: center;
   white-space: nowrap;
   background-color: #fff;
-  border: 1px solid #cccccc;
+  border: 1px solid #666666;
   border-radius: 0.25rem; }
   .input-group-text input[type="radio"],
   .input-group-text input[type="checkbox"] {
@@ -2601,7 +2601,7 @@ tbody.collapse.show {
   vertical-align: middle;
   background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23555555' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
   background-size: 8px 10px;
-  border: 1px solid #cccccc;
+  border: 1px solid #666666;
   border-radius: 0.25rem;
   appearance: none; }
   .custom-select:focus {
@@ -2666,7 +2666,7 @@ tbody.collapse.show {
   line-height: 1;
   color: #666666;
   background-color: #fff;
-  border: 1px solid #cccccc;
+  border: 1px solid #666666;
   border-radius: 0.25rem; }
   .custom-file-label::after {
     position: absolute;
@@ -2681,7 +2681,7 @@ tbody.collapse.show {
     color: #666666;
     content: "Browse";
     background-color: #fff;
-    border-left: 1px solid #cccccc;
+    border-left: 1px solid #666666;
     border-radius: 0 0.25rem 0.25rem 0; }
 
 .nav {
@@ -6704,7 +6704,7 @@ button:disabled, button:disabled:hover,
     color: #444444; }
 
 .dropdown-toggle::after {
-  margin-left: .5rem;
+  margin-left: 0px;
   vertical-align: -3px;
   border-top: none;
   border-right: none;
@@ -6716,7 +6716,8 @@ button:disabled, button:disabled:hover,
   font-weight: normal;
   text-decoration: inherit;
   font-size: 1.5rem;
-  margin-top: -10px; }
+  margin-top: -10px;
+  width: 0.75rem; }
 
 .dropdown a {
   text-decoration: none; }
@@ -6761,6 +6762,18 @@ button:disabled, button:disabled:hover,
 .rbt-icon-menu:before {
   content: "\62"; }
 
+.rbt-icon-info-o:before {
+  content: "\63"; }
+
+.rbt-icon-dash-o:before {
+  content: "\64"; }
+
+.rbt-icon-close-o:before {
+  content: "\65"; }
+
+.rbt-icon-check-o:before {
+  content: "\66"; }
+
 .rbt-footer {
   background-color: #fafafa;
   border-top: 1px solid #eeeeee;
@@ -6798,7 +6811,7 @@ input[type="radio"] {
   left: -1em;
   opacity: 0; }
   input[type="radio"] + label:before {
-    box-shadow: 0 0 0 2px #cccccc;
+    box-shadow: 0 0 0 0.08rem #666666;
     content: " ";
     line-height: 1;
     vertical-align: middle;
@@ -6816,7 +6829,8 @@ input[type="radio"] {
     cursor: default;
     color: #666666; }
     input[type="radio"]:disabled + label:before {
-      background-color: #dddddd; }
+      background-color: #dddddd;
+      box-shadow: 0 0 0 0.08rem #cccccc; }
   input[type="radio"]:checked:disabled + label:before {
     background-color: #cccccc;
     box-shadow: inset 0 0 0 3px #dddddd, 0 0 0 2px #cccccc; }
@@ -6836,7 +6850,7 @@ input[type="checkbox"] {
     margin-right: .75rem;
     width: 1rem;
     height: 1rem;
-    box-shadow: 0 0 0 2px #cccccc;
+    box-shadow: 0 0 0 0.08rem #666666;
     vertical-align: middle;
     margin-top: -.1rem; }
   input[type="checkbox"]:focus + label:before {
@@ -6904,6 +6918,107 @@ select.form-control {
   padding-left: 0px; }
   .rbt-checkbox-hierarchy li {
     list-style: none; }
+
+.was-validated .form-control:valid,
+.form-control.is-valid,
+.was-validated .custom-select:valid,
+.custom-select.is-valid {
+  border-color: #008a28;
+  box-shadow: 0 0 0 0.125rem #008a28; }
+  .was-validated .form-control:valid:focus,
+  .form-control.is-valid:focus,
+  .was-validated .custom-select:valid:focus,
+  .custom-select.is-valid:focus {
+    border-color: #666666;
+    box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.2875rem #008a28; }
+
+.valid-feedback {
+  width: 100%;
+  margin-top: 0.5rem;
+  color: #777777;
+  line-height: 1; }
+  .valid-feedback [class^="rbt-icon-"] {
+    display: inline-block;
+    vertical-align: middle;
+    color: #008a28;
+    margin-right: 5px;
+    font-size: 16px; }
+
+.custom-select.is-warning,
+.form-control.is-warning {
+  border-color: #ffc107;
+  box-shadow: 0 0 0 0.125rem #ffc107; }
+  .custom-select.is-warning:focus,
+  .form-control.is-warning:focus {
+    border-color: #666666;
+    box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.2875rem #ffc107; }
+
+.warning-feedback {
+  width: 100%;
+  margin-top: 0.5rem;
+  color: #777777;
+  line-height: 1; }
+  .warning-feedback [class^="rbt-icon-"] {
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffc107;
+    margin-right: 5px;
+    font-size: 16px; }
+
+.custom-select.is-invalid,
+.form-control.is-invalid,
+.was-validated .custom-select:invalid,
+.was-validated .form-control:invalid {
+  border-color: #df3603;
+  box-shadow: 0 0 0 0.125rem #df3603; }
+  .custom-select.is-invalid:focus,
+  .form-control.is-invalid:focus,
+  .was-validated .custom-select:invalid:focus,
+  .was-validated .form-control:invalid:focus {
+    border-color: #666666;
+    box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.2875rem #df3603; }
+
+.invalid-feedback {
+  width: 100%;
+  margin-top: 0.5rem;
+  color: #777777;
+  line-height: 1; }
+  .invalid-feedback [class^="rbt-icon-"] {
+    display: inline-block;
+    vertical-align: middle;
+    color: #df3603;
+    margin-right: 5px;
+    font-size: 16px; }
+
+.custom-select.is-info,
+.form-control.is-info {
+  border-color: #17a2b8;
+  box-shadow: 0 0 0 0.125rem #17a2b8; }
+  .custom-select.is-info:focus,
+  .form-control.is-info:focus {
+    border-color: #666666;
+    box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.2875rem #17a2b8; }
+
+.info-feedback {
+  width: 100%;
+  margin-top: 0.5rem;
+  color: #777777;
+  line-height: 1; }
+  .info-feedback [class^="rbt-icon-"] {
+    display: inline-block;
+    vertical-align: middle;
+    color: #17a2b8;
+    margin-right: 5px;
+    font-size: 16px; }
+
+.alert-danger [class^="rbt-icon-"] {
+  display: inline-block;
+  vertical-align: middle;
+  color: #df3603;
+  margin-right: 5px;
+  margin-left: 4px;
+  font-size: 16px;
+  margin-top: 3px; }
 
 .rbt-app-header {
   border-bottom: 1px solid #eeeeee;
@@ -7145,7 +7260,11 @@ ul li, ol li {
 
 .ts-14,
 .rbt-ts-14,
-.form-group label {
+.form-group label,
+.valid-feedback,
+.warning-feedback,
+.invalid-feedback,
+.info-feedback {
   font-size: 0.875rem !important; }
 
 .ts-16,
@@ -7257,9 +7376,20 @@ p {
   top: 10px;
   right: -5px; }
 
+.rbt-charcount {
+  position: relative; }
+  .rbt-charcount > span {
+    -moz-transition: opacity 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out; }
+  .rbt-charcount input:focus ~ span, .rbt-charcount textarea:focus ~ span {
+    opacity: 1; }
+
 ccf-image-upload {
   display: block;
-  border: solid 1px #cccccc;
+  border: solid 1px #666666;
   background: #fff;
   border-radius: 0.25rem; }
   ccf-image-upload image-upload {
@@ -7299,25 +7429,26 @@ ccf-image-upload {
     box-sizing: content-box; }
     ccf-image-upload .img-preview > div {
       position: relative;
-      display: inline-block; }
-      ccf-image-upload .img-preview > div + div {
-        margin-left: 10px; }
+      display: inline-block;
+      margin: 5px; }
       ccf-image-upload .img-preview > div img {
         max-height: 70px;
         min-height: 36px;
-        width: auto; }
+        width: auto;
+        max-width: 100%; }
       ccf-image-upload .img-preview > div button {
         line-height: 1;
         position: absolute;
-        background: #000;
+        background: #fff;
         top: -5px;
         right: -7px;
-        border: solid 1px #ffffff;
+        border: solid 1px #999999;
         font-size: 10px;
         padding: 3px;
         padding-left: 4px;
         padding-right: 4px;
-        border-radius: 9px; }
+        border-radius: 9px;
+        color: #444444; }
 
 .img-ul[_ngcontent-c0] {
   --active-color: #3C9;
@@ -7685,8 +7816,8 @@ label.img-ul-button[_ngcontent-c0] input[type=file][_ngcontent-c0] {
   top: inherit;
   right: inherit;
   background: #fff;
-  border-bottom: solid 1px #cccccc;
-  border-top: solid 1px #cccccc;
+  border-bottom: solid 1px #666666;
+  border-top: solid 1px #666666;
   padding-right: .75rem;
   padding-left: .75rem; }
 
