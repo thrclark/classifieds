@@ -6704,7 +6704,7 @@ button:disabled, button:disabled:hover,
     color: #444444; }
 
 .dropdown-toggle::after {
-  margin-left: .5rem;
+  margin-left: 0px;
   vertical-align: -3px;
   border-top: none;
   border-right: none;
@@ -6716,7 +6716,8 @@ button:disabled, button:disabled:hover,
   font-weight: normal;
   text-decoration: inherit;
   font-size: 1.5rem;
-  margin-top: -10px; }
+  margin-top: -10px;
+  width: 0.75rem; }
 
 .dropdown a {
   text-decoration: none; }
@@ -7299,25 +7300,26 @@ ccf-image-upload {
     box-sizing: content-box; }
     ccf-image-upload .img-preview > div {
       position: relative;
-      display: inline-block; }
-      ccf-image-upload .img-preview > div + div {
-        margin-left: 10px; }
+      display: inline-block;
+      margin: 5px; }
       ccf-image-upload .img-preview > div img {
         max-height: 70px;
         min-height: 36px;
-        width: auto; }
+        width: auto;
+        max-width: 100%; }
       ccf-image-upload .img-preview > div button {
         line-height: 1;
         position: absolute;
-        background: #000;
+        background: #fff;
         top: -5px;
         right: -7px;
-        border: solid 1px #ffffff;
+        border: solid 1px #999999;
         font-size: 10px;
         padding: 3px;
         padding-left: 4px;
         padding-right: 4px;
-        border-radius: 9px; }
+        border-radius: 9px;
+        color: #444444; }
 
 .img-ul[_ngcontent-c0] {
   --active-color: #3C9;

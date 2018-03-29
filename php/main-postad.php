@@ -249,41 +249,43 @@ $page_title = 'Post ad';
                             </div>
                             <div class="form-group">
                                 <div class="font-weight-bold rbt-ts-14">Upload Images</div>
-                                <ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
-                                    <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
-                                        <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
-                                            <image-upload _nghost-c0="" ng-reflect-before-upload="function (metadata) {" ng-reflect-button-caption="Upload Image" ng-reflect-drop-box-message="or drop image here" ng-reflect-file-too-large-message="Image must be no larger than 1" ng-reflect-headers="[object Object]" ng-reflect-max-file-size="10485760" ng-reflect-preview="false" ng-reflect-supported-extensions="png,jpg,jpeg" ng-reflect-url="/ccf2-unt/upload">
-                                                <div _ngcontent-c0="" filedrop="" class="img-ul" ng-reflect-ng-class="img-ul" ng-reflect-accept="image/png,image/jpg,image/jpeg">
-                                                    <div _ngcontent-c0="" class="img-ul-file-upload img-ul-hr-inline-group">
-                                                        <label _ngcontent-c0="" class="img-ul-upload img-ul-button" tabindex="0"> <span _ngcontent-c0="">Upload Image</span>
-                                                            <input _ngcontent-c0="" multiple type="file" accept="image/png,image/jpg,image/jpeg">
-                                                        </label>
-                                                        <label _ngcontent-c0="" class="img-ul-clear img-ul-button"> <span _ngcontent-c0="">Clear</span> </label>
-                                                        <div _ngcontent-c0="" class="img-ul-drag-box-msg">or drop image here</div>
+                                <div class="form-group">
+                                    <ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
+                                        <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
+                                            <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
+                                                <image-upload _nghost-c0="" ng-reflect-before-upload="function (metadata) {" ng-reflect-button-caption="Upload Image" ng-reflect-drop-box-message="or drop image here" ng-reflect-file-too-large-message="Image must be no larger than 1" ng-reflect-headers="[object Object]" ng-reflect-max-file-size="10485760" ng-reflect-preview="false" ng-reflect-supported-extensions="png,jpg,jpeg" ng-reflect-url="/ccf2-unt/upload">
+                                                    <div _ngcontent-c0="" filedrop="" class="img-ul" ng-reflect-ng-class="img-ul" ng-reflect-accept="image/png,image/jpg,image/jpeg">
+                                                        <div _ngcontent-c0="" class="img-ul-file-upload img-ul-hr-inline-group" >
+                                                            <label _ngcontent-c0="" class="btn btn-sm btn-outline-primary" tabindex="0" id="ButtonProgressDemo"> <span _ngcontent-c0="" id="uploadbtnlabel">Upload Image</span>
+                                                                <input _ngcontent-c0="" class="sr-only" multiple="" type="file" accept="image/png,image/jpg,image/jpeg">
+                                                            </label>
+                                                            <label _ngcontent-c0="" class="img-ul-clear img-ul-button"> <span _ngcontent-c0="">Clear</span> </label>
+                                                            <div _ngcontent-c0="" class="img-ul-drag-box-msg">or drop image here</div>
+                                                        </div>
+                                                    </div>
+                                                </image-upload>
+                                                <div class="img-preview" dnd-sortable-container="" draggable="false" ng-reflect-sortable-data="" style="cursor: pointer;">
+                                                    <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="0" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
+                                                        <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
+                                                        <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                                        </span> </button>
+                                                    </div>
+                                                    <div dnd-sortable="" draggable="true" ng-reflect-index="1" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="1" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
+                                                        <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
+                                                        <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                                        </span> </button>
+                                                    </div>
+                                                    <div dnd-sortable="" draggable="true" ng-reflect-index="2" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="2" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
+                                                        <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
+                                                        <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                                        </span> </button>
                                                     </div>
                                                 </div>
-                                            </image-upload>
-                                            <div class="img-preview" dnd-sortable-container="" draggable="false" ng-reflect-sortable-data="" style="cursor: pointer;">
-                                                <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="0" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
-                                                    <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
-                                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
-                                                    </span> </button>
-                                                </div>
-                                                <div dnd-sortable="" draggable="true" ng-reflect-index="1" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="1" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
-                                                    <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
-                                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
-                                                    </span> </button>
-                                                </div>
-                                                <div dnd-sortable="" draggable="true" ng-reflect-index="2" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="2" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
-                                                    <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
-                                                    <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
-                                                    </span> </button>
-                                                </div>
+                                                <div class="validation-fieldmessage"> </div>
                                             </div>
-                                            <div class="validation-fieldmessage"> </div>
                                         </div>
-                                    </div>
-                                </ccf-image-upload>
+                                    </ccf-image-upload>
+                                </div>
                             </div>
                             <p class="text-right"> <a class="btn btn-outline-primary" href="main-home.php">
                                 <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Cancel</message>
@@ -309,6 +311,25 @@ $page_title = 'Post ad';
         });
     });
 </script> 
+
+
+
+<script>
+ $(document).ready(function() {
+     $("#ButtonProgressDemo").click(function() {
+		 $("#ButtonProgressDemo").removeClass("btn-outline-primary");
+         $("#ButtonProgressDemo").addClass("btn-primary rbt-btn-progress");
+		 $(".img-ul-drag-box-msg").hide();
+         $("#uploadbtnlabel").fadeOut("fast", function() {
+             $("#uploadbtnlabel").text(($(".btn-label").text() == 'Uploading...') ? 'Upload' : 'Uploading...').fadeIn(200);
+         })
+     });
+ });
+
+</script>
+
+
+
 <script>
     $(document).ready(function() {
         $(".rbt-charcount .badge").hide(); // hide all counter badges
