@@ -14,12 +14,8 @@ $page_title = 'Moderator';
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
     <div class="row">
-        <div class="col-12 col-md-3">
-            <div id="adminNav">
-                <?php include('includes/admin-nav.php') ?>
-            </div>
-        </div>
-        <div class="col-12 col-md-9">
+        
+        <div class="col-12">
             <div class="main-content" id="main-content">
                 <h1> <?php echo $page_title; ?></h1>
                 <ul class="nav nav-pills" id="pills-tab" role="tablist">

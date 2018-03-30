@@ -15,12 +15,8 @@ $page_title = 'General settings';
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
     <div class="row">
-        <div class="col-lg-3 d-none d-lg-block">
-            <div id="adminNav">
-                <?php include('includes/admin-nav.php') ?>
-            </div>
-        </div>
-        <div class="col-12 col-lg-9">
+   
+        <div class="col-12">
             <div class="main-content" id="main-content">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-auto">
