@@ -56,8 +56,7 @@ $(document).ready(function() {
 
 <script>
     $(".rbt-drawer-button").click(function() {
-        $(".rbt-drawer,.rbt-drawer-button").toggleClass("open");
-		$("#mobile_showSearch").toggle();
+        $(".rbt-drawer,.rbt-drawer-button").toggleClass("open");	
     });
 </script>
 

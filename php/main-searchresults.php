@@ -36,5 +36,16 @@ $page_title = 'Results for';
     <?php include('includes/main-footer-menu.php') ?>
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
+
+<script>
+    $(document).ready(function() {
+        if (screen.width < 767) {
+            $(".rbt-brand-image-container, .rbt-brand-title-container, #mobile_showSearch, .rbt-drawer-button").hide();
+			$("#mobile_hideSearch").show();
+			$("#mainSearch_container").removeClass( "d-none d-md-block" );
+        } else {
+        }
+    });
+</script>
 </body>
 </html>
