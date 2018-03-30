@@ -2,18 +2,18 @@
 <header class="rbt-app-header rbt-app-header--light"><a class="rbt-skip-link" href="#main-content">Skip to content</a>
     <div class="container">
         <div class="row align-items-center"> 
-            
             <!--App Logo Image-->
             <div class="col-auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"/> </div>
-            
             <!--App Title-->
             <div class="col col-md-auto rbt-brand-title-container"> <span class="rbt-header-title"> <a  href="main-home.php"class="rbt-brand-title"><strong>Classifieds</strong> </a></span> </div>
-            <div class="col d-none d-md-block">
+            <!--Search-->
+            <div class="col d-none d-md-block" id="mainSearch_container">
                 <label for="mainSearch" class="sr-only">
                     <message>Search classifieds</message>
                 </label>
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="" aria-label="Search" aria-describedby="search" id="mainSearch">
+                <div class="input-group clear-field">
+                    <input type="text" class="form-control" id="mainSearch" placeholder="Search ads">
+                    <button class="cleartext" id="cleartext2" style="display:none"> <i class="fa fa-window-close"></i></button>
                     <div class="input-group-append">
                         <button class="btn btn-primary" type="button" onclick="location.href = 'main-searchresults.php';"><i aria-hidden="true" class="fa fa-search"></i> <span class="d-none d-lg-inline">
                         <message>Search</message>
@@ -21,10 +21,20 @@
                     </div>
                 </div>
             </div>
+            <!-- mobile search trigger-->
+            <div class="col-auto d-md-none ccf-searchtrigger p-0" id="mobile_showSearch">
+                <button class="btn btn-link"><i aria-hidden="true" class="fa fa-search"></i></button>
+            </div>
+            <!-- mobile hide search trigger-->
+            <div class="col-auto d-md-none ccf-searchtrigger p-0" id="mobile_hideSearch" style="display:none">
+                <button class="btn btn-link" type="button"> <span class="rbt-icon-close"></span> <span class="d-none d-lg-inline">
+                <message>Close</message>
+                </span> </button>
+            </div>
+            <!--post ad button - desktop-->
             <div class="col-auto d-none d-md-block"> <a href="main-postad.php" class="btn btn-outline-primary">
                 <message>Post Ad</message>
                 </a></div>
-            
             <!-- App Mobile Menu-->
             <div class="col-auto d-md-none rbt-drawer-button">
                 <button class="btn btn-link"><span class="rbt-icon-menu" aria-hidden="true"><span class="sr-only">

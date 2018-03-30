@@ -11,9 +11,53 @@
 <script src="../js/jquery.sticky.js"></script>
 <script src="../js/bootstrap-maxlength.js"></script>
 
+
+
+
+<!--mobile search-->
+<script>
+    $(document).ready(function() {
+        $("#mobile_showSearch button").click(function() {
+            $("#mainSearch_container").removeClass("d-none d-md-block");
+			$("#mainSearch_container").addClass("pr-0");
+			$(".rbt-brand-image-container, .rbt-brand-title-container, .rbt-drawer-button, #mobile_showSearch").hide();
+			$("#mobile_hideSearch").show();
+        });
+		$("#mobile_hideSearch button").click(function() {
+            $("#mainSearch_container").addClass("d-none d-md-block");
+			$("#mainSearch_container").removeClass("pr-0");
+			$(".rbt-brand-image-container, .rbt-brand-title-container, .rbt-drawer-button, #mobile_showSearch").show();
+			$("#mobile_hideSearch").hide();
+        });
+    });
+</script>
+
+<script>
+$(document).ready(function() {
+    $('#mainSearch').keydown(function() {
+        tmpval = $(this).val();
+        if (tmpval == '') {
+            $("#cleartext2").css({
+                "display": "none"
+            });
+        } else {
+            $("#cleartext2").css({
+                "display": "block"
+            });
+        }
+    });
+    $("#cleartext2").click(function() {
+        $("#cleartext2").hide();
+        $("#mainSearch").val("");
+        $("#mainSearch").focus();
+    });
+});
+</script>
+
 <script>
     $(".rbt-drawer-button").click(function() {
         $(".rbt-drawer,.rbt-drawer-button").toggleClass("open");
+		$("#mobile_showSearch").toggle();
     });
 </script>
 
