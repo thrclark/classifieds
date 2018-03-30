@@ -15,12 +15,8 @@ $page_title = 'Restricted users';
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
     <div class="row">
-        <div class="col-12 col-md-3">
-            <div id="adminNav">
-                <?php include('includes/admin-nav.php') ?>
-            </div>
-        </div>
-        <div class="col-12 col-md-9">
+        
+        <div class="col-12">
             <div class="main-content" id="main-content">
                 <div class="doc-header mb-3">
                     <div class="row">

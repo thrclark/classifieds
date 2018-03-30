@@ -14,12 +14,8 @@ $page_title = 'Ads';
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
     <div class="row">
-        <div class="col-lg-3 d-none d-lg-block nav-section">
-            <div id="adminNav">
-                <?php include('includes/admin-nav.php') ?>
-            </div>
-        </div>
-        <div class="col-12 col-lg-9">
+       
+        <div class="col-12">
             <div class="main-content" id="main-content">
                 <div class="row mb-3">
                     <div class="col-12 col-md-6">
@@ -39,7 +35,6 @@ $page_title = 'Ads';
                     <thead>
                         <tr>
                             <th>Campus</th>
-                            <th>Category</th>
                             <th>Title</th>	
                             <th>Email</th>
                             <th>Date</th>
@@ -50,7 +45,6 @@ $page_title = 'Ads';
                     <tbody id="table_userads">
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUB</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Jobs</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Sublease for Brownstone Apartments for Spring Semester </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">alfresco</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
@@ -61,7 +55,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUB</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Rideboard &amp; carpools</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Math-M211 and M212 Textbook</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">thrclark</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
@@ -72,7 +65,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUPUI</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Antiques &amp; collectibles</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Self Defense Boxing Gloves</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">immortelle</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
@@ -83,7 +75,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUPUI</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Antiques &amp; collectibles</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">2018 Spring sublease Jan-July the Fields room Waterchase </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">typhogenic</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
@@ -94,7 +85,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUPUI</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Jobs</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Offering ride to Indy Dec 21 around 10:30am </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">veridical</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
@@ -105,7 +95,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUK</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Activity Partners</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Business Law with Online Access Code (16th Edition) </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">thrclark</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/21/18</span></td>
@@ -116,7 +105,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUB</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Jobs</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Spring 2018 Sublease 7Ten Apartments</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">rentsmp</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/21/18</span></td>
@@ -127,7 +115,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUK</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Roommates &amp; sublets</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Essentials of Helth Information Management (3rd Edition) </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">rupellary</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/21/18</span></td>
@@ -138,7 +125,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUS</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Roommates &amp; sublets</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">thrclark</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/21/18</span></td>
@@ -149,7 +135,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUK</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Roommates &amp; sublets</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Spring Sublease Large Room with Walk in </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">alluvium</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/21/18</span></td>
@@ -160,7 +145,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUK</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Antiques &amp; collectibles</td>
                             <td class="222" >NOW HIRING '18 BARTENDERS AND SERVERS </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">colliform</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/20/18</span></td>
@@ -171,7 +155,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUK</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Roommates &amp; sublets</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Folding table and chairs </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">mandorla</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/20/18</span></td>
@@ -182,7 +165,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUS</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Rideboard &amp; carpools</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">RIDE TO/FROM CHI FRI 12/22 </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">knight85</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/20/18</span></td>
@@ -193,7 +175,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUPUI</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Books</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Need a ride from Indy to Bloomington on Dec 30 </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">stereometer</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/19/18</span></td>
@@ -204,7 +185,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUS</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Books</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">One bedroom sublet in 8th street </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">volitive</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/19/18</span></td>
@@ -215,7 +195,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUS</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Activity Partners</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Math-M211 and M212 Textbook "Calculus Single Variable</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">vilip</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/19/18</span></td>
@@ -226,7 +205,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUS</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Jobs</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Sublease for Brownstone Apartments for Spring Semester </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">shilling</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/18/18</span></td>
@@ -237,7 +215,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUS</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Roommates &amp; sublets</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Math-M211 and M212 Textbook</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">quixotism</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/18/18</span></td>
@@ -248,7 +225,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUS</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Books</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Self Defense Boxing Gloves</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">posology</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/18/18</span></td>
@@ -259,7 +235,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUK</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Roommates &amp; sublets</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">2018 Spring sublease Jan-July the Fields room Waterchase </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">calque</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/18/18</span></td>
@@ -270,7 +245,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td class="ad-summary flagged">IUB</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Roommates &amp; sublets</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Offering ride to Indy Dec 21 around 10:30am </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">thrclark</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/17/18</span></td>
@@ -281,7 +255,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUB</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Rideboard &amp; carpools</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Business Law with Online Access Code (16th Edition) </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">colliform</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/17/18</span></td>
@@ -292,7 +265,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUB</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Antiques &amp; collectibles</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Spring 2018 Sublease 7Ten Apartments</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">hierurgy</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/16/18</span></td>
@@ -303,7 +275,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUPUI</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Books</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Essentials of Helth Information Management (3rd Edition) </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">nolky321</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/16/18</span></td>
@@ -314,7 +285,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUB</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Roommates &amp; sublets</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">squeegee</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/16/18</span></td>
@@ -325,7 +295,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUS</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Activity Partners</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Spring Sublease Large Room with Walk in </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">telenergy</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/15/18</span></td>
@@ -336,7 +305,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUK</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Jobs</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">NOW HIRING '18 BARTENDERS AND SERVERS </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">velocimeter</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/15/18</span></td>
@@ -347,7 +315,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUS</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Roommates &amp; sublets</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Folding table and chairs </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">xeli</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/15/18</span></td>
@@ -358,7 +325,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUPUI</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Roommates &amp; sublets</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">RIDE TO/FROM CHI FRI 12/22 </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">fishbein</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/15/18</span></td>
@@ -369,7 +335,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUB</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Rideboard &amp; carpools</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Need a ride from Indy to Bloomington on Dec 30 </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">dissentient</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/15/18</span></td>
@@ -380,7 +345,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUS</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Antiques &amp; collectibles</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">One bedroom sublet in 8th street </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">jogo11</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/14/18</span></td>
@@ -391,7 +355,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUPUI</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Books</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Math-M211 and M212 Textbook "Calculus Single Variable</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">reamlt</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/14/18</span></td>
@@ -402,7 +365,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUS</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Roommates &amp; sublets</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Offering ride to Indy Dec 21 around 10:30am </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">phenetic</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/14/18</span></td>
@@ -413,7 +375,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUPUI</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Roommates &amp; sublets</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Business Law with Online Access Code (16th Edition) </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">pygmachy</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/14/18</span></td>
@@ -424,7 +385,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUS</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Antiques &amp; collectibles</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Spring 2018 Sublease 7Ten Apartments</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">varifocal</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/13/18</span></td>
@@ -435,7 +395,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUS</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Activity Partners</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Essentials of Helth Information Management (3rd Edition) </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">zuquir</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/13/18</span></td>
@@ -446,7 +405,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUK</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Rideboard &amp; carpools</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">meronym</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/13/18</span></td>
@@ -457,7 +415,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUB</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Activity Partners</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Spring Sublease Large Room with Walk in </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">groundsel</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/12/18</span></td>
@@ -468,7 +425,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUPUI</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Jobs</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">NOW HIRING '18 BARTENDERS AND SERVERS </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">demitasse</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/12/18</span></td>
@@ -479,7 +435,6 @@ $page_title = 'Ads';
                         </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUK</span></td>
-                            <td><b class="rbt-table-responsive-cell-label">Category</b><span class="rbt-table-responsive-cell-content">Books</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Offering ride to Indy Dec 21 around 10:30am </span></td>
                             <td><b class="rbt-table-responsive-cell-label">Email</b><span class="rbt-table-responsive-cell-content">jogo11</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Date</b><span class="rbt-table-responsive-cell-content">01/12/18</span></td>
