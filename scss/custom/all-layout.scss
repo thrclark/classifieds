@@ -17,9 +17,17 @@ body {
 		a {
 			text-decoration: none;
 			color: $body-color;
+			@extend .row;
+			.category {
+				@extend .col;
+				@extend .pl-0;
+				line-height: 1.75;
+			}
 			.fa {
 				margin-right: 10px;
 				font-size: 24px;
+				@extend .col-auto;
+				@extend .pr-0;
 			}
 		}
 	}
