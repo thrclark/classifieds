@@ -17,7 +17,7 @@
 <!--mobile search-->
 <script>
     $(document).ready(function() {
-        $("#mobile_showSearch button").click(function() {
+        $("#mobile_showSearch button, #setsearch").click(function() {
             $("#mainSearch_container").removeClass("d-none d-md-block");
 			$("#mainSearch_container").addClass("pr-0");
 			$(".rbt-brand-image-container, .rbt-brand-title-container, .rbt-drawer-button, #mobile_showSearch").hide();
