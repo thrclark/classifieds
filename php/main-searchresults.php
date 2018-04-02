@@ -41,8 +41,10 @@ $page_title = 'Results for';
     $(document).ready(function() {
         if (screen.width < 767) {
             $(".rbt-brand-image-container, .rbt-brand-title-container, #mobile_showSearch, .rbt-drawer-button").hide();
-			$("#mobile_hideSearch").show();
+			$("#mobile_hideSearch, #cleartext2").show();
 			$("#mainSearch_container").removeClass( "d-none d-md-block" );
+			$("#mainSearch_container").addClass( "pr-0" );
+			 $("#mainSearch").attr("value", "iphone");
         } else {
         }
     });
