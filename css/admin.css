@@ -1486,11 +1486,15 @@ select.form-control:focus::-ms-value {
   .input-group-sm > .input-group-prepend > .form-control-plaintext.input-group-text,
   .input-group-sm > .input-group-append > .form-control-plaintext.input-group-text,
   .input-group-sm > .input-group-prepend > .form-control-plaintext.btn,
-  .input-group-sm > .input-group-append > .form-control-plaintext.btn, .form-control-plaintext.form-control-lg, .input-group-lg > .form-control-plaintext.form-control,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-sm > .input-group-prepend > label.form-control-plaintext.img-ul-button,
+  .input-group-sm > .input-group-append > .form-control-plaintext.btn,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-sm > .input-group-append > label.form-control-plaintext.img-ul-button, .form-control-plaintext.form-control-lg, .input-group-lg > .form-control-plaintext.form-control,
   .input-group-lg > .input-group-prepend > .form-control-plaintext.input-group-text,
   .input-group-lg > .input-group-append > .form-control-plaintext.input-group-text,
   .input-group-lg > .input-group-prepend > .form-control-plaintext.btn,
-  .input-group-lg > .input-group-append > .form-control-plaintext.btn {
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-lg > .input-group-prepend > label.form-control-plaintext.img-ul-button,
+  .input-group-lg > .input-group-append > .form-control-plaintext.btn,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-lg > .input-group-append > label.form-control-plaintext.img-ul-button {
     padding-right: 0;
     padding-left: 0; }
 
@@ -1498,7 +1502,9 @@ select.form-control:focus::-ms-value {
 .input-group-sm > .input-group-prepend > .input-group-text,
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
-.input-group-sm > .input-group-append > .btn {
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-sm > .input-group-prepend > label.img-ul-button,
+.input-group-sm > .input-group-append > .btn,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-sm > .input-group-append > label.img-ul-button {
   padding: 0.35rem 0.65rem;
   font-size: 0.875rem;
   line-height: 1;
@@ -1515,7 +1521,9 @@ select.form-control-sm:not([size]):not([multiple]), .input-group-sm > select.for
 .input-group-lg > .input-group-prepend > .input-group-text,
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
-.input-group-lg > .input-group-append > .btn {
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-lg > .input-group-prepend > label.img-ul-button,
+.input-group-lg > .input-group-append > .btn,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-lg > .input-group-append > label.img-ul-button {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -1754,7 +1762,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
     .form-inline .custom-control-label {
       margin-bottom: 0; } }
 
-.btn {
+.btn, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button {
   display: inline-block;
   font-weight: 400;
   text-align: center;
@@ -1767,16 +1775,16 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   line-height: 1;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
-  .btn:hover, .btn:focus {
+  .btn:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:hover, .btn:focus, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:focus {
     text-decoration: none; }
-  .btn:focus, .btn.focus {
+  .btn:focus, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:focus, .btn.focus, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.focus.img-ul-button {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 98, 152, 0.25); }
-  .btn.disabled, .btn:disabled {
+  .btn.disabled, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.disabled.img-ul-button, .btn:disabled, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:disabled {
     opacity: 0.65; }
-  .btn:not(:disabled):not(.disabled) {
+  .btn:not(:disabled):not(.disabled), ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled) {
     cursor: pointer; }
-  .btn:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active {
+  .btn:not(:disabled):not(.disabled):active, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled).active {
     background-image: none; }
 
 a.btn.disabled,
@@ -1951,25 +1959,25 @@ fieldset:disabled a.btn {
     .btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus, .show > .btn-dark.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(85, 85, 85, 0.5); }
 
-.btn-outline-primary {
+.btn-outline-primary, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button {
   color: #006298;
   background-color: transparent;
   background-image: none;
   border-color: #006298; }
-  .btn-outline-primary:hover {
+  .btn-outline-primary:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:hover {
     color: #fff;
     background-color: #006298;
     border-color: #006298; }
-  .btn-outline-primary:focus, .btn-outline-primary.focus {
+  .btn-outline-primary:focus, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:focus, .btn-outline-primary.focus, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.focus.img-ul-button {
     box-shadow: 0 0 0 0.2rem rgba(0, 98, 152, 0.5); }
-  .btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  .btn-outline-primary.disabled, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.disabled.img-ul-button, .btn-outline-primary:disabled, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:disabled {
     color: #006298;
     background-color: transparent; }
-  .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
+  .btn-outline-primary:not(:disabled):not(.disabled):active, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle, ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button {
     color: #fff;
     background-color: #006298;
     border-color: #006298; }
-    .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+    .btn-outline-primary:not(:disabled):not(.disabled):active:focus, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus, ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button:focus {
       box-shadow: 0 0 0 0.2rem rgba(0, 98, 152, 0.5); }
 
 .btn-outline-secondary {
@@ -2135,13 +2143,13 @@ fieldset:disabled a.btn {
   .btn-link:disabled, .btn-link.disabled {
     color: #777777; }
 
-.btn-lg, .btn-group-lg > .btn {
+.btn-lg, .btn-group-lg > .btn, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-lg > label.img-ul-button {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
-.btn-sm, .btn-group-sm > .btn {
+.btn-sm, .btn-group-sm > .btn, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button {
   padding: 0.35rem 0.65rem;
   font-size: 0.875rem;
   line-height: 1;
@@ -2325,25 +2333,44 @@ tbody.collapse.show {
   position: relative;
   display: inline-flex;
   vertical-align: middle; }
-  .btn-group > .btn,
-  .btn-group-vertical > .btn {
+  .btn-group > .btn, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group > label.img-ul-button,
+  .btn-group-vertical > .btn,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical > label.img-ul-button {
     position: relative;
     flex: 0 1 auto; }
-    .btn-group > .btn:hover,
-    .btn-group-vertical > .btn:hover {
+    .btn-group > .btn:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group > label.img-ul-button:hover,
+    .btn-group-vertical > .btn:hover,
+    ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical > label.img-ul-button:hover {
       z-index: 1; }
-    .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active,
+    .btn-group > .btn:focus, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group > label.img-ul-button:focus, .btn-group > .btn:active, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group > label.img-ul-button:active, .btn-group > .btn.active, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group > label.active.img-ul-button,
     .btn-group-vertical > .btn:focus,
+    ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical > label.img-ul-button:focus,
     .btn-group-vertical > .btn:active,
-    .btn-group-vertical > .btn.active {
+    ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical > label.img-ul-button:active,
+    .btn-group-vertical > .btn.active,
+    ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical > label.active.img-ul-button {
       z-index: 1; }
-  .btn-group .btn + .btn,
+  .btn-group .btn + .btn, .btn-group ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button + .btn, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group label.img-ul-button + .btn, .btn-group ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn + label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group .btn + label.img-ul-button, .btn-group ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button + label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group label.img-ul-button + label.img-ul-button,
   .btn-group .btn + .btn-group,
+  .btn-group ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button + .btn-group,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group label.img-ul-button + .btn-group,
   .btn-group .btn-group + .btn,
+  .btn-group ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group + label.img-ul-button,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group .btn-group + label.img-ul-button,
   .btn-group .btn-group + .btn-group,
   .btn-group-vertical .btn + .btn,
+  .btn-group-vertical ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button + .btn,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical label.img-ul-button + .btn,
+  .btn-group-vertical ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn + label.img-ul-button,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical .btn + label.img-ul-button,
+  .btn-group-vertical ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button + label.img-ul-button,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical label.img-ul-button + label.img-ul-button,
   .btn-group-vertical .btn + .btn-group,
+  .btn-group-vertical ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button + .btn-group,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical label.img-ul-button + .btn-group,
   .btn-group-vertical .btn-group + .btn,
+  .btn-group-vertical ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group + label.img-ul-button,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical .btn-group + label.img-ul-button,
   .btn-group-vertical .btn-group + .btn-group {
     margin-left: -1px; }
 
@@ -2354,14 +2381,16 @@ tbody.collapse.show {
   .btn-toolbar .input-group {
     width: auto; }
 
-.btn-group > .btn:first-child {
+.btn-group > .btn:first-child, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group > label.img-ul-button:first-child {
   margin-left: 0; }
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle),
-.btn-group > .btn-group:not(:last-child) > .btn {
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group > label.img-ul-button:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn-group:not(:last-child) > .btn,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group > .btn-group:not(:last-child) > label.img-ul-button {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
-.btn-group > .btn:not(:first-child),
-.btn-group > .btn-group:not(:first-child) > .btn {
+.btn-group > .btn:not(:first-child), ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group > label.img-ul-button:not(:first-child),
+.btn-group > .btn-group:not(:first-child) > .btn,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group > .btn-group:not(:first-child) > label.img-ul-button {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
 
@@ -2371,11 +2400,11 @@ tbody.collapse.show {
   .dropdown-toggle-split::after {
     margin-left: 0; }
 
-.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split {
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-sm > label.img-ul-button + .dropdown-toggle-split, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button + .dropdown-toggle-split {
   padding-right: 0.4875rem;
   padding-left: 0.4875rem; }
 
-.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-lg > label.img-ul-button + .dropdown-toggle-split {
   padding-right: 0.75rem;
   padding-left: 0.75rem; }
 
@@ -2383,31 +2412,39 @@ tbody.collapse.show {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center; }
-  .btn-group-vertical .btn,
+  .btn-group-vertical .btn, .btn-group-vertical ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical label.img-ul-button,
   .btn-group-vertical .btn-group {
     width: 100%; }
-  .btn-group-vertical > .btn + .btn,
+  .btn-group-vertical > .btn + .btn, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical > label.img-ul-button + .btn, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical > .btn + label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical > label.img-ul-button + label.img-ul-button,
   .btn-group-vertical > .btn + .btn-group,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical > label.img-ul-button + .btn-group,
   .btn-group-vertical > .btn-group + .btn,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical > .btn-group + label.img-ul-button,
   .btn-group-vertical > .btn-group + .btn-group {
     margin-top: -1px;
     margin-left: 0; }
-  .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle),
-  .btn-group-vertical > .btn-group:not(:last-child) > .btn {
+  .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical > label.img-ul-button:not(:last-child):not(.dropdown-toggle),
+  .btn-group-vertical > .btn-group:not(:last-child) > .btn,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical > .btn-group:not(:last-child) > label.img-ul-button {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0; }
-  .btn-group-vertical > .btn:not(:first-child),
-  .btn-group-vertical > .btn-group:not(:first-child) > .btn {
+  .btn-group-vertical > .btn:not(:first-child), ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical > label.img-ul-button:not(:first-child),
+  .btn-group-vertical > .btn-group:not(:first-child) > .btn,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-vertical > .btn-group:not(:first-child) > label.img-ul-button {
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
 
-.btn-group-toggle > .btn,
-.btn-group-toggle > .btn-group > .btn {
+.btn-group-toggle > .btn, ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-toggle > label.img-ul-button,
+.btn-group-toggle > .btn-group > .btn,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-toggle > .btn-group > label.img-ul-button {
   margin-bottom: 0; }
-  .btn-group-toggle > .btn input[type="radio"],
+  .btn-group-toggle > .btn input[type="radio"], ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-toggle > label.img-ul-button input[type="radio"],
   .btn-group-toggle > .btn input[type="checkbox"],
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-toggle > label.img-ul-button input[type="checkbox"],
   .btn-group-toggle > .btn-group > .btn input[type="radio"],
-  .btn-group-toggle > .btn-group > .btn input[type="checkbox"] {
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-toggle > .btn-group > label.img-ul-button input[type="radio"],
+  .btn-group-toggle > .btn-group > .btn input[type="checkbox"],
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn-group-toggle > .btn-group > label.img-ul-button input[type="checkbox"] {
     position: absolute;
     clip: rect(0, 0, 0, 0);
     pointer-events: none; }
@@ -2460,18 +2497,34 @@ tbody.collapse.show {
 .input-group-prepend,
 .input-group-append {
   display: flex; }
-  .input-group-prepend .btn,
-  .input-group-append .btn {
+  .input-group-prepend .btn, .input-group-prepend ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-prepend label.img-ul-button,
+  .input-group-append .btn,
+  .input-group-append ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-append label.img-ul-button {
     position: relative;
     z-index: 2; }
-  .input-group-prepend .btn + .btn,
+  .input-group-prepend .btn + .btn, .input-group-prepend ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button + .btn, ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-prepend label.img-ul-button + .btn, .input-group-prepend ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn + label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-prepend .btn + label.img-ul-button, .input-group-prepend ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button + label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-prepend label.img-ul-button + label.img-ul-button,
   .input-group-prepend .btn + .input-group-text,
+  .input-group-prepend ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button + .input-group-text,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-prepend label.img-ul-button + .input-group-text,
   .input-group-prepend .input-group-text + .input-group-text,
   .input-group-prepend .input-group-text + .btn,
+  .input-group-prepend ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-text + label.img-ul-button,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-prepend .input-group-text + label.img-ul-button,
   .input-group-append .btn + .btn,
+  .input-group-append ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button + .btn,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-append label.img-ul-button + .btn,
+  .input-group-append ccf-image-upload image-upload .img-ul .img-ul-file-upload .btn + label.img-ul-button,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-append .btn + label.img-ul-button,
+  .input-group-append ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button + label.img-ul-button,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-append label.img-ul-button + label.img-ul-button,
   .input-group-append .btn + .input-group-text,
+  .input-group-append ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button + .input-group-text,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-append label.img-ul-button + .input-group-text,
   .input-group-append .input-group-text + .input-group-text,
-  .input-group-append .input-group-text + .btn {
+  .input-group-append .input-group-text + .btn,
+  .input-group-append ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-text + label.img-ul-button,
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group-append .input-group-text + label.img-ul-button {
     margin-left: -1px; }
 
 .input-group-prepend {
@@ -2498,20 +2551,24 @@ tbody.collapse.show {
   .input-group-text input[type="checkbox"] {
     margin-top: 0; }
 
-.input-group > .input-group-prepend > .btn,
+.input-group > .input-group-prepend > .btn, ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group > .input-group-prepend > label.img-ul-button,
 .input-group > .input-group-prepend > .input-group-text,
 .input-group > .input-group-append:not(:last-child) > .btn,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group > .input-group-append:not(:last-child) > label.img-ul-button,
 .input-group > .input-group-append:not(:last-child) > .input-group-text,
 .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group > .input-group-append:last-child > label.img-ul-button:not(:last-child):not(.dropdown-toggle),
 .input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
 
-.input-group > .input-group-append > .btn,
+.input-group > .input-group-append > .btn, ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group > .input-group-append > label.img-ul-button,
 .input-group > .input-group-append > .input-group-text,
 .input-group > .input-group-prepend:not(:first-child) > .btn,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group > .input-group-prepend:not(:first-child) > label.img-ul-button,
 .input-group > .input-group-prepend:not(:first-child) > .input-group-text,
 .input-group > .input-group-prepend:first-child > .btn:not(:first-child),
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group > .input-group-prepend:first-child > label.img-ul-button:not(:first-child),
 .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
@@ -3286,7 +3343,7 @@ tbody.collapse.show {
   .badge:empty {
     display: none; }
 
-.btn .badge {
+.btn .badge, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button .badge {
   position: relative;
   top: -1px; }
 
@@ -5238,7 +5295,7 @@ button.bg-dark:focus {
 .px-2 {
   padding-left: 0.5rem !important; }
 
-.p-3 {
+.p-3, ccf-image-upload image-upload .img-ul {
   padding: 1rem !important; }
 
 .pt-3,
@@ -6607,13 +6664,14 @@ a.text-dark:hover, a.text-dark:focus {
   background: transparent;
   padding-left: 0px; }
 
-.btn {
+.btn, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button {
   font-weight: bold;
   border-width: 2px;
   text-decoration: none; }
 
 .btn-primary:focus,
 .btn-outline-primary:focus,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:focus,
 .btn-link:focus,
 .btn-outline-link:focus {
   box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.2875rem #006298 !important; }
@@ -6626,23 +6684,23 @@ a.text-dark:hover, a.text-dark:focus {
 .btn-outline-danger:focus {
   box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.2875rem #df3603 !important; }
 
-.btn.btn-outline-primary:hover {
+.btn.btn-outline-primary:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:hover {
   background: #cce0ea;
   color: #006298; }
 
-.btn.btn-outline-success:hover {
+.btn.btn-outline-success:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-outline-success.img-ul-button:hover {
   background-color: #d9eddf;
   color: #008a28; }
 
-.btn.btn-outline-danger:hover {
+.btn.btn-outline-danger:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-outline-danger.img-ul-button:hover {
   background-color: #fae1d9;
   border-color: #df3603;
   color: #df3603; }
 
-.btn.btn-link:hover {
+.btn.btn-link:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button:hover {
   background: #cce0ea; }
 
-.btn.btn-link {
+.btn.btn-link, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button {
   text-decoration: none; }
 
 button:disabled, button:disabled:hover,
@@ -6650,7 +6708,8 @@ button:disabled, button:disabled:hover,
 .button:disabled:hover,
 .rvt-button:disabled,
 .rvt-button:disabled:hover,
-.btn.disabled {
+.btn.disabled,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload label.disabled.img-ul-button {
   background-color: #eeeeee !important;
   color: #666666 !important;
   border-color: #aaaaaa !important;
@@ -7085,13 +7144,13 @@ select.form-control {
       background: #eeeeee; }
       .rbt-app-header .rbt-drawer-button.open .rbt-icon-menu:before {
         content: "\61"; }
-    .rbt-app-header .rbt-drawer-button .btn {
+    .rbt-app-header .rbt-drawer-button .btn, .rbt-app-header .rbt-drawer-button ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header .rbt-drawer-button label.img-ul-button {
       height: 48px;
       width: 48px;
       font-size: 16px;
       margin-left: -16px;
       color: #444444; }
-    .rbt-app-header .rbt-drawer-button .btn.btn-link:hover {
+    .rbt-app-header .rbt-drawer-button .btn.btn-link:hover, .rbt-app-header .rbt-drawer-button ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header .rbt-drawer-button label.btn-link.img-ul-button:hover {
       background: none; }
 
 @media (min-width: 576px) {
@@ -7105,7 +7164,7 @@ select.form-control {
     .rbt-app-header .rbt-drawer-button {
       height: 70px;
       width: 70px; }
-      .rbt-app-header .rbt-drawer-button .btn {
+      .rbt-app-header .rbt-drawer-button .btn, .rbt-app-header .rbt-drawer-button ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header .rbt-drawer-button label.img-ul-button {
         height: 70px;
         width: 70px;
         font-size: 24px; } }
@@ -7337,7 +7396,7 @@ p {
   color: #f7f7f7;
   -webkit-font-smoothing: antialiased; }
 
-.input-group .input-group-append .btn {
+.input-group .input-group-append .btn, .input-group .input-group-append ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .input-group .input-group-append label.img-ul-button {
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px; }
 
@@ -7374,7 +7433,7 @@ p {
 
 .rbt-charcount .badge {
   position: absolute;
-  top: 10px;
+  top: -10px;
   right: -5px; }
 
 .rbt-charcount {
@@ -7396,32 +7455,22 @@ ccf-image-upload {
   ccf-image-upload image-upload {
     background: #eeeeee; }
     ccf-image-upload image-upload .img-ul {
-      border: none !important; }
+      border: none !important;
+      background: #fafafa; }
+      ccf-image-upload image-upload .img-ul input[type="file"] {
+        display: none;
+        position: fixed;
+        top: -99999px; }
       ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button {
-        color: #666666;
-        background-color: transparent;
-        background-image: none;
-        border: 1px solid;
-        border-color: #777777;
-        text-transform: none;
-        font-size: inherit;
-        box-shadow: none;
-        display: inline-block;
-        font-weight: normal;
-        text-align: center;
-        white-space: nowrap;
-        vertical-align: middle;
-        user-select: none;
-        padding: 0.1rem 0.2rem;
-        font-size: 0.75rem;
-        line-height: 1.5; }
+        display: inline-block; }
         ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:focus {
           color: #eeeeee;
           background-color: #777777; }
       ccf-image-upload image-upload .img-ul .img-ul-file-upload div.img-ul-drag-box-msg {
         color: #666666;
         font-weight: inherit;
-        padding-top: initial; }
+        padding-top: initial;
+        display: inline-block; }
       ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-clear {
         display: none !important; }
   ccf-image-upload .img-preview {
@@ -7451,156 +7500,6 @@ ccf-image-upload {
         border-radius: 9px;
         color: #444444; }
 
-.img-ul[_ngcontent-c0] {
-  --active-color: #3C9;
-  --common-radius: 3px;
-  background-color: #f8f8f8;
-  border-radius: var(--common-radius);
-  border: #d0d0d0 dashed 1px;
-  font-family: sans-serif;
-  position: relative;
-  color: #9b9b9b; }
-
-.img-ul-file-is-over[_ngcontent-c0] {
-  border: var(--active-color) solid; }
-
-.img-ul-hr-inline-group[_ngcontent-c0]:after {
-  clear: both;
-  content: "";
-  display: table; }
-
-.img-ul-file-upload[_ngcontent-c0] {
-  padding: 16px; }
-
-.img-ul-drag-box-msg[_ngcontent-c0] {
-  display: inline-block;
-  font-weight: 600;
-  margin-left: 12px;
-  padding-top: 14px; }
-
-label.img-ul-button[_ngcontent-c0] input[type=file][_ngcontent-c0] {
-  display: none;
-  position: fixed;
-  top: -99999px; }
-
-.img-ul-clear[_ngcontent-c0] {
-  background-color: #FF0000; }
-
-.img-ul-upload[_ngcontent-c0] {
-  background-color: var(--active-color); }
-
-.img-ul-button[_ngcontent-c0] {
-  -moz-box-shadow: 2px 2px 4px 0 rgba(148, 148, 148, 0.6);
-  -webkit-box-shadow: 2px 2px 4px 0 rgba(148, 148, 148, 0.6);
-  box-shadow: 2px 2px 4px 0 rgba(148, 148, 148, 0.6);
-  color: #FFF;
-  cursor: pointer;
-  display: inline-block;
-  float: left;
-  font-size: 1.25em;
-  font-weight: 500;
-  padding: 10px;
-  text-transform: uppercase; }
-
-.img-ul-button[_ngcontent-c0]:active span[_ngcontent-c0] {
-  display: block;
-  position: relative;
-  top: 1px; }
-
-.img-ul-container[_ngcontent-c0] {
-  background-color: #fdfdfd;
-  padding: 0 10px; }
-
-.img-ul-image[_ngcontent-c0] {
-  background: center center no-repeat;
-  background-size: contain;
-  display: inline-block;
-  float: left;
-  height: 86px;
-  margin: 6px;
-  position: relative;
-  width: 86px; }
-
-.img-ul-x-mark[_ngcontent-c0] {
-  background-color: #000;
-  border-radius: 2px;
-  color: #FFF;
-  cursor: pointer;
-  float: right;
-  height: 20px;
-  margin: 2px;
-  opacity: .7;
-  text-align: center;
-  width: 20px; }
-
-.img-ul-close[_ngcontent-c0] {
-  height: 20px;
-  opacity: .7;
-  padding-right: 3px;
-  position: relative;
-  width: 20px; }
-
-.img-ul-x-mark[_ngcontent-c0]:hover .img-ul-close[_ngcontent-c0] {
-  opacity: 1; }
-
-.img-ul-close[_ngcontent-c0]:before, .img-ul-close[_ngcontent-c0]:after {
-  background-color: #FFF;
-  border-radius: 2px;
-  content: '';
-  height: 15px;
-  position: absolute;
-  top: 0;
-  width: 2px; }
-
-.img-ul-close[_ngcontent-c0]:before {
-  transform: rotate(45deg); }
-
-.img-ul-close[_ngcontent-c0]:after {
-  transform: rotate(-45deg); }
-
-.img-ul-loading-overlay[_ngcontent-c0] {
-  background-color: #000;
-  bottom: 0;
-  left: 0;
-  opacity: .7;
-  position: absolute;
-  right: 0;
-  top: 0; }
-
-.img-ul-spinning-circle[_ngcontent-c0] {
-  height: 30px;
-  width: 30px;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  border-radius: 50%;
-  border: 3px solid rgba(255, 255, 255, 0);
-  border-top: 3px solid #FFF;
-  border-right: 3px solid #FFF;
-  -webkit-animation: spinner 2s infinite cubic-bezier(0.085, 0.625, 0.855, 0.36);
-  animation: spinner 2s infinite cubic-bezier(0.085, 0.625, 0.855, 0.36); }
-
-.img-ul-file-too-large[_ngcontent-c0] {
-  color: red;
-  padding: 0 15px; }
-
-@-webkit-keyframes spinner {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-@keyframes spinner {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
 .bs-datepicker {
   display: inline-block;
   vertical-align: top;
@@ -7897,7 +7796,7 @@ label.img-ul-button[_ngcontent-c0] input[type=file][_ngcontent-c0] {
 .rbt-drawer {
   z-index: 3; }
 
-.ccf-searchtrigger .btn {
+.ccf-searchtrigger .btn, .ccf-searchtrigger ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .ccf-searchtrigger label.img-ul-button {
   color: #444444; }
 
 .footer-menu {
@@ -7909,10 +7808,10 @@ label.img-ul-button[_ngcontent-c0] input[type=file][_ngcontent-c0] {
   z-index: 6;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04); }
-  .footer-menu .btn {
+  .footer-menu .btn, .footer-menu ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .footer-menu label.img-ul-button {
     color: #fff;
     border-width: 0px; }
-    .footer-menu .btn:hover {
+    .footer-menu .btn:hover, .footer-menu ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload .footer-menu label.img-ul-button:hover {
       background: #444444; }
 
 ccf-image-slider {
@@ -7966,28 +7865,28 @@ body {
 
 .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch {
   vertical-align: inherit; }
-  .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn {
+  .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch label.img-ul-button {
     padding: 0.1rem 0.4rem;
     margin-right: -1px;
     margin-bottom: 0px;
     border-color: #006298; }
-    .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm .fa, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn .fa {
+    .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm .fa, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn .fa, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button .fa, ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch label.img-ul-button .fa {
       color: #006298; }
-    .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm.active .fa, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn.active .fa {
+    .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm.active .fa, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn.active .fa, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch ccf-image-upload image-upload .img-ul .img-ul-file-upload label.active.img-ul-button .fa, ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch label.active.img-ul-button .fa {
       color: #fff; }
-      .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm.active .fa:hover, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn.active .fa:hover {
+      .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm.active .fa:hover, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn.active .fa:hover, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch ccf-image-upload image-upload .img-ul .img-ul-file-upload label.active.img-ul-button .fa:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch label.active.img-ul-button .fa:hover {
         color: #006298; }
-    .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm input, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn input {
+    .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm input, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn input, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button input, ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch label.img-ul-button input {
       display: none; }
-.main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .btn.btn-link .long-name {
+.main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .btn.btn-link .long-name, .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button .long-name, ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location label.btn-link.img-ul-button .long-name {
   display: none; }
-.main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .btn.btn-link .short-name {
+.main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .btn.btn-link .short-name, .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button .short-name, ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location label.btn-link.img-ul-button .short-name {
   display: inline; }
 
 @media (min-width: 992px) {
-  .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .btn.btn-link .long-name {
+  .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .btn.btn-link .long-name, .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button .long-name, ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location label.btn-link.img-ul-button .long-name {
     display: inline; }
-  .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .btn.btn-link .short-name {
+  .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .btn.btn-link .short-name, .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button .short-name, ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location label.btn-link.img-ul-button .short-name {
     display: none; } }
 .postitem-row {
   display: flex;
