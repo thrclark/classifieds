@@ -45,36 +45,38 @@ $page_title = 'Post ad';
                         <form novalidate ng-reflect-form="[object Object]" class="ng-untouched ng-pristine ng-invalid">
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="form-group rbt-charcount">
+                                    <div class="form-group">
                                         <label for="titleLabel">
                                             <message key="global.ad.field.title" ng-reflect-key="global.ad.field.title">Title</message>
                                             <small>
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </small></label>
-                                        <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="titleLabel" placeholder="" maxlength="200">
-                                        <span class="badge badge-success" id="titleLabel_badge"><span id="titleLabel_counter">0</span>/200</span> </div>
+                                        <div class="rbt-charcount">
+                                            <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control" id="titleLabel" placeholder="" >
+                                            <span class="badge badge-success" id="titleLabel_badge"><span id="titleLabel_counter">0</span></span></div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="form-group rbt-charcount">
+                                    <div class="form-group">
                                         <label class="control-label" for="descriptionLabel">
                                             <message key="global.ad.field.description" ng-reflect-key="global.ad.field.description">Description</message>
                                         </label>
-                                        <textarea aria-labelledby="descriptionLabel" class="form-control" formcontrolname="description" rows="8" ng-reflect-name="description" maxlength="2000" id="descriptionLabel"></textarea>
-                                        <span class="badge badge-success" id="descriptionLabel_badge"><span id="descriptionLabel_counter">0</span>/2000</span> </div>
+                                       <div class="rbt-charcount"> <textarea aria-labelledby="descriptionLabel" class="form-control" formcontrolname="description" rows="8" ng-reflect-name="description" id="descriptionLabel"></textarea>
+                                        <span class="badge badge-success" id="descriptionLabel_badge"><span id="descriptionLabel_counter">0</span></span> </div></div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-6 col-12">
-                                    <div class="form-group rbt-charcount">
+                                    <div class="form-group">
                                         <label for="contactNameLabel">
                                             <message key="global.ad.field.title" ng-reflect-key="global.ad.field.title">Contact Info</message>
                                             <small>
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </small></label>
-                                        <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="contactNameLabel" placeholder="" maxlength="50">
-                                        <span class="badge badge-success" id="contactNameLabel_badge"><span id="contactNameLabel_counter">0</span>/50</span> </div>
+                                       <div class="rbt-charcount"> <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="contactNameLabel" placeholder="" >
+                                        <span class="badge badge-success" id="contactNameLabel_badge"><span id="contactNameLabel_counter">0</span></span> </div></div>
                                 </div>
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
@@ -98,12 +100,12 @@ $page_title = 'Post ad';
                             </div>
                             <div class="row">
                                 <div class="col-lg-6 col-12">
-                                    <div class="form-group rbt-charcount">
+                                    <div class="form-group">
                                         <label for="priceLabel">
                                             <message key="global.ad.field.price" ng-reflect-key="global.ad.field.price">Price</message>
                                         </label>
-                                        <input type="text" aria-labelledby="priceLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="priceLabel" placeholder="" maxlength="20">
-                                        <span class="badge badge-success" id="priceLabel_badge"><span id="priceLabel_counter">0</span>/20</span> </div>
+                                       <div class="rbt-charcount"> <input type="text" aria-labelledby="priceLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="priceLabel">
+                                        <span class="badge badge-success" id="priceLabel_badge"><span id="priceLabel_counter">0</span></span> </div></div>
                                 </div>
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
@@ -257,7 +259,7 @@ $page_title = 'Post ad';
                                                     <div _ngcontent-c0="" filedrop="" class="img-ul" ng-reflect-ng-class="img-ul" ng-reflect-accept="image/png,image/jpg,image/jpeg">
                                                         <div _ngcontent-c0="" class="img-ul-file-upload img-ul-hr-inline-group" >
                                                             <label _ngcontent-c0="" class="btn btn-sm btn-outline-primary" tabindex="0" id="ButtonProgressDemo"> <span _ngcontent-c0="" id="uploadbtnlabel">Upload Image</span>
-                                                                <input _ngcontent-c0="" class="sr-only" multiple="" type="file" accept="image/png,image/jpg,image/jpeg">
+                                                                <input _ngcontent-c0="" class="sr-only" multiple type="file" accept="image/png,image/jpg,image/jpeg">
                                                             </label>
                                                             <label _ngcontent-c0="" class="img-ul-clear img-ul-button"> <span _ngcontent-c0="">Clear</span> </label>
                                                             <div _ngcontent-c0="" class="img-ul-drag-box-msg">or drop image here</div>
@@ -311,9 +313,6 @@ $page_title = 'Post ad';
         });
     });
 </script> 
-
-
-
 <script>
  $(document).ready(function() {
      $("#ButtonProgressDemo").click(function() {
@@ -326,72 +325,56 @@ $page_title = 'Post ad';
      });
  });
 
-</script>
-
-
-
+</script> 
 <script>
     $(document).ready(function() {
-        $(".rbt-charcount .badge").hide(); // hide all counter badges
-
+      
         $("#titleLabel").keyup(function() {
             var length = $(this).val().length;
+			length = 200 - length;
             $('#titleLabel_counter').text(length);
-            if ($("#titleLabel").val().length > 190) {
+            if ($("#titleLabel").val().length > 200) {
                 $("#titleLabel_badge").last().addClass("badge-danger");
             } else {
                 $("#titleLabel_badge").last().removeClass("badge-danger");
             }
         });
-        $("#titleLabel").focusin(function() {
-            $("#titleLabel_badge").show();
-        }).focusout(function() {
-            $("#titleLabel_badge").hide();
-        });
+       
         $("#descriptionLabel").keyup(function() {
             var length = $(this).val().length;
+			length = 2000 - length;
             $('#descriptionLabel_counter').text(length);
-            if ($("#descriptionLabel").val().length > 1990) {
+            if ($("#descriptionLabel").val().length > 2000) {
                 $("#descriptionLabel_badge").last().addClass("badge-danger");
             } else {
                 $("#descriptionLabel_badge").last().removeClass("badge-danger");
             }
         });
-        $("#descriptionLabel").focusin(function() {
-            $("#descriptionLabel_badge").show();
-        }).focusout(function() {
-            $("#descriptionLabel_badge").hide();
-        });
+       
 
         $("#contactNameLabel").keyup(function() {
             var length = $(this).val().length;
+			length = 50 - length;
             $('#contactNameLabel_counter').text(length);
-            if ($("#contactNameLabel").val().length > 45) {
+            if ($("#contactNameLabel").val().length > 50) {
                 $("#contactNameLabel_badge").last().addClass("badge-danger");
             } else {
                 $("#contactNameLabel_badge").last().removeClass("badge-danger");
             }
         });
-        $("#contactNameLabel").focusin(function() {
-            $("#contactNameLabel_badge").show();
-        }).focusout(function() {
-            $("#contactNameLabel_badge").hide();
-        });
+        
 
         $("#priceLabel").keyup(function() {
             var length = $(this).val().length;
-            $('#priceLabel_counter').text(length);
-            if ($("#priceLabel").val().length > 15) {
+			length = 20 - length;
+            $('#priceLabel_counter').text(length);	
+            if ($("#priceLabel").val().length > 20) {
                 $("#priceLabel_badge").last().addClass("badge-danger");
             } else {
                 $("#priceLabel_badge").last().removeClass("badge-danger");
             }
         });
-        $("#priceLabel").focusin(function() {
-            $("#priceLabel_badge").show();
-        }).focusout(function() {
-            $("#priceLabel_badge").hide();
-        });
+        
     });
 </script> 
 <script>
