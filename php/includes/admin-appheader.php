@@ -22,7 +22,7 @@
                     <div class="col-auto d-none d-lg-block">
                         <ul class="nav align-items-center">
                             <li class="nav-item">
-                                <a class="nav-link"  href="main-home.php" role="button" >View appppp</a>
+                                <a class="nav-link"  href="main-home.php" role="button" >View app</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Moderation</a>
