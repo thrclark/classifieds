@@ -1,0 +1,26 @@
+$theme-primary: pink;
+
+
+@function set-textcolor($color) {
+	@if (lightness($color) > 50) {
+		@return #000;
+	}
+	@else {
+		@return $white;
+	}
+}
+
+// set header text colors
+.rbt-app-header .rbt-brand-title-container .rbt-brand-title,
+.rbt-app-header .btn-outline-primary{
+	color: set-textcolor($theme-primary);
+}
+
+.rbt-app-header .btn-outline-primary {
+	border-color: set-textcolor($theme-primary);
+}
+
+.rbt-app-header {
+	background: $theme-primary;
+}
+
