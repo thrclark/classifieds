@@ -1,4 +1,4 @@
-$theme-primary: pink;
+$theme-primary: #004b74;
 
 
 @function set-textcolor($color) {
@@ -23,4 +23,5 @@ $theme-primary: pink;
 .rbt-app-header {
 	background: $theme-primary;
 }
+
 

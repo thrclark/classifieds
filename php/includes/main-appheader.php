@@ -3,9 +3,9 @@
     <div class="container">
         <div class="row align-items-center"> 
             <!--App Logo Image-->
-            <div class="col-auto rbt-brand-image-container"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"/> </div>
+            <div class="col-auto rbt-brand-image-container"> <img src="../img/ccf-logo.png" alt="trident" class="rbt-brand-image"/> </div>
             <!--App Title-->
-            <div class="col col-md-auto rbt-brand-title-container"> <span class="rbt-header-title"> <a  href="main-home.php"class="rbt-brand-title"><strong>Classifieds</strong> </a></span> </div>
+            <div class="col col-md-auto rbt-brand-title-container pl-0"> <span class="rbt-header-title d-none" > <a  href="main-home.php"class="rbt-brand-title"><strong>Classifieds</strong> </a></span> </div>
             <!--Search-->
             <div class="col d-none d-md-block" id="mainSearch_container">
                 <label for="mainSearch" class="sr-only">

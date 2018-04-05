@@ -8256,12 +8256,12 @@ body {
 .rbt-app-header .btn-outline-primary,
 .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button,
 ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.img-ul-button {
-  color: #000; }
+  color: #fff; }
 
 .rbt-app-header .btn-outline-primary, .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.img-ul-button {
-  border-color: #000; }
+  border-color: #fff; }
 
 .rbt-app-header {
-  background: pink; }
+  background: #004b74; }
 
 /*# sourceMappingURL=admin.css.map */
