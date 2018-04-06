@@ -1,27 +1,62 @@
-$theme-primary: #004b74;
+$theme-primary: $blue;
+$theme-accent: #e5f06f;
 
+$theme-primary: #e5f06f;
+$theme-accent: $purple;
 
-@function set-textcolor($color) {
-	@if (lightness($color) > 50) {
-		@return #000;
+$theme-body-bg: #f8f4e8;
+
+@function set-contrast($color) {
+	@if (lightness($color) > 65) {
+		@return $theme-accent;
 	}
 	@else {
 		@return $white;
 	}
 }
+@function set-contrast1($color) {
+	@if (lightness($color) > 65) {
+		@return $theme-accent;
+	}
+	@else {
+		@return $theme-primary;
+	}
+}
+.rbt-app-header .btn-primary {
+	background:  set-contrast1($theme-primary);
+}
 
-// set header text colors
-.rbt-app-header .rbt-brand-title-container .rbt-brand-title,
-.rbt-app-header .btn-outline-primary{
-	color: set-textcolor($theme-primary);
+.rbt-app-header, .modal .modal-header {
+	background: $theme-primary;
+	color: set-contrast($theme-primary);
+}
+
+.modal .modal-header .close .rbt-icon-close {
+	color: set-contrast($theme-primary);
+}
+.rbt-app-header .btn-primary,
+.rbt-app-header .input-group .form-control {
+	border-color: set-contrast($theme-primary);
 }
 
 .rbt-app-header .btn-outline-primary {
-	border-color: set-textcolor($theme-primary);
+	border-color: set-contrast($theme-primary);
+	color: set-contrast($theme-primary);
 }
 
-.rbt-app-header {
-	background: $theme-primary;
+body {
+	background: $theme-body-bg;
 }
 
 
+@function set-pricebackground-color($color) {
+	@if (lightness($color) > 50) {
+		@return transparentize($theme-accent, 0.2);
+	}
+	@else {
+		@return transparentize($theme-primary, 0.2);
+	}
+}
+.postitem.grid .postitem-container .postitem-price {
+	background: set-pricebackground-color($theme-primary);
+}
