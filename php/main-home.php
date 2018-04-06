@@ -27,7 +27,7 @@ $page_title = 'All ads';
                         </div>
                     </div>
                     
-                   <!-- <button class="btn btn-primary">asdf</button>  <button class="btn btn-outline-primary">asdf</button>-->
+                   <button class="btn btn-primary">asdf</button>  <button class="btn btn-outline-primary">asdf</button>
                     
                     
                     <?php include('includes/main-ads-all.php') ?>

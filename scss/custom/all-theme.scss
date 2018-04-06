@@ -1,8 +1,8 @@
 $theme-primary: #ffedb9;
 $theme-accent: $purple;
 
-$theme-primary: $blue;
-$theme-accent: #ffedb9;
+//$theme-primary: $blue;
+//$theme-accent: #ffedb9;
 
 $theme-body-bg: #f8f4e8;
 
@@ -72,9 +72,15 @@ body {
 	color: $theme-accent;
 	border-color: $theme-primary;
 }
-
-
+@function set-btn-outline-primary($color) {
+	@if (lightness($color) > 50) {
+		@return $theme-accent;
+	}
+	@else {
+		@return $theme-primary;
+	}
+}
 .btn-outline-primary {
-	color: $theme-primary;
-	border-color: $theme-primary;
+	color: set-btn-outline-primary($theme-primary);
+	border-color: set-btn-outline-primary($theme-primary);
 }
