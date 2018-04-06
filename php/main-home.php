@@ -26,6 +26,10 @@ $page_title = 'All ads';
                             <?php include('includes/main-section-utilities.php') ?>
                         </div>
                     </div>
+                    
+                   <!-- <button class="btn btn-primary">asdf</button>  <button class="btn btn-outline-primary">asdf</button>-->
+                    
+                    
                     <?php include('includes/main-ads-all.php') ?>
                     <?php include('includes/all-pagination.php') ?>
                 </div>

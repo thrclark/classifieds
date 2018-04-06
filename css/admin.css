@@ -8252,28 +8252,40 @@ body {
 .postitem.list:last-child {
   margin-bottom: 20px; }
 
-.rbt-app-header .btn-primary {
-  background: #6f42c1; }
-
-.rbt-app-header, .modal .modal-header {
-  background: #e5f06f;
-  color: #6f42c1; }
-
-.modal .modal-header .close .rbt-icon-close {
-  color: #6f42c1; }
-
-.rbt-app-header .btn-primary,
-.rbt-app-header .input-group .form-control {
-  border-color: #6f42c1; }
-
-.rbt-app-header .btn-outline-primary, .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.img-ul-button {
-  border-color: #6f42c1;
-  color: #6f42c1; }
-
 body {
   background: #f8f4e8; }
 
+.rbt-app-header .btn-primary {
+  background: #ffedb9;
+  color: #006298; }
+
+.rbt-app-header .btn-outline-primary, .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.img-ul-button {
+  border-color: #ffedb9;
+  color: #ffedb9; }
+
+.rbt-app-header, .modal .modal-header {
+  background: #006298;
+  color: #fff; }
+
+.modal .modal-header .close .rbt-icon-close {
+  color: #fff; }
+
+.rbt-app-header .btn-primary,
+.rbt-app-header .input-group .form-control {
+  border-color: #fff; }
+
 .postitem.grid .postitem-container .postitem-price {
-  background: rgba(111, 66, 193, 0.8); }
+  background: rgba(0, 98, 152, 0.8);
+  color: #fff;
+  text-shadow: 1px 1px 4px #000; }
+
+.btn-primary {
+  background: #006298;
+  color: #ffedb9;
+  border-color: #006298; }
+
+.btn-outline-primary, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button {
+  color: #006298;
+  border-color: #006298; }
 
 /*# sourceMappingURL=admin.css.map */

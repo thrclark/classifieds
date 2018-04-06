@@ -1,29 +1,51 @@
-$theme-primary: $blue;
-$theme-accent: #e5f06f;
-
-$theme-primary: #e5f06f;
+$theme-primary: #ffedb9;
 $theme-accent: $purple;
+
+$theme-primary: $blue;
+$theme-accent: #ffedb9;
 
 $theme-body-bg: #f8f4e8;
 
 @function set-contrast($color) {
+	//@if (lightness($color) > 65) and (saturation($color) > 65){
 	@if (lightness($color) > 65) {
-		@return $theme-accent;
+		@return $body-color;
 	}
 	@else {
 		@return $white;
 	}
 }
-@function set-contrast1($color) {
-	@if (lightness($color) > 65) {
-		@return $theme-accent;
+
+@function set-pricebackground-color($color) {
+	@if (lightness($color) > 65) and (saturation($color) < 65){
+		@return transparentize($theme-accent, 0.2);
 	}
 	@else {
-		@return $theme-primary;
+		@return transparentize($theme-primary, 0.2);
 	}
 }
+
+@function set-textshadow($color) {
+	@if (lightness($color) > 65){
+		@return none;
+	}
+	@else {
+		@return 1px 1px 4px $black;
+	}
+}
+
+body {
+	background: $theme-body-bg;
+}
+
 .rbt-app-header .btn-primary {
-	background:  set-contrast1($theme-primary);
+	background: $theme-accent;
+	color: $theme-primary;
+}
+
+.rbt-app-header .btn-outline-primary {
+	border-color:$theme-accent;
+	color: $theme-accent;
 }
 
 .rbt-app-header, .modal .modal-header {
@@ -39,24 +61,20 @@ $theme-body-bg: #f8f4e8;
 	border-color: set-contrast($theme-primary);
 }
 
-.rbt-app-header .btn-outline-primary {
-	border-color: set-contrast($theme-primary);
-	color: set-contrast($theme-primary);
-}
-
-body {
-	background: $theme-body-bg;
-}
-
-
-@function set-pricebackground-color($color) {
-	@if (lightness($color) > 50) {
-		@return transparentize($theme-accent, 0.2);
-	}
-	@else {
-		@return transparentize($theme-primary, 0.2);
-	}
-}
 .postitem.grid .postitem-container .postitem-price {
 	background: set-pricebackground-color($theme-primary);
+	color: set-contrast($theme-primary);
+	text-shadow: set-textshadow($theme-primary);
+}
+
+.btn-primary {
+	background: $theme-primary;
+	color: $theme-accent;
+	border-color: $theme-primary;
+}
+
+
+.btn-outline-primary {
+	color: $theme-primary;
+	border-color: $theme-primary;
 }
