@@ -8206,15 +8206,15 @@ body {
   background: #f8f4e8; }
 
 .rbt-app-header .btn-primary {
-  background: #6f42c1;
-  color: #ffedb9; }
+  background: #006298;
+  color: #ffc107; }
 
 .rbt-app-header .btn-outline-primary, .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.img-ul-button {
-  border-color: #6f42c1;
-  color: #6f42c1; }
+  border-color: #006298;
+  color: #006298; }
 
 .rbt-app-header, .modal .modal-header {
-  background: #ffedb9;
+  background: #ffc107;
   color: #444444; }
 
 .modal .modal-header .close .rbt-icon-close {
@@ -8225,17 +8225,23 @@ body {
   border-color: #444444; }
 
 .postitem.grid .postitem-container .postitem-price {
-  background: rgba(255, 237, 185, 0.8);
+  background: #006298;
   color: #444444;
   text-shadow: none; }
 
-.btn-primary {
-  background: #ffedb9;
-  color: #6f42c1;
-  border-color: #ffedb9; }
-
 .btn-outline-primary, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button {
-  color: #6f42c1;
-  border-color: #6f42c1; }
+  color: #006298;
+  border-color: #006298; }
+
+.btn-primary, .btn-outline-primary:not(:disabled):not(.disabled):active, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled).active,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button {
+  background: #006298;
+  border-color: #006298; }
 
 /*# sourceMappingURL=main.css.map */
