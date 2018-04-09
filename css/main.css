@@ -8202,36 +8202,37 @@ body {
 .postitem.list:last-child {
   margin-bottom: 20px; }
 
-body {
+body, .pagination .page-link {
   background: #f8f4e8; }
 
 .rbt-app-header .btn-primary {
-  background: #006298;
-  color: #ffc107; }
+  background: #ffc107;
+  color: #394054; }
 
 .rbt-app-header .btn-outline-primary, .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.img-ul-button {
-  border-color: #006298;
-  color: #006298; }
+  border-color: #ffc107;
+  color: #ffc107; }
 
 .rbt-app-header, .modal .modal-header {
-  background: #ffc107;
-  color: #444444; }
+  background: #394054;
+  color: #fff; }
 
 .modal .modal-header .close .rbt-icon-close {
-  color: #444444; }
+  color: #fff; }
 
 .rbt-app-header .btn-primary,
 .rbt-app-header .input-group .form-control {
-  border-color: #444444; }
+  border-color: #fff; }
 
 .postitem.grid .postitem-container .postitem-price {
-  background: #006298;
+  background: #ffc107;
   color: #444444;
-  text-shadow: none; }
+  text-shadow: 1px 1px 2px #fff;
+  font-weight: bold; }
 
 .btn-outline-primary, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button {
-  color: #006298;
-  border-color: #006298; }
+  color: #394054;
+  border-color: #394054; }
 
 .btn-primary, .btn-outline-primary:not(:disabled):not(.disabled):active, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active,
 ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active,
@@ -8241,7 +8242,7 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:no
 .show > .btn-outline-primary.dropdown-toggle,
 ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button,
 ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button {
-  background: #006298;
-  border-color: #006298; }
+  background: #394054;
+  border-color: #394054; }
 
 /*# sourceMappingURL=main.css.map */

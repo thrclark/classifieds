@@ -8252,19 +8252,19 @@ body {
 .postitem.list:last-child {
   margin-bottom: 20px; }
 
-body {
+body, .pagination .page-link {
   background: #f8f4e8; }
 
 .rbt-app-header .btn-primary {
-  background: #ffedb9;
-  color: #006298; }
+  background: #ffc107;
+  color: #394054; }
 
 .rbt-app-header .btn-outline-primary, .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.img-ul-button {
-  border-color: #ffedb9;
-  color: #ffedb9; }
+  border-color: #ffc107;
+  color: #ffc107; }
 
 .rbt-app-header, .modal .modal-header {
-  background: #006298;
+  background: #394054;
   color: #fff; }
 
 .modal .modal-header .close .rbt-icon-close {
@@ -8275,17 +8275,24 @@ body {
   border-color: #fff; }
 
 .postitem.grid .postitem-container .postitem-price {
-  background: rgba(0, 98, 152, 0.8);
-  color: #fff;
-  text-shadow: 1px 1px 4px #000; }
-
-.btn-primary {
-  background: #006298;
-  color: #ffedb9;
-  border-color: #006298; }
+  background: #ffc107;
+  color: #444444;
+  text-shadow: 1px 1px 2px #fff;
+  font-weight: bold; }
 
 .btn-outline-primary, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button {
-  color: #006298;
-  border-color: #006298; }
+  color: #394054;
+  border-color: #394054; }
+
+.btn-primary, .btn-outline-primary:not(:disabled):not(.disabled):active, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled).active,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button {
+  background: #394054;
+  border-color: #394054; }
 
 /*# sourceMappingURL=admin.css.map */

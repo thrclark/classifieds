@@ -1,13 +1,27 @@
-$theme-primary: $yellow;
-$theme-accent: $blue;
+$theme-primary: #394054;
+$theme-accent: $yellow;
 
 //$theme-primary: $red;
 //$theme-accent: #ffedb9;
 
 $theme-body-bg: #f8f4e8;
 
-@function set-contrast($color) {
-	//@if (lightness($color) > 65) and (saturation($color) > 65){
+
+//@if (lightness($color) > 65) and (saturation($color) > 65){
+
+
+
+
+@function set-contrast-wob($color) {
+	@if (lightness($color) > 50) {
+		@return $white;
+	}
+	@else {
+		@return $body-color;
+	}
+}
+
+@function set-contrast-bow($color) {
 	@if (lightness($color) > 50) {
 		@return $body-color;
 	}
@@ -16,16 +30,16 @@ $theme-body-bg: #f8f4e8;
 	}
 }
 @function set-textshadow($color) {
-	@if (lightness($color) > 50){
-		@return none;
+	@if (lightness($color) > 50) {
+		@return 1px 1px 4px $black;
 	}
 	@else {
-		@return 1px 1px 4px $black;
+		@return 1px 1px 2px $white;
 	}
 }
 
 @function set-pricebackground-color($color) {
-	@if (lightness($color) > 50){
+	@if (lightness($color) > 50) {
 		@return transparentize($theme-accent, 0.2);
 	}
 	@else {
@@ -34,7 +48,7 @@ $theme-body-bg: #f8f4e8;
 }
 
 @function set-btn-outline-primary($color) {
-	@if (lightness($color) > 50){
+	@if (lightness($color) > 50) {
 		@return $theme-accent;
 	}
 	@else {
@@ -42,7 +56,7 @@ $theme-body-bg: #f8f4e8;
 	}
 }
 
-body {
+body, .pagination .page-link {
 	background: $theme-body-bg;
 }
 
@@ -58,21 +72,22 @@ body {
 
 .rbt-app-header, .modal .modal-header {
 	background: $theme-primary;
-	color: set-contrast($theme-primary);
+	color: set-contrast-bow($theme-primary);
 }
 
 .modal .modal-header .close .rbt-icon-close {
-	color: set-contrast($theme-primary);
+	color: set-contrast-bow($theme-primary);
 }
 .rbt-app-header .btn-primary,
 .rbt-app-header .input-group .form-control {
-	border-color: set-contrast($theme-primary);
+	border-color: $white;
 }
 
 .postitem.grid .postitem-container .postitem-price {
 	background: $theme-accent;
-	color: set-contrast($theme-primary);
+	color: set-contrast-wob($theme-primary);
 	text-shadow: set-textshadow($theme-primary);
+	font-weight: bold;
 }
 
 

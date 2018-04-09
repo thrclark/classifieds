@@ -20,16 +20,13 @@ $page_title = 'All ads';
                 <div class="col-xs-12 col-md-9 main-content-section" role="main">
                     <div class="row align-items-center section-head">
                         <div class="col-12 section-head-title">
-                            <h1 class="mb-1"> <?php echo $page_title; ?></h1>
+                            <h1 class="mb-1">
+                                <?php echo $page_title; ?></h1>
                         </div>
                         <div class="col-12">
                             <?php include('includes/main-section-utilities.php') ?>
                         </div>
                     </div>
-                    
-                   <button class="btn btn-primary">asdf</button>  <button class="btn btn-outline-primary">asdf</button>
-                    
-                    
                     <?php include('includes/main-ads-all.php') ?>
                     <?php include('includes/all-pagination.php') ?>
                 </div>
