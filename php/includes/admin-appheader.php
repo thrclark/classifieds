@@ -12,7 +12,7 @@
             <!--App Title-->
             <div class="col rbt-brand-title-container">	
                 <span class="rbt-header-title">
-                <a  href="main-home.php"class="rbt-brand-title"> <small>Administration</small></a>
+                <a  href="main-home.php"class="rbt-brand-title"> <span class="rbt-ts-14">Administration</span></a>
                 </span>
             </div>
             
@@ -72,7 +72,7 @@
     <nav>
         <ul class="list-group ">
             <li class="list-group-item">
-                <a href="main-home.php">View app</a>
+                <a href="main-home.php">Main view</a>
             </li>
         </ul>
         <h3 class="rbt-ts-14 text-uppercase mt-4 mb-2">Moderation</h3>

@@ -8255,17 +8255,23 @@ body {
 body, .pagination .page-link {
   background: #fffbee; }
 
+.rbt-drawer, .rbt-app-header .rbt-drawer-button.open {
+  background-color: #fff5d5; }
+
+.rbt-drawer-button.open .btn.btn-link, .rbt-drawer-button.open ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-drawer-button.open label.btn-link.img-ul-button {
+  color: #444444; }
+
 .table thead {
   background: #fff5d5;
   border-bottom-color: #ffd755; }
 
 .rbt-app-header .btn.btn-primary, .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-primary.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.btn-primary.img-ul-button {
-  background: #ffc107;
+  background: #fce49c;
   color: #006298; }
 
 .rbt-app-header .btn.btn-outline-primary, .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.img-ul-button {
-  border-color: #ffc107;
-  color: #ffc107; }
+  border-color: #fce49c;
+  color: #fce49c; }
 
 .rbt-app-header, .modal .modal-header {
   background: #006298;
@@ -8283,7 +8289,7 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.
   border-color: #fff; }
 
 .postitem.grid .postitem-container .postitem-price {
-  background: #ffc107;
+  background: #fce49c;
   color: #444444;
   text-shadow: 1px 1px 2px #fff;
   font-weight: bold; }
@@ -8318,7 +8324,7 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown
   ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button:hover,
   ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button:hover {
     background: #004165;
-    border-color: #004165; }
+    border-color: #fce49c; }
 
 .dropdown .dropdown-menu .dropdown-item:hover {
   background: #006298;

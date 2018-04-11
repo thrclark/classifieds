@@ -1,5 +1,5 @@
 $theme-primary: $blue;
-$theme-accent: $yellow;
+$theme-accent: #fce49c;
 
 //$theme-primary: $red;
 //$theme-accent: #ffedb9;
@@ -103,6 +103,12 @@ body, .pagination .page-link {
 	background: $theme-body-bg;
 }
 
+.rbt-drawer, .rbt-app-header .rbt-drawer-button.open {
+	background-color: darken($theme-body-bg, 5%);
+}
+.rbt-drawer-button.open .btn.btn-link{
+	color: $body-color;
+}
 .table thead {
 	background:  darken($theme-body-bg, 5%);
 	border-bottom-color:   darken($theme-body-bg, 30%);
@@ -185,7 +191,7 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown
 	border-color:set-general-contrast($theme-primary);
 	&:hover {
 		background:  darken(set-general-contrast($theme-primary), 10% );
-		border-color:darken(set-general-contrast($theme-primary), 10% );
+		border-color: $theme-accent;
 	}
 }
 
