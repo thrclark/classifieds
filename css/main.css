@@ -8203,49 +8203,55 @@ body {
   margin-bottom: 20px; }
 
 body, .pagination .page-link {
-  background: #fffbee; }
+  background: #fafafa; }
 
 .rbt-drawer, .rbt-app-header .rbt-drawer-button.open {
-  background-color: #fff5d5; }
+  background-color: #ededed; }
 
 .rbt-drawer-button.open .btn.btn-link, .rbt-drawer-button.open ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-drawer-button.open label.btn-link.img-ul-button {
   color: #444444; }
 
 .table thead {
-  background: #fff5d5;
-  border-bottom-color: #ffd755; }
+  background: #ededed;
+  border-bottom-color: #aeaeae; }
+
+.rbt-app-header {
+  border-bottom-color: #d9d9d9; }
+
+.rbt-app-header .rbt-drawer-button {
+  border-left-color: #d9d9d9; }
 
 .rbt-app-header .btn.btn-primary, .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-primary.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.btn-primary.img-ul-button {
-  background: #fce49c;
-  color: #006298; }
-
-.rbt-app-header .btn.btn-outline-primary, .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.img-ul-button {
-  border-color: #fce49c;
-  color: #fce49c; }
-
-.rbt-app-header, .modal .modal-header {
   background: #006298;
   color: #fff; }
+
+.rbt-app-header .btn.btn-outline-primary, .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.img-ul-button {
+  border-color: #006298;
+  color: #006298; }
+
+.rbt-app-header, .modal .modal-header {
+  background: #fff;
+  color: #444444; }
 
 .modal .modal-header .close .rbt-icon-close,
 .rbt-app-header .rbt-brand-title-container .rbt-brand-title,
 .rbt-app-header .btn.btn-link,
 .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button,
 ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.btn-link.img-ul-button {
-  color: #fff; }
+  color: #444444; }
 
 .rbt-app-header .btn-primary,
 .rbt-app-header .input-group .form-control {
-  border-color: #fff; }
+  border-color: #006298; }
 
 .postitem.grid .postitem-container .postitem-price {
-  background: #fce49c;
-  color: #444444;
-  text-shadow: 1px 1px 2px #fff;
+  background: #006298;
+  color: #fff;
+  text-shadow: 1px 1px 4px #000;
   font-weight: bold; }
 
 .rbt-app-header .nav .nav-item .nav-link {
-  color: #fff; }
+  color: #444444; }
 
 .btn.btn-outline-primary, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button {
   color: #006298;
@@ -8274,7 +8280,7 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown
   ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button:hover,
   ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button:hover {
     background: #004165;
-    border-color: #fce49c; }
+    border-color: #006298; }
 
 .dropdown .dropdown-menu .dropdown-item:hover {
   background: #006298;
@@ -8294,7 +8300,7 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:fo
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
-  color: #fff;
+  color: #444444;
   border-color: #006298;
   background: #006298; }
 

@@ -1,10 +1,10 @@
-$theme-primary: $blue;
-$theme-accent: #fce49c;
+$theme-primary: $white;
+$theme-accent: $blue;
 
 //$theme-primary: $red;
 //$theme-accent: #ffedb9;
 
-$theme-body-bg: #fffbee;
+$theme-body-bg: $gray-50;
 
 
 //@if (lightness($color) > 65) and (saturation($color) > 65){
@@ -114,7 +114,15 @@ body, .pagination .page-link {
 	border-bottom-color:   darken($theme-body-bg, 30%);
 }
 
+.rbt-app-header{
+	border-bottom-color:darken($theme-primary, 15% );
 
+
+}
+
+.rbt-app-header .rbt-drawer-button {
+	border-left-color:darken($theme-primary, 15% );
+}
 
 .rbt-app-header .btn.btn-primary {
 	background: set-searchwidget-searchbutton($theme-primary);
