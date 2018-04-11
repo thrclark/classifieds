@@ -5,7 +5,7 @@
         <div class="row align-items-center">
             <!--App Logo Image-->
 
-            <div class="col-auto rbt-brand-image-container"> <img src="../img/ccf-logo.png" alt="trident" class="rbt-brand-image d-none d-sm-block"/><img src="../img/ccf-logo-mobile.png" alt="trident" class="rbt-brand-image d-sm-none"/> </div>
+            <div class="col-auto rbt-brand-image-container"> <img src="../img/ccf-logo.png" alt="" class="rbt-brand-image d-none d-sm-block"/><img src="../img/ccf-logo-mobile.png" alt="" class="rbt-brand-image d-sm-none"/> </div>
             <!--App Title-->
             <div class="col col-md-auto rbt-brand-title-container pl-0"> <span class="rbt-header-title d-none" > <a  href="main-home.php"class="rbt-brand-title"><strong>Classifieds</strong> </a></span> </div>
 
@@ -21,7 +21,7 @@
                     <div class="input-group-append">
                         <button class="btn btn-primary" type="button" onclick="location.href = 'main-searchresults.php';"><i aria-hidden="true" class="fa fa-search"></i>
                         <span class="d-none d-lg-inline">
-                        <message>Search</message>
+                        <message>Searchhhh</message>
                         </span>
                         </button>
                     </div>
