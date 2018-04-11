@@ -75,13 +75,13 @@
                 <a href="main-home.php">Main view</a>
             </li>
         </ul>
-        <h3 class="rbt-ts-14 text-uppercase mt-4 mb-2">Moderation</h3>
+        <h3 class="rbt-ts-14 text-uppercase mt-4 mb-2">Moderator</h3>
         <ul class="list-group ">
             <li class="list-group-item">
                 <a href="admin-ads.php">Ads</a>
             </li>
             <li class="list-group-item">
-                <a href="main-home.php">Main view</a>
+                <a href="">Restricted users</a>
             </li>
         </ul>
         <h3 class="rbt-ts-14 text-uppercase  mt-3 mb-2">Settings</h3>
