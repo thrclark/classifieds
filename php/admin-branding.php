@@ -41,37 +41,48 @@ $page_title = 'Branding';
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Application Logo  (optional)
+                            <td>Application logo  (optional)
                                 <div class="small helper-text"> Select an image to be used as an application logo in the header.</div></td>
                             <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo.png" style="height:70px; width:auto" alt=""/></div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_brandingimage">Edit</button></td>
                         </tr>
+                        
+                        
+                        
                         <tr>
-                            <td> Favicon Icon (.ico)
+                            <td>Application logo - mobile  (optional)
+                                <div class="small helper-text"> Select an image to be used as an application logo in the header for mobile devices.</div></td>
+                            <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo-mobile.png" style="height:70px; width:auto" alt=""/></div></td>
+                            <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_brandingimage">Edit</button></td>
+                        </tr>
+                        
+                       
+                        <tr>
+                            <td> Favicon icon (.ico)
                                 <div class="small helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
                             <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo-mobile.png" style="height:70px; width:auto" alt=""/></div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_favicon">Edit</button></td>
                         </tr>
                         <tr>
-                            <td> Favicon Image
+                            <td> Favicon image
                                 <div class="small helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
                             <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo.png" style="height:70px; width:auto" alt=""/></div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_faviconimage">Edit</button></td>
                         </tr>
                         <tr>
-                            <td> Apple Touch Image
+                            <td> Apple Touch image
                                 <div class="small helper-text"> Select an image to be displayed in iOS as a desktop bookmark.</div></td>
                             <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo.png" style="height:70px; width:auto" alt=""/></div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_appletouch">Edit</button></td>
                         </tr>
                         <tr>
-                            <td>Application Title Display
+                            <td>Application title display
                                 <div class="small helper-text">Choose whether or not to display the application name in the header</div></td>
                             <td> Display application name "Classifieds"</td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_titledisplay">Edit</button></td>
                         </tr>
                         <tr>
-                            <td>Application Colors
+                            <td>Application colors
                                 <div class="small helper-text">Choose the color to be used for the header background & accent colors.</div></td>
                             <td><div class="row">
                                     <div class="col-4">
@@ -87,19 +98,19 @@ $page_title = 'Branding';
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_color">Edit</button></td>
                         </tr>
                         <tr>
-                            <td>Font Family for Headers
+                            <td>Font family for headers
                                 <div class="small helper-text">Choose a font family to be used for all headers.</div></td>
                             <td> BentonSansBold</td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_fontheader">Edit</button></td>
                         </tr>
                         <tr>
-                            <td>Font Family for Body Text
+                            <td>Font family for body text
                                 <div class="small helper-text">Choose a font family to be used for the body text.</div></td>
                             <td> BentonSans</td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_fontbody">Edit</button></td>
                         </tr>
                         <tr>
-                            <td>Custom Header HTML (optional)
+                            <td>Custom header HTML (optional)
                                 <div class="small helper-text">Specify optional HTML markup to be displayed at the top of the application views.</div></td>
                             <td><div class="code" style=" height:70px">
                                     <code>&lt;div id=&quot;custom_header&quot;&gt;
@@ -118,7 +129,7 @@ $page_title = 'Branding';
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_customheader">Edit</button></td>
                         </tr>
                         <tr>
-                            <td>Custom Footer HTML (optional)
+                            <td>Custom footer HTML (optional)
                                 <div class="small helper-text">Specify optional HTML markup to be displayed at the bottom of the application views.</div></td>
                             <td><div class="code" style=" height:70px">
                                     <code>&lt;footer role=&quot;contentinfo&quot;&gt;
