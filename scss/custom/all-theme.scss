@@ -95,9 +95,11 @@ body, .pagination .page-link {
 }
 .ccf-themeset.primary{
 	background: $theme-primary;
+	color: set-contrast-bow($theme-primary);
 }
 .ccf-themeset.accent{
 	background: $theme-accent;
+	color: set-contrast-wob($theme-primary);
 }
 .ccf-themeset.background{
 	background: $theme-body-bg;

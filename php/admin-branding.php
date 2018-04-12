@@ -57,7 +57,7 @@ $page_title = 'Branding';
                                 <div class="small helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
                             <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo.png" style="height:70px; width:auto" alt=""/></div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_faviconimage">Edit</button></td>
-                 	       </tr>
+                        </tr>
                         <tr>
                             <td> Apple Touch Image
                                 <div class="small helper-text"> Select an image to be displayed in iOS as a desktop bookmark.</div></td>
@@ -73,27 +73,17 @@ $page_title = 'Branding';
                         <tr>
                             <td>Application Colors
                                 <div class="small helper-text">Choose the color to be used for the header background & accent colors.</div></td>
-                            <td> 
-                            
-                            
-                            <div class="row">
-                            
-                            
-                            <div class="col-4"><div class="p-3 ccf-themeset primary">Primary</div></div>
-                            
-                             <div class="col-4"><div class="p-3 ccf-themeset accent">Accent</div></div>
-                             
-                              <div class="col-4"><div class="p-3 ccf-themeset background">Background</div></div>
-                            
-                            
-                            </div>
-                            
-                            
-                            
-                            
-                            
-                            
-                            </td>
+                            <td><div class="row">
+                                    <div class="col-4">
+                                        <div class="p-3 ccf-themeset primary">Primary</div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="p-3 ccf-themeset accent">Accent</div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="p-3 ccf-themeset background">Background</div>
+                                    </div>
+                                </div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_color">Edit</button></td>
                         </tr>
                         <tr>

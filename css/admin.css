@@ -8293,10 +8293,12 @@ body, .pagination .page-link {
   color: #ffc107; }
 
 .ccf-themeset.primary {
-  background: #395f74; }
+  background: #395f74;
+  color: #fff; }
 
 .ccf-themeset.accent {
-  background: #ffc107; }
+  background: #ffc107;
+  color: #444444; }
 
 .ccf-themeset.background {
   background: #fffaeb; }
