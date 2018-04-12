@@ -8229,6 +8229,15 @@ body, .pagination .page-link {
   border-color: #ffc107;
   color: #ffc107; }
 
+.ccf-themeset.primary {
+  background: #395f74; }
+
+.ccf-themeset.accent {
+  background: #ffc107; }
+
+.ccf-themeset.background {
+  background: #fffaeb; }
+
 .rbt-app-header, .modal .modal-header {
   background: #395f74;
   color: #fff; }

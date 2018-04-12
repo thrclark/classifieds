@@ -15,12 +15,12 @@ $page_title = 'Branding';
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
     <div class="row">
-        
         <div class="col-12">
             <div class="main-content" id="main-content">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-auto">
-                        <h1> <?php echo $page_title; ?></h1>
+                        <h1>
+                            <?php echo $page_title; ?></h1>
                     </div>
                     <div class="col-auto">
                         <div class="form-check rbt-checkbox" >
@@ -43,43 +43,57 @@ $page_title = 'Branding';
                         <tr>
                             <td>Application Logo  (optional)
                                 <div class="small helper-text"> Select an image to be used as an application logo in the header.</div></td>
-                            <td><img src="../img/app-icon-generic.png" style="height:70px; width:auto" alt=""/></td>
+                            <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo.png" style="height:70px; width:auto" alt=""/></div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_brandingimage">Edit</button></td>
                         </tr>
                         <tr>
                             <td> Favicon Icon (.ico)
                                 <div class="small helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
-                            <td><img src="../img/app-favicon-generic.png" width="16" height="16" alt=""/></td>
+                            <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo-mobile.png" style="height:70px; width:auto" alt=""/></div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_favicon">Edit</button></td>
                         </tr>
                         <tr>
                             <td> Favicon Image
                                 <div class="small helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
-                            <td><img src="../img/app-icon-generic.png" style="height:70px; width:auto" alt=""/></td>
+                            <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo.png" style="height:70px; width:auto" alt=""/></div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_faviconimage">Edit</button></td>
-                        </tr>
+                 	       </tr>
                         <tr>
                             <td> Apple Touch Image
                                 <div class="small helper-text"> Select an image to be displayed in iOS as a desktop bookmark.</div></td>
-                            <td><img src="../img/app-icon-generic.png" style="height:70px; width:auto" alt=""/></td>
+                            <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo.png" style="height:70px; width:auto" alt=""/></div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_appletouch">Edit</button></td>
                         </tr>
                         <tr>
                             <td>Application Title Display
                                 <div class="small helper-text">Choose whether or not to display the application name in the header</div></td>
-                            <td> Display application name</td>
+                            <td> Display application name "Classifieds"</td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_titledisplay">Edit</button></td>
                         </tr>
                         <tr>
-                            <td>Primary Brand Color
+                            <td>Application Colors
                                 <div class="small helper-text">Choose the color to be used for the header background & accent colors.</div></td>
-                            <td><div class="asdf" style="width: 24px;
-    height: 24px;
-    border: solid 1px #CCCCCC;
-    display: inline-block;
-    margin-right: 10px;
-    vertical-align: middle;"></div>
-                                <span class="align-middle">#ffffff</span></td>
+                            <td> 
+                            
+                            
+                            <div class="row">
+                            
+                            
+                            <div class="col-4"><div class="p-3 ccf-themeset primary">Primary</div></div>
+                            
+                             <div class="col-4"><div class="p-3 ccf-themeset accent">Accent</div></div>
+                             
+                              <div class="col-4"><div class="p-3 ccf-themeset background">Background</div></div>
+                            
+                            
+                            </div>
+                            
+                            
+                            
+                            
+                            
+                            
+                            </td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_color">Edit</button></td>
                         </tr>
                         <tr>
@@ -97,7 +111,8 @@ $page_title = 'Branding';
                         <tr>
                             <td>Custom Header HTML (optional)
                                 <div class="small helper-text">Specify optional HTML markup to be displayed at the top of the application views.</div></td>
-                            <td><div class="code" style=" height:70px"> <code>&lt;div id=&quot;custom_header&quot;&gt;
+                            <td><div class="code" style=" height:70px">
+                                    <code>&lt;div id=&quot;custom_header&quot;&gt;
                                     &lt;div id=&quot;branding-bar&quot; itemscope=&quot;itemscope&quot; itemtype=&quot;http://schema.org/CollegeOrUniversity&quot; role=&quot;complementary&quot; aria-labelledby=&quot;iu-campus&quot; class=&quot;hidden-xs hidden-sm&quot;&gt;
                                     &lt;div class=&quot;container&quot;&gt;
                                     &lt;div class=&quot;row pad&quot;&gt;
@@ -115,7 +130,8 @@ $page_title = 'Branding';
                         <tr>
                             <td>Custom Footer HTML (optional)
                                 <div class="small helper-text">Specify optional HTML markup to be displayed at the bottom of the application views.</div></td>
-                            <td><div class="code" style=" height:70px"> <code>&lt;footer role=&quot;contentinfo&quot;&gt;
+                            <td><div class="code" style=" height:70px">
+                                    <code>&lt;footer role=&quot;contentinfo&quot;&gt;
                                     &lt;div class=&quot;container&quot;&gt;
                                     &lt;div class=&quot;row pad&quot;&gt;
                                     &lt;p class=&quot;tagline&quot;&gt;Fulfilling &lt;span&gt;the&lt;/span&gt; Promise&lt;/p&gt;
@@ -131,12 +147,14 @@ $page_title = 'Branding';
                         <tr>
                             <td>Custom  CSS (optional)
                                 <div class="small helper-text">Specify optional CSS markup that will style the HTML for the custom header and footer.</div></td>
-                            <td><div class="code" style=" height:70px"> <code>@font-face {
+                            <td><div class="code" style=" height:70px">
+                                    <code>@font-face {
                                     font-family: 'BentonSansRegular';
                                     src: url(&quot;https://fonts.iu.edu/fonts/benton-sans-regular.eot&quot;);
                                     src: url(&quot;https://fonts.iu.edu/fonts/benton-sans-regular.eot?#iefix&quot;) format(&quot;embedded-opentype&quot;), url(&quot;https://fonts.iu.edu/fonts/benton-sans-regular.woff&quot;) format(&quot;woff&quot;), url(&quot;https://fonts.iu.edu/fonts/benton-sans-regular.ttf&quot;) format(&quot;truetype&quot;), url(&quot;https://fonts.iu.edu/fonts/benton-sans-regular.svg#BentonSansRegular&quot;) format(&quot;svg&quot;);
                                     font-style: normal;
-                                    font-weight: normal; </code> </div></td>
+                                    font-weight: normal; </code>
+                                </div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_customcss">Edit</button></td>
                         </tr>
                     </tbody>
@@ -174,7 +192,7 @@ $page_title = 'Branding';
 
         });
     }); //]]>
-</script> 
+</script>
 <script type="text/javascript">
     //<![CDATA[
     $( document ).ready(function() {
@@ -192,7 +210,7 @@ $page_title = 'Branding';
 
         });
     }); //]]>
-</script> 
+</script>
 <script>
  $(document).ready(function() {
      $(".btn-progressable").click(function() {

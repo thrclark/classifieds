@@ -93,6 +93,15 @@ body, .pagination .page-link {
 	border-color:$theme-accent;
 	color: $theme-accent;
 }
+.ccf-themeset.primary{
+	background: $theme-primary;
+}
+.ccf-themeset.accent{
+	background: $theme-accent;
+}
+.ccf-themeset.background{
+	background: $theme-body-bg;
+}
 .rbt-app-header, .modal .modal-header {
 	background: $theme-primary;
 	color: set-contrast-bow($theme-primary);
