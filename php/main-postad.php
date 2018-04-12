@@ -53,7 +53,7 @@ $page_title = 'Post ad';
                                             </small></label>
                                         <div class="rbt-charcount">
                                             <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control" id="titleLabel" placeholder="" >
-                                            <span class="badge badge-success" id="titleLabel_badge"><span id="titleLabel_counter">0</span></span></div>
+                                            <span class="badge badge-success" id="titleLabel_badge"><span id="titleLabel_counter">200</span></span></div>
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.description" ng-reflect-key="global.ad.field.description">Description</message>
                                         </label>
                                        <div class="rbt-charcount"> <textarea aria-labelledby="descriptionLabel" class="form-control" formcontrolname="description" rows="8" ng-reflect-name="description" id="descriptionLabel"></textarea>
-                                        <span class="badge badge-success" id="descriptionLabel_badge"><span id="descriptionLabel_counter">0</span></span> </div></div>
+                                        <span class="badge badge-success" id="descriptionLabel_badge"><span id="descriptionLabel_counter">2000</span></span> </div></div>
                                 </div>
                             </div>
                             <div class="row">
@@ -76,7 +76,7 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </small></label>
                                        <div class="rbt-charcount"> <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="contactNameLabel" placeholder="" >
-                                        <span class="badge badge-success" id="contactNameLabel_badge"><span id="contactNameLabel_counter">0</span></span> </div></div>
+                                        <span class="badge badge-success" id="contactNameLabel_badge"><span id="contactNameLabel_counter">50</span></span> </div></div>
                                 </div>
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
@@ -105,7 +105,7 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.price" ng-reflect-key="global.ad.field.price">Price</message>
                                         </label>
                                        <div class="rbt-charcount"> <input type="text" aria-labelledby="priceLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="priceLabel">
-                                        <span class="badge badge-success" id="priceLabel_badge"><span id="priceLabel_counter">0</span></span> </div></div>
+                                        <span class="badge badge-success" id="priceLabel_badge"><span id="priceLabel_counter">20</span></span> </div></div>
                                 </div>
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
@@ -289,11 +289,11 @@ $page_title = 'Post ad';
                                     </ccf-image-upload>
                                 </div>
                             </div>
-                            <p class="text-right"> <a class="btn btn-outline-primary" href="main-home.php">
+                            <p class=""> <a class="btn btn-outline-primary" href="main-home.php">
                                 <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Cancel</message>
                                 </a>
                                 <button class="btn btn-primary" type="submit" disabled>
-                                <message key="main.header.button.postAd" ng-reflect-key="main.header.button.postAd">Post Ad</message>
+                                <message key="main.header.button.postAd" ng-reflect-key="main.header.button.postAd">Save</message>
                                 </button>
                             </p>
                         </form>
