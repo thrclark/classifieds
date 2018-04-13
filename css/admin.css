@@ -8378,4 +8378,7 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:fo
   border-color: #395f74;
   background: #395f74; }
 
+.table ccf-image-upload {
+  background: #395f74; }
+
 /*# sourceMappingURL=admin.css.map */

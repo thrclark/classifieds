@@ -171,3 +171,9 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:fo
 	border-color: set-general-contrast($theme-primary);
 	background: set-general-contrast($theme-primary);
 }
+
+.table {
+	ccf-image-upload {
+		background: $theme-primary;
+	}
+}
