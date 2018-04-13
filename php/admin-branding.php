@@ -46,17 +46,12 @@ $page_title = 'Branding';
                             <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo.png" style="height:70px; width:auto" alt=""/></div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_brandingimage">Edit</button></td>
                         </tr>
-                        
-                        
-                        
                         <tr>
                             <td>Application logo - mobile  (optional)
                                 <div class="small helper-text"> Select an image to be used as an application logo in the header for mobile devices.</div></td>
                             <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo-mobile.png" style="height:70px; width:auto" alt=""/></div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_brandingimage">Edit</button></td>
                         </tr>
-                        
-                       
                         <tr>
                             <td> Favicon icon (.ico)
                                 <div class="small helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
