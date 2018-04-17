@@ -32,3 +32,25 @@ body {
 		}
 	}
 }
+
+.table tbody tr td {
+	vertical-align: top !important;
+}
+
+.ccf-table-responsive-container {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+@include media-breakpoint-up(md) {
+	.ccf-table-responsive-container {
+		margin-left:0px;
+		margin-right:0px;
+	}
+}
+
+@include media-breakpoint-down(md) {
+	.table.rbt-table-responsive thead {
+		border: none;
+	}
+}
