@@ -7157,7 +7157,7 @@ select.form-control {
     .rbt-app-header .rbt-drawer-button.open {
       background: #eeeeee; }
       .rbt-app-header .rbt-drawer-button.open .rbt-icon-menu:before {
-        content: "\61"; }
+        content: "\e903"; }
     .rbt-app-header .rbt-drawer-button .btn, .rbt-app-header .rbt-drawer-button ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header .rbt-drawer-button label.img-ul-button {
       height: 48px;
       width: 48px;
