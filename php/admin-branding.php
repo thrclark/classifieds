@@ -47,19 +47,19 @@ $page_title = 'Branding';
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="color_primary">Primary</label>
-                                                <input type="text" class="form-control jscolor" id="color_primary" value="df3603" autocomplete="off">
+                                                <input type="text" class="form-control jscolor" id="color_primary" value="395f74" autocomplete="off">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="color_accent">Accent</label>
-                                                <input type="text" class="form-control jscolor" id="color_accent" value="fecfc1" autocomplete="off">
+                                                <input type="text" class="form-control jscolor" id="color_accent" value="ffc107" autocomplete="off">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="color_background">Background</label>
-                                                <input type="text" class="form-control jscolor" id="color_background" value="eeeeee" autocomplete="off">
+                                                <input type="text" class="form-control jscolor" id="color_background" value="fffaeb" autocomplete="off">
                                             </div>
                                         </div>
                                     </div></td>
