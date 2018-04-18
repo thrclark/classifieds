@@ -16,7 +16,7 @@ $page_title = 'Ads';
     <div class="row">
         <div class="col-12">
             <div class="main-content" id="main-content">
-                <div class="row mb-3">
+                <div class="row mb-3 justify-content-between align-items-center">
                     <div class="col-12 col-md-6">
                         <h1>
                             <?php echo $page_title; ?></h1>
