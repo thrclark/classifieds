@@ -95,7 +95,7 @@ body,
 a, .btn-link, .page-link {
 	color: maincontent-linkcolor($theme-body-bg);
 }
-body, .pagination .page-link {
+body, .pagination .page-link, .modal-content {
 	background: $theme-body-bg;
 }
 .rbt-drawer, .rbt-app-header .rbt-drawer-button.open {

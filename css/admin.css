@@ -8304,7 +8304,7 @@ body,
 a, .btn-link, .page-link {
   color: #006298; }
 
-body, .pagination .page-link {
+body, .pagination .page-link, .modal-content {
   background: #f2f7f2; }
 
 .rbt-drawer, .rbt-app-header .rbt-drawer-button.open {
