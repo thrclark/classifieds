@@ -8318,21 +8318,21 @@ body, .pagination .page-link, .modal-content {
   border-bottom-color: #481101; }
 
 .rbt-app-header {
-  border-bottom-color: #00314c; }
+  border-bottom-color: #003e12; }
 
 .rbt-app-header .rbt-drawer-button {
-  border-left-color: #00314c; }
+  border-left-color: #003e12; }
 
 .rbt-app-header .btn.btn-primary, .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-primary.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.btn-primary.img-ul-button {
   background: #ffc107;
-  color: #006298; }
+  color: #008a28; }
 
 .rbt-app-header .btn.btn-outline-primary, .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.img-ul-button {
   border-color: #ffc107;
   color: #ffc107; }
 
 .ccf-themeset.primary {
-  background: #006298;
+  background: #008a28;
   color: #fff; }
 
 .ccf-themeset.accent {
@@ -8343,7 +8343,7 @@ body, .pagination .page-link, .modal-content {
   background: #df3603; }
 
 .rbt-app-header, .modal .modal-header {
-  background: #006298;
+  background: #008a28;
   color: #fff; }
 
 .modal .modal-header .close .rbt-icon-close,
@@ -8367,12 +8367,12 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.
   color: #fff; }
 
 .btn.btn-outline-primary, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button {
-  color: #006298;
-  border-color: #006298; }
+  color: #008a28;
+  border-color: #008a28; }
   .btn.btn-outline-primary:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:hover {
-    color: #004165;
-    border-color: #004165;
-    background: #98daff; }
+    color: #005719;
+    border-color: #005719;
+    background: #8affac; }
 
 .btn-primary, .btn-outline-primary:not(:disabled):not(.disabled):active, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active,
 ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active,
@@ -8383,8 +8383,8 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:no
 ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button,
 ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button,
 .page-item.active .page-link {
-  background: #006298;
-  border-color: #006298; }
+  background: #008a28;
+  border-color: #008a28; }
   .btn-primary:hover, .btn-outline-primary:not(:disabled):not(.disabled):active:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active:hover,
   ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active:hover,
   .btn-outline-primary:not(:disabled):not(.disabled).active:hover,
@@ -8394,15 +8394,15 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown
   ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button:hover,
   ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button:hover,
   .page-item.active .page-link:hover {
-    background: #004165;
+    background: #005719;
     border-color: #ffc107; }
 
 .dropdown .dropdown-menu .dropdown-item:hover {
-  background: #006298;
-  border-color: #006298; }
+  background: #008a28;
+  border-color: #008a28; }
 
 .dropdown .dropdown-menu .dropdown-item.active {
-  border-color: #006298; }
+  border-color: #008a28; }
 
 .btn-primary:focus,
 .btn-outline-primary:focus,
@@ -8410,16 +8410,16 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:fo
 ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:focus,
 .btn-link:focus,
 .btn-outline-link:focus {
-  box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.2875rem #006298 !important; }
+  box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.2875rem #008a28 !important; }
 
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  border-color: #006298;
-  background: #006298; }
+  border-color: #008a28;
+  background: #008a28; }
 
 .table ccf-image-upload {
-  background: #006298; }
+  background: #008a28; }
 
 /*# sourceMappingURL=admin.css.map */
