@@ -1,6 +1,7 @@
-$theme-primary: $white;
-$theme-accent: $green;
-$theme-body-bg: $gray-100;
+$theme-primary: #395f74;
+$theme-accent: $yellow;
+$theme-body-bg: #fffaeb;
+
 
 @function set-general-contrast($color) {
 	@if (lightness($color) > 50) {
@@ -66,6 +67,34 @@ $theme-body-bg: $gray-100;
 		@return transparentize($theme-primary, 0.2);
 	}
 }
+@function maincontent-bodycolor($color) {
+	@if (lightness($color) > 50) {
+		@return $body-color;
+	}
+	@else {
+		@return $white;
+	}
+}
+@function maincontent-linkcolor($color) {
+	@if (lightness($color) > 50) {
+		@return $link-color;
+	}
+	@else {
+		@return $white;
+	}
+}
+body,
+.rbt-sidebar-nav li.active a  {
+	color: maincontent-bodycolor($theme-body-bg);
+}
+.rbt-sidebar-nav li.active:before {
+	box-shadow: -2px 0 0 maincontent-bodycolor($theme-body-bg);
+}
+
+
+a, .btn-link, .page-link {
+	color: maincontent-linkcolor($theme-body-bg);
+}
 body, .pagination .page-link {
 	background: $theme-body-bg;
 }
@@ -92,6 +121,17 @@ body, .pagination .page-link {
 .rbt-app-header .btn.btn-outline-primary {
 	border-color:$theme-accent;
 	color: $theme-accent;
+}
+.ccf-themeset.primary{
+	background: $theme-primary;
+	color: set-contrast-bow($theme-primary);
+}
+.ccf-themeset.accent{
+	background: $theme-accent;
+	color: set-contrast-wob($theme-primary);
+}
+.ccf-themeset.background{
+	background: $theme-body-bg;
 }
 .rbt-app-header, .modal .modal-header {
 	background: $theme-primary;
@@ -130,6 +170,7 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:no
 ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle,
 ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button,
+.page-item.active .page-link
 {
 	background: set-general-contrast($theme-primary);
 	border-color:set-general-contrast($theme-primary);
@@ -160,3 +201,10 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:fo
 	border-color: set-general-contrast($theme-primary);
 	background: set-general-contrast($theme-primary);
 }
+
+.table {
+	ccf-image-upload {
+		background: $theme-primary;
+	}
+}
+
