@@ -8217,7 +8217,7 @@ body {
 .postitem.list:last-child {
   margin-bottom: 20px; }
 
-.was-validated .form-control.ccf-hide-validation:valid, .form-control.ccf-hide-validation.is-valid {
+.was-validated .form-control.ccf-hide-validation-success:valid, .form-control.ccf-hide-validation-success.is-valid {
   border-color: #666666;
   box-shadow: none; }
 

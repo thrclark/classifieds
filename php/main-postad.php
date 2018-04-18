@@ -56,9 +56,9 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </small></label>
                                         <div class="rbt-charcount">
-                                            <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control" id="titleLabel" required>
+                                            <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control ccf-hide-validation-success" id="titleLabel" required>
                                             <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Title</span> is required. </div>
-                                            <div class="valid-feedback"><span class="rbt-icon-check-o" aria-hidden="true"></span> Ok!</div>
+                                            
                                             <span class="badge badge-success" id="titleLabel_badge"><span id="titleLabel_counter">0</span></span></div>
                                     </div>
                                 </div>
@@ -70,7 +70,7 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.description" ng-reflect-key="global.ad.field.description">Description</message>
                                         </label>
                                         <div class="rbt-charcount">
-                                            <textarea aria-labelledby="descriptionLabel" class="form-control ccf-hide-validation" formcontrolname="description" rows="8" ng-reflect-name="description" id="descriptionLabel"></textarea>
+                                            <textarea aria-labelledby="descriptionLabel" class="form-control ccf-hide-validation-success" formcontrolname="description" rows="8" ng-reflect-name="description" id="descriptionLabel"></textarea>
                                             <span class="badge badge-success" id="descriptionLabel_badge"><span id="descriptionLabel_counter">0</span></span>
                                         </div>
                                     </div>
@@ -85,9 +85,9 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </small></label>
                                         <div class="rbt-charcount">
-                                            <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="contactNameLabel" placeholder="" required>
+                                            <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control ccf-hide-validation-success" id="contactNameLabel" placeholder="" required>
                                             <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Contact</span> is required. </div>
-                                            <div class="valid-feedback"><span class="rbt-icon-check-o" aria-hidden="true"></span> Ok!</div>
+                                            
                                             <span class="badge badge-success" id="contactNameLabel_badge"><span id="contactNameLabel_counter">0</span></span>
                                         </div>
                                     </div>
@@ -99,7 +99,7 @@ $page_title = 'Post ad';
                                             <span class="subLabel small">
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </span></label>
-                                        <select class="form-control" id="exampleFormControlSelect1" required>
+                                        <select class="form-control ccf-hide-validation-success" id="exampleFormControlSelect1" required>
                                             <option selected></option>
                                             <option value="1000" ng-reflect-value="1000">Vehicles</option>
                                             <option value="1001" ng-reflect-value="1001">Announcements</option>
@@ -111,7 +111,7 @@ $page_title = 'Post ad';
                                             <option value="1007" ng-reflect-value="1007">Roommates &amp; Sublets</option>
                                         </select>
                                         <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Category</span> is required. </div>
-                                        <div class="valid-feedback"><span class="rbt-icon-check-o" aria-hidden="true"></span> Ok!</div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.price" ng-reflect-key="global.ad.field.price">Price</message>
                                         </label>
                                         <div class="rbt-charcount">
-                                            <input type="text" aria-labelledby="priceLabel" formcontrolname="title" ng-reflect-name="title" class="form-control ccf-hide-validation" id="priceLabel">
+                                            <input type="text" aria-labelledby="priceLabel" formcontrolname="title" ng-reflect-name="title" class="form-control ccf-hide-validation-success" id="priceLabel">
                                             <span class="badge badge-success" id="priceLabel_badge"><span id="priceLabel_counter">0</span></span>
                                         </div>
                                     </div>
@@ -130,13 +130,13 @@ $page_title = 'Post ad';
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
                                         <label class="control-label" id="marketIdLabel">Campus</label>
-                                        <select class="form-control" id="exampleFormControlSelect1" required>
+                                        <select class="form-control ccf-hide-validation-success" id="exampleFormControlSelect1" required>
                                             <option selected></option>
                                             <option value="100" ng-reflect-value="100">Bloomington (IUB)</option>
                                             <option value="102" ng-reflect-value="102">Kokomo (IUK)</option>
                                         </select>
                                         <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Campus</span> is required. </div>
-                                        <div class="valid-feedback"><span class="rbt-icon-check-o" aria-hidden="true"></span> Ok!</div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -146,7 +146,7 @@ $page_title = 'Post ad';
                                         <label class="control-label" id="typeLabel">
                                             <message key="global.ad.field.type" ng-reflect-key="global.ad.field.type">Ad Purpose</message>
                                         </label>	
-                                        <select class="form-control ccf-hide-validation" id="exampleFormControlSelect1">
+                                        <select class="form-control ccf-hide-validation-success" id="exampleFormControlSelect1">
                                               <option selected></option>  <option value="NEED" ng-reflect-value="NEED">Seeking</option>
                                             <option value="OFFER" ng-reflect-value="OFFER">For Sale</option>
                                         </select>
@@ -158,12 +158,12 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.expireDate" ng-reflect-key="global.ad.field.expireDate">Expiration Date</message>
                                         </label>
                                         <div class="input-group">
-                                            <input type="text" class="form-control" id="dateLabel" placeholder="mm/dd/yyyy" aria-label="" aria-describedby="basic-addon2" required>
+                                            <input type="text" class="form-control ccf-hide-validation-success" id="dateLabel" placeholder="mm/dd/yyyy" aria-label="" aria-describedby="basic-addon2" required>
                                             <div class="input-group-append">
                                                 <span class="input-group-text" id="basic-addon2"><i aria-hidden="true" class="fa fa-calendar"></i></span>
                                             </div>
                                             <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> An <span class="font-weight-bold">Expiration Date</span> is required. </div>
-                                            <div class="valid-feedback"><span class="rbt-icon-check-o" aria-hidden="true"></span> Ok!</div>	
+                                            	
                                         </div>
                                         <div class="bs-datepicker">
                                             <div class="bs-datepicker-container">
