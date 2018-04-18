@@ -27,7 +27,7 @@
                                     </div>
                                 </image-upload>
                                 <div class="img-preview" dnd-sortable-container="" draggable="false" ng-reflect-sortable-data="" style="cursor: pointer;">
-                                    <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="0" src="../img/app-icon-generic.png" class="ng-untouched ng-pristine ng-valid">
+                                    <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="0" src="../img/ccf-logo.png" class="ng-untouched ng-pristine ng-valid">
                                         <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
                                         <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                         </span> </button>
