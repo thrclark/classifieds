@@ -6759,9 +6759,13 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.disabled.img-ul-
   display: none; }
   .rbt-drawer.open {
     display: block; }
-  .rbt-drawer .list-group .list-group-item a, .rbt-drawer .ccf-mobile-categories .list-group-item a {
-    text-decoration: none;
-    color: #444444; }
+  .rbt-drawer .list-group .list-group-item, .rbt-drawer .ccf-mobile-categories .list-group-item {
+    padding: 0px; }
+    .rbt-drawer .list-group .list-group-item a, .rbt-drawer .ccf-mobile-categories .list-group-item a {
+      text-decoration: none;
+      color: #444444;
+      display: block;
+      padding: 1rem; }
 
 .dropdown-toggle::after {
   margin-left: 0px;
@@ -8227,6 +8231,16 @@ body {
 .postitem.list:last-child {
   margin-bottom: 20px; }
 
+body,
+.rbt-sidebar-nav li.active a {
+  color: #444444; }
+
+.rbt-sidebar-nav li.active:before {
+  box-shadow: -2px 0 0 #444444; }
+
+a, .btn-link, .page-link {
+  color: #006298; }
+
 body, .pagination .page-link {
   background: #fffaeb; }
 
@@ -8304,7 +8318,8 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:no
 ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle,
 ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button,
-ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button {
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button,
+.page-item.active .page-link {
   background: #395f74;
   border-color: #395f74; }
   .btn-primary:hover, .btn-outline-primary:not(:disabled):not(.disabled):active:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active:hover,
@@ -8314,7 +8329,8 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown
   ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled).active:hover,
   .show > .btn-outline-primary.dropdown-toggle:hover,
   ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button:hover,
-  ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button:hover {
+  ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button:hover,
+  .page-item.active .page-link:hover {
     background: #284352;
     border-color: #ffc107; }
 
