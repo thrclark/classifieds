@@ -47,77 +47,6 @@ $page_title = 'Post ad';
                         </h1>
                         <hr>
                         <form class="needs-validation" novalidate>
-                            <div class="form-row">
-                                <div class="col-md-4 mb-3">
-                                    <label for="validationCustom01">First name</label>
-                                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
-                                    <div class="valid-feedback"> Looks good! </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <label for="validationCustom02">Last name</label>
-                                    <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
-                                    <div class="valid-feedback"> Looks good! </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <label for="validationCustomUsername">Username</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                        </div>
-                                        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
-                                        <div class="invalid-feedback"> Please choose a username. </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="col-md-6 mb-3">
-                                    <label for="validationCustom03">City</label>
-                                    <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
-                                    <div class="invalid-feedback"> Please provide a valid city. </div>
-                                </div>
-                                <div class="col-md-3 mb-3">
-                                    <label for="validationCustom04">State</label>
-                                    <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
-                                    <div class="invalid-feedback"> Please provide a valid state. </div>
-                                </div>
-                                <div class="col-md-3 mb-3">
-                                    <label for="validationCustom05">Zip</label>
-                                    <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
-                                    <div class="invalid-feedback"> Please provide a valid zip. </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                                    <label class="form-check-label" for="invalidCheck"> Agree to terms and conditions </label>
-                                    <div class="invalid-feedback"> You must agree before submitting. </div>
-                                </div>
-                            </div>
-                            <button class="btn btn-primary" type="submit">Submit form</button>
-                        </form>
-                       <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                
-                        
-                             <form class="needs-validation" novalidate>
-                             
-                             
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
@@ -127,7 +56,9 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </small></label>
                                         <div class="rbt-charcount">
-                                            <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control" id="titleLabel" placeholder="" >
+                                            <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control" id="titleLabel" required>
+                                            <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Title</span> is required. </div>
+                                            <div class="valid-feedback"><span class="rbt-icon-check-o" aria-hidden="true"></span> Ok!</div>
                                             <span class="badge badge-success" id="titleLabel_badge"><span id="titleLabel_counter">0</span></span></div>
                                     </div>
                                 </div>
@@ -139,7 +70,7 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.description" ng-reflect-key="global.ad.field.description">Description</message>
                                         </label>
                                         <div class="rbt-charcount">
-                                            <textarea aria-labelledby="descriptionLabel" class="form-control" formcontrolname="description" rows="8" ng-reflect-name="description" id="descriptionLabel"></textarea>
+                                            <textarea aria-labelledby="descriptionLabel" class="form-control ccf-hide-validation" formcontrolname="description" rows="8" ng-reflect-name="description" id="descriptionLabel"></textarea>
                                             <span class="badge badge-success" id="descriptionLabel_badge"><span id="descriptionLabel_counter">0</span></span>
                                         </div>
                                     </div>
@@ -154,7 +85,9 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </small></label>
                                         <div class="rbt-charcount">
-                                            <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="contactNameLabel" placeholder="" >
+                                            <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="contactNameLabel" placeholder="" required>
+                                            <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Contact</span> is required. </div>
+                                            <div class="valid-feedback"><span class="rbt-icon-check-o" aria-hidden="true"></span> Ok!</div>
                                             <span class="badge badge-success" id="contactNameLabel_badge"><span id="contactNameLabel_counter">0</span></span>
                                         </div>
                                     </div>
@@ -166,7 +99,8 @@ $page_title = 'Post ad';
                                             <span class="subLabel small">
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </span></label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <select class="form-control" id="exampleFormControlSelect1" required>
+                                            <option selected></option>
                                             <option value="1000" ng-reflect-value="1000">Vehicles</option>
                                             <option value="1001" ng-reflect-value="1001">Announcements</option>
                                             <option value="1002" ng-reflect-value="1002">Activity Partners</option>
@@ -176,6 +110,8 @@ $page_title = 'Post ad';
                                             <option value="1006" ng-reflect-value="1006">Furniture</option>
                                             <option value="1007" ng-reflect-value="1007">Roommates &amp; Sublets</option>
                                         </select>
+                                        <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Category</span> is required. </div>
+                                        <div class="valid-feedback"><span class="rbt-icon-check-o" aria-hidden="true"></span> Ok!</div>
                                     </div>
                                 </div>
                             </div>
@@ -186,7 +122,7 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.price" ng-reflect-key="global.ad.field.price">Price</message>
                                         </label>
                                         <div class="rbt-charcount">
-                                            <input type="text" aria-labelledby="priceLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="priceLabel">
+                                            <input type="text" aria-labelledby="priceLabel" formcontrolname="title" ng-reflect-name="title" class="form-control ccf-hide-validation" id="priceLabel">
                                             <span class="badge badge-success" id="priceLabel_badge"><span id="priceLabel_counter">0</span></span>
                                         </div>
                                     </div>
@@ -194,10 +130,13 @@ $page_title = 'Post ad';
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
                                         <label class="control-label" id="marketIdLabel">Campus</label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <select class="form-control" id="exampleFormControlSelect1" required>
+                                            <option selected></option>
                                             <option value="100" ng-reflect-value="100">Bloomington (IUB)</option>
-                                            <option value="102" ng-reflect-value="102">Koko,o (IUK)</option>
+                                            <option value="102" ng-reflect-value="102">Kokomo (IUK)</option>
                                         </select>
+                                        <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Campus</span> is required. </div>
+                                        <div class="valid-feedback"><span class="rbt-icon-check-o" aria-hidden="true"></span> Ok!</div>
                                     </div>
                                 </div>
                             </div>
@@ -206,9 +145,9 @@ $page_title = 'Post ad';
                                     <div class="form-group">
                                         <label class="control-label" id="typeLabel">
                                             <message key="global.ad.field.type" ng-reflect-key="global.ad.field.type">Ad Purpose</message>
-                                        </label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
-                                            <option value="NEED" ng-reflect-value="NEED">Seeking</option>
+                                        </label>	
+                                        <select class="form-control ccf-hide-validation" id="exampleFormControlSelect1">
+                                              <option selected></option>  <option value="NEED" ng-reflect-value="NEED">Seeking</option>
                                             <option value="OFFER" ng-reflect-value="OFFER">For Sale</option>
                                         </select>
                                     </div>
@@ -219,10 +158,12 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.expireDate" ng-reflect-key="global.ad.field.expireDate">Expiration Date</message>
                                         </label>
                                         <div class="input-group">
-                                            <input type="text" class="form-control" id="dateLabel" placeholder="mm/dd/yyyy" aria-label="" aria-describedby="basic-addon2">
+                                            <input type="text" class="form-control" id="dateLabel" placeholder="mm/dd/yyyy" aria-label="" aria-describedby="basic-addon2" required>
                                             <div class="input-group-append">
                                                 <span class="input-group-text" id="basic-addon2"><i aria-hidden="true" class="fa fa-calendar"></i></span>
                                             </div>
+                                            <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> An <span class="font-weight-bold">Expiration Date</span> is required. </div>
+                                            <div class="valid-feedback"><span class="rbt-icon-check-o" aria-hidden="true"></span> Ok!</div>	
                                         </div>
                                         <div class="bs-datepicker">
                                             <div class="bs-datepicker-container">
@@ -490,9 +431,7 @@ $page_title = 'Post ad';
         });
     });
 </script>
-
-
- <script>
+<script>
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function() {
   'use strict';

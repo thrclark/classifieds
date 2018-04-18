@@ -1,0 +1,9 @@
+
+
+
+
+
+.was-validated .form-control.ccf-hide-validation:valid, .form-control.ccf-hide-validation.is-valid {
+  border-color: $input-border-color;
+  box-shadow:none;
+}
