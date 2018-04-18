@@ -66,7 +66,7 @@ $page_title = 'Branding';
                             </tr>
                             <tr>
                                 <td>Application logo  (optional)
-                                    <div class="small helper-text"> Select an image to be used as an application logo in the header.</div></td>
+                                    <div class="small helper-text"> Select an image to be used as an application logo in the header. Note that this image should be 70px in height.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                         <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
                                             <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
@@ -103,7 +103,7 @@ $page_title = 'Branding';
                             </tr>
                             <tr>
                                 <td>Application logo - mobile  (optional)
-                                    <div class="small helper-text"> Select an image to be used as an application logo in the header for mobile devices.</div></td>
+                                    <div class="small helper-text"> Select an image to be used as an application logo in the header for mobile devices. Note that this image should be 48px in height, and the width should be constrained as much as possible for better display on small screens.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                         <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
                                             <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
@@ -202,7 +202,7 @@ $page_title = 'Branding';
                             </tr>
                             <tr>
                                 <td> Apple Touch image
-                                    <div class="small helper-text"> Select an image to be displayed in iOS as a desktop bookmark.</div></td>
+                                    <div class="small helper-text"> Select an image to be displayed in iOS as a desktop bookmark. This image should be 152 x 152px.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                         <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
                                             <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
