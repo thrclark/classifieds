@@ -6750,18 +6750,21 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.disabled.img-ul-
   background-color: #eeeeee;
   width: 85%;
   max-width: 400px;
-  height: 100%;
+  min-height: 100%;
   border-left: 1px solid #dddddd;
   padding: 1rem;
-  padding-top: 71px;
   z-index: 1;
-  top: 0px;
+  top: 48px;
   display: none; }
   .rbt-drawer.open {
     display: block; }
-  .rbt-drawer .list-group .list-group-item a, .rbt-drawer .ccf-mobile-categories .list-group-item a {
-    text-decoration: none;
-    color: #444444; }
+  .rbt-drawer .list-group .list-group-item, .rbt-drawer .ccf-mobile-categories .list-group-item {
+    padding: 0px; }
+    .rbt-drawer .list-group .list-group-item a, .rbt-drawer .ccf-mobile-categories .list-group-item a {
+      text-decoration: none;
+      color: #444444;
+      display: block;
+      padding: 1rem; }
 
 .dropdown-toggle::after {
   margin-left: 0px;

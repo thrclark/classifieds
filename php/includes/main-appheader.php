@@ -61,24 +61,24 @@
             </div>
         </div>
     </div>
+    
+    <!--Drawer menu-->
+    <div class="rbt-drawer">
+        <nav>
+            <ul class="list-group mt-3">
+                <li class="list-group-item">
+                    <a href="admin-ads.php">Admin</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="main-myads.php">My ads (1)</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="main-watchlist.php">My watchlist (4)</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="">Ads policy</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </header>
-
-<!--Drawer menu-->
-<div class="rbt-drawer">
-    <nav>
-        <ul class="list-group mt-3">
-            <li class="list-group-item">
-                <a href="admin-ads.php">Admin</a>
-            </li>
-            <li class="list-group-item">
-                <a href="main-myads.php">My ads (1)</a>
-            </li>
-            <li class="list-group-item">
-                <a href="main-watchlist.php">My watchlist (4)</a>
-            </li>
-            <li class="list-group-item">
-                <a href="">Ads policy</a>
-            </li>
-        </ul>
-    </nav>
-</div>

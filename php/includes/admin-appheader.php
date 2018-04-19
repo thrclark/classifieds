@@ -65,60 +65,60 @@
             </div>
         </div>
     </div>
+    
+    <!--Drawer menu-->
+    <div class="rbt-drawer">
+        <nav>
+            <ul class="list-group ">
+                <li class="list-group-item">
+                    <a href="main-home.php">View app</a>
+                </li>
+            </ul>
+            <h3 class="rbt-ts-14 text-uppercase mt-4 mb-2">Moderation</h3>
+            <ul class="list-group ">
+                <li class="list-group-item">
+                    <a href="admin-ads.php">Ads</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="main-home.php">Main view</a>
+                </li>
+            </ul>
+            <h3 class="rbt-ts-14 text-uppercase  mt-3 mb-2">Settings</h3>
+            <ul class="list-group ">
+                <li class="list-group-item">
+                    <a href="admin-generalsettings.php">General Settings</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="admin-branding.php">Branding</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="admin-categories.php">Categories</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="admin-markets.php">Markets</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="admin-ldap.php">LDAP Configuration</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="admin-apiaccounts.php">API Accounts</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="admin-apidocs.php">API Documentation</a>
+                </li>
+            </ul>
+            <h3 class="rbt-ts-14 text-uppercase mt-3 mb-2">Configuration</h3>
+            <ul class="list-group ">
+                <li class="list-group-item">
+                    <a href="admin-garollup.php"  >Google Analytics Rollup</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="admin-sysparameters.php" >System Parameters</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="admin-reloadcache.php"  >Reload Cache </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </header>
-
-<!--Drawer menu-->
-<div class="rbt-drawer">
-    <nav>
-        <ul class="list-group ">
-            <li class="list-group-item">
-                <a href="main-home.php">View app</a>
-            </li>
-        </ul>
-        <h3 class="rbt-ts-14 text-uppercase mt-4 mb-2">Moderation</h3>
-        <ul class="list-group ">
-            <li class="list-group-item">
-                <a href="admin-ads.php">Ads</a>
-            </li>
-            <li class="list-group-item">
-                <a href="main-home.php">Main view</a>
-            </li>
-        </ul>
-        <h3 class="rbt-ts-14 text-uppercase  mt-3 mb-2">Settings</h3>
-        <ul class="list-group ">
-            <li class="list-group-item">
-                <a href="admin-generalsettings.php">General Settings</a>
-            </li>
-            <li class="list-group-item">
-                <a href="admin-branding.php">Branding</a>
-            </li>
-            <li class="list-group-item">
-                <a href="admin-categories.php">Categories</a>
-            </li>
-            <li class="list-group-item">
-                <a href="admin-markets.php">Markets</a>
-            </li>
-            <li class="list-group-item">
-                <a href="admin-ldap.php">LDAP Configuration</a>
-            </li>
-            <li class="list-group-item">
-                <a href="admin-apiaccounts.php">API Accounts</a>
-            </li>
-            <li class="list-group-item">
-                <a href="admin-apidocs.php">API Documentation</a>
-            </li>
-        </ul>
-        <h3 class="rbt-ts-14 text-uppercase mt-3 mb-2">Configuration</h3>
-        <ul class="list-group ">
-            <li class="list-group-item">
-                <a href="admin-garollup.php"  >Google Analytics Rollup</a>
-            </li>
-            <li class="list-group-item">
-                <a href="admin-sysparameters.php" >System Parameters</a>
-            </li>
-            <li class="list-group-item">
-                <a href="admin-reloadcache.php"  >Reload Cache </a>
-            </li>
-        </ul>
-    </nav>
-</div>
