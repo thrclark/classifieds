@@ -61,7 +61,9 @@
             </div>
         </div>
     </div>
-    
+  
+</header>
+  
     <!--Drawer menu-->
     <div class="rbt-drawer">
         <nav>
@@ -81,4 +83,3 @@
             </ul>
         </nav>
     </div>
-</header>
