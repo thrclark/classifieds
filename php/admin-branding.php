@@ -46,19 +46,19 @@ $page_title = 'Branding';
                                 <td><div class="form-row">
                                         <div class="col-md-4">
                                             <div class="form-group">
-                                                <label for="color_primary">Primary</label>
+                                                <label class="font-weight-normal" for="color_primary">Primary</label>
                                                 <input type="text" class="form-control jscolor" id="color_primary" value="395f74" autocomplete="off">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
-                                            <div class="form-group">
-                                                <label for="color_accent">Accent</label>
+                                             <div class="form-group">
+                                                <label class="font-weight-normal" for="color_accent">Accent</label>
                                                 <input type="text" class="form-control jscolor" id="color_accent" value="ffc107" autocomplete="off">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
-                                                <label for="color_background">Background</label>
+                                                <label class="font-weight-normal" for="color_background">Background</label>
                                                 <input type="text" class="form-control jscolor" id="color_background" value="fffaeb" autocomplete="off">
                                             </div>
                                         </div>
@@ -451,6 +451,10 @@ $page_title = 'Branding';
                                 <td><div class="form-group">
                                         <label for="textarea-headerhtml" class="sr-only">Custom header html</label>
                                         <textarea class="form-control" id="textarea-headerhtml" rows="5"></textarea>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                            <label class="form-check-label font-weight-normal mt-3" for="inlineCheckbox1">Include custom header on mobile devices</label>
+                                        </div>
                                     </div></td>
                             </tr>
                             <tr>
@@ -459,6 +463,10 @@ $page_title = 'Branding';
                                 <td><div class="form-group">
                                         <label for="textarea-footerhtml" class="sr-only">Custom footer html</label>
                                         <textarea class="form-control" id="textarea-footerhtml" rows="5"></textarea>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1">
+                                            <label class="form-check-label font-weight-normal mt-3" for="inlineCheckbox2">Include custom footer on mobile devices</label>
+                                        </div>
                                     </div></td>
                             </tr>
                             <tr>
