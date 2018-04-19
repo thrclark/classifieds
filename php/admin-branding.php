@@ -51,7 +51,7 @@ $page_title = 'Branding';
                                             </div>
                                         </div>
                                         <div class="col-md-4">
-                                             <div class="form-group">
+                                            <div class="form-group">
                                                 <label class="font-weight-normal" for="color_accent">Accent</label>
                                                 <input type="text" class="form-control jscolor" id="color_accent" value="ffc107" autocomplete="off">
                                             </div>
@@ -453,7 +453,7 @@ $page_title = 'Branding';
                                         <textarea class="form-control" id="textarea-headerhtml" rows="5"></textarea>
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                            <label class="form-check-label font-weight-normal mt-3" for="inlineCheckbox1">Include custom header on mobile devices</label>
+                                            <label class="form-check-label font-weight-normal mt-3" for="inlineCheckbox1">Include custom header on screens that are less than 768px wide.</label>
                                         </div>
                                     </div></td>
                             </tr>
@@ -465,7 +465,7 @@ $page_title = 'Branding';
                                         <textarea class="form-control" id="textarea-footerhtml" rows="5"></textarea>
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1">
-                                            <label class="form-check-label font-weight-normal mt-3" for="inlineCheckbox2">Include custom footer on mobile devices</label>
+                                            <label class="form-check-label font-weight-normal mt-3" for="inlineCheckbox2">Include custom footer on screens that are less than 768px wide.</label>
                                         </div>
                                     </div></td>
                             </tr>
@@ -481,8 +481,8 @@ $page_title = 'Branding';
                     </table>
                 </div>
                 <p class="text-right">
+                    <button class="btn btn-primary" type="submit">Apply branding </button>
                     <a class="btn btn-outline-primary" href=""> Cancel </a>
-                    <button class="btn btn-primary" type="submit"> Save changes </button>
                 </p>
             </div>
         </div>
