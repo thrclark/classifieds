@@ -10,9 +10,10 @@ $page_title = 'Post ad';
 <?php include('includes/main-styles.php') ?>
 <style>
 .bs-datepicker {
-	position: absolute;
-	display: none;
-}
+	position:absolute;
+	display:none;
+	}
+
 </style>
 </head>
 <body>
@@ -45,38 +46,36 @@ $page_title = 'Post ad';
                         <form novalidate ng-reflect-form="[object Object]" class="ng-untouched ng-pristine ng-invalid">
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="form-group">
+                                    <div class="form-group rbt-charcount">
                                         <label for="titleLabel">
                                             <message key="global.ad.field.title" ng-reflect-key="global.ad.field.title">Title</message>
                                             <small>
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </small></label>
-                                        <div class="rbt-charcount">
-                                            <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control" id="titleLabel" placeholder="" >
-                                            <span class="badge badge-success" id="titleLabel_badge"><span id="titleLabel_counter">0</span></span></div>
-                                    </div>
+                                        <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="titleLabel" placeholder="">
+                                        <span class="badge badge-success" id="titleLabel_badge"><span id="titleLabel_counter">200</span></span> </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="form-group">
+                                    <div class="form-group rbt-charcount">
                                         <label class="control-label" for="descriptionLabel">
                                             <message key="global.ad.field.description" ng-reflect-key="global.ad.field.description">Description</message>
                                         </label>
-                                       <div class="rbt-charcount"> <textarea aria-labelledby="descriptionLabel" class="form-control" formcontrolname="description" rows="8" ng-reflect-name="description" id="descriptionLabel"></textarea>
-                                        <span class="badge badge-success" id="descriptionLabel_badge"><span id="descriptionLabel_counter">0</span></span> </div></div>
+                                        <textarea aria-labelledby="descriptionLabel" class="form-control" formcontrolname="description" rows="8" ng-reflect-name="description" id="descriptionLabel"></textarea>
+                                        <span class="badge badge-success" id="descriptionLabel_badge"><span id="descriptionLabel_counter">2000</span></span> </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-6 col-12">
-                                    <div class="form-group">
+                                    <div class="form-group rbt-charcount">
                                         <label for="contactNameLabel">
                                             <message key="global.ad.field.title" ng-reflect-key="global.ad.field.title">Contact Info</message>
                                             <small>
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </small></label>
-                                       <div class="rbt-charcount"> <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="contactNameLabel" placeholder="" >
-                                        <span class="badge badge-success" id="contactNameLabel_badge"><span id="contactNameLabel_counter">0</span></span> </div></div>
+                                        <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="contactNameLabel" placeholder="">
+                                        <span class="badge badge-success" id="contactNameLabel_badge"><span id="contactNameLabel_counter">50</span></span> </div>
                                 </div>
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
@@ -94,18 +93,17 @@ $page_title = 'Post ad';
                                             <option value="1005" ng-reflect-value="1005">Electronics</option>
                                             <option value="1006" ng-reflect-value="1006">Furniture</option>
                                             <option value="1007" ng-reflect-value="1007">Roommates &amp; Sublets</option>
-                                        </select>
-                                    </div>
+                                        </select> </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-6 col-12">
-                                    <div class="form-group">
+                                    <div class="form-group rbt-charcount">
                                         <label for="priceLabel">
                                             <message key="global.ad.field.price" ng-reflect-key="global.ad.field.price">Price</message>
                                         </label>
-                                       <div class="rbt-charcount"> <input type="text" aria-labelledby="priceLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="priceLabel">
-                                        <span class="badge badge-success" id="priceLabel_badge"><span id="priceLabel_counter">0</span></span> </div></div>
+                                        <input type="text" aria-labelledby="priceLabel" formcontrolname="title" ng-reflect-name="title" class="form-control " id="priceLabel" placeholder="">
+                                        <span class="badge badge-success" id="priceLabel_badge"><span id="priceLabel_counter">20</span></span> </div>
                                 </div>
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
@@ -113,8 +111,7 @@ $page_title = 'Post ad';
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option value="100" ng-reflect-value="100">Bloomington (IUB)</option>
                                             <option value="102" ng-reflect-value="102">Koko,o (IUK)</option>
-                                        </select>
-                                    </div>
+                                        </select> </div>
                                 </div>
                             </div>
                             <div class="row">
@@ -126,8 +123,7 @@ $page_title = 'Post ad';
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option value="NEED" ng-reflect-value="NEED">Seeking</option>
                                             <option value="OFFER" ng-reflect-value="OFFER">For Sale</option>
-                                        </select>
-                                    </div>
+                                        </select> </div>
                                 </div>
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
@@ -138,104 +134,107 @@ $page_title = 'Post ad';
                                             <input type="text" class="form-control" id="dateLabel" placeholder="mm/dd/yyyy" aria-label="" aria-describedby="basic-addon2">
                                             <div class="input-group-append"> <span class="input-group-text" id="basic-addon2"><i aria-hidden="true" class="fa fa-calendar"></i></span> </div>
                                         </div>
-                                        <div class="bs-datepicker">
-                                            <div class="bs-datepicker-container">
-                                                <div class="bs-calendar-container">
-                                                    <div>
-                                                        <bs-days-calendar-view>
-                                                            <bs-calendar-layout>
-                                                                <div class="bs-datepicker-head">
-                                                                    <bs-datepicker-navigation-view>
-                                                                        <button class="previous" style="visibility: visible;"><span>‹</span> </button>
-                                                                        <button class="current"><span>February</span> </button>
-                                                                        <button class="current"><span>2018</span></button>
-                                                                        <button class="next" style="visibility: visible;"><span>›</span> </button>
-                                                                    </bs-datepicker-navigation-view>
-                                                                </div>
-                                                                <div class="bs-datepicker-body">
-                                                                    <table class="days weeks" role="grid">
-                                                                        <thead>
-                                                                            <tr>
-                                                                                <th></th>
-                                                                                <th aria-label="weekday">Su </th>
-                                                                                <th aria-label="weekday">Mo </th>
-                                                                                <th aria-label="weekday">Tu </th>
-                                                                                <th aria-label="weekday">We </th>
-                                                                                <th aria-label="weekday">Th </th>
-                                                                                <th aria-label="weekday">Fr </th>
-                                                                                <th aria-label="weekday">Sa </th>
-                                                                            </tr>
-                                                                        </thead>
-                                                                        <tbody>
-                                                                            <tr>
-                                                                                <td class="week"><span>9</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="is-other-month">25</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="is-other-month">26</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="is-other-month">27</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="is-other-month">28</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="">1</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="">2</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">3</span></td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td class="week"><span>10</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">4</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">5</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">6</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="">7</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">8</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">9</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">10</span></td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td class="week"><span>11</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">11</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">12</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">13</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="">14</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">15</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="selected">16</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">17</span></td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td class="week"><span>12</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">18</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">19</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">20</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">21</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">22</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">23</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">24</span></td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td class="week"><span>13</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">25</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">26</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">27</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">28</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">29</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">30</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">31</span></td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td class="week"><span>14</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">1</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">2</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">3</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">4</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">5</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">6</span></td>
-                                                                                <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">7</span></td>
-                                                                            </tr>
-                                                                        </tbody>
-                                                                    </table>
-                                                                </div>
-                                                            </bs-calendar-layout>
-                                                        </bs-days-calendar-view>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        
+<div class="bs-datepicker">
+    <div class="bs-datepicker-container">
+        <div class="bs-calendar-container">
+            <div>
+                <bs-days-calendar-view>
+                    <bs-calendar-layout>
+                        <div class="bs-datepicker-head">
+                            <bs-datepicker-navigation-view>
+                                <button class="previous" style="visibility: visible;"><span>‹</span> </button>
+                                <button class="current"><span>February</span> </button>
+                                <button class="current"><span>2018</span></button>
+                                <button class="next" style="visibility: visible;"><span>›</span> </button>
+                            </bs-datepicker-navigation-view>
+                        </div>
+                        <div class="bs-datepicker-body">
+                            <table class="days weeks" role="grid">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th aria-label="weekday">Su </th>
+                                        <th aria-label="weekday">Mo </th>
+                                        <th aria-label="weekday">Tu </th>
+                                        <th aria-label="weekday">We </th>
+                                        <th aria-label="weekday">Th </th>
+                                        <th aria-label="weekday">Fr </th>
+                                        <th aria-label="weekday">Sa </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="week"><span>9</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="is-other-month">25</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="is-other-month">26</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="is-other-month">27</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="is-other-month">28</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="">1</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="">2</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">3</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="week"><span>10</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">4</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">5</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">6</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="">7</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">8</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">9</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">10</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="week"><span>11</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">11</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">12</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">13</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="">14</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]">15</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="selected">16</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">17</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="week"><span>12</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">18</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">19</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">20</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">21</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">22</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">23</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">24</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="week"><span>13</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">25</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">26</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">27</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">28</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">29</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">30</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled">31</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="week"><span>14</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">1</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">2</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">3</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">4</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">5</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">6</span></td>
+                                        <td role="gridcell"><span bsdatepickerdaydecorator="" ng-reflect-day="[object Object]" class="disabled is-other-month">7</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </bs-calendar-layout>
+                </bs-days-calendar-view>
+            </div>
+        </div>
+    </div>
+</div>
+
+
                                     </div>
                                 </div>
                             </div>
@@ -250,8 +249,6 @@ $page_title = 'Post ad';
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="font-weight-bold rbt-ts-14">Upload Images</div>
-                                <div class="form-group">
                                 <ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                     <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
                                         <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
@@ -268,7 +265,7 @@ $page_title = 'Post ad';
                                             </image-upload>
                                             <div class="img-preview" dnd-sortable-container="" draggable="false" ng-reflect-sortable-data="" style="cursor: pointer; visibility: hidden;" id="tempImg">
                                                 <img id='loading' src='../img/loading.gif' style='visibility: hidden;'>
-                                                <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="0" src="http://via.placeholder.com/300x200/dddddd" class="ng-untouched ng-pristine ng-valid">
+                                                <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="0" src="../img/car.png" class="ng-untouched ng-pristine ng-valid">
                                                     <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
                                                     <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                                     </span> </button>
@@ -302,26 +299,14 @@ $page_title = 'Post ad';
             $("#postform").show();
         });
     });
-</script> 
-<script>
- $(document).ready(function() {
-     $("#ButtonProgressDemo").click(function() {
-		 $("#ButtonProgressDemo").removeClass("btn-outline-primary");
-         $("#ButtonProgressDemo").addClass("btn-primary rbt-btn-progress");
-		 $(".img-ul-drag-box-msg").hide();
-         $("#uploadbtnlabel").fadeOut("fast", function() {
-             $("#uploadbtnlabel").text(($(".btn-label").text() == 'Uploading...') ? 'Upload' : 'Uploading...').fadeIn(200);
-         })
-     });
- });
-
-</script> 
+</script>
 <script>
     $(document).ready(function() {
-      
+        $(".rbt-charcount .badge").hide(); // hide all counter badges
+
         $("#titleLabel").keyup(function() {
             var length = $(this).val().length;
-			length = 200 - length;
+            length = 200 - length;
             $('#titleLabel_counter').text(length);
             if ($("#titleLabel").val().length > 200) {
                 $("#titleLabel_badge").last().addClass("badge-danger");
@@ -329,10 +314,14 @@ $page_title = 'Post ad';
                 $("#titleLabel_badge").last().removeClass("badge-danger");
             }
         });
-       
+        $("#titleLabel").focusin(function() {
+            $("#titleLabel_badge").show();
+        }).focusout(function() {
+            $("#titleLabel_badge").hide();
+        });
         $("#descriptionLabel").keyup(function() {
             var length = $(this).val().length;
-			length = 2000 - length;
+            length = 2000 - length;
             $('#descriptionLabel_counter').text(length);
             if ($("#descriptionLabel").val().length > 2000) {
                 $("#descriptionLabel_badge").last().addClass("badge-danger");
@@ -340,11 +329,15 @@ $page_title = 'Post ad';
                 $("#descriptionLabel_badge").last().removeClass("badge-danger");
             }
         });
-       
+        $("#descriptionLabel").focusin(function() {
+            $("#descriptionLabel_badge").show();
+        }).focusout(function() {
+            $("#descriptionLabel_badge").hide();
+        });
 
         $("#contactNameLabel").keyup(function() {
             var length = $(this).val().length;
-			length = 50 - length;
+            length = 50 - length;
             $('#contactNameLabel_counter').text(length);
             if ($("#contactNameLabel").val().length > 50) {
                 $("#contactNameLabel_badge").last().addClass("badge-danger");
@@ -352,21 +345,29 @@ $page_title = 'Post ad';
                 $("#contactNameLabel_badge").last().removeClass("badge-danger");
             }
         });
-        
+        $("#contactNameLabel").focusin(function() {
+            $("#contactNameLabel_badge").show();
+        }).focusout(function() {
+            $("#contactNameLabel_badge").hide();
+        });
 
         $("#priceLabel").keyup(function() {
             var length = $(this).val().length;
-			length = 20 - length;
-            $('#priceLabel_counter').text(length);	
+            length = 20 - length;
+            $('#priceLabel_counter').text(length);
             if ($("#priceLabel").val().length > 20) {
                 $("#priceLabel_badge").last().addClass("badge-danger");
             } else {
                 $("#priceLabel_badge").last().removeClass("badge-danger");
             }
         });
-        
+        $("#priceLabel").focusin(function() {
+            $("#priceLabel_badge").show();
+        }).focusout(function() {
+            $("#priceLabel_badge").hide();
+        });
     });
-</script> 
+</script>
 <script>
 function showLoading(){
 document.getElementById("loading").style = "visibility: visible";
@@ -376,6 +377,7 @@ function hideLoading(){
 document.getElementById("loading").style = "visibility: hidden";
 }
 </script>
+
 <script>
     $(document).ready(function() {
         $("#dateLabel").focusin(function() {
@@ -384,6 +386,28 @@ document.getElementById("loading").style = "visibility: hidden";
             $(".bs-datepicker").hide();
         });
     });
+    
+    /* $(document).ready(function() {
+     $("#imageUploadButton").click(function() {
+         $("#imageUploadButton").toggleClass("rbt-btn-progress");
+         $(".btn-label").fadeOut("fast", function() {
+             $(".btn-label").text(($(".btn-label").text() == 'Uploading...') ? 'Upload Image' : 'Uploading...').fadeIn(200);
+         })
+     });
+	}); 
+	$(document).ready(function() {
+     $("#imageUploadButton").click(function() {
+		 $("#imageUploadButton").removeClass("btn-outline-primary");
+         $("#imageUploadButton").addClass("btn-primary rbt-btn-progress");
+		 $(".btn-label").fadeOut("fast", function() {
+             $(".btn-label").text(($(".btn-label").text() == 'Uploading...') ? 'Upload' : 'Uploading...').fadeIn(200);
+         })
+     });
+     */
+ });
 </script>
+
+
+
 </body>
 </html>
