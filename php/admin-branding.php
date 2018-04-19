@@ -42,7 +42,7 @@ $page_title = 'Branding';
                         <tbody>
                             <tr>
                                 <td>Application colors
-                                    <div class="small helper-text">Choose the color to be used for the header background & accent colors.</div></td>
+                                    <div class="small helper-text">Choose primary, accent &amp; page background colors.</div></td>
                                 <td><div class="form-row">
                                         <div class="col-md-4">
                                             <div class="form-group">
@@ -65,7 +65,7 @@ $page_title = 'Branding';
                                     </div></td>
                             </tr>
                             <tr>
-                                <td>Application logo  (optional)
+                                <td>Application logo  <span class="small font-italic">(optional)</span>
                                     <div class="small helper-text"> Select an image to be used as an application logo in the header. Note that this image should be 70px in height.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                         <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
@@ -102,7 +102,7 @@ $page_title = 'Branding';
                                     </ccf-image-upload></td>
                             </tr>
                             <tr>
-                                <td>Application logo - mobile  (optional)
+                                <td>Application logo - mobile  <span class="small font-italic">(optional)</span>
                                     <div class="small helper-text"> Select an image to be used as an application logo in the header for mobile devices. Note that this image should be 48px in height, and the width should be constrained as much as possible for better display on small screens.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                         <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
@@ -129,7 +129,7 @@ $page_title = 'Branding';
                                     </ccf-image-upload></td>
                             </tr>
                             <tr>
-                                <td> Favicon icon (.ico)
+                                <td> Favicon icon <span class="small font-italic">(.ico)</span>
                                     <div class="small helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                         <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
@@ -238,7 +238,7 @@ $page_title = 'Branding';
                             </tr>
                             <tr>
                                 <td>Application title display
-                                    <div class="small helper-text">Choose whether or not to display the application name "Classifieds" in the header</div></td>
+                                    <div class="small helper-text">Choose whether or not to display the application name "Classifieds" in the header.</div></td>
                                 <td><div class="form-check">
                                         <input class="form-check-input" type="radio" name="exampleRadios" id="stacked1" value="option1" checked="">
                                         <label class="form-check-label" for="stacked1"> Display application name "Classifieds"
@@ -446,7 +446,7 @@ $page_title = 'Branding';
                                     </div></td>
                             </tr>
                             <tr>
-                                <td>Custom header HTML (optional)
+                                <td>Custom header HTML <span class="small font-italic">(optional)</span>
                                     <div class="small helper-text">Specify optional HTML markup to be displayed at the top of the application views.</div></td>
                                 <td><div class="form-group">
                                         <label for="textarea-headerhtml" class="sr-only">Custom header html</label>
@@ -458,7 +458,7 @@ $page_title = 'Branding';
                                     </div></td>
                             </tr>
                             <tr>
-                                <td>Custom footer HTML (optional)
+                                <td>Custom footer HTML <span class="small font-italic">(optional)</span>
                                     <div class="small helper-text">Specify optional HTML markup to be displayed at the bottom of the application views.</div></td>
                                 <td><div class="form-group">
                                         <label for="textarea-footerhtml" class="sr-only">Custom footer html</label>
@@ -470,7 +470,7 @@ $page_title = 'Branding';
                                     </div></td>
                             </tr>
                             <tr>
-                                <td>Custom  CSS (optional)
+                                <td>Custom  CSS <span class="small font-italic">(optional)</span>
                                     <div class="small helper-text">Specify optional CSS markup that will style the HTML for the custom header and footer.</div></td>
                                 <td><div class="form-group">
                                         <label for="textarea-customcss" class="sr-only">Custom CSS</label>
