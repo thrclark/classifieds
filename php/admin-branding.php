@@ -66,6 +66,18 @@ $page_title = 'Branding';
                                     </div></td>
                             </tr>
                             <tr>
+                                <td>Application title display
+                                    <div class="small helper-text">Choose whether or not to display the application name "Classifieds" in the header. </div></td>
+                                <td><div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="stacked1" value="option1">
+                                        <label class="form-check-label" for="stacked1"> Display application name "Classifieds" </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="stacked2" value="option2">
+                                        <label class="form-check-label" for="stacked2"> Do not display application name "Classifieds"</label>
+                                    </div></td>
+                            </tr>
+                            <tr>
                                 <td>Application logo <span class="small font-italic">(optional)</span>
                                     <div class="small helper-text"> Select an image to be used as an application logo in the header. Note that this image should be 70px in height.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
@@ -203,18 +215,6 @@ $page_title = 'Branding';
                                             </div>
                                         </div>
                                     </ccf-image-upload></td>
-                            </tr>
-                            <tr>
-                                <td>Application title display
-                                    <div class="small helper-text">Choose whether or not to display the application name "Classifieds" in the header.</div></td>
-                                <td><div class="form-check">
-                                        <input class="form-check-input" type="radio" name="exampleRadios" id="stacked1" value="option1" checked="">
-                                        <label class="form-check-label" for="stacked1"> Display application name "Classifieds" </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="exampleRadios" id="stacked2" value="option2">
-                                        <label class="form-check-label" for="stacked2"> Do not display application name "Classifieds"</label>
-                                    </div></td>
                             </tr>
                             <tr>
                                 <td>Font family for headers
@@ -443,13 +443,12 @@ $page_title = 'Branding';
                 <p class="text-right">
                     <button class="btn btn-primary btn-progressable" type="submit"><span class="btn-label">Apply branding</span> </button>
                     <a class="btn btn-outline-primary" href=""> Cancel </a>
-                    <div class="growls" style="position: fixed;top: 0;right: 0;max-width: 350px;width: 100%;z-index: 10000;padding: 5px 5px 0 5px;">
+                <div class="growls" style="position: fixed;top: 0;right: 0;max-width: 350px;width: 100%;z-index: 10000;padding: 5px 5px 0 5px;">
                     <alert dismissible="true">
                         <div role="alert" class="alert alert-success alert-dismissible" style="display:none">
                             <button type="button" class="close" aria-label="Close" data-dismiss="alert"> <span class="rbt-icon-close"></span> </button>
                             <span>Branding has been applied. Refresh the page to see the new branding styles.</span> </div>
                     </alert>
-              
                 </div>
                 </p>
             </div>
