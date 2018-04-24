@@ -179,6 +179,12 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown
 		border-color: $theme-accent;
 	}
 }
+
+
+.rbt-btn-progress {
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
+	background-size: 1rem 1rem !important;
+}
 .dropdown .dropdown-menu .dropdown-item:hover {
 	background:set-general-contrast($theme-primary);
 	border-color:set-general-contrast($theme-primary);
@@ -207,4 +213,3 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:fo
 		background: $theme-primary;
 	}
 }
-
