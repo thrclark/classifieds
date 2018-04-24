@@ -1,18 +1,18 @@
 
-<header class="rbt-app-header rbt-app-header--light">
+<header class="rbt-app-header">
     <a class="rbt-skip-link" href="#main-content">Skip to content</a>
     <div class="container">
         <div class="row justify-content-between align-items-center">
             
             <!--App Logo Image-->
             <div class="col-auto rbt-brand-image-container">
-                <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image"/>
+                <img src="../img/ccf-logo.png" alt="" class="rbt-brand-image d-none d-sm-block"/><img src="../img/ccf-logo-mobile.png" alt="" class="rbt-brand-image d-sm-none"/>
             </div>
             
             <!--App Title-->
-            <div class="col rbt-brand-title-container">
+            <div class="col rbt-brand-title-container">	
                 <span class="rbt-header-title">
-                <a  href="main-home.php"class="rbt-brand-title"><strong>Classifieds</strong> Admin</a>
+                <a  href="main-home.php"class="rbt-brand-title"> <!--<strong>Classifieds</strong>--> <span class="rbt-ts-14">Administration</span></a>
                 </span>
             </div>
             
@@ -72,16 +72,16 @@
     <nav>
         <ul class="list-group ">
             <li class="list-group-item">
-                <a href="main-home.php">View app</a>
+                <a href="main-home.php">Main view</a>
             </li>
         </ul>
-        <h3 class="rbt-ts-14 text-uppercase mt-4 mb-2">Moderation</h3>
+        <h3 class="rbt-ts-14 text-uppercase mt-4 mb-2">Moderator</h3>
         <ul class="list-group ">
             <li class="list-group-item">
                 <a href="admin-ads.php">Ads</a>
             </li>
             <li class="list-group-item">
-                <a href="main-home.php">Main view</a>
+                <a href="">Restricted users</a>
             </li>
         </ul>
         <h3 class="rbt-ts-14 text-uppercase  mt-3 mb-2">Settings</h3>
