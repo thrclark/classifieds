@@ -160,7 +160,7 @@ $page_title = 'Branding';
                             </tr>
                             <tr>
                                 <td> Favicon image
-                                    <div class="small helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
+                                    <div class="small helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks. This image should be 192 x 192px.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                         <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
                                             <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
