@@ -36,38 +36,43 @@ $page_title = '';
         <div class="col">
             <h2 class="h3">Main Views</h2>
             <ul>
-                <li> <a href="php/main-home.php" target="_blank">Main View</a></li>
-                <li> <a href="php/main-home-customheader.php" target="_blank">Main View w/ custom header</a></li>
-                <li><a href="php/main-searchresults.php" target="_blank">Search Result</a></li>
-                <li><a href="php/main-myads.php">My Ads</a></li>
-                <li><a href="php/main-watchlist.php" target="_blank">My Watchlist</a></li>
-                <li><a href="php/main-music.php" target="_blank">Category View</a></li>
-                <li><a href="php/main-postad.php" target="_blank">Post Ad</a></li>
-                <li><a href="php/main-postad-validation.php" target="_blank">Post Ad - Validation</a></li>
+                <li>
+                    <a href="php/main-home.php" target="_blank">Main View</a>
+                </li>
+                <li>
+                    <a href="php/main-home-customheader.php" target="_blank">Main View w/ custom header</a>
+                </li>
+                <li><a href="php/main-searchresults.php" target="_blank">Search Result</a>
+                </li>
+                <li><a href="php/main-myads.php">My Ads</a>
+                </li>
+                <li><a href="php/main-watchlist.php" target="_blank">My Watchlist</a>
+                </li>
+                <li><a href="php/main-music.php" target="_blank">Category View</a>
+                </li>
+                <li><a href="php/main-postad.php" target="_blank">Post Ad</a>
+                </li>
+                <li><a href="php/main-postad-validation.php" target="_blank">Post Ad - Validation</a>
+                </li>
             </ul>
         </div>
         <div class="col">
             <h2 class="h3"> Admin Views</h2>
             <ul>
-                <li><a href="php/admin-userads.php" target="_blank">Moderator</a></li>
-                <li><a href="php/admin-sysparameters.php" target="_blank">System Parameters</a></li>
-                <li><a href="php/admin-branding.php" target="_blank">Branding Configuration</a></li>
-            </ul>
-        </div>
-        <div class="col">
-            <h2 class="h3"> Components &amp; Templates</h2>
-            <ul>
-                <li><a href="php/components-main.php" target="_blank">Component styling (main.css)</a></li>
-                <li><a href="php/components-admin.php" target="_blank">Component styling (admin.css)</a></li>
-                <li><a href="php/template-admin-index.php" target="_blank">Index Layout Template</a></li>
-                <li><a href="php/template-admin-form.php" target="_blank">Form Layout Template</a></li>
+                <li><a href="php/admin-ads.php" target="_blank">All ads</a>
+                </li>
+                <li><a href="php/admin-branding.php" target="_blank">Branding</a>
+                </li>
+                <li><a href="php/admin-categories.php" target="_blank">Categories</a>
+                </li>
             </ul>
         </div>
     </div>
 </div>
 <div class="container">
     <hr>
-    on <a href="https://github.com/thrclark/classifieds" target="_blank">Github</a></div>
+    on <a href="https://github.com/thrclark/classifieds" target="_blank">Github</a>
+</div>
 <?php include('includes/admin-footerscripts.php') ?>
 </body>
 </html>
