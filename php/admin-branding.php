@@ -65,7 +65,7 @@ $page_title = 'Branding';
                                         </div>
                                     </div></td>
                             </tr>
-                            <tr>
+                           <!-- <tr>
                                 <td>Application title display
                                     <div class="small helper-text">Choose whether or not to display the application name "Classifieds" in the header. </div></td>
                                 <td><div class="form-check">
@@ -76,7 +76,7 @@ $page_title = 'Branding';
                                         <input class="form-check-input" type="radio" name="exampleRadios" id="stacked2" value="option2">
                                         <label class="form-check-label" for="stacked2"> Do not display application name "Classifieds"</label>
                                     </div></td>
-                            </tr>
+                            </tr>-->
                             <tr>
                                 <td>Application logo <span class="small font-italic">(optional)</span>
                                     <div class="small helper-text"> Select an image to be used as an application logo in the header. Note that this image should be 70px in height.</div></td>
