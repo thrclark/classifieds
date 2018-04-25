@@ -410,7 +410,33 @@ $page_title = 'Branding';
                                     <div class="small helper-text">Specify optional HTML markup to be displayed at the top of the application views.</div></td>
                                 <td><div class="form-group">
                                         <label for="textarea-headerhtml" class="sr-only">Custom header html</label>
-                                        <textarea class="form-control" id="textarea-headerhtml" rows="5"></textarea>
+                                        <textarea class="form-control is-invalid" id="textarea-headerhtml" rows="5"></textarea>
+                                        <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> Some tags and attributes are disallowed. </div>
+                                        
+                                        <div class="alert alert-danger fade show" role="alert">
+    <p class="small"><!----><span style="color: inherit; text-decoration: none;">
+					&lt;div class="hidden-xs hidden-sm branding-bar"&gt;  
+ &lt;
+				</span><span style="color: red; text-decoration: line-through;">
+					di class="container"&gt;  
+  &lt;
+				</span><span style="color: inherit; text-decoration: none;">
+					div class="row pad"&gt; 
+  &lt;img src="https://sd-prd-images.s3.amazonaws.com/prd/test-uisapp2/20150702T0521167633961_trident-large.png" alt="Indiana University Home Page"&gt; 
+  &lt;p&gt; &lt;a href="http://www.iu.edu" title="Indiana University" rel="nofollow" target="_blank"&gt; &lt;span&gt;Indiana University&lt;/span&gt; &lt;/a&gt; &lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/div&gt;
+				</span><span style="color: red; text-decoration: line-through;">
+					 
+&lt;/div&gt;
+				</span></p>
+                
+                
+                <button class="btn btn-sm btn-outline-primary mt-3">Remove dissalowed items</button>
+</div>
+
+
+
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                                             <label class="form-check-label font-weight-normal mt-3" for="inlineCheckbox1">Include custom header on screens that are less than 768px wide.</label>
