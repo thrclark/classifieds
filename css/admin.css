@@ -8297,6 +8297,10 @@ body {
 .postitem.list:last-child {
   margin-bottom: 20px; }
 
+.was-validated .form-control.ccf-hide-validation-success:valid, .form-control.ccf-hide-validation-success.is-valid {
+  border-color: #666666;
+  box-shadow: none; }
+
 .ccf-selectedimage-bg {
   padding: 10px;
   background-image: linear-gradient(45deg, #eaeaea 25%, transparent 25%), linear-gradient(-45deg, #eaeaea 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #eaeaea 75%), linear-gradient(-45deg, transparent 75%, #eaeaea 75%);
