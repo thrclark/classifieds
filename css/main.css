@@ -8246,6 +8246,10 @@ body {
 .postitem.list:last-child {
   margin-bottom: 20px; }
 
+.was-validated .form-control.ccf-hide-validation-success:valid, .form-control.ccf-hide-validation-success.is-valid {
+  border-color: #666666;
+  box-shadow: none; }
+
 body,
 .rbt-sidebar-nav li.active a {
   color: #444444; }
