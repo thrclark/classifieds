@@ -515,7 +515,7 @@ $(function () {
 			$(".btn-label").text("Apply branding");
 			$(".btn-progressable").prop('disabled', false);
 			$(".alert").fadeIn().delay(5000).fadeOut();
-        }, 4444000)
+        }, 4000)
     });
 });
 
