@@ -18,17 +18,14 @@ $page_title = 'Ads';
             <div class="main-content" id="main-content">
                 <div class="row mb-3 justify-content-between align-items-center">
                     <div class="col-12 col-md-6">
-                        <h1>
-                            <?php echo $page_title; ?></h1>
+                        <h1> <?php echo $page_title; ?></h1>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="input-group clear-field  mb-3">
                             <input type="text" class="form-control " id="clear_field">
-                            <button class="cleartext" style="display:none">
-                            <i class="fa fa-window-close"></i></button>
+                            <button class="cleartext" style="display:none"> <i class="fa fa-window-close"></i></button>
                             <div class="input-group-append">
-                                <button class="btn btn-primary" type="button"><i aria-hidden="true" class="fa fa-search"></i>
-                                <span class="sr-only">Search</span></button>
+                                <button class="btn btn-primary" type="button"><i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">Search</span></button>
                             </div>
                         </div>
                     </div>
