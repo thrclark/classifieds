@@ -23,7 +23,7 @@ $page_title = 'Post ad';
             <div class="row justify-content-center">
                 <div class="col-xs-12 col-md-8">
                     <section id="policy" class="mb-5 pb-3">
-                        <h1>
+                        <h1 class="mb-2">
                             <message>Post Ad</message>
                         </h1>
                         <hr>
@@ -38,7 +38,7 @@ $page_title = 'Post ad';
                         </div>
                     </section>
                     <section id="postform" style="display:none" class="mb-5 pb-3">
-                        <h1>
+                        <h1 class="mb-2">
                             <message key="main.header.ad" ng-reflect-key="main.header.ad">Post Ad</message>
                         </h1>
                         <hr>

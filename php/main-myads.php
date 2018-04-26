@@ -21,7 +21,7 @@ $page_title = 'My ads';
                 <div class="col-xs-12 col-md-9 main-content-section" id="main-conten">
                     <div class="row align-items-center section-head">
                         <div class="col-12 section-head-title">
-                            <h1 class="mb-1"> <?php echo $page_title; ?></h1>
+                            <h1 class="mb-2"> <?php echo $page_title; ?></h1>
                         </div>
                         <div class="col-12">
                             <?php include('includes/main-section-utilities.php') ?>
