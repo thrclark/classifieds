@@ -6717,6 +6717,13 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.disabled.img-ul-
   cursor: not-allowed !important;
   opacity: 1 !important; }
 
+button:disabled.rbt-btn-progress {
+  background-color: #006298 !important;
+  color: #fff !important;
+  border-color: #006298 !important;
+  cursor: not-allowed !important;
+  opacity: 1 !important; }
+
 .rbt-button-group {
   display: flex; }
   .rbt-button-group > *:not(:last-child) {
@@ -8426,6 +8433,10 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown
 .rbt-btn-progress {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
   background-size: 1rem 1rem !important; }
+
+button:disabled.rbt-btn-progress {
+  background-color: #df3603 !important;
+  border-color: #df3603 !important; }
 
 .dropdown .dropdown-menu .dropdown-item:hover {
   background: #df3603;

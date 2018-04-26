@@ -508,12 +508,14 @@ $page_title = 'Branding';
 $(function () {
      $(".btn-progressable").click(function() {
         $('.btn-progressable').addClass('rbt-btn-progress');
+		$(".btn-progressable").prop('disabled', true);
 		$(".btn-label").text("Applying...");
         setTimeout(function(){
             $('.btn-progressable').removeClass('rbt-btn-progress');
 			$(".btn-label").text("Apply branding");
+			$(".btn-progressable").prop('disabled', false);
 			$(".alert").fadeIn().delay(5000).fadeOut();
-        }, 4000)
+        }, 4444000)
     });
 });
 
