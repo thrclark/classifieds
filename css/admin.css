@@ -8344,21 +8344,21 @@ body, .pagination .page-link, .modal-content {
   border-bottom-color: #ffd452; }
 
 .rbt-app-header {
-  border-bottom-color: #942402; }
+  border-bottom-color: #203541; }
 
 .rbt-app-header .rbt-drawer-button {
-  border-left-color: #942402; }
+  border-left-color: #203541; }
 
 .rbt-app-header .btn.btn-primary, .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-primary.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.btn-primary.img-ul-button {
   background: #ffc107;
-  color: #df3603; }
+  color: #395f74; }
 
 .rbt-app-header .btn.btn-outline-primary, .rbt-app-header ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.img-ul-button {
   border-color: #ffc107;
   color: #ffc107; }
 
 .ccf-themeset.primary {
-  background: #df3603;
+  background: #395f74;
   color: #fff; }
 
 .ccf-themeset.accent {
@@ -8369,7 +8369,7 @@ body, .pagination .page-link, .modal-content {
   background: #fffaeb; }
 
 .rbt-app-header, .modal .modal-header {
-  background: #df3603;
+  background: #395f74;
   color: #fff; }
 
 .modal .modal-header .close .rbt-icon-close,
@@ -8400,12 +8400,12 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.
   color: #fff; }
 
 .btn.btn-outline-primary, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button {
-  color: #df3603;
-  border-color: #df3603; }
+  color: #395f74;
+  border-color: #395f74; }
   .btn.btn-outline-primary:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:hover {
-    color: #ad2a02;
-    border-color: #ad2a02;
-    background: #ffe9e2; }
+    color: #284352;
+    border-color: #284352;
+    background: #c8dae4; }
 
 .btn-primary, .btn-outline-primary:not(:disabled):not(.disabled):active, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active,
 ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active,
@@ -8416,8 +8416,8 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:no
 ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button,
 ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button,
 .page-item.active .page-link {
-  background: #df3603;
-  border-color: #df3603; }
+  background: #395f74;
+  border-color: #395f74; }
   .btn-primary:hover, .btn-outline-primary:not(:disabled):not(.disabled):active:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active:hover,
   ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:not(:disabled):not(.disabled):active:hover,
   .btn-outline-primary:not(:disabled):not(.disabled).active:hover,
@@ -8427,7 +8427,7 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown
   ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button:hover,
   ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown-toggle.img-ul-button:hover,
   .page-item.active .page-link:hover {
-    background: #ad2a02;
+    background: #284352;
     border-color: #ffc107; }
 
 .rbt-btn-progress {
@@ -8435,15 +8435,15 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown
   background-size: 1rem 1rem !important; }
 
 button:disabled.rbt-btn-progress {
-  background-color: #df3603 !important;
-  border-color: #df3603 !important; }
+  background-color: #395f74 !important;
+  border-color: #395f74 !important; }
 
 .dropdown .dropdown-menu .dropdown-item:hover {
-  background: #df3603;
-  border-color: #df3603; }
+  background: #395f74;
+  border-color: #395f74; }
 
 .dropdown .dropdown-menu .dropdown-item.active {
-  border-color: #df3603; }
+  border-color: #395f74; }
 
 .btn-primary:focus,
 .btn-outline-primary:focus,
@@ -8451,16 +8451,16 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:fo
 ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:focus,
 .btn-link:focus,
 .btn-outline-link:focus {
-  box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.2875rem #df3603 !important; }
+  box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.2875rem #395f74 !important; }
 
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  border-color: #df3603;
-  background: #df3603; }
+  border-color: #395f74;
+  background: #395f74; }
 
 .table ccf-image-upload {
-  background: #df3603; }
+  background: #395f74; }
 
 /*# sourceMappingURL=admin.css.map */
