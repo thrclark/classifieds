@@ -6750,18 +6750,37 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.disabled.img-ul-
   background-color: #eeeeee;
   width: 85%;
   max-width: 400px;
-  height: 100%;
+  min-height: 100%;
   border-left: 1px solid #dddddd;
   padding: 1rem;
-  padding-top: 71px;
-  z-index: 1;
-  top: 0px;
+  z-index: 5;
+  top: 48px;
   display: none; }
   .rbt-drawer.open {
     display: block; }
-  .rbt-drawer .list-group .list-group-item a, .rbt-drawer .ccf-mobile-categories .list-group-item a {
-    text-decoration: none;
-    color: #444444; }
+  .rbt-drawer .list-group .list-group-item, .rbt-drawer .ccf-mobile-categories .list-group-item {
+    padding: 0px; }
+    .rbt-drawer .list-group .list-group-item a, .rbt-drawer .ccf-mobile-categories .list-group-item a {
+      text-decoration: none;
+      color: #444444;
+      display: block;
+      padding: 1rem; }
+
+@media (min-width: 576px) {
+  .rbt-drawer {
+    top: 69px; } }
+.rbt-overlay-light {
+  display: none; }
+  .rbt-overlay-light.on {
+    display: inherit;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+    background-color: #fff;
+    opacity: .8; }
 
 .dropdown-toggle::after {
   margin-left: 0px;
