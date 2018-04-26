@@ -8373,8 +8373,15 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header label.
   color: #fff; }
 
 .rbt-app-header .btn-primary,
-.rbt-app-header .input-group .form-control {
+.rbt-app-header .input-group .form-control,
+.rbt-app-header .input-group.clear-field .cleartext {
   border-color: #fff; }
+
+.rbt-app-header .input-group .form-control {
+  border-right-color: #fff; }
+
+.rbt-app-header .input-group.clear-field .cleartext {
+  border-left-color: #fff; }
 
 .postitem.grid .postitem-container .postitem-price {
   background: #ffc107;
