@@ -143,8 +143,15 @@ body, .pagination .page-link, .modal-content {
 	color: set-contrast-bow($theme-primary);
 }
 .rbt-app-header .btn-primary,
-.rbt-app-header .input-group .form-control {
+.rbt-app-header .input-group .form-control,
+.rbt-app-header .input-group.clear-field .cleartext {
 	border-color: set-searchwidget-contrast($theme-primary);
+}
+.rbt-app-header .input-group .form-control {
+	border-right-color: $white;
+}
+.rbt-app-header .input-group.clear-field .cleartext {
+	border-left-color: $white;
 }
 .postitem.grid .postitem-container .postitem-price {
 	background: $theme-accent;
@@ -179,8 +186,6 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload .show > label.dropdown
 		border-color: $theme-accent;
 	}
 }
-
-
 .rbt-btn-progress {
 	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent) !important;
 	background-size: 1rem 1rem !important;
