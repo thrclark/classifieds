@@ -19,8 +19,7 @@ $page_title = 'Branding';
             <div class="main-content" id="main-content">
                 <div class="row mb-3 justify-content-between align-items-center">
                     <div class="col-auto">
-                        <h1>
-                            <?php echo $page_title; ?></h1>
+                        <h1> <?php echo $page_title; ?></h1>
                     </div>
                     <div class="col-auto">
                         <div class="form-check rbt-checkbox" >
@@ -107,8 +106,7 @@ $page_title = 'Branding';
                         <tr>
                             <td>Custom header HTML (optional)
                                 <div class="small helper-text">Specify optional HTML markup to be displayed at the top of the application views.</div></td>
-                            <td><div class="code" style=" height:70px">
-                                    <code>&lt;div id=&quot;custom_header&quot;&gt;
+                            <td><div class="code" style=" height:70px"> <code>&lt;div id=&quot;custom_header&quot;&gt;
                                     &lt;div id=&quot;branding-bar&quot; itemscope=&quot;itemscope&quot; itemtype=&quot;http://schema.org/CollegeOrUniversity&quot; role=&quot;complementary&quot; aria-labelledby=&quot;iu-campus&quot; class=&quot;hidden-xs hidden-sm&quot;&gt;
                                     &lt;div class=&quot;container&quot;&gt;
                                     &lt;div class=&quot;row pad&quot;&gt;
@@ -126,8 +124,7 @@ $page_title = 'Branding';
                         <tr>
                             <td>Custom footer HTML (optional)
                                 <div class="small helper-text">Specify optional HTML markup to be displayed at the bottom of the application views.</div></td>
-                            <td><div class="code" style=" height:70px">
-                                    <code>&lt;footer role=&quot;contentinfo&quot;&gt;
+                            <td><div class="code" style=" height:70px"> <code>&lt;footer role=&quot;contentinfo&quot;&gt;
                                     &lt;div class=&quot;container&quot;&gt;
                                     &lt;div class=&quot;row pad&quot;&gt;
                                     &lt;p class=&quot;tagline&quot;&gt;Fulfilling &lt;span&gt;the&lt;/span&gt; Promise&lt;/p&gt;
@@ -143,14 +140,12 @@ $page_title = 'Branding';
                         <tr>
                             <td>Custom  CSS (optional)
                                 <div class="small helper-text">Specify optional CSS markup that will style the HTML for the custom header and footer.</div></td>
-                            <td><div class="code" style=" height:70px">
-                                    <code>@font-face {
+                            <td><div class="code" style=" height:70px"> <code>@font-face {
                                     font-family: 'BentonSansRegular';
                                     src: url(&quot;https://fonts.iu.edu/fonts/benton-sans-regular.eot&quot;);
                                     src: url(&quot;https://fonts.iu.edu/fonts/benton-sans-regular.eot?#iefix&quot;) format(&quot;embedded-opentype&quot;), url(&quot;https://fonts.iu.edu/fonts/benton-sans-regular.woff&quot;) format(&quot;woff&quot;), url(&quot;https://fonts.iu.edu/fonts/benton-sans-regular.ttf&quot;) format(&quot;truetype&quot;), url(&quot;https://fonts.iu.edu/fonts/benton-sans-regular.svg#BentonSansRegular&quot;) format(&quot;svg&quot;);
                                     font-style: normal;
-                                    font-weight: normal; </code>
-                                </div></td>
+                                    font-weight: normal; </code> </div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_customcss">Edit</button></td>
                         </tr>
                     </tbody>
@@ -188,7 +183,7 @@ $page_title = 'Branding';
 
         });
     }); //]]>
-</script>
+</script> 
 <script type="text/javascript">
     //<![CDATA[
     $( document ).ready(function() {
@@ -206,7 +201,7 @@ $page_title = 'Branding';
 
         });
     }); //]]>
-</script>
+</script> 
 <script>
  $(document).ready(function() {
      $(".btn-progressable").click(function() {
