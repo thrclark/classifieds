@@ -15,11 +15,15 @@ $page_title = 'Categories';
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
     <div class="row">
-        
         <div class="col-12">
             <div class="main-content" id="main-content">
-                <h1> <?php echo $page_title; ?></h1>
-                <table class="table table-sm rbt-table-actions ccf-table-categories tablesawww tablesaw-stackkk">
+                <div class="row mb-3 justify-content-between align-items-center">
+                    <div class="col">
+                        <h1>
+                            <?php echo $page_title; ?></h1>
+                    </div>
+                </div>
+                <table class="table table-sm rbt-table-actions ccf-table-categories">
                     <thead>
                         <tr>
                             <th><message key="admin.field.name" ng-reflect-key="admin.field.name">Name</message></th>
