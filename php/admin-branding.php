@@ -160,7 +160,7 @@ $page_title = 'Branding';
                             </tr>
                             <tr>
                                 <td> Favicon image
-                                    <div class="small helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks. This image should be 196 x 196px.</div></td>
+                                    <div class="small helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks. This image should be 196x196 pixels.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                         <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
                                             <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
@@ -189,7 +189,7 @@ $page_title = 'Branding';
                             </tr>
                             <tr>
                                 <td> Apple Touch image
-                                    <div class="small helper-text"> Select an image to be displayed in iOS as a desktop bookmark. This image should be 152 x 152px.</div></td>
+                                    <div class="small helper-text"> Select an image to be displayed in iOS as a desktop bookmark. This image should be 180x180 pixels.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                         <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
                                             <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
