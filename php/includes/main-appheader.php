@@ -1,5 +1,5 @@
-
-<header class="rbt-app-header"><a class="rbt-skip-link" href="#mainSearch" id="setsearch">Skip to search</a> <a class="rbt-skip-link" href="#main-content">Skip to content</a>
+ <a class="rbt-skip-link" href="#mainSearch" id="setsearch">Skip to search</a> <a class="rbt-skip-link" href="#main-content">Skip to content</a>
+<header class="rbt-app-header">
     <div class="container">
         <div class="row align-items-center"> 
             <!--App Logo Image-->
