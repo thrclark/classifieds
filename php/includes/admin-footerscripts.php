@@ -58,6 +58,21 @@ $(document).ready(function() {
 
 
 <script>
+    $(".rbt-drawer-button").click(function() {
+       
+        $(".main-content, #customfooter").toggleClass("faded");
+    });
+    $(".main-content, #customfooter").click(function() {
+        $(".main-content, #customfooter").removeClass("faded");
+        $(".rbt-drawer,.rbt-drawer-button").removeClass("open");
+    });
+</script>
+
+
+
+
+
+<script>
     $(document).ready(function() {
         $(".rbt-app-header").sticky({
             topSpacing: 0
@@ -346,18 +361,3 @@ $(function(){
 
 
 
-
-<script>
-
-$(document).ready(function() {
-  function setHeight() {
-    windowHeight = $(document).height();	
-    $('.rbt-drawer').css('min-height', windowHeight);
-  };
-  setHeight();
-  
-  $(window).resize(function() {
-    setHeight();
-  });
-});
-</script>
