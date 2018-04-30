@@ -110,24 +110,30 @@ $page_title = 'Branding';
                                 <td>Application logo - mobile <span class="small font-italic">(optional)</span>
                                     <div class="small helper-text"> Select an image to be used as an application logo in the header for mobile devices. Note that this image should be 48px in height, and the width should be constrained as much as possible for better display on small screens.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
-                                        <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
-                                            <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
-                                                <image-upload _nghost-c0="" ng-reflect-before-upload="function (metadata) {" ng-reflect-button-caption="Upload Image" ng-reflect-drop-box-message="or drop image here" ng-reflect-file-too-large-message="Image must be no larger than 1" ng-reflect-headers="[object Object]" ng-reflect-max-file-size="10485760" ng-reflect-preview="false" ng-reflect-supported-extensions="png,jpg,jpeg" ng-reflect-url="/ccf2-unt/upload">
-                                                    <div _ngcontent-c0="" filedrop="" class="img-ul" ng-reflect-ng-class="img-ul" ng-reflect-accept="image/png,image/jpg,image/jpeg">
-                                                        <div _ngcontent-c0="" class="img-ul-file-upload img-ul-hr-inline-group" >
-                                                            <label _ngcontent-c0="" class="img-ul-upload img-ul-button" tabindex="0"> <span _ngcontent-c0="">Upload Image</span>
-                                                                <input _ngcontent-c0="" multiple type="file" accept="image/png,image/jpg,image/jpeg">
-                                                            </label>
-                                                            <label _ngcontent-c0="" class="img-ul-clear img-ul-button"> <span _ngcontent-c0="">Clear</span> </label>
-                                                            <div _ngcontent-c0="" class="img-ul-drag-box-msg">or drop image here</div>
-                                                        </div>
+                                    <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
+                                        <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
+                                            <image-upload _nghost-c0="" ng-reflect-before-upload="function (metadata) {" ng-reflect-button-caption="Upload Image" ng-reflect-drop-box-message="or drop image here" ng-reflect-file-too-large-message="Image must be no larger than 1" ng-reflect-headers="[object Object]" ng-reflect-max-file-size="10485760" ng-reflect-preview="false" ng-reflect-supported-extensions="png,jpg,jpeg" ng-reflect-url="/ccf2-unt/upload">
+                                                <div _ngcontent-c0="" filedrop="" class="img-ul" ng-reflect-ng-class="img-ul" ng-reflect-accept="image/png,image/jpg,image/jpeg">
+                                                    <div _ngcontent-c0="" class="img-ul-file-upload img-ul-hr-inline-group" >
+                                                        <label _ngcontent-c0="" class="img-ul-upload img-ul-button" tabindex="0"> <span _ngcontent-c0="">Upload Image</span>
+                                                            <input _ngcontent-c0="" multiple type="file" accept="image/png,image/jpg,image/jpeg">
+                                                        </label>
+                                                        <label _ngcontent-c0="" class="img-ul-clear img-ul-button"> <span _ngcontent-c0="">Clear</span></label>
+                                                        <div _ngcontent-c0="" class="img-ul-drag-box-msg">or drop image here</div>
                                                     </div>
-                                                </image-upload>
-                                                <div class="img-preview" dnd-sortable-container="" draggable="false" ng-reflect-sortable-data="" style="cursor: pointer;"> </div>
-                                                <div class="validation-fieldmessage"></div>
+                                                </div>
+                                            </image-upload>
+                                            <div class="img-preview" dnd-sortable-container="" draggable="false" ng-reflect-sortable-data="" style="cursor: pointer;">
+                                                <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img src="../img/ccf-logo-mobile.png" style="height:70px; width:auto" alt=""/>
+                                                    <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
+                                                        <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
+                                                        </span></button>
+                                                </div>
                                             </div>
+                                            <div class="validation-fieldmessage"> </div>
                                         </div>
-                                    </ccf-image-upload></td>
+                                    </div>
+                                </ccf-image-upload></td>
                             </tr>
                             <tr>
                                 <td> Favicon icon <span class="small font-italic">(.ico)</span>
@@ -147,7 +153,7 @@ $page_title = 'Branding';
                                                     </div>
                                                 </image-upload>
                                                 <div class="img-preview rbt-checkered-bg" dnd-sortable-container="" draggable="false" ng-reflect-sortable-data="" style="cursor: pointer;">
-                                                    <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img src="../img/apple-touch-icon-ipad-retina-152x152.png" style="height:70px; width:auto" alt=""/>
+                                                    <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img src="../img/favicon.ico" style="height:70px; width:auto" alt=""/>
                                                         <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
                                                         <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                                         </span> </button>
@@ -176,7 +182,7 @@ $page_title = 'Branding';
                                                     </div>
                                                 </image-upload>
                                                 <div class="img-preview rbt-checkered-bg" dnd-sortable-container="" draggable="false" ng-reflect-sortable-data="" style="cursor: pointer;">
-                                                    <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img src="../img/apple-touch-icon-ipad-retina-152x152.png" style="height:70px; width:auto" alt=""/>
+                                                    <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img src="../img/ccf-logo-196x196.png" style="height:70px; width:auto" alt=""/>
                                                         <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
                                                         <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                                         </span> </button>
@@ -205,7 +211,7 @@ $page_title = 'Branding';
                                                     </div>
                                                 </image-upload>
                                                 <div class="img-preview rbt-checkered-bg" dnd-sortable-container="" draggable="false" ng-reflect-sortable-data="" style="cursor: pointer;">
-                                                    <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img src="../img/apple-touch-icon-ipad-retina-152x152.png" style="height:70px; width:auto" alt=""/>
+                                                    <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img src="../img/ccf-logo-180x180.png" style="height:70px; width:auto" alt=""/>
                                                         <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
                                                         <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                                         </span> </button>
