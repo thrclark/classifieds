@@ -21,7 +21,7 @@ $page_title = 'Results for';
                     <div class="row align-items-center section-head">
                         <div class="col-12 section-head-title">
                             <h1 class="mb-2">
-                                <?php echo $page_title; ?> 'iPhone' <a href="main-home.php" class="rbt-ts-12 font-italic pt-4 pr-3">(clear)</a>
+                                <?php echo $page_title; ?> 'iPhone'  <button onclick="location.href='main-home.php';" class="btn btn-link ccf-clearsearch">(clear)</button>
                             </h1>
                         </div>
                         <div class="col-12">

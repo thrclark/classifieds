@@ -1,4 +1,11 @@
 .main-content .main-content-section .section-head {
+	.ccf-clearsearch {
+		@extend .rbt-ts-12;
+		@extend .pt-3;
+		padding: 0px;
+		font-weight: normal;
+		font-style: italic;
+	}
 	.section-head-utilities {
 		@extend .mb-3;
 		.btn-group {

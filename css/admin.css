@@ -5299,7 +5299,7 @@ button.bg-dark:focus {
 .p-3, ccf-image-upload image-upload .img-ul {
   padding: 1rem !important; }
 
-.pt-3,
+.pt-3, .main-content .main-content-section .section-head .ccf-clearsearch,
 .py-3 {
   padding-top: 1rem !important; }
 
@@ -7347,7 +7347,8 @@ ul li, ol li {
     display: none; } }
 .ts-12,
 .rbt-ts-12,
-.rbt-footer {
+.rbt-footer,
+.main-content .main-content-section .section-head .ccf-clearsearch {
   font-size: 0.75rem !important; }
 
 .ts-14,
@@ -7923,6 +7924,10 @@ body {
   color: #006298;
   font-size: 16px; }
 
+.main-content .main-content-section .section-head .ccf-clearsearch {
+  padding: 0px;
+  font-weight: normal;
+  font-style: italic; }
 .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch {
   vertical-align: inherit; }
   .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch label.img-ul-button {
