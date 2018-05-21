@@ -304,7 +304,7 @@ $page_title = 'Post ad';
                                 </div>
                             </div>
                             <div class="alert alert-success fade show" role="alert" style="display:none">
-                                <h4 class="alert-heading">Your ad has been posted.</h4>
+                                <p class="alert-heading">Your ad has been posted.</p>
                                 <p class="small">You may review, edit, or remove this ad in the <a href="main-myads.php">My ads</a> section.</p>
                             </div>
                             <p class="text-right" id="preSave">
