@@ -305,7 +305,7 @@ $page_title = 'Post ad';
                             </div>
                             <div class="alert alert-danger fade show" role="alert" style="display:none">
                                 <h4 class="alert-heading">Errors on page</h4>
-                                <p class="small">Please review entered items on this page for any needed corrections.</p>
+                                <p class="small">Please review the fields on this form for any needed corrections.</p>
                             </div>
                             <p class="text-right">
                                 <button class="btn btn-primary" id="submitForm" type="submit">Post ad</button>
