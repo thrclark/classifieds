@@ -282,7 +282,7 @@ $page_title = 'Post ad';
                                                             <label _ngcontent-c0="" class="img-ul-clear img-ul-button"> <span _ngcontent-c0="">Clear</span> </label>
                                                             <div _ngcontent-c0="" class="img-ul-drag-box-msg">or drop image here</div>
                                                         </div>
-                                                    </div>	
+                                                    </div>
                                                 </image-upload>
                                                 <div class="img-preview" dnd-sortable-container="" draggable="false" ng-reflect-sortable-data="" style="cursor: pointer;">
                                                     <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="0" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
@@ -307,38 +307,24 @@ $page_title = 'Post ad';
                                     </ccf-image-upload>
                                 </div>
                             </div>
-                           
+                            <div class="alert alert-success fade show" role="alert" style="display:none">
+                                <p class="alert-heading">Your ad has been posted.</p>
+                                <p class="small">You may view, edit, or remove this ad in the <a href="main-myads.php">My ads</a> section.</p>
+                            </div>	
                             <p class="text-right" id="preSave">
-                                <a class="btn btn-primary" id="submitForm" style="color:#FFFFFF" data-toggle="modal" data-target="#exampleModal-form">Post ad</a>	
+                                <a class="btn btn-primary" id="submitForm" style="color:#FFFFFF">Post ad</a>	
                                 <a class="btn btn-outline-primary" href="main-home.php">
                                     <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Cancel</message>
                                 </a> </p>
+                            <p class="text-right" style="display:none" id="postSave"> <a class="btn btn-outline-primary" href="main-home.php">
+                                    <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Return to home</message>
+                                </a>
                                 
+                                <a class="btn btn-outline-primary" href="main-postad-success.php">
+                                    <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Post another ad</message>
+                                </a>
                                 
-                                                       
-                                
-<!-- Modal -->
-<div class="modal fade" id="exampleModal-form" tabindex="-1" role="dialog" aria-labelledby="exampleModal-form" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <div class="modal-title" id="exampleModalLabel">Success!</div>
-            </div>
-            <div class="modal-body">
-                 <p >Your ad has been posted.</p>
-                                <p >You may view, edit, or remove this ad in the <a href="main-myads.php">My ads</a> section.</p>
-            </div>
-            <div class="modal-footer">
-               <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Post another ad</button>
-                 <a href="main-home.php" class="btn btn-outline-primary">Home</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-                           
+                                 </p>
                         </form>
                     </section>
                 </div>
@@ -429,7 +415,15 @@ $page_title = 'Post ad';
         });
     });
 </script> 
+<script>
+    $(document).ready(function() {
+       $("#submitForm").click(function(){
+		    $("#preSave").hide();
+    $(".alert-success, #postSave").show();
+});
 
+    });
+</script> 
 <script>
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function() {

@@ -14,6 +14,7 @@ $page_title = 'Post ad';
 	display: none;
 }
 
+
 .invalid-feedback {
     display: none;
 }
@@ -46,9 +47,9 @@ $page_title = 'Post ad';
                             <message key="main.header.ad" ng-reflect-key="main.header.ad">Post Ad</message>
                         </h1>
                         <hr>
-                        <form class="">
+                        <form class="needs-validation" novalidate>
                             <div class="row">
-                                <div class="col-12">	
+                                <div class="col-12">
                                     <div class="form-group">
                                         <label for="titleLabel">
                                             <message key="global.ad.field.title" ng-reflect-key="global.ad.field.title">Title</message>
@@ -56,7 +57,7 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </small></label>
                                         <div class="rbt-charcount">
-                                            <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control ccf-hide-validation-success" id="titleLabel">
+                                            <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control ccf-hide-validation-success" id="titleLabel" required>
                                             <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Title</span> is required. </div>
                                             <span class="badge badge-success" id="titleLabel_badge"><span id="titleLabel_counter">0</span></span></div>
                                     </div>
@@ -83,7 +84,7 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </small></label>
                                         <div class="rbt-charcount">
-                                            <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control ccf-hide-validation-success" id="contactNameLabel" placeholder="" >
+                                            <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control ccf-hide-validation-success" id="contactNameLabel" placeholder="" required>
                                             <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Contact</span> is required. </div>
                                             <span class="badge badge-success" id="contactNameLabel_badge"><span id="contactNameLabel_counter">0</span></span> </div>
                                     </div>
@@ -95,7 +96,7 @@ $page_title = 'Post ad';
                                             <span class="subLabel small">
                                             <message key="global.ad.field.required" ng-reflect-key="global.ad.field.required">(required)</message>
                                             </span></label>
-                                        <select class="form-control ccf-hide-validation-success" id="exampleFormControlSelect1" >
+                                        <select class="form-control ccf-hide-validation-success" id="exampleFormControlSelect1" required>
                                             <option selected></option>
                                             <option value="1000" ng-reflect-value="1000">Vehicles</option>
                                             <option value="1001" ng-reflect-value="1001">Announcements</option>
@@ -124,7 +125,7 @@ $page_title = 'Post ad';
                                 <div class="col-lg-6 col-12">
                                     <div class="form-group">
                                         <label class="control-label" id="marketIdLabel">Campus</label>
-                                        <select class="form-control ccf-hide-validation-success" id="exampleFormControlSelect1" >
+                                        <select class="form-control ccf-hide-validation-success" id="exampleFormControlSelect1" required>
                                             <option selected></option>
                                             <option value="100" ng-reflect-value="100">Bloomington (IUB)</option>
                                             <option value="102" ng-reflect-value="102">Kokomo (IUK)</option>
@@ -152,7 +153,7 @@ $page_title = 'Post ad';
                                             <message key="global.ad.field.expireDate" ng-reflect-key="global.ad.field.expireDate">Expiration Date</message>
                                         </label>
                                         <div class="input-group">
-                                            <input type="text" class="form-control ccf-hide-validation-success" id="dateLabel" placeholder="mm/dd/yyyy" aria-label="" aria-describedby="basic-addon2">
+                                            <input type="text" class="form-control ccf-hide-validation-success" id="dateLabel" placeholder="mm/dd/yyyy" aria-label="" aria-describedby="basic-addon2" required>
                                             <div class="input-group-append"> <span class="input-group-text" id="basic-addon2"><i aria-hidden="true" class="fa fa-calendar"></i></span> </div>
                                             <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> An <span class="font-weight-bold">Expiration Date</span> is required. </div>
                                         </div>
@@ -307,24 +308,39 @@ $page_title = 'Post ad';
                                     </ccf-image-upload>
                                 </div>
                             </div>
-                            <div class="alert alert-success fade show" role="alert" style="display:none">
-                                <p class="alert-heading">Your ad has been posted.</p>
-                                <p class="small">You may view, edit, or remove this ad in the <a href="main-myads.php">My ads</a> section.</p>
-                            </div>	
-                            <p class="text-right" id="preSave">
-                                <a class="btn btn-primary" id="submitForm" style="color:#FFFFFF">Post ad</a>	
+                          
+                          
+                          
+                          
+                            <p class="text-right">
+                                <button class="btn btn-primary" id="submitForm" type="submit" data-toggle="modal" data-target="#exampleModal-form">Post ad</button>
                                 <a class="btn btn-outline-primary" href="main-home.php">
                                     <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Cancel</message>
                                 </a> </p>
-                            <p class="text-right" style="display:none" id="postSave"> <a class="btn btn-outline-primary" href="main-home.php">
-                                    <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Return to home</message>
-                                </a>
                                 
-                                <a class="btn btn-outline-primary" href="main-postad-success.php">
-                                    <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Post another ad</message>
-                                </a>
                                 
-                                 </p>
+                                
+                                
+                                
+<!-- Modal -->
+<div class="modal fade" id="exampleModal-form" tabindex="-1" role="dialog" aria-labelledby="exampleModal-form" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="exampleModalLabel">Errors on page</div>
+            </div>
+            <div class="modal-body">
+                  <p>  Please review the fields on this form for any needed corrections.</p>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-primary" data-dismiss="modal">Fix errors</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
                         </form>
                     </section>
                 </div>
@@ -418,8 +434,7 @@ $page_title = 'Post ad';
 <script>
     $(document).ready(function() {
        $("#submitForm").click(function(){
-		    $("#preSave").hide();
-    $(".alert-success, #postSave").show();
+    $(".alert-danger").show();
 });
 
     });

@@ -36,43 +36,32 @@ $page_title = '';
         <div class="col">
             <h2 class="h3">Main Views</h2>
             <ul>
-                <li>
-                    <a href="php/main-home.php" target="_blank">Main View</a>
-                </li>
-                <li>
-                    <a href="php/main-home-customheader.php" target="_blank">Main View w/ custom header</a>
-                </li>
-                <li><a href="php/main-searchresults.php" target="_blank">Search Result</a>
-                </li>
-                <li><a href="php/main-myads.php">My Ads</a>
-                </li>
-                <li><a href="php/main-watchlist.php" target="_blank">My Watchlist</a>
-                </li>
-                <li><a href="php/main-music.php" target="_blank">Category View</a>
-                </li>
-                <li><a href="php/main-postad.php" target="_blank">Post Ad</a>
-                </li>
-                <li><a href="php/main-postad-validation.php" target="_blank">Post Ad - Validation</a>
-                </li>
+                <li> <a href="php/main-home.php" target="_blank">Main View</a> </li>
+                <li> <a href="php/main-home-customheader.php" target="_blank">Main View w/ custom header</a> </li>
+                <li><a href="php/main-searchresults.php" target="_blank">Search Result</a> </li>
+                <li><a href="php/main-myads.php">My Ads</a> </li>
+                <li><a href="php/main-watchlist.php" target="_blank">My Watchlist</a> </li>
+                <li><a href="php/main-music.php" target="_blank">Category View</a> </li>
+                <li><a href="php/main-postad.php" target="_blank">Post Ad</a> </li>
+                <li><a href="php/main-postad-has-errors1.php" target="_blank">Post Ad - errors 1</a> </li>
+                <li><a href="php/main-postad-has-errors2.php" target="_blank">Post Ad - errors 2</a> </li>
+                <li><a href="php/main-postad-success1.php" target="_blank">Post Ad - success 1</a> </li>
+                <li><a href="php/main-postad-success2.php" target="_blank">Post Ad - success 2</a> </li>
             </ul>
         </div>
         <div class="col">
             <h2 class="h3"> Admin Views</h2>
             <ul>
-                <li><a href="php/admin-ads.php" target="_blank">All ads</a>
-                </li>
-                <li><a href="php/admin-branding.php" target="_blank">Branding</a>
-                </li>
-                <li><a href="php/admin-categories.php" target="_blank">Categories</a>
-                </li>
+                <li><a href="php/admin-ads.php" target="_blank">All ads</a> </li>
+                <li><a href="php/admin-branding.php" target="_blank">Branding</a> </li>
+                <li><a href="php/admin-categories.php" target="_blank">Categories</a> </li>
             </ul>
         </div>
     </div>
 </div>
 <div class="container">
     <hr>
-    on <a href="https://github.com/thrclark/classifieds" target="_blank">Github</a>
-</div>
+    on <a href="https://github.com/thrclark/classifieds" target="_blank">Github</a> </div>
 <?php include('includes/admin-footerscripts.php') ?>
 </body>
 </html>

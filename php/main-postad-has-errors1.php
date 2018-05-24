@@ -14,7 +14,6 @@ $page_title = 'Post ad';
 	display: none;
 }
 
-
 .invalid-feedback {
     display: none;
 }
@@ -308,39 +307,15 @@ $page_title = 'Post ad';
                                     </ccf-image-upload>
                                 </div>
                             </div>
-                          
-                          
-                          
-                          
+                            <div class="alert alert-danger fade show" role="alert" style="display:none">
+                                <p class="alert-heading">Errors on page</p>
+                                <p class="small">Please review the fields on this form for any needed corrections.</p>
+                            </div>
                             <p class="text-right">
-                                <button class="btn btn-primary" id="submitForm" type="submit" data-toggle="modal" data-target="#exampleModal-form">Post ad</button>
+                                <button class="btn btn-primary" id="submitForm" type="submit">Post ad</button>
                                 <a class="btn btn-outline-primary" href="main-home.php">
                                     <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Cancel</message>
                                 </a> </p>
-                                
-                                
-                                
-                                
-                                
-<!-- Modal -->
-<div class="modal fade" id="exampleModal-form" tabindex="-1" role="dialog" aria-labelledby="exampleModal-form" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <div class="modal-title" id="exampleModalLabel">Errors on page</div>
-            </div>
-            <div class="modal-body">
-                  <p>  Please review the fields on this form for any needed corrections.</p>
-            </div>
-            <div class="modal-footer">
-               <button type="button" class="btn btn-primary" data-dismiss="modal">Fix errors</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
                         </form>
                     </section>
                 </div>
@@ -434,7 +409,7 @@ $page_title = 'Post ad';
 <script>
     $(document).ready(function() {
        $("#submitForm").click(function(){
-    $(".alert-danger").show();
+    $(".alert-danger, .invalid-feedback").show();
 });
 
     });
