@@ -13,21 +13,32 @@ $page_title = 'Ads';
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
-    <div class="row">
+    <div class="form-row">
         <div class="col-12">
             <div class="main-content" id="main-content">
-                <div class="row mb-3 justify-content-between align-items-center">
+                <div class="row no-gutters mb-3 justify-content-between align-items-center">
                     <div class="col-12 col-md-6">
                         <h1> <?php echo $page_title; ?></h1>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <div class="input-group clear-field  mb-3">
-                            <input type="text" class="form-control " id="clear_field">
-                            <button class="cleartext" style="display:none"> <i class="fa fa-window-close"></i></button>
-                            <div class="input-group-append">
-                                <button class="btn btn-primary" type="button"><i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">Search</span></button>
+                    <div class="col">
+                        <form novalidate="" ng-reflect-form="[object Object]" class="ng-pristine ng-valid ng-touched">
+                            <label class="sr-only" id="termsLabel">
+                                <message key="admin.ads.field.searchTerms" ng-reflect-key="admin.ads.field.searchTerms">Find an Ad</message>
+                            </label>
+                            <div class="input-group">
+                                <input aria-labelledby="termsLabel" class="form-control ng-pristine ng-valid ng-touched" formcontrolname="terms" type="text" ng-reflect-name="terms">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="submit"> <i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">
+                                    <message key="global.button.search" ng-reflect-key="global.button.search">Search</message>
+                                    </span> </button>
+                                </div>
                             </div>
-                        </div>
+                        </form>
+                    </div>
+                    <div class="col-auto">
+                        <button class="btn btn-link" type="button">
+                        <message key="admin.buttons.clear" ng-reflect-key="admin.buttons.clear">Clear</message>
+                        </button>
                     </div>
                 </div>
                 <div class="ccf-table-responsive-container">
