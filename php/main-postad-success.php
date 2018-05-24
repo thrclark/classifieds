@@ -13,6 +13,10 @@ $page_title = 'Post ad';
 	position: absolute;
 	display: none;
 }
+
+.invalid-feedback {
+    display: none;
+}
 </style>
 </head>
 <body>
@@ -53,7 +57,7 @@ $page_title = 'Post ad';
                                             </small></label>
                                         <div class="rbt-charcount">
                                             <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control ccf-hide-validation-success" id="titleLabel">
-                                            <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Title</span> is required. </div>
+                                            <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Title</span> is required. </div>
                                             <span class="badge badge-success" id="titleLabel_badge"><span id="titleLabel_counter">0</span></span></div>
                                     </div>
                                 </div>
@@ -80,7 +84,7 @@ $page_title = 'Post ad';
                                             </small></label>
                                         <div class="rbt-charcount">
                                             <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control ccf-hide-validation-success" id="contactNameLabel" placeholder="" >
-                                            <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Contact</span> is required. </div>
+                                            <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Contact</span> is required. </div>
                                             <span class="badge badge-success" id="contactNameLabel_badge"><span id="contactNameLabel_counter">0</span></span> </div>
                                     </div>
                                 </div>
@@ -102,7 +106,7 @@ $page_title = 'Post ad';
                                             <option value="1006" ng-reflect-value="1006">Furniture</option>
                                             <option value="1007" ng-reflect-value="1007">Roommates &amp; Sublets</option>
                                         </select>
-                                        <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Category</span> is required. </div>
+                                        <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Category</span> is required. </div>
                                     </div>
                                 </div>
                             </div>
@@ -125,7 +129,7 @@ $page_title = 'Post ad';
                                             <option value="100" ng-reflect-value="100">Bloomington (IUB)</option>
                                             <option value="102" ng-reflect-value="102">Kokomo (IUK)</option>
                                         </select>
-                                        <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Campus</span> is required. </div>
+                                        <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Campus</span> is required. </div>
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +154,7 @@ $page_title = 'Post ad';
                                         <div class="input-group">
                                             <input type="text" class="form-control ccf-hide-validation-success" id="dateLabel" placeholder="mm/dd/yyyy" aria-label="" aria-describedby="basic-addon2">
                                             <div class="input-group-append"> <span class="input-group-text" id="basic-addon2"><i aria-hidden="true" class="fa fa-calendar"></i></span> </div>
-                                            <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> An <span class="font-weight-bold">Expiration Date</span> is required. </div>
+                                            <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> An <span class="font-weight-bold">Expiration Date</span> is required. </div>
                                         </div>
                                         <div class="bs-datepicker">
                                             <div class="bs-datepicker-container">
@@ -305,16 +309,22 @@ $page_title = 'Post ad';
                             </div>
                             <div class="alert alert-success fade show" role="alert" style="display:none">
                                 <p class="alert-heading">Your ad has been posted.</p>
-                                <p class="small">You may review, edit, or remove this ad in the <a href="main-myads.php">My ads</a> section.</p>
-                            </div>
+                                <p class="small">You may view, edit, or remove this ad in the <a href="main-myads.php">My ads</a> section.</p>
+                            </div>	
                             <p class="text-right" id="preSave">
                                 <a class="btn btn-primary" id="submitForm" style="color:#FFFFFF">Post ad</a>	
                                 <a class="btn btn-outline-primary" href="main-home.php">
                                     <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Cancel</message>
                                 </a> </p>
-                            <p class="text-right" style="display:none" id="postSave"> <a class="btn btn-primary" href="main-home.php">
+                            <p class="text-right" style="display:none" id="postSave"> <a class="btn btn-outline-primary" href="main-home.php">
                                     <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Return to home</message>
-                                </a> </p>
+                                </a>
+                                
+                                <a class="btn btn-outline-primary" href="main-postad-success.php">
+                                    <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Post another ad</message>
+                                </a>
+                                
+                                 </p>
                         </form>
                     </section>
                 </div>

@@ -53,7 +53,7 @@ $page_title = 'Post ad';
                                         <div class="rbt-charcount">
                                             <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control is-invalid" id="titleLabel" placeholder="" >
                                             <span class="badge badge-success" id="titleLabel_badge"><span id="titleLabel_counter">0</span></span></div>
-                                        <div class="invalid-feedback" style="display:block"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Title</span> is required. </div>
+                                        <div class="invalid-feedback" style="display:block"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Title</span> is required. </div>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ $page_title = 'Post ad';
                                         <div class="rbt-charcount">
                                             <textarea aria-labelledby="descriptionLabel" class="form-control is-invalid" formcontrolname="description" rows="8" ng-reflect-name="description" id="descriptionLabel"></textarea>
                                             <span class="badge badge-success" id="descriptionLabel_badge"><span id="descriptionLabel_counter">0</span></span> </div>
-                                        <div class="invalid-feedback" style="display:block"><span class="rbt-icon-close-o" aria-hidden="true"></span> The <span class="font-weight-bold">Description</span> is too long. </div>
+                                        <div class="invalid-feedback" style="display:block"><span class="rbt-icon-circle-close" aria-hidden="true"></span> The <span class="font-weight-bold">Description</span> is too long. </div>
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ $page_title = 'Post ad';
                                         <div class="rbt-charcount">
                                             <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control is-invalid" id="contactNameLabel" placeholder="" >
                                             <span class="badge badge-success" id="contactNameLabel_badge"><span id="contactNameLabel_counter">0</span></span> </div>
-                                        <div class="invalid-feedback" style="display:block"><span class="rbt-icon-close-o" aria-hidden="true"></span> <span class="font-weight-bold">Contact info</span> is required. </div>
+                                        <div class="invalid-feedback" style="display:block"><span class="rbt-icon-circle-close" aria-hidden="true"></span> <span class="font-weight-bold">Contact info</span> is required. </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-12">
@@ -101,7 +101,7 @@ $page_title = 'Post ad';
                                             <option value="1006" ng-reflect-value="1006">Furniture</option>
                                             <option value="1007" ng-reflect-value="1007">Roommates &amp; Sublets</option>
                                         </select>
-                                        <div class="invalid-feedback" style="display:block"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Category</span> is required. </div>
+                                        <div class="invalid-feedback" style="display:block"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Category</span> is required. </div>
                                     </div>
                                 </div>
                             </div>
@@ -114,7 +114,7 @@ $page_title = 'Post ad';
                                         <div class="rbt-charcount">
                                             <input type="text" aria-labelledby="priceLabel" formcontrolname="title" ng-reflect-name="title" class="form-control is-invalid" id="priceLabel">
                                             <span class="badge badge-success" id="priceLabel_badge"><span id="priceLabel_counter">0</span></span> </div>
-                                        <div class="invalid-feedback" style="display:block"><span class="rbt-icon-close-o" aria-hidden="true"></span> The <span class="font-weight-bold">Price</span> is too long. </div>
+                                        <div class="invalid-feedback" style="display:block"><span class="rbt-icon-circle-close" aria-hidden="true"></span> The <span class="font-weight-bold">Price</span> is too long. </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-12">
@@ -124,7 +124,7 @@ $page_title = 'Post ad';
                                             <option value="100" ng-reflect-value="100">Bloomington (IUB)</option>
                                             <option value="102" ng-reflect-value="102">Koko,o (IUK)</option>
                                         </select>
-                                        <div class="invalid-feedback" style="display:block"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Campus</span> is required. </div>
+                                        <div class="invalid-feedback" style="display:block"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Campus</span> is required. </div>
                                     </div>
                                 </div>
                             </div>
@@ -148,7 +148,7 @@ $page_title = 'Post ad';
                                         <div class="input-group">
                                             <input type="text" class="form-control is-invalid" id="dateLabel" placeholder="mm/dd/yyyy" aria-label="" aria-describedby="basic-addon2">
                                             <div class="input-group-append"> <span class="input-group-text" id="basic-addon2"><i aria-hidden="true" class="fa fa-calendar"></i></span> </div>
-                                            <div class="invalid-feedback" style="display:block"><span class="rbt-icon-close-o" aria-hidden="true"></span> The <span class="font-weight-bold">Expiration Date</span> format is unrecognized. </div>
+                                            <div class="invalid-feedback" style="display:block"><span class="rbt-icon-circle-close" aria-hidden="true"></span> The <span class="font-weight-bold">Expiration Date</span> format is unrecognized. </div>
                                         </div>
                                         <div class="bs-datepicker">
                                             <div class="bs-datepicker-container">
