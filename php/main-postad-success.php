@@ -13,9 +13,8 @@ $page_title = 'Post ad';
 	position: absolute;
 	display: none;
 }
-
 .invalid-feedback {
-    display: none;
+	display: none;
 }
 </style>
 </head>
@@ -28,7 +27,7 @@ $page_title = 'Post ad';
                 <div class="col-xs-12 col-md-8">
                     <section id="policy" class="mb-5 pb-3">
                         <h1 class="mb-2">
-                            <message>Post Ad</message>
+                            <message>Post ad</message>
                         </h1>
                         <hr>
                         <p><strong>Ad Policy</strong></p>
@@ -37,18 +36,20 @@ $page_title = 'Post ad';
                         <p>By using this site, you agree to abide by Indiana Universitys "Appropriate Technology Use" Policies as outlined by the <a href="http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml" target="_blank"> Information Policy Office </a> and to use the Classifieds appropriately. These pages are not intended for solicitation, political purposes and publishing opinions, nor are they to be used to make jokes or mislead others. The University reserves the right to remove any posting that it deems inappropriate.</p>
                         <p>Questions regarding the IU Classifieds may be addressed to <a href="mailto:one@iu.edu">one@iu.edu</a> </p>
                         <p><strong>Do you accept these terms?</strong></p>
-                        <div class="text-left">
-                            <button class="btn btn-primary" id="acceptPolicy">Accept</button>
-                            <a href="main-home.php" class="btn btn-outline-primary">Decline</a> </div>
+                        <div class="text-left"> <a href="#" class="btn btn-primary" id="acceptPolicy">Accept</a> <a href="main-home.php" class="btn btn-outline-primary">Decline</a> </div>
                     </section>
                     <section id="postform" style="display:none" class="mb-5 pb-3">
                         <h1 class="mb-2">
-                            <message key="main.header.ad" ng-reflect-key="main.header.ad">Post Ad</message>
+                            <message key="main.header.ad" ng-reflect-key="main.header.ad">Post ad</message>
                         </h1>
                         <hr>
+                        <div class="alert alert-success fade show" role="alert" id="successMessage" style="display:none">
+                            <p class="alert-heading">Your ad has been posted.</p>
+                            <p class="">Your ad will automatically expire on June 14, 2018. You may view, edit, or remove this ad <a href="#launchad">here</a>.</p>
+                        </div>
                         <form class="">
                             <div class="row">
-                                <div class="col-12">	
+                                <div class="col-12">
                                     <div class="form-group">
                                         <label for="titleLabel">
                                             <message key="global.ad.field.title" ng-reflect-key="global.ad.field.title">Title</message>
@@ -282,7 +283,7 @@ $page_title = 'Post ad';
                                                             <label _ngcontent-c0="" class="img-ul-clear img-ul-button"> <span _ngcontent-c0="">Clear</span> </label>
                                                             <div _ngcontent-c0="" class="img-ul-drag-box-msg">or drop image here</div>
                                                         </div>
-                                                    </div>	
+                                                    </div>
                                                 </image-upload>
                                                 <div class="img-preview" dnd-sortable-container="" draggable="false" ng-reflect-sortable-data="" style="cursor: pointer;">
                                                     <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="0" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
@@ -307,39 +308,15 @@ $page_title = 'Post ad';
                                     </ccf-image-upload>
                                 </div>
                             </div>
-                           
-                            <p class="text-right" id="preSave">
-                                <a class="btn btn-primary" id="submitForm" style="color:#FFFFFF" data-toggle="modal" data-target="#exampleModal-form">Post ad</a>	
-                                <a class="btn btn-outline-primary" href="main-home.php">
+                            <p class="text-right" id="preSave"> <a class="btn btn-primary" id="submitForm" style="color:#FFFFFF">Post ad</a> <a class="btn btn-outline-primary" href="main-home.php">
                                     <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Cancel</message>
                                 </a> </p>
-                                
-                                
-                                                       
-                                
-<!-- Modal -->
-<div class="modal fade" id="exampleModal-form" tabindex="-1" role="dialog" aria-labelledby="exampleModal-form" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <div class="modal-title" id="exampleModalLabel">Success!</div>
-            </div>
-            <div class="modal-body">
-                 <p >Your ad has been posted.</p>
-                                <p >You may view, edit, or remove this ad in the <a href="main-myads.php">My ads</a> section.</p>
-            </div>
-            <div class="modal-footer">
-               <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Post another ad</button>
-                 <a href="main-home.php" class="btn btn-outline-primary">Home</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-                           
                         </form>
+                        <p class="" style="display:none" id="postSave"> <a class="btn btn-primary" href="main-home.php">
+                                <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Home</message>
+                            </a> <a class="btn btn-outline-primary" href="main-postad-has-errors.php">
+                                <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Post another ad</message>
+                            </a></p>
                     </section>
                 </div>
             </div>
@@ -429,7 +406,15 @@ $page_title = 'Post ad';
         });
     });
 </script> 
+<script>
+    $(document).ready(function() {
+       $("#submitForm").click(function(){
+		    $("#preSave, form").hide();
+    $("#successMessage, #postSave").show();
+});
 
+    });
+</script> 
 <script>
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function() {
@@ -449,6 +434,17 @@ $page_title = 'Post ad';
     });
   }, false);
 })();
+</script> 
+<script type="text/javascript">
+   $(document).ready(function() {
+        $('#submitForm').on("click", function() {
+            $('html,body').animate({
+                scrollTop: 0
+            }, 'slow', function() {
+               
+            });
+        });
+    });
 </script>
 </body>
 </html>

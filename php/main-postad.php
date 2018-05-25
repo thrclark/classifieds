@@ -24,7 +24,7 @@ $page_title = 'Post ad';
                 <div class="col-xs-12 col-md-8">
                     <section id="policy" class="mb-5 pb-3">
                         <h1 class="mb-2">
-                            <message>Post Ad</message>
+                            <message>Post ad</message>
                         </h1>
                         <hr>
                         <p><strong>Ad Policy</strong></p>
@@ -39,7 +39,7 @@ $page_title = 'Post ad';
                     </section>
                     <section id="postform" style="display:none" class="mb-5 pb-3">
                         <h1 class="mb-2">
-                            <message key="main.header.ad" ng-reflect-key="main.header.ad">Post Ad</message>
+                            <message key="main.header.ad" ng-reflect-key="main.header.ad">Post ad</message>
                         </h1>
                         <hr>
                         <form class="needs-validation" novalidate>

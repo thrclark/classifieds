@@ -42,11 +42,8 @@ $page_title = '';
                 <li><a href="php/main-myads.php">My Ads</a> </li>
                 <li><a href="php/main-watchlist.php" target="_blank">My Watchlist</a> </li>
                 <li><a href="php/main-music.php" target="_blank">Category View</a> </li>
-                <li><a href="php/main-postad.php" target="_blank">Post Ad</a> </li>
-                <li><a href="php/main-postad-has-errors1.php" target="_blank">Post Ad - errors 1</a> </li>
-                <li><a href="php/main-postad-has-errors2.php" target="_blank">Post Ad - errors 2</a> </li>
-                <li><a href="php/main-postad-success1.php" target="_blank">Post Ad - success 1</a> </li>
-                <li><a href="php/main-postad-success2.php" target="_blank">Post Ad - success 2</a> </li>
+                <li><a href="php/main-postad-has-errors.php" target="_blank">Post Ad - errors </a> </li>
+                <li><a href="php/main-postad-success.php" target="_blank">Post Ad - success </a> </li>
             </ul>
         </div>
         <div class="col">

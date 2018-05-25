@@ -33,9 +33,9 @@
                 <message>Close</message>
                 </span> </button>
             </div>
-            <!--post ad button - desktop-->
-            <div class="col-auto d-none d-md-block"> <a href="main-postad.php" class="btn btn-outline-primary">
-                    <message>Post Ad</message>
+            <!--Post ad button - desktop-->
+            <div class="col-auto d-none d-md-block"> <a href="main-postad-success.php" class="btn btn-outline-primary">
+                    <message>Post ad</message>
                 </a> </div>
             <!-- App Mobile Menu-->
             <div class="col-auto d-md-none rbt-drawer-button">

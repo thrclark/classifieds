@@ -209,7 +209,7 @@ $page_title = 'General settings';
                             <td><b class="rbt-table-responsive-cell-label">
                                 <message key="admin.field.name">Name</message>
                                 </b> <span class="tablesaw-cell-content"> Policy Statement
-                                <div class="small text-muted helper-text">Enter the policy users must agree to in order to post ads.</div>
+                                <div class="small text-muted helper-text">Enter the policy users must agree to in order to Post ads.</div>
                                 </span></td>
                             <td><b class="rbt-table-responsive-cell-label">
                                 <message key="admin.header.value">Value</message>
