@@ -24,7 +24,7 @@ $page_title = 'Post ad';
                 <div class="col-xs-12 col-md-8">
                     <section id="policy" class="mb-5 pb-3">
                         <h1 class="mb-2">
-                            <message>Post Ad</message>
+                            <message>Post ad</message>
                         </h1>
                         <hr>
                         <p><strong>Ad Policy</strong></p>
@@ -39,7 +39,7 @@ $page_title = 'Post ad';
                     </section>
                     <section id="postform" style="display:none" class="mb-5 pb-3">
                         <h1 class="mb-2">
-                            <message key="main.header.ad" ng-reflect-key="main.header.ad">Post Ad</message>
+                            <message key="main.header.ad" ng-reflect-key="main.header.ad">Post ad</message>
                         </h1>
                         <hr>
                         <form class="needs-validation" novalidate>
@@ -53,7 +53,7 @@ $page_title = 'Post ad';
                                             </small></label>
                                         <div class="rbt-charcount">
                                             <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control ccf-hide-validation-success" id="titleLabel" required>
-                                            <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Title</span> is required. </div>
+                                            <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Title</span> is required. </div>
                                             <span class="badge badge-success" id="titleLabel_badge"><span id="titleLabel_counter">0</span></span></div>
                                     </div>
                                 </div>
@@ -80,7 +80,7 @@ $page_title = 'Post ad';
                                             </small></label>
                                         <div class="rbt-charcount">
                                             <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control ccf-hide-validation-success" id="contactNameLabel" placeholder="" required>
-                                            <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Contact</span> is required. </div>
+                                            <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Contact</span> is required. </div>
                                             <span class="badge badge-success" id="contactNameLabel_badge"><span id="contactNameLabel_counter">0</span></span> </div>
                                     </div>
                                 </div>
@@ -102,7 +102,7 @@ $page_title = 'Post ad';
                                             <option value="1006" ng-reflect-value="1006">Furniture</option>
                                             <option value="1007" ng-reflect-value="1007">Roommates &amp; Sublets</option>
                                         </select>
-                                        <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Category</span> is required. </div>
+                                        <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Category</span> is required. </div>
                                     </div>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@ $page_title = 'Post ad';
                                             <option value="100" ng-reflect-value="100">Bloomington (IUB)</option>
                                             <option value="102" ng-reflect-value="102">Kokomo (IUK)</option>
                                         </select>
-                                        <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Campus</span> is required. </div>
+                                        <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Campus</span> is required. </div>
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +150,7 @@ $page_title = 'Post ad';
                                         <div class="input-group">
                                             <input type="text" class="form-control ccf-hide-validation-success" id="dateLabel" placeholder="mm/dd/yyyy" aria-label="" aria-describedby="basic-addon2" required>
                                             <div class="input-group-append"> <span class="input-group-text" id="basic-addon2"><i aria-hidden="true" class="fa fa-calendar"></i></span> </div>
-                                            <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> An <span class="font-weight-bold">Expiration Date</span> is required. </div>
+                                            <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> An <span class="font-weight-bold">Expiration Date</span> is required. </div>
                                         </div>
                                         <div class="bs-datepicker">
                                             <div class="bs-datepicker-container">

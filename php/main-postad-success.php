@@ -13,6 +13,9 @@ $page_title = 'Post ad';
 	position: absolute;
 	display: none;
 }
+.invalid-feedback {
+	display: none;
+}
 </style>
 </head>
 <body>
@@ -24,7 +27,7 @@ $page_title = 'Post ad';
                 <div class="col-xs-12 col-md-8">
                     <section id="policy" class="mb-5 pb-3">
                         <h1 class="mb-2">
-                            <message>Post Ad</message>
+                            <message>Post ad</message>
                         </h1>
                         <hr>
                         <p><strong>Ad Policy</strong></p>
@@ -33,18 +36,20 @@ $page_title = 'Post ad';
                         <p>By using this site, you agree to abide by Indiana Universitys "Appropriate Technology Use" Policies as outlined by the <a href="http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml" target="_blank"> Information Policy Office </a> and to use the Classifieds appropriately. These pages are not intended for solicitation, political purposes and publishing opinions, nor are they to be used to make jokes or mislead others. The University reserves the right to remove any posting that it deems inappropriate.</p>
                         <p>Questions regarding the IU Classifieds may be addressed to <a href="mailto:one@iu.edu">one@iu.edu</a> </p>
                         <p><strong>Do you accept these terms?</strong></p>
-                        <div class="text-left">
-                            <button class="btn btn-primary" id="acceptPolicy">Accept</button>
-                            <a href="main-home.php" class="btn btn-outline-primary">Decline</a> </div>
+                        <div class="text-left"> <a href="#" class="btn btn-primary" id="acceptPolicy">Accept</a> <a href="main-home.php" class="btn btn-outline-primary">Decline</a> </div>
                     </section>
                     <section id="postform" style="display:none" class="mb-5 pb-3">
                         <h1 class="mb-2">
-                            <message key="main.header.ad" ng-reflect-key="main.header.ad">Post Ad</message>
+                            <message key="main.header.ad" ng-reflect-key="main.header.ad">Post ad</message>
                         </h1>
                         <hr>
+                        <div class="alert alert-success fade show" role="alert" id="successMessage" style="display:none">
+                            <p class="alert-heading">Your ad has been posted.</p>
+                            <p class="">Your ad will automatically expire on June 14, 2018. You may view, edit, or remove this ad <a href="#launchad">here</a>.</p>
+                        </div>
                         <form class="">
                             <div class="row">
-                                <div class="col-12">	
+                                <div class="col-12">
                                     <div class="form-group">
                                         <label for="titleLabel">
                                             <message key="global.ad.field.title" ng-reflect-key="global.ad.field.title">Title</message>
@@ -53,7 +58,7 @@ $page_title = 'Post ad';
                                             </small></label>
                                         <div class="rbt-charcount">
                                             <input type="text" aria-labelledby="titleLabel" formcontrolname="title" ng-reflect-name="title" class="form-control ccf-hide-validation-success" id="titleLabel">
-                                            <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Title</span> is required. </div>
+                                            <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Title</span> is required. </div>
                                             <span class="badge badge-success" id="titleLabel_badge"><span id="titleLabel_counter">0</span></span></div>
                                     </div>
                                 </div>
@@ -80,7 +85,7 @@ $page_title = 'Post ad';
                                             </small></label>
                                         <div class="rbt-charcount">
                                             <input type="text" aria-labelledby="contactNameLabel" formcontrolname="title" ng-reflect-name="title" class="form-control ccf-hide-validation-success" id="contactNameLabel" placeholder="" >
-                                            <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Contact</span> is required. </div>
+                                            <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Contact</span> is required. </div>
                                             <span class="badge badge-success" id="contactNameLabel_badge"><span id="contactNameLabel_counter">0</span></span> </div>
                                     </div>
                                 </div>
@@ -102,7 +107,7 @@ $page_title = 'Post ad';
                                             <option value="1006" ng-reflect-value="1006">Furniture</option>
                                             <option value="1007" ng-reflect-value="1007">Roommates &amp; Sublets</option>
                                         </select>
-                                        <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Category</span> is required. </div>
+                                        <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Category</span> is required. </div>
                                     </div>
                                 </div>
                             </div>
@@ -125,7 +130,7 @@ $page_title = 'Post ad';
                                             <option value="100" ng-reflect-value="100">Bloomington (IUB)</option>
                                             <option value="102" ng-reflect-value="102">Kokomo (IUK)</option>
                                         </select>
-                                        <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> A <span class="font-weight-bold">Campus</span> is required. </div>
+                                        <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> A <span class="font-weight-bold">Campus</span> is required. </div>
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +155,7 @@ $page_title = 'Post ad';
                                         <div class="input-group">
                                             <input type="text" class="form-control ccf-hide-validation-success" id="dateLabel" placeholder="mm/dd/yyyy" aria-label="" aria-describedby="basic-addon2">
                                             <div class="input-group-append"> <span class="input-group-text" id="basic-addon2"><i aria-hidden="true" class="fa fa-calendar"></i></span> </div>
-                                            <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> An <span class="font-weight-bold">Expiration Date</span> is required. </div>
+                                            <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> An <span class="font-weight-bold">Expiration Date</span> is required. </div>
                                         </div>
                                         <div class="bs-datepicker">
                                             <div class="bs-datepicker-container">
@@ -303,19 +308,15 @@ $page_title = 'Post ad';
                                     </ccf-image-upload>
                                 </div>
                             </div>
-                            <div class="alert alert-success fade show" role="alert" style="display:none">
-                                <p class="alert-heading">Your ad has been posted.</p>
-                                <p class="small">You may review, edit, or remove this ad in the <a href="main-myads.php">My ads</a> section.</p>
-                            </div>
-                            <p class="text-right" id="preSave">
-                                <a class="btn btn-primary" id="submitForm" style="color:#FFFFFF">Post ad</a>	
-                                <a class="btn btn-outline-primary" href="main-home.php">
+                            <p class="text-right" id="preSave"> <a class="btn btn-primary" id="submitForm" style="color:#FFFFFF">Post ad</a> <a class="btn btn-outline-primary" href="main-home.php">
                                     <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Cancel</message>
                                 </a> </p>
-                            <p class="text-right" style="display:none" id="postSave"> <a class="btn btn-primary" href="main-home.php">
-                                    <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Return to home</message>
-                                </a> </p>
                         </form>
+                        <p class="" style="display:none" id="postSave"> <a class="btn btn-primary" href="main-home.php">
+                                <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Home</message>
+                            </a> <a class="btn btn-outline-primary" href="main-postad-has-errors.php">
+                                <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Post another ad</message>
+                            </a></p>
                     </section>
                 </div>
             </div>
@@ -408,8 +409,8 @@ $page_title = 'Post ad';
 <script>
     $(document).ready(function() {
        $("#submitForm").click(function(){
-		    $("#preSave").hide();
-    $(".alert-success, #postSave").show();
+		    $("#preSave, form").hide();
+    $("#successMessage, #postSave").show();
 });
 
     });
@@ -433,6 +434,17 @@ $page_title = 'Post ad';
     });
   }, false);
 })();
+</script> 
+<script type="text/javascript">
+   $(document).ready(function() {
+        $('#submitForm').on("click", function() {
+            $('html,body').animate({
+                scrollTop: 0
+            }, 'slow', function() {
+               
+            });
+        });
+    });
 </script>
 </body>
 </html>
