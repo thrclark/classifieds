@@ -48,19 +48,19 @@ $page_title = 'Branding';
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label class="font-weight-normal" for="color_primary">Primary</label>
-                                                <input type="text" class="form-control jscolor" id="color_primary" value="395f74" autocomplete="off">
+                                                <input type="text" class="form-control jscolor" id="color_primary" value="243E4C" autocomplete="off">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label class="font-weight-normal" for="color_accent">Accent</label>
-                                                <input type="text" class="form-control jscolor" id="color_accent" value="ffc107" autocomplete="off">
+                                                <input type="text" class="form-control jscolor" id="color_accent" value="FFC61A" autocomplete="off">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label class="font-weight-normal" for="color_background">Background</label>
-                                                <input type="text" class="form-control jscolor" id="color_background" value="fffaeb" autocomplete="off">
+                                                <input type="text" class="form-control jscolor" id="color_background" value="F4F3EE" autocomplete="off">
                                             </div>
                                         </div>
                                     </div></td>

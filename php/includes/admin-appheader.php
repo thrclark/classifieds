@@ -30,9 +30,10 @@
 <a <?php if ($page_title == 'General settings') { echo 'class="dropdown-item active"'; } ?> href="admin-generalsettings.php" class="dropdown-item">General settings</a> 
 <a <?php if ($page_title == 'Categories') { echo 'class="dropdown-item active"'; } ?> href="admin-categories.php" class="dropdown-item">Categories</a> 
 <a <?php if ($page_title == 'Markets') { echo 'class="dropdown-item active"'; } ?> href="admin-campuses.php" class="dropdown-item">Campuses</a> 
+<a <?php if ($page_title == 'LDAP configuration') { echo 'class="dropdown-item active"'; } ?> href="admin-ldap.php" class="dropdown-item">LDAP Configuration</a> 
 <a <?php if ($page_title == 'Branding') { echo 'class="dropdown-item active"'; } ?> href="admin-branding.php" class="dropdown-item">Branding</a> 
 
-<a <?php if ($page_title == 'LDAP configuration') { echo 'class="dropdown-item active"'; } ?> href="admin-ldap.php" class="dropdown-item">LDAP Configuration</a> 
+
 <a <?php if ($page_title == 'API accounts') { echo 'class="dropdown-item active"'; } ?> href="admin-apiaccounts.php" class="dropdown-item">API Accounts</a> 
 <a <?php if ($page_title == 'API documentation') { echo 'class="dropdown-item active"'; } ?> href="admin-apidocs.php" class="dropdown-item">API Documentation</a> </div>
                             </li>
