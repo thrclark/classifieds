@@ -15,7 +15,6 @@ $page_title = 'Restricted users';
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
     <div class="row">
-        
         <div class="col-12">
             <div class="main-content" id="main-content">
                 <div class="doc-header mb-3">
@@ -28,124 +27,52 @@ $page_title = 'Restricted users';
                         </div>
                     </div>
                 </div>
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item"> <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Flagged Ads</a> </li>
-                    <li class="nav-item"> <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Warned & Restricted Users</a> </li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <table class="table table-sm table-actions">
-                            <thead>
-                                <tr>
-                                    <th> Username</th>
-                                    <th><strong>University Id</strong></th>
-                                    <th>Status</th>
-                                    <th><span class="sr-only">Actions</span></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>thrclark</td>
-                                    <td>0001328543</td>
-                                    <td>Flagged</td>
-                                    <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                                </tr>
-                                <tr>
-                                    <td>tewtband</td>
-                                    <td>0003023985</td>
-                                    <td>Flagged</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>zealfleo</td>
-                                    <td>0003956434</td>
-                                    <td>Flagged</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>languid</td>
-                                    <td>0002534347</td>
-                                    <td>Warned</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>accljones</td>
-                                    <td>0004436419</td>
-                                    <td>Flagged</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>sgdsteven</td>
-                                    <td>0002635478</td>
-                                    <td>Restricted</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>lerrome</td>
-                                    <td>0002888753</td>
-                                    <td>Warned</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <table class="table table-sm table-actions">
-                            <thead>
-                                <tr>
-                                    <th> Username</th>
-                                    <th><strong>University Id</strong></th>
-                                    <th>Status</th>
-                                    <th><span class="sr-only">Actions</span></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>thrclark</td>
-                                    <td>0001328543</td>
-                                    <td>Flagged</td>
-                                    <td><button type="button" class="btn btn-outline-secondary btn-sm">Action</button></td>
-                                </tr>
-                                <tr>
-                                    <td>tewtband</td>
-                                    <td>0003023985</td>
-                                    <td>Flagged</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>zealfleo</td>
-                                    <td>0003956434</td>
-                                    <td>Flagged</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>languid</td>
-                                    <td>0002534347</td>
-                                    <td>Warned</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>accljones</td>
-                                    <td>0004436419</td>
-                                    <td>Flagged</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>sgdsteven</td>
-                                    <td>0002635478</td>
-                                    <td>Restricted</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td>lerrome</td>
-                                    <td>0002888753</td>
-                                    <td>Warned</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+                <table class="table table-actions">
+                    <thead>
+                        <tr>
+                            <th> Username</th>
+                            <th><strong>Person Id</strong></th>
+                            <th><span class="sr-only">Actions</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>thrclark</td>
+                            <td>0001328543</td>
+                            <td><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
+                        </tr>
+                        <tr>
+                            <td>tewtband</td>
+                            <td>0003023985</td>
+                            <td><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
+                        </tr>
+                        <tr>
+                            <td>zealfleo</td>
+                            <td>0003956434</td>
+                            <td><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
+                        </tr>
+                        <tr>
+                            <td>languid</td>
+                            <td>0002534347</td>
+                            <td><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
+                        </tr>
+                        <tr>
+                            <td>accljones</td>
+                            <td>0004436419</td>
+                            <td><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
+                        </tr>
+                        <tr>
+                            <td>sgdsteven</td>
+                            <td>0002635478</td>
+                            <td><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
+                        </tr>
+                        <tr>
+                            <td>lerrome</td>
+                            <td>0002888753</td>
+                            <td><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>

@@ -15,10 +15,23 @@ $page_title = 'API documentation';
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
     <div class="row">
-        
         <div class="col-12">
-            <div class="main-content" id="main-content">
-                <h1> <?php echo $page_title; ?></h1>
+            <div class="main-content">
+                <router-outlet></router-outlet>
+                <ng-component>
+                    <section>
+                        <div class="row mb-3 no-gutters align-items-center">
+                            <div class="col-12 col-sm">
+                                <h1> <?php echo $page_title; ?></h1>
+                            </div>
+                        </div>
+                        <p>
+                            <message key="admin.documentation.message">These documentation links are available publicly to share with developers/programmers.</message>
+                        </p>
+                        <a href="docs/v1/apiGuide.html" target="_blank">
+                            <message key="admin.documentation.version">Version 1</message>
+                        </a> </section>
+                </ng-component>
             </div>
         </div>
     </div>
