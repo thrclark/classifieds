@@ -43,19 +43,19 @@ $page_title = 'System parameters';
                     <tbody>
                         <tr>
                             <td>Application Email
-                                <div class="small text-muted helper-text"> The address from which global emails are sent.</div></td>
+                                <div class="small helper-text"> The address from which global emails are sent.</div></td>
                             <td>classifieds@yourschool.edu</td>
                             <td><button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#exampleModal">Edit</button></td>
                         </tr>
                         <tr>
                             <td>Google Analytics Rollup ID
-                                <div class="small text-muted helper-text">Data for selected tenants will be sent to this Google Analytics ID..</div></td>
+                                <div class="small helper-text">Data for selected tenants will be sent to this Google Analytics ID..</div></td>
                             <td>--</td>
                             <td><button type="button" class="btn btn-outline-secondary btn-sm">Edit</button></td>
                         </tr>
                         <tr>
                             <td>Send Exception Email
-                                <div class="small text-muted helper-text">Space delimited list of email addresses to which exception reports are sent.</div></td>
+                                <div class="small helper-text">Space delimited list of email addresses to which exception reports are sent.</div></td>
                             <td>thrclark@iu.edu <br>
                                 itadmin@school.edu<br>
                                 itmanagement@school.edu<br>
@@ -64,13 +64,13 @@ $page_title = 'System parameters';
                         </tr>
                         <tr>
                             <td>Send Exception Email Toggle
-                                <div class="small text-muted helper-text">Turn on sending of email for exceptions. Valid values are 'on' and 'off'. Default is off.</div></td>
+                                <div class="small helper-text">Turn on sending of email for exceptions. Valid values are 'on' and 'off'. Default is off.</div></td>
                             <td>Off</td>
                             <td><button type="button" class="btn btn-outline-secondary btn-sm">Edit</button></td>
                         </tr>
                         <tr>
                             <td>Update Server
-                                <div class="small text-muted helper-text">Enter the name of one of the servers that will be used for updating new data on releases.</div></td>
+                                <div class="small helper-text">Enter the name of one of the servers that will be used for updating new data on releases.</div></td>
                             <td>--</td>
                             <td><button type="button" class="btn btn-outline-secondary btn-sm">Edit</button></td>
                         </tr>
