@@ -12,7 +12,7 @@
 			background: transparent;
 			padding-left: 4px;
 			padding-right: 4px;
-			padding-bottom: 1px;		
+			padding-bottom: 1px;
 			.btn-link {
 				padding: 0px;
 				color: $gray-600;
@@ -87,7 +87,7 @@
 			overflow-wrap: break-word;
 		}
 	}
-	
+
 	@include media-breakpoint-down(xs) {
 		@include make-col(12);
 		.postitem-functions{
@@ -127,6 +127,17 @@
 				height: 33px;
 				overflow: hidden;
 				overflow-wrap: break-word;
+				&:before {
+					content: '';
+					position: absolute;
+					width: 100%;
+					height: 10px;
+					bottom: 27px;
+					background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+					background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 100%);
+					background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 100%);
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+				}
 			}
 			.postitem-price{
 				 @include make-col(7);
@@ -161,9 +172,6 @@
 		.postitem-functions{
 			right: 24px;
 			top: 11px;
-			.postitem-functions-set {
-				//background: $white;
-			}
 		}
 		.postitem-container {
 			padding: 10px;
@@ -201,6 +209,18 @@
 				max-height: 40px;
 				height: 40px;
 				overflow-wrap: break-word;
+				overflow: hidden;
+				&:before {
+					content: '';
+					position: absolute;
+					width: 100%;
+					height: 10px;
+					bottom: 21px;
+					background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+					background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 100%);
+					background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 100%);
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+				}
 			}
 			.postitem-price {
 				position: absolute;
@@ -276,9 +296,22 @@
 			.postitem-post-title {
 				@include make-col(4);
 				padding-left: 5px;
-				max-height: 40px;
+				padding-right: 5px;
+				max-height: 50px;
 				overflow: hidden;
 				overflow-wrap: break-word;
+				line-height: 1rem;
+				&:before {
+					content: '';
+					position: absolute;
+					width: 100%;
+					height: 10px;
+					bottom: 28px;
+					background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+					background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 100%);
+					background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 100%);
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+				}
 			}
 			.postitem-price{
 				position: absolute;
@@ -308,6 +341,18 @@
 					height: 76px;
 					content: "";
 					left: 2px;
+				}
+				&:after {
+					content: '';
+					position: absolute;
+					width: 100%;
+					height: 10px;
+					bottom: -5px;
+					left: 0px;
+					background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+					background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 100%);
+					background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 100%);
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
 				}
 				.ngx-ellipsis-inner{
 					white-space: pre-wrap;
@@ -395,6 +440,7 @@
 	}
 }
 .postitem.list {
+	margin-bottom: 2px;
 	@include media-breakpoint-up(sm) {
 		@include make-col(12);
 		.postitem-functions{
@@ -402,13 +448,12 @@
 			top: 2px;
 		}
 		.postitem-container {
-			margin-bottom: 2px;
+			margin-bottom: 0px;
 			box-shadow:none;
 			border-radius: 0px;
+			box-shadow: 0 2px 0 $gray-200;
 			&:hover {
-				-webkit-box-shadow: none;
-				-moz-box-shadow: none;
-				box-shadow: none;
+				box-shadow: 0 2px 0 $gray-300;
 			}
 			.postitem-image-container{
 				display: none;
@@ -433,6 +478,9 @@
 				padding-top: 4px;
 				padding-right: 10px;
 				overflow-wrap: break-word;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
 			}
 			.postitem-price{
 				@include make-col(2);
@@ -446,7 +494,7 @@
 			}
 			.postitem-postdate{
 				@include make-col(2);
-				padding-top: 2px;	
+				padding-top: 2px;
 			}
 			.postitem-postlocation{
 				@include make-col(2);
@@ -459,4 +507,16 @@
 	&:last-child {
 		margin-bottom: 20px;
 	}
+}
+
+// ad detail view (admin & main)
+
+.ccf-postdetail-title {
+	line-height: .5;
+	@extend .rbt-ts-26;
+	@extend .mt-3;
+}
+.ccf-postdetail-market {
+	border-left: solid 1px $gray-500;
+	line-height: .5;
 }
