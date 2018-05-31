@@ -25,8 +25,8 @@
                 <li <?php if ($page_title == 'Categories') { echo 'class="active"'; } ?>>
                     <a href="admin-categories.php">Categories</a>
                 </li>
-                <li <?php if ($page_title == 'Markets') { echo 'class="active"'; } ?>>
-                    <a href="admin-markets.php">Markets</a>
+                <li <?php if ($page_title == 'Campuses') { echo 'class="active"'; } ?>>
+                    <a href="admin-campuses.php">Campuses</a>
                 </li>
                 <li <?php if ($page_title == 'LDAP configuration') { echo 'class="active"'; } ?>>
                     <a href="admin-ldap.php">LDAP configuration</a>

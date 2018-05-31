@@ -1,5 +1,5 @@
-
-<header class="rbt-app-header"><a class="rbt-skip-link" href="#mainSearch" id="setsearch">Skip to search</a> <a class="rbt-skip-link" href="#main-content">Skip to content</a>
+ <a class="rbt-skip-link" href="#mainSearch" id="setsearch">Skip to search</a> <a class="rbt-skip-link" href="#main-content">Skip to content</a>
+<header class="rbt-app-header">
     <div class="container">
         <div class="row align-items-center"> 
             <!--App Logo Image-->
@@ -33,9 +33,9 @@
                 <message>Close</message>
                 </span> </button>
             </div>
-            <!--post ad button - desktop-->
-            <div class="col-auto d-none d-md-block"> <a href="main-postad.php" class="btn btn-outline-primary">
-                    <message>Post Ad</message>
+            <!--Post ad button - desktop-->
+            <div class="col-auto d-none d-md-block"> <a href="main-postad-success.php" class="btn btn-outline-primary">
+                    <message>Post ad</message>
                 </a> </div>
             <!-- App Mobile Menu-->
             <div class="col-auto d-md-none rbt-drawer-button">

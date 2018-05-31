@@ -13,6 +13,9 @@ $page_title = 'Post ad';
 	position: absolute;
 	display: none;
 }
+.invalid-feedback {
+	display: none;
+}
 </style>
 </head>
 <body>
@@ -33,9 +36,7 @@ $page_title = 'Post ad';
                         <p>By using this site, you agree to abide by Indiana Universitys "Appropriate Technology Use" Policies as outlined by the <a href="http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml" target="_blank"> Information Policy Office </a> and to use the Classifieds appropriately. These pages are not intended for solicitation, political purposes and publishing opinions, nor are they to be used to make jokes or mislead others. The University reserves the right to remove any posting that it deems inappropriate.</p>
                         <p>Questions regarding the IU Classifieds may be addressed to <a href="mailto:one@iu.edu">one@iu.edu</a> </p>
                         <p><strong>Do you accept these terms?</strong></p>
-                        <div class="text-left">
-                            <button class="btn btn-primary" id="acceptPolicy">Accept</button>
-                            <a href="main-home.php" class="btn btn-outline-primary">Decline</a> </div>
+                        <div class="text-left"> <a href="#" class="btn btn-primary" id="acceptPolicy">Accept</a> <a href="main-home.php" class="btn btn-outline-primary">Decline</a> </div>
                     </section>
                     <section id="postform" style="display:none" class="mb-5 pb-3">
                         <h1 class="mb-2">
@@ -43,6 +44,10 @@ $page_title = 'Post ad';
                         </h1>
                         <hr>
                         <form class="needs-validation" novalidate>
+                            <div class="alert alert-danger fade show" role="alert" style="display:none">
+                                <p class="alert-heading">Errors on page</p>
+                                <p class="small">Please review your entries on this form and make any needed corrections.</p>
+                            </div>
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
@@ -303,10 +308,6 @@ $page_title = 'Post ad';
                                     </ccf-image-upload>
                                 </div>
                             </div>
-                            <div class="alert alert-danger fade show" role="alert" style="display:none">
-                                <p class="alert-heading">Errors on page</p>
-                                <p class="small">Please review the fields on this form for any needed corrections.</p>
-                            </div>
                             <p class="text-right">
                                 <button class="btn btn-primary" id="submitForm" type="submit">Post ad</button>
                                 <a class="btn btn-outline-primary" href="main-home.php">
@@ -405,7 +406,7 @@ $page_title = 'Post ad';
 <script>
     $(document).ready(function() {
        $("#submitForm").click(function(){
-    $(".alert-danger").show();
+    $(".alert-danger, .invalid-feedback").show();
 });
 
     });
@@ -429,6 +430,17 @@ $page_title = 'Post ad';
     });
   }, false);
 })();
+</script> 
+<script type="text/javascript">
+   $(document).ready(function() {
+        $('#submitForm').on("click", function() {
+            $('html,body').animate({
+                scrollTop: 0
+            }, 'slow', function() {
+               
+            });
+        });
+    });
 </script>
 </body>
 </html>

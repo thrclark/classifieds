@@ -5,7 +5,7 @@
             <div class="col-xs-12 col-md-6">
                 <form role="form">
                     <div class="mobile-panel-header">
-                        <h2>Post Ad</h2>
+                        <h2>Post ad</h2>
                     </div>
                     <div class="form-group">
                         <label for="adTitle">Ad Title</label>
@@ -84,7 +84,7 @@
                             <button type="button" class="btn btn-outline-secondary btn-sm">Add Image</button>
                         </div>
                         <hr>
-                        <button type="button" class="btn btn-primary">Post Ad</button>
+                        <button type="button" class="btn btn-primary">Post ad</button>
                         <button type="button" class="btn btn-outline-primary">Cancel</button>
                     </div>
                 </form>
