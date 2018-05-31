@@ -5184,7 +5184,7 @@ button.bg-dark:focus {
 .m-3 {
   margin: 1rem !important; }
 
-.mt-3, .form-group .alert, .ccf-mobile-categories,
+.mt-3, .form-group .alert, .ccf-mobile-categories, .ccf-postdetail-title,
 .my-3 {
   margin-top: 1rem !important; }
 
@@ -7589,7 +7589,8 @@ ul li, ol li {
   font-size: 1.4375rem !important; }
 
 .ts-26,
-.rbt-ts-26 {
+.rbt-ts-26,
+.ccf-postdetail-title {
   font-size: 1.625rem !important; }
 
 .ts-29,
@@ -7657,7 +7658,8 @@ p {
   font-size: 1.4375rem !important; }
 
 .ts-26,
-.rbt-ts-26 {
+.rbt-ts-26,
+.ccf-postdetail-title {
   font-size: 1.625rem !important; }
 
 .ts-29,
@@ -8671,6 +8673,8 @@ body {
         background: #fff;
         width: 24px;
         height: 24px; }
+        .postitem .postitem-functions .postitem-functions-set .btn-link .fa-star {
+          color: #fd7e14; }
   .postitem .postitem-container {
     display: block;
     color: #444444;
@@ -8754,6 +8758,16 @@ body {
           height: 33px;
           overflow: hidden;
           overflow-wrap: break-word; }
+          .postitem .postitem-container .postitem-post-title:before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 10px;
+            bottom: 27px;
+            background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+            background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); }
         .postitem .postitem-container .postitem-price {
           flex: 0 0 58.3333333333%;
           max-width: 58.3333333333%;
@@ -8808,7 +8822,18 @@ body {
         line-height: 1.1rem;
         max-height: 40px;
         height: 40px;
-        overflow-wrap: break-word; }
+        overflow-wrap: break-word;
+        overflow: hidden; }
+        .postitem.grid .postitem-container .postitem-post-title:before {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 10px;
+          bottom: 21px;
+          background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+          background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+          background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); }
       .postitem.grid .postitem-container .postitem-price {
         position: absolute;
         font-size: 14px;
@@ -8866,9 +8891,21 @@ body {
       flex: 0 0 33.3333333333%;
       max-width: 33.3333333333%;
       padding-left: 5px;
-      max-height: 40px;
+      padding-right: 5px;
+      max-height: 50px;
       overflow: hidden;
-      overflow-wrap: break-word; }
+      overflow-wrap: break-word;
+      line-height: 1rem; }
+      .postitem.thumb .postitem-container .postitem-post-title:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 10px;
+        bottom: 28px;
+        background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); }
     .postitem.thumb .postitem-container .postitem-price {
       position: absolute;
       font-weight: bold;
@@ -8896,6 +8933,17 @@ body {
         height: 76px;
         content: "";
         left: 2px; }
+      .postitem.thumb .postitem-container .postitem-description:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 10px;
+        bottom: -5px;
+        left: 0px;
+        background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); }
       .postitem.thumb .postitem-container .postitem-description .ngx-ellipsis-inner {
         white-space: pre-wrap; }
     .postitem.thumb .postitem-container .postitem-postdate {
@@ -8942,53 +8990,64 @@ body {
     .postitem.thumb .postitem-container .postitem-postlocation {
       left: 755px; } }
 
-@media (min-width: 576px) {
-  .postitem.list {
-    flex: 0 0 100%;
-    max-width: 100%; }
-    .postitem.list .postitem-functions {
-      right: 18px;
-      top: 2px; }
-    .postitem.list .postitem-container {
-      margin-bottom: 2px;
-      box-shadow: none;
-      border-radius: 0px; }
-      .postitem.list .postitem-container:hover {
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none; }
-      .postitem.list .postitem-container .postitem-image-container {
-        display: none; }
-      .postitem.list .postitem-container .postitem-post-title {
-        flex: 0 0 50%;
-        max-width: 50%;
-        font-weight: normal;
-        padding-left: 5px;
-        max-height: 24px;
-        padding-top: 4px;
-        padding-right: 10px;
-        overflow-wrap: break-word; }
-      .postitem.list .postitem-container .postitem-price {
-        flex: 0 0 16.6666666667%;
-        max-width: 16.6666666667%;
-        font-weight: normal;
-        font-size: 14px;
-        height: 21px;
-        padding-right: 10px; }
-      .postitem.list .postitem-container .w-100 {
-        display: none; }
-      .postitem.list .postitem-container .postitem-postdate {
-        flex: 0 0 16.6666666667%;
-        max-width: 16.6666666667%;
-        padding-top: 2px; }
-      .postitem.list .postitem-container .postitem-postlocation {
-        flex: 0 0 16.6666666667%;
-        max-width: 16.6666666667%;
-        padding-top: 2px;
-        max-height: 24px;
-        padding-right: 30px; } }
-.postitem.list:last-child {
-  margin-bottom: 20px; }
+.postitem.list {
+  margin-bottom: 2px; }
+  @media (min-width: 576px) {
+    .postitem.list {
+      flex: 0 0 100%;
+      max-width: 100%; }
+      .postitem.list .postitem-functions {
+        right: 18px;
+        top: 2px; }
+      .postitem.list .postitem-container {
+        margin-bottom: 0px;
+        box-shadow: none;
+        border-radius: 0px;
+        box-shadow: 0 2px 0 #dddddd; }
+        .postitem.list .postitem-container:hover {
+          box-shadow: 0 2px 0 #cccccc; }
+        .postitem.list .postitem-container .postitem-image-container {
+          display: none; }
+        .postitem.list .postitem-container .postitem-post-title {
+          flex: 0 0 50%;
+          max-width: 50%;
+          font-weight: normal;
+          padding-left: 5px;
+          max-height: 24px;
+          padding-top: 4px;
+          padding-right: 10px;
+          overflow-wrap: break-word;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        .postitem.list .postitem-container .postitem-price {
+          flex: 0 0 16.6666666667%;
+          max-width: 16.6666666667%;
+          font-weight: normal;
+          font-size: 14px;
+          height: 21px;
+          padding-right: 10px; }
+        .postitem.list .postitem-container .w-100 {
+          display: none; }
+        .postitem.list .postitem-container .postitem-postdate {
+          flex: 0 0 16.6666666667%;
+          max-width: 16.6666666667%;
+          padding-top: 2px; }
+        .postitem.list .postitem-container .postitem-postlocation {
+          flex: 0 0 16.6666666667%;
+          max-width: 16.6666666667%;
+          padding-top: 2px;
+          max-height: 24px;
+          padding-right: 30px; } }
+  .postitem.list:last-child {
+    margin-bottom: 20px; }
+
+.ccf-postdetail-title {
+  line-height: .5; }
+
+.ccf-postdetail-market {
+  border-left: solid 1px #999999;
+  line-height: .5; }
 
 .was-validated .form-control.ccf-hide-validation-success:valid, .form-control.ccf-hide-validation-success.is-valid {
   border-color: #666666;
