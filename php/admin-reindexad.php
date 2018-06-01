@@ -57,8 +57,8 @@ $page_title = 'Reindex ad';
                 
                 
                         <div id="adInfo" style="display:none">
-                            <h2>Ad ID: 180089</h2>
-                            <div class="card bg-white mb-5">
+                            <h2 class="rbt-ts-26">Ad ID: 180089</h2>
+                            <div class="card bg-white mb-3">
                                 <div class="card-body"> <span class="card-text">
                                     <dl>
                                         <dt>Ad title</dt>
