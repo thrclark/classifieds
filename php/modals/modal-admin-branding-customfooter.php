@@ -9,7 +9,7 @@
             <div class="modal-body">
                 <div class="form-group">
                     <label class="control-label" for="appemail"> HTML </label>
-                    <div class="small">Specify optional HTML markup to be displayed at the bottom of the application views.</div>
+                    <div class="ccf-instructional-text">Specify optional HTML markup to be displayed at the bottom of the application views.</div>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
                 </div>
             </div>

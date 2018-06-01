@@ -32,7 +32,7 @@ $page_title = 'Google Analytics rollup';
 			<div class="card-body">
 				<div class="form-group">
 					<label class="control-label" id="rollupIdLabel"><message key="admin.systemParameter.enum.GOOGLE-ANALYTICS-ROLLUP-ID.name">Google Analytics Rollup ID</message></label>
-					<div class="small" id="rollupIdDirections"><message key="admin.systemParameter.enum.GOOGLE-ANALYTICS-ROLLUP-ID.directions">Data for selected tenants will be sent to this Google Analytics ID.</message></div>
+					<div class="ccf-instructional-text" id="rollupIdDirections"><message key="admin.systemParameter.enum.GOOGLE-ANALYTICS-ROLLUP-ID.directions">Data for selected tenants will be sent to this Google Analytics ID.</message></div>
 					<div class="form-row">
 						<div class="col-6">
 							<input aria-labelledby="rollupIdLabel rollupIdDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="rollupId">

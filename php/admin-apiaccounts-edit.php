@@ -31,10 +31,10 @@ $page_title = 'Edit API account ';
 	</div>
 </div>
 
-<form novalidate="" class="ng-pristine ng-invalid ng-touched">
+<form novalidate class="ng-pristine ng-invalid ng-touched">
 	<div class="form-group">
 		<label id="titleLabel"><message key="admin.field.name">Name</message></label>
-		<div class="small" id="titleDirections"><message key="admin.apiAccount.field.name.directions">A unique name to identify this API Account.</message></div>
+		<div class="ccf-instructional-text" id="titleDirections"><message key="admin.apiAccount.field.name.directions">A unique name to identify this API Account.</message></div>
 		<div class="row">
 			<div class="col-sm-6">
 				<countdown>
@@ -57,7 +57,7 @@ $page_title = 'Edit API account ';
 	
 	<div class="form-group">
 		<label class="control-label" id="statusLabel"><message key="admin.field.status">Status</message></label>
-		<div class="small" id="statusDirections"><message key="admin.apiAccount.field.status.directions">The availability of this API Account.</message></div>
+		<div class="ccf-instructional-text" id="statusDirections"><message key="admin.apiAccount.field.status.directions">The availability of this API Account.</message></div>
 		<div class="row">
 			<div class="col-sm-6">
 				<select aria-labelledby="statusLabel statusDirections" ccfvalidated="" class="form-control ng-pristine ng-valid ng-touched" formcontrolname="status">
@@ -76,7 +76,7 @@ $page_title = 'Edit API account ';
 			<label class="form-check-label enabled-text-color" for="expirationDateCheck">
 				<message key="admin.apiAccount.action.renew">Renew Account</message>
 				<message key="admin.apiAccount.field.expireDate">Expire Date</message>
-				<div class="small"><message key="admin.apiAccount.field.expireDate.directions">This account may be renewed within 30 days of expiration (Wed May 30 2018).</message></div>
+				<div class="ccf-instructional-text"><message key="admin.apiAccount.field.expireDate.directions">This account may be renewed within 30 days of expiration (Wed May 30 2018).</message></div>
 			</label>
 			<errors controlname="expirationDateCheck">
 		<!---->
@@ -86,7 +86,7 @@ $page_title = 'Edit API account ';
 			<input class="form-check-input ng-untouched ng-pristine" formcontrolname="locked" id="locked" name="locked" type="checkbox" disabled="">
 			<label class="form-check-label enabled-text-color" for="locked">
 				<message key="admin.apiAccount.field.locked">Locked Account</message>
-				<div class="small"><message key="admin.apiAccount.field.locked.directions">Unlock this API Account so it may be used again.</message></div>
+				<div class="ccf-instructional-text"><message key="admin.apiAccount.field.locked.directions">Unlock this API Account so it may be used again.</message></div>
 			</label>
 			<errors controlname="locked">
 		<!---->
@@ -96,7 +96,7 @@ $page_title = 'Edit API account ';
 	
 	<div class="form-group">
 		<label class="control-label" id="resourceQuotaLabel"><message key="admin.apiAccount.field.resourceQuota">Maximum Number of New Resources</message></label>
-		<div class="small" id="resourceQuotaDirections"><message key="admin.apiAccount.field.resourceQuota.directions">Number of resources that are allowed to be created by this API Account.  This prevents outside systems from accidentally over populating the system.</message></div>
+		<div class="ccf-instructional-text" id="resourceQuotaDirections"><message key="admin.apiAccount.field.resourceQuota.directions">Number of resources that are allowed to be created by this API Account.  This prevents outside systems from accidentally over populating the system.</message></div>
 		<div class="row">
 			<div class="col-md-6">
 				<input aria-labelledby="resourceQuotaLabel resourceQuotaDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="resourceQuota" id="resourceQuota" type="number">
@@ -109,7 +109,7 @@ $page_title = 'Edit API account ';
 	
 	<div class="form-group">
 		<label class="control-label" id="emailLabel"><message key="admin.apiAccount.field.email">Email</message></label>
-		<div class="small" id="emailDirections"><message key="admin.apiAccount.field.email.directions">The email is used to send a daily reminder starting 30 days from the API Account expiring.</message></div>
+		<div class="ccf-instructional-text" id="emailDirections"><message key="admin.apiAccount.field.email.directions">The email is used to send a daily reminder starting 30 days from the API Account expiring.</message></div>
 		<div class="row">
 			<div class="col-md-6">
 				<countdown>
@@ -133,7 +133,7 @@ $page_title = 'Edit API account ';
 	
 	<div class="form-group">
 		<label class="control-label" id="authenticationTypeLabel"><message key="admin.apiAccount.field.authType">Authentication Type</message></label>
-		<div class="small" id="authenticationTypeDirections"><message key="admin.apiAccount.field.authType.directions">Select the type of authentication to use for this client application.</message></div>
+		<div class="ccf-instructional-text" id="authenticationTypeDirections"><message key="admin.apiAccount.field.authType.directions">Select the type of authentication to use for this client application.</message></div>
 		<div class="row">
 			<div class="col-sm-6">
 				<select aria-labelledby="authenticationTypeLabel authenticationTypeDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="authenticationType">

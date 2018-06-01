@@ -27,7 +27,7 @@ $page_title = 'Categories';
                         <label class="control-label" id="nameLabel">
                             <message key="admin.field.name">Name</message>
                         </label>
-                        <div class="small" id="nameDirections">
+                        <div class="ccf-instructional-text" id="nameDirections">
                             <message key="admin.category.field.name.directions"></message>
                         </div>
                         <div class="form-row">
@@ -47,7 +47,7 @@ $page_title = 'Categories';
                         <label class="control-label" id="iconLabel">
                             <message key="admin.category.field.icon">Icon</message>
                         </label>
-                        <div class="small" id="iconDirections">
+                        <div class="ccf-instructional-text" id="iconDirections">
                             <message key="admin.category.field.icon.directions">Select an icon to represent this category.</message>
                         </div>
                         <div class="form-row">

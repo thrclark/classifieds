@@ -27,7 +27,7 @@ $page_title = 'Campuses';
                         <label class="control-label" id="nameLabel">
                             <message key="admin.field.name">Name</message>
                         </label>
-                        <div class="small" id="nameDirections">
+                        <div class="ccf-instructional-text" id="nameDirections">
                             <message key="admin.market.name.directions">The name used to identify this.</message>
                         </div>
                         <div class="row">
@@ -47,7 +47,7 @@ $page_title = 'Campuses';
                         <label class="control-label" id="shortNameLabel">
                             <message key="admin.market.field.shortName">Short Name</message>
                         </label>
-                        <div class="small" id="shortNameDirections">
+                        <div class="ccf-instructional-text" id="shortNameDirections">
                             <message key="admin.market.field.shortName.directions">If necessary, the short name will be displayed instead of the full name.</message>
                         </div>
                         <div class="row">
@@ -67,7 +67,7 @@ $page_title = 'Campuses';
                         <label class="control-label" id="uniqueKeyLabel">
                             <message key="admin.field.uniqueKey">Unique Key</message>
                         </label>
-                        <div class="small" id="uniqueKeyDirections">
+                        <div class="ccf-instructional-text" id="uniqueKeyDirections">
                             <message key="admin.market.field.uniqueKey.directions">A unique value that can be matched to the user attribute selected by the Market User Attribute setting. This allows configuration of a default ad filter for users on initial login.</message>
                         </div>
                         <div class="row">
@@ -87,7 +87,7 @@ $page_title = 'Campuses';
                         <label class="control-label" id="liveDataKeyLabel">
                             <message key="admin.market.field.liveDataKey">Live Data Key</message>
                         </label>
-                        <div class="small" id="liveDataKeyDirections">
+                        <div class="ccf-instructional-text" id="liveDataKeyDirections">
                             <message key="admin.market.field.liveDataKey.directions">Allows filtering of ads in the Live Data API. See API Documentation for more information.</message>
                         </div>
                         <div class="row">

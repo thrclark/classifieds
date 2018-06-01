@@ -7567,7 +7567,8 @@ ul li, ol li {
 .valid-feedback,
 .warning-feedback,
 .invalid-feedback,
-.info-feedback {
+.info-feedback,
+.ccf-instructional-text {
   font-size: 0.875rem !important; }
 
 .ts-16,
@@ -7636,7 +7637,8 @@ p {
 .valid-feedback,
 .warning-feedback,
 .invalid-feedback,
-.info-feedback {
+.info-feedback,
+.ccf-instructional-text {
   font-size: 0.875rem !important; }
 
 .ts-16,
@@ -8609,6 +8611,13 @@ body {
 @media (max-width: 991.98px) {
   .table.rbt-table-responsive thead {
     border: none; } }
+.ccf-instructional-text {
+  margin-bottom: 5px;
+  font-weight: normal; }
+
+.form-group label {
+  font-size: 1rem !important; }
+
 .favorite .fa.fa-star {
   color: #fd7e14;
   font-size: 16px; }
