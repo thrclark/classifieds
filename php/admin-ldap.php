@@ -44,105 +44,88 @@ $page_title = 'LDAP configuration';
                                 </li>
                             </ul>
                         </div>
-                       
-                        <form novalidate class="ng-untouched ng-pristine ng-valid">
-                            <div class="form-group">
-                                <label class="control-label" id="urlLabel">
-                                    <message key="admin.ldap.field.url">LDAP URL</message>
-                                </label>
-                                <div class="ccf-instructional-text" id="urlDirections">
-                                    <message key="admin.ldap.field.url.directions">URL to the LDAP server.  Example: ldap://ads.mydomain.edu</message>
-                                </div>
-                                <div class="form-row">
-                                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <form novalidate class="ng-untouched ng-pristine ng-valid">
+                                    <div class="form-group">
+                                        <label class="control-label" id="urlLabel">
+                                            <message key="admin.ldap.field.url">LDAP URL</message>
+                                        </label>
+                                        <div class="ccf-instructional-text" id="urlDirections">
+                                            <message key="admin.ldap.field.url.directions">URL to the LDAP server.  Example: ldap://ads.mydomain.edu</message>
+                                        </div>
                                         <countdown>
                                             <div class="rbt-charcount">
                                                 <input aria-labelledby="urlLabel urlDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="url">
                                                 <span class="badge badge-success"> 1983 </span> </div>
                                         </countdown>
+                                        <errors controlname="url"> </errors>
                                     </div>
-                                </div>
-                                <errors controlname="url"> </errors>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label" id="baseLabel">
-                                    <message key="admin.ldap.field.base">Base</message>
-                                </label>
-                                <div class="ccf-instructional-text" id="baseDirections">
-                                    <message key="admin.ldap.field.base.directions">LDAP base information.  Example: ou=myOu,dc=ads,dc=myDomain,dc=edu</message>
-                                </div>
-                                <div class="form-row">
-                                    <div class="col-6">
+                                    <div class="form-group">
+                                        <label class="control-label" id="baseLabel">
+                                            <message key="admin.ldap.field.base">Base</message>
+                                        </label>
+                                        <div class="ccf-instructional-text" id="baseDirections">
+                                            <message key="admin.ldap.field.base.directions">LDAP base information.  Example: ou=myOu,dc=ads,dc=myDomain,dc=edu</message>
+                                        </div>
                                         <countdown>
                                             <div class="rbt-charcount">
                                                 <input aria-labelledby="baseLabel baseDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="base">
                                                 <span class="badge badge-success"> 169 </span> </div>
                                         </countdown>
+                                        <errors controlname="base"> </errors>
                                     </div>
-                                </div>
-                                <errors controlname="base"> </errors>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label" id="usernameLabel">
-                                    <message key="admin.ldap.field.userName">User Name</message>
-                                </label>
-                                <div class="ccf-instructional-text" id="usernameDirections">
-                                    <message key="admin.ldap.field.userName.directions">LDAP account user name.  Example: cn=myUser,ou=myOu,dc=ads,dc=myDomain,dc=edu</message>
-                                </div>
-                                <div class="form-row">
-                                    <div class="col-6">
+                                    <div class="form-group">
+                                        <label class="control-label" id="usernameLabel">
+                                            <message key="admin.ldap.field.userName">User Name</message>
+                                        </label>
+                                        <div class="ccf-instructional-text" id="usernameDirections">
+                                            <message key="admin.ldap.field.userName.directions">LDAP account user name.  Example: cn=myUser,ou=myOu,dc=ads,dc=myDomain,dc=edu</message>
+                                        </div>
                                         <countdown>
                                             <div class="rbt-charcount">
                                                 <input aria-labelledby="usernameLabel usernameDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="username">
                                                 <span class="badge badge-success"> 157 </span> </div>
                                         </countdown>
+                                        <errors controlname="username"> </errors>
                                     </div>
-                                </div>
-                                <errors controlname="username"> </errors>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label" id="passwordLabel">
-                                    <message key="admin.ldap.field.password">Password</message>
-                                </label>
-                                <div class="ccf-instructional-text" id="passwordDirections">
-                                    <message key="admin.ldap.field.password.directions">LDAP user account password.</message>
-                                </div>
-                                <div class="form-row">
-                                    <div class="col-6">
+                                    <div class="form-group">
+                                        <label class="control-label" id="passwordLabel">
+                                            <message key="admin.ldap.field.password">Password</message>
+                                        </label>
+                                        <div class="ccf-instructional-text" id="passwordDirections">
+                                            <message key="admin.ldap.field.password.directions">LDAP user account password.</message>
+                                        </div>
                                         <countdown>
                                             <div class="rbt-charcount">
                                                 <input aria-labelledby="passwordLabel passwordDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="password" type="password">
                                                 <span class="badge badge-success"> 1000 </span> </div>
                                         </countdown>
+                                        <errors controlname="password"> </errors>
                                     </div>
-                                </div>
-                                <errors controlname="password"> </errors>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label" id="passwordConfirmLabel">
-                                    <message key="admin.ldap.field.passwordConfirm">Confirm Password</message>
-                                </label>
-                                <div class="ccf-instructional-text" id="passwordConfirmDirections">
-                                    <message key="admin.ldap.field.passwordConfirm.directions">Confirm the password. Passwords must match.</message>
-                                </div>
-                                <div class="form-row">
-                                    <div class="col-6">
+                                    <div class="form-group">
+                                        <label class="control-label" id="passwordConfirmLabel">
+                                            <message key="admin.ldap.field.passwordConfirm">Confirm Password</message>
+                                        </label>
+                                        <div class="ccf-instructional-text" id="passwordConfirmDirections">
+                                            <message key="admin.ldap.field.passwordConfirm.directions">Confirm the password. Passwords must match.</message>
+                                        </div>
                                         <input aria-labelledby="passwordConfirmLabel passwordConfirmDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="passwordConfirm" type="password">
+                                        <errors controlname="passwordConfirm"> </errors>
                                     </div>
-                                </div>
-                                <errors controlname="passwordConfirm"> </errors>
+                                    <errors controlname="ldapId"> </errors>
+                                    <form-invalid-alert> </form-invalid-alert>
+                                    <div class="rbt-button-group mb-5">
+                                        <button class="btn btn-primary" type="submit">
+                                        <message key="global.buttons.save">Save</message>
+                                        </button>
+                                        <button class="btn btn-danger" type="button" disabled="">
+                                        <message key="admin.buttons.revert">Revert</message>
+                                        </button>
+                                    </div>
+                                </form>
                             </div>
-                            <errors controlname="ldapId"> </errors>
-                            <form-invalid-alert> </form-invalid-alert>
-                            <p class="text-right">
-                                <button class="btn btn-danger" type="button" disabled="">
-                                <message key="admin.buttons.revert">Revert</message>
-                                </button>
-                                <button class="btn btn-primary" type="submit">
-                                <message key="global.buttons.save">Save</message>
-                                </button>
-                            </p>
-                        </form>
+                        </div>
                     </section>
                 </ng-component>
             </div>
