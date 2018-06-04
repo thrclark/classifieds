@@ -6374,7 +6374,7 @@ button.bg-dark:focus {
 .text-left {
   text-align: left !important; }
 
-.text-right {
+.text-right, .icon-selector .icon-current .icon-select {
   text-align: right !important; }
 
 .text-center {
@@ -8512,6 +8512,34 @@ ccf-image-upload {
   padding-left: .75rem;
   margin-left: -1px;
   padding-top: 4px; }
+
+.icon-selector {
+  position: relative; }
+  .icon-selector .icon-current .icon-display {
+    padding-left: 30px; }
+    .icon-selector .icon-current .icon-display .fa {
+      font-size: 50px; }
+  .icon-selector .icon-search {
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+    width: 100%; }
+    .icon-selector .icon-search .card {
+      margin-top: -20px;
+      margin-left: -20px;
+      margin-right: -20px; }
+      .icon-selector .icon-search .card .card-body {
+        max-height: 400px;
+        overflow: auto; }
+        .icon-selector .icon-search .card .card-body .btn, .icon-selector .icon-search .card .card-body ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .icon-selector .icon-search .card .card-body label.img-ul-button {
+          margin-right: 5px;
+          margin-bottom: 5px;
+          border-color: #eeeeee;
+          font-size: 24px;
+          padding: 6px; }
+          .icon-selector .icon-search .card .card-body .btn .fa, .icon-selector .icon-search .card .card-body ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button .fa, ccf-image-upload image-upload .img-ul .img-ul-file-upload .icon-selector .icon-search .card .card-body label.img-ul-button .fa {
+            width: 26px;
+            height: 26px; }
 
 .modal-body {
   padding-top: .5rem; }
