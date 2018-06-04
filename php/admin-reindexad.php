@@ -51,7 +51,7 @@ $page_title = 'Reindex ad';
                     <div class="alert alert-success alert-dismissible fade show"  role="alert" >
                         <button type="button" class="close" aria-label="Close" data-dismiss="alert"> <span class="rbt-icon-close"></span> </button>
                         <h4 class="alert-heading">Success!</h4>
-                        <p class="small">This ad (ID: 800943) has now been reindexed.</p>
+                        <p>This ad (ID: 800943) has now been reindexed.</p>
                     </div>
                 </div>
                 

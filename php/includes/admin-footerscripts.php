@@ -220,11 +220,11 @@ $(document).ready(function() {
 	
 	$("#togle_help").change(function() {
     if(this.checked) {
-        $(".helper-text").fadeIn();
+        $(".ccf-instructional-text").fadeIn();
 		
     }
 	else {
-		 $(".helper-text").fadeOut();
+		 $(".ccf-instructional-text").fadeOut();
             }
 });
 

@@ -45,7 +45,7 @@ $page_title = 'System parameters';
 				<b class="rbt-table-responsive-cell-label"><message key="admin.field.name">Name</message></b>
 				<span class="rbt-table-responsive-cell-content">
 					<span>Application Email</span>
-					<div class="small">The address from which global emails are sent.</div>
+					<div class="ccf-instructional-text">The address from which global emails are sent.</div>
 				</span>
 			</td>
 			<td>
@@ -62,7 +62,7 @@ $page_title = 'System parameters';
 				<b class="rbt-table-responsive-cell-label"><message key="admin.field.name">Name</message></b>
 				<span class="rbt-table-responsive-cell-content">
 					<span>Retire and delete Ads interval.</span>
-					<div class="small">Enter how often to expire or delete Ads.  This is in minutes.  Default is 1440 minutes (run once per day).</div>
+					<div class="ccf-instructional-text">Enter how often to expire or delete Ads.  This is in minutes.  Default is 1440 minutes (run once per day).</div>
 				</span>
 			</td>
 			<td>
@@ -79,7 +79,7 @@ $page_title = 'System parameters';
 				<b class="rbt-table-responsive-cell-label"><message key="admin.field.name">Name</message></b>
 				<span class="rbt-table-responsive-cell-content">
 					<span>Retire and delete Ads on/off</span>
-					<div class="small">This expires and/or deletes ads.</div>
+					<div class="ccf-instructional-text">This expires and/or deletes ads.</div>
 				</span>
 			</td>
 			<td>
@@ -96,7 +96,7 @@ $page_title = 'System parameters';
 				<b class="rbt-table-responsive-cell-label"><message key="admin.field.name">Name</message></b>
 				<span class="rbt-table-responsive-cell-content">
 					<span>Google Analytics Rollup ID</span>
-					<div class="small">Data for selected tenants will be sent to this Google Analytics ID.</div>
+					<div class="ccf-instructional-text">Data for selected tenants will be sent to this Google Analytics ID.</div>
 				</span>
 			</td>
 			<td>
@@ -113,7 +113,7 @@ $page_title = 'System parameters';
 				<b class="rbt-table-responsive-cell-label"><message key="admin.field.name">Name</message></b>
 				<span class="rbt-table-responsive-cell-content">
 					<span>MIGRATION-COMPLETE</span>
-					<div class="small"></div>
+					<div class="ccf-instructional-text"></div>
 				</span>
 			</td>
 			<td>
@@ -130,7 +130,7 @@ $page_title = 'System parameters';
 				<b class="rbt-table-responsive-cell-label"><message key="admin.field.name">Name</message></b>
 				<span class="rbt-table-responsive-cell-content">
 					<span>Send Exception Email</span>
-					<div class="small">Space delimited list of email addresses to which exception reports are sent.</div>
+					<div class="ccf-instructional-text">Space delimited list of email addresses to which exception reports are sent.</div>
 				</span>
 			</td>
 			<td>
@@ -147,7 +147,7 @@ $page_title = 'System parameters';
 				<b class="rbt-table-responsive-cell-label"><message key="admin.field.name">Name</message></b>
 				<span class="rbt-table-responsive-cell-content">
 					<span>Send Exception Email Toggle</span>
-					<div class="small">Turn on sending of email for exceptions. Default is no.</div>
+					<div class="ccf-instructional-text">Turn on sending of email for exceptions. Default is no.</div>
 				</span>
 			</td>
 			<td>
@@ -164,7 +164,7 @@ $page_title = 'System parameters';
 				<b class="rbt-table-responsive-cell-label"><message key="admin.field.name">Name</message></b>
 				<span class="rbt-table-responsive-cell-content">
 					<span>Update Server</span>
-					<div class="small">Enter the name of one of the servers that will be used for updating new data on releases.</div>
+					<div class="ccf-instructional-text">Enter the name of one of the servers that will be used for updating new data on releases.</div>
 				</span>
 			</td>
 			<td>
@@ -191,7 +191,7 @@ $page_title = 'System parameters';
 					<div class="form-group">
 						<!----><label class="control-label" id="valueLabel"></label>
 						<!---->
-						<div class="small" id="valueDirections"></div>
+						<div class="ccf-instructional-text" id="valueDirections"></div>
 						<!----><div>
 							<input aria-labelledby="valueLabel valueDirections" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="value" type="text">	
 						</div>

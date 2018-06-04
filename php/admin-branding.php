@@ -42,8 +42,8 @@ $page_title = 'Branding';
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Application colors
-                                    <div class="small helper-text">Choose primary, accent &amp; page background colors.</div></td>
+                                <td><span class="rbt-table-responsive-cell-content">Application colors</span>
+                                    <div class="ccf-instructional-text">Choose primary, accent &amp; page background colors.</div></td>
                                 <td><div class="form-row">
                                         <div class="col-md-4">
                                             <div class="form-group">
@@ -67,7 +67,7 @@ $page_title = 'Branding';
                             </tr>
                            <!-- <tr>
                                 <td>Application title display
-                                    <div class="small helper-text">Choose whether or not to display the application name "Classifieds" in the header. </div></td>
+                                    <div class="ccf-instructional-text">Choose whether or not to display the application name "Classifieds" in the header. </div></td>
                                 <td><div class="form-check">
                                         <input class="form-check-input" type="radio" name="exampleRadios" id="stacked1" value="option1">
                                         <label class="form-check-label" for="stacked1"> Display application name "Classifieds" </label>
@@ -78,8 +78,8 @@ $page_title = 'Branding';
                                     </div></td>
                             </tr>-->
                             <tr>
-                                <td>Application logo <span class="small font-italic">(optional)</span>
-                                    <div class="small helper-text"> Select an image to be used as an application logo in the header. Note that this image should be 70px in height.</div></td>
+                                <td><span class="rbt-table-responsive-cell-content">Application logo <span class="small font-italic">(optional)</span></span>
+                                    <div class="ccf-instructional-text"> Select an image to be used as an application logo in the header. Note that this image should be 70px in height.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                         <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
                                             <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
@@ -107,8 +107,8 @@ $page_title = 'Branding';
                                     </ccf-image-upload></td>
                             </tr>
                             <tr>
-                                <td>Application logo - mobile <span class="small font-italic">(optional)</span>
-                                    <div class="small helper-text"> Select an image to be used as an application logo in the header for mobile devices. Note that this image should be 48px in height, and the width should be constrained as much as possible for better display on small screens.</div></td>
+                                <td><span class="rbt-table-responsive-cell-content">Application logo - mobile <span class="small font-italic">(optional)</span></span>
+                                    <div class="ccf-instructional-text"> Select an image to be used as an application logo in the header for mobile devices. Note that this image should be 48px in height, and the width should be constrained as much as possible for better display on small screens.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                     <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
                                         <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
@@ -136,8 +136,8 @@ $page_title = 'Branding';
                                 </ccf-image-upload></td>
                             </tr>
                             <tr>
-                                <td> Favicon icon <span class="small font-italic">(.ico)</span>
-                                    <div class="small helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
+                                <td> <span class="rbt-table-responsive-cell-content">Favicon icon <span class="small font-italic">(.ico)</span></span>
+                                    <div class="ccf-instructional-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                         <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
                                             <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
@@ -165,8 +165,8 @@ $page_title = 'Branding';
                                     </ccf-image-upload></td>
                             </tr>
                             <tr>
-                                <td> Favicon image
-                                    <div class="small helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks. This image should be 196x196 pixels.</div></td>
+                                <td><span class="rbt-table-responsive-cell-content"> Favicon image</span>
+                                    <div class="ccf-instructional-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks. This image should be 196x196 pixels.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                         <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
                                             <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
@@ -194,8 +194,8 @@ $page_title = 'Branding';
                                     </ccf-image-upload></td>
                             </tr>
                             <tr>
-                                <td> Apple Touch image
-                                    <div class="small helper-text"> Select an image to be displayed in iOS as a desktop bookmark. This image should be 180x180 pixels.</div></td>
+                                <td> <span class="rbt-table-responsive-cell-content">Apple Touch image</span>
+                                    <div class="ccf-instructional-text"> Select an image to be displayed in iOS as a desktop bookmark. This image should be 180x180 pixels.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                         <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
                                             <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
@@ -223,8 +223,8 @@ $page_title = 'Branding';
                                     </ccf-image-upload></td>
                             </tr>
                             <tr>
-                                <td>Font family for headers
-                                    <div class="small helper-text">Choose a font family to be used for all headers.</div></td>
+                                <td><span class="rbt-table-responsive-cell-content">Font family for headers</span>
+                                    <div class="ccf-instructional-text">Choose a font family to be used for all headers.</div></td>
                                 <td><label class="sr-only" for="headerfont">Font family for headers </label>
                                     <select class="select form-control" id="headerfont" name="headerfont">
                                         <option label="" value="Arial, Helvetica, sans-serif">Sans-Serif - Arial, Helvetica </option>
@@ -241,12 +241,12 @@ $page_title = 'Branding';
                                     </select>
                                     <div class="form-group mt-3 custom-headerfont" style="">
                                         <label class="control-label" for="font_family"> Font family name</label>
-                                        <div class="small helper-text">Specify the name of this custom font.</div>
+                                        <div class="ccf-instructional-text">Specify the name of this custom font.</div>
                                         <input class="form-control" id="font_family" name="font_family" type="text" required="required">
                                     </div>
                                     <div class="form-group custom-headerfont" style="">
                                         <label class="control-label" for="font_family"> Weight</label>
-                                        <div class="small helper-text">Specify the weight of this custom font.</div>
+                                        <div class="ccf-instructional-text">Specify the weight of this custom font.</div>
                                         <select ng-model="fontFace.fontWeight" name="fontFaces[0].fontWeight" id="fontFaces[0].fontWeight" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontWeights" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
                                             <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                                             <option label="bold" value="string:BOLD">bold</option>
@@ -263,7 +263,7 @@ $page_title = 'Branding';
                                     </div>
                                     <div class="form-group custom-headerfont" style="">
                                         <label class="control-label" for="font_family"> Style</label>
-                                        <div class="small helper-text">Specify the style of this custom font.</div>
+                                        <div class="ccf-instructional-text">Specify the style of this custom font.</div>
                                         <select ng-model="fontFace.fontStyle" name="fontFaces[0].fontStyle" id="fontFaces[0].fontStyle" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStyles" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
                                             <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                                             <option label="italic" value="string:ITALIC">italic</option>
@@ -272,7 +272,7 @@ $page_title = 'Branding';
                                     </div>
                                     <div class="form-group custom-headerfont" style="">
                                         <label class="control-label" for="font_family"> Stretch</label>
-                                        <div class="small helper-text">Specify the stretch of this custom font.</div>
+                                        <div class="ccf-instructional-text">Specify the stretch of this custom font.</div>
                                         <select ng-model="fontFace.fontStretch" name="fontFaces[0].fontStretch" id="fontFaces[0].fontStretch" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStretches" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
                                             <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                                             <option label="condensed" value="string:CONDENSED">condensed</option>
@@ -286,7 +286,7 @@ $page_title = 'Branding';
                                         </select>
                                     </div>
                                     <div class="form-group custom-headerfont" style=""> <strong> Font URLs</strong>
-                                        <div class="small helper-text">Specify URLs for this custom font.</div>
+                                        <div class="ccf-instructional-text">Specify URLs for this custom font.</div>
                                         <table class="table rbt-table-actions mb-2" id="myTable" style="margin-bottom: 0px">
                                             <thead class="sr-only">
                                                 <tr>
@@ -317,8 +317,8 @@ $page_title = 'Branding';
                                     </div></td>
                             </tr>
                             <tr>
-                                <td>Font family for body text
-                                    <div class="small helper-text">Choose a font family to be used for the body text.</div></td>
+                                <td><span class="rbt-table-responsive-cell-content">Font family for body text</span>
+                                    <div class="ccf-instructional-text">Choose a font family to be used for the body text.</div></td>
                                 <td><label class="sr-only " for="bodyfont">Font family for body text </label>
                                     <select class="select form-control" id="bodyfont" name="bodyfont">
                                         <option label="" value="Arial, Helvetica, sans-serif">Sans-Serif - Arial, Helvetica </option>
@@ -335,12 +335,12 @@ $page_title = 'Branding';
                                     </select>
                                     <div class="form-group mt-3 custom-bodyfont" style="">
                                         <label class="control-label" for="font_family"> Font family name</label>
-                                        <div class="small helper-text">Specify the name of this custom font.</div>
+                                        <div class="ccf-instructional-text">Specify the name of this custom font.</div>
                                         <input class="form-control" id="font_family" name="font_family" type="text" required="required">
                                     </div>
                                     <div class="form-group custom-bodyfont" style="">
                                         <label class="control-label" for="font_family"> Weight</label>
-                                        <div class="small helper-text">Specify the weight of this custom font.</div>
+                                        <div class="ccf-instructional-text">Specify the weight of this custom font.</div>
                                         <select ng-model="fontFace.fontWeight" name="fontFaces[0].fontWeight" id="fontFaces[0].fontWeight" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontWeights" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
                                             <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                                             <option label="bold" value="string:BOLD">bold</option>
@@ -357,7 +357,7 @@ $page_title = 'Branding';
                                     </div>
                                     <div class="form-group custom-bodyfont" style="">
                                         <label class="control-label" for="font_family"> Style</label>
-                                        <div class="small helper-text">Specify the style of this custom font.</div>
+                                        <div class="ccf-instructional-text">Specify the style of this custom font.</div>
                                         <select ng-model="fontFace.fontStyle" name="fontFaces[0].fontStyle" id="fontFaces[0].fontStyle" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStyles" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
                                             <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                                             <option label="italic" value="string:ITALIC">italic</option>
@@ -366,7 +366,7 @@ $page_title = 'Branding';
                                     </div>
                                     <div class="form-group custom-bodyfont" style="">
                                         <label class="control-label" for="font_family"> Stretch</label>
-                                        <div class="small helper-text">Specify the stretch of this custom font.</div>
+                                        <div class="ccf-instructional-text">Specify the stretch of this custom font.</div>
                                         <select ng-model="fontFace.fontStretch" name="fontFaces[0].fontStretch" id="fontFaces[0].fontStretch" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStretches" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
                                             <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                                             <option label="condensed" value="string:CONDENSED">condensed</option>
@@ -381,7 +381,7 @@ $page_title = 'Branding';
                                     </div>
                                     <div class="form-group custom-bodyfont" style="">
                                         <div class="form-label"> Font URLs</div>
-                                        <div class="small helper-text">Specify URLs for this custom font.</div>
+                                        <div class="ccf-instructional-text">Specify URLs for this custom font.</div>
                                         <table class="table rbt-table-actions mb-2" id="myTable" style="margin-bottom: 0px">
                                             <thead class="sr-only">
                                                 <tr>
@@ -412,15 +412,15 @@ $page_title = 'Branding';
                                     </div></td>
                             </tr>
                             <tr>
-                                <td>Custom header HTML <span class="small font-italic">(optional)</span>
-                                    <div class="small helper-text">Specify optional HTML markup to be displayed at the top of the application views.</div></td>
+                                <td><span class="rbt-table-responsive-cell-content">Custom header HTML <span class="small font-italic">(optional)</span></span>
+                                    <div class="ccf-instructional-text">Specify optional HTML markup to be displayed at the top of the application views.</div></td>
                                 <td><div class="form-group">
                                         <label for="textarea-headerhtml" class="sr-only">Custom header html</label>
                                         <textarea class="form-control is-invalid" id="textarea-headerhtml" rows="5"></textarea>
-                                        <div class="invalid-feedback"><span class="rbt-icon-close-o" aria-hidden="true"></span> Some tags and attributes are disallowed. </div>
+                                        <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> Some tags and attributes are disallowed. </div>
                                         
                                         <div class="alert alert-danger fade show" role="alert">
-    <p class="small"><!----><span style="color: inherit; text-decoration: none;">
+    <p class="ccf-instructional-text"><!----><span style="color: inherit; text-decoration: none;">
 					&lt;div class="hidden-xs hidden-sm branding-bar"&gt;  
  &lt;
 				</span><span style="color: red; text-decoration: line-through;">
@@ -450,8 +450,8 @@ $page_title = 'Branding';
                                     </div></td>
                             </tr>
                             <tr>
-                                <td>Custom footer HTML <span class="small font-italic">(optional)</span>
-                                    <div class="small helper-text">Specify optional HTML markup to be displayed at the bottom of the application views.</div></td>
+                                <td><span class="rbt-table-responsive-cell-content">Custom footer HTML <span class="small font-italic">(optional)</span></span>
+                                    <div class="ccf-instructional-text">Specify optional HTML markup to be displayed at the bottom of the application views.</div></td>
                                 <td><div class="form-group">
                                         <label for="textarea-footerhtml" class="sr-only">Custom footer html</label>
                                         <textarea class="form-control" id="textarea-footerhtml" rows="5"></textarea>
@@ -462,8 +462,8 @@ $page_title = 'Branding';
                                     </div></td>
                             </tr>
                             <tr>
-                                <td>Custom  CSS <span class="small font-italic">(optional)</span>
-                                    <div class="small helper-text">Specify optional CSS markup that will style the HTML for the custom header and footer.</div></td>
+                                <td><span class="rbt-table-responsive-cell-content">Custom  CSS <span class="small font-italic">(optional)</span></span>
+                                    <div class="ccf-instructional-text">Specify optional CSS markup that will style the HTML for the custom header and footer.</div></td>
                                 <td><div class="form-group">
                                         <label for="textarea-customcss" class="sr-only">Custom CSS</label>
                                         <textarea class="form-control" id="textarea-customcss" rows="5"></textarea>

@@ -27,7 +27,7 @@ $page_title = 'Restricted users';
                         </div>
                     </div>
                 </div>
-                <table class="table table-actions">
+                 <table class="table rbt-table-responsive table-actions">	
                     <thead>
                         <tr>
                             <th> Username</th>
@@ -37,39 +37,39 @@ $page_title = 'Restricted users';
                     </thead>
                     <tbody>
                         <tr>
-                            <td>thrclark</td>
-                            <td>0001328543</td>
-                            <td><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
+                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">thrclark</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0001328543</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Actions</b><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
                         </tr>
                         <tr>
-                            <td>tewtband</td>
-                            <td>0003023985</td>
-                            <td><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
+                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">tewtband</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0003023985</span></td>
+                            <td> <b class="rbt-table-responsive-cell-label">Actions</b><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
                         </tr>
                         <tr>
-                            <td>zealfleo</td>
-                            <td>0003956434</td>
-                            <td><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
+                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">zealfleo</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0003956434</span></td>
+                            <td> <b class="rbt-table-responsive-cell-label">Actions</b><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
                         </tr>
                         <tr>
-                            <td>languid</td>
-                            <td>0002534347</td>
-                            <td><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
+                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">languid</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0002534347</span></td>
+                            <td> <b class="rbt-table-responsive-cell-label">Actions</b><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
                         </tr>
                         <tr>
-                            <td>accljones</td>
-                            <td>0004436419</td>
-                            <td><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
+                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">accljones</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0004436419</span></td>
+                            <td> <b class="rbt-table-responsive-cell-label">Actions</b><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
                         </tr>
                         <tr>
-                            <td>sgdsteven</td>
-                            <td>0002635478</td>
-                            <td><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
+                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">sgdsteven</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0002635478</span></td>
+                            <td> <b class="rbt-table-responsive-cell-label">Actions</b><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
                         </tr>
                         <tr>
-                            <td>lerrome</td>
-                            <td>0002888753</td>
-                            <td><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
+                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">lerrome</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0002888753</span></td>
+                            <td> <b class="rbt-table-responsive-cell-label">Actions</b><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
                         </tr>
                     </tbody>
                 </table>

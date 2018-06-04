@@ -9,7 +9,7 @@
             <div class="modal-body">
                 <div class="form-group">
                     <label class="control-label" for="appemail"> CSS </label>
-                    <div class="small">pecify optional CSS markup that will style the HTML for the custom header and footer.</div>
+                    <div class="ccf-instructional-text">Specify optional CSS markup that will style the HTML for the custom header and footer.</div>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
                 </div>
             </div>

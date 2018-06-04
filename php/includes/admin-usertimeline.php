@@ -4,7 +4,7 @@
             <div class="timeline-header">
                 <div class="row align-items-center">
                     <div class="col"> <strong>Ad Posted</strong> </div>
-                    <div class="col text-right"> <span class="small"> 01/04/18</span> <span class="font-italic text-muted small">8:32am</span> </div>
+                    <div class="col text-right"> <span class="ccf-instructional-text"> 01/04/18</span> <span class="font-italic text-muted small">8:32am</span> </div>
                 </div>
             </div>
             <div class="timeline-body">
@@ -28,7 +28,7 @@
             <div class="timeline-header">
                 <div class="row align-items-center">
                     <div class="col"> <strong>Ad Posted</strong> </div>
-                    <div class="col text-right"> <span class="small"> 01/04/18</span> <span class="font-italic text-muted small">8:34am</span> </div>
+                    <div class="col text-right"> <span class="ccf-instructional-text"> 01/04/18</span> <span class="font-italic text-muted small">8:34am</span> </div>
                 </div>
             </div>
             <div class="timeline-body">
@@ -52,7 +52,7 @@
             <div class="timeline-header">
                 <div class="row align-items-center">
                     <div class="col"> <strong>Ad Reported</strong> </div>
-                    <div class="col text-right"> <span class="small"> 01/05/18</span> <span class="font-italic text-muted small">12:48pm</span> </div>
+                    <div class="col text-right"> <span class="ccf-instructional-text"> 01/05/18</span> <span class="font-italic text-muted small">12:48pm</span> </div>
                 </div>
             </div>
             <div class="timeline-body">
@@ -73,7 +73,7 @@
             <div class="timeline-header">
                 <div class="row align-items-center">
                     <div class="col"> <strong>Ad Removed</strong> </div>
-                    <div class="col text-right"> <span class="small"> 01/05/18</span> <span class="font-italic text-muted small">2:03pm</span> </div>
+                    <div class="col text-right"> <span class="ccf-instructional-text"> 01/05/18</span> <span class="font-italic text-muted small">2:03pm</span> </div>
                 </div>
             </div>
             <div class="timeline-body">	
