@@ -42,6 +42,18 @@ $page_title = 'Branding';
                         </thead>
                         <tbody>
                             <tr>
+                                <td>Application title
+                                    <div class="ccf-instructional-text">Choose a title for the application. </div></td>
+                                <td><div class="form-group">
+                                        <label for="inputappname" class="sr-only">Application name</label>
+                                        <input type="text" class="form-control" id="inputappname" value="Classifieds" >
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1">
+                                            <label class="form-check-label font-weight-normal mt-3" for="inlineCheckbox2">Display name in the application header.</label>
+                                        </div>
+                                    </div></td>
+                            </tr>
+                            <tr>
                                 <td><span class="rbt-table-responsive-cell-content">Application colors</span>
                                     <div class="ccf-instructional-text">Choose primary, accent &amp; page background colors.</div></td>
                                 <td><div class="form-row">
@@ -65,18 +77,6 @@ $page_title = 'Branding';
                                         </div>
                                     </div></td>
                             </tr>
-                           <!-- <tr>
-                                <td>Application title display
-                                    <div class="ccf-instructional-text">Choose whether or not to display the application name "Classifieds" in the header. </div></td>
-                                <td><div class="form-check">
-                                        <input class="form-check-input" type="radio" name="exampleRadios" id="stacked1" value="option1">
-                                        <label class="form-check-label" for="stacked1"> Display application name "Classifieds" </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="exampleRadios" id="stacked2" value="option2">
-                                        <label class="form-check-label" for="stacked2"> Do not display application name "Classifieds"</label>
-                                    </div></td>
-                            </tr>-->
                             <tr>
                                 <td><span class="rbt-table-responsive-cell-content">Application logo <span class="small font-italic">(optional)</span></span>
                                     <div class="ccf-instructional-text"> Select an image to be used as an application logo in the header. Note that this image should be 70px in height.</div></td>
@@ -110,33 +110,33 @@ $page_title = 'Branding';
                                 <td><span class="rbt-table-responsive-cell-content">Application logo - mobile <span class="small font-italic">(optional)</span></span>
                                     <div class="ccf-instructional-text"> Select an image to be used as an application logo in the header for mobile devices. Note that this image should be 48px in height, and the width should be constrained as much as possible for better display on small screens.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
-                                    <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
-                                        <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
-                                            <image-upload _nghost-c0="" ng-reflect-before-upload="function (metadata) {" ng-reflect-button-caption="Upload Image" ng-reflect-drop-box-message="or drop image here" ng-reflect-file-too-large-message="Image must be no larger than 1" ng-reflect-headers="[object Object]" ng-reflect-max-file-size="10485760" ng-reflect-preview="false" ng-reflect-supported-extensions="png,jpg,jpeg" ng-reflect-url="/ccf2-unt/upload">
-                                                <div _ngcontent-c0="" filedrop="" class="img-ul" ng-reflect-ng-class="img-ul" ng-reflect-accept="image/png,image/jpg,image/jpeg">
-                                                    <div _ngcontent-c0="" class="img-ul-file-upload img-ul-hr-inline-group" >
-                                                        <label _ngcontent-c0="" class="img-ul-upload img-ul-button" tabindex="0"> <span _ngcontent-c0="">Upload Image</span>
-                                                            <input _ngcontent-c0="" multiple type="file" accept="image/png,image/jpg,image/jpeg">
-                                                        </label>
-                                                        <label _ngcontent-c0="" class="img-ul-clear img-ul-button"> <span _ngcontent-c0="">Clear</span></label>
-                                                        <div _ngcontent-c0="" class="img-ul-drag-box-msg">or drop image here</div>
+                                        <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
+                                            <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
+                                                <image-upload _nghost-c0="" ng-reflect-before-upload="function (metadata) {" ng-reflect-button-caption="Upload Image" ng-reflect-drop-box-message="or drop image here" ng-reflect-file-too-large-message="Image must be no larger than 1" ng-reflect-headers="[object Object]" ng-reflect-max-file-size="10485760" ng-reflect-preview="false" ng-reflect-supported-extensions="png,jpg,jpeg" ng-reflect-url="/ccf2-unt/upload">
+                                                    <div _ngcontent-c0="" filedrop="" class="img-ul" ng-reflect-ng-class="img-ul" ng-reflect-accept="image/png,image/jpg,image/jpeg">
+                                                        <div _ngcontent-c0="" class="img-ul-file-upload img-ul-hr-inline-group" >
+                                                            <label _ngcontent-c0="" class="img-ul-upload img-ul-button" tabindex="0"> <span _ngcontent-c0="">Upload Image</span>
+                                                                <input _ngcontent-c0="" multiple type="file" accept="image/png,image/jpg,image/jpeg">
+                                                            </label>
+                                                            <label _ngcontent-c0="" class="img-ul-clear img-ul-button"> <span _ngcontent-c0="">Clear</span></label>
+                                                            <div _ngcontent-c0="" class="img-ul-drag-box-msg">or drop image here</div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </image-upload>
-                                            <div class="img-preview" dnd-sortable-container="" draggable="false" ng-reflect-sortable-data="" style="cursor: pointer;">
-                                                <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img src="../img/ccf-logo-mobile.png" style="height:70px; width:auto" alt=""/>
-                                                    <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
+                                                </image-upload>
+                                                <div class="img-preview" dnd-sortable-container="" draggable="false" ng-reflect-sortable-data="" style="cursor: pointer;">
+                                                    <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img src="../img/ccf-logo-mobile.png" style="height:70px; width:auto" alt=""/>
+                                                        <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
                                                         <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                                         </span></button>
+                                                    </div>
                                                 </div>
+                                                <div class="validation-fieldmessage"> </div>
                                             </div>
-                                            <div class="validation-fieldmessage"> </div>
                                         </div>
-                                    </div>
-                                </ccf-image-upload></td>
+                                    </ccf-image-upload></td>
                             </tr>
                             <tr>
-                                <td> <span class="rbt-table-responsive-cell-content">Favicon icon <span class="small font-italic">(.ico)</span></span>
+                                <td><span class="rbt-table-responsive-cell-content">Favicon icon <span class="small font-italic">(.ico)</span></span>
                                     <div class="ccf-instructional-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                         <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
@@ -158,7 +158,7 @@ $page_title = 'Branding';
                                                         <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                                         </span> </button>
                                                     </div>
-                                                </div>	
+                                                </div>
                                                 <div class="validation-fieldmessage"></div>
                                             </div>
                                         </div>
@@ -194,7 +194,7 @@ $page_title = 'Branding';
                                     </ccf-image-upload></td>
                             </tr>
                             <tr>
-                                <td> <span class="rbt-table-responsive-cell-content">Apple Touch image</span>
+                                <td><span class="rbt-table-responsive-cell-content">Apple Touch image</span>
                                     <div class="ccf-instructional-text"> Select an image to be displayed in iOS as a desktop bookmark. This image should be 180x180 pixels.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                                         <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
@@ -418,31 +418,16 @@ $page_title = 'Branding';
                                         <label for="textarea-headerhtml" class="sr-only">Custom header html</label>
                                         <textarea class="form-control is-invalid" id="textarea-headerhtml" rows="5"></textarea>
                                         <div class="invalid-feedback"><span class="rbt-icon-circle-close" aria-hidden="true"></span> Some tags and attributes are disallowed. </div>
-                                        
                                         <div class="alert alert-danger fade show" role="alert">
-    <p class="ccf-instructional-text"><!----><span style="color: inherit; text-decoration: none;">
-					&lt;div class="hidden-xs hidden-sm branding-bar"&gt;  
- &lt;
-				</span><span style="color: red; text-decoration: line-through;">
-					di class="container"&gt;  
-  &lt;
-				</span><span style="color: inherit; text-decoration: none;">
-					div class="row pad"&gt; 
-  &lt;img src="https://sd-prd-images.s3.amazonaws.com/prd/test-uisapp2/20150702T0521167633961_trident-large.png" alt="Indiana University Home Page"&gt; 
-  &lt;p&gt; &lt;a href="http://www.iu.edu" title="Indiana University" rel="nofollow" target="_blank"&gt; &lt;span&gt;Indiana University&lt;/span&gt; &lt;/a&gt; &lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/div&gt;
-				</span><span style="color: red; text-decoration: line-through;">
-					 
-&lt;/div&gt;
-				</span></p>
-                
-                
-                <button class="btn btn-sm btn-outline-primary mt-3">Remove dissalowed items</button>
-</div>
-
-
-
+                                            <p class="ccf-instructional-text"><!----><span style="color: inherit; text-decoration: none;"> &lt;div class="hidden-xs hidden-sm branding-bar"&gt;  
+                                                &lt; </span><span style="color: red; text-decoration: line-through;"> di class="container"&gt;  
+                                                &lt; </span><span style="color: inherit; text-decoration: none;"> div class="row pad"&gt; 
+                                                &lt;img src="https://sd-prd-images.s3.amazonaws.com/prd/test-uisapp2/20150702T0521167633961_trident-large.png" alt="Indiana University Home Page"&gt; 
+                                                &lt;p&gt; &lt;a href="http://www.iu.edu" title="Indiana University" rel="nofollow" target="_blank"&gt; &lt;span&gt;Indiana University&lt;/span&gt; &lt;/a&gt; &lt;/p&gt; 
+                                                &lt;/div&gt; 
+                                                &lt;/div&gt; </span><span style="color: red; text-decoration: line-through;"> &lt;/div&gt; </span></p>
+                                            <button class="btn btn-sm btn-outline-primary mt-3">Remove dissalowed items</button>
+                                        </div>
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                                             <label class="form-check-label font-weight-normal mt-3" for="inlineCheckbox1">Include custom header on screens that are less than 768px wide.</label>
@@ -452,14 +437,14 @@ $page_title = 'Branding';
                             <tr>
                                 <td><span class="rbt-table-responsive-cell-content">Custom footer HTML <span class="small font-italic">(optional)</span></span>
                                     <div class="ccf-instructional-text">Specify optional HTML markup to be displayed at the bottom of the application views.</div></td>
-                                <td><div class="form-group">
-                                        <label for="textarea-footerhtml" class="sr-only">Custom footer html</label>
-                                        <textarea class="form-control" id="textarea-footerhtml" rows="5"></textarea>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1">
-                                            <label class="form-check-label font-weight-normal mt-3" for="inlineCheckbox2">Include custom footer on screens that are less than 768px wide.</label>
-                                        </div>
-                                    </div></td>
+                                <td>  <div class="form-group">
+                        <label for="textarea-footerhtml" class="sr-only">Custom footer html</label>
+                        <textarea name="textarea-footerhtml" rows="5" class="form-control" id="textarea-footerhtml"></textarea>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1">
+                            <label class="form-check-label font-weight-normal mt-3" for="inlineCheckbox2">Include custom footer on screens that are less than 768px wide.</label>
+                        </div>
+                    </div></td>
                             </tr>
                             <tr>
                                 <td><span class="rbt-table-responsive-cell-content">Custom  CSS <span class="small font-italic">(optional)</span></span>
@@ -471,6 +456,7 @@ $page_title = 'Branding';
                             </tr>
                         </tbody>
                     </table>
+                  
                 </div>
                 <p class="text-right">
                     <button class="btn btn-primary btn-progressable" type="submit"><span class="btn-label">Apply branding</span> </button>
