@@ -51,8 +51,8 @@ $page_title = 'Categories';
                                         <message key="admin.category.field.icon.directions">Select an icon to represent this category.</message>
                                     </div>
                                     <div class="input-group mb-3">
-                                        <div class="input-group-prepend"> <span class="input-group-text"><i class="fa fa-bus"></i></span> </div>
-                                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" value="Bus">
+                                        <div class="input-group-prepend icon-display"> <span class="input-group-text"><i class="fa fa-bus"></i></span> </div>
+                                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" value="Bus" id="iconName">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" data-toggle="modal" data-target="#selectIcon">Choose</button>
                                         </div>
@@ -62,35 +62,26 @@ $page_title = 'Categories';
                                     </errors>
                                 </div>
                                 
-                                
-                                
-                                
-                                
-<!-- Modal -->
-<div class="modal fade" id="selectIcon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
-            </div>
-            <div class="modal-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <a href="#0">incididunt ut labore</a> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="modal-footer">
-                <div class="rbt-button-group">
-                    <button type="button" class="btn btn-primary">OK</button>
-                    <button class="btn btn-outline-primary">Cancel</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-
+                                <!-- Modal -->
+                                <div class="modal fade" id="selectIcon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Select an icon</h5>
+                                                <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <?php include('includes/icon-selection.php') ?>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <div class="rbt-button-group">
+                                                    <button type="button" class="btn btn-primary">OK</button>
+                                                    <button class="btn btn-outline-primary">Cancel</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <form-invalid-alert> 
                                     <!----> 
                                 </form-invalid-alert>
@@ -112,16 +103,14 @@ $page_title = 'Categories';
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
-    // Open/close search panel
-    $("#findIcon").click(function() {
-        $(".icon-search").show();
-    });
-    $("#cancelSearch,#iconSelection button ").click(function() {
-        $(".icon-search").hide();
-    });
+    
+    
     // Set icon name
     $("#iconSelection button").click(function() {
-        $(".icon-name").replaceWith("<div class='col icon-name'>" + $(this).text() + "</div>");
+        $("#iconName").val($(this).text());
+		
+		
+		
     });
     // Set icon class
     $("#iconSelection button i").click(function() {

@@ -1,0 +1,13 @@
+.ccf-selecticon {
+	li {
+		display: inline-block;
+		button {
+			height: 40px;
+			width: 40px;
+			margin: 0.25rem;
+			text-align: center;
+			border-width: 1px;
+			border-color: $gray-300;
+		}
+	}
+}

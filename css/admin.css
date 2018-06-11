@@ -9101,6 +9101,16 @@ body {
   border: solid 1px #cccccc;
   text-align: center; }
 
+.ccf-selecticon li {
+  display: inline-block; }
+  .ccf-selecticon li button {
+    height: 40px;
+    width: 40px;
+    margin: 0.25rem;
+    text-align: center;
+    border-width: 1px;
+    border-color: #cccccc; }
+
 body,
 .rbt-sidebar-nav li.active a {
   color: #444444; }
