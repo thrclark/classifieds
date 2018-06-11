@@ -96,7 +96,7 @@ $page_title = 'Categories';
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3 col-xl-2 d-none d-lg-blockkk border-left"><a href="admin-categories.php" class="btn btn-link btn-sm font-weight-normal"><span class="rbt-icon-chevron-left"></span> All categories </a></div>
+                <div class="col-12 col-lg-3 col-xl-2 d-none d-lg-block border-left"><a href="admin-categories.php" class="btn btn-link btn-sm font-weight-normal"><span class="rbt-icon-chevron-left"></span> All categories </a></div>
             </div>
         </ng-component>
     </div>
