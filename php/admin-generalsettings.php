@@ -73,7 +73,7 @@ $page_title = 'General settings';
                                 </button>
                                 </span></td>
                         </tr>
-                        <tr>
+                       <!-- <tr>
                             <td><b class="rbt-table-responsive-cell-label">
                                 <message key="admin.field.name">Name</message>
                                 </b> <span class="rbt-table-responsive-cell-content"> Application Name
@@ -110,7 +110,7 @@ $page_title = 'General settings';
                                 <message key="global.buttons.edit">Edit</message>
                                 </button>
                                 </span></td>
-                        </tr>
+                        </tr>-->
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">
                                 <message key="admin.field.name">Name</message>
