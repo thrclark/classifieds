@@ -42,6 +42,7 @@
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-imageupload";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-datepicker";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-clearfield";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-iconselector";
 
 // import Classifieds specific styles
 @import "custom/all-rbt-override";
@@ -55,6 +56,7 @@
 @import "custom/all-form-validation";
 @import "custom/admin-selectedimage-bg";
 @import "custom/admin-selectcolor-bg";
+@import "custom/admin-selecticon";
 
 // import theming
 @import "custom/all-theme";

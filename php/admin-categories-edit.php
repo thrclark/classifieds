@@ -43,27 +43,44 @@ $page_title = 'Categories';
                                         <!----> 
                                     </errors>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group mb-5">
                                     <label class="control-label" id="iconLabel">
                                         <message key="admin.category.field.icon">Icon</message>
                                     </label>
                                     <div class="ccf-instructional-text" id="iconDirections">
                                         <message key="admin.category.field.icon.directions">Select an icon to represent this category.</message>
                                     </div>
-                                    <icon-picker label-ids="iconLabel iconDirections"><!---->
-                                        
-                                        <div class="input-group"> <span class="input-group-prepend"> <span class="input-group-text"><i class="fa fa-battery-1"></i></span> </span>
-                                            <input ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" typeaheadminlength="0" typeaheadoptionfield="className" typeaheadoptionslimit="7" aria-labelledby="iconLabel iconDirections">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend icon-display"> <span class="input-group-text"><i class="fa fa-bus"></i></span> </div>
+                                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" value="Bus" id="iconName">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-primary" type="button" data-toggle="modal" data-target="#selectIcon">Choose</button>
                                         </div>
-                                        <p class="text-right">
-                                            <button class="btn btn-sm btn-link" type="button">
-                                            <message key="admin.icon.action.viewIconList">Choose from list</message>
-                                            </button>
-                                        </p>
-                                    </icon-picker>
+                                    </div>
                                     <errors controlname="icon"> 
                                         <!----> 
                                     </errors>
+                                </div>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="selectIcon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Select an icon</h5>
+                                                <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <?php include('includes/icon-selection.php') ?>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <div class="rbt-button-group">
+                                                    <button type="button" class="btn btn-primary">OK</button>
+                                                    <button class="btn btn-outline-primary">Cancel</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <form-invalid-alert> 
                                     <!----> 
@@ -85,5 +102,38 @@ $page_title = 'Categories';
     </div>
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
+<script>
+    
+    
+    // Set icon name
+    $("#iconSelection button").click(function() {
+        $("#iconName").val($(this).text());
+		
+		
+		
+    });
+    // Set icon class
+    $("#iconSelection button i").click(function() {
+        var iconClass = $(this).attr("class");
+        $(".icon-display i").removeClass();
+        $(".icon-display i").addClass(iconClass);
+    });
+    // Filtering function
+    function selectIcon() {
+        var input, filter, iconSelection, button, span, i;
+        input = document.getElementById("selectIcon");
+        filter = input.value.toUpperCase();
+        iconSelection = document.getElementById("iconSelection");
+        button = iconSelection.getElementsByTagName("button");
+        for (i = 0; i < button.length; i++) {
+            span = button[i].getElementsByTagName("span")[0];
+            if (span.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                button[i].style.display = "";
+            } else {
+                button[i].style.display = "none";
+            }
+        }
+    }
+</script>
 </body>
 </html>
