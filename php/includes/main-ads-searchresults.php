@@ -1,15 +1,6 @@
-
+s
 <div class="row">
-    <div class="postitem grid">
-        <div class="postitem-functions">
-           <div class="postitem-functions-set">
-                <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
-                <message key="main.watchlist.add">Add to Watchlist</message>
-                </span> </button>
-            </div>
-        </div>
-        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
-<div class="overlay"></div>
+    <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone1.jpg)"> </div>
@@ -23,17 +14,15 @@
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
             </div>
         </a>
-    </div>
-    <div class="postitem grid">
         <div class="postitem-functions">
-           <div class="postitem-functions-set">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
-                <message key="main.watchlist.add">Add to Watchlist</message>
+                <message key="main.watchlist.add">Save ad to watchlist</message>
                 </span> </button>
             </div>
         </div>
-        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
-<div class="overlay"></div>
+    </div>
+    <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone2.jpg)"> </div>
@@ -46,17 +35,15 @@
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
             </div>
         </a>
-    </div>
-    <div class="postitem grid">
         <div class="postitem-functions">
-           <div class="postitem-functions-set">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
-                <message key="main.watchlist.add">Add to Watchlist</message>
+                <message key="main.watchlist.add">Save ad to watchlist</message>
                 </span> </button>
             </div>
         </div>
-        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
-<div class="overlay"></div>
+    </div>
+    <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone3.jpg)"> </div>
@@ -69,29 +56,18 @@
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUK</div>
             </div>
         </a>
-    </div>
-    
-    
-    
-    
-      <div class="col-12 my-3">
-        <h2>Listings from other campuses</h2>
-    </div>
-    
-    
-    
-    
-    
-    <div class="postitem grid">
         <div class="postitem-functions">
-           <div class="postitem-functions-set">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
-                <message key="main.watchlist.add">Add to Watchlist</message>
+                <message key="main.watchlist.add">Save ad to watchlist</message>
                 </span> </button>
             </div>
         </div>
-        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
-<div class="overlay"></div>
+    </div>
+    <div class="col-12 my-3">
+        <h2>Listings from other campuses</h2>
+    </div>
+    <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone4.jpg)"> </div>
@@ -104,17 +80,15 @@
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
             </div>
         </a>
-    </div>
-    <div class="postitem grid">
         <div class="postitem-functions">
-           <div class="postitem-functions-set">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
-                <message key="main.watchlist.add">Add to Watchlist</message>
+                <message key="main.watchlist.add">Save ad to watchlist</message>
                 </span> </button>
             </div>
         </div>
-        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
-<div class="overlay"></div>
+    </div>
+    <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone5.jpg)"> </div>
@@ -127,17 +101,15 @@
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUB</div>
             </div>
         </a>
-    </div>
-    <div class="postitem grid">
         <div class="postitem-functions">
-           <div class="postitem-functions-set">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
-                <message key="main.watchlist.add">Add to Watchlist</message>
+                <message key="main.watchlist.add">Save ad to watchlist</message>
                 </span> </button>
             </div>
         </div>
-        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
-<div class="overlay"></div>
+    </div>
+    <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone6.jpg)"> </div>
@@ -150,17 +122,15 @@
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUPUI</div>
             </div>
         </a>
-    </div>
-    <div class="postitem grid">
         <div class="postitem-functions">
-           <div class="postitem-functions-set">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
-                <message key="main.watchlist.add">Add to Watchlist</message>
+                <message key="main.watchlist.add">Save ad to watchlist</message>
                 </span> </button>
             </div>
         </div>
-        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
-<div class="overlay"></div>
+    </div>
+    <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone7.jpg)"> </div>
@@ -173,17 +143,15 @@
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUPUI</div>
             </div>
         </a>
-    </div>
-    <div class="postitem grid">
         <div class="postitem-functions">
-           <div class="postitem-functions-set">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
-                <message key="main.watchlist.add">Add to Watchlist</message>
+                <message key="main.watchlist.add">Save ad to watchlist</message>
                 </span> </button>
             </div>
         </div>
-        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
-<div class="overlay"></div>
+    </div>
+    <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone8.jpg)"> </div>
@@ -196,17 +164,15 @@
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUPUI</div>
             </div>
         </a>
-    </div>
-    <div class="postitem grid">
         <div class="postitem-functions">
-           <div class="postitem-functions-set">
+            <div class="postitem-functions-set">
                 <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
-                <message key="main.watchlist.add">Add to Watchlist</message>
+                <message key="main.watchlist.add">Save ad to watchlist</message>
                 </span> </button>
             </div>
         </div>
-        <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
-<div class="overlay"></div>
+    </div>
+    <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone9.jpg)"> </div>
@@ -221,5 +187,12 @@
                 <div class="postitem-postlocation" ><i class="fa fa-map-marker" aria-hidden="true"></i> IUPUI</div>
             </div>
         </a>
+        <div class="postitem-functions">
+            <div class="postitem-functions-set">
+                <button class="btn btn-link favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
+                <message key="main.watchlist.add">Save ad to watchlist</message>
+                </span> </button>
+            </div>
+        </div>
     </div>
 </div>
