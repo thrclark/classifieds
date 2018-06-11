@@ -16,6 +16,20 @@ $page_title = 'Post ad';
 .invalid-feedback {
 	display: none;
 }
+.post-image{
+    display: none;
+}
+@media(max-width:767px) {
+    .post-image{
+        display: block;
+        position: absolute;
+        color: #fff;
+        left: 28px;
+        font-size: 48px;
+        top: 10px;
+        text-shadow: 0 0 10px rgba(0,0,0,0.72);
+    }
+}
 </style>
 </head>
 <body>
@@ -286,17 +300,23 @@ $page_title = 'Post ad';
                                                     </div>
                                                 </image-upload>
                                                 <div class="img-preview" dnd-sortable-container="" draggable="false" ng-reflect-sortable-data="" style="cursor: pointer;">
-                                                    <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="0" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
+                                                    <div dnd-sortable="" draggable="true" ng-reflect-index="0" style="cursor: move;" class=""> 
+                                                        <i class="fa fa-arrows post-image"></i>
+                                                        <img alt="" tabindex="0" ng-reflect-name="0" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
                                                         <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
                                                         <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                                         </span> </button>
                                                     </div>
-                                                    <div dnd-sortable="" draggable="true" ng-reflect-index="1" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="1" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
+                                                    <div dnd-sortable="" draggable="true" ng-reflect-index="1" style="cursor: move;" class=""> 
+                                                        <i class="fa fa-arrows post-image"></i>
+                                                        <img alt="" tabindex="0" ng-reflect-name="1" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
                                                         <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
                                                         <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                                         </span> </button>
                                                     </div>
-                                                    <div dnd-sortable="" draggable="true" ng-reflect-index="2" style="cursor: pointer;" class=""> <img alt="" tabindex="0" ng-reflect-name="2" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
+                                                    <div dnd-sortable="" draggable="true" ng-reflect-index="2" style="cursor: move;" class=""> 
+                                                        <i class="fa fa-arrows post-image"></i>
+                                                        <img alt="" tabindex="0" ng-reflect-name="2" src="http://via.placeholder.com/300x200" class="ng-untouched ng-pristine ng-valid">
                                                         <button class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> <span class="sr-only">
                                                         <message key="global.buttons.delete" ng-reflect-key="global.buttons.delete">Delete</message>
                                                         </span> </button>
@@ -308,7 +328,7 @@ $page_title = 'Post ad';
                                     </ccf-image-upload>
                                 </div>
                             </div>
-                            <p class="text-right" id="preSave"> <a class="btn btn-primary" id="submitForm" style="color:#FFFFFF">Post ad</a> <a class="btn btn-outline-primary" href="main-home.php">
+                            <p class="text-right" id="preSave"> <a class="btn btn-primary" id="submitForm" style="color:#FFFFFF">Publish</a> <a class="btn btn-outline-primary" href="main-home.php">
                                     <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Cancel</message>
                                 </a> </p>
                         </form>
