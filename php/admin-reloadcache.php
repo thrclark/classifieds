@@ -24,6 +24,14 @@ $page_title = 'Reload cache';
                             <h1> <?php echo $page_title; ?></h1>
                         </div>
                     </div>
+                    
+                    
+                    
+                    <div class="card bg-light">
+    <div class="card-body">
+        <span class="card-text">Voluptates quas voluptas a est est ut nisi. Laborum debitis perferendis voluptatem. Ut nemo sint itaque qui harum. Id unde qui architecto praesentium quo adipisci vero. Eaque deserunt voluptatum delectus eveniet quas aut modi quo. Exercitationem non voluptatem temporibus.</span>
+    </div>
+</div>
                     <div class="btn-group" dropdown="">
                         <button class="btn btn-primary" type="button">
                         <message key="admin.cache.reload.button">Reload</message>
