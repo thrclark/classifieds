@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'appconfig';
-$page_title = 'Google Analytics rollup';
+$page_title = 'Google Analytics Rollup';
 ?>
 
 <!DOCTYPE html>

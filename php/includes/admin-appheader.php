@@ -40,7 +40,7 @@
                             <li class="nav-item dropdown"> 
 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Configuration</a>
                                 <div class="dropdown-menu"> 
-<a <?php if ($page_title == 'Google Analytics rollup') { echo 'class="dropdown-item active"'; } ?> href="admin-garollup.php" class="dropdown-item" >Google Analytics Rollup</a> 
+<a <?php if ($page_title == 'Google Analytics Rollup') { echo 'class="dropdown-item active"'; } ?> href="admin-garollup.php" class="dropdown-item" >Google Analytics Rollup</a> 
 <a <?php if ($page_title == 'System parameters') { echo 'class="dropdown-item active"'; } ?> href="admin-sysparameters.php" class="dropdown-item">System Parameters</a> 
 <a <?php if ($page_title == 'Reload cache') { echo 'class="dropdown-item active"'; } ?> href="admin-reloadcache.php" class="dropdown-item" >Reload Cache </a> </div>
                             </li>
