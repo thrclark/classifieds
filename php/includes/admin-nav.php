@@ -41,8 +41,8 @@
         </li>
         <li><span class="text-uppercase">Configuration</span>
             <ul class="list-unstyled">
-                <li <?php if ($page_title == 'Google Analytics rollup') { echo 'class="active"'; } ?>>
-                    <a href="admin-garollup.php">Google Analytics rollup</a>
+                <li <?php if ($page_title == 'Google Analytics Rollup') { echo 'class="active"'; } ?>>
+                    <a href="admin-garollup.php">Google Analytics Rollup</a>
                 </li>
                 <li <?php if ($page_title == 'System parameters') { echo 'class="active"'; } ?>>
                     <a href="admin-sysparameters.php">System parameters</a>
