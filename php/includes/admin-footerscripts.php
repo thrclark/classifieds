@@ -281,21 +281,29 @@ $(document).ready(function() {
 
 <script>
 $(document).ready(function(){
-    $(".btn-report").click(function(){
-        $(".post-details-body, .modal-footer").hide();
+    $("#reportAd").click(function(){
+        $(".view-ad").hide();
 		$(".report-post").show();
     });
 	
-	$(".btn-reportcancel").click(function(){
-        $(".post-details-body, .modal-footer").show();
+	$("#cancelReport").click(function(){
+        $(".view-ad").show();
 		$(".report-post").hide();
     });
 	
-	$(".btn-reportsubmit").click(function(){
-        $(".report-post-confirm").show();
+	$("#submitReport").click(function(){
+        $(".report-confirm").show();
 		$(".report-post").hide();
     });
 	
+	$("#viewPolicy").click(function(){
+        $(".view-policy").show();
+		$(".report-post").hide();
+    });
+	$("#returnToReport").click(function(){
+        $(".view-policy").hide();
+		$(".report-post").show();
+    });
 	
 	
 	
