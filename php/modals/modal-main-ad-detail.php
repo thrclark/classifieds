@@ -77,8 +77,8 @@
                             <option>Other</option>
                         </select>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Additional information</label>
+                    <div class="form-group">	
+                        <label for="exampleFormControlTextarea1">Additional detail</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                     </div>
                 </form>
