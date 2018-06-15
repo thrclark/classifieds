@@ -282,27 +282,27 @@ $(document).ready(function() {
 <script>
 $(document).ready(function(){
     $("#reportAd").click(function(){
-        $(".view-ad").hide();
-		$(".report-post").show();
+        $(".demojs-view-posting").hide();
+		$(".demojs-report-post").show();
     });
 	
 	$("#cancelReport").click(function(){
-        $(".view-ad").show();
-		$(".report-post").hide();
+        $(".demojs-view-posting").show();
+		$(".demojs-report-post").hide();
     });
 	
 	$("#submitReport").click(function(){
-        $(".report-confirm").show();
-		$(".report-post").hide();
+        $(".demojs-report-confirm").show();
+		$(".demojs-report-post").hide();
     });
 	
 	$("#viewPolicy").click(function(){
-        $(".view-policy").show();
-		$(".report-post").hide();
+        $(".demojs-view-policy").show();
+		$(".demojs-report-post").hide();
     });
 	$("#returnToReport").click(function(){
-        $(".view-policy").hide();
-		$(".report-post").show();
+        $(".demojs-view-policy").hide();
+		$(".demojs-report-post").show();
     });
 	
 	
