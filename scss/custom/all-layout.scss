@@ -65,3 +65,8 @@ body {
 .form-group label {
 	font-size: 1rem !important;
 }
+
+.input-group > .form-control, .input-group > .custom-select, .input-group > .custom-file {
+
+	height: 41px;
+}

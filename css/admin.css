@@ -8647,6 +8647,9 @@ body {
 .form-group label {
   font-size: 1rem !important; }
 
+.input-group > .form-control, .input-group > .custom-select, .input-group > .custom-file {
+  height: 41px; }
+
 .favorite .fa.fa-star {
   color: #fd7e14;
   font-size: 16px; }
