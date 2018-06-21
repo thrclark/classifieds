@@ -1,6 +1,9 @@
 .faded {
   opacity: .6; }
-
+.dropdown-toggle {
+  margin-left: 0px !important;
+  margin-right: 5px !important;
+}
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -6850,7 +6853,8 @@ button:disabled.rbt-btn-progress {
   opacity: .3; }
 
 .dropdown-toggle::after {
-  margin-left: 5px;
+  margin-left: 1px;
+  margin-right: 5px;
   vertical-align: -3px;
   border-top: none;
   border-right: none;
