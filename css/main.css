@@ -2308,7 +2308,7 @@ tbody.collapse.show {
   .dropdown-item:hover, .dropdown-item:focus {
     color: #373737;
     text-decoration: none;
-    background-color: #eeeeee; }
+    background-color: #fff; }
   .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
@@ -6841,6 +6841,8 @@ button:disabled.rbt-btn-progress {
       display: block;
       padding: 1rem;
       line-height: 1.5rem; }
+      .rbt-drawer .list-group .list-group-item a:focus, .rbt-drawer .ccf-mobile-categories .list-group-item a:focus {
+        outline-offset: -2px; }
 
 @media (min-width: 576px) {
   .rbt-drawer {
@@ -6849,7 +6851,8 @@ button:disabled.rbt-btn-progress {
   opacity: .3; }
 
 .dropdown-toggle::after {
-  margin-left: 5px;
+  margin-left: 2px;
+  margin-right: 5px;
   vertical-align: -3px;
   border-top: none;
   border-right: none;
@@ -6882,6 +6885,8 @@ button:disabled.rbt-btn-progress {
   .dropdown-item:hover {
     background-color: #006298;
     color: #fff; }
+  .dropdown-item:focus {
+    outline-offset: 0px; }
 
 .dropdown-header {
   font-weight: 700;
@@ -7051,12 +7056,12 @@ button:disabled.rbt-btn-progress {
   content: "\e92f"; }
 
 .rbt-footer {
-  background-color: #fafafa;
+  background-color: #f7f7f7;
   border-top: 1px solid #eeeeee;
   width: 100%;
   padding: 0.5rem 1.5rem; }
   .rbt-footer .row, .rbt-footer .ccf-mobile-categories .list-group-item a, .ccf-mobile-categories .list-group-item .rbt-footer a {
-    height: 60px; }
+    min-height: 42px; }
     .rbt-footer .row img, .rbt-footer .ccf-mobile-categories .list-group-item a img, .ccf-mobile-categories .list-group-item .rbt-footer a img {
       width: 24px;
       height: auto;
@@ -7355,24 +7360,26 @@ select.form-control {
     color: #444444;
     font-size: 1.125rem;
     margin-left: -.5rem; }
-  .rbt-app-header .nav .nav-item .nav-link {
-    color: #444444;
-    padding-left: 0rem;
-    padding-right: 2.5rem;
-    display: inline-block; }
-    .rbt-app-header .nav .nav-item .nav-link:after {
-      margin-left: 10px; }
-    .rbt-app-header .nav .nav-item .nav-link.dropdown-toggle {
+  .rbt-app-header .nav .nav-item {
+    margin-right: 2rem; }
+    .rbt-app-header .nav .nav-item .nav-link {
+      color: #444444;
+      padding: 0rem;
       display: inline-block; }
-    .rbt-app-header .nav .nav-item .nav-link[aria-expanded="true"]:after {
-      content: "\e913"; }
-  .rbt-app-header .nav .nav-item button.nav-link {
-    background: none;
-    border: none; }
-    .rbt-app-header .nav .nav-item button.nav-link:focus {
-      outline: 0; }
-  .rbt-app-header .nav .nav-item:last-child .nav-link {
-    padding-right: 0rem; }
+      .rbt-app-header .nav .nav-item .nav-link:after {
+        margin-left: 10px; }
+      .rbt-app-header .nav .nav-item .nav-link:focus {
+        box-shadow: none; }
+      .rbt-app-header .nav .nav-item .nav-link.dropdown-toggle {
+        display: inline-block;
+        padding-right: .2rem; }
+      .rbt-app-header .nav .nav-item .nav-link[aria-expanded="true"]:after {
+        content: "\e913"; }
+    .rbt-app-header .nav .nav-item button.nav-link {
+      background: none;
+      border: none; }
+    .rbt-app-header .nav .nav-item:last-child .nav-link {
+      padding-right: 0rem; }
   .rbt-app-header .rbt-user-info {
     padding-left: 3rem; }
   .rbt-app-header .rbt-drawer-button {
@@ -7381,8 +7388,11 @@ select.form-control {
     border-left: 1px solid #dddddd; }
     .rbt-app-header .rbt-drawer-button.open {
       background: #eeeeee; }
-      .rbt-app-header .rbt-drawer-button.open .rbt-icon-menu:before {
+      .rbt-app-header .rbt-drawer-button.open .btn.btn-link .rbt-icon-menu:before, .rbt-app-header .rbt-drawer-button.open ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button .rbt-icon-menu:before, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header .rbt-drawer-button.open label.btn-link.img-ul-button .rbt-icon-menu:before {
         content: "\e919"; }
+      .rbt-app-header .rbt-drawer-button.open .btn.btn-link:focus, .rbt-app-header .rbt-drawer-button.open ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button:focus, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header .rbt-drawer-button.open label.btn-link.img-ul-button:focus {
+        background: #006298;
+        color: #fff; }
     .rbt-app-header .rbt-drawer-button .btn, .rbt-app-header .rbt-drawer-button ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header .rbt-drawer-button label.img-ul-button {
       height: 48px;
       width: 48px;
@@ -7392,8 +7402,14 @@ select.form-control {
       -webkit-border-radius: 0px;
       -moz-border-radius: 0px;
       border-radius: 0px; }
+    .rbt-app-header .rbt-drawer-button .btn.btn-link .rbt-icon-menu, .rbt-app-header .rbt-drawer-button ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button .rbt-icon-menu, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header .rbt-drawer-button label.btn-link.img-ul-button .rbt-icon-menu {
+      margin-left: 0px; }
     .rbt-app-header .rbt-drawer-button .btn.btn-link:hover, .rbt-app-header .rbt-drawer-button ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button:hover, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header .rbt-drawer-button label.btn-link.img-ul-button:hover {
       background: none; }
+    .rbt-app-header .rbt-drawer-button .btn.btn-link:focus, .rbt-app-header .rbt-drawer-button ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button:focus, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header .rbt-drawer-button label.btn-link.img-ul-button:focus {
+      box-shadow: none !important;
+      outline: 0.125rem solid #006298;
+      outline-offset: -2px; }
 
 @media (min-width: 576px) {
   .rbt-app-header {
@@ -8303,6 +8319,9 @@ ccf-image-upload {
   padding-left: .75rem;
   margin-left: -1px;
   padding-top: 4px; }
+
+a:focus, button:focus {
+  outline: 0.125rem solid #006298; }
 
 @font-face {
   font-family: 'rbt-fonts';

@@ -2,7 +2,7 @@
 // load custom variables & mixins
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-variables";
 @import "custom/all-effects";
-
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-mixins.scss";
 
 // import core Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
@@ -28,6 +28,7 @@
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-tables-responsive.scss";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-typescale.scss";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-userprofile.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-focusstyling";
 
 
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-fonts";
@@ -52,7 +53,7 @@
 @import "custom/all-layout";
 @import "custom/all-favoriting";
 @import "custom/all-section-header";
-@import "custom/all-posting";
+@import "custom/main-posting";
 @import "custom/all-form-validation";
 @import "custom/admin-selectedimage-bg";
 @import "custom/admin-selectcolor-bg";
