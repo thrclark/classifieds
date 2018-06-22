@@ -51,7 +51,7 @@
                     </div>
                 </div>
             </div>
-            <div class="btn-group d-none d-sm-inline" role="group" style="font-size: 0;">
+            <div class="btn-group d-none d-sm-inline ml-3" role="group" style="font-size: 0;">
                 <button class="btn btn-sm btn-outline-primary active" type="button" id="set_grid">
                 <span class="sr-only">
                 <message key="main.view.grid">Grid View</message>
