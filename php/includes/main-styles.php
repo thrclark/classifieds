@@ -13,4 +13,11 @@
 	margin-right: auto;
 	vertical-align: middle;
 }
+
+.sidebar ul li i{
+	margin: 0 10px 0 0;
+	width: 17px;
+	text-align: center;
+}
+
 </style>
