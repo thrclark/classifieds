@@ -7,9 +7,6 @@
 <script src="../js/jquery.sticky.js"></script>
 <script src="../js/bootstrap-maxlength.js"></script>
 
-
-
-
 <!--mobile search-->
 <script>
     $(document).ready(function() {
@@ -27,7 +24,6 @@
         });
     });
 </script>
-
 <script>
 $(document).ready(function() {
     $('#mainSearch').keydown(function() {
@@ -49,14 +45,11 @@ $(document).ready(function() {
     });
 });
 </script>
-
 <script>
     $(".rbt-drawer-button").click(function() {
         $(".rbt-drawer,.rbt-drawer-button").toggleClass("open");	
     });
 </script>
-
-
 <script>
     $(".rbt-drawer-button").click(function() {
        
@@ -67,11 +60,6 @@ $(document).ready(function() {
         $(".rbt-drawer,.rbt-drawer-button").removeClass("open");
     });
 </script>
-
-
-
-
-
 <script>
     $(document).ready(function() {
         $(".rbt-app-header").sticky({
@@ -101,7 +89,6 @@ $(document).ready(function() {
         $("#mainsearch").focus();
     });
 </script>
-
 <script>
     $(document).ready(function() {
         $('#set_grid').click(function() {
@@ -168,13 +155,6 @@ $(document).ready(function() {
         });
     });
 </script>
-
-
-
-
-
-
-
 <script type="text/javascript">
     $(document).ready(function() {
         $(".postitem, .btn").click(function() {
@@ -187,17 +167,6 @@ $(document).ready(function() {
         });
     });
 </script>
-
-
-
-
-
-
-
-
-
-
-
 <script>
     $(document).ready(function() {
         $(".favorite").click(function() {
@@ -209,29 +178,6 @@ $(document).ready(function() {
         })
     });
 </script>
-
-
-
-
-<script>
-
-	
-	
-	
-	$("#togle_help").change(function() {
-    if(this.checked) {
-        $(".ccf-instructional-text").fadeIn();
-		
-    }
-	else {
-		 $(".ccf-instructional-text").fadeOut();
-            }
-});
-
-
-
-</script> 
-
 <script>
     $(document).ready(function() {
         $('#mainsearch').keydown(function() {
@@ -253,7 +199,6 @@ $(document).ready(function() {
         });
     });
 </script>
-
 <script>
     $(document).ready(function() {
         $('#mainsearch-mobile').keydown(function() {
@@ -275,10 +220,6 @@ $(document).ready(function() {
         });
     });
 </script>
-
-
-
-
 <script>
 $(document).ready(function(){
     $(".btn-report").click(function(){
@@ -302,8 +243,6 @@ $(document).ready(function(){
     
 });
 </script>
-
-
 <script>
 $(function(){
     $("[data-toggle=popover]").popover({
@@ -319,7 +258,6 @@ $(function(){
     });
 });
 </script>
-
 <script> //page reset for prototype only
     $(document).ready(function() {
         $(window).resize(function() {
@@ -331,6 +269,3 @@ $(function(){
         });
     });
 </script>
-
-
-

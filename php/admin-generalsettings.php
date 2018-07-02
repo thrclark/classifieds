@@ -21,12 +21,6 @@ $page_title = 'General settings';
                     <div class="col-auto">
                         <h1> <?php echo $page_title; ?></h1>
                     </div>
-                    <div class="col-auto">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="togle_help" value="on" checked>
-                            <label class="form-check-label" for="togle_help">Help</label>
-                        </div>
-                    </div>
                 </div>
                 <table class="table rbt-table-responsive">
                     <thead>
@@ -73,7 +67,7 @@ $page_title = 'General settings';
                                 </button>
                                 </span></td>
                         </tr>
-                       <!-- <tr>
+                        <!-- <tr>
                             <td><b class="rbt-table-responsive-cell-label">
                                 <message key="admin.field.name">Name</message>
                                 </b> <span class="rbt-table-responsive-cell-content"> Application Name
@@ -167,34 +161,28 @@ $page_title = 'General settings';
                                 <message key="global.buttons.edit">Edit</message>
                                 </button>
                                 </span></td>
-                        </tr><tr>
-				<td>
-					<b class="rbt-table-responsive-cell-label"><message key="admin.field.name">Name</message></b>
-					<span class="rbt-table-responsive-cell-content">
-						Google Analytics ID
-						<div class="ccf-instructional-text">The ID of the Google Analytics property to send events to.</div>
-					</span>
-				</td>
-				<td>
-					<b class="rbt-table-responsive-cell-label"><message key="admin.header.value">Value</message></b>
-					<span class="rbt-table-responsive-cell-content">
-						<!----><div>
-			            	UA-39645822-7
-			            </div>
-			            <!---->
-					</span>
-				</td>
-				<td>
-					<b class="rbt-table-responsive-cell-label">
-						<span class="d-md-none">
-							<message key="admin.header.actions">Actions</message>
-						</span>
-					</b>
-					<span class="rbt-table-responsive-cell-content">
-						<button class="btn btn-outline-primary btn-sm" type="button"><message key="global.buttons.edit">Edit</message></button>
-					</span>
-				</td>
-			</tr>
+                        </tr>
+                        <tr>
+                            <td><b class="rbt-table-responsive-cell-label">
+                                <message key="admin.field.name">Name</message>
+                                </b> <span class="rbt-table-responsive-cell-content"> Google Analytics ID
+                                <div class="ccf-instructional-text">The ID of the Google Analytics property to send events to.</div>
+                                </span></td>
+                            <td><b class="rbt-table-responsive-cell-label">
+                                <message key="admin.header.value">Value</message>
+                                </b> <span class="rbt-table-responsive-cell-content"> 
+                                <!---->
+                                <div> UA-39645822-7 </div>
+                                <!----> 
+                                </span></td>
+                            <td><b class="rbt-table-responsive-cell-label"> <span class="d-md-none">
+                                <message key="admin.header.actions">Actions</message>
+                                </span> </b> <span class="rbt-table-responsive-cell-content">
+                                <button class="btn btn-outline-primary btn-sm" type="button">
+                                <message key="global.buttons.edit">Edit</message>
+                                </button>
+                                </span></td>
+                        </tr>
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">
                                 <message key="admin.field.name">Name</message>

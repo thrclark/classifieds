@@ -23,7 +23,7 @@ $page_title = 'Edit API account ';
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-lg-9 col-xl-10 ">
+                <div class="col-12">
                     <div class="row">
                         <div class="col-12 col-lg-10 col-xl-8">
                             <form novalidate class="ng-pristine ng-invalid ng-touched">
@@ -128,7 +128,6 @@ $page_title = 'Edit API account ';
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3 col-xl-2 d-none d-lg-block border-left"><a href="admin-apiaccounts.php" class="btn btn-link btn-sm font-weight-normal"><span class="rbt-icon-chevron-left"></span> All API accounts </a></div>
             </div>
         </ng-component>
     </div>
