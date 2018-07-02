@@ -21,16 +21,6 @@ $page_title = 'Branding';
                     <div class="col-auto">
                         <h1> <?php echo $page_title; ?></h1>
                     </div>
-                    <!-- post mvp
-                   
-                   <div class="col-auto">
-                        <div class="form-check rbt-checkbox" >
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" id="togle_help" value="on" checked>
-                                <label class="form-check-label" for="togle_help">Help</label>
-                            </div>
-                        </div>
-                    </div>--> 
                 </div>
                 <div class="ccf-table-responsive-container">
                     <table class="table rbt-table-responsive">
@@ -75,7 +65,7 @@ $page_title = 'Branding';
                                                 </div>
                                             </div>
                                         </div>
-                                       <div class="col-md-12 mb-3">
+                                        <div class="col-md-12 mb-3">
                                             <label class="font-weight-normal mb-0" for="color_background">Background</label>
                                             <div class="input-group ">
                                                 <input type="text" class="form-control jscolor" id="color_background" value="F4F3EE" autocomplete="off">

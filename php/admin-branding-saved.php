@@ -21,14 +21,6 @@ $page_title = 'Branding';
                     <div class="col-auto">
                         <h1> <?php echo $page_title; ?></h1>
                     </div>
-                    <div class="col-auto">
-                        <div class="form-check rbt-checkbox" >
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" id="togle_help" value="on" checked>
-                                <label class="form-check-label" for="togle_help">Help</label>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <table class="table table-sm table-actions tablesawww tablesaw-stackkk" data-tablesaw-mode="stackkk">
                     <thead>
