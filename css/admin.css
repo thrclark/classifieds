@@ -6851,6 +6851,9 @@ button:disabled.rbt-btn-progress {
 .faded {
   opacity: .3; }
 
+.dropdown-toggle:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.25rem #006298; }
 .dropdown-toggle::after {
   margin-left: 2px;
   margin-right: 5px;
@@ -6866,7 +6869,8 @@ button:disabled.rbt-btn-progress {
   text-decoration: inherit;
   font-size: 1rem;
   margin-top: -10px;
-  width: 0.75rem; }
+  width: 0.75rem;
+  padding-right: 1.25rem; }
 
 .dropdown .dropdown-menu.show, .btn-group .dropdown-menu.show {
   margin-top: 0.5rem; }
@@ -6887,7 +6891,8 @@ button:disabled.rbt-btn-progress {
     background-color: #006298;
     color: #fff; }
   .dropdown-item:focus {
-    outline-offset: 0px; }
+    outline-offset: 0px;
+    background-color: initial; }
 
 .dropdown-header {
   font-weight: 700;
@@ -7365,22 +7370,33 @@ select.form-control {
     margin-right: 2rem; }
     .rbt-app-header .nav .nav-item .nav-link {
       color: #444444;
-      padding: 0rem;
+      padding: 0 0.25rem;
+      cursor: pointer;
       display: inline-block; }
       .rbt-app-header .nav .nav-item .nav-link:after {
         margin-left: 10px; }
-      .rbt-app-header .nav .nav-item .nav-link:focus {
-        box-shadow: none; }
       .rbt-app-header .nav .nav-item .nav-link.dropdown-toggle {
-        display: inline-block;
-        padding-right: .2rem; }
+        display: inline-block; }
       .rbt-app-header .nav .nav-item .nav-link[aria-expanded="true"]:after {
         content: "\e913"; }
+    .rbt-app-header .nav .nav-item > .nav-link.active {
+      position: relative; }
+      .rbt-app-header .nav .nav-item > .nav-link.active::after {
+        content: " ";
+        position: absolute;
+        background-color: #006298;
+        height: 0.25rem;
+        width: 100%;
+        top: 2.9rem;
+        left: -0.6rem; }
+    .rbt-app-header .nav .nav-item a:focus, .rbt-app-header .nav .nav-item button:focus {
+      outline: none;
+      box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.25rem #006298; }
     .rbt-app-header .nav .nav-item button.nav-link {
       background: none;
       border: none; }
-    .rbt-app-header .nav .nav-item:last-child .nav-link {
-      padding-right: 0rem; }
+    .rbt-app-header .nav .nav-item:last-child {
+      margin-right: 0rem; }
   .rbt-app-header .rbt-user-info {
     padding-left: 3rem; }
   .rbt-app-header .rbt-drawer-button {
@@ -7433,17 +7449,22 @@ ul {
 ul li, ol li {
   line-height: 2; }
 
-.modal-content {
+.modal.show .modal-dialog {
+  transform: none !important; }
+.modal.fade .modal-dialog {
+  transition: none !important;
+  transform: none !important; }
+.modal .modal-content {
   overflow: hidden; }
-  .modal-content .modal-header {
+  .modal .modal-content .modal-header {
     padding: 1.5rem 1rem; }
-    .modal-content .modal-header .modal-title {
+    .modal .modal-content .modal-header .modal-title {
       font-size: 1.25rem;
       font-weight: 700;
       line-height: 1; }
-    .modal-content .modal-header .close {
+    .modal .modal-content .modal-header .close {
       margin: -7px -5px -15px auto; }
-  .modal-content .modal-footer {
+  .modal .modal-content .modal-footer {
     padding: 1rem 1.5rem;
     background: #fafafa; }
 
