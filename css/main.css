@@ -5298,7 +5298,7 @@ button.bg-dark:focus {
 .p-3, ccf-image-upload image-upload .img-ul {
   padding: 1rem !important; }
 
-.pt-3, .main-content .main-content-section .section-head .ccf-clearsearch,
+.pt-3,
 .py-3 {
   padding-top: 1rem !important; }
 
@@ -7573,8 +7573,7 @@ ul li, ol li {
     display: none; } }
 .ts-12,
 .rbt-ts-12,
-.rbt-footer,
-.main-content .main-content-section .section-head .ccf-clearsearch {
+.rbt-footer {
   font-size: 0.75rem !important; }
 
 .ts-14,
@@ -7584,7 +7583,14 @@ ul li, ol li {
 .warning-feedback,
 .invalid-feedback,
 .info-feedback,
-.ccf-instructional-text {
+.ccf-instructional-text,
+.main-content .main-content-section .section-head .ccf-clearsearch,
+.main-content .main-content-section .section-head .section-head-utilities .dropdown .btn,
+.main-content .main-content-section .section-head .section-head-utilities .dropdown ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .dropdown label.img-ul-button,
+.main-content .main-content-section .section-head .section-head-utilities .dropdown .btn:after,
+.main-content .main-content-section .section-head .section-head-utilities .dropdown ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:after,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .dropdown label.img-ul-button:after {
   font-size: 0.875rem !important; }
 
 .ts-16,
@@ -7643,8 +7649,7 @@ p {
 
 .ts-12,
 .rbt-ts-12,
-.rbt-footer,
-.main-content .main-content-section .section-head .ccf-clearsearch {
+.rbt-footer {
   font-size: 0.75rem !important; }
 
 .ts-14,
@@ -7654,7 +7659,14 @@ p {
 .warning-feedback,
 .invalid-feedback,
 .info-feedback,
-.ccf-instructional-text {
+.ccf-instructional-text,
+.main-content .main-content-section .section-head .ccf-clearsearch,
+.main-content .main-content-section .section-head .section-head-utilities .dropdown .btn,
+.main-content .main-content-section .section-head .section-head-utilities .dropdown ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .dropdown label.img-ul-button,
+.main-content .main-content-section .section-head .section-head-utilities .dropdown .btn:after,
+.main-content .main-content-section .section-head .section-head-utilities .dropdown ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:after,
+ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .dropdown label.img-ul-button:after {
   font-size: 0.875rem !important; }
 
 .ts-16,
@@ -8651,6 +8663,8 @@ body {
   padding: 0px;
   font-weight: normal;
   font-style: italic; }
+.main-content .main-content-section .section-head .section-head-utilities .dropdown .btn.btn-link, .main-content .main-content-section .section-head .section-head-utilities .dropdown ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .dropdown label.btn-link.img-ul-button {
+  padding-right: 0px; }
 .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch {
   vertical-align: inherit; }
   .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn.btn-sm, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch .btn-group-sm > .btn, .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .btn-group.util-view-switch label.img-ul-button {
@@ -8671,6 +8685,9 @@ body {
 .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .btn.btn-link .short-name, .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button .short-name, ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location label.btn-link.img-ul-button .short-name {
   display: inline; }
 
+@media (min-width: 576px) {
+  .main-content .main-content-section .section-head .ccf-clearsearch {
+    padding-top: 10px; } }
 @media (min-width: 992px) {
   .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location .btn.btn-link .long-name, .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button .long-name, ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-content-section .section-head .section-head-utilities .dropdown.util-location label.btn-link.img-ul-button .long-name {
     display: inline; }
