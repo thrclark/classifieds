@@ -21,16 +21,6 @@ $page_title = 'Branding';
                     <div class="col-auto">
                         <h1> <?php echo $page_title; ?></h1>
                     </div>
-                    <!-- post mvp
-                   
-                   <div class="col-auto">
-                        <div class="form-check rbt-checkbox" >
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" id="togle_help" value="on" checked>
-                                <label class="form-check-label" for="togle_help">Help</label>
-                            </div>
-                        </div>
-                    </div>--> 
                 </div>
                 <div class="ccf-table-responsive-container">
                     <table class="table rbt-table-responsive">
@@ -57,22 +47,31 @@ $page_title = 'Branding';
                                 <td><span class="rbt-table-responsive-cell-content">Application colors</span>
                                     <div class="ccf-instructional-text">Choose primary, accent &amp; page background colors.</div></td>
                                 <td><div class="form-row">
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                <label class="font-weight-normal" for="color_primary">Primary</label>
+                                        <div class="col-md-12 mb-3">
+                                            <label class="font-weight-normal mb-0" for="color_primary">Primary</label>
+                                            <div class="input-group ">
                                                 <input type="text" class="form-control jscolor" id="color_primary" value="243E4C" autocomplete="off">
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-outline-primary" type="button"><i aria-hidden="true" class="fa fa-eyedropper"></i> <span class="sr-only">Select color</span></button>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                <label class="font-weight-normal" for="color_accent">Accent</label>
+                                        <div class="col-md-12 mb-3">
+                                            <label class="font-weight-normal mb-0" for="color_accent">Accent</label>
+                                            <div class="input-group ">
                                                 <input type="text" class="form-control jscolor" id="color_accent" value="FFC61A" autocomplete="off">
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-outline-primary" type="button"><i aria-hidden="true" class="fa fa-eyedropper"></i> <span class="sr-only">Select color</span></button>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                <label class="font-weight-normal" for="color_background">Background</label>
+                                        <div class="col-md-12 mb-3">
+                                            <label class="font-weight-normal mb-0" for="color_background">Background</label>
+                                            <div class="input-group ">
                                                 <input type="text" class="form-control jscolor" id="color_background" value="F4F3EE" autocomplete="off">
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-outline-primary" type="button"><i aria-hidden="true" class="fa fa-eyedropper"></i> <span class="sr-only">Select color</span></button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div></td>
@@ -437,14 +436,14 @@ $page_title = 'Branding';
                             <tr>
                                 <td><span class="rbt-table-responsive-cell-content">Custom footer HTML <span class="small font-italic">(optional)</span></span>
                                     <div class="ccf-instructional-text">Specify optional HTML markup to be displayed at the bottom of the application views.</div></td>
-                                <td>  <div class="form-group">
-                        <label for="textarea-footerhtml" class="sr-only">Custom footer html</label>
-                        <textarea name="textarea-footerhtml" rows="5" class="form-control" id="textarea-footerhtml"></textarea>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1">
-                            <label class="form-check-label font-weight-normal mt-3" for="inlineCheckbox2">Include custom footer on screens that are less than 768px wide.</label>
-                        </div>
-                    </div></td>
+                                <td><div class="form-group">
+                                        <label for="textarea-footerhtml" class="sr-only">Custom footer html</label>
+                                        <textarea name="textarea-footerhtml" rows="5" class="form-control" id="textarea-footerhtml"></textarea>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1">
+                                            <label class="form-check-label font-weight-normal mt-3" for="inlineCheckbox2">Include custom footer on screens that are less than 768px wide.</label>
+                                        </div>
+                                    </div></td>
                             </tr>
                             <tr>
                                 <td><span class="rbt-table-responsive-cell-content">Custom  CSS <span class="small font-italic">(optional)</span></span>
@@ -456,7 +455,6 @@ $page_title = 'Branding';
                             </tr>
                         </tbody>
                     </table>
-                  
                 </div>
                 <p class="text-right">
                     <button class="btn btn-primary btn-progressable" type="submit"><span class="btn-label">Apply branding</span> </button>

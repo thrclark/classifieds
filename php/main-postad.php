@@ -308,7 +308,7 @@ $page_title = 'Post ad';
                                 <p class="ccf-instructional-text">Please review the fields on this form for any needed corrections.</p>
                             </div>
                             <p class="text-right">
-                                <button class="btn btn-primary" id="submitForm" type="submit">Post ad</button>
+                                <button class="btn btn-primary" id="submitForm" type="submit">Save</button>
                                 <a class="btn btn-outline-primary" href="main-home.php">
                                     <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Cancel</message>
                                 </a> </p>

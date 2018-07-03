@@ -1,4 +1,4 @@
-s
+
 <div class="row">
     <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
             <div class="postitem-row">

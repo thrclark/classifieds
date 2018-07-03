@@ -54,7 +54,7 @@
             <li class="list-group-item"> <a href="admin-ads.php">Admin</a> </li>
             <li class="list-group-item"> <a href="main-myads.php">My ads (1)</a> </li>
             <li class="list-group-item"> <a href="main-watchlist.php">My watchlist (4)</a> </li>
-            <li class="list-group-item"> <a href="">Ads policy</a> </li>
+            <li class="list-group-item"> <a href="">Policy</a> </li>
         </ul>
     </nav>
 </div>
