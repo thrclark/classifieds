@@ -5,7 +5,7 @@
         <li <?php if ($page_title == 'Watchlist') { echo 'class="active"'; } ?>> <a href="main-watchlist.php">Watchlist (4)</a> </li>
         <li> <a href="#" class="">Policy</a></li>
         <li class="dropdown-divider"> </li>
-        <li <?php if ($page_title == 'All ads') { echo 'class="active"'; } ?>> <a href="main-home.php"><i class="fa fa-th" aria-hidden="true"></i> All Ads</a></li>
+        <li <?php if ($page_title == 'All ads') { echo 'class="active"'; } ?>> <a href="main-home.php"><i class="fa fa-th d-none d-lg-inline" aria-hidden="true"></i> All Ads</a></li>
         <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-soccer-ball-o" aria-hidden="true"></i> Activity Partners</a></li>
         <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-bullhorn" aria-hidden="true"></i> Announcements</a></li>
         <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-shield" aria-hidden="true"></i> Antiques &amp; collectibles</a></li>
