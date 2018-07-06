@@ -11,6 +11,24 @@
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body">
+            
+            
+            
+            
+            
+
+<div class="alert alert-danger fade show" role="alert">
+    <div class="alert-heading">Reported</div>
+    <p class="small mb-3">This ad has been reported by user 'thrclark' for potential policy violations.</p>
+    
+    
+  <p> <button class="btn btn-sm btn-outline-primary"> View report</button></p>
+    
+</div>
+
+
+
+
                 <div class="row no-gutters mb-3">
                     <div class="col-12 rbt-ts-23">$1400.00 or best offer</div>
                     <div class="col-auto small"> <span class="font-italic">2/14/18 </span> </div>
