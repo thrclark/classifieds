@@ -13,21 +13,14 @@
 	margin-right: auto;
 	vertical-align: middle;
 }
-.fa{
-	text-align: center;
+.rbt-sidebar-nav li.active:before {
+    content:"\00a0"; 
+    margin-left: -0.25rem;
+    padding-left: 0.25rem;
+    box-shadow: -2px 0 0 #333333;
+    position: absolute;
 }
-.sidebar ul li i{
-	margin: 2px 10px 0 0;
-	width: 20px;
-	float: left;
+.rbt-sidebar-nav .d-flex .ccf-navlabel {
+	flex: 1 1 auto;
 }
-.sidebar ul li p{
-	overflow: hidden;
-	margin-bottom: 5px !important;
-}
-.rbt-sidebar-nav li.active a {
-    display: inline-flex !important;
-    margin-bottom: -8px;
-}
-
 </style>
