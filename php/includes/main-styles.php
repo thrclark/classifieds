@@ -13,11 +13,21 @@
 	margin-right: auto;
 	vertical-align: middle;
 }
-
-.sidebar ul li i{
-	margin: 0 10px 0 0;
-	width: 17px;
+.fa{
 	text-align: center;
+}
+.sidebar ul li i{
+	margin: 2px 10px 0 0;
+	width: 20px;
+	float: left;
+}
+.sidebar ul li p{
+	overflow: hidden;
+	margin-bottom: 5px !important;
+}
+.rbt-sidebar-nav li.active a {
+    display: inline-flex !important;
+    margin-bottom: -8px;
 }
 
 </style>
