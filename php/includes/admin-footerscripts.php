@@ -120,6 +120,16 @@ $(document).ready(function() {
 
     });
 </script>
+
+
+
+
+
+
+
+v
+
+
 <script>
     $(document).ready(function() {
         $(function() {
@@ -220,6 +230,9 @@ $(document).ready(function() {
         });
     });
 </script>
+
+
+
 <script>
 $(document).ready(function(){
     $("#reportAd").click(function(){
@@ -245,12 +258,45 @@ $(document).ready(function(){
         $(".demojs-view-policy").hide();
 		$(".demojs-report-post").show();
     });
-	
-	
-	
     
 });
 </script>
+
+
+
+
+<script>
+$(document).ready(function(){
+    $(".demojs-btn-viewreport").click(function(){
+        $(".demojs-admin-defaultview, .demojs-admin-view-policy").hide();
+		$(".demojs-admin-viewreport").show();
+    });
+ 	$(".demojs-btn-viewad").click(function(){
+        $(".demojs-admin-viewreport, .demojs-admin-view-policy").hide();
+		$(".demojs-admin-defaultview").show();
+    });
+	$(".demojs-btn-viewpolicy").click(function(){
+        $(".demojs-admin-viewreport").hide();
+		$(".demojs-admin-view-policy").show();
+    });
+	
+	
+	$(".demojs-btn-deactivatead").click(function(){
+        $(".demojs-admin-viewreport, .demojs-admin-defaultview").hide();
+		$(".demojs-admin-confirm-adremove").show();
+    });
+	
+    $(".demojs-btn-deactivatereport").click(function(){
+        $(".demojs-admin-viewreport, .demojs-admin-defaultview").hide();
+		$(".demojs-admin-confirm-reportremove").show();
+    });
+});
+</script>
+
+
+
+
+
 <script>
 $(function(){
     $("[data-toggle=popover]").popover({

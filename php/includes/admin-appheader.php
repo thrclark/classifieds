@@ -21,6 +21,12 @@
 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Moderation</a>
                                 <div class="dropdown-menu"> 
 <a <?php if ($page_title == 'Ads') { echo 'class="dropdown-item active"'; } ?> href="admin-ads.php" class="dropdown-item">Ads</a> 
+
+
+<a <?php if ($page_title == 'Reports') { echo 'class="dropdown-item active"'; } ?> href="admin-reports.php" class="dropdown-item">Reports</a> 
+
+
+
 <a <?php if ($page_title == 'Restricted users') { echo 'class="dropdown-item active"'; } ?> href="admin-restrictedusers.php" class="dropdown-item">Restricted users</a> 
 <a <?php if ($page_title == 'Reindex ad') { echo 'class="dropdown-item active"'; } ?> href="admin-reindexad.php" class="dropdown-item">Reindex ad</a> </div>
                             </li>
@@ -70,6 +76,13 @@
         <ul class="list-group ">
             <li class="list-group-item"> 
 <a href="admin-ads.php">Ads</a> </li>
+
+
+ <li class="list-group-item"> 
+<a href="admin-reports.php">Reports</a> </li>
+
+
+
             <li class="list-group-item"> 
 <a href="admin-restrictedusers.php">Restricted users</a> </li>
             <li class="list-group-item"> 

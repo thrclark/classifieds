@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'moderator';
-$page_title = 'Ads';
+$page_title = 'Reports';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,33 +20,15 @@ $page_title = 'Ads';
                     <div class="col-12 col-md-6">
                         <h1> <?php echo $page_title; ?></h1>
                     </div>
-                    <div class="col">
-                        <form novalidate ng-reflect-form="[object Object]" class="ng-pristine ng-valid ng-touched">
-                            <label class="sr-only" id="termsLabel">
-                                <message key="admin.ads.field.searchTerms" ng-reflect-key="admin.ads.field.searchTerms">Find an Ad</message>
-                            </label>
-                            <div class="input-group">
-                                <input aria-labelledby="termsLabel" class="form-control ng-pristine ng-valid ng-touched" formcontrolname="terms" type="text" ng-reflect-name="terms">
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary" type="submit"> <i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">
-                                    <message key="global.button.search" ng-reflect-key="global.button.search">Search</message>
-                                    </span> </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-auto">
-                        <button class="btn btn-link" type="button">
-                        <message key="admin.buttons.clear" ng-reflect-key="admin.buttons.clear">Clear</message>
-                        </button>
-                    </div>
+                  
+                  
                 </div>
                 <div class="ccf-table-responsive-container">
                     <table class="table rbt-table-responsive">
                         <thead>
                             <tr>
-                                <th>Campus</th>
-                                <th>Title</th>
+                                <th>Reporter</th>
+                                <th>Ad title</th>
                                 <th>User</th>
                                 <th>Post Date</th>
                                 <th>Status</th>
@@ -69,7 +51,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Math-M211 and M212 Textbook</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">User</b><span class="rbt-table-responsive-cell-content">thrclark</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Expired</span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
                                     <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail">View</button>
                                     </span></td>
@@ -99,7 +81,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Offering ride to Indy Dec 21 around 10:30am </span></td>
                                 <td><b class="rbt-table-responsive-cell-label">User</b><span class="rbt-table-responsive-cell-content">veridical</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Deactivated by user</span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
                                     <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail">View</button>
                                     </span></td>
@@ -139,7 +121,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">2014 JEEP Grand Cherokee 4*4 Limited 5w miles 1st owner </span></td>
                                 <td><b class="rbt-table-responsive-cell-label">User</b><span class="rbt-table-responsive-cell-content">thrclark</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/21/18</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Deactivated by admin</span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
                                     <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail">View</button>
                                     </span></td>

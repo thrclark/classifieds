@@ -8075,6 +8075,9 @@ a:focus, button:focus {
   width: 1%;
   white-space: nowrap; }
 
+.modal .modal-content {
+  overflow: inherit; }
+
 .rbt-app-header {
   z-index: 10 !important;
   transition: box-shadow .5s; }
