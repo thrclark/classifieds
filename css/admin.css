@@ -7512,6 +7512,90 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload .main-content .main-co
 a:focus, button:focus {
   outline: 0.125rem solid #006298; }
 
+.nav-pills .nav-item {
+  margin-right: 0rem;
+  width: 100%; }
+  .nav-pills .nav-item:first-child .nav-link {
+    border-top-right-radius: .25rem;
+    border-top-left-radius: .25rem; }
+  .nav-pills .nav-item .nav-link {
+    line-height: 1;
+    padding: 0.5rem 1.5rem;
+    border: solid 1px #dddddd;
+    background-color: #eeeeee;
+    text-decoration: none;
+    color: #666666;
+    border-radius: 0px;
+    width: 100%;
+    position: relative; }
+    .nav-pills .nav-item .nav-link:focus {
+      box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.25rem #006298 !important;
+      outline: none; }
+    .nav-pills .nav-item .nav-link.active {
+      background-color: #006298;
+      color: #fff;
+      border: solid 1px #006298;
+      z-index: 100; }
+
+.tab-content {
+  border: solid 1px #dddddd;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  margin-top: -1px;
+  padding: 1.5rem;
+  transition: box-shadow .2s ease; }
+  .tab-content:focus {
+    box-shadow: inset 0 0 0 0.125rem #006298;
+    outline: none; }
+
+@media (min-width: 576px) {
+  .nav-pills .nav-item {
+    margin-right: 0.5rem;
+    width: inherit; }
+    .nav-pills .nav-item .nav-link {
+      width: inherit;
+      border-top-right-radius: .25rem;
+      border-top-left-radius: .25rem; }
+  .nav-pills.nav-fill .nav-item:last-child {
+    margin-right: 0rem; }
+  .nav-pills.nav-fill .nav-item .nav-link {
+    width: 100%; } }
+
+.rbt-tabs-vertical {
+  border: solid 1px #cccccc;
+  -webkit-border-radius: .25rem;
+  -moz-border-radius: .25rem;
+  border-radius: .25rem; }
+  .rbt-tabs-vertical .nav-pills .nav-link {
+    border-radius: 0px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: #666666;
+    background: #eeeeee;
+    padding: 0.5rem 1.5rem;
+    line-height: 1; }
+    .rbt-tabs-vertical .nav-pills .nav-link:first-child {
+      border-top-left-radius: .25rem; }
+    .rbt-tabs-vertical .nav-pills .nav-link.active {
+      background: #006298;
+      color: #fff; }
+    .rbt-tabs-vertical .nav-pills .nav-link:focus {
+      box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.25rem #006298;
+      outline: none;
+      z-index: 1000;
+      background: #006298;
+      color: #fff; }
+  .rbt-tabs-vertical .tab-content {
+    border: none;
+    border-left: solid 1px #cccccc; }
+
+@media (max-width: 767.98px) {
+  .rbt-tabs-vertical .tab-content {
+    border: none;
+    border-left: none; } }
+
 @font-face {
   font-family: 'rbt-fonts';
   src: url("../fonts/rbt-fonts.eot?thr1ig");
