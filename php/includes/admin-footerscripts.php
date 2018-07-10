@@ -222,21 +222,29 @@ $(document).ready(function() {
 </script>
 <script>
 $(document).ready(function(){
-    $(".btn-report").click(function(){
-        $(".post-details-body, .modal-footer").hide();
-		$(".report-post").show();
+    $("#reportAd").click(function(){
+        $(".demojs-view-posting").hide();
+		$(".demojs-report-post").show();
     });
 	
-	$(".btn-reportcancel").click(function(){
-        $(".post-details-body, .modal-footer").show();
-		$(".report-post").hide();
+	$("#cancelReport").click(function(){
+        $(".demojs-view-posting").show();
+		$(".demojs-report-post").hide();
     });
 	
-	$(".btn-reportsubmit").click(function(){
-        $(".report-post-confirm").show();
-		$(".report-post").hide();
+	$("#submitReport").click(function(){
+        $(".demojs-report-confirm").show();
+		$(".demojs-report-post").hide();
     });
 	
+	$("#viewPolicy").click(function(){
+        $(".demojs-view-policy").show();
+		$(".demojs-report-post").hide();
+    });
+	$("#returnToReport").click(function(){
+        $(".demojs-view-policy").hide();
+		$(".demojs-report-post").show();
+    });
 	
 	
 	
