@@ -8,51 +8,92 @@
         <li class="dropdown-divider"> </li>
         <li <?php if ($page_title == 'All ads') { echo 'class="active"'; } ?>> <a href="main-home.php">
                 <div class="d-flex">
-                    <div class="mr-auto pr-2"><i class="fa fa-th d-none d-lg-inline" aria-hidden="true"></i></div>
+                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-th" aria-hidden="true"></i></div>
                     <div class="ccf-navlabel">All Ads </div>
                 </div>
             </a> </li>
-        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-soccer-ball-o d-none d-lg-inline" aria-hidden="true"></i>
-                <p> Activity Partners</p>
+        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">
+                <div class="d-flex">
+                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-soccer-ball-o" aria-hidden="true"></i></div>
+                    <div class="ccf-navlabel">Activity Partners </div>
+                </div>
             </a></li>
-        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-bullhorn d-none d-lg-inline" aria-hidden="true"></i>
-                <p> Announcements</p>
+        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">
+                <div class="d-flex">
+                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-bullhorn" aria-hidden="true"></i></div>
+                    <div class="ccf-navlabel">Announcements </div>
+                </div>
             </a></li>
-        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-shield d-none d-lg-inline" aria-hidden="true"></i>
-                <p> Antiques &amp; collectibles &amp; other stuff</p>
+        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">
+            <div class="d-flex">
+                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-shield aria-hidden="true"></i></div>
+                    <div class="ccf-navlabel">Antiques &amp; collectibles &amp; other stuff </div>
+                </div>
             </a></li>
-        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-book d-none d-lg-inline" aria-hidden="true"></i>
-                <p> Books</p>
+        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">
+            <div class="d-flex">
+                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-book" aria-hidden="true"></i></div>
+                    <div class="ccf-navlabel">Books </div>
+                </div>
             </a></li>
-        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-bolt d-none d-lg-inline" aria-hidden="true"></i>
-                <p> Electronics</p>
+        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">
+            <div class="d-flex">
+                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-bolt" aria-hidden="true"></i></div>
+                    <div class="ccf-navlabel">Electronics </div>
+                </div>
             </a></li>
-        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-hotel d-none d-lg-inline" aria-hidden="true"></i>
-                <p> Furniture</p>
+        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">
+            <div class="d-flex">
+                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-hotel" aria-hidden="true"></i></div>
+                    <div class="ccf-navlabel">Furniture </div>
+                </div>
             </a></li>
-        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-handshake-o d-none d-lg-inline" aria-hidden="true"></i>
-                <p> Jobs</p>
+        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">
+            <div class="d-flex">
+                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-handshake-o" aria-hidden="true"></i></div>
+                    <div class="ccf-navlabel">Jobs </div>
+                </div>
             </a></li>
-        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-question d-none d-lg-inline" aria-hidden="true"></i>
-                <p> Lost &amp; found</p>
+        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">
+            <div class="d-flex">
+                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-question" aria-hidden="true"></i></div>
+                    <div class="ccf-navlabel">Lost &amp; found </div>
+                </div>
             </a></li>
-        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-tags d-none d-lg-inline" aria-hidden="true"></i>
-                <p> Miscellaneous</p>
+        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">
+            <div class="d-flex">
+                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-tags" aria-hidden="true"></i></div>
+                    <div class="ccf-navlabel">Miscellaneous </div>
+                </div>
             </a></li>
-        <li <?php if ($page_title == 'Musicians &amp; artists') { echo 'class="active"'; } ?>> <a href="main-music.php"><i class="fa fa-music d-none d-lg-inline" aria-hidden="true"></i>
-                <p> Musicians &amp; artists</p>
+        <li <?php if ($page_title == 'Musicians &amp; artists') { echo 'class="active"'; } ?>> <a href="main-music.php">
+                <div class="d-flex">
+                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-music" aria-hidden="true"></i></div>
+                    <div class="ccf-navlabel">Musicians &amp; artists </div>
+                </div>
             </a></li>
-        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-thumbs-o-up d-none d-lg-inline" aria-hidden="true"></i>
-                <p> Rideboard &amp; carpools &amp; other stuff</p>
+        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">
+            <div class="d-flex">
+                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></div>
+                    <div class="ccf-navlabel">Rideboard &amp; carpools </div>
+                </div>
             </a></li>
-        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-address-book d-none d-lg-inline" aria-hidden="true"></i>
-                <p> Roommates &amp; sublets</p>
+        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><div class="d-flex">
+                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-address-book" aria-hidden="true"></i></div>
+                    <div class="ccf-navlabel">Roommates &amp; sublets </div>
+                </div>
             </a></li>
-        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-ticket d-none d-lg-inline" aria-hidden="true"></i>
-                <p> Tickets &amp; events</p>
+        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">
+            <div class="d-flex">
+                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-ticket" aria-hidden="true"></i></div>
+                    <div class="ccf-navlabel">Tickets &amp; events </div>
+                </div>
             </a></li>
-        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-bicycle d-none d-lg-inline" aria-hidden="true"></i>
-                <p> Vehicles</p>
+        <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">
+            <div class="d-flex">
+                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-bicycle" aria-hidden="true"></i></div>
+                    <div class="ccf-navlabel">Vehicles </div>
+                </div>
             </a></li>
     </ul>
 </nav>
