@@ -3,7 +3,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLabel">2018 Spring sublease Jan-July the Fields room Waterchase</h3>
+                <h3 class="modal-title" id="exampleModalLabel">2018 Spring sublease Jan-July the Fields </h3>
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-admin-defaultview" style="display:none">
@@ -99,7 +99,7 @@
                     
                     
                 </dl>
-                </p>
+                <p></p>
                 <p> <a href="#" class="demojs-btn-viewpolicy">View policy</a></p>
             </div>
             <div class="modal-footer demojs-admin-viewreport">

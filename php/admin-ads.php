@@ -88,7 +88,7 @@ $page_title = 'Ads';
                                     </tr>
                                     <tr>
                                         <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUPUI</span></td>
-                                        <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">2018 Spring sublease Jan-July the Fields room Waterchase </span></td>
+                                        <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">2018 Spring sublease Jan-July the Fields  </span></td>
                                         <td><b class="rbt-table-responsive-cell-label">User</b><span class="rbt-table-responsive-cell-content">typhogenic</span></td>
                                         <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
                                         <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
@@ -238,7 +238,7 @@ $page_title = 'Ads';
                                     </tr>
                                     <tr>
                                         <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUK</span></td>
-                                        <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">2018 Spring sublease Jan-July the Fields room Waterchase </span></td>
+                                        <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">2018 Spring sublease Jan-July the Fields  </span></td>
                                         <td><b class="rbt-table-responsive-cell-label">User</b><span class="rbt-table-responsive-cell-content">calque</span></td>
                                         <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/18/18</span></td>
                                         <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>

@@ -91,7 +91,7 @@ $page_title = 'Reports';
                                     </span></td>
                             </tr>
                             <tr>
-                                <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">2018 Spring sublease Jan-July the Fields room Waterchase </span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">2018 Spring sublease Jan-July the Fields  </span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Posted by</b><span class="rbt-table-responsive-cell-content">jflorber</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Ad ID</b><span class="rbt-table-responsive-cell-content">183722</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Reporter</b><span class="rbt-table-responsive-cell-content">lesyoung</span></td>
