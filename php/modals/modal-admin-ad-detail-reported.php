@@ -133,7 +133,7 @@
             
             <div class="modal-body demojs-admin-confirm-adremove" style="display:none">
                 <div class="ccf-postdetail-title">Ad deactivated</div>
-                <p> This ad has now been deactivated. Would you like to message user <strong>jlancer</strong> regarding the deactivation of this ad? </p>
+                <p> This ad has now been deactivated. User <strong>jlancer</strong> posted this ad. Would you like to message the user regarding the deactivation of this ad? </p>
             </div>
             <div class="modal-footer demojs-admin-confirm-adremove" style="display:none">
                <button class="btn btn-primary">Message user 'jlancer' </button> <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
