@@ -16,20 +16,11 @@ $page_title = 'Ads';
     <div class="form-row">
         <div class="col-12">
             <div class="main-content" id="main-content">
-                <h1> <?php echo $page_title; ?></h1>
-                <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                    <li class="nav-item">
-                        <button class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Current ads</button>
-                    </li>
-                    <li class="nav-item">
-                        <button class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">User reports</button>
-                    </li>
-                </ul>
-                <div class="tab-content" id="pills-tabContent" tabindex="0" role="tabpanel">
-                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                        <div class="row no-gutters mb-3 justify-content-between align-items-center">
+               
+              
+                  <div class="row no-gutters mb-3 justify-content-between align-items-center">
                             <div class="col-12 col-md-6">
-                                <h2 class="rbt-ts-23 font-weight-bold mb-3">Current ads</h2>
+                                <h1> <?php echo $page_title; ?></h1>
                             </div>
                             <div class="col">
                                 <form novalidate ng-reflect-form="[object Object]" class="ng-pristine ng-valid ng-touched">
@@ -449,12 +440,6 @@ $page_title = 'Ads';
                             </table>
                             <?php include('includes/all-pagination.php') ?>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                        <h2 class="rbt-ts-23 font-weight-bold mb-3">User reports</h2>
-                        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
