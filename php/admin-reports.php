@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'moderator';
-$page_title = 'Reports';
+$page_title = 'Ad reports';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,8 +28,6 @@ $page_title = 'Reports';
                                 <th class="pl-0 pr-0"><span class="sr-only">Delete report</span></th>
                                 <th>Ad title</th>
                                 <th>Posted by</th>
-                                <th>Ad ID</th>
-                                <th>Reported by</th>
                                 <th>Report date</th>
                                 <th>Action taken</th>
                                 <th>Report</th>
@@ -43,8 +41,6 @@ $page_title = 'Reports';
                                     </div></td>
                                 <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">Sublease for Brownstone Apartments for Spring Semester </span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Posted by</b><span class="rbt-table-responsive-cell-content">kwhalem</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Ad ID</b><span class="rbt-table-responsive-cell-content">613279</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Reported by</b><span class="rbt-table-responsive-cell-content">stgetz</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Report date</b><span class="rbt-table-responsive-cell-content">07/28/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Pending</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
@@ -56,10 +52,8 @@ $page_title = 'Reports';
                                         <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1" disabled>
                                         <label class="form-check-label" for="inlineCheckbox2"><span class="sr-only">Option one</span></label>
                                     </div></td>
-                                <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">Math-M211 and M212 Textbook</span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">Math-M211 and M212 book</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Posted by</b><span class="rbt-table-responsive-cell-content">jlancer</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Ad ID</b><span class="rbt-table-responsive-cell-content">883455</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Reported by</b><span class="rbt-table-responsive-cell-content">johcoltra</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Report date</b><span class="rbt-table-responsive-cell-content">07/27/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Pending</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
@@ -71,10 +65,8 @@ $page_title = 'Reports';
                                         <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option1" disabled>
                                         <label class="form-check-label" for="inlineCheckbox3"><span class="sr-only">Option one</span></label>
                                     </div></td>
-                                <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">Math-M211 and M212 Textbook</span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">Math-M211 and M212 text</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Posted by</b><span class="rbt-table-responsive-cell-content">jlancer</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Ad ID</b><span class="rbt-table-responsive-cell-content">883455</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Reported by</b><span class="rbt-table-responsive-cell-content">bobberg</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Report date</b><span class="rbt-table-responsive-cell-content">07/27/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Pending</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
@@ -88,8 +80,6 @@ $page_title = 'Reports';
                                     </div></td>
                                 <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">Math-M211 and M212 Textbook</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Posted by</b><span class="rbt-table-responsive-cell-content">jlancer</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Ad ID</b><span class="rbt-table-responsive-cell-content">883455</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Reported by</b><span class="rbt-table-responsive-cell-content">sonstitt </span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Report date</b><span class="rbt-table-responsive-cell-content">07/26/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Pending</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
@@ -103,10 +93,8 @@ $page_title = 'Reports';
                                     </div></td>
                                 <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">Self Defense Boxing Gloves</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Posted by</b><span class="rbt-table-responsive-cell-content">kennyg</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Ad ID</b><span class="rbt-table-responsive-cell-content">672730</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Reported by</b><span class="rbt-table-responsive-cell-content">bwebster</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Report date</b><span class="rbt-table-responsive-cell-content">07/24/18</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content"> Report deactivated</span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content"> Report dismissed</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
                                     <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reportdismissed">View</button>
                                     </span></td>
@@ -118,8 +106,6 @@ $page_title = 'Reports';
                                     </div></td>
                                 <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">2018 Spring sublease Jan-July the Fields  </span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Posted by</b><span class="rbt-table-responsive-cell-content">jflorber</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Ad ID</b><span class="rbt-table-responsive-cell-content">183722</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Reported by</b><span class="rbt-table-responsive-cell-content">lesyoung</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Report date</b><span class="rbt-table-responsive-cell-content"> 07/22/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Ad deactivated</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
@@ -133,8 +119,6 @@ $page_title = 'Reports';
                                     </div></td>
                                 <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">Offering ride to Indy Dec 21 around 10:30am </span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Posted by</b><span class="rbt-table-responsive-cell-content">stgadd</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Ad ID</b><span class="rbt-table-responsive-cell-content">979422</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Reported by</b><span class="rbt-table-responsive-cell-content">sarivers</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Report date</b><span class="rbt-table-responsive-cell-content">07/22/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Ad deactivated</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
