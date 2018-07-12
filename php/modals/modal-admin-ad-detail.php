@@ -7,7 +7,7 @@
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-admin-defaultview">
-                <div class="alert alert-danger fade show mb-0" role="alert">
+              <!--  <div class="alert alert-danger fade show mb-0" role="alert">
                     <div class="row align-items-center">
                         <div class="col">
                             <div class="alert-heading">Reported for policy violation</div>
@@ -16,7 +16,7 @@
                             <button class="btn btn-link demojs-btn-viewreport"> View report</button>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <dl class="row">
                     <dt class="sr-only">
                         <message key="global.ad.field.price">Price</message>
@@ -73,11 +73,12 @@
                     <div class="row align-items-center">
                         <div class="col">
                             <div class="rbt-button-group">
-                                <div class="dropdown">
+                              <!--  <div class="dropdown">
                                     <button class="btn btn-outline-primary dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Deactivate </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item demojs-btn-deactivatead" href="#">Deactivate ad</a> <a class="dropdown-item demojs-btn-deactivatereport" href="#">Deactivate report</a> </div>
-                                </div>
-                                <button class="btn btn-outline-primary demojs-btn-viewreport"> View report</button>
+                                </div>-->
+                                <!--<button class="btn btn-outline-primary demojs-btn-viewreport"> View report</button>-->
+                                <button class="btn btn-outline-primary">Deactivate</button>
                             </div>
                         </div>
                     </div>
