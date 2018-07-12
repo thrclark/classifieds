@@ -32,7 +32,41 @@ body {
 		}
 	}
 }
+.rbt-sidebar-nav {
 
+	li.active {
+		&:before {
+			content: "\00a0";
+			margin-left: -0.25rem;
+			padding-left: 0.25rem;
+			box-shadow: -2px 0 0 #333333;
+			position: absolute;
+		}
+	}
+
+	li {
+		a {
+			.d-flex {
+				.ccf-iconstyle {
+					text-align: center;
+					width: 30px;
+				}
+				.ccf-navlabel {
+					flex: 1 1 auto;
+					padding-left: 1px;
+					width: -webkit-min-content;
+				}
+			}
+			&:focus {
+				.d-flex {
+					outline: 0.125rem solid $blue;
+				}
+			}
+		}
+
+	}
+
+}
 .table tbody tr td {
 	vertical-align: top !important;
 }
