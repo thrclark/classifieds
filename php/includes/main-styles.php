@@ -13,20 +13,6 @@
 	margin-right: auto;
 	vertical-align: middle;
 }
-.rbt-sidebar-nav li.active:before {
-    content:"\00a0"; 
-    margin-left: -0.25rem;
-    padding-left: 0.25rem;
-    box-shadow: -2px 0 0 #333333;
-    position: absolute;
-}
-.rbt-sidebar-nav .d-flex .ccf-iconstyle{
-	text-align: center;
-	width: 30px;
-}
-.rbt-sidebar-nav .d-flex .ccf-navlabel {
-	flex: 1 1 auto;
-	padding-left: 1px;
-}
+
 
 </style>

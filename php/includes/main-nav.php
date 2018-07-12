@@ -26,8 +26,8 @@
             </a></li>
         <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">
             <div class="d-flex">
-                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-shield aria-hidden="true"></i></div>
-                    <div class="ccf-navlabel">Antiques &amp; collectibles &amp; other stuff </div>
+                    <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-shield" aria-hidden="true"></i></div>
+                    <div class="ccf-navlabel">Antiques &amp; collectibles </div>
                 </div>
             </a></li>
         <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">
@@ -69,7 +69,7 @@
         <li <?php if ($page_title == 'Musicians &amp; artists') { echo 'class="active"'; } ?>> <a href="main-music.php">
                 <div class="d-flex">
                     <div class="mr-auto pr-2 ccf-iconstyle d-none d-lg-inline"><i class="fa fa-music" aria-hidden="true"></i></div>
-                    <div class="ccf-navlabel">Musicians &amp; artists </div>
+                    <div class="ccf-navlabel">Musicians &amp; artists</div>
                 </div>
             </a></li>
         <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#">
