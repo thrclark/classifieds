@@ -7,7 +7,7 @@
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-view-posting">
-                <dl class="row align-items-center">
+                <dl class="row">
                     <dt class="sr-only">
                         <message key="global.ad.field.price">Price</message>
                     </dt>
@@ -63,7 +63,7 @@
             </div>
             <div class="modal-body demojs-report-post" style=" display:none">
                 <div class="ccf-postdetail-title">Report this ad</div>
-                <p>Please provide more details regarding your decision to report this ad. Your report will be reviewed by our staff, and appropriate actions will be taken if it is determined that this ad is in violation of our <a href="#" id="viewPolicy">ads policy</a>. </p>
+                <p>Please provide more details regarding your decision to report this ad. Your report will be reviewed, and appropriate actions will be taken if it is determined that this ad is in violation of our <a href="#" id="viewPolicy">policy</a>. </p>
                 <form>
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">Reason for report</label>

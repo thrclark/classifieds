@@ -1,40 +1,40 @@
 
-<div class="modal post-detail fade" id="admin_ad_detail" tabindex="-1" role="dialog" aria-labelledby="post_detail" aria-hidden="true">
+<div class="modal post-detail fade" id="admin_ad_detail_reportdismissed" tabindex="-1" role="dialog" aria-labelledby="admin_ad_detail_reportdismissed" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLabel">For sale: Selmer VI Tenor Sax</h3>
+                <h3 class="modal-title" id="exampleModalLabel">Self Defense Boxing Gloves</h3>
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
-            <div class="modal-body demojs-admin-defaultview">
-                <div class="alert alert-danger fade show mb-0" role="alert">
+            <div class="modal-body demojs-admin-defaultview" style="display:none">
+              <!--  <div class="alert alert-primary fade show mb-0" role="alert">
                     <div class="row align-items-center">
                         <div class="col">
-                            <div class="alert-heading">Reported for policy violation</div>
+                            <div class="alert-heading">Report dismissed</div>
                         </div>
                         <div class="col-auto">
                             <button class="btn btn-link demojs-btn-viewreport"> View report</button>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <dl class="row">
                     <dt class="sr-only">
                         <message key="global.ad.field.price">Price</message>
                     </dt>
-                    <dd class="col-12 ccf-postdetail-title">$1400.00 or best offer</dd>
+                    <dd class="col-12 ccf-postdetail-title">$150</dd>
                     <dt class="sr-only">
                         <message key="global.ad.field.postDate">Post Date</message>
                     </dt>
                     <dd class="col-auto"><span class="font-italic small">2/14/18</span></dd>
                     <dt class="sr-only">Campus</dt>
                     <dd class="col-auto small ccf-postdetail-market"><i class="fa fa-map-marker"></i> IU Kokomo</dd>
-                    <dt class="sr-only">s
+                    <dt class="sr-only">
                         <message key="global.ad.field.image">Images</message>
                     </dt>
                     <dd class="col-12">
                         <ccf-image-slider>
                             <div class="overflow mb-3" hammer-options="{&quot;touchAction&quot;: &quot;pan-y&quot;}" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
-                                <div class="inner" style="width: 200%; margin-left: 0%;"> <img alt="" src="../img/post-pics/1105499015MarkVITen5.jpg" style="width: 50%;"><img alt="" src="../img/post-pics/1105499015MarkVITen5.jpg" style="width: 50%;"> </div>
+                                <div class="inner" style="width: 200%; margin-left: 0%;"> <img alt="" src="../img/post-pics/boxinggloves.jpg" style="width: 50%;"><img alt="" src="../img/post-pics/1105499015MarkVITen5.jpg" style="width: 50%;"> </div>
                             </div>
                             <div class="controls">
                                 <button class="btn btn-sm btn-outline-primary" type="button"> <i aria-hidden="true" class="fa fa-angle-left"></i> <span class="sr-only">
@@ -49,7 +49,7 @@
                     <dt class="sr-only">
                         <message key="global.ad.field.description">Description</message>
                     </dt>
-                    <dd class="col-12 pre-wrap">This is a beautiful original lacquer Mark VI tenor saxophone from 1962, serial number 99015. The lacquer finish on the horn is in exquisite condition. Its original finish displays a very dark honey tint which is perfectly complemented by the crisp American floral engraving. The lacquer condition is about as clean and pristine as you will ever see. </dd>
+                    <dd class="col-12 pre-wrap">New set of boxing gloves. I bought them for a class that I never ended up taking, and need to sell the gloves now.</dd>
                     <dt class="col-sm-3">
                         <message key="global.ad.field.contact">Contact</message>
                     </dt>
@@ -61,22 +61,18 @@
                     <dt class="col-sm-3">Status</dt>
                     <dd class="col-sm-9">Active</dd>
                     <dt class="col-sm-3">Ad Purpose</dt>
-                    <dd class="col-sm-9">For sale</dd>
+                    <dd class="col-sm-9"></dd>
                     <dt class="col-sm-3">Posted</dt>
                     <dd class="col-sm-9">02/25/2018 3:26pm</dd>
                     <dt class="col-sm-3">Expires</dt>
                     <dd class="col-sm-9">03/25/2018 3:26pm</dd>
                 </dl>
             </div>
-            <div class="modal-footer demojs-admin-defaultview">
+            <div class="modal-footer demojs-admin-defaultview" style="display:none">
                 <div class="container-fluid px-0">
                     <div class="row align-items-center">
                         <div class="col">
                             <div class="rbt-button-group">
-                                <div class="dropdown">
-                                    <button class="btn btn-outline-primary dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Deactivate </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item demojs-btn-deactivatead" href="#">Deactivate ad</a> <a class="dropdown-item demojs-btn-deactivatereport" href="#">Deactivate report</a> </div>
-                                </div>
                                 <button class="btn btn-outline-primary demojs-btn-viewreport"> View report</button>
                             </div>
                         </div>
@@ -86,29 +82,27 @@
             
             <!--Report details-->
             
-            <div class="modal-body demojs-admin-viewreport" style="display:none">
+            <div class="modal-body demojs-admin-viewreport" >
                 <div class="ccf-postdetail-title mb-4">Report details</div>
                 <p>
                 <dl class="row">
                     <dt class="col-sm-4">Reported by</dt>
-                    <dd class="col-sm-8">thrclark</dd>
+                    <dd class="col-sm-8">bwebster</dd>
                     <dt class="col-sm-4">Reason for report</dt>
-                    <dd class="col-sm-8">Promotes a political/social agenda</dd>
+                    <dd class="col-sm-8">Fraudulent activity</dd>
                     <dt class="col-sm-4">Additional detail</dt>
-                    <dd class="col-sm-8">This ad is really a campaign ad for a candidate who is running for state senate. Please remove it.</dd>
+                    <dd class="col-sm-8">I hate boxing. Nobody should be allowed to buy/sell boxing gloves.</dd>
+                    <dt class="col-sm-4">Report dismissed</dt>
+                    <dd class="col-sm-8">07/25/2018 by admin</dd>
                 </dl>
                 </p>
                 <p> <a href="#" class="demojs-btn-viewpolicy">View policy</a></p>
             </div>
-            <div class="modal-footer demojs-admin-viewreport" style="display:none">
+            <div class="modal-footer demojs-admin-viewreport">
                 <div class="container-fluid px-0">
                     <div class="row align-items-center">
                         <div class="col">
                             <div class="rbt-button-group">
-                                <div class="dropdown">
-                                    <button class="btn btn-outline-primary dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Deactivate </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item demojs-btn-deactivatead" href="#">Deactivate ad</a> <a class="dropdown-item demojs-btn-deactivatereport" href="#">Deactivate report</a> </div>
-                                </div>
                                 <button class="btn btn-outline-primary demojs-btn-viewad"> View ad</button>
                             </div>
                         </div>
@@ -125,28 +119,8 @@
                 <p>By using this site, you agree to abide by Indiana Universitys "Appropriate Technology Use" Policies as outlined by the Information Policy Office at <a href="http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml" target="_blank">http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml</a> and to use the Classifieds appropriately. These pages are not intended for solicitation, political purposes and publishing opinions, nor are they to be used to make jokes or mislead others. The University reserves the right to remove any posting that it deems inappropriate.</p>
                 <p>Questions regarding the IU Classifieds may be addressed to <a href="mailto:one@iu.edu">one@iu.edu</a> </p>
             </div>
-            <div class="modal-footer demojs-admin-view-policy" style="display:none; justify-content:flex-start"> <a href="#" class="btn btn-outline-primary demojs-btn-viewreport"><span class="rbt-icon-chevron-left ml-0"></span> Back to report</a>
+            <div class="modal-footer demojs-admin-view-policy" style="display:none; justify-content:flex-start"> <a href="#" class="btn btn-outline-primary demojs-btn-viewreport"> View report</a>
                 <button class="btn btn-outline-primary demojs-btn-viewad"> View ad</button>
-            </div>
-            
-            <!--Confirm ad deactivation-->
-            
-            <div class="modal-body demojs-admin-confirm-adremove" style="display:none">
-                <div class="ccf-postdetail-title">Ad deactivated</div>
-                <p> This ad has now been deactivated. </p>
-            </div>
-            <div class="modal-footer demojs-admin-confirm-adremove" style="display:none">
-                <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
-            </div>
-            
-            <!--Confirm report deactivation-->
-            
-            <div class="modal-body demojs-admin-confirm-reportremove" style="display:none">
-                <div class="ccf-postdetail-title">Report deactivated</div>
-                <p> This report has now been deactivated. </p>
-            </div>
-            <div class="modal-footer demojs-admin-confirm-reportremove" style="display:none">
-                <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
