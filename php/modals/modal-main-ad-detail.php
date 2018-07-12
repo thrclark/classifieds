@@ -7,7 +7,7 @@
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-view-posting">
-                <dl class="row align-items-center">
+                <dl class="row">
                     <dt class="sr-only">
                         <message key="global.ad.field.price">Price</message>
                     </dt>

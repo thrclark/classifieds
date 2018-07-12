@@ -17,7 +17,7 @@
                         </div>
                     </div>
                 </div>-->
-                <dl class="row align-items-center">
+                <dl class="row">
                     <dt class="sr-only">
                         <message key="global.ad.field.price">Price</message>
                     </dt>
@@ -86,7 +86,7 @@
             <div class="modal-body demojs-admin-viewreport" >
                 <div class="ccf-postdetail-title mb-4">Report details</div>
                 <p>
-                <dl class="row align-items-center">
+                <dl class="row">
                     <dt class="col-sm-4">Reported by</dt>
                     <dd class="col-sm-8">thrclark</dd>
                     <dt class="col-sm-4">Reason for report</dt>
