@@ -23,7 +23,7 @@
 <a <?php if ($page_title == 'Ads') { echo 'class="dropdown-item active"'; } ?> href="admin-ads.php" class="dropdown-item">Ads</a> 
 
 
-<a <?php if ($page_title == 'Reports') { echo 'class="dropdown-item active"'; } ?> href="admin-reports.php" class="dropdown-item">Ad reports (4)</a> 
+<a <?php if ($page_title == 'Reports') { echo 'class="dropdown-item active"'; } ?> href="admin-reports.php" class="dropdown-item">Reported ads <span class="small">(4 new)</span></a> 
 
 
 
@@ -79,7 +79,7 @@
 
 
  <li class="list-group-item"> 
-<a href="admin-reports.php">Ad reports (4)</a> </li>
+<a href="admin-reports.php">Reported ads <span class="small">(4 new)</span></a> </li>
 
 
 

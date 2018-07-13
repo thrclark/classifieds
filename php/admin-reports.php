@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'moderator';
-$page_title = 'Ad reports';
+$page_title = 'Reported ads';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,117 +17,102 @@ $page_title = 'Ad reports';
         <div class="col-12">
             <div class="main-content" id="main-content">
                 <div class="row no-gutters mb-3 justify-content-between align-items-center">
-                    <div class="col-12 col-md-6">
+                    <div class="col">
                         <h1> <?php echo $page_title; ?></h1>
                     </div>
+                    
+                    
+                    <div class="col-auto">
+                    
+                    <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+    <label class="form-check-label" for="defaultCheck1">Unresolved only </label>
+</div>
+
+</div>
+
+
+
+
+
                 </div>
                 <div class="ccf-table-responsive-container">
-                    <table class="table rbt-table-responsive">
+                    <table class="table rbt-table-responsive rbt-table-actions">
                         <thead>
                             <tr>
-                                <th class="pl-0 pr-0"><span class="sr-only">Delete report</span></th>
                                 <th>Ad title</th>
                                 <th>Posted by</th>
-                                <th>Report date</th>
-                                <th>Action taken</th>
+                                <th>First reported</th>
+                                <th>Resolution</th>
                                 <th>Report</th>
                             </tr>
                         </thead>
                         <tbody id="table_userads">
                             <tr>
-                                <td class="pl-0 pr-0 text-center"><div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" disabled>
-                                        <label class="form-check-label" for="inlineCheckbox1"><span class="sr-only">Option one</span></label>
-                                    </div></td>
                                 <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">Sublease for Brownstone Apartments for Spring Semester </span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Posted by</b><span class="rbt-table-responsive-cell-content">kwhalem</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Report date</b><span class="rbt-table-responsive-cell-content">07/28/18</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Pending</span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Unresolved</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
                                     </span></td>
                             </tr>
                             <tr>
-                                <td class="pl-0 pr-0"><div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1" disabled>
-                                        <label class="form-check-label" for="inlineCheckbox2"><span class="sr-only">Option one</span></label>
-                                    </div></td>
                                 <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">Math-M211 and M212 book</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Posted by</b><span class="rbt-table-responsive-cell-content">jlancer</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Report date</b><span class="rbt-table-responsive-cell-content">07/27/18</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Pending</span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Report date</b><span class="rbt-table-responsive-cell-content">07/28/18</span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Unresolved</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
                                     </span></td>
                             </tr>
                             <tr>
-                                <td class="pl-0 pr-0"><div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option1" disabled>
-                                        <label class="form-check-label" for="inlineCheckbox3"><span class="sr-only">Option one</span></label>
-                                    </div></td>
                                 <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">Math-M211 and M212 text</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Posted by</b><span class="rbt-table-responsive-cell-content">jlancer</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Report date</b><span class="rbt-table-responsive-cell-content">07/27/18</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Pending</span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Unresolved</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
                                     </span></td>
                             </tr>
                             <tr>
-                                <td class="pl-0 pr-0"><div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option1" disabled>
-                                        <label class="form-check-label" for="inlineCheckbox4"><span class="sr-only">Option one</span></label>
-                                    </div></td>
                                 <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">Math-M211 and M212 Textbook</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Posted by</b><span class="rbt-table-responsive-cell-content">jlancer</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Report date</b><span class="rbt-table-responsive-cell-content">07/26/18</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Pending</span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Unresolved</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
                                     </span></td>
                             </tr>
                             <tr>
-                                <td class="pl-0 pr-0"><div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox5"><span class="sr-only">Option one</span></label>
-                                    </div></td>
                                 <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">Self Defense Boxing Gloves</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Posted by</b><span class="rbt-table-responsive-cell-content">kennyg</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Report date</b><span class="rbt-table-responsive-cell-content">07/24/18</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content"> Report dismissed</span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content"> Acceptable</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reportdismissed">View</button>
+                                    <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#admin_ad_detail_reportdismisseddd">View</button>
                                     </span></td>
                             </tr>
                             <tr>
-                                <td class="pl-0 pr-0"><div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox6"><span class="sr-only">Option one</span></label>
-                                    </div></td>
                                 <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">2018 Spring sublease Jan-July the Fields  </span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Posted by</b><span class="rbt-table-responsive-cell-content">jflorber</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Report date</b><span class="rbt-table-responsive-cell-content"> 07/22/18</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Ad deactivated</span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Policy violation</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_addeactivated">View</button>
+                                    <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#admin_ad_detail_addeactivateddd">View</button>
                                     </span></td>
                             </tr>
                             <tr>
-                                <td class="pl-0 pr-0"><div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox7"><span class="sr-only">Option one</span></label>
-                                    </div></td>
                                 <td><b class="rbt-table-responsive-cell-label">Ad title</b><span class="rbt-table-responsive-cell-content">Offering ride to Indy Dec 21 around 10:30am </span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Posted by</b><span class="rbt-table-responsive-cell-content">stgadd</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Report date</b><span class="rbt-table-responsive-cell-content">07/22/18</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Ad deactivated</span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Action taken</b><span class="rbt-table-responsive-cell-content">Policy violation</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_addeactivated">View</button>
+                                    <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#admin_ad_detail_addeactivateddd">View</button>
                                     </span></td>
                             </tr>
                         </tbody>
                     </table>
-                    <button class="btn btn-sm btn-outline-primary" id="deleteSelected" style="display:none"> Delete selected</button>
                 </div>
             </div>
         </div>
@@ -160,21 +145,6 @@ $page_title = 'Ad reports';
     });
 });
     });
-</script> 
-<script>
-
- $(document).ready(function() {	
-        $(".form-check-input").click(function () {
-            if ($(this).is(":checked")) {
-                $("#deleteSelected").fadeIn();
-              
-            } else {
-                $("#deleteSelected").fadeOut();
-               
-            }
-        });
-    });
-    
-    </script>
+</script>
 </body>
 </html>
