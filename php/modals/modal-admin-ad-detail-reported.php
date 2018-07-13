@@ -6,7 +6,7 @@
                 <div class="alert alert-danger fade show mb-0 border-0 pt-2 pb-2" role="alert">
                     <div class="row align-items-center">
                         <div class="col">
-                            <div class="alert-heading">Reported for policy violation</div>
+                            <div class="alert-heading">Reported for fraudulent activity</div>
                         </div>
                         <div class="col-auto">
                             <button class="btn btn-link font-weight-normal p-0 demojs-btn-viewreport "> View report</button>
