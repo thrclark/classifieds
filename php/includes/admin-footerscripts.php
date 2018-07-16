@@ -220,34 +220,36 @@
         });
     });
 </script>
+
+
+
+
+
+
+
+
 <script>
     $(document).ready(function() {
-        $("#reportAd").click(function() {
-            $(".demojs-view-posting").hide();
-            $(".demojs-report-post").show();
+        $("#admin_ad_detail .demojs-btn-deactivatead").click(function() {
+            $(".demojs-admin-defaultview").hide();
+            $(".demojs-admin-confirm-adremove").show();
         });
-
-        $("#cancelReport").click(function() {
-            $(".demojs-view-posting").show();
-            $(".demojs-report-post").hide();
+		
+		 $("#admin_ad_detail .demojs-btn-sendmessage").click(function() {
+            $(".demojs-admin-confirm-adremove").hide();
+			$(".demojs-admin-confirm-messagesent").show();
         });
-
-        $("#submitReport").click(function() {
-            $(".demojs-report-confirm").show();
-            $(".demojs-report-post").hide();
-        });
-
-        $("#viewPolicy").click(function() {
-            $(".demojs-view-policy").show();
-            $(".demojs-report-post").hide();
-        });
-        $("#returnToReport").click(function() {
-            $(".demojs-view-policy").hide();
-            $(".demojs-report-post").show();
-        });
-
+		
+		
     });
 </script>
+
+
+
+
+
+
+
 <script>
     $(document).ready(function() {
         $("#admin_ad_detail_reported .demojs-btn-viewreport").click(function() {
@@ -275,8 +277,24 @@
             $("#admin_ad_detail_reported .demojs-admin-viewreport, #admin_ad_detail_reported .demojs-admin-defaultview").hide();
             $("#admin_ad_detail_reported .demojs-admin-confirm-reportremove").show();
         });
+		$("#admin_ad_detail_reported .demojs-btn-sendmessage").click(function() {
+            $("#admin_ad_detail_reported .demojs-admin-confirm-adremove").hide();
+            $("#admin_ad_detail_reported .demojs-admin-confirm-messagesent").show();
+        });
+		
+		
+		
+		
+		
     });
 </script>
+
+
+
+
+
+
+
 <script>
     $(document).ready(function() {
         $("#admin_ad_detail_reportdismissed .demojs-btn-viewreport").click(function() {
@@ -367,6 +385,15 @@
             $.each(feedit, function(key, val) {
                 if (e == val.value) {
                     $('#responsefield').val(val.areatext);
+                }
+            });
+        });
+		
+		$('#selectresponse1').on('change', function() {
+            var e = $(this).val();
+            $.each(feedit, function(key, val) {
+                if (e == val.value) {
+                    $('#responsefield1').val(val.areatext);
                 }
             });
         });

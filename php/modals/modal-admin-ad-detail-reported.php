@@ -165,7 +165,7 @@
                 <h2 class="modal-title" id="exampleModalLabel">Ad deactivated</h2>
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
-            <div class="modal-body demojs-admin-confirm-adremove" style="display:none">	
+            <div class="modal-body demojs-admin-confirm-adremove" style="display:none">
                 <p> This ad has now been deactivated. 
                     
                     Please provide a message to the  user who posted this ad to inform them of the ad deactivation. </p>
@@ -175,35 +175,56 @@
                         <input type="text" class="form-control" id="banneduseruser" placeholder="" value="jlancer" readonly>
                     </div>
                     <div class="form-group">
-                        <label for="selectresponse">Response given for</label>
-                        <select class="form-control" id="selectresponse">
+                        <label for="selectresponse1">Reason for ad deactivation</label>
+                        <select class="form-control" id="selectresponse1">
                             <option value="general">General policy violations</option>
                             <option value="parking">Parking permit violation</option>
                             <option value="other">Other</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="responsefield">Message to be sent</label>
-                        <textarea class="form-control" id="responsefield" rows="8">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</textarea>
+                        <label for="responsefield1">Message to be sent</label>
+                        <textarea class="form-control" id="responsefield1" rows="8">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</textarea>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                        <label class="form-check-label" for="inlineCheckbox1">Revoke system access for 'jlancer'</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios2" id="stacked02" value="option1" checked>
+                        <label class="form-check-label" for="stacked02"> Take no administrative action on user 'jlancer' </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios2" id="stacked12" value="option1">
+                        <label class="form-check-label" for="stacked12"> Log a warning for user 'jlancer' </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios2" id="stacked22" value="option2">
+                        <label class="form-check-label" for="stacked22">Revoke system access for 'jlancer' <span class="small font-italic">(0 previous warnings)</span></label>
                     </div>
                 </form>
             </div>
             <div class="modal-footer demojs-admin-confirm-adremove" style="display:none">
-                <button class="btn btn-primary">Send </button>
+                <button class="btn btn-primary demojs-btn-sendmessage">Send </button>
                 <button class="btn btn-outline-primary" data-dismiss="modal">Cancel</button>
+            </div>
+            
+            <!--Confirm message sent -->
+            
+            <div class="modal-header demojs-admin-confirm-messagesent" style="display:none">
+                <h2 class="modal-title" id="exampleModalLabel">Message sent</h2>
+                <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
+            </div>
+            <div class="modal-body demojs-admin-confirm-messagesent" style="display:none">
+                <p> Message has been sent to user 'jlancer'. You may review actions taken against this user in <a href="admin-restrictedusers.php">Restricted users</a>. </p>
+            </div>
+            <div class="modal-footer demojs-admin-confirm-messagesent" style="display:none">
+                <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
             </div>
             
             <!--Confirm report deactivation-->
             <div class="modal-header demojs-admin-confirm-reportremove" style="display:none">
-                <h2 class="modal-title" id="exampleModalLabel">Report nullified</h2>
+                <h2 class="modal-title" id="exampleModalLabel">Report dismissed</h2>
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-admin-confirm-reportremove" style="display:none">
-                <p> This report has now been nullified. </p>
+                <p> This report has now been dismissed. </p>
             </div>
             <div class="modal-footer demojs-admin-confirm-reportremove" style="display:none">
                 <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
