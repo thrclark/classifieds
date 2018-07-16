@@ -13,6 +13,7 @@
 	margin-right: auto;
 	vertical-align: middle;
 }
-
-
+.alert.rbt-alert-list {
+    margin-bottom: 0rem;
+}
 </style>
