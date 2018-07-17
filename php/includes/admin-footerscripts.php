@@ -392,3 +392,16 @@
 
     });
 </script>
+
+
+
+<script>
+$('.form-check-input').click(function () {
+    if (this.id == "watch-me") {
+        $("#show-me, #asdfasdf").show();
+    } else {
+        $("#show-me, #asdfasdf").hide();
+    }
+});
+
+</script>
