@@ -11793,11 +11793,11 @@ a, .btn-link, .page-link {
 }
 
 body, .pagination .page-link, .modal-content {
-  background: #fafafa;
+  background: #F4F3EE;
 }
 
 .rbt-drawer, .rbt-app-header .rbt-drawer-button.open {
-  background-color: #ededed;
+  background-color: #eae8df;
 }
 
 .rbt-drawer-button.open .btn.btn-link, .rbt-drawer-button.open ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-drawer-button.open label.btn-link.img-ul-button {
@@ -11805,8 +11805,8 @@ body, .pagination .page-link, .modal-content {
 }
 
 .table thead {
-  background: #ededed;
-  border-bottom-color: #aeaeae;
+  background: #eae8df;
+  border-bottom-color: #b8b191;
 }
 
 .rbt-app-header {
@@ -11838,7 +11838,7 @@ body, .pagination .page-link, .modal-content {
 }
 
 .ccf-themeset.background {
-  background: #fafafa;
+  background: #F4F3EE;
 }
 
 .rbt-app-header, .modal .modal-header {
