@@ -91,7 +91,7 @@
                     <dt class="col-sm-4">Reason for report</dt>
                     <dd class="col-sm-8">Fraudulent activity</dd>
                     <dt class="col-sm-4">Additional detail</dt>
-                    <dd class="col-sm-8">I hate boxing. Nobody should be allowed to buy/sell boxing gloves.</dd>
+                    <dd class="col-sm-8">Boxing is stupid. Nobody should be allowed to buy/sell boxing gloves on this site, or anywhere else in the world.</dd>
                     <dt class="col-sm-4">Report dismissed</dt>
                     <dd class="col-sm-8">07/25/2018 by admin</dd>
                 </dl>

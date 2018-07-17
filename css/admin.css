@@ -11671,7 +11671,7 @@ body .main-content-section {
 
 .ccf-postdetail-market {
   border-left: solid 1px #999999;
-  line-height: 0.5;
+  padding-top: 3px;
 }
 
 .was-validated .form-control.ccf-hide-validation-success:valid, .form-control.ccf-hide-validation-success.is-valid {
