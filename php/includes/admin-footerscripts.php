@@ -226,6 +226,39 @@
 
 
 
+<script>
+    $(document).ready(function() {
+        $("#post_detail .demojs-btn-reportad").click(function() {
+            $("#post_detail .demojs-view-posting").hide();
+            $("#post_detail .demojs-report-post").show();
+        });
+		
+		 $("#post_detail .demojs-btn-viewpolicy").click(function() {
+            $("#post_detail .demojs-report-post").hide();
+			$("#post_detail .demojs-view-policy").show();
+        });
+		$("#post_detail .demojs-btn-closepolicy").click(function() {
+            $("#post_detail .demojs-report-post").show();
+			$("#post_detail .demojs-view-policy").hide();
+        });
+		$("#post_detail .demojs-btn-submitreport").click(function() {
+            $("#post_detail .demojs-report-post").hide();
+			$("#post_detail .demojs-report-confirm").show();
+        });
+		
+		$("#post_detail .demojs-btn-cancelreport").click(function() {
+            $("#post_detail .demojs-report-post").hide();
+			$("#post_detail .demojs-view-posting").show();
+        });
+		
+		
+		
+		
+		
+    });
+</script>
+
+
 
 
 <script>
