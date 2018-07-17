@@ -2,7 +2,7 @@
 <div class="row">
     <div class="col-12">
     	<div class="alert alert-info fade show rbt-alert-list" role="alert">
-    		<p>No ads were found for 'Musicians & artists'.</p>
+    		<p>No ads found.</p>
 		</div>
     </div>
 
