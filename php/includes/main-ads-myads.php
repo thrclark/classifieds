@@ -4,7 +4,7 @@
                 <div class="postitem-image-container">
                     <div class="post-image none"> <i aria-hidden="true" class="fa fa-asterisk"></i> <span class="sr-only">asdf</span> </div>
                 </div>
-                <!--<div class="postitem-newbanner" >New</div>-->
+                <div class="postitem-newbanner" >New</div>
                 <div class="postitem-post-title" >Seeking: Looking for roommate! </div>
                 <div class="postitem-price" >$330/month</div>
                 <div class="w-100"></div>
@@ -26,7 +26,7 @@
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/ride1.jpg)"> </div>
                 </div>
-                <!--<div class="postitem-newbanner" >New</div>-->
+                <div class="postitem-newbanner" >New</div>
                 <div class="postitem-post-title" >Oct 6. Ride to Northwest Indiana </div>
                 <div class="postitem-price" >$25</div>
                 <div class="w-100"></div>

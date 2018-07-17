@@ -5,7 +5,7 @@
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone1.jpg)"> </div>
                 </div>
-                <!--<div class="postitem-newbanner" >New</div>-->
+                <div class="postitem-newbanner" >New</div>
                 <div class="postitem-post-title" >For Sale: iPhone 5S 32G </div>
                 <div class="postitem-price" >$150</div>
                 <div class="w-100"></div>
