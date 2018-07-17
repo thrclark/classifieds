@@ -120,7 +120,6 @@
 
     });
 </script>
-
 <script>
     $(document).ready(function() {
         $(function() {
@@ -220,12 +219,6 @@
         });
     });
 </script>
-
-
-
-
-
-
 <script>
     $(document).ready(function() {
         $("#post_detail .demojs-btn-reportad").click(function() {
@@ -250,17 +243,8 @@
             $("#post_detail .demojs-report-post").hide();
 			$("#post_detail .demojs-view-posting").show();
         });
-		
-		
-		
-		
-		
     });
 </script>
-
-
-
-
 <script>
     $(document).ready(function() {
         $("#admin_ad_detail .demojs-btn-deactivatead").click(function() {
@@ -272,17 +256,8 @@
             $(".demojs-admin-confirm-adremove").hide();
 			$(".demojs-admin-confirm-messagesent").show();
         });
-		
-		
     });
 </script>
-
-
-
-
-
-
-
 <script>
     $(document).ready(function() {
         $("#admin_ad_detail_reported .demojs-btn-viewreport").click(function() {
@@ -314,20 +289,8 @@
             $("#admin_ad_detail_reported .demojs-admin-confirm-adremove").hide();
             $("#admin_ad_detail_reported .demojs-admin-confirm-messagesent").show();
         });
-		
-		
-		
-		
-		
     });
 </script>
-
-
-
-
-
-
-
 <script>
     $(document).ready(function() {
         $("#admin_ad_detail_reportdismissed .demojs-btn-viewreport").click(function() {
@@ -395,10 +358,6 @@
         });
     });
 </script>
-
-
-
-
 <script type="text/javascript">
     $(function() {
 
