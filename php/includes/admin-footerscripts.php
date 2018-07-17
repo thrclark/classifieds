@@ -125,7 +125,7 @@
     $(document).ready(function() {
         $(function() {
             $(".postitem-container").click(function() {
-                $(this).addClass("faded");
+                $(this).addClass("ccf-visited");
             });
         });
     });

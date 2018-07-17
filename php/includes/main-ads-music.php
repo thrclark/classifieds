@@ -5,7 +5,7 @@
                 <div class="postitem-image-container" >
                     <div class="post-image" style="background-image:url(../img/post-pics/drums1.jpg)"> </div>
                 </div>
-                <!--<div class="postitem-newbanner" >New</div>-->
+                <div class="postitem-newbanner" >New</div>
                 <div class="postitem-post-title" >For Sale: Drum Set - Like New!</div>
                 <div class="postitem-price" >$1200</div>
                 <div class="w-100"></div>
@@ -27,7 +27,7 @@
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/piano1.jpg)"> </div>
                 </div>
-                <!--<div class="postitem-newbanner" >New</div>-->
+                <div class="postitem-newbanner" >New</div>
                 <div class="postitem-post-title" >For Sale: Stienway grand piano, 1932</div>
                 <div class="postitem-price" >Negotiable</div>
                 <div class="w-100"></div>
@@ -115,7 +115,7 @@
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/drums2.jpg)"> </div>
                 </div>
-                <!--<div class="postitem-newbanner" >New</div>-->
+                <div class="postitem-newbanner" >New</div>
                 <div class="postitem-post-title" >For Sale: Jazz kit, with stands and cymbals</div>
                 <div class="postitem-price" >$2000</div>
                 <div class="w-100"></div>
