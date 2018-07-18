@@ -12,6 +12,15 @@ $page_title = 'Ads';
 <body>
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
+
+
+
+
+
+
+
+
+
 <div class="container pt-3">
     <div class="form-row">
         <div class="col-12">

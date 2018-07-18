@@ -78,17 +78,17 @@
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-admin-confirm-adremove" style="display:none">
-                <p> Would you like to take administrative action on the poster of this ad (jlacner)? </p>
+                <p> Would you like to take administrative action on the user who posted this ad (jlacner)? </p>
                 <div class="form-check demojs-adminactiontoggle">
-                    <input class="form-check-input" type="radio" name="takeactiontoggle" id="watch-me" value="3">
-                    <label class="form-check-label" for="watch-me"> Yes </label>
+                    <input class="form-check-input" type="radio" name="takeactiontoggle" id="takeadminaction" value="3">
+                    <label class="form-check-label" for="takeadminaction"> Yes </label>
                 </div>
                 <div class="form-check demojs-adminactiontoggle">
                     <input class="form-check-input" type="radio" name="takeactiontoggle" id="watch-me2" value="2">
                     <label class="form-check-label" for="watch-me2"> No, just deactivate this ad. </label>
                 </div>
-                <div id="show-me" style="display:none" class="desc">
-                    <p class=""> Please provide a message to the  user who posted this ad to inform them of the ad deactivation. </p>
+                <div id="showadminaction" style="display:none" class="desc">
+                    <p class=""> Please provide a message for the user who posted this ad. </p>
                     <form class="">
                         <div class="form-group">
                             <label for="banneduseruser">User</label>
@@ -97,9 +97,9 @@
                         <div class="form-group">
                             <label for="selectresponse">Reason for ad deactivation</label>
                             <select class="form-control" id="selectresponse">
-                                <option value="general">General policy violations</option>
-                                <option value="parking">Parking permit violation</option>
-                                <option value="other">Other</option>
+                                <option value="General policy violation">General policy violation</option>
+                                <option value="Parking permit violation">Parking permit violation</option>
+                                <option value="Other">Other</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -108,30 +108,44 @@
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="exampleRadios" id="stacked1" value="option1">
-                            <label class="form-check-label" for="stacked1"> Log a warning for user 'jlancer' for 'Parking permit violation'. </label>
+                            <label class="form-check-label" for="stacked1"> Log a warning for user 'jlancer' for '<span id="reasonvalue">Parking permit violation</span>'. </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="exampleRadios" id="stacked2" value="option2">
-                            <label class="form-check-label" for="stacked2">Revoke system access for 'jlancer' <a href="#" class="small font-italic">(2 previous warnings)</a></label>
+                            <label class="form-check-label" for="stacked2">Revoke system access for 'jlancer' <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="Warnings for 'jlancer'" data-content="<div class='border-bottom'>General policy violation</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Parking permit violation</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>">(3 previous warnings)</a></label>
                         </div>
                     </form>
                 </div>
             </div>
             <div class="modal-footer demojs-admin-confirm-adremove" style="display:none">
-                <button class="btn btn-primary demojs-btn-sendmessage">Deactivate ad<span id="asdfasdf" style="display:none"> &amp; send message</span></button>
+                <button class="btn btn-primary demojs-btn-deactivate" style="display:none;">Deactivate ad</button>
+                <button class="btn btn-primary demojs-btn-deactivatesend" style="display:none">Deactivate ad + send message</button>
                 <button class="btn btn-outline-primary" data-dismiss="modal">Cancel</button>
             </div>
             
             <!--Confirm message sent -->
             
             <div class="modal-header demojs-admin-confirm-messagesent" style="display:none">
-                <h2 class="modal-title" id="exampleModalLabel">Actions completed</h2>
+                <h2 class="modal-title" id="exampleModalLabel">Action completed</h2>
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-admin-confirm-messagesent" style="display:none">
-                <p> Message has been sent to user 'jlancer'. You may review actions taken against this user in <a href="admin-restrictedusers.php">Restricted users</a>. </p>
+                <p> This ad has now been deactivated.</p>
             </div>
             <div class="modal-footer demojs-admin-confirm-messagesent" style="display:none">
+                <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+            </div>
+            
+            <!--Confirm message sent -->
+            
+            <div class="modal-header demojs-admin-confirm-addeactmessagesent" style="display:none">
+                <h2 class="modal-title" id="exampleModalLabel">Actions completed</h2>
+                <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
+            </div>
+            <div class="modal-body demojs-admin-confirm-addeactmessagesent" style="display:none">
+                <p> This ad has now been deactivated and a message has been sent to user 'jlancer'. You may review actions taken against this user in <a href="admin-restrictedusers.php">Restricted users</a>. </p>
+            </div>
+            <div class="modal-footer demojs-admin-confirm-addeactmessagesent" style="display:none">
                 <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
             </div>
         </div>

@@ -243,18 +243,30 @@
             $("#post_detail .demojs-report-post").hide();
 			$("#post_detail .demojs-view-posting").show();
         });
+		
+		
+		
+		
     });
 </script>
 <script>
     $(document).ready(function() {
         $("#admin_ad_detail .demojs-btn-deactivatead").click(function() {
-            $(".demojs-admin-defaultview").hide();
-            $(".demojs-admin-confirm-adremove").show();
+            $("#admin_ad_detail .demojs-admin-defaultview").hide();
+            $("#admin_ad_detail .demojs-admin-confirm-adremove").show();
         });
 		
 		 $("#admin_ad_detail .demojs-btn-sendmessage").click(function() {
-            $(".demojs-admin-confirm-adremove").hide();
-			$(".demojs-admin-confirm-messagesent").show();
+            $("#admin_ad_detail .demojs-admin-confirm-adremove").hide();
+			$("#admin_ad_detail .demojs-admin-confirm-messagesent").show();
+        });
+		$("#admin_ad_detail .demojs-btn-deactivate").click(function() {
+            $("#admin_ad_detail .demojs-admin-confirm-adremove").hide();
+			$("#admin_ad_detail .demojs-admin-confirm-messagesent").show();
+        });
+		$("#admin_ad_detail .demojs-btn-deactivatesend").click(function() {
+            $("#admin_ad_detail .demojs-admin-confirm-adremove").hide();
+			$("#admin_ad_detail .demojs-admin-confirm-addeactmessagesent").show();
         });
     });
 </script>
@@ -359,16 +371,21 @@
     });
 </script>
 <script type="text/javascript">
+
+
     $(function() {
+		 $('#selectresponse').change(function() {
+         $('#reasonvalue').html($(this).val());
+    		}).change(); // Trigger the events
 
         var feedit = new Array({
-            value: 'general',
+            value: 'General policy violation',
             areatext: 'We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
         }, {
-		 value: 'parking',
+		 value: 'Parking permit violation',
             areatext: 'Your IU Classifieds ad(s) for the buying or selling of IU parking permits violates IU policy.  IU Permits are property of the University. Please be aware that your ad(s) have been removed, and future violations may result in revoked access to IU Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
         },{
-            value: 'other',
+            value: 'Other',
             areatext: ''
         });
 
@@ -392,15 +409,14 @@
 
     });
 </script>
-
-
-
 <script>
 $('input[name="takeactiontoggle"]').click(function() {
-    if (this.id == "watch-me") {
-        $("#show-me, #asdfasdf").show();
+    if (this.id == "takeadminaction") {
+        $("#showadminaction, .demojs-btn-deactivatesend").show();
+		 $(".demojs-btn-deactivate").hide();
     } else {
-        $("#show-me, #asdfasdf").hide();
+        $("#showadminaction, .demojs-btn-deactivatesend").hide();
+		$(".demojs-btn-deactivate").show();
     }
 });
 
