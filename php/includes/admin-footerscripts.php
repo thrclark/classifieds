@@ -396,7 +396,7 @@
 
 
 <script>
-$('.form-check-input').click(function () {
+$('input[name="takeactiontoggle"]').click(function() {
     if (this.id == "watch-me") {
         $("#show-me, #asdfasdf").show();
     } else {

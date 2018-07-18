@@ -79,13 +79,13 @@
             </div>
             <div class="modal-body demojs-admin-confirm-adremove" style="display:none">
                 <p> Would you like to take administrative action on the poster of this ad (jlacner)? </p>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="cars" id="watch-me" value="3">
+                <div class="form-check demojs-adminactiontoggle">
+                    <input class="form-check-input" type="radio" name="takeactiontoggle" id="watch-me" value="3">
                     <label class="form-check-label" for="watch-me"> Yes </label>
                 </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="cars" id="stacked2" value="2">
-                    <label class="form-check-label" for="stacked2"> No, just deactivate this ad. </label>
+                <div class="form-check demojs-adminactiontoggle">
+                    <input class="form-check-input" type="radio" name="takeactiontoggle" id="watch-me2" value="2">
+                    <label class="form-check-label" for="watch-me2"> No, just deactivate this ad. </label>
                 </div>
                 <div id="show-me" style="display:none" class="desc">
                     <p class=""> Please provide a message to the  user who posted this ad to inform them of the ad deactivation. </p>
