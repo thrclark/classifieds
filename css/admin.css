@@ -11496,6 +11496,9 @@ body .main-content-section {
     right: 15px;
     top: 5px;
   }
+  .postitem.thumb .postitem-container.ccf-visited .postitem-description:after {
+    background: linear-gradient(to bottom, rgba(238, 238, 238, 0) 0%, #eeeeee 50%, #eeeeee 100%);
+  }
   .postitem.thumb .postitem-container .postitem-image-container {
     flex: 0 0 16.6666666667%;
     max-width: 16.6666666667%;
@@ -11580,6 +11583,7 @@ body .main-content-section {
     height: 10px;
     bottom: -5px;
     left: 0px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
   }
   .postitem.thumb .postitem-container .postitem-description .ngx-ellipsis-inner {
     white-space: pre-wrap;
