@@ -466,7 +466,7 @@ $page_title = 'Ads';
 <?php include('modals/modal-admin-ad-detail-deactivated-admin.php') ?>
 
 
-<?php include('modals/modal-admin-ad-detail-reported.php') ?>
+<?php include('modals/modal-admin-ad-detail-reported1.php') ?>
 <?php include('modals/modal-admin-restrictuser.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>

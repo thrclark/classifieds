@@ -270,6 +270,53 @@
         });
     });
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    $(document).ready(function() {
+        $("#admin_ad_detail_deactivated_user .demojs-btn-reactivatead").click(function() {
+            $("#admin_ad_detail_deactivated_user .demojs-admin-defaultview").hide();
+            $("#admin_ad_detail_deactivated_user .demojs-admin-confirm-adreactivization").show();
+        });
+		
+		
+    });
+</script>
+
+
+
+
+
+
+
+<script>
+    $(document).ready(function() {
+        $("#admin_ad_detail_deactivated_admin .demojs-btn-reactivatead").click(function() {
+            $("#admin_ad_detail_deactivated_admin .demojs-admin-defaultview").hide();
+            $("#admin_ad_detail_deactivated_admin .demojs-admin-confirm-adreactivization").show();
+        });
+		
+		
+    });
+</script>
+
+
+
+
+
 <script>
     $(document).ready(function() {
         $("#admin_ad_detail_reported .demojs-btn-viewreport").click(function() {
@@ -293,16 +340,21 @@
             $("#admin_ad_detail_reported .demojs-admin-confirm-adremove").show();
         });
 
-        $("#admin_ad_detail_reported .demojs-btn-deactivatereport").click(function() {
-            $("#admin_ad_detail_reported .demojs-admin-viewreport, #admin_ad_detail_reported .demojs-admin-defaultview").hide();
-            $("#admin_ad_detail_reported .demojs-admin-confirm-reportremove").show();
-        });
-		$("#admin_ad_detail_reported .demojs-btn-sendmessage").click(function() {
+        $("#admin_ad_detail_reported .demojs-btn-deactivate").click(function() {
             $("#admin_ad_detail_reported .demojs-admin-confirm-adremove").hide();
-            $("#admin_ad_detail_reported .demojs-admin-confirm-messagesent").show();
+			$("#admin_ad_detail_reported .demojs-admin-confirm-messagesent").show();
+        });
+		$("#admin_ad_detail_reported .demojs-btn-deactivatesend").click(function() {
+            $("#admin_ad_detail_reported .demojs-admin-confirm-adremove").hide();
+			$("#admin_ad_detail_reported .demojs-admin-confirm-addeactmessagesent").show();
         });
     });
 </script>
+
+
+
+
+
 <script>
     $(document).ready(function() {
         $("#admin_ad_detail_reportdismissed .demojs-btn-viewreport").click(function() {
@@ -370,7 +422,11 @@
         });
     });
 </script>
+
+
+
 <script type="text/javascript">
+
 
 
     $(function() {
@@ -398,7 +454,36 @@
             });
         });
 		
-		$('#selectresponse1').on('change', function() {
+		
+
+    });
+</script>
+
+
+
+
+
+<script type="text/javascript">
+
+
+
+    $(function() {
+		 $('#selectresponse1').change(function() {
+         $('#reasonvalue1').html($(this).val());
+    		}).change(); // Trigger the events
+
+        var feedit = new Array({
+            value: 'General policy violation',
+            areatext: 'We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
+        }, {
+		 value: 'Parking permit violation',
+            areatext: 'Your IU Classifieds ad(s) for the buying or selling of IU parking permits violates IU policy.  IU Permits are property of the University. Please be aware that your ad(s) have been removed, and future violations may result in revoked access to IU Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
+        },{
+            value: 'Other',
+            areatext: ''
+        });
+
+        $('#selectresponse1').on('change', function() {
             var e = $(this).val();
             $.each(feedit, function(key, val) {
                 if (e == val.value) {
@@ -406,17 +491,37 @@
                 }
             });
         });
+		
+	
 
     });
 </script>
+
+
+
+
+
 <script>
-$('input[name="takeactiontoggle"]').click(function() {
+$('#admin_ad_detail input[name="takeactiontoggle"]').click(function() {
     if (this.id == "takeadminaction") {
-        $("#showadminaction, .demojs-btn-deactivatesend").show();
-		 $(".demojs-btn-deactivate").hide();
+        $("#admin_ad_detail #showadminaction, #admin_ad_detail .demojs-btn-deactivatesend").show();
+		 $("#admin_ad_detail .demojs-btn-deactivate").hide();
     } else {
-        $("#showadminaction, .demojs-btn-deactivatesend").hide();
-		$(".demojs-btn-deactivate").show();
+        $("#admin_ad_detail #showadminaction, #admin_ad_detail .demojs-btn-deactivatesend").hide();
+		$("#admin_ad_detail .demojs-btn-deactivate").show();
+    }
+});
+
+</script>
+
+<script>
+$('#admin_ad_detail_reported input[name="takeactiontoggle1"]').click(function() {
+    if (this.id == "takeadminaction1") {
+        $("#admin_ad_detail_reported #showadminaction1, #admin_ad_detail_reported .demojs-btn-deactivatesend").show();
+		 $("#admin_ad_detail_reported .demojs-btn-deactivate").hide();
+    } else {
+        $("#admin_ad_detail_reported #showadminaction1, #admin_ad_detail_reported .demojs-btn-deactivatesend").hide();
+		$("#admin_ad_detail_reported .demojs-btn-deactivate").show();
     }
 });
 

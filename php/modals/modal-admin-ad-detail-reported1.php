@@ -2,7 +2,7 @@
 <div class="modal post-detail fade" id="admin_ad_detail_reported" tabindex="-1" role="dialog" aria-labelledby="admin_ad_detail_reported" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="ccf-adreport demojs-admin-defaultview" style="display:nonee">
+            <div class="ccf-adreport demojs-admin-defaultview" >
                 <div class="alert alert-danger fade show mb-0 border-0 pt-2 pb-2" role="alert">
                     <div class="row align-items-center">
                         <div class="col">
@@ -45,11 +45,11 @@
                     <div class="card-body"> <span class="card-text"> <a href="#" class="demojs-btn-viewpolicy">View policy</a></span> </div>
                 </div>
             </div>
-            <div class="modal-header demojs-admin-defaultview" style="display:nonee">
+            <div class="modal-header demojs-admin-defaultview" >
                 <h2 class="modal-title" id="exampleModalLabel">Math-M211 and M212 Textbook</h2>
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
-            <div class="modal-body demojs-admin-defaultview" style="display:nonee">
+            <div class="modal-body demojs-admin-defaultview" >
                 <dl class="row">
                     <dt class="sr-only">
                         <message key="global.ad.field.price">Price</message>
@@ -101,46 +101,14 @@
                     <dd class="col-sm-9">03/25/2018 3:26pm</dd>
                 </dl>
             </div>
-            <div class="modal-footer demojs-admin-defaultview" style="display:nonee">
+            <div class="modal-footer demojs-admin-defaultview" >
                 <div class="container-fluid px-0">
                     <div class="row align-items-center">
                         <div class="col"><span class="font-weight-bold">Does this ad violate policy?</span></div>
-                        <div class="col-auto"> <a class="btn btn-outline-primary demojs-btn-deactivatead" href="#">Yes, deactivate ad</a> <a class="btn btn-outline-primary demojs-btn-deactivatereport" href="#">No</a> </div>
+                        <div class="col-auto"> <a class="btn btn-outline-primary demojs-btn-deactivatead" href="#">Yes, deactivate ad...</a> <a class="btn btn-outline-primary demojs-btn-deactivatereport" href="#">No</a> </div>
                     </div>
                 </div>
             </div>
-            
-            <!--Report details--> 
-            
-            <!--         <div class="modal-body demojs-admin-viewreport" style="display:none">
-                <div class="ccf-postdetail-title mb-4">Report details</div>
-                <p>
-                <dl class="row">
-                    <dt class="col-sm-4">Reported by</dt>
-                    <dd class="col-sm-8">johcoltra</dd>
-                    <dt class="col-sm-4">Reason for report</dt>
-                    <dd class="col-sm-8">Promotes a political/social agenda</dd>
-                    <dt class="col-sm-4">Additional detail</dt>
-                    <dd class="col-sm-8">This ad is really a campaign ad for a candidate who is running for state senate. Please remove it.</dd>
-                </dl>
-                </p>
-                <p> <a href="#" class="demojs-btn-viewpolicy">View policy</a></p>
-            </div>
-            <div class="modal-footer demojs-admin-viewreport" style="display:none">
-                <div class="container-fluid px-0">
-                    <div class="row align-items-center">
-                        <div class="col">
-                            <div class="rbt-button-group">
-                                <div class="dropdown">
-                                    <button class="btn btn-outline-primary dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Deactivate </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item demojs-btn-deactivatead" href="#">Deactivate ad</a> <a class="dropdown-item demojs-btn-deactivatereport" href="#">Deactivate report</a> </div>
-                                </div>
-                                <button class="btn btn-outline-primary demojs-btn-viewad"> View ad</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>--> 
             
             <!--View policy-->
             
@@ -162,71 +130,80 @@
             <!--Confirm ad deactivation-->
             
             <div class="modal-header demojs-admin-confirm-adremove" style="display:none">
-                <h2 class="modal-title" id="exampleModalLabel">Ad deactivated</h2>
+                <h2 class="modal-title" id="exampleModalLabel">Ad deactivation</h2>
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-admin-confirm-adremove" style="display:none">
-                <p> This ad has now been deactivated. 
-                    
-                    Please provide a message to the  user who posted this ad to inform them of the ad deactivation. </p>
-                <form>
-                    <div class="form-group">
-                        <label for="banneduseruser">User</label>
-                        <input type="text" class="form-control" id="banneduseruser" placeholder="" value="jlancer" readonly>
-                    </div>
-                    <div class="form-group">
-                        <label for="selectresponse1">Reason for ad deactivation</label>
-                        <select class="form-control" id="selectresponse1">
-                            <option value="general">General policy violations</option>
-                            <option value="parking">Parking permit violation</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="responsefield1">Message to be sent</label>
-                        <textarea class="form-control" id="responsefield1" rows="8">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</textarea>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios2" id="stacked02" value="option1" checked>
-                        <label class="form-check-label" for="stacked02"> Take no administrative action on user 'jlancer' </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios2" id="stacked12" value="option1">
-                        <label class="form-check-label" for="stacked12"> Log a warning for user 'jlancer' </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios2" id="stacked22" value="option2">
-                        <label class="form-check-label" for="stacked22">Revoke system access for 'jlancer' <span class="small font-italic">(0 previous warnings)</span></label>
-                    </div>
-                </form>
+                <p> Would you like to take administrative action on the user who posted this ad (jlacner)? </p>
+                 <div class="form-check demojs-adminactiontoggle">
+                    <input class="form-check-input" type="radio" name="takeactiontoggle1" id="watch-me3" value="2">
+                    <label class="form-check-label" for="watch-me3"> No, just deactivate this ad. </label>
+                </div>
+                <div class="form-check demojs-adminactiontoggle">
+                    <input class="form-check-input" type="radio" name="takeactiontoggle1" id="takeadminaction1" value="3">
+                    <label class="form-check-label" for="takeadminaction1"> Yes </label>
+                </div>
+               
+                <div id="showadminaction1" style="display:none" class="desc">
+                    <p class=""> Please provide a message for the user who posted this ad. </p>
+                    <form class="">
+                        <div class="form-group">
+                            <label for="banneduseruser">User</label>
+                            <input type="text" class="form-control" id="banneduseruser" placeholder="" value="jlancer" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="selectresponse1">Reason for ad deactivation</label>
+                            <select class="form-control" id="selectresponse1">
+                                <option value="General policy violation">General policy violation</option>
+                                <option value="Parking permit violation">Parking permit violation</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="responsefield1">Message to be sent</label>
+                            <textarea class="form-control" id="responsefield1" rows="8">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</textarea>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios22" id="stacked5" value="option1">
+                            <label class="form-check-label" for="stacked5"> Log a warning for user 'jlancer' for '<span id="reasonvalue1">Parking permit violation</span>'. </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios22" id="stacked6" value="option2">
+                            <label class="form-check-label" for="stacked6">Revoke system access for 'jlancer' <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="Warnings for 'jlancer'" data-content="<div class='border-bottom'>General policy violation</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Parking permit violation</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>">(3 previous warnings)</a></label>
+                        </div>
+                    </form>
+                </div>
             </div>
             <div class="modal-footer demojs-admin-confirm-adremove" style="display:none">
-                <button class="btn btn-primary demojs-btn-sendmessage">Send </button>
+                <button class="btn btn-primary demojs-btn-deactivate" style="display:none;">Deactivate ad</button>
+                <button class="btn btn-primary demojs-btn-deactivatesend" style="display:none">Deactivate ad + send message</button>
                 <button class="btn btn-outline-primary" data-dismiss="modal">Cancel</button>
             </div>
             
-            <!--Confirm message sent -->
+           
+                <!--Confirm message sent -->
             
             <div class="modal-header demojs-admin-confirm-messagesent" style="display:none">
-                <h2 class="modal-title" id="exampleModalLabel">Message sent</h2>
+                <h2 class="modal-title" id="exampleModalLabel">Action completed</h2>
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-admin-confirm-messagesent" style="display:none">
-                <p> Message has been sent to user 'jlancer'. You may review actions taken against this user in <a href="admin-restrictedusers.php">Restricted users</a>. </p>
+                <p> This ad has now been deactivated.</p>
             </div>
             <div class="modal-footer demojs-admin-confirm-messagesent" style="display:none">
                 <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
             </div>
             
-            <!--Confirm report deactivation-->
-            <div class="modal-header demojs-admin-confirm-reportremove" style="display:none">
-                <h2 class="modal-title" id="exampleModalLabel">Report dismissed</h2>
+            <!--Confirm message sent -->
+            
+            <div class="modal-header demojs-admin-confirm-addeactmessagesent" style="display:none">
+                <h2 class="modal-title" id="exampleModalLabel">Actions completed</h2>
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
-            <div class="modal-body demojs-admin-confirm-reportremove" style="display:none">
-                <p> This report has now been dismissed. </p>
+            <div class="modal-body demojs-admin-confirm-addeactmessagesent" style="display:none">
+                <p> This ad has now been deactivated and a message has been sent to user 'jlancer'. You may review actions taken against this user in <a href="admin-restrictedusers.php">Restricted users</a>. </p>
             </div>
-            <div class="modal-footer demojs-admin-confirm-reportremove" style="display:none">
+            <div class="modal-footer demojs-admin-confirm-addeactmessagesent" style="display:none">
                 <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
             </div>
         </div>

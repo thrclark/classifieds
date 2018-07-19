@@ -54,13 +54,8 @@
                     <dd class="col-sm-9">-</dd>
                     <dt class="col-sm-3">Posted</dt>
                     <dd class="col-sm-9">02/25/2018 3:26pm</dd>
-                    
-                    
-                     <dt class="col-sm-3">Deactivated</dt>
+                    <dt class="col-sm-3">Deactivated</dt>
                     <dd class="col-sm-9">02/28/2018 9:26pm</dd>
-                    
-                    
-                    
                     <dt class="col-sm-3">Expires</dt>
                     <dd class="col-sm-9">03/25/2018 3:26pm</dd>
                 </dl>
@@ -70,7 +65,7 @@
                     <div class="row align-items-center">
                         <div class="col">
                             <div class="rbt-button-group">
-                             
+                                <button class="btn btn-outline-primary demojs-btn-reactivatead">Reactivate ad</button>
                                 <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
                             </div>
                         </div>
@@ -78,15 +73,20 @@
                 </div>
             </div>
             
-  
             
             
+                <!--Confirm message sent -->
             
-            
-            
-
-            
-            
+            <div class="modal-header demojs-admin-confirm-adreactivization" style="display:none">
+                <h2 class="modal-title" id="exampleModalLabel">Ad reactivated</h2>
+                <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
+            </div>
+            <div class="modal-body demojs-admin-confirm-adreactivization" style="display:none">
+                <p> This ad has now been reactivated, and will expire on 03/25/2018. </p>
+            </div>
+            <div class="modal-footer demojs-admin-confirm-adreactivization" style="display:none">
+                <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+            </div>
             
             
             
