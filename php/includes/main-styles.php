@@ -13,6 +13,8 @@
 	margin-right: auto;
 	vertical-align: middle;
 }
-
-
+.ccf-not-found{
+	text-align: center;
+	margin-top: 40px;
+}
 </style>
