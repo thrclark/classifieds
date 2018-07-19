@@ -526,3 +526,20 @@ $('#admin_ad_detail_reported input[name="takeactiontoggle1"]').click(function() 
 });
 
 </script>
+
+<script>
+    $(document).ready(function() {
+        $('.demojs-dismissreport').on("click", function() {
+            $(this).parents('.card').toggle();
+        });
+		
+		 $(".demojs-restorereports").click(function() {
+            $(".card").show();
+        });
+		
+		
+    });
+</script>
+
+
+

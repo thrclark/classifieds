@@ -6,7 +6,7 @@
                 <div class="alert alert-danger fade show mb-0 border-0 pt-2 pb-2" role="alert">
                     <div class="row align-items-center">
                         <div class="col">
-                            <div class="alert-heading">Reported for fraudulent activity</div>
+                            <div class="alert-heading">Reported for policy violation</div>
                         </div>
                         <div class="col-auto">
                             <button class="btn btn-link font-weight-normal p-0 demojs-btn-viewreport "> View report</button>
@@ -25,6 +25,8 @@
                             <dt class="col-sm-4">Additional detail</dt>
                             <dd class="col-sm-8">Tried to sell me a different book than what was advertised. He aknowledged that it's a different book, but 'still a pretty good book'.</dd>
                         </dl>
+                        
+                        <a href="#" class="demojs-dismissreport font-italic">Dismiss</a>
                         </span> </div>
                 </div>
                 <div class="card bg-white mb-1 demojs-admin-viewreport" style="display:none">
@@ -38,11 +40,20 @@
                             <dd class="col-sm-8">Fraudulent activity</dd>
                             <dt class="col-sm-4">Additional detail</dt>
                             <dd class="col-sm-8">When I went to pick up the book, he said he didn't have it, and tried to sell me a bunch of other books that I don't need. Please remove this ad. Frustrating...</dd>
-                        </dl>
+                        </dl><a href="#" class="demojs-dismissreport font-italic">Dismiss</a>
                         </span> </div>
                 </div>
                 <div class="card bg-white mb-1 demojs-admin-viewreport" style="display:none">
-                    <div class="card-body"> <span class="card-text"> <a href="#" class="demojs-btn-viewpolicy">View policy</a></span> </div>
+                    <div class="card-body"> 
+                    
+                    <div class="row">
+                    <div class="col"> <span class="card-text demojs-restorereports"> <a href="#" class="">Restore dismissed (2)</a></span></div>
+                     <div class="col-auto"> <span class="card-text"> <a href="#" class="demojs-btn-viewpolicy">View policy</a></span></div>
+                    </div>
+                    
+                    
+                    
+                    </div>
                 </div>
             </div>
             <div class="modal-header demojs-admin-defaultview" >
