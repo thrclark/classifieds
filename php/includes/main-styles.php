@@ -14,5 +14,12 @@
 	vertical-align: middle;
 }
 
-
+.sidebar ul li i{
+	margin: 0 10px 0 0;
+	width: 17px;
+	text-align: center;
+}
+.main-content .main-content-section .section-head .section-head-utilities .dropdown .btn{
+	font-size: 1rem !important;
+}
 </style>
