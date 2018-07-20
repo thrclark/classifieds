@@ -11110,6 +11110,9 @@ body .main-content-section {
   -moz-box-shadow: 0px 0px 15px 2px #e3e3e3;
   box-shadow: 0px 0px 15px 2px #e3e3e3;
 }
+.postitem .postitem-container .postitem-image-container {
+  border: solid 1px #dddddd;
+}
 .postitem .postitem-container .postitem-image-container .post-image {
   background-color: #eeeeee;
   background-size: auto 100%;
@@ -11175,7 +11178,7 @@ body .main-content-section {
     padding: 0px;
     top: 0px;
     width: 64px;
-    height: 47px;
+    height: 67px;
     left: 0px;
   }
   .postitem .postitem-container .postitem-image-container .post-image.none i {
@@ -11260,6 +11263,7 @@ body .main-content-section {
     margin-bottom: 20px;
   }
   .postitem.grid .postitem-container .postitem-image-container {
+    margin-bottom: 5px;
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -11268,7 +11272,6 @@ body .main-content-section {
     background-position: center;
     background-size: 235px auto;
     min-height: 150px;
-    margin-bottom: 5px;
     height: 50px;
   }
   .postitem.grid .postitem-container .postitem-image-container .post-image.none i {
