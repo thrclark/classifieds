@@ -73,11 +73,11 @@
                             <option>Promotes personal/commercial business</option>
                             <option>Promotes a political/social agenda</option>
                             <option>Selling IU parking permit</option>
-                            <option>This is a fake ad</option>
+                            <option>Fake ad</option>
                             <option>Other</option>
                         </select>
                     </div>
-                    <div class="form-group">	
+                    <div class="form-group">
                         <label for="exampleFormControlTextarea1">Additional detail</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                     </div>
@@ -101,14 +101,9 @@
                 <div class="ccf-postdetail-title">Report submitted</div>
                 <p>Your report has been submitted - thank you. </p>
             </div>
-            
-            
-             <div class="modal-footer demojs-report-confirm" style=" display:none">
-               	 <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+            <div class="modal-footer demojs-report-confirm" style=" display:none">
+                <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
             </div>
-            
-            
-            
         </div>
     </div>
 </div>

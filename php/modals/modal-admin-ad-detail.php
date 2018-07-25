@@ -83,11 +83,10 @@
                     <input class="form-check-input" type="radio" name="takeactiontoggle" id="watch-me2" value="2">
                     <label class="form-check-label" for="watch-me2"> No, just deactivate this ad. </label>
                 </div>
-                 <div class="form-check demojs-adminactiontoggle">
+                <div class="form-check demojs-adminactiontoggle">
                     <input class="form-check-input" type="radio" name="takeactiontoggle" id="takeadminaction" value="3">
                     <label class="form-check-label" for="takeadminaction"> Yes </label>
                 </div>
-               
                 <div id="showadminaction" style="display:none" class="desc">
                     <p class=""> Please provide a message for the user who posted this ad. </p>
                     <form class="">
@@ -98,8 +97,12 @@
                         <div class="form-group">
                             <label for="selectresponse">Reason for ad deactivation</label>
                             <select class="form-control" id="selectresponse">
-                                <option value="General policy violation">General policy violation</option>
-                                <option value="Parking permit violation">Parking permit violation</option>
+                                <option value="Fraudulent activity">Fraudulent activity</option>
+                                <option value="Contains offensive material">Contains offensive material</option>
+                                <option value="Promotes personal/commercial business">Promotes personal/commercial business</option>
+                                <option value="Promotes a political/social agenda">Promotes a political/social agenda</option>
+                                <option value="Selling IU parking permit">Selling IU parking permit</option>
+                                <option value="Fake ad">Fake ad</option>
                                 <option value="Other">Other</option>
                             </select>
                         </div>

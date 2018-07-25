@@ -9,7 +9,7 @@
                             <div class="alert-heading">Reported for policy violation</div>
                         </div>
                         <div class="col-auto">
-                            <button class="btn btn-link font-weight-normal p-0 demojs-btn-viewreport "> View report</button>
+                            <button class="btn btn-sm btn-danger demojs-btn-viewreport"> View report</button>
                         </div>
                     </div>
                 </div>
@@ -25,11 +25,9 @@
                             <dt class="col-sm-4">Additional detail</dt>
                             <dd class="col-sm-8">Tried to sell me a different book than what was advertised. He aknowledged that it's a different book, but 'still a pretty good book'.</dd>
                         </dl>
-                        
-                        <a href="#" class="demojs-dismissreport font-italic">Dismiss</a>
                         </span> </div>
                 </div>
-                <div class="card bg-white mb-1 demojs-admin-viewreport" style="display:none">
+                <div class="card bg-white mb-1 demojs-admin-viewdismissedreport" style="display:none">
                     <div class="card-body"> <span class="card-text">
                         <dl class="row">
                             <dt class="col-sm-4">Reported by</dt>
@@ -40,19 +38,33 @@
                             <dd class="col-sm-8">Fraudulent activity</dd>
                             <dt class="col-sm-4">Additional detail</dt>
                             <dd class="col-sm-8">When I went to pick up the book, he said he didn't have it, and tried to sell me a bunch of other books that I don't need. Please remove this ad. Frustrating...</dd>
-                        </dl><a href="#" class="demojs-dismissreport font-italic">Dismiss</a>
+                            <dt class="col-sm-4">Admin action</dt>
+                            <dd class="col-sm-8"> <span class="badge badge-secondary rbt-badge-transparent">Dismissed</span> 07/27/2018 3:16pm </dd>
+                        </dl>
+                        </span> </div>
+                </div>
+                <div class="card bg-white mb-1 demojs-admin-viewdismissedreport" style="display:none">
+                    <div class="card-body"> <span class="card-text">
+                        <dl class="row">
+                            <dt class="col-sm-4">Reported by</dt>
+                            <dd class="col-sm-8">mbrecker</dd>
+                            <dt class="col-sm-4">Report date</dt>
+                            <dd class="col-sm-8">07/25/2018 7:48pm</dd>
+                            <dt class="col-sm-4">Reason for report</dt>
+                            <dd class="col-sm-8">Fraudulent activity</dd>
+                            <dt class="col-sm-4">Additional detail</dt>
+                            <dd class="col-sm-8">Book was damaged, not even the right book I was looking for.</dd>
+                            <dt class="col-sm-4">Admin action</dt>
+                            <dd class="col-sm-8"> <span class="badge badge-secondary rbt-badge-transparent">Dismissed</span> 07/26/2018 3:16pm </dd>
+                        </dl>
                         </span> </div>
                 </div>
                 <div class="card bg-white mb-1 demojs-admin-viewreport" style="display:none">
-                    <div class="card-body"> 
-                    
-                    <div class="row">
-                    <div class="col"> <span class="card-text demojs-restorereports"> <a href="#" class="">Restore dismissed (2)</a></span></div>
-                     <div class="col-auto"> <span class="card-text"> <a href="#" class="demojs-btn-viewpolicy">View policy</a></span></div>
-                    </div>
-                    
-                    
-                    
+                    <div class="card-body pt-2 pb-2">
+                        <div class="row">
+                            <div class="col"> <span class="card-text demojs-restoreprevreports"> <a href="#" class="">Show dismissed reports (2)</a></span></div>
+                            <div class="col-auto"> <span class="card-text"> <a href="#" class="demojs-btn-viewpolicy">View policy</a></span></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -116,7 +128,7 @@
                 <div class="container-fluid px-0">
                     <div class="row align-items-center">
                         <div class="col"><span class="font-weight-bold">Does this ad violate policy?</span></div>
-                        <div class="col-auto"> <a class="btn btn-outline-primary demojs-btn-deactivatead" href="#">Yes, deactivate ad...</a> <a class="btn btn-outline-primary demojs-btn-deactivatereport" href="#">No</a> </div>
+                        <div class="col-auto"> <a class="btn btn-outline-primary demojs-btn-deactivatead" href="#">Yes, deactivate ad...</a> <a class="btn btn-outline-primary demojs-btn-deactivatereport" href="#" data-dismiss="modal">No, dismiss report</a> </div>
                     </div>
                 </div>
             </div>
@@ -145,8 +157,8 @@
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-admin-confirm-adremove" style="display:none">
-                <p> Would you like to take administrative action on the user who posted this ad (jlacner)? </p>
-                 <div class="form-check demojs-adminactiontoggle">
+                <p> Would you like to take further administrative action on the user who posted this ad (jlacner)? </p>
+                <div class="form-check demojs-adminactiontoggle">
                     <input class="form-check-input" type="radio" name="takeactiontoggle1" id="watch-me3" value="2">
                     <label class="form-check-label" for="watch-me3"> No, just deactivate this ad. </label>
                 </div>
@@ -154,45 +166,66 @@
                     <input class="form-check-input" type="radio" name="takeactiontoggle1" id="takeadminaction1" value="3">
                     <label class="form-check-label" for="takeadminaction1"> Yes </label>
                 </div>
-               
                 <div id="showadminaction1" style="display:none" class="desc">
-                    <p class=""> Please provide a message for the user who posted this ad. </p>
                     <form class="">
-                        <div class="form-group">
-                            <label for="banneduseruser">User</label>
-                            <input type="text" class="form-control" id="banneduseruser" placeholder="" value="jlancer" readonly>
-                        </div>
-                        <div class="form-group">
-                            <label for="selectresponse1">Reason for ad deactivation</label>
-                            <select class="form-control" id="selectresponse1">
-                                <option value="General policy violation">General policy violation</option>
-                                <option value="Parking permit violation">Parking permit violation</option>
-                                <option value="Other">Other</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="responsefield1">Message to be sent</label>
-                            <textarea class="form-control" id="responsefield1" rows="8">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</textarea>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios22" id="stacked5" value="option1">
-                            <label class="form-check-label" for="stacked5"> Log a warning for user 'jlancer' for '<span id="reasonvalue1">Parking permit violation</span>'. </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios22" id="stacked6" value="option2">
-                            <label class="form-check-label" for="stacked6">Revoke system access for 'jlancer' <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="Warnings for 'jlancer'" data-content="<div class='border-bottom'>General policy violation</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Parking permit violation</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>">(3 previous warnings)</a></label>
-                        </div>
+                        <fieldset >
+                            <legend class="pt-3">Message user</legend>
+                            <div class="form-group">
+                                <label for="banneduseruser">User</label>
+                                <input type="text" class="form-control" id="banneduseruser" placeholder="" value="jlancer" readonly>
+                            </div>
+                            <div class="form-group">
+                                <label for="selectresponse1">Reason for ad deactivation</label>
+                                <select class="form-control" id="selectresponse1">
+                                    <option value="Fraudulent activity">Fraudulent activity</option>
+                                    <option value="Contains offensive material">Contains offensive material</option>
+                                    <option value="Promotes personal/commercial business">Promotes personal/commercial business</option>
+                                    <option value="Promotes a political/social agenda">Promotes a political/social agenda</option>
+                                    <option value="Selling IU parking permit">Selling IU parking permit</option>
+                                    <option value="Fake ad">Fake ad</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="responsefield1">Message to be sent</label>
+                                <textarea class="form-control" id="responsefield1" rows="8">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</textarea>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend class="pt-3">Administrative actions</legend>
+                            <div class="font-weight-bold mb-1 mt-3">Deactivate other active ads by 'jlancer'</div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="otherad1">
+                                <label class="form-check-label" for="otherad1"> Math-M211 and M212 Text <a href="#" class="small font-italic">(view)</a></label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="otherad2">
+                                <label class="form-check-label" for="otherad2"> Math-M211 and M212 bo0k <a href="#" class="small font-italic">(view)</a> </label>
+                            </div>
+                            <div class="font-weight-bold mb-1 mt-3"> Administrative action to be taken on user 'jlancer' <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="Infractions for 'jlancer'" data-content="<div class='border-bottom'>General policy violation</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Parking permit violation</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>">(3 previous infractions)</a></div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios22" id="stacked4" value="option1">
+                                <label class="form-check-label" for="stacked4"> No action at this time. </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios22" id="stacked5" value="option1">
+                                <label class="form-check-label" for="stacked5"> Log an infraction for user 'jlancer' for '<span id="reasonvalue1">Parking permit violation</span>'. </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios22" id="stacked6" value="option2">
+                                <label class="form-check-label" for="stacked6">Log infraction/revoke system access for 'jlancer' </label>
+                            </div>
+                        </fieldset>
                     </form>
                 </div>
             </div>
             <div class="modal-footer demojs-admin-confirm-adremove" style="display:none">
                 <button class="btn btn-primary demojs-btn-deactivate" style="display:none;">Deactivate ad</button>
-                <button class="btn btn-primary demojs-btn-deactivatesend" style="display:none">Deactivate ad + send message</button>
+                <button class="btn btn-primary demojs-btn-deactivatesend" style="display:none">Send message &amp; perform actions</button>
                 <button class="btn btn-outline-primary" data-dismiss="modal">Cancel</button>
             </div>
             
-           
-                <!--Confirm message sent -->
+            <!--Confirm message sent -->
             
             <div class="modal-header demojs-admin-confirm-messagesent" style="display:none">
                 <h2 class="modal-title" id="exampleModalLabel">Action completed</h2>
