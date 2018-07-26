@@ -157,7 +157,7 @@
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-admin-confirm-adremove" style="display:none">
-                <p> Would you like to take further administrative action on the user who posted this ad (jlacner)? </p>
+                <div class="font-weight-bold mb-3 mt-3"> Would you like to take administrative action on the user who posted this ad (jlacner)? </div>
                 <div class="form-check demojs-adminactiontoggle">
                     <input class="form-check-input" type="radio" name="takeactiontoggle1" id="watch-me3" value="2">
                     <label class="form-check-label" for="watch-me3"> No, just deactivate this ad. </label>
@@ -192,8 +192,12 @@
                             </div>
                         </fieldset>
                         <fieldset>
-                            <legend class="pt-3">Administrative actions</legend>
+                            <legend class="pt-3">Administrative</legend>
                             <div class="font-weight-bold mb-1 mt-3">Deactivate other active ads by 'jlancer'</div>
+                           <!-- <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="otherad00" checked disabled>
+                                <label class="form-check-label" for="otherad00"> Math-M211 and M212 Textbook </label>
+                            </div>-->
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="otherad1">
                                 <label class="form-check-label" for="otherad1"> Math-M211 and M212 Text <a href="#" class="small font-italic">(view)</a></label>
@@ -202,18 +206,18 @@
                                 <input class="form-check-input" type="checkbox" value="" id="otherad2">
                                 <label class="form-check-label" for="otherad2"> Math-M211 and M212 bo0k <a href="#" class="small font-italic">(view)</a> </label>
                             </div>
-                            <div class="font-weight-bold mb-1 mt-3"> Administrative action to be taken on user 'jlancer' <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="Infractions for 'jlancer'" data-content="<div class='border-bottom'>Fraudulent activity</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Selling IU parking permit</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>">(3 previous infractions)</a></div>
+                            <div class="font-weight-bold mb-1 mt-3">Administrative action to be taken on user 'jlancer' <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="Infractions for 'jlancer'" data-content="<div class='border-bottom'>Fraudulent activity</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Selling IU parking permit</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>">(3 previous infractions)</a></div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="exampleRadios22" id="stacked4" value="option1">
-                                <label class="form-check-label" for="stacked4"> No action at this time. </label>
+                                <label class="form-check-label" for="stacked4">No action at this time. </label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="exampleRadios22" id="stacked5" value="option1">
-                                <label class="form-check-label" for="stacked5"> Log an infraction for user 'jlancer' for '<span id="reasonvalue1">Parking permit violation</span>'. </label>
+                                <label class="form-check-label" for="stacked5">Log infraction for '<span class="demojs-reasonvalue1">Parking permit violation</span>'. </label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="exampleRadios22" id="stacked6" value="option2">
-                                <label class="form-check-label" for="stacked6">Log infraction/revoke system access for 'jlancer' </label>
+                                <label class="form-check-label" for="stacked6">Log infraction for '<span class="demojs-reasonvalue1">Parking permit violation</span>' and revoke system access for 'jlancer'. </label>
                             </div>
                         </fieldset>
                     </form>
@@ -245,7 +249,19 @@
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-admin-confirm-addeactmessagesent" style="display:none">
-                <p> This ad has now been deactivated and a message has been sent to user 'jlancer'. You may review actions taken against this user in <a href="admin-restrictedusers.php">Restricted users</a>. </p>
+                <div class="font-weight-bold mb-1 mt-3"> The following actions have been completed:</div>
+                <ul>
+                    <li>Notification was sent to user 'jlancer'. </li>
+                    <li>The following ads were deactivated:
+                        <ul>
+                            <li>Math-M211 and M212 Textbook</li>
+                            <li>Math-M211 and M212 Text</li>
+                            <li>Math-M211 and M212 bo0k</li>
+                        </ul>
+                    </li>
+                    <li>An infraction was logged for user 'jlancer' for 'Fraudulent activity'.</li>
+                </ul>
+                <p>You may review actions taken against this user in <a href="admin-restrictedusers.php">Restricted users</a>. </p>
             </div>
             <div class="modal-footer demojs-admin-confirm-addeactmessagesent" style="display:none">
                 <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>

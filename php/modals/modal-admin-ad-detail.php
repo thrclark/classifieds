@@ -147,7 +147,20 @@
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-admin-confirm-addeactmessagesent" style="display:none">
-                <p> This ad has now been deactivated and a message has been sent to user 'jlancer'. You may review actions taken against this user in <a href="admin-restrictedusers.php">Restricted users</a>. </p>
+              <div class="font-weight-bold mb-1 mt-3"> The following actions have been completed:</div>
+                <ul>
+                    <li>Notification sent to user 'jlancer' to inform of administrative actions </li>
+                    <li>The following ads were deactivated:
+                        <ul>
+                            <li>Math-M211 and M212 Textbook</li>
+                            <li>Math-M211 and M212 Text</li>
+                            <li>Math-M211 and M212 bo0k</li>
+                        </ul>
+                    </li>
+                    <li>An infraction was logged for user 'jlancer' for 'Fraudulent activity'.</li>
+                   
+                </ul>
+                <p>You may review actions taken against this user in <a href="admin-restrictedusers.php">Restricted users</a>. </p>
             </div>
             <div class="modal-footer demojs-admin-confirm-addeactmessagesent" style="display:none">
                 <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>

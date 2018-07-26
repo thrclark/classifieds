@@ -466,7 +466,7 @@
 <script type="text/javascript">
     $(function() {
         $('#selectresponse1').change(function() {
-            $('#reasonvalue1').html($(this).val());
+            $('.demojs-reasonvalue1').html($(this).val());
         }).change(); // Trigger the events
 
         var feedit = new Array({
