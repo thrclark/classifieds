@@ -202,7 +202,7 @@
                                 <input class="form-check-input" type="checkbox" value="" id="otherad2">
                                 <label class="form-check-label" for="otherad2"> Math-M211 and M212 bo0k <a href="#" class="small font-italic">(view)</a> </label>
                             </div>
-                            <div class="font-weight-bold mb-1 mt-3"> Administrative action to be taken on user 'jlancer' <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="Infractions for 'jlancer'" data-content="<div class='border-bottom'>General policy violation</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Parking permit violation</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>">(3 previous infractions)</a></div>
+                            <div class="font-weight-bold mb-1 mt-3"> Administrative action to be taken on user 'jlancer' <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="Infractions for 'jlancer'" data-content="<div class='border-bottom'>Fraudulent activity</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Selling IU parking permit</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>">(3 previous infractions)</a></div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="exampleRadios22" id="stacked4" value="option1">
                                 <label class="form-check-label" for="stacked4"> No action at this time. </label>
