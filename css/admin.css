@@ -11584,7 +11584,7 @@ body .main-content-section {
     position: absolute;
     width: 100%;
     height: 10px;
-    bottom: -5px;
+    bottom: -8px;
     left: 0px;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
   }

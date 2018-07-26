@@ -1,22 +1,12 @@
 
-<div class="modal post-detail fade" id="admin_ad_detail" tabindex="-1" role="dialog" aria-labelledby="post_detail" aria-hidden="true">
+<div class="modal post-detail fade" id="admin_ad_detail" tabindex="-1" role="dialog" aria-labelledby="admin_ad_detail" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLabel">For sale: Selmer VI Tenor Sax</h3>
+            <div class="modal-header demojs-admin-defaultview">
+                <h3 class="modal-title" id="exampleModalLabel">Sublease for Brownstone Apartments for Spring Semester </h3>
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-admin-defaultview">
-              <!--  <div class="alert alert-danger fade show mb-0" role="alert">
-                    <div class="row align-items-center">
-                        <div class="col">
-                            <div class="alert-heading">Reported for policy violation</div>
-                        </div>
-                        <div class="col-auto">
-                            <button class="btn btn-link demojs-btn-viewreport"> View report</button>
-                        </div>
-                    </div>
-                </div>-->
                 <dl class="row">
                     <dt class="sr-only">
                         <message key="global.ad.field.price">Price</message>
@@ -34,7 +24,7 @@
                     <dd class="col-12">
                         <ccf-image-slider>
                             <div class="overflow mb-3" hammer-options="{&quot;touchAction&quot;: &quot;pan-y&quot;}" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
-                                <div class="inner" style="width: 200%; margin-left: 0%;"> <img alt="" src="../img/post-pics/1105499015MarkVITen5.jpg" style="width: 50%;"><img alt="" src="../img/post-pics/1105499015MarkVITen5.jpg" style="width: 50%;"> </div>
+                                <div class="inner" style="width: 200%; margin-left: 0%;"> <img alt="" src="../img/post-pics/apartment.jpg" style="width: 50%;"><img alt="" src="../img/post-pics/1105499015MarkVITen5.jpg" style="width: 50%;"> </div>
                             </div>
                             <div class="controls">
                                 <button class="btn btn-sm btn-outline-primary" type="button"> <i aria-hidden="true" class="fa fa-angle-left"></i> <span class="sr-only">
@@ -49,7 +39,7 @@
                     <dt class="sr-only">
                         <message key="global.ad.field.description">Description</message>
                     </dt>
-                    <dd class="col-12 pre-wrap">This is a beautiful original lacquer Mark VI tenor saxophone from 1962, serial number 99015. The lacquer finish on the horn is in exquisite condition. Its original finish displays a very dark honey tint which is perfectly complemented by the crisp American floral engraving. The lacquer condition is about as clean and pristine as you will ever see. </dd>
+                    <dd class="col-12 pre-wrap">Nice house on IU campus, located just Southwest of the football stadium. The house has two large bedrooms, a newly remodeled kitchen with a dishwasher and gas cooktop. A washer and dryer are included, it also has an open, and a screened in porch, all located right in the middle of IU's beautiful campus. We only require a $900 deposit and for you to switch the utilities over to your name, so you can live in one of the nicest rentals on campus. If this appeals to you please contact me at your convenience. Thank you.</dd>
                     <dt class="col-sm-3">
                         <message key="global.ad.field.contact">Contact</message>
                     </dt>
@@ -61,7 +51,7 @@
                     <dt class="col-sm-3">Status</dt>
                     <dd class="col-sm-9">Active</dd>
                     <dt class="col-sm-3">Ad Purpose</dt>
-                    <dd class="col-sm-9">For sale</dd>
+                    <dd class="col-sm-9">-</dd>
                     <dt class="col-sm-3">Posted</dt>
                     <dd class="col-sm-9">02/25/2018 3:26pm</dd>
                     <dt class="col-sm-3">Expires</dt>
@@ -73,80 +63,106 @@
                     <div class="row align-items-center">
                         <div class="col">
                             <div class="rbt-button-group">
-                              <!--  <div class="dropdown">
-                                    <button class="btn btn-outline-primary dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Deactivate </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item demojs-btn-deactivatead" href="#">Deactivate ad</a> <a class="dropdown-item demojs-btn-deactivatereport" href="#">Deactivate report</a> </div>
-                                </div>-->
-                                <!--<button class="btn btn-outline-primary demojs-btn-viewreport"> View report</button>-->
-                                <button class="btn btn-outline-primary">Deactivate</button>
+                                <button class="btn btn-outline-primary demojs-btn-deactivatead">Deactivate ad...</button>
+                                <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <!--Report details-->
-            
-            <div class="modal-body demojs-admin-viewreport" style="display:none">
-                <div class="ccf-postdetail-title mb-4">Report details</div>
-                <p>
-                <dl class="row">
-                    <dt class="col-sm-4">Reported by</dt>
-                    <dd class="col-sm-8">thrclark</dd>
-                    <dt class="col-sm-4">Reason for report</dt>
-                    <dd class="col-sm-8">Promotes a political/social agenda</dd>
-                    <dt class="col-sm-4">Additional detail</dt>
-                    <dd class="col-sm-8">This ad is really a campaign ad for a candidate who is running for state senate. Please remove it.</dd>
-                </dl>
-                </p>
-                <p> <a href="#" class="demojs-btn-viewpolicy">View policy</a></p>
-            </div>
-            <div class="modal-footer demojs-admin-viewreport" style="display:none">
-                <div class="container-fluid px-0">
-                    <div class="row align-items-center">
-                        <div class="col">
-                            <div class="rbt-button-group">
-                                <div class="dropdown">
-                                    <button class="btn btn-outline-primary dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Deactivate </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item demojs-btn-deactivatead" href="#">Deactivate ad</a> <a class="dropdown-item demojs-btn-deactivatereport" href="#">Deactivate report</a> </div>
-                                </div>
-                                <button class="btn btn-outline-primary demojs-btn-viewad"> View ad</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!--View policy-->
-            
-            <div class="modal-body demojs-admin-view-policy" style="display:none">
-                <div class="ccf-postdetail-title">About this service</div>
-                <p>The IU Classifieds contain items of interest to the Indiana University community. Please remember that the use of the University's computer network for these messages is a privilege extended to students and employees for personal, non-commercial use. University resources are not allowed to be used for the promotion of commercial or personal businesses. In addition, the use of IU Classifieds to promote or provide pornographic materials or sexual services is strictly prohibited.  The buying or selling of IU parking permits is prohibited as parking permits are the property of the university. The terms of any transactions are between the buyer and seller. Classifieds may contain office telephone numbers; however, it is the shared responsibility of supervisors and employees to assure that this privilege is not abused. Honor all copyrights when posting images or text in the Classifieds.</p>
-                <p>Any housing postings must follow Federal and State laws. Please read <a href="http://www.craigslist.org/about/FHA" target="_blank">Fair Housing laws.</a> </p>
-                <p>By using this site, you agree to abide by Indiana Universitys "Appropriate Technology Use" Policies as outlined by the Information Policy Office at <a href="http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml" target="_blank">http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml</a> and to use the Classifieds appropriately. These pages are not intended for solicitation, political purposes and publishing opinions, nor are they to be used to make jokes or mislead others. The University reserves the right to remove any posting that it deems inappropriate.</p>
-                <p>Questions regarding the IU Classifieds may be addressed to <a href="mailto:one@iu.edu">one@iu.edu</a> </p>
-            </div>
-            <div class="modal-footer demojs-admin-view-policy" style="display:none; justify-content:flex-start"> <a href="#" class="btn btn-outline-primary demojs-btn-viewreport"><span class="rbt-icon-chevron-left ml-0"></span> Back to report</a>
-                <button class="btn btn-outline-primary demojs-btn-viewad"> View ad</button>
             </div>
             
             <!--Confirm ad deactivation-->
             
+            <div class="modal-header demojs-admin-confirm-adremove" style="display:none">
+                <h2 class="modal-title" id="exampleModalLabel">Ad deactivation</h2>
+                <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
+            </div>
             <div class="modal-body demojs-admin-confirm-adremove" style="display:none">
-                <div class="ccf-postdetail-title">Ad deactivated</div>
-                <p> This ad has now been deactivated. </p>
+                <p> Would you like to take administrative action on the user who posted this ad (jlacner)? </p>
+                <div class="form-check demojs-adminactiontoggle">
+                    <input class="form-check-input" type="radio" name="takeactiontoggle" id="watch-me2" value="2">
+                    <label class="form-check-label" for="watch-me2"> No, just deactivate this ad. </label>
+                </div>
+                <div class="form-check demojs-adminactiontoggle">
+                    <input class="form-check-input" type="radio" name="takeactiontoggle" id="takeadminaction" value="3">
+                    <label class="form-check-label" for="takeadminaction"> Yes </label>
+                </div>
+                <div id="showadminaction" style="display:none" class="desc">
+                    <p class=""> Please provide a message for the user who posted this ad. </p>
+                    <form class="">
+                        <div class="form-group">
+                            <label for="banneduseruser">User</label>
+                            <input type="text" class="form-control" id="banneduseruser" placeholder="" value="jlancer" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="selectresponse">Reason for ad deactivation</label>
+                            <select class="form-control" id="selectresponse">
+                                <option value="Fraudulent activity">Fraudulent activity</option>
+                                <option value="Contains offensive material">Contains offensive material</option>
+                                <option value="Promotes personal/commercial business">Promotes personal/commercial business</option>
+                                <option value="Promotes a political/social agenda">Promotes a political/social agenda</option>
+                                <option value="Selling IU parking permit">Selling IU parking permit</option>
+                                <option value="Fake ad">Fake ad</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="responsefield">Message to be sent</label>
+                            <textarea class="form-control" id="responsefield" rows="8">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</textarea>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="stacked1" value="option1">
+                            <label class="form-check-label" for="stacked1"> Log a warning for user 'jlancer' for '<span id="reasonvalue">Parking permit violation</span>'. </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="stacked2" value="option2">
+                            <label class="form-check-label" for="stacked2">Revoke system access for 'jlancer' <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="Warnings for 'jlancer'" data-content="<div class='border-bottom'>General policy violation</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Parking permit violation</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>">(3 previous warnings)</a></label>
+                        </div>
+                    </form>
+                </div>
             </div>
             <div class="modal-footer demojs-admin-confirm-adremove" style="display:none">
+                <button class="btn btn-primary demojs-btn-deactivate" style="display:none;">Deactivate ad</button>
+                <button class="btn btn-primary demojs-btn-deactivatesend" style="display:none">Deactivate ad + send message</button>
+                <button class="btn btn-outline-primary" data-dismiss="modal">Cancel</button>
+            </div>
+            
+            <!--Confirm message sent -->
+            
+            <div class="modal-header demojs-admin-confirm-messagesent" style="display:none">
+                <h2 class="modal-title" id="exampleModalLabel">Action completed</h2>
+                <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
+            </div>
+            <div class="modal-body demojs-admin-confirm-messagesent" style="display:none">
+                <p> This ad has now been deactivated.</p>
+            </div>
+            <div class="modal-footer demojs-admin-confirm-messagesent" style="display:none">
                 <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
             </div>
             
-            <!--Confirm report deactivation-->
+            <!--Confirm message sent -->
             
-            <div class="modal-body demojs-admin-confirm-reportremove" style="display:none">
-                <div class="ccf-postdetail-title">Report deactivated</div>
-                <p> This report has now been deactivated. </p>
+            <div class="modal-header demojs-admin-confirm-addeactmessagesent" style="display:none">
+                <h2 class="modal-title" id="exampleModalLabel">Actions completed</h2>
+                <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
-            <div class="modal-footer demojs-admin-confirm-reportremove" style="display:none">
+            <div class="modal-body demojs-admin-confirm-addeactmessagesent" style="display:none">
+              <div class="font-weight-bold mb-1 mt-3"> The following actions have been completed:</div>
+                <ul>
+                    <li>Notification sent to user 'jlancer' to inform of administrative actions </li>
+                    <li>The following ads were deactivated:
+                        <ul>
+                            <li>Math-M211 and M212 Textbook</li>
+                            <li>Math-M211 and M212 Text</li>
+                            <li>Math-M211 and M212 bo0k</li>
+                        </ul>
+                    </li>
+                    <li>An infraction was logged for user 'jlancer' for 'Fraudulent activity'.</li>
+                   
+                </ul>
+                <p>You may review actions taken against this user in <a href="admin-restrictedusers.php">Restricted users</a>. </p>
+            </div>
+            <div class="modal-footer demojs-admin-confirm-addeactmessagesent" style="display:none">
                 <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
             </div>
         </div>

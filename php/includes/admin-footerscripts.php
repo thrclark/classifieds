@@ -120,7 +120,6 @@
 
     });
 </script>
-
 <script>
     $(document).ready(function() {
         $(function() {
@@ -222,44 +221,117 @@
 </script>
 <script>
     $(document).ready(function() {
-        $("#reportAd").click(function() {
-            $(".demojs-view-posting").hide();
-            $(".demojs-report-post").show();
+        $("#post_detail .demojs-btn-reportad").click(function() {
+            $("#post_detail .demojs-view-posting").hide();
+            $("#post_detail .demojs-report-post").show();
         });
-
-        $("#cancelReport").click(function() {
-            $(".demojs-view-posting").show();
-            $(".demojs-report-post").hide();
+		
+		 $("#post_detail .demojs-btn-viewpolicy").click(function() {
+            $("#post_detail .demojs-report-post").hide();
+			$("#post_detail .demojs-view-policy").show();
         });
-
-        $("#submitReport").click(function() {
-            $(".demojs-report-confirm").show();
-            $(".demojs-report-post").hide();
+		$("#post_detail .demojs-btn-closepolicy").click(function() {
+            $("#post_detail .demojs-report-post").show();
+			$("#post_detail .demojs-view-policy").hide();
         });
-
-        $("#viewPolicy").click(function() {
-            $(".demojs-view-policy").show();
-            $(".demojs-report-post").hide();
+		$("#post_detail .demojs-btn-submitreport").click(function() {
+            $("#post_detail .demojs-report-post").hide();
+			$("#post_detail .demojs-report-confirm").show();
         });
-        $("#returnToReport").click(function() {
-            $(".demojs-view-policy").hide();
-            $(".demojs-report-post").show();
+		
+		$("#post_detail .demojs-btn-cancelreport").click(function() {
+            $("#post_detail .demojs-report-post").hide();
+			$("#post_detail .demojs-view-posting").show();
         });
-
+		
+		
+		
+		
     });
 </script>
 <script>
     $(document).ready(function() {
+        $("#admin_ad_detail .demojs-btn-deactivatead").click(function() {
+            $("#admin_ad_detail .demojs-admin-defaultview").hide();
+            $("#admin_ad_detail .demojs-admin-confirm-adremove").show();
+        });
+		
+		 $("#admin_ad_detail .demojs-btn-sendmessage").click(function() {
+            $("#admin_ad_detail .demojs-admin-confirm-adremove").hide();
+			$("#admin_ad_detail .demojs-admin-confirm-messagesent").show();
+        });
+		$("#admin_ad_detail .demojs-btn-deactivate").click(function() {
+            $("#admin_ad_detail .demojs-admin-confirm-adremove").hide();
+			$("#admin_ad_detail .demojs-admin-confirm-messagesent").show();
+        });
+		$("#admin_ad_detail .demojs-btn-deactivatesend").click(function() {
+            $("#admin_ad_detail .demojs-admin-confirm-adremove").hide();
+			$("#admin_ad_detail .demojs-admin-confirm-addeactmessagesent").show();
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    $(document).ready(function() {
+        $("#admin_ad_detail_deactivated_user .demojs-btn-reactivatead").click(function() {
+            $("#admin_ad_detail_deactivated_user .demojs-admin-defaultview").hide();
+            $("#admin_ad_detail_deactivated_user .demojs-admin-confirm-adreactivization").show();
+        });
+		
+		
+    });
+</script>
+
+
+
+
+
+
+
+<script>
+    $(document).ready(function() {
+        $("#admin_ad_detail_deactivated_admin .demojs-btn-reactivatead").click(function() {
+            $("#admin_ad_detail_deactivated_admin .demojs-admin-defaultview").hide();
+            $("#admin_ad_detail_deactivated_admin .demojs-admin-confirm-adreactivization").show();
+        });
+		
+		
+    });
+</script>
+
+
+
+
+
+<script>
+    $(document).ready(function() {
         $("#admin_ad_detail_reported .demojs-btn-viewreport").click(function() {
-            $("#admin_ad_detail_reported .demojs-admin-defaultview, #admin_ad_detail_reported .demojs-admin-view-policy").hide();
-            $("#admin_ad_detail_reported .demojs-admin-viewreport").show();
+            
+            $("#admin_ad_detail_reported .demojs-admin-viewreport").slideToggle();
+			$(this).text(function(i, text){
+          return text === "Hide report" ? "View report" : "Hide report";
+      })
         });
         $("#admin_ad_detail_reported .demojs-btn-viewad").click(function() {
-            $("#admin_ad_detail_reported .demojs-admin-viewreport, #admin_ad_detail_reported .demojs-admin-view-policy").hide();
-            $("#admin_ad_detail_reported .demojs-admin-defaultview").show();
+            $("#admin_ad_detail_reported .demojs-admin-view-policy").hide();
+            $("#admin_ad_detail_reported .demojs-admin-defaultview").show();	
         });
         $("#admin_ad_detail_reported .demojs-btn-viewpolicy").click(function() {
-            $("#admin_ad_detail_reported .demojs-admin-viewreport").hide();
+            $("#admin_ad_detail_reported .demojs-admin-defaultview").hide();
             $("#admin_ad_detail_reported .demojs-admin-view-policy").show();
         });
 
@@ -268,12 +340,21 @@
             $("#admin_ad_detail_reported .demojs-admin-confirm-adremove").show();
         });
 
-        $("#admin_ad_detail_reported .demojs-btn-deactivatereport").click(function() {
-            $("#admin_ad_detail_reported .demojs-admin-viewreport, #admin_ad_detail_reported .demojs-admin-defaultview").hide();
-            $("#admin_ad_detail_reported .demojs-admin-confirm-reportremove").show();
+        $("#admin_ad_detail_reported .demojs-btn-deactivate").click(function() {
+            $("#admin_ad_detail_reported .demojs-admin-confirm-adremove").hide();
+			$("#admin_ad_detail_reported .demojs-admin-confirm-messagesent").show();
+        });
+		$("#admin_ad_detail_reported .demojs-btn-deactivatesend").click(function() {
+            $("#admin_ad_detail_reported .demojs-admin-confirm-adremove").hide();
+			$("#admin_ad_detail_reported .demojs-admin-confirm-addeactmessagesent").show();
         });
     });
 </script>
+
+
+
+
+
 <script>
     $(document).ready(function() {
         $("#admin_ad_detail_reportdismissed .demojs-btn-viewreport").click(function() {
@@ -341,3 +422,127 @@
         });
     });
 </script>
+
+<script type="text/javascript">
+    $(function() {
+        $('#selectresponse').change(function() {
+            $('#reasonvalue').html($(this).val());
+        }).change(); // Trigger the events
+
+        var feedit = new Array({
+            value: 'Fraudulent activity',
+            areatext: 'We have received a complaint regarding your use of Classifieds for fradulent activity. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
+        }, {
+            value: 'Contains offensive material',
+            areatext: 'We have received a complaint regarding your use of Classifieds for posting offensive material. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
+        }, {
+            value: 'Promotes personal/commercial business',
+            areatext: 'We have received a complaint regarding your use of Classifieds for promotion of a personal/commercial business. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
+        }, {
+            value: 'Promotes a political/social agenda',
+            areatext: 'We have received a complaint regarding your use of Classifieds for promoting a political/social agenda. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
+        }, {
+            value: 'Selling IU parking permit',
+            areatext: 'Your IU Classifieds ad(s) for the buying or selling of IU parking permits violates IU policy.  IU Permits are property of the University. Please be aware that your ad(s) have been removed, and future violations may result in revoked access to IU Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
+        }, {
+            value: 'Fake ad',
+            areatext: 'We have received a complaint regarding your use of Classifieds for posting a fake/spoof ad. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
+        }, {
+            value: 'Other',
+            areatext: ''
+        });
+
+        $('#selectresponse').on('change', function() {
+            var e = $(this).val();
+            $.each(feedit, function(key, val) {
+                if (e == val.value) {
+                    $('#responsefield').val(val.areatext);
+                }
+            });
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $(function() {
+        $('#selectresponse1').change(function() {
+            $('.demojs-reasonvalue1').html($(this).val());
+        }).change(); // Trigger the events
+
+        var feedit = new Array({
+            value: 'Fraudulent activity',
+            areatext: 'We have received a complaint regarding your use of Classifieds for fradulent activity. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
+        }, {
+            value: 'Contains offensive material',
+            areatext: 'We have received a complaint regarding your use of Classifieds for posting offensive material. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
+        }, {
+            value: 'Promotes personal/commercial business',
+            areatext: 'We have received a complaint regarding your use of Classifieds for promotion of a personal/commercial business. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
+        }, {
+            value: 'Promotes a political/social agenda',
+            areatext: 'We have received a complaint regarding your use of Classifieds for promoting a political/social agenda. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
+        }, {
+            value: 'Selling IU parking permit',
+            areatext: 'Your IU Classifieds ad(s) for the buying or selling of IU parking permits violates IU policy.  IU Permits are property of the University. Please be aware that your ad(s) have been removed, and future violations may result in revoked access to IU Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
+        }, {
+            value: 'Fake ad',
+            areatext: 'We have received a complaint regarding your use of Classifieds for posting a fake/spoof ad. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
+        }, {
+            value: 'Other',
+            areatext: ''
+        });
+
+        $('#selectresponse1').on('change', function() {
+            var e = $(this).val();
+            $.each(feedit, function(key, val) {
+                if (e == val.value) {
+                    $('#responsefield1').val(val.areatext);
+                }
+            });
+        });
+    });
+</script>
+
+
+
+
+<script>
+$('#admin_ad_detail input[name="takeactiontoggle"]').click(function() {
+    if (this.id == "takeadminaction") {
+        $("#admin_ad_detail #showadminaction, #admin_ad_detail .demojs-btn-deactivatesend").show();
+		 $("#admin_ad_detail .demojs-btn-deactivate").hide();
+    } else {
+        $("#admin_ad_detail #showadminaction, #admin_ad_detail .demojs-btn-deactivatesend").hide();
+		$("#admin_ad_detail .demojs-btn-deactivate").show();
+    }
+});
+
+</script>
+
+<script>
+$('#admin_ad_detail_reported input[name="takeactiontoggle1"]').click(function() {
+    if (this.id == "takeadminaction1") {
+        $("#admin_ad_detail_reported #showadminaction1, #admin_ad_detail_reported .demojs-btn-deactivatesend").show();
+		 $("#admin_ad_detail_reported .demojs-btn-deactivate").hide();
+    } else {
+        $("#admin_ad_detail_reported #showadminaction1, #admin_ad_detail_reported .demojs-btn-deactivatesend").hide();
+		$("#admin_ad_detail_reported .demojs-btn-deactivate").show();
+    }
+});
+
+</script>
+
+<script>
+    $(document).ready(function() {
+       
+		
+		 $(".demojs-restoreprevreports").click(function() {
+            $(".ccf-adreport .demojs-admin-viewdismissedreport").slideToggle();
+        });
+		
+		
+    });
+</script>
+
+
+

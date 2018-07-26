@@ -49,7 +49,7 @@
                     </dt>
                     <dd class="col-sm-9"><a href="mailto:thrclark@iu.edu">thrclark@iu.edu</a></dd>
                 </dl>
-                <a href="#" id="reportAd" class="font-italic small">Report this ad</a> </div>
+                <a href="#" class="font-italic small demojs-btn-reportad">Report this ad</a> </div>
             <div class="modal-footer demojs-view-posting">
                 <div class="rbt-button-group">
                     <button class="btn btn-outline-primary favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
@@ -63,7 +63,7 @@
             </div>
             <div class="modal-body demojs-report-post" style=" display:none">
                 <div class="ccf-postdetail-title">Report this ad</div>
-                <p>Please provide more details regarding your decision to report this ad. Your report will be reviewed, and appropriate actions will be taken if it is determined that this ad is in violation of our <a href="#" id="viewPolicy">policy</a>. </p>
+                <p>Please provide more details regarding your decision to report this ad. Your report will be reviewed, and appropriate actions will be taken if it is determined that this ad is in violation of our <a href="#" class="demojs-btn-viewpolicy">policy</a>. </p>
                 <form>
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">Reason for report</label>
@@ -73,11 +73,11 @@
                             <option>Promotes personal/commercial business</option>
                             <option>Promotes a political/social agenda</option>
                             <option>Selling IU parking permit</option>
-                            <option>This is a fake ad</option>
+                            <option>Fake ad</option>
                             <option>Other</option>
                         </select>
                     </div>
-                    <div class="form-group">	
+                    <div class="form-group">
                         <label for="exampleFormControlTextarea1">Additional detail</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                     </div>
@@ -85,8 +85,8 @@
             </div>
             <div class="modal-footer demojs-report-post" style="display:none">
                 <div class="rbt-button-group rbt-button-group-right">
-                    <button class="btn btn-primary" id="submitReport">Submit report</button>
-                    <button class="btn btn-outline-primary" id="cancelReport">Cancel</button>
+                    <button class="btn btn-primary demojs-btn-submitreport">Submit report</button>
+                    <button class="btn btn-outline-primary demojs-btn-cancelreport">Cancel</button>
                 </div>
             </div>
             <div class="modal-body demojs-view-policy" style="display:none">
@@ -96,19 +96,14 @@
                 <p>By using this site, you agree to abide by Indiana Universitys "Appropriate Technology Use" Policies as outlined by the Information Policy Office at <a href="http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml" target="_blank">http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml</a> and to use the Classifieds appropriately. These pages are not intended for solicitation, political purposes and publishing opinions, nor are they to be used to make jokes or mislead others. The University reserves the right to remove any posting that it deems inappropriate.</p>
                 <p>Questions regarding the IU Classifieds may be addressed to <a href="mailto:one@iu.edu">one@iu.edu</a> </p>
             </div>
-            <div class="modal-footer demojs-view-policy" style="display:none"> <a href="#" class="btn btn-outline-primary" id="returnToReport">Back</a> </div>
+            <div class="modal-footer demojs-view-policy" style="display:none"> <a href="#" class="btn btn-outline-primary demojs-btn-closepolicy">Back</a> </div>
             <div class="modal-body demojs-report-confirm" style=" display:none">
                 <div class="ccf-postdetail-title">Report submitted</div>
                 <p>Your report has been submitted - thank you. </p>
             </div>
-            
-            
-             <div class="modal-footer demojs-report-confirm" style=" display:none">
-               	 <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+            <div class="modal-footer demojs-report-confirm" style=" display:none">
+                <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
             </div>
-            
-            
-            
         </div>
     </div>
 </div>
