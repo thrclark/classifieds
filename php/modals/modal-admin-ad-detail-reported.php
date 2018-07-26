@@ -84,7 +84,7 @@
                     <dd class="col-auto"><span class="font-italic small">2/14/18</span></dd>
                     <dt class="sr-only">Campus</dt>
                     <dd class="col-auto small ccf-postdetail-market"><i class="fa fa-map-marker"></i> IU Kokomo</dd>
-                    <dt class="sr-only">s
+                    <dt class="sr-only">
                         <message key="global.ad.field.image">Images</message>
                     </dt>
                     <dd class="col-12">
@@ -105,7 +105,7 @@
                     <dt class="sr-only">
                         <message key="global.ad.field.description">Description</message>
                     </dt>
-                    <dd class="col-12 pre-wrap">Used textbook for Math 112. Great condition - come and get it.</dd>
+                    <dd class="col-12 pre-wrap">Used textbook for Math 112. Great condition - come and get it. Auctor Platea varius volutpat. Ac vivamus lobortis natoque tincidunt aptent aliquet phasellus felis. Cubilia natoque luctus donec proin vehicula.</dd>
                     <dt class="col-sm-3">
                         <message key="global.ad.field.contact">Contact</message>
                     </dt>
@@ -113,7 +113,7 @@
                     <dt class="col-sm-3">
                         <message key="global.ad.field.email">Email</message>
                     </dt>
-                    <dd class="col-sm-9"><a href="mailto:thrclark@iu.edu">thrclark@iu.edu</a></dd>
+                    <dd class="col-sm-9"><a href="mailto:thrclark@iu.edu">jlancer@iu.edu</a></dd>
                     <dt class="col-sm-3">Status</dt>
                     <dd class="col-sm-9">Active</dd>
                     <dt class="col-sm-3">Ad Purpose</dt>
@@ -125,12 +125,7 @@
                 </dl>
             </div>
             <div class="modal-footer demojs-admin-defaultview" >
-                <div class="container-fluid px-0">
-                    <div class="row align-items-center">
-                        <div class="col"><span class="font-weight-bold">Does this ad violate policy?</span></div>
-                        <div class="col-auto"> <a class="btn btn-outline-primary demojs-btn-deactivatead" href="#">Yes, deactivate ad...</a> <a class="btn btn-outline-primary demojs-btn-deactivatereport" href="#" data-dismiss="modal">No, dismiss report</a> </div>
-                    </div>
-                </div>
+               <a class="btn btn-danger demojs-btn-deactivatead" href="#">Deactivate for policy violation</a> <a class="btn btn-outline-primary demojs-btn-deactivatereport" href="#" data-dismiss="modal">Dismiss report</a>
             </div>
             
             <!--View policy-->
@@ -146,8 +141,8 @@
                 <p>By using this site, you agree to abide by Indiana Universitys "Appropriate Technology Use" Policies as outlined by the Information Policy Office at <a href="http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml" target="_blank">http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml</a> and to use the Classifieds appropriately. These pages are not intended for solicitation, political purposes and publishing opinions, nor are they to be used to make jokes or mislead others. The University reserves the right to remove any posting that it deems inappropriate.</p>
                 <p>Questions regarding the IU Classifieds may be addressed to <a href="mailto:one@iu.edu">one@iu.edu</a> </p>
             </div>
-            <div class="modal-footer demojs-admin-view-policy" style="display:none; justify-content:flex-start">
-                <button class="btn btn-outline-primary demojs-btn-viewad"> View reported ad</button>
+            <div class="modal-footer demojs-admin-view-policy" style="display:none">
+                <button class="btn btn-outline-primary demojs-btn-viewad"> <span class="rbt-icon-chevron-left ml-0"></span> Back to ad</button>
             </div>
             
             <!--Confirm ad deactivation-->
@@ -251,7 +246,7 @@
             <div class="modal-body demojs-admin-confirm-addeactmessagesent" style="display:none">
                 <div class="font-weight-bold mb-1 mt-3"> The following actions have been completed:</div>
                 <ul>
-                    <li>Notification was sent to user 'jlancer'. </li>
+                    <li>Message was sent to user 'jlancer'. </li>
                     <li>The following ads were deactivated:
                         <ul>
                             <li>Math-M211 and M212 Textbook</li>
