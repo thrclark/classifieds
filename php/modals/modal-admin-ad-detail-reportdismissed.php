@@ -13,7 +13,7 @@
                             <div class="alert-heading">Report dismissed</div>
                         </div>
                         <div class="col-auto">
-                            <button class="btn btn-link demojs-btn-viewreport"> View report</button>
+                            <button class="btn btn-link demojs-btn-viewreport"> View reports</button>
                         </div>
                     </div>
                 </div>-->
@@ -73,7 +73,7 @@
                     <div class="row align-items-center">
                         <div class="col">
                             <div class="rbt-button-group">
-                                <button class="btn btn-outline-primary demojs-btn-viewreport"> View report</button>
+                                <button class="btn btn-outline-primary demojs-btn-viewreport"> View reports</button>
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                 <p>By using this site, you agree to abide by Indiana Universitys "Appropriate Technology Use" Policies as outlined by the Information Policy Office at <a href="http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml" target="_blank">http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml</a> and to use the Classifieds appropriately. These pages are not intended for solicitation, political purposes and publishing opinions, nor are they to be used to make jokes or mislead others. The University reserves the right to remove any posting that it deems inappropriate.</p>
                 <p>Questions regarding the IU Classifieds may be addressed to <a href="mailto:one@iu.edu">one@iu.edu</a> </p>
             </div>
-            <div class="modal-footer demojs-admin-view-policy" style="display:none; justify-content:flex-start"> <a href="#" class="btn btn-outline-primary demojs-btn-viewreport"> View report</a>
+            <div class="modal-footer demojs-admin-view-policy" style="display:none; justify-content:flex-start"> <a href="#" class="btn btn-outline-primary demojs-btn-viewreport"> View reports</a>
                 <button class="btn btn-outline-primary demojs-btn-viewad"> View ad</button>
             </div>
         </div>

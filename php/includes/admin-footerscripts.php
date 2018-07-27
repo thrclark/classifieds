@@ -323,7 +323,7 @@
             
             $("#admin_ad_detail_reported .demojs-admin-viewreport").slideToggle();
 			$(this).text(function(i, text){
-          return text === "Hide report" ? "View report" : "Hide report";
+          return text === "Hide reports" ? "View reports" : "Hide reports";
       })
         });
         $("#admin_ad_detail_reported .demojs-btn-viewad").click(function() {
@@ -336,7 +336,7 @@
         });
 
         $("#admin_ad_detail_reported .demojs-btn-deactivatead").click(function() {
-            $("#admin_ad_detail_reported .demojs-admin-viewreport, #admin_ad_detail_reported .demojs-admin-defaultview").hide();
+            $("#admin_ad_detail_reported .demojs-admin-viewreport, #admin_ad_detail_reported .demojs-admin-defaultview, #admin_ad_detail_reported .demojs-admin-otheruserad").hide();
             $("#admin_ad_detail_reported .demojs-admin-confirm-adremove").show();
         });
 
@@ -348,6 +348,17 @@
             $("#admin_ad_detail_reported .demojs-admin-confirm-adremove").hide();
 			$("#admin_ad_detail_reported .demojs-admin-confirm-addeactmessagesent").show();
         });
+		
+		
+		
+		$("#admin_ad_detail_reported .demojs-btn-viewotherad").click(function() {
+            $("#admin_ad_detail_reported .demojs-admin-confirm-adremove").hide();
+			$("#admin_ad_detail_reported .demojs-admin-otheruserad").show();
+        });
+		
+		
+		
+		
     });
 </script>
 
