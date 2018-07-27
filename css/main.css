@@ -11047,7 +11047,8 @@ body .main-content-section {
     display: none;
   }
 }
-.postitem-container.demojs-visited .postitem-post-title {
+.postitem-container.demojs-visited .postitem-post-title,
+.postitem-container:visited .postitem-post-title {
   color: #884488 !important;
 }
 

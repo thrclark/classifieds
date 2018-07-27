@@ -1,11 +1,11 @@
 
-.postitem-container.demojs-visited {
+.postitem-container.demojs-visited,
+.postitem-container:visited{
 	.postitem-post-title {
 		color: #884488 !important;
 	}
 
 }
-
 .postitem-newbanner {
 	background: #343a40;
 }
