@@ -124,7 +124,7 @@
     $(document).ready(function() {
         $(function() {
             $(".postitem-container").click(function() {
-                $(this).addClass("ccf-visited");
+                $(this).addClass("demojs-visited");
             });
         });
     });
