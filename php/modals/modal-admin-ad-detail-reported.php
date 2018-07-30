@@ -69,23 +69,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="card bg-white demojs-admin-viewreport" style="display:none">
-                    <div class="card-body"> <span class="card-text">
-                        <dl class="row">
-                            <dt class="col-sm-4">Reported by</dt>
-                            <dd class="col-sm-8">johcoltra</dd>
-                            <dt class="col-sm-4">Report date</dt>
-                            <dd class="col-sm-8">07/27/2018 4:38pm</dd>
-                            <dt class="col-sm-4">Reason for report</dt>
-                            <dd class="col-sm-8">Fraudulent activity</dd>
-                            <dt class="col-sm-4">Additional detail</dt>
-                            <dd class="col-sm-8">Tried to sell me a different book than what was advertised. He aknowledged that it's a different book, but 'still a pretty good book'.</dd>
-                            <dt class="col-sm-4">Admin action</dt>
-                            <dd class="col-sm-8"> <a href="#">Mark as reviewed</a>
-                        </dl>
-                        </span> </div>
+                
+                 <div class="demojs-admin-viewreport border-bottom" style="display:none; background:#FAFAFA">
+                    <div class="card-body pt-2 pb-2">
+                        <div class="row">
+                            <div class="col"> <span class="card-text demojs-restoreprevreports"> <a href="#" class="">Reviewed reports (2)</a></span></div>
+                            <div class="col-auto"> <span class="card-text"> <a href="#" class="demojs-btn-viewpolicy">Policy</a></span></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="card bg-white demojs-admin-viewdismissedreport" style="display:none">
+                      <div class="card bg-white demojs-admin-viewdismissedreport" style="display:none">
                     <div class="card-body"> <span class="card-text">
                         <dl class="row">
                             <dt class="col-sm-4">Reported by</dt>
@@ -117,16 +110,27 @@
                         </dl>
                         </span> </div>
                 </div>
+                
                 <div class="card bg-white demojs-admin-viewreport" style="display:none">
-                    <div class="card-body pt-2 pb-2">
-                        <div class="row">
-                            <div class="col"> <span class="card-text demojs-restoreprevreports"> <a href="#" class="">Show reviewed reports (2)</a></span></div>
-                            <div class="col-auto"> <span class="card-text"> <a href="#" class="demojs-btn-viewpolicy">View policy</a></span></div>
-                        </div>
-                    </div>
+                    <div class="card-body"> <span class="card-text">
+                        <dl class="row">
+                            <dt class="col-sm-4">Reported by</dt>
+                            <dd class="col-sm-8">johcoltra</dd>
+                            <dt class="col-sm-4">Report date</dt>
+                            <dd class="col-sm-8">07/27/2018 4:38pm</dd>
+                            <dt class="col-sm-4">Reason for report</dt>
+                            <dd class="col-sm-8">Fraudulent activity</dd>
+                            <dt class="col-sm-4">Additional detail</dt>
+                            <dd class="col-sm-8">Tried to sell me a different book than what was advertised. He aknowledged that it's a different book, but 'still a pretty good book'.</dd>
+                            <dt class="col-sm-4">Admin action</dt>
+                            <dd class="col-sm-8"> <a href="#">Mark as reviewed</a>
+                        </dl>
+                        </span> </div>
                 </div>
+          
+               
             </div>
-            <div class="modal-footer demojs-admin-defaultview" > <a class="btn btn-outline-primary demojs-btn-deactivatead" href="#">Deactivate ad...</a></div>
+            <div class="modal-footer demojs-admin-defaultview" > <a class="btn btn-primary demojs-btn-deactivatead" href="#">Deactivate ad...</a>  <button class="btn btn-outline-primary" data-dismiss="modal">Close</button></div>
             
             <!--View policy-->
             

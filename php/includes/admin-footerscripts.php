@@ -219,6 +219,11 @@
         });
     });
 </script>
+
+
+
+
+<!--Main view ad detail-->
 <script>
     $(document).ready(function() {
         $("#post_detail .demojs-btn-reportad").click(function() {
@@ -229,7 +234,7 @@
 		 $("#post_detail .demojs-btn-viewpolicy").click(function() {
             $("#post_detail .demojs-report-post").hide();
 			$("#post_detail .demojs-view-policy").show();
-        });
+        });	
 		$("#post_detail .demojs-btn-closepolicy").click(function() {
             $("#post_detail .demojs-report-post").show();
 			$("#post_detail .demojs-view-policy").hide();
@@ -243,12 +248,11 @@
             $("#post_detail .demojs-report-post").hide();
 			$("#post_detail .demojs-view-posting").show();
         });
-		
-		
-		
-		
     });
 </script>
+
+
+<!--Admin view ad detail-->
 <script>
     $(document).ready(function() {
         $("#admin_ad_detail .demojs-btn-deactivatead").click(function() {
@@ -273,62 +277,25 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<script>
-    $(document).ready(function() {
-        $("#admin_ad_detail_deactivated_user .demojs-btn-reactivatead").click(function() {
-            $("#admin_ad_detail_deactivated_user .demojs-admin-defaultview").hide();
-            $("#admin_ad_detail_deactivated_user .demojs-admin-confirm-adreactivization").show();
-        });
-		
-		
-    });
-</script>
-
-
-
-
-
-
-
-<script>
-    $(document).ready(function() {
-        $("#admin_ad_detail_deactivated_admin .demojs-btn-reactivatead").click(function() {
-            $("#admin_ad_detail_deactivated_admin .demojs-admin-defaultview").hide();
-            $("#admin_ad_detail_deactivated_admin .demojs-admin-confirm-adreactivization").show();
-        });
-		
-		
-    });
-</script>
-
-
-
-
-
+<!--Admin view reported ad detail-->	
 <script>
     $(document).ready(function() {
         $("#admin_ad_detail_reported .demojs-btn-viewreport").click(function() {
-            
             $("#admin_ad_detail_reported .demojs-admin-viewreport").slideToggle();
-			$(this).text(function(i, text){
-          return text === "Hide reports" ? "View reports" : "Hide reports";
-      })
+            
+			
+			
+						
+		$(this).text(function(i, text) {
+                return text === "Hide reports" ? "View reports" : "Hide reports";
+            })
+			
+			
+			
         });
         $("#admin_ad_detail_reported .demojs-btn-viewad").click(function() {
             $("#admin_ad_detail_reported .demojs-admin-view-policy").hide();
-            $("#admin_ad_detail_reported .demojs-admin-defaultview").show();	
+            $("#admin_ad_detail_reported .demojs-admin-defaultview").show();
         });
         $("#admin_ad_detail_reported .demojs-btn-viewpolicy").click(function() {
             $("#admin_ad_detail_reported .demojs-admin-defaultview").hide();
@@ -342,82 +309,22 @@
 
         $("#admin_ad_detail_reported .demojs-btn-deactivate").click(function() {
             $("#admin_ad_detail_reported .demojs-admin-confirm-adremove").hide();
-			$("#admin_ad_detail_reported .demojs-admin-confirm-messagesent").show();
+            $("#admin_ad_detail_reported .demojs-admin-confirm-messagesent").show();
         });
-		$("#admin_ad_detail_reported .demojs-btn-deactivatesend").click(function() {
+        $("#admin_ad_detail_reported .demojs-btn-deactivatesend").click(function() {
             $("#admin_ad_detail_reported .demojs-admin-confirm-adremove").hide();
-			$("#admin_ad_detail_reported .demojs-admin-confirm-addeactmessagesent").show();
+            $("#admin_ad_detail_reported .demojs-admin-confirm-addeactmessagesent").show();
         });
-		
-		
-		
-		$("#admin_ad_detail_reported .demojs-btn-viewotherad").click(function() {
+        $("#admin_ad_detail_reported .demojs-btn-viewotherad").click(function() {
             $("#admin_ad_detail_reported .demojs-admin-confirm-adremove").hide();
-			$("#admin_ad_detail_reported .demojs-admin-otheruserad").show();
-        });
-		
-		
-		
-		
-    });
-</script>
-
-
-
-
-
-<script>
-    $(document).ready(function() {
-        $("#admin_ad_detail_reportdismissed .demojs-btn-viewreport").click(function() {
-            $("#admin_ad_detail_reportdismissed .demojs-admin-defaultview, #admin_ad_detail_reportdismissed .demojs-admin-view-policy").hide();
-            $("#admin_ad_detail_reportdismissed .demojs-admin-viewreport").show();
-        });
-        $("#admin_ad_detail_reportdismissed .demojs-btn-viewad").click(function() {
-            $("#admin_ad_detail_reportdismissed .demojs-admin-viewreport, #admin_ad_detail_reportdismissed .demojs-admin-view-policy").hide();
-            $("#admin_ad_detail_reportdismissed .demojs-admin-defaultview").show();
-        });
-        $("#admin_ad_detail_reportdismissed .demojs-btn-viewpolicy").click(function() {
-            $("#admin_ad_detail_reportdismissed .demojs-admin-viewreport").hide();
-            $("#admin_ad_detail_reportdismissed .demojs-admin-view-policy").show();
-        });
-
-        $("#admin_ad_detail_reportdismissed .demojs-btn-deactivatead").click(function() {
-            $("#admin_ad_detail_reportdismissed .demojs-admin-viewreport, #admin_ad_detail_reportdismissed .demojs-admin-defaultview").hide();
-            $("#admin_ad_detail_reportdismissed .demojs-admin-confirm-adremove").show();
-        });
-
-        $("#admin_ad_detail_reportdismissed .demojs-btn-deactivatereport").click(function() {
-            $("#admin_ad_detail_reportdismissed .demojs-admin-viewreport, #admin_ad_detail_reportdismissed .demojs-admin-defaultview").hide();
-            $("#admin_ad_detail_reportdismissed .demojs-admin-confirm-reportremove").show();
+            $("#admin_ad_detail_reported .demojs-admin-otheruserad").show();
         });
     });
 </script>
-<script>
-    $(document).ready(function() {
-        $("#admin_ad_detail_addeactivated .demojs-btn-viewreport").click(function() {
-            $("#admin_ad_detail_addeactivated .demojs-admin-defaultview, #admin_ad_detail_addeactivated .demojs-admin-view-policy").hide();
-            $("#admin_ad_detail_addeactivated .demojs-admin-viewreport").show();
-        });
-        $("#admin_ad_detail_addeactivated .demojs-btn-viewad").click(function() {
-            $("#admin_ad_detail_addeactivated .demojs-admin-viewreport, #admin_ad_detail_addeactivated .demojs-admin-view-policy").hide();
-            $("#admin_ad_detail_addeactivated .demojs-admin-defaultview").show();
-        });
-        $("#admin_ad_detail_addeactivated .demojs-btn-viewpolicy").click(function() {
-            $("#admin_ad_detail_addeactivated .demojs-admin-viewreport").hide();
-            $("#admin_ad_detail_addeactivated .demojs-admin-view-policy").show();
-        });
 
-        $("#admin_ad_detail_addeactivated .demojs-btn-deactivatead").click(function() {
-            $("#admin_ad_detail_addeactivated .demojs-admin-viewreport, #admin_ad_detail_addeactivated .demojs-admin-defaultview").hide();
-            $("#admin_ad_detail_addeactivated .demojs-admin-confirm-adremove").show();
-        });
 
-        $("#admin_ad_detail_addeactivated .demojs-btn-deactivatereport").click(function() {
-            $("#admin_ad_detail_addeactivated .demojs-admin-viewreport, #admin_ad_detail_addeactivated .demojs-admin-defaultview").hide();
-            $("#admin_ad_detail_addeactivated .demojs-admin-confirm-reportremove").show();
-        });
-    });
-</script>
+
+
 <script>
     $(function() {
         $("[data-toggle=popover]").popover({

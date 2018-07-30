@@ -475,11 +475,7 @@ $page_title = 'Ads';
     </div>
 </div>
 <?php include('modals/modal-admin-ad-detail.php') ?>
-<?php include('modals/modal-admin-ad-detail-expired.php') ?>
-<?php include('modals/modal-admin-ad-detail-deactivated-user.php') ?>
-<?php include('modals/modal-admin-ad-detail-deactivated-admin.php') ?>
 <?php include('modals/modal-admin-ad-detail-reported.php') ?>
-<?php include('modals/modal-admin-restrictuser.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
     $(document).ready(function() {	
