@@ -21,6 +21,14 @@ $page_title = 'Branding';
                     <div class="col-auto">
                         <h1> <?php echo $page_title; ?></h1>
                     </div>
+                    <div class="col-auto">
+                        <div class="form-check rbt-checkbox" >
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="togle_help" value="on" checked>
+                                <label class="form-check-label" for="togle_help">Help</label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <table class="table table-sm table-actions tablesawww tablesaw-stackkk" data-tablesaw-mode="stackkk">
                     <thead>
@@ -33,43 +41,43 @@ $page_title = 'Branding';
                     <tbody>
                         <tr>
                             <td>Application logo  (optional)
-                                <div class="ccf-instructional-text"> Select an image to be used as an application logo in the header.</div></td>
+                                <div class="small helper-text"> Select an image to be used as an application logo in the header.</div></td>
                             <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo.png" style="height:70px; width:auto" alt=""/></div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_brandingimage">Edit</button></td>
                         </tr>
                         <tr>
                             <td>Application logo - mobile  (optional)
-                                <div class="ccf-instructional-text"> Select an image to be used as an application logo in the header for mobile devices.</div></td>
+                                <div class="small helper-text"> Select an image to be used as an application logo in the header for mobile devices.</div></td>
                             <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo-mobile.png" style="height:70px; width:auto" alt=""/></div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_brandingimage">Edit</button></td>
                         </tr>
                         <tr>
                             <td> Favicon icon (.ico)
-                                <div class="ccf-instructional-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
+                                <div class="small helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
                             <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo-mobile.png" style="height:70px; width:auto" alt=""/></div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_favicon">Edit</button></td>
                         </tr>
                         <tr>
                             <td> Favicon image
-                                <div class="ccf-instructional-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
+                                <div class="small helper-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
                             <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo.png" style="height:70px; width:auto" alt=""/></div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_faviconimage">Edit</button></td>
                         </tr>
                         <tr>
                             <td> Apple Touch image
-                                <div class="ccf-instructional-text"> Select an image to be displayed in iOS as a desktop bookmark.</div></td>
+                                <div class="small helper-text"> Select an image to be displayed in iOS as a desktop bookmark.</div></td>
                             <td><div class="ccf-selectedimage-bg"><img src="../img/ccf-logo.png" style="height:70px; width:auto" alt=""/></div></td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_appletouch">Edit</button></td>
                         </tr>
                         <tr>
                             <td>Application title display
-                                <div class="ccf-instructional-text">Choose whether or not to display the application name in the header</div></td>
+                                <div class="small helper-text">Choose whether or not to display the application name in the header</div></td>
                             <td> Display application name "Classifieds"</td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_titledisplay">Edit</button></td>
                         </tr>
                         <tr>
                             <td>Application colors
-                                <div class="ccf-instructional-text">Choose the color to be used for the header background & accent colors.</div></td>
+                                <div class="small helper-text">Choose the color to be used for the header background & accent colors.</div></td>
                             <td><div class="row">
                                     <div class="col-4">
                                         <div class="p-3 ccf-themeset primary">Primary</div>
@@ -85,19 +93,19 @@ $page_title = 'Branding';
                         </tr>
                         <tr>
                             <td>Font family for headers
-                                <div class="ccf-instructional-text">Choose a font family to be used for all headers.</div></td>
+                                <div class="small helper-text">Choose a font family to be used for all headers.</div></td>
                             <td> BentonSansBold</td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_fontheader">Edit</button></td>
                         </tr>
                         <tr>
                             <td>Font family for body text
-                                <div class="ccf-instructional-text">Choose a font family to be used for the body text.</div></td>
+                                <div class="small helper-text">Choose a font family to be used for the body text.</div></td>
                             <td> BentonSans</td>
                             <td><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#pub_fontbody">Edit</button></td>
                         </tr>
                         <tr>
                             <td>Custom header HTML (optional)
-                                <div class="ccf-instructional-text">Specify optional HTML markup to be displayed at the top of the application views.</div></td>
+                                <div class="small helper-text">Specify optional HTML markup to be displayed at the top of the application views.</div></td>
                             <td><div class="code" style=" height:70px"> <code>&lt;div id=&quot;custom_header&quot;&gt;
                                     &lt;div id=&quot;branding-bar&quot; itemscope=&quot;itemscope&quot; itemtype=&quot;http://schema.org/CollegeOrUniversity&quot; role=&quot;complementary&quot; aria-labelledby=&quot;iu-campus&quot; class=&quot;hidden-xs hidden-sm&quot;&gt;
                                     &lt;div class=&quot;container&quot;&gt;
@@ -115,7 +123,7 @@ $page_title = 'Branding';
                         </tr>
                         <tr>
                             <td>Custom footer HTML (optional)
-                                <div class="ccf-instructional-text">Specify optional HTML markup to be displayed at the bottom of the application views.</div></td>
+                                <div class="small helper-text">Specify optional HTML markup to be displayed at the bottom of the application views.</div></td>
                             <td><div class="code" style=" height:70px"> <code>&lt;footer role=&quot;contentinfo&quot;&gt;
                                     &lt;div class=&quot;container&quot;&gt;
                                     &lt;div class=&quot;row pad&quot;&gt;
@@ -131,7 +139,7 @@ $page_title = 'Branding';
                         </tr>
                         <tr>
                             <td>Custom  CSS (optional)
-                                <div class="ccf-instructional-text">Specify optional CSS markup that will style the HTML for the custom header and footer.</div></td>
+                                <div class="small helper-text">Specify optional CSS markup that will style the HTML for the custom header and footer.</div></td>
                             <td><div class="code" style=" height:70px"> <code>@font-face {
                                     font-family: 'BentonSansRegular';
                                     src: url(&quot;https://fonts.iu.edu/fonts/benton-sans-regular.eot&quot;);

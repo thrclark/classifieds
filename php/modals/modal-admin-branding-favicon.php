@@ -11,7 +11,7 @@
                 <div class="form-group">
                     <div class="mb-3">
                         <label class="" for="appemail"> Select favicon</label>
-                        <div id="textfieldHelp" class="ccf-instructional-text">Select a favicon file (.ico format) to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div>
+                        <div id="textfieldHelp" class="small helper-text">Select a favicon file (.ico format) to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div>
                     </div>
                     <ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
                         <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">

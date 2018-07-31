@@ -1,6 +1,6 @@
 <?php 
 $audience = 'main';
-$page_title = 'All ads';	
+$page_title = 'All ads';
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -1,26 +1,19 @@
 .main-content .main-content-section .section-head {
 	.ccf-clearsearch {
-		@extend .rbt-ts-14;
+		@extend .rbt-ts-12;
+		@extend .pt-3;
 		padding: 0px;
 		font-weight: normal;
 		font-style: italic;
 	}
 	.section-head-utilities {
 		@extend .mb-3;
-		.dropdown {
-			.btn {
-				@extend .rbt-ts-14;
-				&:after {
-					@extend .rbt-ts-14;
-				}
-				&.btn-link {
-					padding-right: 0px;
-				}
-			}
-		}
 		.btn-group {
+
 			&.util-view-switch {
 				vertical-align: inherit;
+
+
 				.btn.btn-sm {
 					padding: 0.1rem 0.4rem;
 					margin-right: -1px;
@@ -51,15 +44,9 @@
 			display: inline;
 		}
 	}
+
 }
 
-@include media-breakpoint-up(sm) {
-	.main-content .main-content-section .section-head {
-		.ccf-clearsearch {
-			padding-top: 10px;
-		}
-	}
-}
 @include media-breakpoint-up(lg) {
 	.main-content .main-content-section .section-head {
 
@@ -74,3 +61,5 @@
 
 	}
 }
+
+

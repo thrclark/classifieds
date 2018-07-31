@@ -84,7 +84,7 @@
                             <button type="button" class="btn btn-outline-secondary btn-sm">Add Image</button>
                         </div>
                         <hr>
-                        <button type="button" class="btn btn-primary">Save</button>
+                        <button type="button" class="btn btn-primary">Post ad</button>
                         <button type="button" class="btn btn-outline-primary">Cancel</button>
                     </div>
                 </form>

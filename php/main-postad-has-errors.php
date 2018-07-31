@@ -46,7 +46,7 @@ $page_title = 'Post ad';
                         <form class="needs-validation" novalidate>
                             <div class="alert alert-danger fade show" role="alert" style="display:none">
                                 <p class="alert-heading">Errors on page</p>
-                                <p class="ccf-instructional-text">Please review your entries on this form and make any needed corrections.</p>
+                                <p class="small">Please review your entries on this form and make any needed corrections.</p>
                             </div>
                             <div class="row">
                                 <div class="col-12">
@@ -309,7 +309,7 @@ $page_title = 'Post ad';
                                 </div>
                             </div>
                             <p class="text-right">
-                                <button class="btn btn-primary" id="submitForm" type="submit">Save</button>
+                                <button class="btn btn-primary" id="submitForm" type="submit">Post ad</button>
                                 <a class="btn btn-outline-primary" href="main-home.php">
                                     <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Cancel</message>
                                 </a> </p>

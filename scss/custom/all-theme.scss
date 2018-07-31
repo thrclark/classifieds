@@ -19,8 +19,6 @@ $theme-body-bg: #F4F3EE;
 		@return $white;
 	}
 }
-
-
 @function set-searchwidget-searchbutton($color) {
 	@if (lightness($color) > 50) {
 		@return $theme-accent;
@@ -224,3 +222,5 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:fo
 		background: $theme-primary;
 	}
 }
+
+

@@ -2,7 +2,7 @@
 // load custom variables & mixins
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-variables";
 @import "custom/all-effects";
-@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-mixins.scss";
+
 
 // import core Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
@@ -28,8 +28,7 @@
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-tables-responsive.scss";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-typescale.scss";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-userprofile.scss";
-@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-focusstyling";
-@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-tabs";
+
 
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-fonts";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-fileinput";
@@ -43,7 +42,6 @@
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-imageupload";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-datepicker";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-clearfield";
-@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-iconselector";
 
 // import Classifieds specific styles
 @import "custom/all-rbt-override";
@@ -53,11 +51,10 @@
 @import "custom/all-layout";
 @import "custom/all-favoriting";
 @import "custom/all-section-header";
-@import "custom/main-posting";
+@import "custom/all-posting";
 @import "custom/all-form-validation";
 @import "custom/admin-selectedimage-bg";
 @import "custom/admin-selectcolor-bg";
-@import "custom/admin-selecticon";
 
 // import theming
 @import "custom/all-theme";

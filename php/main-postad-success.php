@@ -308,7 +308,7 @@ $page_title = 'Post ad';
                                     </ccf-image-upload>
                                 </div>
                             </div>
-                            <p class="text-right" id="preSave"> <a class="btn btn-primary" id="submitForm" style="color:#FFFFFF">Save</a> <a class="btn btn-outline-primary" href="main-home.php">
+                            <p class="text-right" id="preSave"> <a class="btn btn-primary" id="submitForm" style="color:#FFFFFF">Post ad</a> <a class="btn btn-outline-primary" href="main-home.php">
                                     <message key="global.buttons.cancel" ng-reflect-key="global.buttons.cancel">Cancel</message>
                                 </a> </p>
                         </form>

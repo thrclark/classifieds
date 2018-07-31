@@ -9,7 +9,7 @@
             <div class="modal-body">
                 <div class="form-group ">
                     <label class="control-label " for="headerfont">Font family for headers </label>
-                    <div class="ccf-instructional-text">Choose a font family to be used for all headers.</div>
+                    <div class="small helper-text">Choose a font family to be used for all headers.</div>
                     <select class="select form-control" id="headerfont" name="headerfont">
                         <option label="" value="Arial, Helvetica, sans-serif">Sans-Serif - Arial, Helvetica </option>
                         <option label="" value="'Arial Black', Gadget, sans-serif">Sans-Serif - "Arial Black", Gadget</option>
@@ -26,12 +26,12 @@
                 </div>
                 <div class="form-group custom-headerfont">
                     <label class="control-label" for="font_family"> Font family name</label>
-                    <div class="ccf-instructional-text">Specify the name of this custom font.</div>
+                    <div class="small helper-text">Specify the name of this custom font.</div>
                     <input class="form-control" id="font_family" name="font_family" type="text" required="required">
                 </div>
                 <div class="form-group custom-headerfont">
                     <label class="control-label" for="font_family"> Weight</label>
-                    <div class="ccf-instructional-text">Specify the weight of this custom font.</div>
+                    <div class="small helper-text">Specify the weight of this custom font.</div>
                     <select ng-model="fontFace.fontWeight" name="fontFaces[0].fontWeight" id="fontFaces[0].fontWeight" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontWeights" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
                         <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                         <option label="bold" value="string:BOLD">bold</option>
@@ -48,7 +48,7 @@
                 </div>
                 <div class="form-group custom-headerfont">
                     <label class="control-label" for="font_family"> Style</label>
-                    <div class="ccf-instructional-text">Specify the style of this custom font.</div>
+                    <div class="small helper-text">Specify the style of this custom font.</div>
                     <select ng-model="fontFace.fontStyle" name="fontFaces[0].fontStyle" id="fontFaces[0].fontStyle" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStyles" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
                         <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                         <option label="italic" value="string:ITALIC">italic</option>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="form-group custom-headerfont">
                     <label class="control-label" for="font_family"> Stretch</label>
-                    <div class="ccf-instructional-text">Specify the stretch of this custom font.</div>
+                    <div class="small helper-text">Specify the stretch of this custom font.</div>
                     <select ng-model="fontFace.fontStretch" name="fontFaces[0].fontStretch" id="fontFaces[0].fontStretch" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStretches" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
                         <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                         <option label="condensed" value="string:CONDENSED">condensed</option>
@@ -71,7 +71,7 @@
                     </select>
                 </div>
                 <div class="form-group custom-headerfont"> <strong> Font URLs</strong>
-                    <div class="ccf-instructional-text">Specify URLs for this custom font.</div>
+                    <div class="small helper-text">Specify URLs for this custom font.</div>
                     <table class="table rbt-table-actions mb-2" id="myTable" style="margin-bottom: 0px">
                         <thead class="sr-only">
                             <tr>

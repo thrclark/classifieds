@@ -14,5 +14,7 @@
 	vertical-align: middle;
 }
 
-
+.ccf-not-found {
+    margin-top: 40px;
+}
 </style>

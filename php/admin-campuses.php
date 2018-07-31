@@ -52,9 +52,9 @@ $page_title = 'Campuses';
                 <td><b class="rbt-table-responsive-cell-label">
                     <message key="admin.field.uniqueKey">Unique Key</message>
                     </b> <span class="rbt-table-responsive-cell-content "> BL </span></td>
-                <td><div class="dropdown">
-                    <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Select</span> </button>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="admin-campuses-edit.php">Edit</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
+                 <td><div class="dropdown">
+                                <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Select</span> </button>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="admin-campuses-edit.php">Edit</a> <a class="dropdown-item" href="#">Delete</a> </div></td>
             </tr>
             <tr>
                 <td><b class="rbt-table-responsive-cell-label">
