@@ -200,12 +200,12 @@
                                 <label class="form-check-label" for="otherad00"> Math-M211 and M212 Textbook </label>
                             </div>-->
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="otherad1">
-                                <label class="form-check-label" for="otherad1"> Math-M211 and M212 Text <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
+                                <input class="form-check-input" type="checkbox" value="" id="otherad3">
+                                <label class="form-check-label" for="otherad3"> Math-M211 and M212 Text <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="otherad2">
-                                <label class="form-check-label" for="otherad2"> Math-M211 and M212 bo0k <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </label>
+                                <input class="form-check-input" type="checkbox" value="" id="otherad4">
+                                <label class="form-check-label" for="otherad4"> Math-M211 and M212 bo0k <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </label>
                             </div>
                             <div class="font-weight-bold mb-1 mt-3">Log an infraction for 'jlancer'? <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="Infractions for 'jlancer'" data-content="<div class='border-bottom'>Fraudulent activity</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Selling IU parking permit</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>">(3 previous infractions)</a></div>
                             <div class="form-check">
@@ -214,8 +214,8 @@
                             </div>
                             <div class="font-weight-bold mb-1 mt-3">Revoke system access for 'jlancer'?</div>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="revokeaccess">
-                                <label class="form-check-label" for="revokeaccess"> Yes, revoke access.</label>
+                                <input class="form-check-input" type="checkbox" value="" id="revokeaccess1">
+                                <label class="form-check-label" for="revokeaccess1"> Yes, revoke access.</label>
                             </div>
                         </fieldset>
                     </form>
@@ -286,7 +286,7 @@
                 </dl>
             </div>
             <div class="modal-footer demojs-admin-otheruserad" style="display:none">
-                <button class="btn btn-outline-primary demojs-btn-deactivatead"> <span class="rbt-icon-chevron-left ml-0"></span> Back to admin actions</button>
+                <button class="btn btn-outline-primary demojs-btn-deactivatead"> <span class="rbt-icon-chevron-left ml-0"></span> Back</button>
             </div>
             
             <!--Confirm message sent -->

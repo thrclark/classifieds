@@ -2,8 +2,8 @@
 <div class="modal fade" id="post_detail" tabindex="-1" role="dialog" aria-labelledby="post_detail" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLabel">For sale: Selmer VI Tenor Sax</h3>
+            <div class="modal-header demojs-view-posting">
+                <h2 class="modal-title" id="exampleModalLabel">For sale: Selmer VI Tenor Sax</h2>
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-view-posting">
@@ -61,8 +61,11 @@
                         <message key="main.details.share">Share this Ad</message>
                         </span> </a> </div>
             </div>
+            <div class="modal-header demojs-report-post" style=" display:none">
+                <h2 class="modal-title" id="exampleModalLabel">Report this ad</h2>
+                <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
+            </div>
             <div class="modal-body demojs-report-post" style=" display:none">
-                <div class="ccf-postdetail-title">Report this ad</div>
                 <p>Please provide more details regarding your decision to report this ad. Your report will be reviewed, and appropriate actions will be taken if it is determined that this ad is in violation of our <a href="#" class="demojs-btn-viewpolicy">policy</a>. </p>
                 <form>
                     <div class="form-group">
@@ -89,6 +92,10 @@
                     <button class="btn btn-outline-primary demojs-btn-cancelreport">Cancel</button>
                 </div>
             </div>
+            <div class="modal-header demojs-view-policy" style=" display:none">
+                <h2 class="modal-title" id="exampleModalLabel">Policy</h2>
+                <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
+            </div>
             <div class="modal-body demojs-view-policy" style="display:none">
                 <div class="ccf-postdetail-title">About this service</div>
                 <p>The IU Classifieds contain items of interest to the Indiana University community. Please remember that the use of the University's computer network for these messages is a privilege extended to students and employees for personal, non-commercial use. University resources are not allowed to be used for the promotion of commercial or personal businesses. In addition, the use of IU Classifieds to promote or provide pornographic materials or sexual services is strictly prohibited.  The buying or selling of IU parking permits is prohibited as parking permits are the property of the university. The terms of any transactions are between the buyer and seller. Classifieds may contain office telephone numbers; however, it is the shared responsibility of supervisors and employees to assure that this privilege is not abused. Honor all copyrights when posting images or text in the Classifieds.</p>
@@ -96,10 +103,13 @@
                 <p>By using this site, you agree to abide by Indiana Universitys "Appropriate Technology Use" Policies as outlined by the Information Policy Office at <a href="http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml" target="_blank">http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml</a> and to use the Classifieds appropriately. These pages are not intended for solicitation, political purposes and publishing opinions, nor are they to be used to make jokes or mislead others. The University reserves the right to remove any posting that it deems inappropriate.</p>
                 <p>Questions regarding the IU Classifieds may be addressed to <a href="mailto:one@iu.edu">one@iu.edu</a> </p>
             </div>
-            <div class="modal-footer demojs-view-policy" style="display:none"> <a href="#" class="btn btn-outline-primary demojs-btn-closepolicy">Back</a> </div>
+            <div class="modal-footer demojs-view-policy" style="display:none"> <a href="#" class="btn btn-outline-primary demojs-btn-closepolicy"><span class="rbt-icon-chevron-left ml-0"></span> Back</a> </div>
+            <div class="modal-header demojs-report-confirm" style=" display:none">
+                <h2 class="modal-title" id="exampleModalLabel">Report submitted</h2>
+                <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
+            </div>
             <div class="modal-body demojs-report-confirm" style=" display:none">
-                <div class="ccf-postdetail-title">Report submitted</div>
-                <p>Your report has been submitted - thank you. </p>
+                <p>Your report has been submitted and will be reviewed. Thank you. </p>
             </div>
             <div class="modal-footer demojs-report-confirm" style=" display:none">
                 <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>

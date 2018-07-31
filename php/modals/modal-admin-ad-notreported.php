@@ -201,7 +201,7 @@
                 </dl>
             </div>
             <div class="modal-footer demojs-admin-otheruserad" style="display:none">
-                <button class="btn btn-outline-primary demojs-btn-deactivatead"> <span class="rbt-icon-chevron-left ml-0"></span> Back to admin actions</button>
+                <button class="btn btn-outline-primary demojs-btn-deactivatead"> <span class="rbt-icon-chevron-left ml-0"></span> Back</button>
             </div>
             
             <!--Confirm message sent -->
