@@ -496,41 +496,22 @@ $page_title = 'Ads';
 
 
 
-<script>
+
+
+<script type="text/javascript">
     $(document).ready(function() {
-        $('#defaultCheck111').change(function() {
-            if (this.checked) {
-                $('.demojs-reported-yes').fadeIn('slow');
-				 $('.demojs-reported-no').fadeOut('slow');
+        $(".demojs-reported-no").hide();
+        $("#defaultCheck1").click(function() {
+            if ($(this).is(":checked")) {
+                $('.demojs-reported-no').hide();
             } else {
-                $('.demojs-reported-no').fadeOut('slow');
-				$('.demojs-reported-yes').fadeIn('slow');
+                $('.demojs-reported-no').show();
             }
         });
     });
-</script>
+</script>  
 
 
-  <script type="text/javascript">
-
-
-    $(document).ready(function() {
-      
-$(".demojs-reported-no").hide();
-$("#defaultCheck1").click(function() {
-    if($(this).is(":checked")) {
-       
-				 $('.demojs-reported-no').hide();
-    } else {
-       $('.demojs-reported-no').show();
-			
-    }	
-});
-
-    });
-
-</script>
-            
-            
+  
 </body>
 </html>
