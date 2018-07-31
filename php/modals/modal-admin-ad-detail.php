@@ -123,7 +123,7 @@
             </div>
             <div class="modal-footer demojs-admin-confirm-adremove" style="display:none">
                 <button class="btn btn-primary demojs-btn-deactivate" style="display:none;">Deactivate ad</button>
-                <button class="btn btn-primary demojs-btn-deactivatesend" style="display:none">Deactivate ad + send message</button>
+                <button class="btn btn-primary demojs-btn-performactions" style="display:none">Deactivate ad + send message</button>
                 <button class="btn btn-outline-primary" data-dismiss="modal">Cancel</button>
             </div>
             

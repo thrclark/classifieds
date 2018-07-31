@@ -165,65 +165,74 @@
                 </div>
                 <div id="showadminaction1" style="display:none" class="desc">
                     <form class="">
-                        <fieldset >
-                            <legend class="pt-3">Message user</legend>
-                            <div class="form-group">
-                                <label for="banneduseruser">User</label>
-                                <input type="text" class="form-control" id="banneduseruser" placeholder="" value="jlancer" readonly>
-                            </div>
-                            <div class="form-group">
-                                <label for="selectresponse1">Reason for ad deactivation</label>
-                                <select class="form-control" id="selectresponse1">
-                                    <option value="Fraudulent activity">Fraudulent activity</option>
-                                    <option value="Contains offensive material">Contains offensive material</option>
-                                    <option value="Promotes personal/commercial business">Promotes personal/commercial business</option>
-                                    <option value="Promotes a political/social agenda">Promotes a political/social agenda</option>
-                                    <option value="Selling IU parking permit">Selling IU parking permit</option>
-                                    <option value="Fake ad">Fake ad</option>
-                                    <option value="Other">Other</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="responsefield1">Message to be sent</label>
-                                <textarea class="form-control" id="responsefield1" rows="8">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</textarea>
-                            </div>
-                        </fieldset>
-                        <fieldset>
-                            <legend class="pt-3">Administrative</legend>
-                            <div class="form-group demojs-specifyreason" style="display:none">
-                                <label for="exampleInputEmail1">Specify reason for ad deactivation</label>
-                                <input type="text" class="form-control" id="otherReason" aria-describedby="" placeholder="">
-                            </div>
-                            <div class="font-weight-bold mb-1 mt-3">Deactivate other active ads by 'jlancer'</div>
-                            <!-- <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="otherad00" checked disabled>
-                                <label class="form-check-label" for="otherad00"> Math-M211 and M212 Textbook </label>
-                            </div>-->
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="otherad3">
-                                <label class="form-check-label" for="otherad3"> Math-M211 and M212 Text <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="otherad4">
-                                <label class="form-check-label" for="otherad4"> Math-M211 and M212 bo0k <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </label>
-                            </div>
-                            <div class="font-weight-bold mb-1 mt-3">Log an infraction for 'jlancer'? <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="Infractions for 'jlancer'" data-content="<div class='border-bottom'>Fraudulent activity</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Selling IU parking permit</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>">(3 previous infractions)</a></div>
+                        <div class="card bg-light mb-3">
+                            <div class="card-body">
+                                <fieldset>
+                                    <legend class="">Administrative actions</legend>
+                                    <div class="font-weight-bold mb-1 mt-3">Deactivate other active ads by 'jlancer'</div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="otherad3">
+                                        <label class="form-check-label" for="otherad3"> Math-M211 and M212 Text <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="otherad4">
+                                        <label class="form-check-label" for="otherad4"> Math-M211 and M212 bo0k <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </label>
+                                    </div>
+                                    <!-- <div class="font-weight-bold mb-1 mt-3">Log an infraction for 'jlancer'? </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="loginfraction">
                                 <label class="form-check-label" for="loginfraction"> Log infraction for '<span class="demojs-reasonvalue1">Parking permit violation</span>'. </label>
+                            </div>-->
+                                    <div class="font-weight-bold mb-1 mt-3">Revoke system access for 'jlancer'? <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="Infractions for 'jlancer'" data-content="<div class='border-bottom'>Fraudulent activity</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Selling IU parking permit</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>">(3 previous infractions)</a></div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="revokeaccess1">
+                                        <label class="form-check-label" for="revokeaccess1"> Yes, revoke access.</label>
+                                    </div>
+                                    <div class="font-weight-bold mb-1 mt-3">Send a message to 'jlancer'?</div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="sendusermessage_toggle">
+                                        <label class="form-check-label" for="sendusermessage_toggle"> Send message </label>
+                                    </div>
+                                </fieldset>
                             </div>
-                            <div class="font-weight-bold mb-1 mt-3">Revoke system access for 'jlancer'?</div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="revokeaccess1">
-                                <label class="form-check-label" for="revokeaccess1"> Yes, revoke access.</label>
+                        </div>
+                        <div class="card bg-light demojs-sendusermessage">
+                            <div class="card-body">
+                                <fieldset >
+                                    <legend class="">Message user</legend>
+                                    <div class="form-group">
+                                        <label for="banneduseruser">User</label>
+                                        <input type="text" class="form-control" id="banneduseruser" placeholder="" value="jlancer" readonly>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="selectresponse1">Reason for ad deactivation</label>
+                                        <select class="form-control" id="selectresponse1">
+                                            <option value="Fraudulent activity">Fraudulent activity</option>
+                                            <option value="Contains offensive material">Contains offensive material</option>
+                                            <option value="Promotes personal/commercial business">Promotes personal/commercial business</option>
+                                            <option value="Promotes a political/social agenda">Promotes a political/social agenda</option>
+                                            <option value="Selling IU parking permit">Selling IU parking permit</option>
+                                            <option value="Fake ad">Fake ad</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group demojs-specifyreason" style="display:none">
+                                        <label for="exampleInputEmail1">Specify reason for ad deactivation</label>
+                                        <input type="text" class="form-control" id="otherReason" aria-describedby="" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="responsefield1">Message to be sent</label>
+                                        <textarea class="form-control" id="responsefield1" rows="8">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</textarea>
+                                    </div>
+                                </fieldset>
                             </div>
-                        </fieldset>
+                        </div>
                     </form>
                 </div>
             </div>
             <div class="modal-footer demojs-admin-confirm-adremove" style="display:none">
                 <button class="btn btn-primary demojs-btn-deactivate" style="display:none;">Deactivate ad</button>
-                <button class="btn btn-primary demojs-btn-deactivatesend" style="display:none">Send message &amp; perform actions</button>
+                <button class="btn btn-primary demojs-btn-performactions" style="display:none">Perform actions</button>
                 <button class="btn btn-outline-primary" data-dismiss="modal">Cancel</button>
             </div>
             
