@@ -44,7 +44,7 @@ $page_title = 'Ads';
                     <div class="col-auto">
                         <button class="btn btn-link" type="button">
                         <message key="admin.buttons.clear" ng-reflect-key="admin.buttons.clear">Clear</message>
-                        </button>	
+                        </button>
                     </div>
                 </div>
                 <div class="ccf-table-responsive-container">
@@ -115,9 +115,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Self Defense Boxing Gloves</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">User</b><span class="rbt-table-responsive-cell-content">immortelle</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content"> Deactivated
-                                    
-                                    </span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content"> Deactivated </span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
                                     <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_deactivated_user">View</button>
                                     </span></td>
@@ -127,9 +125,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Offering ride to Indy Dec 21 around 10:30am </span></td>
                                 <td><b class="rbt-table-responsive-cell-label">User</b><span class="rbt-table-responsive-cell-content">veridical</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Deactivated
-                                   
-                                    </span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Deactivated </span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
                                     <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_deactivated_admin">View</button>
                                     </span></td>
@@ -462,9 +458,6 @@ $page_title = 'Ads';
         </div>
     </div>
 </div>
-
-
-
 <?php include('modals/modal-admin-ad-detail-reported.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
@@ -489,15 +482,7 @@ $page_title = 'Ads';
     });
 });
     });
-</script>
-
-
-
-
-
-
-
-
+</script> 
 <script type="text/javascript">
     $(document).ready(function() {
         $(".demojs-reported-no").hide();
@@ -509,9 +494,21 @@ $page_title = 'Ads';
             }
         });
     });
-</script>  
-
-
-  
+</script> 
+<script>
+    $(document).ready(function() {
+        $("#otherReason").keyup(function() {
+            var length = $(this).val().length;
+            length = 100 - length;
+            $('#charcounter1').text(length);
+            if ($("#otherReason").val().length > 100) {
+                $("#counterDemo1_badge").last().addClass("badge-danger");
+            } else {
+                $("#counterDemo1_badge").last().removeClass("badge-danger");
+            }
+        });
+        
+    });
+</script>
 </body>
 </html>
