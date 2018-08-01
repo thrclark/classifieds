@@ -18,7 +18,7 @@
                     <dd class="col-auto"><span class="font-italic small">Jun 14</span></dd>
                     <dt class="sr-only">Campus</dt>
                     <dd class="col-auto small ccf-postdetail-market"><i class="fa fa-map-marker"></i> iuk</dd>
-                    <dt class="sr-only">s
+                    <dt class="sr-only">
                         <message key="global.ad.field.image">Images</message>
                     </dt>
                     <dd class="col-12">
@@ -49,7 +49,7 @@
                     </dt>
                     <dd class="col-sm-9"><a href="mailto:thrclark@iu.edu">thrclark@iu.edu</a></dd>
                 </dl>
-                <a href="#" class="font-italic small demojs-btn-reportad">Report this ad</a> </div>
+                <button class="btn btn-link font-weight-normal p-0 font-italic rbt-ts-14 demojs-btn-reportad">Report this ad</button> </div>
             <div class="modal-footer demojs-view-posting">
                 <div class="rbt-button-group">
                     <button class="btn btn-outline-primary favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
