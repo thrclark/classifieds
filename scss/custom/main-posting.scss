@@ -544,3 +544,12 @@
 
 	}
 }
+
+.ccf-markseen {
+	.btn-primary {
+		opacity: 0;
+	}
+	&:hover .btn-primary {
+		opacity: 1;
+	}
+}

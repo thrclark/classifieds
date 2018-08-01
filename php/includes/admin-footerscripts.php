@@ -418,18 +418,6 @@ $('#admin_ad_detail_reported input[name="takeactiontoggle1"]').click(function() 
 
 </script>
 
-<script>
-    $(document).ready(function() {
-       
-		
-		 $(".demojs-restoreprevreports").click(function() {
-            $(".ccf-adreport .demojs-admin-viewdismissedreport").slideToggle();
-        });
-		
-		
-    });
-</script>
-
 
 
 
@@ -468,6 +456,38 @@ $(function() {
         });
     });
 </script>  
+
+
+
+
+<script>
+    $(document).ready(function() {
+       		 $(".demojs-restoreprevreports").click(function() {
+            $(".ccf-adreport .demojs-admin-viewdismissedreport").slideToggle();
+        });
+    });
+</script>
+
+
+
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+     
+        $("#demojs_showprevreports").click(function() {
+            if ($(this).is(":checked")) {
+                $('.demojs-admin-viewdismissedreport').slideDown();
+            } else {
+                $('.demojs-admin-viewdismissedreport').slideUp();
+            }
+        });
+    });
+</script>  
+
+
+
+
 
 
 

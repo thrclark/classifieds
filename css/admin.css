@@ -11758,6 +11758,13 @@ body .main-content-section {
   border-bottom: solid 1px #dddddd;
 }
 
+.ccf-markseen .btn-primary {
+  opacity: 0;
+}
+.ccf-markseen:hover .btn-primary {
+  opacity: 1;
+}
+
 .was-validated .form-control.ccf-hide-validation-success:valid, .form-control.ccf-hide-validation-success.is-valid {
   border-color: #666666;
   box-shadow: none;
