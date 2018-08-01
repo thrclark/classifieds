@@ -175,7 +175,7 @@
             </div>
         </div>
         <div class="modal-footer demojs-admin-defaultview" > <a class="btn btn-primary demojs-btn-deactivatead" href="#">Deactivate ad...</a>
-            <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+            <button class="btn btn-outline-primary" data-dismiss="modal">Accept ad</button>    <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
         </div>
         
         <!--View policy-->
