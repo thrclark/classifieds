@@ -36,19 +36,26 @@
 <a <?php if ($page_title == 'General settings') { echo 'class="dropdown-item active"'; } ?> href="admin-generalsettings.php" class="dropdown-item">General settings</a> 
 <a <?php if ($page_title == 'Categories') { echo 'class="dropdown-item active"'; } ?> href="admin-categories.php" class="dropdown-item">Categories</a> 
 <a <?php if ($page_title == 'Markets') { echo 'class="dropdown-item active"'; } ?> href="admin-campuses.php" class="dropdown-item">Campuses</a> 
-<a <?php if ($page_title == 'LDAP configuration') { echo 'class="dropdown-item active"'; } ?> href="admin-ldap.php" class="dropdown-item">LDAP Configuration</a> 
+
+<a <?php if ($page_title == 'Policy maintenance') { echo 'class="dropdown-item active"'; } ?> href="admin-policymaintenance.php" class="dropdown-item">Policy maintenance</a> 
+
+
+
+
+
+<a <?php if ($page_title == 'LDAP configuration') { echo 'class="dropdown-item active"'; } ?> href="admin-ldap.php" class="dropdown-item">LDAP configuration</a> 
 <a <?php if ($page_title == 'Branding') { echo 'class="dropdown-item active"'; } ?> href="admin-branding.php" class="dropdown-item">Branding</a> 
 
 
-<a <?php if ($page_title == 'API accounts') { echo 'class="dropdown-item active"'; } ?> href="admin-apiaccounts.php" class="dropdown-item">API Accounts</a> 
-<a <?php if ($page_title == 'API documentation') { echo 'class="dropdown-item active"'; } ?> href="admin-apidocs.php" class="dropdown-item">API Documentation</a> </div>
+<a <?php if ($page_title == 'API accounts') { echo 'class="dropdown-item active"'; } ?> href="admin-apiaccounts.php" class="dropdown-item">API accounts</a> 
+<a <?php if ($page_title == 'API documentation') { echo 'class="dropdown-item active"'; } ?> href="admin-apidocs.php" class="dropdown-item">API documentation</a> </div>
                             </li>
                             <li class="nav-item dropdown"> 
 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Configuration</a>
                                 <div class="dropdown-menu"> 
-<a <?php if ($page_title == 'Google Analytics Rollup') { echo 'class="dropdown-item active"'; } ?> href="admin-garollup.php" class="dropdown-item" >Google Analytics Rollup</a> 
-<a <?php if ($page_title == 'System parameters') { echo 'class="dropdown-item active"'; } ?> href="admin-sysparameters.php" class="dropdown-item">System Parameters</a> 
-<a <?php if ($page_title == 'Reload cache') { echo 'class="dropdown-item active"'; } ?> href="admin-reloadcache.php" class="dropdown-item" >Reload Cache </a> </div>
+<a <?php if ($page_title == 'Google Analytics Rollup') { echo 'class="dropdown-item active"'; } ?> href="admin-garollup.php" class="dropdown-item" >Google Analytics rollup</a> 
+<a <?php if ($page_title == 'System parameters') { echo 'class="dropdown-item active"'; } ?> href="admin-sysparameters.php" class="dropdown-item">System parameters</a> 
+<a <?php if ($page_title == 'Reload cache') { echo 'class="dropdown-item active"'; } ?> href="admin-reloadcache.php" class="dropdown-item" >Reload cache </a> </div>
                             </li>
                         </ul>
                     </div>
@@ -91,28 +98,34 @@
         <h3 class="rbt-ts-14 text-uppercase  mt-3 mb-2">Settings</h3>
         <ul class="list-group ">
             <li class="list-group-item"> 
-<a href="admin-generalsettings.php">General Settings</a> </li>
+<a href="admin-generalsettings.php">General settings</a> </li>
             <li class="list-group-item"> 
 <a href="admin-branding.php">Branding</a> </li>
             <li class="list-group-item"> 
 <a href="admin-categories.php">Categories</a> </li>
             <li class="list-group-item"> 
 <a href="admin-campuses.php">Campuses</a> </li>
+
+
+  <li class="list-group-item"> 
+<a href="admin-policymaintenance.php">Policy maintenance</a> </li>
+
+
             <li class="list-group-item"> 
-<a href="admin-ldap.php">LDAP Configuration</a> </li>
+<a href="admin-ldap.php">LDAP configuration</a> </li>
             <li class="list-group-item"> 
-<a href="admin-apiaccounts.php">API Accounts</a> </li>
+<a href="admin-apiaccounts.php">API accounts</a> </li>
             <li class="list-group-item"> 
-<a href="admin-apidocs.php">API Documentation</a> </li>
+<a href="admin-apidocs.php">API documentation</a> </li>
         </ul>
         <h3 class="rbt-ts-14 text-uppercase mt-3 mb-2">Configuration</h3>
         <ul class="list-group ">
             <li class="list-group-item"> 
-<a href="admin-garollup.php"  >Google Analytics Rollup</a> </li>
+<a href="admin-garollup.php"  >Google Analytics rollup</a> </li>
             <li class="list-group-item"> 
-<a href="admin-sysparameters.php" >System Parameters</a> </li>
+<a href="admin-sysparameters.php" >System parameters</a> </li>
             <li class="list-group-item"> 
-<a href="admin-reloadcache.php"  >Reload Cache </a> </li>
+<a href="admin-reloadcache.php"  >Reload cache </a> </li>
         </ul>
     </nav>
 </div>
