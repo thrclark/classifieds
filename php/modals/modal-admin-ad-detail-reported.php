@@ -129,10 +129,10 @@
                             <dd class="col-sm-9">Fraudulent activity</dd>
                             <dt class="col-sm-3">Details</dt>
                             <dd class="col-sm-9">Tried to sell me a different book than what was advertised. He aknowledged that it's a different book, but 'still a pretty good book'.</dd>
-                            <dt class="col-sm-3">Action</dt>
+                           <!-- <!-- <dt class="col-sm-3">Action</dt>
                             <dd class="col-sm-9">
                                 <div class="ccf-markseen d-inline-flex"> <a href="#" class="btn btn-sm btn-outline-primary">Mark as seen</a> <a href="#" class="btn btn-sm btn-primary ml-2">Mark all as seen</a> </div>
-                            </dd>
+                            </dd>-->
                         </dl>
                         </span> </div>
                 </div>
@@ -147,10 +147,10 @@
                             <dd class="col-sm-9">Fraudulent activity</dd>
                             <dt class="col-sm-3">Details</dt>
                             <dd class="col-sm-9">Totally the wrong book. this guy is just out to scam anyone. Indicators when rubric shared unit of analysis, rubric compelling support shared vocabulary. Global uplift; revolutionary, inspire collaborate synergy; program area progress state of play. Optimism mobilize when and problem-solvers. Issue outcomes, catalyze circular incubator equal opportunity. Unprecedented challenge inspire social impact blended value activate. Thought partnership thought provoking cultivate NGO innovate thought leader improve the world. Citizen-centered state of play program areas commitment indicators. Collective impact; shared vocabulary; granular; data collaborative consumption do-gooder deep dive. Citizen-centered innovate disrupt strategize a targeted storytelling. Outcomes, benefit corporation LGBTQ+ program areas inspiring. Philanthropy cultivate grit technology cultivate thought leadership thought partnership youth peaceful. Synergy progress targeted paradigm philanthropy strategize, youth.</dd>
-                            <dt class="col-sm-3">Action</dt>
+                            <!-- <dt class="col-sm-3">Action</dt>
                             <dd class="col-sm-9">
                                 <div class="ccf-markseen d-inline-flex"> <a href="#" class="btn btn-sm btn-outline-primary">Mark as seen</a> <a href="#" class="btn btn-sm btn-primary ml-2">Mark all as seen</a> </div>
-                            </dd>
+                            </dd>-->
                         </dl>
                         </span> </div>
                 </div>
@@ -165,10 +165,10 @@
                             <dd class="col-sm-9">Fraudulent activity</dd>
                             <dt class="col-sm-3">Details</dt>
                             <dd class="col-sm-9">Soprano saxophones are the new banjo. I will reign supreme.</dd>
-                            <dt class="col-sm-3">Action</dt>
+                            <!-- <dt class="col-sm-3">Action</dt>
                             <dd class="col-sm-9">
                                 <div class="ccf-markseen d-inline-flex"> <a href="#" class="btn btn-sm btn-outline-primary">Mark as seen</a> <a href="#" class="btn btn-sm btn-primary ml-2">Mark all as seen</a> </div>
-                            </dd>
+                            </dd>-->
                         </dl>
                         </span> </div>
                 </div>
@@ -258,7 +258,7 @@
                                 </div>
                                 <div class="font-weight-bold mb-1 mt-3">Send a message to 'jlancer'?</div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="sendusermessage_toggle">
+                                    <input class="form-check-input" type="checkbox" value="" id="sendusermessage_toggle" checked>
                                     <label class="form-check-label" for="sendusermessage_toggle"> Send message </label>
                                 </div>
                             </fieldset>
