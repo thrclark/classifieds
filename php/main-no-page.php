@@ -13,12 +13,10 @@ $audience = 'main';
     <section class="main-content pt-3" role="main">
         <div class="container">
             <div class="ccf-not-found">
-                    <h2>Page not found!</h2>
-                    You may have mistyped the address or the page may have moved.  <a href="main-home.php">Go to the homepage.</a>
+                    <h5>An unexpected error has occurred.  Please navigate to the <a href="main-home.php">homepage</a> and try again.  If the problem persists, contact support.</h5>
             </div>
         </div>
     </section>
-    <?php include('includes/main-footer.php') ?>
     <?php include('includes/main-footer-menu.php') ?>
 </div>
 <?php include('includes/admin-footerscripts.php') ?>

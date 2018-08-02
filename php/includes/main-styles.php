@@ -15,6 +15,6 @@
 }
 .ccf-not-found{
 	text-align: center;
-	margin-top: 40px;
+	margin: 40px 0px 120px 0px;
 }
 </style>
