@@ -98,7 +98,7 @@
                             <dt class="col-sm-3">Details</dt>
                             <dd class="col-sm-9">When I went to pick up the book, he said he didn't have it, and tried to sell me a bunch of other books that I don't need. Please remove this ad. Frustrating...</dd>
                             <dt class="col-sm-3">Action</dt>
-                            <dd class="col-sm-9"> <span class="badge badge-secondary rbt-badge-transparent">Seen by admin</span> <small class="font-italic">07/27/2018 3:16pm</small> </dd>
+                            <dd class="col-sm-9"> <span class="badge badge-secondary rbt-badge-transparent">Accepted by admin</span> <small class="font-italic">07/27/2018 3:16pm</small> </dd>
                         </dl>
                         </span> </div>
                 </div>
