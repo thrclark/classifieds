@@ -446,7 +446,7 @@ $(function() {
 
 <script type="text/javascript">
     $(document).ready(function() {
-        $(".demojs-sendusermessage").hide();
+        //$(".demojs-sendusermessage").hide();
         $("#sendusermessage_toggle").click(function() {
             if ($(this).is(":checked")) {
                 $('.demojs-sendusermessage').show();
