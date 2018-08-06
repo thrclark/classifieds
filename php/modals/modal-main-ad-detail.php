@@ -66,7 +66,7 @@
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-report-post" style=" display:none">
-                <p>Please provide more details regarding your decision to report this ad. Your report will be reviewed, and appropriate actions will be taken if it is determined that this ad is in violation of our policy.  <a href="#" class="demojs-btn-viewpolicy"> View policy</a></p>
+                <p>Please provide more details regarding your decision to report this ad. Your report will be reviewed, and appropriate actions will be taken if it is determined that this ad is in violation of our policy.  <button class="btn btn-link font-weight-normal p-0 demojs-btn-viewpolicy"> View policy</button></p>
                 
                 
                 <form>
