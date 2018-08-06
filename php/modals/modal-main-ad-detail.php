@@ -49,7 +49,8 @@
                     </dt>
                     <dd class="col-sm-9"><a href="mailto:thrclark@iu.edu">thrclark@iu.edu</a></dd>
                 </dl>
-                <button class="btn btn-link font-weight-normal p-0 font-italic rbt-ts-14 demojs-btn-reportad">Report this ad</button> </div>
+                <button class="btn btn-link font-weight-normal p-0 font-italic rbt-ts-14 demojs-btn-reportad">Report this ad</button>
+            </div>
             <div class="modal-footer demojs-view-posting">
                 <div class="rbt-button-group">
                     <button class="btn btn-outline-primary favorite" type="button"> <i aria-hidden="true" class="fa fa-star-o"></i> <span class="sr-only">
@@ -66,13 +67,14 @@
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-report-post" style=" display:none">
-                <p>Please provide more details regarding your decision to report this ad. Your report will be reviewed, and appropriate actions will be taken if it is determined that this ad is in violation of our policy.  <button class="btn btn-link font-weight-normal p-0 demojs-btn-viewpolicy"> View policy</button></p>
-                
-                
+                <p>Please provide more details regarding your decision to report this ad. Your report will be reviewed, and appropriate actions will be taken if it is determined that this ad is in violation of our policy.
+                    <button class="btn btn-link font-weight-normal p-0 demojs-btn-viewpolicy"> View policy</button>
+                </p>
                 <form>
                     <div class="form-group">
-                        <label for="exampleFormControlSelect1">Reason for report</label>
+                        <label for="exampleFormControlSelect1">Reason for report <span class="small font-weight-normal font-italic">(required)</span></label>
                         <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Please select:</option>
                             <option>Fraudulent activity</option>
                             <option>Contains offensive material</option>
                             <option>Promotes personal/commercial business</option>
@@ -83,7 +85,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Additional detail</label>
+                        <label for="exampleFormControlTextarea1">Additional detail <span class="small font-weight-normal font-italic">(required)</span></label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                     </div>
                 </form>
