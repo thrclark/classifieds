@@ -31,139 +31,124 @@ $page_title = 'Policy maintenance';
                     </div>
                     <textarea id="richText1"></textarea>
                 </div>
-                
-                
                 <div class="font-weight-bold mb-3 mt-3"> Notification of policy violations </div>
-                
-                
-                
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="stacked1" value="option1" checked>
-                    <label class="form-check-label" for="stacked1"> Do not send notifications for policy violations. </label>
+                    <input class="form-check-input" type="radio" name="notifypolicyviolation" id="notifypolicyviolation1" value="1" checked>
+                    <label class="form-check-label" for="notifypolicyviolation1"> Do not send notifications for policy violations. </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="stacked2" value="option2">
-                    <label class="form-check-label" for="stacked2"> Use a single policy violation message for all violation types. </label>
+                    <input class="form-check-input" type="radio" name="notifypolicyviolation" id="notifypolicyviolation2" value="2">
+                    <label class="form-check-label" for="notifypolicyviolation2"> Use a single policy violation message for all violation types. </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="stacked3" value="option3">
-                    <label class="form-check-label" for="stacked3"> Specify individual violation types and messages. </label>
+                    <input class="form-check-input" type="radio" name="notifypolicyviolation" id="notifypolicyviolation3" value="3">
+                    <label class="form-check-label" for="notifypolicyviolation3"> Specify individual violation types and messages. </label>
                 </div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <div class="form-group">
+              
+                <div class="form-group desc" id="asdf2" style="display:none">
                     <label for="exampleFormControlTextarea1">Default policy violation message</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <table class="table rbt-table-responsive rbt-table-actions">
-                    <thead>
-                        <tr>
-                            <th><message key="admin.field.name">Policy violation type</message></th>
-                            <th><message key="admin.market.field.shortName">Message sent to user</message></th>
-                            <th><span class="sr-only">
-                                <message key="admin.header.actions">Actions</message>
-                                </span></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!---->
-                        <tr>
-                            <td><b class="rbt-table-responsive-cell-label">
-                                <message key="admin.field.name">Name</message>
-                                </b> <span class="rbt-table-responsive-cell-content"> Contains offensive material </span></td>
-                            <td><b class="rbt-table-responsive-cell-label">
-                                <message key="admin.market.field.shortName">Short Name</message>
-                                </b> <span class="rbt-table-responsive-cell-content "> We have received a complaint regarding your use of Classifieds for posting offensive material. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons. </span></td>
-                            <td><div class="dropdown">
-                                    <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Select</span></button>
-                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="admin-campuses-edit.php">Edit</a> <a class="dropdown-item" href="#">Delete</a></div>
-                                </div></td>
-                        </tr>
-                        <tr>
-                            <td><b class="rbt-table-responsive-cell-label">
-                                <message key="admin.field.name">Name</message>
-                                </b> <span class="rbt-table-responsive-cell-content"> Fake ad </span></td>
-                            <td><b class="rbt-table-responsive-cell-label">
-                                <message key="admin.market.field.shortName">Short Name</message>
-                                </b> <span class="rbt-table-responsive-cell-content "> We have received a complaint regarding your use of Classifieds for posting a fake/spoof ad. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons. </span></td>
-                            <td><div class="dropdown">
-                                    <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Select</span></button>
-                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="admin-campuses-edit.php">Edit</a> <a class="dropdown-item" href="#">Delete</a></div>
-                                </div></td>
-                        </tr>
-                        <tr>
-                            <td><b class="rbt-table-responsive-cell-label">
-                                <message key="admin.field.name">Name</message>
-                                </b> <span class="rbt-table-responsive-cell-content"> Fraudulent activity </span></td>
-                            <td><b class="rbt-table-responsive-cell-label">
-                                <message key="admin.market.field.shortName">Short Name</message>
-                                </b> <span class="rbt-table-responsive-cell-content "> We have received a complaint regarding your use of Classifieds for fraudulent activity. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons. </span></td>
-                            <td><div class="dropdown">
-                                    <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Select</span> </button>
-                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="admin-campuses-edit.php">Edit</a> <a class="dropdown-item" href="#">Delete</a> </div>
-                                </div></td>
-                        </tr>
-                        <tr>
-                            <td><b class="rbt-table-responsive-cell-label">
-                                <message key="admin.field.name">Name</message>
-                                </b> <span class="rbt-table-responsive-cell-content"> Promotes personal/commercial business </span></td>
-                            <td><b class="rbt-table-responsive-cell-label">
-                                <message key="admin.market.field.shortName">Short Name</message>
-                                </b> <span class="rbt-table-responsive-cell-content "> We have received a complaint regarding your use of Classifieds for promotion of a personal/commercial business. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons. </span></td>
-                            <td><div class="dropdown">
-                                    <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Select</span></button>
-                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="admin-campuses-edit.php">Edit</a> <a class="dropdown-item" href="#">Delete</a></div>
-                                </div></td>
-                        </tr>
-                        <tr>
-                            <td><b class="rbt-table-responsive-cell-label">
-                                <message key="admin.field.name">Name</message>
-                                </b> <span class="rbt-table-responsive-cell-content"> Promotes a political/social agenda </span></td>
-                            <td><b class="rbt-table-responsive-cell-label">
-                                <message key="admin.market.field.shortName">Short Name</message>
-                                </b> <span class="rbt-table-responsive-cell-content "> We have received a complaint regarding your use of Classifieds for promoting a political/social agenda. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons. </span></td>
-                            <td><div class="dropdown">
-                                    <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Select</span></button>
-                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="admin-campuses-edit.php">Edit</a> <a class="dropdown-item" href="#">Delete</a></div>
-                                </div></td>
-                        </tr>
-                        <tr>
-                            <td><b class="rbt-table-responsive-cell-label">
-                                <message key="admin.field.name">Name</message>
-                                </b> <span class="rbt-table-responsive-cell-content"> Selling IU parking permit </span></td>
-                            <td><b class="rbt-table-responsive-cell-label">
-                                <message key="admin.market.field.shortName">Short Name</message>
-                                </b> <span class="rbt-table-responsive-cell-content "> Your IU Classifieds ad(s) for the buying or selling of IU parking permits violates IU policy.  IU Permits are property of the University. Please be aware that your ad(s) have been removed, and future violations may result in revoked access to IU Classifieds. We encourage you to continue using Classifieds for appropriate reasons. </span></td>
-                            <td><div class="dropdown">
-                                    <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Select</span></button>
-                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="admin-campuses-edit.php">Edit</a> <a class="dropdown-item" href="#">Delete</a></div>
-                                </div></td>
-                        </tr>
-                        <tr>
-                            <td><b class="rbt-table-responsive-cell-label">
-                                <message key="admin.field.name">Name</message>
-                                </b> <span class="rbt-table-responsive-cell-content"> Other </span></td>
-                            <td><b class="rbt-table-responsive-cell-label">
-                                <message key="admin.market.field.shortName">Short Name</message>
-                                </b></td>
-                            <td><div class="dropdown">
-                                    <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Select</span></button>
-                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="admin-campuses-edit.php">Edit</a> <a class="dropdown-item" href="#">Delete</a></div>
-                                </div></td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="desc" id="asdf3" style="display:none">
+                    <table class="table rbt-table-responsive rbt-table-actions">
+                        <thead>
+                            <tr>
+                                <th><message key="admin.field.name">Policy violation type</message></th>
+                                <th><message key="admin.market.field.shortName">Message sent to user</message></th>
+                                <th><span class="sr-only">
+                                    <message key="admin.header.actions">Actions</message>
+                                    </span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!---->
+                            <tr>
+                                <td><b class="rbt-table-responsive-cell-label">
+                                    <message key="admin.field.name">Name</message>
+                                    </b> <span class="rbt-table-responsive-cell-content"> Contains offensive material </span></td>
+                                <td><b class="rbt-table-responsive-cell-label">
+                                    <message key="admin.market.field.shortName">Short Name</message>
+                                    </b> <span class="rbt-table-responsive-cell-content "> We have received a complaint regarding your use of Classifieds for posting offensive material. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons. </span></td>
+                                <td><div class="dropdown">
+                                        <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Select</span></button>
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="admin-campuses-edit.php">Edit</a> <a class="dropdown-item" href="#">Delete</a></div>
+                                    </div></td>
+                            </tr>
+                            <tr>
+                                <td><b class="rbt-table-responsive-cell-label">
+                                    <message key="admin.field.name">Name</message>
+                                    </b> <span class="rbt-table-responsive-cell-content"> Fake ad </span></td>
+                                <td><b class="rbt-table-responsive-cell-label">
+                                    <message key="admin.market.field.shortName">Short Name</message>
+                                    </b> <span class="rbt-table-responsive-cell-content "> We have received a complaint regarding your use of Classifieds for posting a fake/spoof ad. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons. </span></td>
+                                <td><div class="dropdown">
+                                        <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Select</span></button>
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="admin-campuses-edit.php">Edit</a> <a class="dropdown-item" href="#">Delete</a></div>
+                                    </div></td>
+                            </tr>
+                            <tr>
+                                <td><b class="rbt-table-responsive-cell-label">
+                                    <message key="admin.field.name">Name</message>
+                                    </b> <span class="rbt-table-responsive-cell-content"> Fraudulent activity </span></td>
+                                <td><b class="rbt-table-responsive-cell-label">
+                                    <message key="admin.market.field.shortName">Short Name</message>
+                                    </b> <span class="rbt-table-responsive-cell-content "> We have received a complaint regarding your use of Classifieds for fraudulent activity. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons. </span></td>
+                                <td><div class="dropdown">
+                                        <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Select</span> </button>
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="admin-campuses-edit.php">Edit</a> <a class="dropdown-item" href="#">Delete</a> </div>
+                                    </div></td>
+                            </tr>
+                            <tr>
+                                <td><b class="rbt-table-responsive-cell-label">
+                                    <message key="admin.field.name">Name</message>
+                                    </b> <span class="rbt-table-responsive-cell-content"> Promotes personal/commercial business </span></td>
+                                <td><b class="rbt-table-responsive-cell-label">
+                                    <message key="admin.market.field.shortName">Short Name</message>
+                                    </b> <span class="rbt-table-responsive-cell-content "> We have received a complaint regarding your use of Classifieds for promotion of a personal/commercial business. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons. </span></td>
+                                <td><div class="dropdown">
+                                        <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Select</span></button>
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="admin-campuses-edit.php">Edit</a> <a class="dropdown-item" href="#">Delete</a></div>
+                                    </div></td>
+                            </tr>
+                            <tr>
+                                <td><b class="rbt-table-responsive-cell-label">
+                                    <message key="admin.field.name">Name</message>
+                                    </b> <span class="rbt-table-responsive-cell-content"> Promotes a political/social agenda </span></td>
+                                <td><b class="rbt-table-responsive-cell-label">
+                                    <message key="admin.market.field.shortName">Short Name</message>
+                                    </b> <span class="rbt-table-responsive-cell-content "> We have received a complaint regarding your use of Classifieds for promoting a political/social agenda. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons. </span></td>
+                                <td><div class="dropdown">
+                                        <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Select</span></button>
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="admin-campuses-edit.php">Edit</a> <a class="dropdown-item" href="#">Delete</a></div>
+                                    </div></td>
+                            </tr>
+                            <tr>
+                                <td><b class="rbt-table-responsive-cell-label">
+                                    <message key="admin.field.name">Name</message>
+                                    </b> <span class="rbt-table-responsive-cell-content"> Selling IU parking permit </span></td>
+                                <td><b class="rbt-table-responsive-cell-label">
+                                    <message key="admin.market.field.shortName">Short Name</message>
+                                    </b> <span class="rbt-table-responsive-cell-content "> Your IU Classifieds ad(s) for the buying or selling of IU parking permits violates IU policy.  IU Permits are property of the University. Please be aware that your ad(s) have been removed, and future violations may result in revoked access to IU Classifieds. We encourage you to continue using Classifieds for appropriate reasons. </span></td>
+                                <td><div class="dropdown">
+                                        <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Select</span></button>
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="admin-campuses-edit.php">Edit</a> <a class="dropdown-item" href="#">Delete</a></div>
+                                    </div></td>
+                            </tr>
+                            <tr>
+                                <td><b class="rbt-table-responsive-cell-label">
+                                    <message key="admin.field.name">Name</message>
+                                    </b> <span class="rbt-table-responsive-cell-content"> Other </span></td>
+                                <td><b class="rbt-table-responsive-cell-label">
+                                    <message key="admin.market.field.shortName">Short Name</message>
+                                    </b></td>
+                                <td><div class="dropdown">
+                                        <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Select</span></button>
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="admin-campuses-edit.php">Edit</a> <a class="dropdown-item" href="#">Delete</a></div>
+                                    </div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
@@ -172,6 +157,17 @@ $page_title = 'Policy maintenance';
 <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script> 
 <script>
 var simplemde = new SimpleMDE({ element: $("#richText1")[0] });
+</script> 
+<script>
+$(document).ready(function() {
+    $("input[name$='notifypolicyviolation']").click(function() {
+        var test = $(this).val();
+
+        $("div.desc").hide();
+        $("#asdf" + test).show();
+    });
+});
+
 </script>
 </body>
 </html>
