@@ -257,6 +257,25 @@
 
 
 
+<!--Main view reported ad detail-->
+<script>
+    $(document).ready(function() {
+        $("#post_detail_reported .demojs-btn-reportreportedad").click(function() {
+            $("#post_detail_reported .demojs-view-reportedposting").hide();
+            $("#post_detail_reported .demojs-youreported-post").show();
+        });
+		
+		 $("#post_detail_reported .demojs-btn-returntoad").click(function() {
+            $("#post_detail_reported .demojs-view-reportedposting").show();
+            $("#post_detail_reported .demojs-youreported-post").hide();
+        });
+    });
+</script>
+
+
+
+
+
 
 
 <!--Admin view reported ad detail-->	

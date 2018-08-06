@@ -21,7 +21,7 @@
             </div>
         </div>
     </div>
-    <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
+    <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail_reported" href="#">
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image none"> <i aria-hidden="true" class="fa fa-asterisk"></i> <span class="sr-only">asdf</span> </div>

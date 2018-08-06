@@ -32,6 +32,7 @@ $page_title = 'All ads';
             </div>
         </div>
         <?php include('modals/modal-main-ad-detail.php') ?>
+        <?php include('modals/modal-main-ad-detail-reported.php') ?>
     </section>
     <?php include('includes/main-footer-menu.php') ?>
 </div>
