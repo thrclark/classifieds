@@ -72,7 +72,7 @@
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-youreported-post" style=" display:none">
-                <p>You reported this ad on 08/02/2018. Your report has been received, and is currently under review.
+                <p>You submitted a report for this ad on 08/02/2018.
                   
                 </p>
               
