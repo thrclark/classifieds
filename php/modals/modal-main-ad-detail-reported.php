@@ -62,38 +62,19 @@
                         <message key="main.details.share">Share this Ad</message>
                         </span> </a> </div>
             </div>
-            
-            
-            
-            
-            
-               <div class="modal-header demojs-youreported-post" style=" display:none">
+            <div class="modal-header demojs-youreported-post" style=" display:none">
                 <h2 class="modal-title" id="">Report this ad</h2>
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-youreported-post" style=" display:none">
-                <p>You submitted a report for this ad on 08/02/2018.
-                  
-                </p>
-              
+                <p>You submitted a report for this ad on 08/02/2018.  Action will be taken if it is determined that this ad has violated policy. </p>
             </div>
             <div class="modal-footer demojs-youreported-post" style="display:none">
                 <div class="rbt-button-group rbt-button-group-right">
-                  <button class="btn btn-outline-primary demojs-btn-returntoad"> <span class="rbt-icon-chevron-left ml-0"></span> Back</button>
+                    <button class="btn btn-outline-primary demojs-btn-returntoad"> <span class="rbt-icon-chevron-left ml-0"></span> Back</button>
                     <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
                 </div>
             </div>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-         
         </div>
     </div>
 </div>
