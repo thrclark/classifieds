@@ -13,6 +13,8 @@
 	margin-right: auto;
 	vertical-align: middle;
 }
-
-
+.admin-confirm {
+    display: flex;
+    float: right;
+}
 </style>
