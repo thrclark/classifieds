@@ -187,7 +187,7 @@ $page_title = 'Policy maintenance';
 <?php include('includes/admin-footerscripts.php') ?>
 <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script> 
 <script>
-var simplemde = new SimpleMDE({ element: $("#richText1")[0] });
+var simplemde = new SimpleMDE({ status: false, element: $("#richText1")[0] });
 </script> 
 <script>
 $(document).ready(function() {
