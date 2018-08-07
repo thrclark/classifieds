@@ -26,14 +26,17 @@ $page_title = 'Policy maintenance';
                     <label class="control-label" id="urlLabel">
                         <message key="policy"> Policy statement </message>
                     </label>
-                    <div class="ccf-instructional-text" id="urlDirections">
+                    <div class="ccf-instructional-text" id="">
                         <message key="">Use the space below to specify a policy statement which users will be required to abide by when posting ads in this system.</message>
                     </div>
                     <textarea id="richText1"></textarea>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <div class="font-weight-bold mb-3"> Notification of policy violations </div>
+                        <div class="font-weight-bold"> Notification of policy violations </div>
+                        <div class="ccf-instructional-text mb-3" id="">
+                            <message key="">When a user posts an ad that violates terms of the policy statement, an admin may notify the user of the violation. Select the manner in which violation messaging will be managed.</message>
+                        </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="notifypolicyviolation" id="notifypolicyviolation1" value="1" checked>
                             <label class="form-check-label" for="notifypolicyviolation1"> Do not send notifications for policy violations. </label>
@@ -47,44 +50,29 @@ $page_title = 'Policy maintenance';
                             <label class="form-check-label" for="notifypolicyviolation3"> Specify individual violation types and messages. </label>
                         </div>
                     </div>
-                    <div class="col-12 mt-5">
+                    <div class="col-12 mt-3">
                         <div class="form-group desc" id="asdf2" style="display:none">
                             <div class="row">
-                                <div class="col-lg-6"><label for="exampleFormControlTextarea1">Default policy violation message</label>
-                                
-                                
-                                   <div class="ccf-instructional-text" id="">
-                        <message key="">Specify a single policy violation message to be used for all violation types.</message>
-                    </div>
-                    
-                    
-                    
-                    
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea></div>
+                                <div class="col-lg-6">
+                                    <label for="exampleFormControlTextarea1">Default policy violation message</label>
+                                    <div class="ccf-instructional-text" id="">
+                                        <message key="">Specify a single policy violation message to be used for all violation types.</message>
+                                    </div>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
                             </div>
                         </div>
-                        <div class="desc" id="asdf3" style="display:none">
-                        
-                        
-                         <div class="font-weight-bold"> Individual violation types and messages </div>
-                         
-                           <div class="ccf-instructional-text" id="">
-                        <message key="">Specify multiple policy violation types and related messages.</message>
-                    </div>
-                    
-                    
-                    
-                         
-                         
-                         
-                         
+                        <div class="desc mb-5" id="asdf3" style="display:none">
+                            <div class="font-weight-bold"> Individual violation types and messages </div>
+                            <div class="ccf-instructional-text" id="">
+                                <message key="">Specify multiple policy violation types and related messages.</message>
+                            </div>
                             <table class="table rbt-table-responsive rbt-table-actions mt-3">
                                 <thead>
                                     <tr>
                                         <th><message key="admin.field.name">Policy violation type</message></th>
                                         <th><message key="admin.market.field.shortName">Message sent to user</message></th>
-                                        <th> <a href="admin-policyreason-edit.php" class="btn btn-sm btn-outline-primary">Add</a>
-                                            <span class="sr-only">
+                                        <th> <a href="admin-policyreason-edit.php" class="btn btn-sm btn-outline-primary">Add</a> <span class="sr-only">
                                             <message key="admin.header.actions">Actions</message>
                                             </span></th>
                                     </tr>
@@ -178,7 +166,18 @@ $page_title = 'Policy maintenance';
                                 </tbody>
                             </table>
                         </div>
+                               <div class="rbt-button-group mb-5">
+                                    <button class="btn btn-primary" type="submit">
+                                    <message key="global.buttons.save">Save</message>
+                                    </button>
+                                    <a class="btn btn-outline-primary" routerlink="/categories" href="">
+                                        <message key="global.buttons.cancel">Cancel</message>
+                                    </a> </div>
+                                    
                     </div>
+                    
+             
+                                    
                 </div>
             </div>
         </div>
