@@ -62,9 +62,9 @@ $page_title = 'Policy violation reason';
                                 </div>
                             
                                 <div class="rbt-button-group">
-                                    <button class="btn btn-primary" type="submit">
-                                    <message key="global.buttons.save">Save</message>
-                                    </button>
+                                    <a class="btn btn-primary" routerlink="" href="admin-policymaintenance.php">
+                                    <message key="global.buttons.save">Add to list</message>
+                                    </a>
                                     <a class="btn btn-outline-primary" routerlink="" href="admin-policymaintenance.php">
                                         <message key="global.buttons.cancel">Cancel</message>
                                     </a> </div>

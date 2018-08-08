@@ -39,7 +39,7 @@ $page_title = 'Policy maintenance';
                     <div class="col-12">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="checkbox" id="setupmessages_toggle" value="option1">
-                            <label class="form-check-label" for="setupmessages_toggle">Message user when a post violates terms of the policy</label>
+                            <label class="form-check-label" for="setupmessages_toggle">Enable admin messaging to users who violate terms of policy.</label>
                         </div>
                     </div>
                     <div class="col-12 mt-5">
