@@ -159,17 +159,7 @@ $page_title = 'Policy maintenance';
                             </span> </div>
                     </div>
                 </fieldset>
-                <div class="row">
-                    <div class="col-12 mt-5">
-                        <div class="rbt-button-group mb-5">
-                            <button class="btn btn-primary" type="submit">
-                            <message key="global.buttons.save">Save</message>
-                            </button>
-                            <a class="btn btn-outline-primary" routerlink="/categories" href="">
-                                <message key="global.buttons.cancel">Cancel</message>
-                            </a> </div>
-                    </div>
-                </div>
+               
             </div>
         </div>
     </div>
