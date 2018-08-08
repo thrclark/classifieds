@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'settings';
-$page_title = 'Policy violation reason';
+$page_title = 'Policy maintenance';
 ?>
 
 
@@ -30,7 +30,7 @@ $page_title = 'Policy violation reason';
                             <form novalidate class="ng-untouched ng-pristine ng-valid">
                                 <div class="form-group">
                                     <label class="control-label" id="nameLabel">
-                                        <message key="admin.field.name">Policy violation reason</message>
+                                        <message key="admin.field.name">Policy violation type</message>
                                     </label>
                                     <div class="ccf-instructional-text" id="nameDirections">
                                         <message key="admin.category.field.name.directions">Specify a label for this policy violation type.</message>
@@ -45,17 +45,13 @@ $page_title = 'Policy violation reason';
                                     </errors>
                                 </div>
                                   <div class="form-group">
-                                    <label class="control-label" id="nameLabel">
+                                    <label class="control-label" for="richText1">
                                         <message key="admin.field.name">Policy violation message</message>
                                     </label>
                                     <div class="ccf-instructional-text" id="nameDirections">
                                         <message key="admin.category.field.name.directions">Specify a message to be sent to the user for this policy violation type.</message>
                                     </div>
-                                    <countdown>
-                                        <div class="rbt-charcount">
-                                            <textarea  rows="5"  aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="name"></textarea>
-                                            <span class="badge badge-success"> 500 </span> </div>
-                                    </countdown>
+                                  <textarea id="richText1"></textarea>
                                     <errors controlname="name"> 
                                         <!----> 
                                     </errors>
@@ -63,7 +59,7 @@ $page_title = 'Policy violation reason';
                             
                                 <div class="rbt-button-group">
                                     <a class="btn btn-primary" routerlink="" href="admin-policymaintenance.php">
-                                    <message key="global.buttons.save">Add to list</message>
+                                    <message key="global.buttons.save">Save</message>
                                     </a>
                                     <a class="btn btn-outline-primary" routerlink="" href="admin-policymaintenance.php">
                                         <message key="global.buttons.cancel">Cancel</message>
@@ -77,38 +73,14 @@ $page_title = 'Policy violation reason';
     </div>
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
+
+
+
+<script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script> 
 <script>
-    
-    
-    // Set icon name
-    $("#iconSelection button").click(function() {
-        $("#iconName").val($(this).text());
-		
-		
-		
-    });
-    // Set icon class
-    $("#iconSelection button i").click(function() {
-        var iconClass = $(this).attr("class");
-        $(".icon-display i").removeClass();
-        $(".icon-display i").addClass(iconClass);
-    });
-    // Filtering function
-    function selectIcon() {
-        var input, filter, iconSelection, button, span, i;
-        input = document.getElementById("selectIcon");
-        filter = input.value.toUpperCase();
-        iconSelection = document.getElementById("iconSelection");
-        button = iconSelection.getElementsByTagName("button");
-        for (i = 0; i < button.length; i++) {
-            span = button[i].getElementsByTagName("span")[0];
-            if (span.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                button[i].style.display = "";
-            } else {
-                button[i].style.display = "none";
-            }
-        }
-    }
+var simplemde = new SimpleMDE({ status: false, element: $("#richText1")[0] });
 </script>
+
+
 </body>
 </html>
