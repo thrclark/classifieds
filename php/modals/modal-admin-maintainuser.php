@@ -1,21 +1,177 @@
 
 <div class="modal fade" id="maintain_user" tabindex="-1" role="dialog" aria-labelledby="maintain_user" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header demojs-view-posting">
                 <h2 class="modal-title" id="exampleModalLabel">Activity for user 'thrclark'</h2>
                 <button type="button" class="close" aria-label="Close" data-dismiss="modal"> <span class="rbt-icon-close"></span> </button>
             </div>
             <div class="modal-body demojs-view-posting">
-            asdf
-               
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="rvb-timeline mt-3">
+                            
+                            
+                       
+                            
+                             
+                               <li>
+                                    <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/10/2018</span> <span>4:33 PM</span></time>
+                                    <div class="rvb-timeline-marker bg-success"></div>
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h2 class="card-title">System access reinstated by admin</h2>
+                                            </div>
+                                            <div class="col-auto"><span class="rbt-icon-ellipsis"></span></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                
+                                
+                                
+                             
+                               <li>
+                                    <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>12:09 PM</span></time>
+                                    <div class="rvb-timeline-marker bg-danger"></div>
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h2 class="card-title">System access revoked by admin</h2>
+                                            </div>
+                                            <div class="col-auto"><span class="rbt-icon-ellipsis"></span></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                            
+                            
+                               <li>
+                                    <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>12:09 PM</span></time>
+                                    <div class="rvb-timeline-marker bg-danger"></div>
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h2 class="card-title">Ad deactivated by admin</h2>
+                                            </div>
+                                            <div class="col-auto"><span class="rbt-icon-ellipsis"></span></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                
+                                
+                                
+                            <!--
+                                  <li>
+                                    <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>11:51 AM</span></time>
+                                    <div class="rvb-timeline-marker bg-danger"></div>
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h2 class="card-title">User's ad reported</h2>
+                                            </div>
+                                            <div class="col-auto"><span class="rbt-icon-ellipsis"></span></div>
+                                        </div>
+                                    </div>
+                                </li>-->
+                               
+                               
+                                     <li>
+                                    <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>10:04 AM</span></time>
+                                    <div class="rvb-timeline-marker bg-success"></div>
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h2 class="card-title">Ad verified, accepted by admin</h2>
+                                            </div>
+                                            <div class="col-auto"><span class="rbt-icon-ellipsis"></span></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                               
+                               
+                                     <li>
+                                    <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>09:38 AM</span></time>
+                                    <div class="rvb-timeline-marker bg-danger"></div>
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h2 class="card-title">Ad reported by 'jcoltrane'</h2>
+                                            </div>
+                                            <div class="col-auto"><span class="rbt-icon-ellipsis"></span></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                
+                                
+                                   <li>
+                                    <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>08:16 AM</span></time>
+                                    <div class="rvb-timeline-marker bg-danger"></div>
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h2 class="card-title">Ad reported by 'sostitt'</h2>
+                                            </div>
+                                            <div class="col-auto"><span class="rbt-icon-ellipsis"></span></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                
+                                 
+                                
+                                <li>
+                                    <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>03:45 AM</span></time>
+                                    <div class="rvb-timeline-marker bg-success"></div>
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h2 class="card-title">Ad posted</h2>
+                                            </div>
+                                            <div class="col-auto"><span class="rbt-icon-ellipsis"></span></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                
+                                 <li>
+                                    <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>03:42 AM</span></time>
+                                    <div class="rvb-timeline-marker bg-success"></div>
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h2 class="card-title">Ad posted</h2>
+                                            </div>
+                                            <div class="col-auto"><span class="rbt-icon-ellipsis"></span></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                              
+                                
+                                
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="modal-footer demojs-view-posting">
                 <div class="rbt-button-group">
-                    <button class="btn btn-outline-primary favorite" type="button">  <span aria-hidden="true">
-                    <message key="">Button</message>
-                    </span> </button>
-                  </div>
+                    <button class="btn btn-primary" type="button"> Create timeline entry... </button>
+                    <button class="btn btn-outline-primary" type="button"> Close </button>
+                </div>
             </div>
             <div class="modal-header demojs-report-post" style=" display:none">
                 <h2 class="modal-title" id="exampleModalLabel">Report this ad</h2>
