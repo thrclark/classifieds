@@ -11867,6 +11867,9 @@ body .main-content-section {
   font-size: 16px;
 }
 
+.main-content {
+  min-height: 200px;
+}
 .main-content .main-content-section .section-head .ccf-clearsearch {
   padding: 0px;
   font-weight: normal;
