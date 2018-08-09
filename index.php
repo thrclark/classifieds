@@ -44,6 +44,7 @@ $page_title = '';
                 <li><a href="php/main-music.php" target="_blank">Category View</a> </li>
                 <li><a href="php/main-postad-has-errors.php" target="_blank">Post Ad - errors </a> </li>
                 <li><a href="php/main-postad-success.php" target="_blank">Post Ad - success </a> </li>
+                <li><a href="php/main-no-page.php" target="_blank">Unexpected error message </a> </li>
             </ul>
         </div>
         <div class="col">
