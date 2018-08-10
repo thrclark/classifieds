@@ -37,7 +37,7 @@
 <a <?php if ($page_title == 'Categories') { echo 'class="dropdown-item active"'; } ?> href="admin-categories.php" class="dropdown-item">Categories</a> 
 <a <?php if ($page_title == 'Markets') { echo 'class="dropdown-item active"'; } ?> href="admin-campuses.php" class="dropdown-item">Campuses</a> 
 
-<a <?php if ($page_title == 'Policy maintenance') { echo 'class="dropdown-item active"'; } ?> href="admin-policymaintenance.php" class="dropdown-item">Policy maintenance</a> 
+<a <?php if ($page_title == 'Policy') { echo 'class="dropdown-item active"'; } ?> href="admin-policymaintenance.php" class="dropdown-item">Policy</a> 
 
 
 
@@ -108,7 +108,7 @@
 
 
   <li class="list-group-item"> 
-<a href="admin-policymaintenance.php">Policy maintenance</a> </li>
+<a href="admin-policymaintenance.php">Policy</a> </li>
 
 
             <li class="list-group-item"> 
