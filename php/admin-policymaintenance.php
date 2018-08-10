@@ -18,7 +18,7 @@ $page_title = 'Policy';
         <div class="col">
             <h1> <?php echo $page_title; ?></h1>
         </div>
-    </div>s
+    </div>
     <div class="row">
         <div class="col-12">
             <div class="main-content" id="main-content">
