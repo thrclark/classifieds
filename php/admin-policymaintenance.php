@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'settings';
-$page_title = 'Policy maintenance';
+$page_title = 'Policy';
 ?>
 
 <!DOCTYPE html>
@@ -18,12 +18,12 @@ $page_title = 'Policy maintenance';
         <div class="col">
             <h1> <?php echo $page_title; ?></h1>
         </div>
-    </div>
+    </div>s
     <div class="row">
         <div class="col-12">
             <div class="main-content" id="main-content">
                 <fieldset>
-                    <legend>Policy</legend>
+                    <legend>Policy statement</legend>
                     
                    <p class="mt-0"> Specify a policy statement which users will be required to abide by when posting ads in this system.</p>
                     
