@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'settings';
-$page_title = 'Policy maintenance';
+$page_title = 'Policy';
 ?>
 
 

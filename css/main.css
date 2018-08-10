@@ -11568,6 +11568,127 @@ span.CodeMirror-selectedtext {
   background: rgba(255, 0, 0, 0.15);
 }
 
+.rvb-timeline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+.rvb-timeline:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #eee;
+  left: 20%;
+  margin-left: -6px;
+}
+.rvb-timeline > li {
+  position: relative;
+}
+.rvb-timeline > li .rvb-timeline-timestamp {
+  display: block;
+  width: 23%;
+  padding-right: 70px;
+  position: absolute;
+  top: 11px;
+  line-height: 1.5;
+}
+.rvb-timeline > li .rvb-timeline-timestamp span {
+  display: block;
+  text-align: right;
+}
+.rvb-timeline > li .rvb-timeline-timestamp span:last-child {
+  font-style: italic;
+  font-size: 12px;
+}
+.rvb-timeline > li .card {
+  margin: 0 0 15px 24%;
+  background: #f0f1f3;
+  padding: 1.2em;
+  position: relative;
+  border-radius: 5px;
+  line-height: 1.5;
+  background: #fafafa;
+}
+.rvb-timeline > li .card .card-title {
+  margin-bottom: 0rem !important;
+  margin-top: 0rem !important;
+  font-size: 1.25rem !important;
+}
+.rvb-timeline > li .card:after {
+  right: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-right-color: #fafafa;
+  border-width: 16px;
+  top: 10px;
+}
+.rvb-timeline > li .rvb-timeline-marker {
+  width: 12px;
+  height: 12px;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 1.4em;
+  line-height: 40px;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  color: #fff;
+  background: #46a4da;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px #f5f5f6;
+  text-align: center;
+  left: 21%;
+  top: 18px;
+  margin: 0 0 0 -20px;
+}
+
+@media (max-width: 767.98px) {
+  .rvb-timeline:before {
+    display: none;
+  }
+
+  .rvb-timeline > li .rvb-timeline-timestamp {
+    width: 100%;
+    position: relative;
+    padding: 0 0 20px 0;
+  }
+
+  .rvb-timeline > li .rvb-timeline-timestamp span {
+    text-align: left;
+  }
+
+  .rvb-timeline > li .card {
+    margin: 0 0 30px 0;
+    padding: 1em;
+    font-weight: 400;
+    font-size: 95%;
+  }
+
+  .rvb-timeline > li .card:after {
+    right: auto;
+    left: 20px;
+    border-right-color: transparent;
+    border-bottom-color: #f5f5f6;
+    top: -20px;
+    display: none;
+  }
+
+  .rvb-timeline > li .rvb-timeline-marker {
+    position: relative;
+    float: right;
+    left: auto;
+    margin: -64px 5px 0 0px;
+  }
+}
 .modal-body {
   padding-top: 0.5rem;
 }

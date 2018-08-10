@@ -27,7 +27,7 @@
 
 
 
-<a <?php if ($page_title == 'Restricted users') { echo 'class="dropdown-item active"'; } ?> href="admin-restrictedusers.php" class="dropdown-item">Restricted users</a> 
+<a <?php if ($page_title == 'Restricted users') { echo 'class="dropdown-item active"'; } ?> href="admin-usermaintenance.php" class="dropdown-item">User maintenance</a> 
 <a <?php if ($page_title == 'Reindex ad') { echo 'class="dropdown-item active"'; } ?> href="admin-reindexad.php" class="dropdown-item">Reindex ad</a> </div>
                             </li>
                             <li class="nav-item dropdown"> 
@@ -37,7 +37,7 @@
 <a <?php if ($page_title == 'Categories') { echo 'class="dropdown-item active"'; } ?> href="admin-categories.php" class="dropdown-item">Categories</a> 
 <a <?php if ($page_title == 'Markets') { echo 'class="dropdown-item active"'; } ?> href="admin-campuses.php" class="dropdown-item">Campuses</a> 
 
-<a <?php if ($page_title == 'Policy maintenance') { echo 'class="dropdown-item active"'; } ?> href="admin-policymaintenance.php" class="dropdown-item">Policy maintenance</a> 
+<a <?php if ($page_title == 'Policy') { echo 'class="dropdown-item active"'; } ?> href="admin-policymaintenance.php" class="dropdown-item">Policy</a> 
 
 
 
@@ -91,7 +91,7 @@
 
 
             <li class="list-group-item"> 
-<a href="admin-restrictedusers.php">Restricted users</a> </li>
+<a href="admin-usermaintenance.php">User maintenance</a> </li>
             <li class="list-group-item"> 
 <a href="admin-reindexad.php">Reindex ad</a> </li>
         </ul>
@@ -108,7 +108,7 @@
 
 
   <li class="list-group-item"> 
-<a href="admin-policymaintenance.php">Policy maintenance</a> </li>
+<a href="admin-policymaintenance.php">Policy</a> </li>
 
 
             <li class="list-group-item"> 

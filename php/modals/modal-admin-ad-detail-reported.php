@@ -246,16 +246,33 @@
                                     <input class="form-check-input" type="checkbox" value="" id="otherad4">
                                     <label class="form-check-label" for="otherad4"> Math-M211 and M212 bo0k <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </label>
                                 </div>
-                                <!-- <div class="font-weight-bold mb-1 mt-3">Log an infraction for 'jlancer'? </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="loginfraction">
-                                <label class="form-check-label" for="loginfraction"> Log infraction for '<span class="demojs-reasonvalue1">Parking permit violation</span>'. </label>
-                            </div>-->
+                               
+                               
+                               
+                               
+                               
+                               
+                               
                                 <div class="font-weight-bold mb-1 mt-3">Revoke system access for 'jlancer'? <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="Infractions for 'jlancer'" data-content="<div class='border-bottom'>Fraudulent activity</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Selling IU parking permit</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>">(3 previous infractions)</a></div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="revokeaccess1">
                                     <label class="form-check-label" for="revokeaccess1"> Yes, revoke access.</label>
                                 </div>
+                                
+                                
+                                
+                                
+                               
+                                <div class="form-group">
+        <label for="internalnotes">Admin internal notes</label>
+        <textarea class="form-control" id="internalnotes" rows="5"></textarea>
+    </div>
+                               
+                               
+                               
+                               
+                               
+                               
                                 <div class="font-weight-bold mb-1 mt-3">Send a message to 'jlancer'?</div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="sendusermessage_toggle" checked>
@@ -383,7 +400,7 @@
                 <li>An infraction was logged for user 'jlancer' for 'Fraudulent activity'.</li>
                 <li>System access was revoked for user 'jlancer'.</li>
             </ul>
-            <p>You may review/modify actions taken against this user in <a href="admin-restrictedusers.php">User management</a>. </p>
+            <p>You may review/modify actions taken against this user in <a href="admin-usermaintenance.php">User management</a>. </p>
         </div>
         <div class="modal-footer demojs-admin-confirm-addeactmessagesent" style="display:none">
             <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
