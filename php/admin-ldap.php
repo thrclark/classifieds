@@ -16,14 +16,14 @@ $page_title = 'LDAP configuration';
 <div class="container pt-3">
     <div class="row mb-3">
         <div class="col-12">
-            <div class="main-content" id="main-content">
+            <main class="main-content" id="main-content">
                 <h1> <?php echo $page_title; ?></h1>
-            </div>
+            </main>
         </div>
     </div>
     <div class="row">
         <div class="col-12">
-            <div class="main-content">
+            <main class="main-content">
                 <router-outlet></router-outlet>
                 <ng-component>
                     <section>
@@ -128,7 +128,7 @@ $page_title = 'LDAP configuration';
                         </div>
                     </section>
                 </ng-component>
-            </div>
+            </main>
         </div>
     </div>
 </div>

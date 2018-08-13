@@ -16,7 +16,7 @@ $page_title = 'API documentation';
 <div class="container pt-3">
     <div class="row">
         <div class="col-12">
-            <div class="main-content">
+            <main class="main-content">
                 <router-outlet></router-outlet>
                 <ng-component>
                     <section>
@@ -32,7 +32,7 @@ $page_title = 'API documentation';
                             <message key="admin.documentation.version">Version 1</message>
                         </a> </section>
                 </ng-component>
-            </div>
+            </main>
         </div>
     </div>
 </div>

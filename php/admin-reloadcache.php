@@ -16,7 +16,7 @@ $page_title = 'Reload cache';
 <div class="container pt-3">
     <div class="row">
         <div class="col-12">
-            <div class="main-content">
+            <main class="main-content">
                 <router-outlet></router-outlet>
                 <ng-component>
                     <div class="row mb-3 no-gutters align-items-center">
@@ -41,7 +41,7 @@ $page_title = 'Reload cache';
                         </ul>
                     </div>
                 </ng-component>
-            </div>
+            </main>
         </div>
     </div>
 </div>
