@@ -16,7 +16,7 @@ $page_title = 'Restricted users';
 <div class="container pt-3">
     <div class="row">
         <div class="col-12">
-            <div class="main-content" id="main-content">
+            <main class="main-content" id="main-content">
                 <div class="doc-header mb-3">
                     <div class="row">
                         <div class="col doc-title">
@@ -73,7 +73,7 @@ $page_title = 'Restricted users';
                         </tr>
                     </tbody>
                 </table>
-            </div>
+            </main>
         </div>
     </div>
 </div>

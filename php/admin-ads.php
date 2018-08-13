@@ -15,7 +15,7 @@ $page_title = 'Ads';
 <div class="container pt-3">
     <div class="form-row">
         <div class="col-12">
-            <div class="main-content" id="main-content">
+            <main class="main-content" id="main-content">
                 <div class="row no-gutters mb-3 justify-content-between align-items-center">
                     <div class="col-12 col-md-6">
                         <h1> <?php echo $page_title; ?></h1>
@@ -454,7 +454,7 @@ $page_title = 'Ads';
                     </table>
                     <?php include('includes/all-pagination.php') ?>
                 </div>
-            </div>
+            </main>
         </div>
     </div>
 </div>

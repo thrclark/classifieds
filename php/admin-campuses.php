@@ -26,7 +26,7 @@ $page_title = 'Campuses';
     </div>
     <div class="row">
         <div class="col-12">
-            <div class="main-content" id="main-content"> </div>
+            <main class="main-content" id="main-content"> </main>
         </div>
     </div>
     <table class="table rbt-table-responsive rbt-table-actions">

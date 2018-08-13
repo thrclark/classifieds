@@ -15,26 +15,17 @@ $page_title = 'Reported ads';
 <div class="container pt-3">
     <div class="form-row">
         <div class="col-12">
-            <div class="main-content" id="main-content">
+            <main class="main-content" id="main-content">
                 <div class="row no-gutters mb-3 justify-content-between align-items-center">
                     <div class="col">
                         <h1> <?php echo $page_title; ?></h1>
                     </div>
-                    
-                    
                     <div class="col-auto">
-                    
-                    <div class="form-check">
-    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-    <label class="form-check-label" for="defaultCheck1">Unresolved only </label>
-</div>
-
-</div>
-
-
-
-
-
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">Unresolved only </label>
+                        </div>
+                    </div>
                 </div>
                 <div class="ccf-table-responsive-container">
                     <table class="table rbt-table-responsive rbt-table-actions">
@@ -114,7 +105,7 @@ $page_title = 'Reported ads';
                         </tbody>
                     </table>
                 </div>
-            </div>
+            </main>
         </div>
     </div>
 </div>

@@ -14,7 +14,7 @@ $page_title = 'Campuses';
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
-    <div class="main-content">
+    <main class="main-content">
         <router-outlet></router-outlet>
         <ng-component>
             <div class="row mb-3 no-gutters align-items-center">
@@ -107,7 +107,7 @@ $page_title = 'Campuses';
                 </div>
             </div>
         </ng-component>
-    </div>
+    </main>
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
 </body>
