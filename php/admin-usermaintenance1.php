@@ -24,7 +24,7 @@ $page_title = 'User maintenance';
                     <div class="col-auto pr-4 border-right">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked="">
-                            <label class="form-check-label" for="defaultCheck1">Reported/revoked users only</label>
+                            <label class="form-check-label" for="defaultCheck1">Revoked users only</label>
                         </div>
                     </div>
                     <div class="col pl-4">
