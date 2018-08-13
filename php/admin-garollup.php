@@ -16,7 +16,7 @@ $page_title = 'Google Analytics Rollup';
 <div class="container pt-3">
     <div class="row">
         <div class="col-12">
-            <div class="main-content">
+            <main class="main-content">
                 <router-outlet></router-outlet>
                 <ng-component>
                     <section>
@@ -71,7 +71,7 @@ $page_title = 'Google Analytics Rollup';
                         </form>
                     </section>
                 </ng-component>
-            </div>
+            </main>
         </div>
     </div>
 </div>

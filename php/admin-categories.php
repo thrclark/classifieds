@@ -16,7 +16,7 @@ $page_title = 'Categories';
 <div class="container pt-3">
     <div class="row">
         <div class="col-12">
-            <div class="main-content" id="main-content">
+            <main class="main-content" id="main-content">
                 <div class="row mb-3 justify-content-between align-items-center">
                     <div class="col">
                         <h1> <?php echo $page_title; ?></h1>
@@ -138,7 +138,7 @@ $page_title = 'Categories';
                         </tr>
                     </tbody>
                 </table>
-            </div>
+            </main>
         </div>
     </div>
 </div>

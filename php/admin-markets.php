@@ -17,9 +17,9 @@ $page_title = 'Markets';
     <div class="row">
         
         <div class="col-12">
-            <div class="main-content" id="main-content">
+            <main class="main-content" id="main-content">
                 <h1> <?php echo $page_title; ?></h1>
-            </div>
+            </main>
         </div>
     </div>
 </div>
