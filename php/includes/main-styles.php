@@ -15,4 +15,23 @@
 }
 
 
+.ccf-scrollmenu{
+    white-space: nowrap;
+    padding-left: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ccf-scrollmenu .dropdown{
+	display: inline-block;
+}
+.ccf-scrollmenu .dropdown button{
+	padding: 10px;
+}
+.ccf-scrollmenu .dropdown .dropdown-menu.show {
+    overflow: auto;
+    overflow-x: hidden;
+    z-index: 2;
+}
+
+
 </style>
