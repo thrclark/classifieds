@@ -8616,7 +8616,7 @@ button:disabled.rbt-btn-progress {
   border-right: none;
   border-left: none;
   display: inline-block;
-  content: "";
+  content: "";
   font-family: rbt-fonts;
   font-style: normal;
   font-weight: normal;
@@ -8627,7 +8627,7 @@ button:disabled.rbt-btn-progress {
   right: 20px;
 }
 .rbt-drawer .list-group .rbt-collapsable > a.collapsed:before, .rbt-drawer .ccf-mobile-categories .rbt-collapsable > a.collapsed:before {
-  content: "";
+  content: "";
 }
 .rbt-drawer .list-group .list-group-item, .rbt-drawer .ccf-mobile-categories .list-group-item {
   padding: 0px;
@@ -8682,7 +8682,7 @@ button:disabled.rbt-btn-progress {
   border-right: none;
   border-left: none;
   display: inline-block;
-  content: "";
+  content: "";
   font-family: rbt-fonts;
   font-style: normal;
   font-weight: normal;
@@ -8733,8 +8733,8 @@ button:disabled.rbt-btn-progress {
 
 @font-face {
   font-family: "rbt-fonts";
-  src: url("../../fonts/rbt-fonts.eot");
-  src: url("../../fonts/rbt-fonts.eot#iefix") format("embedded-opentype"), url("../../fonts/rbt-fonts.ttf") format("truetype"), url("../../fonts/rbt-fonts.woff") format("woff"), url("../../fonts/rbt-fonts.svg#rbt-fonts") format("svg");
+  src: url("../../fonts/rbt-fonts.eot?v=1.0.0");
+  src: url("../../fonts/rbt-fonts.eot?v=1.0.0#iefix") format("embedded-opentype"), url("../../fonts/rbt-fonts.ttf?v=1.0.0") format("truetype"), url("../../fonts/rbt-fonts.woff?v=1.0.0") format("woff"), url("../../fonts/rbt-fonts.svg?v=1.0.0#rbt-fonts") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -8753,195 +8753,195 @@ button:disabled.rbt-btn-progress {
 }
 
 .rbt-icon-arrow-down:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-arrow-left:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-arrow-right:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-arrow-up:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-chat:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-clock:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-phone:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-user-add-solid:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-user-remove-solid:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-user-solid:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-users-group-solid:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-users-solid:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-bell:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-calendar:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-check-circle-breakout:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-check:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-chevron-down:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-chevron-left:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-chevron-right:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-chevron-up:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-chevrons-left:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-chevrons-right:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-circle-check:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-circle-close:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-circle-minus:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-close:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-copy:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-download:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-ellipsis:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-envelope:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-exclamation:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-file:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-info-circle:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-link-external:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-magnifying-glass:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-menu:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-minus:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-pencil:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-plus:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-question-mark:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-redo:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-save:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-settings:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-undo:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-user-add:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-user-remove:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-user:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-users:before {
-  content: "";
+  content: "";
 }
 
 .rbt-footer {
@@ -9051,7 +9051,7 @@ input[type=checkbox]:checked + label:before {
   background-color: #006298;
   box-shadow: 0 0 0 2px #006298;
   font-family: rbt-fonts;
-  content: "";
+  content: "";
   font-size: 12px;
   padding-left: 2px;
   line-height: 1.4;
@@ -9330,7 +9330,7 @@ select.form-control {
   display: inline-block;
 }
 .rbt-app-header .nav .nav-item .nav-link[aria-expanded=true]:after {
-  content: "";
+  content: "";
 }
 .rbt-app-header .nav .nav-item > .nav-link.active {
   position: relative;
@@ -9367,7 +9367,7 @@ select.form-control {
   background: #eeeeee;
 }
 .rbt-app-header .rbt-drawer-button.open .btn.btn-link .rbt-icon-menu:before, .rbt-app-header .rbt-drawer-button.open ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button .rbt-icon-menu:before, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header .rbt-drawer-button.open label.btn-link.img-ul-button .rbt-icon-menu:before {
-  content: "";
+  content: "";
 }
 .rbt-app-header .rbt-drawer-button.open .btn.btn-link:focus, .rbt-app-header .rbt-drawer-button.open ccf-image-upload image-upload .img-ul .img-ul-file-upload label.btn-link.img-ul-button:focus, ccf-image-upload image-upload .img-ul .img-ul-file-upload .rbt-app-header .rbt-drawer-button.open label.btn-link.img-ul-button:focus {
   background: #006298;
@@ -10244,8 +10244,8 @@ a:focus, button:focus {
 }
 @font-face {
   font-family: "rbt-fonts";
-  src: url("../../fonts/rbt-fonts.eot");
-  src: url("../../fonts/rbt-fonts.eot#iefix") format("embedded-opentype"), url("../../fonts/rbt-fonts.ttf") format("truetype"), url("../../fonts/rbt-fonts.woff") format("woff"), url("../../fonts/rbt-fonts.svg#rbt-fonts") format("svg");
+  src: url("../../fonts/rbt-fonts.eot?v=1.0.0");
+  src: url("../../fonts/rbt-fonts.eot?v=1.0.0#iefix") format("embedded-opentype"), url("../../fonts/rbt-fonts.ttf?v=1.0.0") format("truetype"), url("../../fonts/rbt-fonts.woff?v=1.0.0") format("woff"), url("../../fonts/rbt-fonts.svg?v=1.0.0#rbt-fonts") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -10264,195 +10264,195 @@ a:focus, button:focus {
 }
 
 .rbt-icon-arrow-down:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-arrow-left:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-arrow-right:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-arrow-up:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-chat:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-clock:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-phone:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-user-add-solid:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-user-remove-solid:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-user-solid:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-users-group-solid:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-users-solid:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-bell:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-calendar:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-check-circle-breakout:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-check:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-chevron-down:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-chevron-left:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-chevron-right:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-chevron-up:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-chevrons-left:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-chevrons-right:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-circle-check:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-circle-close:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-circle-minus:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-close:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-copy:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-download:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-ellipsis:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-envelope:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-exclamation:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-file:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-info-circle:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-link-external:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-magnifying-glass:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-menu:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-minus:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-pencil:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-plus:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-question-mark:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-redo:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-save:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-settings:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-undo:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-user-add:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-user-remove:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-user:before {
-  content: "";
+  content: "";
 }
 
 .rbt-icon-users:before {
-  content: "";
+  content: "";
 }
 
 .rbt-file {
