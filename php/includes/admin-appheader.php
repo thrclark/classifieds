@@ -27,7 +27,7 @@
 
 
 
-<a <?php if ($page_title == 'Restricted users') { echo 'class="dropdown-item active"'; } ?> href="admin-usermaintenance.php" class="dropdown-item">User maintenance</a> 
+<a <?php if ($page_title == 'Restricted users') { echo 'class="dropdown-item active"'; } ?> href="admin-usermaintenance1.php" class="dropdown-item">User maintenance</a> 
 <a <?php if ($page_title == 'Reindex ad') { echo 'class="dropdown-item active"'; } ?> href="admin-reindexad.php" class="dropdown-item">Reindex ad</a> </div>
                             </li>
                             <li class="nav-item dropdown"> 
@@ -91,7 +91,7 @@
 
 
             <li class="list-group-item"> 
-<a href="admin-usermaintenance.php">User maintenance</a> </li>
+<a href="admin-usermaintenance1.php">User maintenance</a> </li>
             <li class="list-group-item"> 
 <a href="admin-reindexad.php">Reindex ad</a> </li>
         </ul>

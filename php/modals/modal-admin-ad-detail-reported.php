@@ -400,7 +400,7 @@
                 <li>An infraction was logged for user 'jlancer' for 'Fraudulent activity'.</li>
                 <li>System access was revoked for user 'jlancer'.</li>
             </ul>
-            <p>You may review/modify actions taken against this user in <a href="admin-usermaintenance.php">User management</a>. </p>
+            <p>You may review/modify actions taken against this user in <a href="admin-usermaintenance1.php">User management</a>. </p>
         </div>
         <div class="modal-footer demojs-admin-confirm-addeactmessagesent" style="display:none">
             <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
