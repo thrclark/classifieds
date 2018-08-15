@@ -26,7 +26,7 @@ $page_title = 'Categories';
                 <div class="col-12">
                     <div class="row">
                         <div class="col-12 col-lg-10 col-xl-8">
-                            <form novalidate class="ng-untouched ng-pristine ng-valid">
+                            <form novalidate class="  ng-valid">
                                 <div class="form-group">
                                     <label class="control-label" id="nameLabel">
                                         <message key="admin.field.name">Name</message>
@@ -36,7 +36,7 @@ $page_title = 'Categories';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="name">
+                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="name">
                                             <span class="badge badge-success"> 85 </span> </div>
                                     </countdown>
                                     <errors controlname="name"> 

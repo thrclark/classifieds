@@ -27,12 +27,12 @@ $page_title = 'Ads';
                         </div>
                     </div>
                     <div class="col pl-4">
-                        <form novalidate ng-reflect-form="[object Object]" class="ng-pristine ng-valid ng-touched">
+                        <form novalidate ng-reflect-form="[object Object]" class=" ng-valid ng-touched">
                             <label class="sr-only" id="termsLabel">
                                 <message key="admin.ads.field.searchTerms" ng-reflect-key="admin.ads.field.searchTerms">Find an Ad</message>
                             </label>
                             <div class="input-group">
-                                <input aria-labelledby="termsLabel" class="form-control ng-pristine ng-valid ng-touched" formcontrolname="terms" type="text" ng-reflect-name="terms">
+                                <input aria-labelledby="termsLabel" class="form-control  ng-valid ng-touched" formcontrolname="terms" type="text" ng-reflect-name="terms">
                                 <div class="input-group-append">
                                     <button class="btn btn-primary" type="submit"> <i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">
                                     <message key="global.button.search" ng-reflect-key="global.button.search">Search</message>

@@ -80,8 +80,8 @@ $page_title = 'Branding';
                                 <td><span class="rbt-table-responsive-cell-content">Application logo <span class="small font-italic">(optional)</span></span>
                                     <div class="ccf-instructional-text"> Select an image to be used as an application logo in the header. Note that this image should be 70px in height.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
-                                        <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
-                                            <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
+                                        <div ng-reflect-form="[object Object]" class="  ng-dirty">
+                                            <div ng-reflect-name="media" class=" ng-valid ng-dirty">
                                                 <image-upload _nghost-c0="" ng-reflect-before-upload="function (metadata) {" ng-reflect-button-caption="Upload Image" ng-reflect-drop-box-message="or drop image here" ng-reflect-file-too-large-message="Image must be no larger than 1" ng-reflect-headers="[object Object]" ng-reflect-max-file-size="10485760" ng-reflect-preview="false" ng-reflect-supported-extensions="png,jpg,jpeg" ng-reflect-url="/ccf2-unt/upload">
                                                     <div _ngcontent-c0="" filedrop="" class="img-ul" ng-reflect-ng-class="img-ul" ng-reflect-accept="image/png,image/jpg,image/jpeg">
                                                         <div _ngcontent-c0="" class="img-ul-file-upload img-ul-hr-inline-group" >
@@ -109,8 +109,8 @@ $page_title = 'Branding';
                                 <td><span class="rbt-table-responsive-cell-content">Application logo - mobile <span class="small font-italic">(optional)</span></span>
                                     <div class="ccf-instructional-text"> Select an image to be used as an application logo in the header for mobile devices. Note that this image should be 48px in height, and the width should be constrained as much as possible for better display on small screens.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
-                                        <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
-                                            <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
+                                        <div ng-reflect-form="[object Object]" class="  ng-dirty">
+                                            <div ng-reflect-name="media" class=" ng-valid ng-dirty">
                                                 <image-upload _nghost-c0="" ng-reflect-before-upload="function (metadata) {" ng-reflect-button-caption="Upload Image" ng-reflect-drop-box-message="or drop image here" ng-reflect-file-too-large-message="Image must be no larger than 1" ng-reflect-headers="[object Object]" ng-reflect-max-file-size="10485760" ng-reflect-preview="false" ng-reflect-supported-extensions="png,jpg,jpeg" ng-reflect-url="/ccf2-unt/upload">
                                                     <div _ngcontent-c0="" filedrop="" class="img-ul" ng-reflect-ng-class="img-ul" ng-reflect-accept="image/png,image/jpg,image/jpeg">
                                                         <div _ngcontent-c0="" class="img-ul-file-upload img-ul-hr-inline-group" >
@@ -138,8 +138,8 @@ $page_title = 'Branding';
                                 <td><span class="rbt-table-responsive-cell-content">Favicon icon <span class="small font-italic">(.ico)</span></span>
                                     <div class="ccf-instructional-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
-                                        <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
-                                            <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
+                                        <div ng-reflect-form="[object Object]" class="  ng-dirty">
+                                            <div ng-reflect-name="media" class=" ng-valid ng-dirty">
                                                 <image-upload _nghost-c0="" ng-reflect-before-upload="function (metadata) {" ng-reflect-button-caption="Upload Image" ng-reflect-drop-box-message="or drop image here" ng-reflect-file-too-large-message="Image must be no larger than 1" ng-reflect-headers="[object Object]" ng-reflect-max-file-size="10485760" ng-reflect-preview="false" ng-reflect-supported-extensions="png,jpg,jpeg" ng-reflect-url="/ccf2-unt/upload">
                                                     <div _ngcontent-c0="" filedrop="" class="img-ul" ng-reflect-ng-class="img-ul" ng-reflect-accept="image/png,image/jpg,image/jpeg">
                                                         <div _ngcontent-c0="" class="img-ul-file-upload img-ul-hr-inline-group" >
@@ -167,8 +167,8 @@ $page_title = 'Branding';
                                 <td><span class="rbt-table-responsive-cell-content"> Favicon image</span>
                                     <div class="ccf-instructional-text"> Select a favicon file to be displayed by web browsers next to the URL in the address bar and in browser bookmarks. This image should be 196x196 pixels.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
-                                        <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
-                                            <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
+                                        <div ng-reflect-form="[object Object]" class="  ng-dirty">
+                                            <div ng-reflect-name="media" class=" ng-valid ng-dirty">
                                                 <image-upload _nghost-c0="" ng-reflect-before-upload="function (metadata) {" ng-reflect-button-caption="Upload Image" ng-reflect-drop-box-message="or drop image here" ng-reflect-file-too-large-message="Image must be no larger than 1" ng-reflect-headers="[object Object]" ng-reflect-max-file-size="10485760" ng-reflect-preview="false" ng-reflect-supported-extensions="png,jpg,jpeg" ng-reflect-url="/ccf2-unt/upload">
                                                     <div _ngcontent-c0="" filedrop="" class="img-ul" ng-reflect-ng-class="img-ul" ng-reflect-accept="image/png,image/jpg,image/jpeg">
                                                         <div _ngcontent-c0="" class="img-ul-file-upload img-ul-hr-inline-group" >
@@ -196,8 +196,8 @@ $page_title = 'Branding';
                                 <td><span class="rbt-table-responsive-cell-content">Apple Touch image</span>
                                     <div class="ccf-instructional-text"> Select an image to be displayed in iOS as a desktop bookmark. This image should be 180x180 pixels.</div></td>
                                 <td><ccf-image-upload arrayname="media" dimensions="NO_RESIZE" max="4" ng-reflect-array-name="media" ng-reflect-max-images="4" ng-reflect-image-dimensions="NO_RESIZE" ng-reflect-data-is-available="true">
-                                        <div ng-reflect-form="[object Object]" class="ng-untouched ng-invalid ng-dirty">
-                                            <div ng-reflect-name="media" class="ng-untouched ng-valid ng-dirty">
+                                        <div ng-reflect-form="[object Object]" class="  ng-dirty">
+                                            <div ng-reflect-name="media" class=" ng-valid ng-dirty">
                                                 <image-upload _nghost-c0="" ng-reflect-before-upload="function (metadata) {" ng-reflect-button-caption="Upload Image" ng-reflect-drop-box-message="or drop image here" ng-reflect-file-too-large-message="Image must be no larger than 1" ng-reflect-headers="[object Object]" ng-reflect-max-file-size="10485760" ng-reflect-preview="false" ng-reflect-supported-extensions="png,jpg,jpeg" ng-reflect-url="/ccf2-unt/upload">
                                                     <div _ngcontent-c0="" filedrop="" class="img-ul" ng-reflect-ng-class="img-ul" ng-reflect-accept="image/png,image/jpg,image/jpeg">
                                                         <div _ngcontent-c0="" class="img-ul-file-upload img-ul-hr-inline-group" >
@@ -246,7 +246,7 @@ $page_title = 'Branding';
                                     <div class="form-group custom-headerfont" style="">
                                         <label class="control-label" for="font_family"> Weight</label>
                                         <div class="ccf-instructional-text">Specify the weight of this custom font.</div>
-                                        <select ng-model="fontFace.fontWeight" name="fontFaces[0].fontWeight" id="fontFaces[0].fontWeight" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontWeights" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
+                                        <select ng-model="fontFace.fontWeight" name="fontFaces[0].fontWeight" id="fontFaces[0].fontWeight" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontWeights" class="form-control  ng-valid ng-not-empty ng-touched" aria-invalid="false">
                                             <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                                             <option label="bold" value="string:BOLD">bold</option>
                                             <option label="100" value="string:W_100">100</option>
@@ -263,7 +263,7 @@ $page_title = 'Branding';
                                     <div class="form-group custom-headerfont" style="">
                                         <label class="control-label" for="font_family"> Style</label>
                                         <div class="ccf-instructional-text">Specify the style of this custom font.</div>
-                                        <select ng-model="fontFace.fontStyle" name="fontFaces[0].fontStyle" id="fontFaces[0].fontStyle" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStyles" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
+                                        <select ng-model="fontFace.fontStyle" name="fontFaces[0].fontStyle" id="fontFaces[0].fontStyle" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStyles" class="form-control  ng-valid ng-not-empty ng-touched" aria-invalid="false">
                                             <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                                             <option label="italic" value="string:ITALIC">italic</option>
                                             <option label="oblique" value="string:OBLIQUE">oblique</option>
@@ -272,7 +272,7 @@ $page_title = 'Branding';
                                     <div class="form-group custom-headerfont" style="">
                                         <label class="control-label" for="font_family"> Stretch</label>
                                         <div class="ccf-instructional-text">Specify the stretch of this custom font.</div>
-                                        <select ng-model="fontFace.fontStretch" name="fontFaces[0].fontStretch" id="fontFaces[0].fontStretch" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStretches" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
+                                        <select ng-model="fontFace.fontStretch" name="fontFaces[0].fontStretch" id="fontFaces[0].fontStretch" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStretches" class="form-control  ng-valid ng-not-empty ng-touched" aria-invalid="false">
                                             <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                                             <option label="condensed" value="string:CONDENSED">condensed</option>
                                             <option label="ultra-condensed" value="string:ULTRA_CONDENSED">ultra-condensed</option>
@@ -297,7 +297,7 @@ $page_title = 'Branding';
                                             <tbody>
                                                 <tr>
                                                     <td class="w-50"><input type="text" class="form-control" placeholder="Enter URL"></td>
-                                                    <td class="w-50"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-required ng-touched" required aria-invalid="false">
+                                                    <td class="w-50"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control  ng-valid ng-not-empty ng-valid-required ng-touched" required aria-invalid="false">
                                                             <option selected="">Select type</option>
                                                             <option label="Embedded OpenType" value="string:EMBEDDED_OPEN_TYPE">Embedded OpenType</option>
                                                             <option label="OpenType" value="string:OPEN_TYPE">OpenType</option>
@@ -340,7 +340,7 @@ $page_title = 'Branding';
                                     <div class="form-group custom-bodyfont" style="">
                                         <label class="control-label" for="font_family"> Weight</label>
                                         <div class="ccf-instructional-text">Specify the weight of this custom font.</div>
-                                        <select ng-model="fontFace.fontWeight" name="fontFaces[0].fontWeight" id="fontFaces[0].fontWeight" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontWeights" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
+                                        <select ng-model="fontFace.fontWeight" name="fontFaces[0].fontWeight" id="fontFaces[0].fontWeight" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontWeights" class="form-control  ng-valid ng-not-empty ng-touched" aria-invalid="false">
                                             <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                                             <option label="bold" value="string:BOLD">bold</option>
                                             <option label="100" value="string:W_100">100</option>
@@ -357,7 +357,7 @@ $page_title = 'Branding';
                                     <div class="form-group custom-bodyfont" style="">
                                         <label class="control-label" for="font_family"> Style</label>
                                         <div class="ccf-instructional-text">Specify the style of this custom font.</div>
-                                        <select ng-model="fontFace.fontStyle" name="fontFaces[0].fontStyle" id="fontFaces[0].fontStyle" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStyles" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
+                                        <select ng-model="fontFace.fontStyle" name="fontFaces[0].fontStyle" id="fontFaces[0].fontStyle" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStyles" class="form-control  ng-valid ng-not-empty ng-touched" aria-invalid="false">
                                             <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                                             <option label="italic" value="string:ITALIC">italic</option>
                                             <option label="oblique" value="string:OBLIQUE">oblique</option>
@@ -366,7 +366,7 @@ $page_title = 'Branding';
                                     <div class="form-group custom-bodyfont" style="">
                                         <label class="control-label" for="font_family"> Stretch</label>
                                         <div class="ccf-instructional-text">Specify the stretch of this custom font.</div>
-                                        <select ng-model="fontFace.fontStretch" name="fontFaces[0].fontStretch" id="fontFaces[0].fontStretch" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStretches" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
+                                        <select ng-model="fontFace.fontStretch" name="fontFaces[0].fontStretch" id="fontFaces[0].fontStretch" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStretches" class="form-control  ng-valid ng-not-empty ng-touched" aria-invalid="false">
                                             <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                                             <option label="condensed" value="string:CONDENSED">condensed</option>
                                             <option label="ultra-condensed" value="string:ULTRA_CONDENSED">ultra-condensed</option>
@@ -392,7 +392,7 @@ $page_title = 'Branding';
                                             <tbody>
                                                 <tr>
                                                     <td class="w-50"><input type="text" class="form-control" placeholder="Enter URL"></td>
-                                                    <td class="w-50"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-required ng-touched" required aria-invalid="false">
+                                                    <td class="w-50"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control  ng-valid ng-not-empty ng-valid-required ng-touched" required aria-invalid="false">
                                                             <option selected="">Select type</option>
                                                             <option label="Embedded OpenType" value="string:EMBEDDED_OPEN_TYPE">Embedded OpenType</option>
                                                             <option label="OpenType" value="string:OPEN_TYPE">OpenType</option>

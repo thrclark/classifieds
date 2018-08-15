@@ -32,7 +32,7 @@
                 <div class="form-group custom-headerfont">
                     <label class="control-label" for="font_family"> Weight</label>
                     <div class="ccf-instructional-text">Specify the weight of this custom font.</div>
-                    <select ng-model="fontFace.fontWeight" name="fontFaces[0].fontWeight" id="fontFaces[0].fontWeight" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontWeights" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
+                    <select ng-model="fontFace.fontWeight" name="fontFaces[0].fontWeight" id="fontFaces[0].fontWeight" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontWeights" class="form-control  ng-valid ng-not-empty ng-touched" aria-invalid="false">
                         <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                         <option label="bold" value="string:BOLD">bold</option>
                         <option label="100" value="string:W_100">100</option>
@@ -49,7 +49,7 @@
                 <div class="form-group custom-headerfont">
                     <label class="control-label" for="font_family"> Style</label>
                     <div class="ccf-instructional-text">Specify the style of this custom font.</div>
-                    <select ng-model="fontFace.fontStyle" name="fontFaces[0].fontStyle" id="fontFaces[0].fontStyle" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStyles" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
+                    <select ng-model="fontFace.fontStyle" name="fontFaces[0].fontStyle" id="fontFaces[0].fontStyle" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStyles" class="form-control  ng-valid ng-not-empty ng-touched" aria-invalid="false">
                         <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                         <option label="italic" value="string:ITALIC">italic</option>
                         <option label="oblique" value="string:OBLIQUE">oblique</option>
@@ -58,7 +58,7 @@
                 <div class="form-group custom-headerfont">
                     <label class="control-label" for="font_family"> Stretch</label>
                     <div class="ccf-instructional-text">Specify the stretch of this custom font.</div>
-                    <select ng-model="fontFace.fontStretch" name="fontFaces[0].fontStretch" id="fontFaces[0].fontStretch" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStretches" class="form-control ng-pristine ng-valid ng-not-empty ng-touched" aria-invalid="false">
+                    <select ng-model="fontFace.fontStretch" name="fontFaces[0].fontStretch" id="fontFaces[0].fontStretch" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStretches" class="form-control  ng-valid ng-not-empty ng-touched" aria-invalid="false">
                         <option label="normal" value="string:NORMAL" selected="selected">normal</option>
                         <option label="condensed" value="string:CONDENSED">condensed</option>
                         <option label="ultra-condensed" value="string:ULTRA_CONDENSED">ultra-condensed</option>
@@ -83,7 +83,7 @@
                         <tbody>
                             <tr>
                                 <td class="w-50"><input type="text" class="form-control" placeholder="Enter URL"></td>
-                                <td class="w-50"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-required ng-touched" required aria-invalid="false">
+                                <td class="w-50"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control  ng-valid ng-not-empty ng-valid-required ng-touched" required aria-invalid="false">
                                         <option selected="">Select type</option>
                                         <option label="Embedded OpenType" value="string:EMBEDDED_OPEN_TYPE">Embedded OpenType</option>
                                         <option label="OpenType" value="string:OPEN_TYPE">OpenType</option>

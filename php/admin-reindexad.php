@@ -28,7 +28,7 @@ $page_title = 'Reindex ad';
                     </div>
                 </div>
               
-                <form novalidate class="ng-untouched ng-pristine ng-valid">
+                <form novalidate class="  ng-valid">
                     <div class="form-group">
                         <p class="" id="postingIdDirections">
                             <message key="admin.cache.ad.reindex.directions">Occasionally, an ad may be improperly indexed in the system, causing it to appear in the main view of the application, but not for the moderator in the admin views (or vice versa). To manually reindex an ad, search for the ad by entering the ad ID as found in the ad URL. </message>

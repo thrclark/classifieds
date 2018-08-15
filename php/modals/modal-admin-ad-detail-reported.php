@@ -261,14 +261,14 @@
                                 
                                 
                                 
-                                
+                                <!--
                                
                                 <div class="form-group">
         <label for="internalnotes">Admin internal notes</label>
         <textarea class="form-control" id="internalnotes" rows="5"></textarea>
     </div>
                                
-                               
+                               -->
                                
                                
                                

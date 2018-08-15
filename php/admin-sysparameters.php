@@ -186,14 +186,14 @@ $page_title = 'System parameters';
 				<h2 class="modal-title" id="systemParameterLabel"><message key="admin.systemParameter.header">System Parameter</message></h2>
 				<button class="close" type="button"> <span aria-hidden="true" class="rbt-icon-close"></span> <span class="sr-only"><message key="global.buttons.close">Close</message></span></button>
 			</div>
-			<form novalidate="" class="ng-untouched ng-pristine ng-valid">
+			<form novalidate="" class="  ng-valid">
 				<div class="modal-body">
 					<div class="form-group">
 						<!----><label class="control-label" id="valueLabel"></label>
 						<!---->
 						<div class="ccf-instructional-text" id="valueDirections"></div>
 						<!----><div>
-							<input aria-labelledby="valueLabel valueDirections" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="value" type="text">	
+							<input aria-labelledby="valueLabel valueDirections" class="form-control   ng-valid" formcontrolname="value" type="text">	
 						</div>
 						<!---->
 						<!---->

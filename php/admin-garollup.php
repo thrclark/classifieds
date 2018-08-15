@@ -25,7 +25,7 @@ $page_title = 'Google Analytics Rollup';
                                 <h1> <?php echo $page_title; ?></h1>
                             </div>
                         </div>
-                        <form novalidate class="ng-untouched ng-valid ng-dirty">
+                        <form novalidate class=" ng-valid ng-dirty">
                             <div class="form-group">
                                 <label class="control-label" id="rollupIdLabel">
                                     <message key="admin.systemParameter.enum.GOOGLE-ANALYTICS-ROLLUP-ID.name">Google Analytics Rollup ID</message>
@@ -35,7 +35,7 @@ $page_title = 'Google Analytics Rollup';
                                 </div>
                                 <div class="form-row">
                                     <div class="col-6">
-                                        <input aria-labelledby="rollupIdLabel rollupIdDirections" value="UA-39645822-17" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="rollupId">
+                                        <input aria-labelledby="rollupIdLabel rollupIdDirections" value="UA-39645822-17" ccfvalidated="" class="form-control   ng-valid" formcontrolname="rollupId">
                                     </div>
                                 </div>
                                 <errors controlname="rollupId"> 

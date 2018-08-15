@@ -24,11 +24,7 @@ $page_title = 'Campuses';
                 <message key="admin.market.header">Campus</message>
                 </span> </a> </div>
     </div>
-    <div class="row">
-        <div class="col-12">
-            <main class="main-content" id="main-content"> </main>
-        </div>
-    </div>
+  
     <table class="table rbt-table-responsive rbt-table-actions">
         <thead>
             <tr>
