@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'moderator';
-$page_title = 'User maintenance';
+$page_title = 'User moderation';
 ?>
 
 <!DOCTYPE html>
@@ -23,8 +23,8 @@ $page_title = 'User maintenance';
                     </div>
                     <div class="col-auto pr-4 border-right">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="showrevoked" checked="">
-                            <label class="form-check-label" for="showrevoked">Revoked users only</label>
+                            <input class="form-check-input" type="checkbox" value="" id="showrevoked">
+                            <label class="form-check-label" for="showrevoked">Revoked access only</label>
                         </div>
                     </div>
                     <div class="col pl-4">
@@ -216,7 +216,7 @@ $(document).ready(function(){
 
    $(document).ready(function(){
       
-$(".demojs-accessactive").hide();
+
 $("#showrevoked").click(function() {
     if($(this).is(":checked")) {
         $(".demojs-accessactive").hide();

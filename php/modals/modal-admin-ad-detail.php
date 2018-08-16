@@ -160,7 +160,7 @@
                     <li>An infraction was logged for user 'jlancer' for 'Fraudulent activity'.</li>
                    
                 </ul>
-                <p>You may review actions taken against this user in <a href="admin-usermaintenance1.php">User maintenance</a>. </p>
+                <p>You may review actions taken against this user in <a href="admin-usermaintenance1.php">User moderation</a>. </p>
             </div>
             <div class="modal-footer demojs-admin-confirm-addeactmessagesent" style="display:none">
                 <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>

@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'settings';
-$page_title = 'User maintenance';
+$page_title = 'User moderation';
 ?>
 
 <!DOCTYPE html>
@@ -22,7 +22,7 @@ $page_title = 'User maintenance';
         </div>
         <nav aria-label="breadcrumb" role="navigation">
             <ol class="breadcrumb rbt-breadcrumb-no-bkg mb-3 pt-0">
-                <li class="breadcrumb-item"><a href="admin-usermaintenance1.php">User maintenance</a></li>
+                <li class="breadcrumb-item"><a href="admin-usermaintenance1.php">User moderation</a></li>
                 <li class="breadcrumb-item active" aria-current="page">'thrclark'</li>
             </ol>
         </nav>       
