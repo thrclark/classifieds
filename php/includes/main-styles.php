@@ -32,6 +32,21 @@
     overflow-x: hidden;
     z-index: 2;
 }
+.ccf-filter-button button{
+	border-radius: 0;
+}
+.ccf-market-button button{
+	margin: -1px 0px;
+	border-radius: 0;
+}
+.ccf-button-bottom{
+	cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right: 14px;
+    display: block;
+    z-index: 2;
+}
 
 
 </style>
