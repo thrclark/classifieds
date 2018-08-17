@@ -129,7 +129,7 @@
                             <dd class="col-sm-9">Fraudulent activity</dd>
                             <dt class="col-sm-3">Details</dt>
                             <dd class="col-sm-9">Tried to sell me a different book than what was advertised. He aknowledged that it's a different book, but 'still a pretty good book'.</dd>
-                           <!-- <!-- <dt class="col-sm-3">Action</dt>
+                            <!-- <!-- <dt class="col-sm-3">Action</dt>
                             <dd class="col-sm-9">
                                 <div class="ccf-markseen d-inline-flex"> <a href="#" class="btn btn-sm btn-outline-primary">Mark as seen</a> <a href="#" class="btn btn-sm btn-primary ml-2">Mark all as seen</a> </div>
                             </dd>-->
@@ -175,7 +175,8 @@
             </div>
         </div>
         <div class="modal-footer demojs-admin-defaultview" > <a class="btn btn-primary demojs-btn-deactivatead" href="#">Deactivate ad...</a>
-            <button class="btn btn-outline-primary" data-dismiss="modal">Accept ad</button>    <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+            <button class="btn btn-outline-primary" data-dismiss="modal">Accept ad</button>
+            <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
         </div>
         
         <!--View policy-->
@@ -218,7 +219,7 @@
                             <fieldset>
                                 <legend class="">Administrative actions</legend>
                                 <div class="form-group">
-                                    <label for="selectresponse1">Reason for ad deactivation</label>
+                                    <label for="selectresponse1">Reason for administrative action</label>
                                     <select class="form-control" id="selectresponse1">
                                         <option value="Fraudulent activity">Fraudulent activity</option>
                                         <option value="Contains offensive material">Contains offensive material</option>
@@ -230,7 +231,7 @@
                                     </select>
                                 </div>
                                 <div class="form-group demojs-specifyreason" style="display:none">
-                                    <label for="exampleInputEmail1">Specify reason for ad deactivation</label>
+                                    <label for="exampleInputEmail1">Specify reason for administrative action</label>
                                     <countdown>
                                         <div class="rbt-charcount">
                                             <input aria-labelledby="otherReason" class="form-control " formcontrolname="title" id="otherReason">
@@ -239,40 +240,18 @@
                                 </div>
                                 <div class="font-weight-bold mb-1 mt-3">Deactivate other active ads by 'jlancer'</div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="otherad3">
+                                    <input class="form-check-input demojs-otherad" type="checkbox" value="" id="otherad3">
                                     <label class="form-check-label" for="otherad3"> Math-M211 and M212 Text <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="otherad4">
+                                    <input class="form-check-input demojs-otherad" type="checkbox" value="" id="otherad4">
                                     <label class="form-check-label" for="otherad4"> Math-M211 and M212 bo0k <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </label>
                                 </div>
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                                <div class="font-weight-bold mb-1 mt-3">Revoke system access for 'jlancer'? <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="Infractions for 'jlancer'" data-content="<div class='border-bottom'>Fraudulent activity</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Selling IU parking permit</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>">(3 previous infractions)</a></div>
+                                <div class="font-weight-bold mb-1 mt-3">Revoke system access for 'jlancer'? <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="Violations for 'jlancer'" data-content="<div class='border-bottom'>Fraudulent activity</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Selling IU parking permit</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>">(3 previous violations)</a></div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="revokeaccess1">
-                                    <label class="form-check-label" for="revokeaccess1"> Yes, revoke access.</label>
+                                    <label class="form-check-label" for="revokeaccess1"> Yes, revoke access (this will deactivate all ads by this user). </label>
                                 </div>
-                                
-                                
-                                
-                                <!--
-                               
-                                <div class="form-group">
-        <label for="internalnotes">Admin internal notes</label>
-        <textarea class="form-control" id="internalnotes" rows="5"></textarea>
-    </div>
-                               
-                               -->
-                               
-                               
-                               
-                               
                                 <div class="font-weight-bold mb-1 mt-3">Send a message to 'jlancer'?</div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="sendusermessage_toggle" checked>

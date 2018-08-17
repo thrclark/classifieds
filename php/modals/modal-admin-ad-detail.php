@@ -95,7 +95,7 @@
                             <input type="text" class="form-control" id="banneduseruser" placeholder="" value="jlancer" readonly>
                         </div>
                         <div class="form-group">
-                            <label for="selectresponse">Reason for ad deactivation</label>
+                            <label for="selectresponse">Reason for administrative action</label>
                             <select class="form-control" id="selectresponse">
                                 <option value="Fraudulent activity">Fraudulent activity</option>
                                 <option value="Contains offensive material">Contains offensive material</option>

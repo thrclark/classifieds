@@ -510,5 +510,27 @@ $page_title = 'Ads';
         
     });
 </script>
+
+
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        $('#revokeaccess1').change(function() {
+            if ($(this).prop('checked')) {
+                $('.demojs-otherad').prop('checked', true);
+				$('.demojs-otherad').attr("disabled", true);
+            } else {
+                $('.demojs-otherad').prop('checked', false);
+				$('.demojs-otherad').attr("disabled", false);
+            }
+        });
+        $('#revokeaccess1').trigger('change');
+
+    });
+</script>
+
+
 </body>
 </html>

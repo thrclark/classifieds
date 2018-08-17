@@ -17,36 +17,28 @@ $page_title = 'User moderation';
     <div class="row">
         <div class="col-12">
             <main class="main-content" id="main-content">
-                <div class="row no-gutters mb-3 justify-content-between align-items-center">
-                    <div class="col-12 col-md-6">
+                <div class="row no-gutters mb-4 justify-content-between align-items-center">
+                    <div class="col-9">
                         <h1> <?php echo $page_title; ?></h1>
                     </div>
-                    <div class="col-auto pr-4 border-right">
+                    <div class="col-3">
+                        <div class="input-group clear-field">
+                            <input type="text" class="form-control" id="clear_field2">
+                            <button class="cleartext" id="cleartext2" style="display:none"> <i class="rbt-icon-circle-close"></i></button>
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button"><i class="fa fa-search"></i> <span class="sr-only">Search</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters mb-3 justify-content-between align-items-center">
+                    <div class="col">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="showrevoked">
                             <label class="form-check-label" for="showrevoked">Revoked access only</label>
                         </div>
                     </div>
-                    <div class="col pl-4">
-                        <form novalidate ng-reflect-form="[object Object]" class=" ng-valid ng-touched">
-                            <label class="sr-only" id="termsLabel">
-                                <message key="admin.ads.field.searchTerms" ng-reflect-key="admin.ads.field.searchTerms">Find a user</message>
-                            </label>
-                            <div class="input-group">
-                                <input aria-labelledby="termsLabel" class="form-control  ng-valid ng-touched" formcontrolname="terms" type="text" ng-reflect-name="terms">
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary" type="submit"> <i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">
-                                    <message key="global.button.search" ng-reflect-key="global.button.search">Search</message>
-                                    </span> </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-auto">
-                        <button class="btn btn-link" type="button">
-                        <message key="admin.buttons.clear" ng-reflect-key="admin.buttons.clear">Clear</message>
-                        </button>
-                    </div>
+                    <div class="col-auto"><a href="admin-usermaintenance-add.php" class="btn btn-sm btn-outline-primary"><span class="rbt-icon-plus ml-0"></span> Add user</a></div>
                 </div>
                 <table class="table rbt-table-responsive table-actions">
                     <thead>
@@ -54,7 +46,7 @@ $page_title = 'User moderation';
                             <th> Username</th>
                             <th><strong>Person Id</strong></th>
                             <th>Status</th>
-                            <th class="text-center"><span class="sr-only">Actions</span> <a href="admin-usermaintenance-add.php" class="btn btn-sm btn-outline-primary">Add revoked user</a></th>
+                            <th class="text-center"><span class="sr-onlyyy">Actions</span> </th>
                         </tr>
                     </thead>
                     <tbody>
@@ -62,34 +54,26 @@ $page_title = 'User moderation';
                             <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">thrclark</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0001328543</span></td>
                             <td>Warning issued </td>
-                            <td><b class="rbt-table-responsive-cell-label">Actions</b>
-                                <a href="admin-usermaintenance-user1.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
+                            <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user1.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
                         </tr>
-                      
                         <tr class="demojs-accessactive">
                             <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">tewtband</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0003023985</span></td>
                             <td>Access reinstated </td>
-                            <td><b class="rbt-table-responsive-cell-label">Actions</b>
-                                  <a href="admin-usermaintenance-user2.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
+                            <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user2.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
                         </tr>
-                   
                         <tr class="demojs-accessrevoked">
                             <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">zealfleo</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0003956434</span></td>
                             <td>Access revoked</td>
-                            <td><b class="rbt-table-responsive-cell-label">Actions</b>
-                                  <a href="admin-usermaintenance-user3.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
+                            <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user3.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
                         </tr>
-                   
                         <tr class="demojs-accessrevoked">
                             <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">languid</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0002534347</span></td>
                             <td>Access revoked </td>
-                            <td><b class="rbt-table-responsive-cell-label">Actions</b>
-                                  <a href="admin-usermaintenance-user4.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
+                            <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user4.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
                         </tr>
-                 
                     </tbody>
                 </table>
             </main>
@@ -227,6 +211,27 @@ $("#showrevoked").click(function() {
 
     });
 
+</script> 
+<script>
+$(document).ready(function() {
+    $('#clear_field2').keydown(function() {
+        tmpval = $(this).val();
+        if (tmpval == '') {
+            $("#cleartext2").css({
+                "display": "none"
+            });
+        } else {
+            $("#cleartext2").css({
+                "display": "block"
+            });
+        }
+    });
+    $("#cleartext2").click(function() {
+        $("#cleartext2").hide();
+        $("#clear_field2").val("");
+        $("#clear_field2").focus();
+    });
+});
 </script>
 </body>
 </html>

@@ -25,12 +25,8 @@ $page_title = 'User moderation';
                 <li class="breadcrumb-item"><a href="admin-usermaintenance1.php">User moderation</a></li>
                 <li class="breadcrumb-item active" aria-current="page">'thrclark'</li>
             </ol>
-        </nav>       
-        <div class="row">
-            <div class="col">
-                <div class="rbt-ts-20 font-weight-bold">Viewing activity for 'thrclark'</div>
-            </div>
-        </div>
+        </nav>
+        <h2>Viewing activity for 'thrclark'</h2>
         <div class="row">
             <div class="col">
                 <ul class="rvb-timeline mt-3" id="timeline1" style="">
@@ -41,10 +37,7 @@ $page_title = 'User moderation';
                                 <div class="col">
                                     <div class="dropdown">
                                         <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Add action </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> 
-                                        <a class="dropdown-item demojs-btn-showrevoke" href="#">Revoke system access</a> 
-                                         <a class="dropdown-item demojs-btn-showwarning" href="#">Issue warning</a> 
-                                        <a class="dropdown-item demojs-btn-shownote" href="#">Create admin note</a> </div>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item demojs-btn-showrevoke" href="#">Revoke system access</a> <a class="dropdown-item demojs-btn-showwarning" href="#">Issue warning</a> </div>
                                     </div>
                                 </div>
                             </div>
@@ -89,14 +82,7 @@ $page_title = 'User moderation';
                                     </form>
                                 </div>
                             </div>
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                             <div class="row mt-3 border-top" id="showwarning" style="display:none">
+                            <div class="row mt-3 border-top" id="showwarning" style="display:none">
                                 <div class="col-12 mt-3 mb-3">
                                     <h2 class="card-title mt-3 mb-3">Issue warning</h2>
                                 </div>
@@ -111,9 +97,6 @@ $page_title = 'User moderation';
                                             </div>
                                             <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control" formcontrolname="name" type="text" value="thrclark" disabled="">
                                         </div>
-                                        
-                                        
-                                        
                                         <div class="form-group">
                                             <label class="control-label" id="shortNameLabel">
                                                 <message key="admin.market.field.shortName">Warning reason</message>
@@ -121,15 +104,15 @@ $page_title = 'User moderation';
                                             <div class="ccf-instructional-text" id="shortNameDirections">
                                                 <message key="admin.market.field.shortName.directions">Select a reason for warning this user.</message>
                                             </div>
-                                           <select class="form-control" id="selectresponse1">
-                                        <option value="Fraudulent activity">Fraudulent activity</option>
-                                        <option value="Contains offensive material">Contains offensive material</option>
-                                        <option value="Promotes personal/commercial business">Promotes personal/commercial business</option>
-                                        <option value="Promotes a political/social agenda">Promotes a political/social agenda</option>
-                                        <option value="Selling IU parking permit">Selling IU parking permit</option>
-                                        <option value="Fake ad">Fake ad</option>
-                                        <option value="Other">Other</option>
-                                    </select>
+                                            <select class="form-control" id="selectresponse1">
+                                                <option value="Fraudulent activity">Fraudulent activity</option>
+                                                <option value="Contains offensive material">Contains offensive material</option>
+                                                <option value="Promotes personal/commercial business">Promotes personal/commercial business</option>
+                                                <option value="Promotes a political/social agenda">Promotes a political/social agenda</option>
+                                                <option value="Selling IU parking permit">Selling IU parking permit</option>
+                                                <option value="Fake ad">Fake ad</option>
+                                                <option value="Other">Other</option>
+                                            </select>
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label" id="shortNameLabel">
@@ -143,33 +126,6 @@ $page_title = 'User moderation';
                                         <div class="rbt-button-group mb-5"> <a class="btn btn-primary demojs-btn-hidewarning" routerlink="" href="#">
                                                 <message key="global.buttons.cancel">Log warning</message>
                                             </a> <a class="btn btn-outline-primary demojs-btn-hidewarning" routerlink="" href="#">
-                                                <message key="global.buttons.cancel">Cancel</message>
-                                            </a> </div>
-                                    </form>
-                                </div>
-                            </div>
-                            
-                            
-                            
-                            
-                            <div class="row mt-3 border-top" id="showadminnote" style="display:none">
-                                <div class="col-12 mt-3 mb-3">
-                                    <h2 class="card-title mt-3 mb-3">Create admin note</h2>
-                                </div>
-                                <div class="col-12">
-                                    <form novalidate class="  ">
-                                        <div class="form-group">
-                                            <label class="control-label" id="shortNameLabel">
-                                                <message key="admin.market.field.shortName">Admin note</message>
-                                            </label>
-                                            <div class="ccf-instructional-text" id="shortNameDirections">
-                                                <message key="admin.market.field.shortName.directions">Enter an admin note (only seen by administrators).</message>
-                                            </div>
-                                            <textarea class="form-control" id="textarea-full" rows="5"></textarea>
-                                        </div>
-                                        <div class="rbt-button-group mb-5"> <a class="btn btn-primary demojs-btn-hidenote" routerlink="" href="#">
-                                                <message key="global.buttons.cancel">Enter note </message>
-                                            </a> <a class="btn btn-outline-primary demojs-btn-hidenote" routerlink="" href="#">
                                                 <message key="global.buttons.cancel">Cancel</message>
                                             </a> </div>
                                     </form>
@@ -284,7 +240,7 @@ $page_title = 'User moderation';
             $(this).toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
         });
     });
-</script>
+</script> 
 <script>
     $(document).ready(function() {
         $(".demojs-btn-showrevoke").click(function() {
