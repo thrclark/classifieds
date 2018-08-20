@@ -35,97 +35,69 @@ $page_title = 'User moderation';
                         <div class="card">
                             <div class="row">
                                 <div class="col">
-                                    <div class="dropdown">
-                                        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Add action </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item demojs-btn-showrevoke" href="#">Revoke system access</a> <a class="dropdown-item demojs-btn-showwarning" href="#">Issue warning</a> </div>
-                                    </div>
+                                     <h2 class="card-title">Administrative actions</h2>
                                 </div>
+                                   <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet1-2"></span></div>
                             </div>
-                            <div class="row mt-3 border-top" id="showrevoke" style="display:none">
-                                <div class="col-12 mt-3 mb-3">
-                                    <h2 class="card-title mt-3 mb-3">Revoke system access</h2>
-                                </div>
-                                <div class="col-12">
-                                    <form novalidate class="  ">
-                                        <div class="form-group">
-                                            <label class="control-label" id="nameLabel">
-                                                <message key="admin.field.name">User name</message>
-                                            </label>
-                                            <div class="ccf-instructional-text" id="nameDirections">
-                                                <message key="admin.market.name.directions">This user will have system access revoked.</message>
+                            <div class="row mt-3 border-top" id="showdet1-2" style="display:none">
+                                <div class="col-8 pt-3">
+                                    <form class="">
+                                        <fieldset>
+                                            <legend class="">Administrative actions</legend>
+                                            <div class="form-group">
+                                                <label for="selectresponse1">Reason for administrative action</label>
+                                                <select class="form-control" id="selectresponse1">
+                                                    <option value="Fraudulent activity">Fraudulent activity</option>
+                                                    <option value="Posting offensive material">Posting offensive material</option>
+                                                    <option value="Promotes personal/commercial business">Promotes personal/commercial business</option>
+                                                    <option value="Promotes a political/social agenda">Promotes a political/social agenda</option>
+                                                    <option value="Selling IU parking permit">Selling IU parking permit</option>
+                                                    <option value="Fake ad">Fake ad</option>
+                                                    <option value="Other">Other</option>
+                                                </select>
                                             </div>
-                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control" formcontrolname="name" type="text" value="thrclark" disabled="">
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label" id="shortNameLabel">
-                                                <message key="admin.market.field.shortName">Revocation reason</message>
-                                            </label>
-                                            <div class="ccf-instructional-text" id="shortNameDirections">
-                                                <message key="admin.market.field.shortName.directions">Provide a reason for revoking this user's system access (only seen by administrators).</message>
+                                            <div class="form-group demojs-specifyreason" style="display:none">
+                                                <label for="exampleInputEmail1">Specify reason for administrative action</label>
+                                                <countdown>
+                                                    <div class="rbt-charcount">
+                                                        <input aria-labelledby="otherReason" class="form-control " formcontrolname="title" id="otherReason">
+                                                        <span class="badge badge-success" id="counterDemo1_badge"> <span id="charcounter1">100</span> </span> </div>
+                                                </countdown>
                                             </div>
-                                            <textarea class="form-control" id="textarea-full" rows="5"></textarea>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label" id="shortNameLabel">
-                                                <message key="admin.market.field.shortName">Message to send to user</message>
-                                            </label>
-                                            <div class="ccf-instructional-text" id="shortNameDirections">
-                                                <message key="admin.market.field.shortName.directions">Provide a message to be sent to the user regarding this action.</message>
+                                            <div class="font-weight-bold mb-1 mt-3">Deactivate ads by 'thrclark'</div>
+                                            <div class="form-check">
+                                                <input class="form-check-input demojs-otherad" type="checkbox" value="" id="otherad3" >
+                                                <label class="form-check-label" for="otherad3"> "Math-M211 and M212 Text" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
                                             </div>
-                                            <textarea class="form-control" id="textarea-full" rows="5"></textarea>
-                                        </div>
-                                        <div class="rbt-button-group mb-5"> <a class="btn btn-primary demojs-btn-hiderevoke" routerlink="" href="#">
-                                                <message key="global.buttons.cancel">Revoke user's access</message>
+                                            <div class="form-check">
+                                                <input class="form-check-input demojs-otherad" type="checkbox" value="" id="otherad4" >
+                                                <label class="form-check-label" for="otherad4"> "Math-M211 and M212 bo0k" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </label>
+                                            </div>
+                                            <div class="font-weight-bold mb-1 mt-3">Revoke system access for 'thrclark'? <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="" data-content="<div class='border-bottom'>Fraudulent activity</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Selling IU parking permit</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>" data-original-title="Violations for 'thrclark'">(3 previous violations)</a></div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="revokeaccess1">
+                                                <label class="form-check-label" for="revokeaccess1"> Yes, revoke access (this will deactivate all ads by this user). </label>
+                                            </div>
+                                            <div class="font-weight-bold mb-1 mt-3">Send a message to 'thrclark'?</div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="sendusermessage_toggle" checked="">
+                                                <label class="form-check-label" for="sendusermessage_toggle"> Send message </label>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset class="demojs-sendusermessage">
+                                            <legend class="">Message user</legend>
+                                            <div class="form-group">
+                                                <label for="banneduseruser">User</label>
+                                                <input type="text" class="form-control" id="banneduseruser" placeholder="" value="thrclark" readonly>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="responsefield1">Message to be sent</label>
+                                                <textarea class="form-control" id="responsefield1" rows="8">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</textarea>
+                                            </div>
+                                        </fieldset>
+                                        <div class="rbt-button-group mt-3"> <a class="btn btn-primary demojs-btn-hiderevoke" routerlink="" href="#">
+                                                <message key="global.buttons.cancel">Perform actions</message>
                                             </a> <a class="btn btn-outline-primary demojs-btn-hiderevoke" routerlink="" href="#">
-                                                <message key="global.buttons.cancel">Cancel</message>
-                                            </a> </div>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="row mt-3 border-top" id="showwarning" style="display:none">
-                                <div class="col-12 mt-3 mb-3">
-                                    <h2 class="card-title mt-3 mb-3">Issue warning</h2>
-                                </div>
-                                <div class="col-12">
-                                    <form novalidate class="  ">
-                                        <div class="form-group">
-                                            <label class="control-label" id="nameLabel">
-                                                <message key="admin.field.name">User name</message>
-                                            </label>
-                                            <div class="ccf-instructional-text" id="nameDirections">
-                                                <message key="admin.market.name.directions">This user will be issued a warning.</message>
-                                            </div>
-                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control" formcontrolname="name" type="text" value="thrclark" disabled="">
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label" id="shortNameLabel">
-                                                <message key="admin.market.field.shortName">Warning reason</message>
-                                            </label>
-                                            <div class="ccf-instructional-text" id="shortNameDirections">
-                                                <message key="admin.market.field.shortName.directions">Select a reason for warning this user.</message>
-                                            </div>
-                                            <select class="form-control" id="selectresponse1">
-                                                <option value="Fraudulent activity">Fraudulent activity</option>
-                                                <option value="Contains offensive material">Contains offensive material</option>
-                                                <option value="Promotes personal/commercial business">Promotes personal/commercial business</option>
-                                                <option value="Promotes a political/social agenda">Promotes a political/social agenda</option>
-                                                <option value="Selling IU parking permit">Selling IU parking permit</option>
-                                                <option value="Fake ad">Fake ad</option>
-                                                <option value="Other">Other</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label" id="shortNameLabel">
-                                                <message key="admin.market.field.shortName">Message to send to user</message>
-                                            </label>
-                                            <div class="ccf-instructional-text" id="shortNameDirections">
-                                                <message key="admin.market.field.shortName.directions">Provide a message to be sent to the user regarding this warning.</message>
-                                            </div>
-                                            <textarea class="form-control" id="textarea-full" rows="5"></textarea>
-                                        </div>
-                                        <div class="rbt-button-group mb-5"> <a class="btn btn-primary demojs-btn-hidewarning" routerlink="" href="#">
-                                                <message key="global.buttons.cancel">Log warning</message>
-                                            </a> <a class="btn btn-outline-primary demojs-btn-hidewarning" routerlink="" href="#">
                                                 <message key="global.buttons.cancel">Cancel</message>
                                             </a> </div>
                                     </form>
@@ -141,20 +113,20 @@ $page_title = 'User moderation';
                                 <div class="col">
                                     <h2 class="card-title">Warning issued; ads deactivated (fradulent activity)</h2>
                                 </div>
-                                <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet1-1"></span></div>
+                                <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet1-1"></span></div>	
                             </div>
                             <div class="row mt-3 border-top" id="showdet1-1" style="display:nonee">
                                 <div class="col">
                                     <dl class="row justify-content-end mt-3">
                                         <dt class="col-sm-3">Deactivated ads</dt>
-                                        <dd class="col-sm-9">ID# 0006725343
-                                            <button class="btn btn-sm btn-link">View</button>
+                                        <dd class="col-sm-9">"Sublet apartment near campus"
+                                            <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a>
                                         </dd>
-                                        <dd class="col-sm-9 offset-md-3">ID# 0006725354
-                                            <button class="btn btn-sm btn-link">View</button>
+                                        <dd class="col-sm-9 offset-md-3">"Math 101 textbook"
+                                            <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a>
                                         </dd>
-                                        <dd class="col-sm-9 offset-md-3">ID# 0006725362
-                                            <button class="btn btn-sm btn-link">View</button>
+                                        <dd class="col-sm-9 offset-md-3">"Rideshare to Chicago needed"
+                                            <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a>
                                         </dd>
                                         <dt class="col-sm-3">Deactivation reason</dt>
                                         <dd class="col-sm-9">Fraudulent activity</dd>
@@ -267,6 +239,23 @@ $page_title = 'User moderation';
         $(".demojs-btn-hidewarning").click(function() {
             $("#showwarning").hide();
         });
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        $('#revokeaccess1').change(function() {
+            if ($(this).prop('checked')) {
+                $('.demojs-otherad').prop('checked', true);
+				$('.demojs-otherad').attr("disabled", true);
+            } else {
+                $('.demojs-otherad').prop('checked', false);
+				$('.demojs-otherad').attr("disabled", false);
+            }
+        });
+        $('#revokeaccess1').trigger('change');
+
     });
 </script>
 </body>

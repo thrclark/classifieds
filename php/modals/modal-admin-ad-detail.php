@@ -98,7 +98,7 @@
                             <label for="selectresponse">Reason for administrative action</label>
                             <select class="form-control" id="selectresponse">
                                 <option value="Fraudulent activity">Fraudulent activity</option>
-                                <option value="Contains offensive material">Contains offensive material</option>
+                                <option value="Posting offensive material">Posting offensive material</option>
                                 <option value="Promotes personal/commercial business">Promotes personal/commercial business</option>
                                 <option value="Promotes a political/social agenda">Promotes a political/social agenda</option>
                                 <option value="Selling IU parking permit">Selling IU parking permit</option>

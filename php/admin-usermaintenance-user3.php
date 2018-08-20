@@ -17,80 +17,58 @@ $page_title = 'User moderation';
     <main class="main-content">
         <router-outlet></router-outlet>
         <ng-component>
-          <div class="row mb-1 no-gutters align-items-center">
-            <div class="col-12 col-sm">
-                <h1> <?php echo $page_title; ?></h1>
+            <div class="row mb-1 no-gutters align-items-center">
+                <div class="col-12 col-sm">
+                    <h1> <?php echo $page_title; ?></h1>
+                </div>
             </div>
-        </div>
-        <nav aria-label="breadcrumb" role="navigation">
-            <ol class="breadcrumb rbt-breadcrumb-no-bkg mb-3 pt-0">
-                <li class="breadcrumb-item"><a href="admin-usermaintenance1.php">User moderation</a></li>
-                <li class="breadcrumb-item active" aria-current="page">'zealfleo'</li>
-            </ol>
-        </nav>    
-        
-        
-        
-         <h2>Viewing activity for 'zealfleo'</h2>    
-         
-         
-            
-           
+            <nav aria-label="breadcrumb" role="navigation">
+                <ol class="breadcrumb rbt-breadcrumb-no-bkg mb-3 pt-0">
+                    <li class="breadcrumb-item"><a href="admin-usermaintenance1.php">User moderation</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">'zealfleo'</li>
+                </ol>
+            </nav>
+            <h2>Viewing activity for 'zealfleo'</h2>
             <div class="row">
                 <div class="col">
-                    <ul class="rvb-timeline mt-3" id="timeline3" style="">     <li>
+                    <ul class="rvb-timeline mt-3" id="timeline3" style="">
+                       <li>
                         <div class="rvb-timeline-marker bg-secondary"></div>
                         <div class="card">
                             <div class="row">
                                 <div class="col">
-                                    <div class="dropdown">
-                                        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Add action </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item demojs-btn-showrevoke" href="#">Restore system access</a>  </div>
-                                    </div>
+                                     <h2 class="card-title">Restore access</h2>
                                 </div>
+                                   <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet1-2"></span></div>
                             </div>
-                            <div class="row mt-3 border-top" id="showrevoke" style="display:none">
-                                <div class="col-12 mt-3 mb-3">
-                                    <h2 class="card-title mt-3 mb-3">Restore system access</h2>
-                                </div>
-                                <div class="col-12">
-                                    <form novalidate class="  ">
-                                        <div class="form-group">
-                                            <label class="control-label" id="nameLabel">
-                                                <message key="admin.field.name">User name</message>
-                                            </label>
-                                            <div class="ccf-instructional-text" id="nameDirections">
-                                                <message key="admin.market.name.directions">This user will have system access restored.</message>
+                            <div class="row mt-3 border-top" id="showdet1-2" style="display:none">
+                                <div class="col-8 pt-3">
+                                    <form class="">
+                                        <fieldset>
+                                            <legend class="">Restore access</legend>
+                               <div class="form-group">
+                                                <label for="restore_reason">Reason for restored access</label>
+                                                <textarea class="form-control" id="restore_reason" rows="8"></textarea>
                                             </div>
-                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control" formcontrolname="name" type="text" value="zealfleo" disabled="">
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label" id="shortNameLabel">
-                                                <message key="admin.market.field.shortName">Restoration reason</message>
-                                            </label>
-                                            <div class="ccf-instructional-text" id="shortNameDirections">
-                                                <message key="admin.market.field.shortName.directions">Provide a reason for restoring this user's system access (only seen by administrators).</message>
+                                            
+                                            
+                                              <div class="form-group">
+                                                <label for="restore_reason">Message to be sent to user</label>
+                                                <textarea class="form-control" id="restore_reason" rows="8"></textarea>
                                             </div>
-                                            <textarea class="form-control" id="textarea-full" rows="5"></textarea>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label" id="shortNameLabel">
-                                                <message key="admin.market.field.shortName">Message to send to user</message>
-                                            </label>
-                                            <div class="ccf-instructional-text" id="shortNameDirections">
-                                                <message key="admin.market.field.shortName.directions">Provide a message to be sent to the user regarding this action.</message>
-                                            </div>
-                                            <textarea class="form-control" id="textarea-full" rows="5"></textarea>
-                                        </div>
-                                        <div class="rbt-button-group mb-5"> <a class="btn btn-primary demojs-btn-hiderevoke" routerlink="" href="#">
-                                                <message key="global.buttons.cancel">Restore user's access</message>
+                                            
+                                            
+                                            
+                                        </fieldset>
+                                      
+                                        <div class="rbt-button-group mt-3"> <a class="btn btn-primary demojs-btn-hiderevoke" routerlink="" href="#">
+                                                <message key="global.buttons.cancel">Restore access and send message</message>
                                             </a> <a class="btn btn-outline-primary demojs-btn-hiderevoke" routerlink="" href="#">
                                                 <message key="global.buttons.cancel">Cancel</message>
                                             </a> </div>
                                     </form>
                                 </div>
                             </div>
-                           
                         </div>
                     </li>
                         <li>
@@ -107,9 +85,7 @@ $page_title = 'User moderation';
                                     <div class="col">
                                         <dl class="row justify-content-end mt-3">
                                             <dt class="col-sm-3">Deactivated ads</dt>
-                                            <dd class="col-sm-9">ID# 0006725343
-                                                <button class="btn btn-sm btn-link">View</button>
-                                            </dd>
+                                            <dd class="col-sm-9">"Sublet apartment near campus" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </dd>
                                             <dt class="col-sm-3">Revocation reason</dt>
                                             <dd class="col-sm-9">Fraudulent activity</dd>
                                             <dt class="col-sm-3">Message sent to user</dt>
@@ -135,15 +111,9 @@ $page_title = 'User moderation';
                                     <div class="col">
                                         <dl class="row justify-content-end mt-3">
                                             <dt class="col-sm-3">Deactivated ads</dt>
-                                            <dd class="col-sm-9">ID# 0006725343
-                                                <button class="btn btn-sm btn-link">View</button>
-                                            </dd>
-                                            <dd class="col-sm-9 offset-md-3">ID# 0006725354
-                                                <button class="btn btn-sm btn-link">View</button>
-                                            </dd>
-                                            <dd class="col-sm-9 offset-md-3">ID# 0006725362
-                                                <button class="btn btn-sm btn-link">View</button>
-                                            </dd>
+                                            <dd class="col-sm-9">"Sublet apartment near campus" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </dd>
+                                            <dd class="col-sm-9 offset-md-3">"Math 101 textbook" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </dd>
+                                            <dd class="col-sm-9 offset-md-3">"Rideshare to Chicago needed" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </dd>
                                             <dt class="col-sm-3">Deactivation reason</dt>
                                             <dd class="col-sm-9">Fraudulent activity</dd>
                                             <dt class="col-sm-3">Message sent to user</dt>
@@ -229,7 +199,7 @@ $page_title = 'User moderation';
             $(this).toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
         });
     });
-</script>
+</script> 
 <script>
     $(document).ready(function() {
         $(".demojs-btn-showrevoke").click(function() {

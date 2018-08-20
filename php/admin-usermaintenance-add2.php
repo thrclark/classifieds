@@ -43,7 +43,7 @@ $page_title = 'User moderation';
                                                 <label for="selectresponse1">Reason for administrative action</label>
                                                 <select class="form-control" id="selectresponse1">
                                                     <option value="Fraudulent activity">Fraudulent activity</option>
-                                                    <option value="Contains offensive material">Contains offensive material</option>
+                                                    <option value="Posting offensive material">Posting offensive material</option>
                                                     <option value="Promotes personal/commercial business">Promotes personal/commercial business</option>
                                                     <option value="Promotes a political/social agenda">Promotes a political/social agenda</option>
                                                     <option value="Selling IU parking permit">Selling IU parking permit</option>
@@ -62,11 +62,11 @@ $page_title = 'User moderation';
                                             <div class="font-weight-bold mb-1 mt-3">Deactivate ads by 'thrclark'</div>
                                             <div class="form-check">
                                                 <input class="form-check-input demojs-otherad" type="checkbox" value="" id="otherad3" >
-                                                <label class="form-check-label" for="otherad3"> Math-M211 and M212 Text <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
+                                                <label class="form-check-label" for="otherad3"> "Math-M211 and M212 Text" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
                                             </div>
                                             <div class="form-check">
                                                 <input class="form-check-input demojs-otherad" type="checkbox" value="" id="otherad4" >
-                                                <label class="form-check-label" for="otherad4"> Math-M211 and M212 bo0k <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </label>
+                                                <label class="form-check-label" for="otherad4"> "Math-M211 and M212 bo0k" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </label>
                                             </div>
                                             <div class="font-weight-bold mb-1 mt-3">Revoke system access for 'thrclark'? <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="" data-content="<div class='border-bottom'>Fraudulent activity</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Selling IU parking permit</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>" data-original-title="Violations for 'thrclark'">(3 previous violations)</a></div>
                                             <div class="form-check">

@@ -187,7 +187,7 @@
                         <select class="form-control" id="exampleFormControlSelect1">
                             <option>Please select:</option>
                             <option>Fraudulent activity</option>
-                            <option>Contains offensive material</option>
+                            <option>Posting offensive material</option>
                             <option>Promotes personal/commercial business</option>
                             <option>Promotes a political/social agenda</option>
                             <option>Selling IU parking permit</option>

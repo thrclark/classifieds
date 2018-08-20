@@ -74,22 +74,22 @@ $page_title = 'User moderation';
                                             <message key="admin.market.field.shortName.directions">Select the ads posted by this user that you wish to deactivate.</message>
                                         </div>
                                         <input class="form-check-input" type="checkbox" value="" id="otherad1">
-                                        <label class="form-check-label" for="otherad1"> Math-M211 and M212 Text <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
+                                        <label class="form-check-label" for="otherad1"> "Math-M211 and M212 Text" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
                                     </div>
                                     <div class="form-check demojs-otherad">
                                         <input class="form-check-input" type="checkbox" value="" id="otherad2">
-                                        <label class="form-check-label" for="otherad2"> Math-M211 and M212 Text <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
+                                        <label class="form-check-label" for="otherad2"> "Math-M211 and M212 Text" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
                                     </div>
                                     <div class="form-check demojs-otherad">
                                         <input class="form-check-input" type="checkbox" value="" id="otherad3">
-                                        <label class="form-check-label" for="otherad3"> Math-M211 and M212 Text <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
+                                        <label class="form-check-label" for="otherad3"> "Math-M211 and M212 Text" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="selectresponse1">Reason for administrative action</label>
                                     <select class="form-control" id="selectresponse1">
                                         <option value="Fraudulent activity">Fraudulent activity</option>
-                                        <option value="Contains offensive material">Contains offensive material</option>
+                                        <option value="Posting offensive material">Posting offensive material</option>
                                         <option value="Promotes personal/commercial business">Promotes personal/commercial business</option>
                                         <option value="Promotes a political/social agenda">Promotes a political/social agenda</option>
                                         <option value="Selling IU parking permit">Selling IU parking permit</option>
