@@ -89,7 +89,7 @@ $page_title = 'Policy';
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">
                                 <message key="admin.field.name">Name</message>
-                                </b> <span class="rbt-table-responsive-cell-content"> Promotes personal/commercial business </span></td>
+                                </b> <span class="rbt-table-responsive-cell-content"> Promoting a personal/commercial business </span></td>
                             <td><b class="rbt-table-responsive-cell-label">
                                 <message key="admin.market.field.shortName">Short Name</message>
                                 </b> <span class="rbt-table-responsive-cell-content "> We have received a complaint regarding your use of Classifieds for promotion of a personal/commercial business. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this <a href="#">policy</a> in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons. </span></td>
@@ -101,7 +101,7 @@ $page_title = 'Policy';
                         <tr>
                             <td><b class="rbt-table-responsive-cell-label">
                                 <message key="admin.field.name">Name</message>
-                                </b> <span class="rbt-table-responsive-cell-content"> Promotes a political/social agenda </span></td>
+                                </b> <span class="rbt-table-responsive-cell-content"> Promoting a political/social agenda </span></td>
                             <td><b class="rbt-table-responsive-cell-label">
                                 <message key="admin.market.field.shortName">Short Name</message>
                                 </b> <span class="rbt-table-responsive-cell-content "> We have received a complaint regarding your use of Classifieds for promoting a political/social agenda. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this <a href="#">policy</a> in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons. </span></td>

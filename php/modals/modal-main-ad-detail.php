@@ -77,8 +77,8 @@
                             <option>Please select:</option>
                             <option>Fraudulent activity</option>
                             <option>Posting offensive material</option>
-                            <option>Promotes personal/commercial business</option>
-                            <option>Promotes a political/social agenda</option>
+                            <option>Promoting a personal/commercial business</option>
+                            <option>Promoting a political/social agenda</option>
                             <option>Selling IU parking permit</option>
                             <option>Fake ad</option>
                             <option>Other</option>

@@ -90,7 +90,7 @@
                     <dt class="col-sm-4">Reported by</dt>
                     <dd class="col-sm-8">thrclark</dd>
                     <dt class="col-sm-4">Reason for report</dt>
-                    <dd class="col-sm-8">Promotes a political/social agenda</dd>
+                    <dd class="col-sm-8">Promoting a political/social agenda</dd>
                     <dt class="col-sm-4">Additional detail</dt>
                     <dd class="col-sm-8">This ad is really a campaign ad for a candidate who is running for state senate. Please remove it.</dd>
                     
