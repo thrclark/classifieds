@@ -3,7 +3,6 @@ $audience = 'admin';
 $section = 'moderator';
 $page_title = 'User moderation';
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
