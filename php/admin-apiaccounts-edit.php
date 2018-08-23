@@ -26,7 +26,7 @@ $page_title = 'Edit API account ';
                 <div class="col-12">
                     <div class="row">
                         <div class="col-12 col-lg-10 col-xl-8">
-                            <form novalidate class="ng-pristine ng-invalid ng-touched">
+                            <form novalidate class="  ng-touched">
                                 <div class="form-group">
                                     <label id="titleLabel">
                                         <message key="admin.field.name">Name</message>
@@ -36,7 +36,7 @@ $page_title = 'Edit API account ';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="titleLabel titleDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="title" id="title" type="text">
+                                            <input aria-labelledby="titleLabel titleDirections" ccfvalidated="" class="form-control" formcontrolname="title" id="title" type="text">
                                             <span class="badge badge-success"> 100 </span> </div>
                                     </countdown>
                                     <errors controlname="title"> </errors>
@@ -48,7 +48,7 @@ $page_title = 'Edit API account ';
                                     <div class="ccf-instructional-text" id="statusDirections">
                                         <message key="admin.apiAccount.field.status.directions">The availability of this API Account.</message>
                                     </div>
-                                    <select aria-labelledby="statusLabel statusDirections" ccfvalidated="" class="form-control ng-pristine ng-valid ng-touched" formcontrolname="status">
+                                    <select aria-labelledby="statusLabel statusDirections" ccfvalidated="" class="form-control  ng-valid ng-touched" formcontrolname="status">
                                         <option value="ACTIVE">Active</option>
                                         <option value="INACTIVE">Inactive</option>
                                     </select>
@@ -56,7 +56,7 @@ $page_title = 'Edit API account ';
                                 </div>
                                 <div class="form-group">
                                     <div class="form-check mb-3">
-                                        <input class="form-check-input ng-untouched ng-pristine" formcontrolname="expirationDateCheck" id="expirationDateCheck" name="expirationDateCheck" type="checkbox" disabled="">
+                                        <input class="form-check-input  " formcontrolname="expirationDateCheck" id="expirationDateCheck" name="expirationDateCheck" type="checkbox" disabled="">
                                         <label class="form-check-label enabled-text-color" for="expirationDateCheck">
                                         <message key="admin.apiAccount.action.renew">Renew Account</message>
                                         <message key="admin.apiAccount.field.expireDate">Expire Date</message>
@@ -67,7 +67,7 @@ $page_title = 'Edit API account ';
                                         <errors controlname="expirationDateCheck"> </errors>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input ng-untouched ng-pristine" formcontrolname="locked" id="locked" name="locked" type="checkbox" disabled="">
+                                        <input class="form-check-input  " formcontrolname="locked" id="locked" name="locked" type="checkbox" disabled="">
                                         <label class="form-check-label enabled-text-color" for="locked">
                                         <message key="admin.apiAccount.field.locked">Locked Account</message>
                                         <div class="ccf-instructional-text">
@@ -84,7 +84,7 @@ $page_title = 'Edit API account ';
                                     <div class="ccf-instructional-text" id="resourceQuotaDirections">
                                         <message key="admin.apiAccount.field.resourceQuota.directions">Number of resources that are allowed to be created by this API Account.  This prevents outside systems from accidentally over populating the system.</message>
                                     </div>
-                                    <input aria-labelledby="resourceQuotaLabel resourceQuotaDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="resourceQuota" id="resourceQuota" type="number">
+                                    <input aria-labelledby="resourceQuotaLabel resourceQuotaDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="resourceQuota" id="resourceQuota" type="number">
                                     <errors controlname="resourceQuota"> </errors>
                                 </div>
                                 <div class="form-group">
@@ -96,7 +96,7 @@ $page_title = 'Edit API account ';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="emailLabel emailDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="email" id="email" type="text">
+                                            <input aria-labelledby="emailLabel emailDirections" ccfvalidated="" class="form-control" formcontrolname="email" id="email" type="text">
                                             <span class="badge badge-success"> 100 </span> </div>
                                     </countdown>
                                     <errors controlname="email"> </errors>
@@ -108,7 +108,7 @@ $page_title = 'Edit API account ';
                                     <div class="ccf-instructional-text" id="authenticationTypeDirections">
                                         <message key="admin.apiAccount.field.authType.directions">Select the type of authentication to use for this client application.</message>
                                     </div>
-                                    <select aria-labelledby="authenticationTypeLabel authenticationTypeDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="authenticationType">
+                                    <select aria-labelledby="authenticationTypeLabel authenticationTypeDirections" ccfvalidated="" class="form-control" formcontrolname="authenticationType">
                                         <option value="0: null">
                                         <message key="admin.select.blank">------</message>
                                         </option>

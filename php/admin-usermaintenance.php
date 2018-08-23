@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'moderator';
-$page_title = 'User maintenance';
+$page_title = 'User moderation';
 ?>
 
 <!DOCTYPE html>
@@ -28,12 +28,12 @@ $page_title = 'User maintenance';
                         </div>
                     </div>
                     <div class="col pl-4">
-                        <form novalidate ng-reflect-form="[object Object]" class="ng-pristine ng-valid ng-touched">
+                        <form novalidate ng-reflect-form="[object Object]" class=" ng-valid ng-touched">
                             <label class="sr-only" id="termsLabel">
                                 <message key="admin.ads.field.searchTerms" ng-reflect-key="admin.ads.field.searchTerms">Find an Ad</message>
                             </label>
                             <div class="input-group">
-                                <input aria-labelledby="termsLabel" class="form-control ng-pristine ng-valid ng-touched" formcontrolname="terms" type="text" ng-reflect-name="terms">
+                                <input aria-labelledby="termsLabel" class="form-control  ng-valid ng-touched" formcontrolname="terms" type="text" ng-reflect-name="terms">
                                 <div class="input-group-append">
                                     <button class="btn btn-primary" type="submit"> <i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">
                                     <message key="global.button.search" ng-reflect-key="global.button.search">Search</message>
@@ -89,10 +89,6 @@ $page_title = 'User maintenance';
                                 <div class="row">
                                     <div class="col">
                                         <ul class="rvb-timeline mt-3" style="display:none">
-                                           
-                                           
-                                           
-                                           
                                             <li>
                                                 <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/10/2018</span> <span>4:47 PM</span></time>
                                                 <div class="rvb-timeline-marker bg-success"></div>
@@ -105,11 +101,7 @@ $page_title = 'User maintenance';
                                                     </div>
                                                 </div>
                                             </li>
-                                            
-                                            
-                                            
-                                            
-                                             <li>
+                                            <li>
                                                 <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/10/2018</span> <span>4:33 PM</span></time>
                                                 <div class="rvb-timeline-marker bg-success"></div>
                                                 <div class="card">

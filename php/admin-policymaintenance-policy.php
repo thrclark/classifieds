@@ -27,7 +27,7 @@ $page_title = 'Policy';
                 <div class="col-12">
                     <div class="row">
                         <div class="col-12 col-lg-10 col-xl-8">
-                            <form novalidate class="ng-untouched ng-pristine ng-valid">
+                            <form novalidate class="  ng-valid">
                                
                                   <div class="form-group">
                                     <label class="control-label" for="richText1">

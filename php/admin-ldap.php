@@ -46,7 +46,7 @@ $page_title = 'LDAP configuration';
                         </div>
                         <div class="row">
                             <div class="col-lg-6">
-                                <form novalidate class="ng-untouched ng-pristine ng-valid">
+                                <form novalidate class="  ng-valid">
                                     <div class="form-group">
                                         <label class="control-label" id="urlLabel">
                                             <message key="admin.ldap.field.url">LDAP URL</message>
@@ -56,7 +56,7 @@ $page_title = 'LDAP configuration';
                                         </div>
                                         <countdown>
                                             <div class="rbt-charcount">
-                                                <input aria-labelledby="urlLabel urlDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="url">
+                                                <input aria-labelledby="urlLabel urlDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="url">
                                                 <span class="badge badge-success"> 1983 </span> </div>
                                         </countdown>
                                         <errors controlname="url"> </errors>
@@ -70,7 +70,7 @@ $page_title = 'LDAP configuration';
                                         </div>
                                         <countdown>
                                             <div class="rbt-charcount">
-                                                <input aria-labelledby="baseLabel baseDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="base">
+                                                <input aria-labelledby="baseLabel baseDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="base">
                                                 <span class="badge badge-success"> 169 </span> </div>
                                         </countdown>
                                         <errors controlname="base"> </errors>
@@ -84,7 +84,7 @@ $page_title = 'LDAP configuration';
                                         </div>
                                         <countdown>
                                             <div class="rbt-charcount">
-                                                <input aria-labelledby="usernameLabel usernameDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="username">
+                                                <input aria-labelledby="usernameLabel usernameDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="username">
                                                 <span class="badge badge-success"> 157 </span> </div>
                                         </countdown>
                                         <errors controlname="username"> </errors>
@@ -98,7 +98,7 @@ $page_title = 'LDAP configuration';
                                         </div>
                                         <countdown>
                                             <div class="rbt-charcount">
-                                                <input aria-labelledby="passwordLabel passwordDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="password" type="password">
+                                                <input aria-labelledby="passwordLabel passwordDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="password" type="password">
                                                 <span class="badge badge-success"> 1000 </span> </div>
                                         </countdown>
                                         <errors controlname="password"> </errors>
@@ -110,7 +110,7 @@ $page_title = 'LDAP configuration';
                                         <div class="ccf-instructional-text" id="passwordConfirmDirections">
                                             <message key="admin.ldap.field.passwordConfirm.directions">Confirm the password. Passwords must match.</message>
                                         </div>
-                                        <input aria-labelledby="passwordConfirmLabel passwordConfirmDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="passwordConfirm" type="password">
+                                        <input aria-labelledby="passwordConfirmLabel passwordConfirmDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="passwordConfirm" type="password">
                                         <errors controlname="passwordConfirm"> </errors>
                                     </div>
                                     <errors controlname="ldapId"> </errors>

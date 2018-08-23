@@ -26,7 +26,7 @@ $page_title = 'Campuses';
                 <div class="col-12">
                     <div class="row">
                         <div class="col-12 col-lg-10 col-xl-8">
-                            <form novalidate class="ng-untouched ng-pristine ng-invalid">
+                            <form novalidate class="  ">
                                 <div class="form-group">
                                     <label class="control-label" id="nameLabel">
                                         <message key="admin.field.name">Name</message>
@@ -36,7 +36,7 @@ $page_title = 'Campuses';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="name" type="text">
+                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control" formcontrolname="name" type="text">
                                             <span class="badge badge-success"> 100 </span> </div>
                                     </countdown>
                                     <errors controlname="name"> 
@@ -52,7 +52,7 @@ $page_title = 'Campuses';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="shortNameLabel shortNameDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="shortName" type="text">
+                                            <input aria-labelledby="shortNameLabel shortNameDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="shortName" type="text">
                                             <span class="badge badge-success"> 5 </span> </div>
                                     </countdown>
                                     <errors controlname="shortName"> 
@@ -68,7 +68,7 @@ $page_title = 'Campuses';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="uniqueKeyLabel uniqueKeyDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="uniqueKey" type="text">
+                                            <input aria-labelledby="uniqueKeyLabel uniqueKeyDirections" ccfvalidated="" class="form-control" formcontrolname="uniqueKey" type="text">
                                             <span class="badge badge-success"> 100 </span> </div>
                                     </countdown>
                                     <errors controlname="uniqueKey"> 
@@ -84,7 +84,7 @@ $page_title = 'Campuses';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="liveDataKeyLabel liveDataKeyDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="liveDataKey" type="text">
+                                            <input aria-labelledby="liveDataKeyLabel liveDataKeyDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="liveDataKey" type="text">
                                             <span class="badge badge-success"> 100 </span> </div>
                                     </countdown>
                                     <errors controlname="liveDataKey"> 

@@ -95,12 +95,12 @@
                             <input type="text" class="form-control" id="banneduseruser" placeholder="" value="jlancer" readonly>
                         </div>
                         <div class="form-group">
-                            <label for="selectresponse">Reason for ad deactivation</label>
+                            <label for="selectresponse">Reason for administrative action</label>
                             <select class="form-control" id="selectresponse">
                                 <option value="Fraudulent activity">Fraudulent activity</option>
-                                <option value="Contains offensive material">Contains offensive material</option>
-                                <option value="Promotes personal/commercial business">Promotes personal/commercial business</option>
-                                <option value="Promotes a political/social agenda">Promotes a political/social agenda</option>
+                                <option value="Posting offensive material">Posting offensive material</option>
+                                <option value="Promoting a personal/commercial business">Promoting a personal/commercial business</option>
+                                <option value="Promoting a political/social agenda">Promoting a political/social agenda</option>
                                 <option value="Selling IU parking permit">Selling IU parking permit</option>
                                 <option value="Fake ad">Fake ad</option>
                                 <option value="Other">Other</option>
@@ -160,7 +160,7 @@
                     <li>An infraction was logged for user 'jlancer' for 'Fraudulent activity'.</li>
                    
                 </ul>
-                <p>You may review actions taken against this user in <a href="admin-usermaintenance.php">User maintenance</a>. </p>
+                <p>You may review actions taken against this user in <a href="admin-usermaintenance1.php">User moderation</a>. </p>
             </div>
             <div class="modal-footer demojs-admin-confirm-addeactmessagesent" style="display:none">
                 <button class="btn btn-outline-primary" data-dismiss="modal">Close</button>
