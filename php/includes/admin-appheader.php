@@ -48,7 +48,7 @@
 
 
 <a <?php if ($page_title == 'API accounts') { echo 'class="dropdown-item active"'; } ?> href="admin-apiaccounts.php" class="dropdown-item">API accounts</a> 
-<a <?php if ($page_title == 'API documentation') { echo 'class="dropdown-item active"'; } ?> href="admin-apidocs.php" class="dropdown-item">API documentation</a> </div>
+ </div>
                             </li>
                             <li class="nav-item dropdown"> 
 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Configuration</a>
@@ -115,8 +115,7 @@
 <a href="admin-ldap.php">LDAP configuration</a> </li>
             <li class="list-group-item"> 
 <a href="admin-apiaccounts.php">API accounts</a> </li>
-            <li class="list-group-item"> 
-<a href="admin-apidocs.php">API documentation</a> </li>
+     
         </ul>
         <h3 class="rbt-ts-14 text-uppercase mt-3 mb-2">Configuration</h3>
         <ul class="list-group ">
