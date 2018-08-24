@@ -15,7 +15,7 @@ $page_title = 'User moderation';
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
     <main class="main-content">
-        <div class="row mb-1 no-gutters align-items-center mb-5">
+        <div class="row mb-1 no-gutters align-items-center mb-3">
             <div class="col">
                 <h1> <?php echo $page_title; ?></h1>
             </div>
