@@ -37,7 +37,7 @@ $page_title = 'User moderation';
                             <label class="form-check-label" for="showrevoked">Revoked access only</label>
                         </div>
                     </div>
-                    <div class="col-auto"><a href="admin-usermaintenance-add.php" class="btn btn-sm btn-outline-primary"><span class="rbt-icon-plus ml-0"></span> Add user</a></div>
+                    <div class="col-auto"><a href="admin-usermaintenance-add.php" class="btn btn-sm btn-outline-primary"> Moderate user</a></div>
                 </div>
                 <table class="table rbt-table-responsive table-actions">
                     <thead>

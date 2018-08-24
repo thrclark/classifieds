@@ -75,7 +75,7 @@ $page_title = 'User moderation';
                         <tr class="demojs-detailrow" style="display:none">
                             <td colspan="4" style="white-space: inherit; background:#eae8df" ><div class="row">
                                     <div class="col">
-                                        <div class="rbt-ts-20 font-weight-bold">Viewing activity for 'tewtband'</div>
+                                        <div class="rbt-ts-20 font-weight-bold">Activity for 'tewtband'</div>
                                     </div>
                                     <div class="col-auto">
                                         <div class="dropdown">

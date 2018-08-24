@@ -28,7 +28,7 @@ $page_title = 'User moderation';
                     <li class="breadcrumb-item active" aria-current="page">'zealfleo'</li>
                 </ol>
             </nav>
-            <h2>Viewing activity for 'zealfleo'</h2>
+            <h2>Activity for 'zealfleo'</h2>
             <div class="row">
                 <div class="col">
                     <ul class="rvb-timeline mt-3" id="timeline3" style="">
