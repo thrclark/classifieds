@@ -69,7 +69,7 @@ $page_title = 'User moderation';
                                                         <span class="badge badge-success" id="counterDemo1_badge"> <span id="charcounter1">100</span> </span> </div>
                                                 </countdown>
                                             </div>
-                                            <div class="font-weight-bold mb-1 mt-3">Deactivate ads by 'thrclark'</div>
+                                            <div class="font-weight-bold mb-1 mt-3">Deactivate ads by 'ewestfal'</div>
                                             <div class="form-check">
                                                 <input class="form-check-input demojs-otherad" type="checkbox" value="" id="otherad3" >
                                                 <label class="form-check-label" for="otherad3"> "Math-M211 and M212 Text" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
@@ -78,12 +78,12 @@ $page_title = 'User moderation';
                                                 <input class="form-check-input demojs-otherad" type="checkbox" value="" id="otherad4" >
                                                 <label class="form-check-label" for="otherad4"> "Math-M211 and M212 bo0k" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </label>
                                             </div>
-                                            <div class="font-weight-bold mb-1 mt-3">Revoke system access for 'thrclark'? </div>
+                                            <div class="font-weight-bold mb-1 mt-3">Revoke system access for 'ewestfal'? </div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="revokeaccess1">
                                                 <label class="form-check-label" for="revokeaccess1"> Yes, revoke access (this will deactivate all ads by this user). </label>
                                             </div>
-                                            <div class="font-weight-bold mb-1 mt-3">Send a message to 'thrclark'?</div>
+                                            <div class="font-weight-bold mb-1 mt-3">Send a message to 'ewestfal'?</div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="sendusermessage_toggle" checked="">
                                                 <label class="form-check-label" for="sendusermessage_toggle"> Send message </label>
@@ -93,7 +93,7 @@ $page_title = 'User moderation';
                                             <legend class="">Message user</legend>
                                             <div class="form-group">
                                                 <label for="banneduseruser">User</label>
-                                                <input type="text" class="form-control" id="banneduseruser" placeholder="" value="thrclark" readonly>
+                                                <input type="text" class="form-control" id="banneduseruser" placeholder="" value="ewestfal" readonly>
                                             </div>
                                             <div class="form-group">
                                                 <label for="responsefield1">Message to be sent</label>
