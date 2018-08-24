@@ -20,7 +20,7 @@ $page_title = 'User moderation';
                 <h1> <?php echo $page_title; ?></h1>
             </div>
             <div class="col-auto">
-                <div class="mr-3 pr-3 border-right"><a class="btn btn-link font-weight-normal" href="admin-usermaintenance1.php">View all</a></div>
+                <div class="mr-4 pr-1 border-right"><a class="btn btn-link font-weight-normal" href="admin-usermaintenance1.php">View all</a></div>
             </div>
             <div class="col-auto">
                 <div class="form-group mb-0" style="margin-bottom:0px !important">
