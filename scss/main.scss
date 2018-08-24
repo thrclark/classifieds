@@ -1,5 +1,6 @@
 
 // load custom variables & mixins
+$rbt-font-path:  "../fonts" !default;
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-variables";
 @import "custom/all-effects";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-mixins.scss";
