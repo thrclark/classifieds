@@ -15,50 +15,49 @@ $page_title = 'User moderation';
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
     <main class="main-content">
-        <div class="row mb-1 no-gutters align-items-center">
-            <div class="col-12 col-sm">
+        <div class="row mb-1 no-gutters align-items-center mb-5">
+            <div class="col">
                 <h1> <?php echo $page_title; ?></h1>
             </div>
+            <div class="col-auto">
+                <div class="mr-3 pr-3 border-right"><a class="btn btn-link font-weight-normal" href="admin-usermaintenance1.php">View all</a></div>
+            </div>
+            <div class="col-auto">
+                <div class="form-group mb-0" style="margin-bottom:0px !important">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Find user" aria-label="" aria-describedby="" id="demojs_uservalue" >
+                        <div class="input-group-append"> <a href="" class="btn btn-primary" id="finduser"><i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">Search</span></a> </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <nav aria-label="breadcrumb" role="navigation">
-            <ol class="breadcrumb rbt-breadcrumb-no-bkg mb-3 pt-0">
-                <li class="breadcrumb-item"><a href="admin-usermaintenance1.php">User moderation</a></li>
-                <li class="breadcrumb-item active" aria-current="page">'languid'</li>
-            </ol>
-        </nav>
-        <h2>Activity for 'languid'</h2>
+        <h2>Activity for 'eecox'</h2>
         <div class="row">
             <div class="col">
                 <ul class="rvb-timeline mt-3" id="timeline4" style="">
-                     <li>
+                    <li>
                         <div class="rvb-timeline-marker bg-secondary"></div>
                         <div class="card">
                             <div class="row">
                                 <div class="col">
-                                     <h2 class="card-title">Restore access</h2>
+                                    <h2 class="card-title">Restore access</h2>
                                 </div>
-                                   <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet1-2"></span></div>
+                                <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet1-2"></span></div>
                             </div>
                             <div class="row mt-3 border-top" id="showdet1-2" style="display:none">
                                 <div class="col-8 pt-3">
                                     <form class="">
                                         <fieldset>
                                             <legend class="">Restore access</legend>
-                               <div class="form-group">
+                                            <div class="form-group">
                                                 <label for="restore_reason">Reason for restored access</label>
                                                 <textarea class="form-control" id="restore_reason" rows="8"></textarea>
                                             </div>
-                                            
-                                            
-                                              <div class="form-group">
+                                            <div class="form-group">
                                                 <label for="restore_reason">Message to be sent to user</label>
                                                 <textarea class="form-control" id="restore_reason" rows="8"></textarea>
                                             </div>
-                                            
-                                            
-                                            
                                         </fieldset>
-                                      
                                         <div class="rbt-button-group mt-3"> <a class="btn btn-primary demojs-btn-hiderevoke" routerlink="" href="#">
                                                 <message key="global.buttons.cancel">Restore access and send message</message>
                                             </a> <a class="btn btn-outline-primary demojs-btn-hiderevoke" routerlink="" href="#">
@@ -83,7 +82,7 @@ $page_title = 'User moderation';
                                 <div class="col">
                                     <dl class="row justify-content-end mt-3">
                                         <dt class="col-sm-3">Revocation reason</dt>
-                                        <dd class="col-sm-9">The security office emailed us us on 8/12/2018 with the following note: "Please deacivate any account access on behalf of user 'languid'. Please notify us of any future communications you might have with this user." </dd>
+                                        <dd class="col-sm-9">The security office emailed us us on 8/12/2018 with the following note: "Please deacivate any account access on behalf of user 'eecox'. Please notify us of any future communications you might have with this user." </dd>
                                         <dt class="col-sm-3">Message sent to user</dt>
                                         <dd class="col-sm-9">The University Security Office has requested that we revoke your access to the Classifieds system. Please direct any correspondences regarding this matter to <a href="#">itsecure@iu.edu</a>.</dd>
                                         <dt class="col-sm-3">System access</dt>
@@ -194,6 +193,37 @@ $page_title = 'User moderation';
             $("#showwarning").hide();
         });
     });
+</script> 
+<script>
+$(document).ready(function () {
+    $("#finduser").click(function () {
+	
+        var text = $("#demojs_uservalue").val();
+        var user0 = "ewestfal";
+var user1 = "thrclark";
+		var user2 = "jhopf";
+		var user3 = "jtwalker";
+		var user4 = "eecox";
+        if (text == user0) {
+            $('#finduser').attr("href", "admin-usermaintenance-user0.php");
+        }
+ if (text == user1) {
+            $('#finduser').attr("href", "admin-usermaintenance-user1.php");
+        }
+		if (text == user2) {
+             $('#finduser').attr("href", "admin-usermaintenance-user2.php");
+        }
+		if (text == user3) {
+             $('#finduser').attr("href", "admin-usermaintenance-user3.php");
+        }
+		if (text == user4) {
+             $('#finduser').attr("href", "admin-usermaintenance-user4.php");
+        }
+    });
+	 $("#demojs_uservalue").click(function () {
+		 	alert( "For the prototype, valid usernames are: ewestfal, thrclark, jhopf, jtwalker, eecox" );
+	});
+});
 </script>
 </body>
 </html>

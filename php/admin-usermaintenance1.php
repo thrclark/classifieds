@@ -11,21 +11,21 @@ $page_title = 'User moderation';
 </head>
 <body>
 <?php include('includes/all-custom-header.php') ?>
-<?php include('includes/admin-appheader.php') ?>	
+<?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
     <div class="row">
         <div class="col-12">
             <main class="main-content" id="main-content">
-                <div class="row no-gutters mb-4 justify-content-between align-items-center">
-                    <div class="col-9">
+                <div class="row mb-1 no-gutters align-items-center mb-3">
+                    <div class="col">
                         <h1> <?php echo $page_title; ?></h1>
                     </div>
-                    <div class="col-3">
-                        <div class="input-group clear-field">
-                            <input type="text" class="form-control" id="clear_field2">
-                            <button class="cleartext" id="cleartext2" style="display:none"> <i class="rbt-icon-circle-close"></i></button>
-                            <div class="input-group-append">
-                                <button class="btn btn-primary" type="button"><i class="fa fa-search"></i> <span class="sr-only">Search</span></button>
+                    <div class="col-auto">
+                        <div class="form-group mb-0" style="margin-bottom:0px !important">
+                            <div class="input-group">
+                                <label class="sr-only" for="demojs_uservalue">Find/add user</label>
+                                <input type="text" class="form-control" placeholder="Find/add user" aria-label="" aria-describedby="" id="demojs_uservalue" >
+                                <div class="input-group-append"> <a href="" class="btn btn-primary" id="finduser"><i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">Search</span></a> </div>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ $page_title = 'User moderation';
                             <label class="form-check-label" for="showrevoked">Revoked access only</label>
                         </div>
                     </div>
-                    <div class="col-auto"><a href="admin-usermaintenance-add.php" class="btn btn-sm btn-outline-primary"> Moderate user</a></div>
+                    <!--  <div class="col-auto"><a href="admin-usermaintenance-user0.php" class="btn btn-sm btn-outline-primary"> Moderate user</a></div>--> 
                 </div>
                 <table class="table rbt-table-responsive table-actions">
                     <thead>
@@ -56,19 +56,19 @@ $page_title = 'User moderation';
                             <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user1.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
                         </tr>
                         <tr class="demojs-accessactive">
-                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">tewtband</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">jhopf</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0003023985</span></td>
                             <td>Access reinstated </td>
                             <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user2.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
                         </tr>
                         <tr class="demojs-accessrevoked">
-                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">zealfleo</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">jtwalker</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0003956434</span></td>
                             <td>Access revoked</td>
                             <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user3.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
                         </tr>
                         <tr class="demojs-accessrevoked">
-                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">languid</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">eecox</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0002534347</span></td>
                             <td>Access revoked </td>
                             <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user4.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
@@ -230,6 +230,37 @@ $(document).ready(function() {
         $("#clear_field2").val("");
         $("#clear_field2").focus();
     });
+});
+</script> 
+<script>
+$(document).ready(function () {
+    $("#finduser").click(function () {
+	
+        var text = $("#demojs_uservalue").val();
+        var user0 = "ewestfal";
+var user1 = "thrclark";
+		var user2 = "jhopf";
+		var user3 = "jtwalker";
+		var user4 = "eecox";
+        if (text == user0) {
+            $('#finduser').attr("href", "admin-usermaintenance-user0.php");
+        }
+ if (text == user1) {
+            $('#finduser').attr("href", "admin-usermaintenance-user1.php");
+        }
+		if (text == user2) {
+             $('#finduser').attr("href", "admin-usermaintenance-user2.php");
+        }
+		if (text == user3) {
+             $('#finduser').attr("href", "admin-usermaintenance-user3.php");
+        }
+		if (text == user4) {
+             $('#finduser').attr("href", "admin-usermaintenance-user4.php");
+        }
+    });
+	 $("#demojs_uservalue").click(function () {
+		 	alert( "For the prototype, valid usernames are: ewestfal, thrclark, jhopf, jtwalker, eecox" );
+	});
 });
 </script>
 </body>

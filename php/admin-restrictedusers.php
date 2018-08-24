@@ -42,17 +42,17 @@ $page_title = 'Restricted users';
                             <td><b class="rbt-table-responsive-cell-label">Actions</b><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
                         </tr>
                         <tr>
-                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">tewtband</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">jhopf</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0003023985</span></td>
                             <td> <b class="rbt-table-responsive-cell-label">Actions</b><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
                         </tr>
                         <tr>
-                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">zealfleo</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">jtwalker</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0003956434</span></td>
                             <td> <b class="rbt-table-responsive-cell-label">Actions</b><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
                         </tr>
                         <tr>
-                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">languid</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">eecox</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0002534347</span></td>
                             <td> <b class="rbt-table-responsive-cell-label">Actions</b><button type="button" class="btn btn-outline-primary btn-sm">Reinstate</button></td>
                         </tr>

@@ -66,7 +66,7 @@ $page_title = 'User moderation';
                                 <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#maintain_user"  >View activity</button></td>
                         </tr>
                         <tr>
-                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">tewtband</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">jhopf</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0003023985</span></td>
                             <td>Reported</td>
                             <td><b class="rbt-table-responsive-cell-label">Actions</b>
@@ -75,7 +75,7 @@ $page_title = 'User moderation';
                         <tr class="demojs-detailrow" style="display:none">
                             <td colspan="4" style="white-space: inherit; background:#eae8df" ><div class="row">
                                     <div class="col">
-                                        <div class="rbt-ts-20 font-weight-bold">Activity for 'tewtband'</div>
+                                        <div class="rbt-ts-20 font-weight-bold">Activity for 'jhopf'</div>
                                     </div>
                                     <div class="col-auto">
                                         <div class="dropdown">
@@ -220,14 +220,14 @@ $page_title = 'User moderation';
                                 </div></td>
                         </tr>
                         <tr>
-                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">zealfleo</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">jtwalker</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0003956434</span></td>
                             <td>Access revoked</td>
                             <td><b class="rbt-table-responsive-cell-label">Actions</b>
                                 <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#maintain_user"  >View activity</button></td>
                         </tr>
                         <tr>
-                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">languid</span></td>
+                            <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">eecox</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0002534347</span></td>
                             <td>Reported</td>
                             <td><b class="rbt-table-responsive-cell-label">Actions</b>

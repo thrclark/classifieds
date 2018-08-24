@@ -15,17 +15,22 @@ $page_title = 'User moderation';
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
     <main class="main-content">
-        <div class="row mb-1 no-gutters align-items-center">
-            <div class="col-12 col-sm">
+        <div class="row mb-1 no-gutters align-items-center mb-5">
+            <div class="col">
                 <h1> <?php echo $page_title; ?></h1>
             </div>
+            <div class="col-auto">
+                <div class="mr-3 pr-3 border-right"><a class="btn btn-link font-weight-normal" href="admin-usermaintenance1.php">View all</a></div>
+            </div>
+            <div class="col-auto">
+                <div class="form-group mb-0" style="margin-bottom:0px !important">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Find user" aria-label="" aria-describedby="" id="demojs_uservalue" >
+                        <div class="input-group-append"> <a href="" class="btn btn-primary" id="finduser"><i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">Search</span></a> </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <nav aria-label="breadcrumb" role="navigation">
-            <ol class="breadcrumb rbt-breadcrumb-no-bkg mb-3 pt-0">
-                <li class="breadcrumb-item"><a href="admin-usermaintenance1.php">User moderation</a></li>
-                <li class="breadcrumb-item active" aria-current="page">'thrclark'</li>
-            </ol>
-        </nav>
         <h2>Activity for 'thrclark'</h2>
         <div class="row">
             <div class="col">
@@ -35,9 +40,9 @@ $page_title = 'User moderation';
                         <div class="card">
                             <div class="row">
                                 <div class="col">
-                                     <h2 class="card-title">Administrative actions</h2>
+                                    <h2 class="card-title">Administrative actions</h2>
                                 </div>
-                                   <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet1-2"></span></div>
+                                <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet1-2"></span></div>
                             </div>
                             <div class="row mt-3 border-top" id="showdet1-2" style="display:none">
                                 <div class="col-8 pt-3">
@@ -113,21 +118,15 @@ $page_title = 'User moderation';
                                 <div class="col">
                                     <h2 class="card-title">Warning issued; ads deactivated (fradulent activity)</h2>
                                 </div>
-                                <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet1-1"></span></div>	
+                                <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet1-1"></span></div>
                             </div>
                             <div class="row mt-3 border-top" id="showdet1-1" style="display:nonee">
                                 <div class="col">
                                     <dl class="row justify-content-end mt-3">
                                         <dt class="col-sm-3">Deactivated ads</dt>
-                                        <dd class="col-sm-9">"Sublet apartment near campus"
-                                            <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a>
-                                        </dd>
-                                        <dd class="col-sm-9 offset-md-3">"Math 101 textbook"
-                                            <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a>
-                                        </dd>
-                                        <dd class="col-sm-9 offset-md-3">"Rideshare to Chicago needed"
-                                            <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a>
-                                        </dd>
+                                        <dd class="col-sm-9">"Sublet apartment near campus" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </dd>
+                                        <dd class="col-sm-9 offset-md-3">"Math 101 textbook" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </dd>
+                                        <dd class="col-sm-9 offset-md-3">"Rideshare to Chicago needed" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </dd>
                                         <dt class="col-sm-3">Deactivation reason</dt>
                                         <dd class="col-sm-9">Fraudulent activity</dd>
                                         <dt class="col-sm-3">Message sent to user</dt>
@@ -240,8 +239,7 @@ $page_title = 'User moderation';
             $("#showwarning").hide();
         });
     });
-</script>
-
+</script> 
 <script type="text/javascript">
     $(document).ready(function() {
 
@@ -257,6 +255,37 @@ $page_title = 'User moderation';
         $('#revokeaccess1').trigger('change');
 
     });
+</script> 
+<script>
+$(document).ready(function () {
+    $("#finduser").click(function () {
+	
+        var text = $("#demojs_uservalue").val();
+        var user0 = "ewestfal";
+var user1 = "thrclark";
+		var user2 = "jhopf";
+		var user3 = "jtwalker";
+		var user4 = "eecox";
+        if (text == user0) {
+            $('#finduser').attr("href", "admin-usermaintenance-user0.php");
+        }
+ if (text == user1) {
+            $('#finduser').attr("href", "admin-usermaintenance-user1.php");
+        }
+		if (text == user2) {
+             $('#finduser').attr("href", "admin-usermaintenance-user2.php");
+        }
+		if (text == user3) {
+             $('#finduser').attr("href", "admin-usermaintenance-user3.php");
+        }
+		if (text == user4) {
+             $('#finduser').attr("href", "admin-usermaintenance-user4.php");
+        }
+    });
+	 $("#demojs_uservalue").click(function () {
+		 	alert( "For the prototype, valid usernames are: ewestfal, thrclark, jhopf, jtwalker, eecox" );
+	});
+});
 </script>
 </body>
 </html>

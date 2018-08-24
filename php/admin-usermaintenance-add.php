@@ -43,8 +43,8 @@ $page_title = 'User moderation';
                                     </div>
                                     <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control" formcontrolname="name" type="text">
                                 </div>
-                               
-                       <!--         <div class="mb-3">
+                                
+                                <!--         <div class="mb-3">
                                     <div class="font-weight-bold mb-1 mt-3"> Administrative action type </div>
                                     <div class="ccf-instructional-text" id="shortNameDirections">
                                         <message key="admin.market.field.shortName.directions">Select which type of action you wish to perform on this user.</message>
@@ -110,7 +110,7 @@ $page_title = 'User moderation';
                                         <message key="global.buttons.cancel">Next</message>
                                     </a> <a class="btn btn-outline-primary" routerlink="" href="admin-usermaintenance1.php">
                                         <message key="global.buttons.cancel">Cancel</message>
-                                </a> </div>
+                                    </a> </div>
                             </form>
                         </div>
                     </div>
