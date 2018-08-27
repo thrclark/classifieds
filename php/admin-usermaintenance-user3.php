@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'settings';
-$page_title = 'User moderation';
+$page_title = 'Moderate users';
 ?>
 
 <!DOCTYPE html>
@@ -16,16 +16,16 @@ $page_title = 'User moderation';
 <div class="container pt-3">
     <main class="main-content">
         <div class="row mb-1 no-gutters align-items-center mb-3">
-            <div class="col">
+            <div class="col-md-6 col-lg-8">
                 <h1> <?php echo $page_title; ?></h1>
             </div>
-            <div class="col-auto">
-                <div class="mr-4 pr-1 border-right"><a class="btn btn-link font-weight-normal" href="admin-usermaintenance1.php">View all</a></div>
-            </div>
-            <div class="col-auto">
-                <div class="form-group mb-0" style="margin-bottom:0px !important">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Find user" aria-label="" aria-describedby="" id="demojs_uservalue" >
+            <div class="col-md-6 col-lg-4">
+                <div class="d-flex flex-row">
+                    <div class="mr-4 pr-1 border-right"><a class="btn btn-link font-weight-normal" href="admin-usermaintenance1.php">View all</a></div>
+                    <div class="input-group clear-field">
+                        <label class="sr-only" for="demojs_uservalue">Find/add user</label>
+                        <input type="text" class="form-control" placeholder="Find/add user" aria-label="" aria-describedby="" id="demojs_uservalue" >
+                        <button class="cleartext" id="cleartext2" style="display:none"> <i class="rbt-icon-circle-close"></i></button>
                         <div class="input-group-append"> <a href="" class="btn btn-primary" id="finduser"><i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">Search</span></a> </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ $page_title = 'User moderation';
         <h2>Activity for 'jtwalker'</h2>
         <div class="row">
             <div class="col">
-                <ul class="rvb-timeline mt-3" id="timeline3" style="">
+                <ul class="rvb-timeline mt-3 mb-5" id="timeline3" style="">
                     <li>
                         <div class="rvb-timeline-marker bg-secondary"></div>
                         <div class="card">
@@ -255,5 +255,27 @@ var user1 = "thrclark";
 	});
 });
 </script>
+<script>
+$(document).ready(function() {
+    $('#demojs_uservalue').keydown(function() {
+        tmpval = $(this).val();
+        if (tmpval == '') {
+            $("#cleartext2").css({
+                "display": "none"
+            });
+        } else {
+            $("#cleartext2").css({
+                "display": "block"
+            });
+        }
+    });
+    $("#cleartext2").click(function() {
+        $("#cleartext2").hide();
+        $("#demojs_uservalue").val("");
+        $("#demojs_uservalue").focus();
+    });
+});
+</script>
 </body>
 </html>
+

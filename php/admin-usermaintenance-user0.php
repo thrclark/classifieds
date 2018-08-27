@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'settings';
-$page_title = 'User moderation';
+$page_title = 'Moderate users';
 ?>
 
 <!DOCTYPE html>
@@ -16,16 +16,16 @@ $page_title = 'User moderation';
 <div class="container pt-3">
     <main class="main-content">
         <div class="row mb-1 no-gutters align-items-center mb-3">
-            <div class="col">
+            <div class="col-md-6 col-lg-8">
                 <h1> <?php echo $page_title; ?></h1>
             </div>
-            <div class="col-auto">
-                <div class="mr-4 pr-1 border-right"><a class="btn btn-link font-weight-normal" href="admin-usermaintenance1.php">View all</a></div>
-            </div>
-            <div class="col-auto">
-                <div class="form-group mb-0" style="margin-bottom:0px !important">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Find user" aria-label="" aria-describedby="" id="demojs_uservalue" >
+            <div class="col-md-6 col-lg-4">
+                <div class="d-flex flex-row">
+                    <div class="mr-4 pr-1 border-right"><a class="btn btn-link font-weight-normal" href="admin-usermaintenance1.php">View all</a></div>
+                    <div class="input-group clear-field">
+                        <label class="sr-only" for="demojs_uservalue">Find/add user</label>
+                        <input type="text" class="form-control" placeholder="Find/add user" aria-label="" aria-describedby="" id="demojs_uservalue" >
+                        <button class="cleartext" id="cleartext2" style="display:none"> <i class="rbt-icon-circle-close"></i></button>
                         <div class="input-group-append"> <a href="" class="btn btn-primary" id="finduser"><i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">Search</span></a> </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ $page_title = 'User moderation';
         <h2> Activity for 'ewestfal'</h2>
         <div class="row" style="display:">
             <div class="col">
-                <ul class="rvb-timeline mt-3" id="timeline1" style="">
+                <ul class="rvb-timeline mt-3 mb-5" id="timeline1" style="">
                     <li>
                         <div class="rvb-timeline-marker bg-secondary"></div>
                         <div class="card">
@@ -100,12 +100,40 @@ $page_title = 'User moderation';
                                                 <textarea class="form-control" id="responsefield1" rows="8">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</textarea>
                                             </div>
                                         </fieldset>
-                                        <div class="rbt-button-group mt-3"> <a class="btn btn-primary demojs-btn-hiderevoke" routerlink="" href="#">
+                                        <div class="rbt-button-group mt-3"> <a class="btn btn-primary demojs-btn-performactions"  href="#">
                                                 <message key="global.buttons.cancel">Perform actions</message>
-                                            </a> <a class="btn btn-outline-primary demojs-btn-hiderevoke" routerlink="" href="#">
+                                            </a> <a class="btn btn-outline-primary demojs-btn-cancelactions" routerlink="" href="#">
                                                 <message key="global.buttons.cancel">Cancel</message>
                                             </a> </div>
                                     </form>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:none" id="timeline2">
+                        <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>03:42 AM</span></time>
+                        <div class="rvb-timeline-marker bg-warning"></div>
+                        <div class="card">
+                            <div class="row">
+                                <div class="col">
+                                    <h2 class="card-title">Warning issued; ads deactivated (fradulent activity)</h2>
+                                </div>
+                                <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet2-1"></span></div>
+                            </div>
+                            <div class="row mt-3 border-top" id="showdet2-1" style="display:nonee">
+                                <div class="col">
+                                    <dl class="row justify-content-end mt-3">
+                                        <dt class="col-sm-3">Deactivated ads</dt>
+                                        <dd class="col-sm-9">"Sublet apartment near campus" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </dd>
+                                        <dd class="col-sm-9 offset-md-3">"Math 101 textbook" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </dd>
+                                        <dd class="col-sm-9 offset-md-3">"Rideshare to Chicago needed" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </dd>
+                                        <dt class="col-sm-3">Deactivation reason</dt>
+                                        <dd class="col-sm-9">Fraudulent activity</dd>
+                                        <dt class="col-sm-3">Message sent to user</dt>
+                                        <dd class="col-sm-9">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</dd>
+                                        <dt class="col-sm-3">System access</dt>
+                                        <dd class="col-sm-9">Enabled</dd>
+                                    </dl>
                                 </div>
                             </div>
                         </div>
@@ -186,30 +214,25 @@ $page_title = 'User moderation';
 </script> 
 <script>
     $(document).ready(function() {
-        $(".demojs-btn-showrevoke").click(function() {
-            $("#showrevoke").slideDown();
-            $("#showadminnote").hide();
-            $("#showwarning").hide();
+
+        $(".demojs-btn-performactions").click(function() {
+            
+			$("#showdet1-2").slideUp();
+			$("#timeline2").slideDown();
+			
+			
+			
         });
-        $(".demojs-btn-hiderevoke").click(function() {
-            $("#showrevoke").hide();
+		
+		 $(".demojs-btn-cancelactions").click(function() {
+            
+			$("#showdet1-2").slideUp();
+		
+			
+			
+			
         });
-        $(".demojs-btn-shownote").click(function() {
-            $("#showadminnote").slideDown();
-            $("#showrevoke").hide();
-            $("#showwarning").hide();
-        });
-        $(".demojs-btn-hidenote").click(function() {
-            $("#showadminnote").hide();
-        });
-        $(".demojs-btn-showwarning").click(function() {
-            $("#showwarning").slideDown();
-            $("#showrevoke").hide();
-            $("#showadminnote").hide();
-        });
-        $(".demojs-btn-hidewarning").click(function() {
-            $("#showwarning").hide();
-        });
+       
     });
 </script> 
 <script type="text/javascript">
@@ -257,6 +280,27 @@ var user1 = "thrclark";
 	 $("#demojs_uservalue").click(function () {
 		 	alert( "For the prototype, valid usernames are: ewestfal, thrclark, jhopf, jtwalker, eecox" );
 	});
+});
+</script> 
+<script>
+$(document).ready(function() {
+    $('#demojs_uservalue').keydown(function() {
+        tmpval = $(this).val();
+        if (tmpval == '') {
+            $("#cleartext2").css({
+                "display": "none"
+            });
+        } else {
+            $("#cleartext2").css({
+                "display": "block"
+            });
+        }
+    });
+    $("#cleartext2").click(function() {
+        $("#cleartext2").hide();
+        $("#demojs_uservalue").val("");
+        $("#demojs_uservalue").focus();
+    });
 });
 </script>
 </body>

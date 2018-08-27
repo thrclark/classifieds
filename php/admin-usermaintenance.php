@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'moderator';
-$page_title = 'User moderation';
+$page_title = 'Moderate users';
 ?>
 
 <!DOCTYPE html>

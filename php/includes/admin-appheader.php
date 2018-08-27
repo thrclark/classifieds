@@ -20,14 +20,14 @@
                             <li class="nav-item dropdown"> 
 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Moderation</a>
                                 <div class="dropdown-menu"> 
-<a <?php if ($page_title == 'Ads') { echo 'class="dropdown-item active"'; } ?> href="admin-ads.php" class="dropdown-item">Ads</a> 
-
-
-<!--<a <?php if ($page_title == 'Reports') { echo 'class="dropdown-item active"'; } ?> href="admin-reports.php" class="dropdown-item">Reported ads <span class="small">(4 new)</span></a> -->
+<a <?php if ($page_title == 'Ads') { echo 'class="dropdown-item active"'; } ?> href="admin-ads.php" class="dropdown-item">Moderate ads</a> 
 
 
 
-<a <?php if ($page_title == 'Restricted users') { echo 'class="dropdown-item active"'; } ?> href="admin-usermaintenance1.php" class="dropdown-item">User moderation</a> 
+
+
+
+<a <?php if ($page_title == 'Moderate users') { echo 'class="dropdown-item active"'; } ?> href="admin-usermaintenance1.php" class="dropdown-item">Moderate users</a> 
 <a <?php if ($page_title == 'Reindex ad') { echo 'class="dropdown-item active"'; } ?> href="admin-reindexad.php" class="dropdown-item">Reindex ad</a> </div>
                             </li>
                             <li class="nav-item dropdown"> 
@@ -82,16 +82,12 @@
         <h3 class="rbt-ts-14 text-uppercase mt-4 mb-2">Moderator</h3>
         <ul class="list-group ">
             <li class="list-group-item"> 
-<a href="admin-ads.php">Ads</a> </li>
-
-<!--
- <li class="list-group-item"> 
-<a href="admin-reports.php">Reported ads <span class="small">(4 new)</span></a> </li>-->
+<a href="admin-ads.php">Moderate ads</a> </li>
 
 
 
             <li class="list-group-item"> 
-<a href="admin-usermaintenance1.php">User moderation</a> </li>
+<a href="admin-usermaintenance1.php">Moderate users</a> </li>
             <li class="list-group-item"> 
 <a href="admin-reindexad.php">Reindex ad</a> </li>
         </ul>

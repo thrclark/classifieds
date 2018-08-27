@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'moderator';
-$page_title = 'User moderation';
+$page_title = 'Moderate users';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,14 +17,15 @@ $page_title = 'User moderation';
         <div class="col-12">
             <main class="main-content" id="main-content">
                 <div class="row mb-1 no-gutters align-items-center mb-3">
-                    <div class="col">
+                    <div class="col-md-6 col-lg-8">
                         <h1> <?php echo $page_title; ?></h1>
                     </div>
-                    <div class="col-auto">
-                        <div class="form-group mb-0" style="margin-bottom:0px !important">
-                            <div class="input-group">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div class="input-group clear-field">
                                 <label class="sr-only" for="demojs_uservalue">Find/add user</label>
                                 <input type="text" class="form-control" placeholder="Find/add user" aria-label="" aria-describedby="" id="demojs_uservalue" >
+                                <button class="cleartext" id="cleartext2" style="display:none"> <i class="rbt-icon-circle-close"></i></button>
                                 <div class="input-group-append"> <a href="" class="btn btn-primary" id="finduser"><i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">Search</span></a> </div>
                             </div>
                         </div>
@@ -261,6 +262,27 @@ var user1 = "thrclark";
 	 $("#demojs_uservalue").click(function () {
 		 	alert( "For the prototype, valid usernames are: ewestfal, thrclark, jhopf, jtwalker, eecox" );
 	});
+});
+</script> 
+<script>
+$(document).ready(function() {
+    $('#demojs_uservalue').keydown(function() {
+        tmpval = $(this).val();
+        if (tmpval == '') {
+            $("#cleartext2").css({
+                "display": "none"
+            });
+        } else {
+            $("#cleartext2").css({
+                "display": "block"
+            });
+        }
+    });
+    $("#cleartext2").click(function() {
+        $("#cleartext2").hide();
+        $("#demojs_uservalue").val("");
+        $("#demojs_uservalue").focus();
+    });
 });
 </script>
 </body>
