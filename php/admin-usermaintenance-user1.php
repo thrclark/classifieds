@@ -266,6 +266,7 @@ var user1 = "thrclark";
 		var user2 = "jhopf";
 		var user3 = "jtwalker";
 		var user4 = "eecox";
+		var user5 = "";
         if (text == user0) {
             $('#finduser').attr("href", "admin-usermaintenance-user0.php");
         }
@@ -281,12 +282,15 @@ var user1 = "thrclark";
 		if (text == user4) {
              $('#finduser').attr("href", "admin-usermaintenance-user4.php");
         }
+		if (text == user5) {
+             $('#finduser').attr("href", "admin-usermaintenance1-usernotfound.php");
+        }
     });
 	 $("#demojs_uservalue").click(function () {
 		 	alert( "For the prototype, valid usernames are: ewestfal, thrclark, jhopf, jtwalker, eecox" );
 	});
 });
-</script>
+</script> 
 <script>
 $(document).ready(function() {
     $('#demojs_uservalue').keydown(function() {

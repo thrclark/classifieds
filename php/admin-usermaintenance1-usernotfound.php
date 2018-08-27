@@ -31,6 +31,11 @@ $page_title = 'Moderate users';
                         </div>
                     </div>
                 </div>
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <button type="button" class="close" aria-label="Close" data-dismiss="alert"> <span class="rbt-icon-close"></span> </button>
+                    <div class="alert-heading">User not found</div>
+                    <p class="small">We were unable to find the specified username. Please try again with a valid username.</p>
+                </div>
                 <div class="row no-gutters mb-3 justify-content-between align-items-center">
                     <div class="col">
                         <div class="form-check">
