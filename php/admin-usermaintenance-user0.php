@@ -32,9 +32,9 @@ $page_title = 'Moderate users';
             </div>
         </div>
         <h2> Activity for 'ewestfal'</h2>
-        <div class="row" style="display:">
-            <div class="col">
-                <ul class="rvb-timeline mt-3 mb-5" id="timeline1" style="">
+        
+         <div class="p-5 mt-3 bg-white border">
+          <ul class="rvb-timeline" id="timeline1" >
                     <li>
                         <div class="rvb-timeline-marker bg-secondary"></div>
                         <div class="card">
@@ -137,8 +137,8 @@ $page_title = 'Moderate users';
                         </div>
                     </li>
                 </ul>
-            </div>
-        </div>
+                
+                </div>
     </main>
 </div>
 <?php include('modals/modal-admin-ad-detail.php') ?>

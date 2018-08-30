@@ -32,9 +32,8 @@ $page_title = 'Moderate users';
             </div>
         </div>
         <h2>Activity for 'jtwalker'</h2>
-        <div class="row">
-            <div class="col">
-                <ul class="rvb-timeline mt-3 mb-5" id="timeline3" style="">
+         <div class="p-5 mt-3 bg-white border">
+          <ul class="rvb-timeline" id="timeline3" >
                     <li>
                         <div class="rvb-timeline-marker bg-secondary"></div>
                         <div class="card">
@@ -70,7 +69,7 @@ $page_title = 'Moderate users';
                                         
                                         
                                         
-                                        <fieldset class="demojs-sendusermessage" style="">
+                                        <fieldset class="demojs-sendusermessage" >
                                             <legend class="">Message user</legend>
                                             <div class="form-group">
                                                 <label for="banneduseruser">User</label>
@@ -151,9 +150,7 @@ $page_title = 'Moderate users';
                             </div>
                         </div>
                     </li>
-                </ul>
-            </div>
-        </div>
+                </ul></div>
     </main>
 </div>
 <?php include('modals/modal-admin-ad-detail.php') ?>

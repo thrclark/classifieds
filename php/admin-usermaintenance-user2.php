@@ -32,9 +32,8 @@ $page_title = 'Moderate users';
             </div>
         </div>
         <h2>Activity for 'jhopf'</h2>
-        <div class="row">
-            <div class="col">
-                <ul class="rvb-timeline mt-3 mb-5" id="timeline2" style="">
+         <div class="p-5 mt-3 bg-white border">
+         <ul class="rvb-timeline" id="timeline2" >
                     <li>
                         <div class="rvb-timeline-marker bg-secondary"></div>
                         <div class="card">
@@ -221,9 +220,7 @@ $page_title = 'Moderate users';
                             </div>
                         </div>
                     </li>
-                </ul>
-            </div>
-        </div>
+                </ul></div>
     </main>
 </div>
 <?php include('modals/modal-admin-ad-detail.php') ?>
