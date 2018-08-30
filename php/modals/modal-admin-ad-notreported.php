@@ -84,7 +84,7 @@
                             <legend class="pt-3">Message user</legend>
                             <div class="form-group">
                                 <label for="banneduseruser">User</label>
-                                <input type="text" class="form-control" id="banneduseruser" placeholder="" value="jlancer" readonly>
+                                <input type="text" class="form-control" id="banneduseruser" placeholder="" value="jlancer@indiana.edu" readonly>
                             </div>
                             <div class="form-group">
                                 <label for="selectresponse">Reason for administrative action</label>
@@ -99,7 +99,7 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label for="responsefield">Message to be sent</label>
+                                <label for="responsefield">Email to be sent</label>
                                 <textarea class="form-control" id="responsefield" rows="8">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</textarea>
                             </div>
                         </fieldset>

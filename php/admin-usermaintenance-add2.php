@@ -73,10 +73,10 @@ $page_title = 'Moderate users';
                                                 <input class="form-check-input" type="checkbox" value="" id="revokeaccess1">
                                                 <label class="form-check-label" for="revokeaccess1"> Yes, revoke access (this will deactivate all ads by this user). </label>
                                             </div>
-                                            <div class="font-weight-bold mb-1 mt-3">Send a message to 'thrclark'?</div>
+                                            <div class="font-weight-bold mb-1 mt-3">Send an email to 'thrclark'?</div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="sendusermessage_toggle" checked="">
-                                                <label class="form-check-label" for="sendusermessage_toggle"> Send message </label>
+                                                <label class="form-check-label" for="sendusermessage_toggle"> Send email </label>
                                             </div>
                                         </fieldset>
                                     </div>
@@ -84,13 +84,13 @@ $page_title = 'Moderate users';
                                 <div class="card bg-light mb-3 demojs-sendusermessage">
                                     <div class="card-body">
                                         <fieldset>
-                                            <legend class="">Message user</legend>
+                                            <legend class="">Email user</legend>
                                             <div class="form-group">
                                                 <label for="banneduseruser">User</label>
-                                                <input type="text" class="form-control" id="banneduseruser" placeholder="" value="thrclark" readonly>
+                                                <input type="text" class="form-control" id="banneduseruser" placeholder="" value="thrclark@indiana.edu" readonly>
                                             </div>
                                             <div class="form-group">
-                                                <label for="responsefield1">Message to be sent</label>
+                                                <label for="responsefield1">Email to be sent</label>
                                                 <textarea class="form-control" id="responsefield1" rows="8">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</textarea>
                                             </div>
                                         </fieldset>

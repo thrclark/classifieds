@@ -41,7 +41,7 @@ $page_title = 'Moderate users';
                         <div class="card">
                             <div class="row">
                                 <div class="col">
-                                    <h2 class="card-title">Administrative actions</h2>
+                                    <h2 class="card-title">Take administrative actions</h2>
                                 </div>
                                 <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet1-2"></span></div>
                             </div>
@@ -84,20 +84,20 @@ $page_title = 'Moderate users';
                                                 <input class="form-check-input" type="checkbox" value="" id="revokeaccess1">
                                                 <label class="form-check-label" for="revokeaccess1"> Yes, revoke access (this will deactivate all ads by this user). </label>
                                             </div>
-                                            <div class="font-weight-bold mb-1 mt-3">Send a message to 'thrclark'?</div>
+                                            <div class="font-weight-bold mb-1 mt-3">Send an email to 'thrclark'?</div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="sendusermessage_toggle" checked="">
-                                                <label class="form-check-label" for="sendusermessage_toggle"> Send message </label>
+                                                <label class="form-check-label" for="sendusermessage_toggle"> Send email </label>
                                             </div>
                                         </fieldset>
                                         <fieldset class="demojs-sendusermessage">
-                                            <legend class="">Message user</legend>
+                                            <legend class="">Email user</legend>
                                             <div class="form-group">
                                                 <label for="banneduseruser">User</label>
-                                                <input type="text" class="form-control" id="banneduseruser" placeholder="" value="thrclark" readonly>
+                                                <input type="text" class="form-control" id="banneduseruser" placeholder="" value="thrclark@indiana.edu" readonly>
                                             </div>
                                             <div class="form-group">
-                                                <label for="responsefield1">Message to be sent</label>
+                                                <label for="responsefield1">Email to be sent</label>
                                                 <textarea class="form-control" id="responsefield1" rows="8">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</textarea>
                                             </div>
                                         </fieldset>
@@ -115,7 +115,7 @@ $page_title = 'Moderate users';
                         <div class="card">
                             <div class="row">
                                 <div class="col">
-                                    <h2 class="card-title">Warning issued; ads deactivated</h2>
+                                    <h2 class="card-title">Warning issued</h2>
                                 </div>
                                 <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet1-1"></span></div>
                             </div>
@@ -128,7 +128,7 @@ $page_title = 'Moderate users';
                                         <dd class="col-sm-9 offset-md-3">"Rideshare to Chicago needed" <a href="#" class="small font-italic demojs-btn-viewotherad" data-toggle="modal" data-target="#admin_post_detail">(view)</a> </dd>
                                         <dt class="col-sm-3">Reason</dt>
                                         <dd class="col-sm-9">Fraudulent activity</dd>
-                                        <dt class="col-sm-3">Message sent to user</dt>
+                                        <dt class="col-sm-3">Email sent to user</dt>
                                         <dd class="col-sm-9">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</dd>
                                         <dt class="col-sm-3">System access</dt>
                                         <dd class="col-sm-9">Enabled</dd>
