@@ -45,13 +45,13 @@ $page_title = 'Moderate users';
                     </div>
                     <!--  <div class="col-auto"><a href="admin-usermaintenance-user0.php" class="btn btn-sm btn-outline-primary"> Moderate user</a></div>--> 
                 </div>
-                <table class="table rbt-table-responsive table-actions">
+              <table class="table rbt-table-responsive table-actions">
                     <thead>
                         <tr>
                             <th> Username</th>
                             <th><strong>Person Id</strong></th>
                             <th>Status</th>
-                            <th class="text-center"><span class="sr-onlyyy">Actions</span> </th>
+                            <th class="text-center"><span class="sr-only">Actions</span> </th>
                         </tr>
                     </thead>
                     <tbody>
@@ -59,25 +59,25 @@ $page_title = 'Moderate users';
                             <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">thrclark</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0001328543</span></td>
                             <td>Warning issued </td>
-                            <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user1.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
+                            <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user1.php" class="btn btn-outline-primary btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
                         </tr>
                         <tr class="demojs-accessactive">
                             <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">jhopf</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0003023985</span></td>
                             <td>Access restored </td>
-                            <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user2.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
+                            <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user2.php" class="btn btn-outline-primary btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
                         </tr>
                         <tr class="demojs-accessrevoked">
                             <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">jtwalker</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0003956434</span></td>
                             <td>Access revoked</td>
-                            <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user3.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
+                            <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user3.php" class="btn btn-outline-primary btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
                         </tr>
                         <tr class="demojs-accessrevoked">
                             <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">eecox</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0002534347</span></td>
                             <td>Access revoked </td>
-                            <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user4.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
+                            <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user4.php" class="btn btn-outline-primary btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
                         </tr>
                     </tbody>
                 </table>
