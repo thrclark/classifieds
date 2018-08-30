@@ -72,11 +72,20 @@ $page_title = 'Moderate users';
                                             <div class="font-weight-bold mb-1 mt-3">Deactivate ads by 'thrclark'</div>
                                             <div class="form-check">
                                                 <input class="form-check-input demojs-otherad" type="checkbox" value="" id="otherad3" >
-                                                <label class="form-check-label" for="otherad3"> "Math-M211 and M212 Text" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
+                                                <label class="form-check-label" for="otherad3"> "Math-M211 and M212 Text" <a href="#" class="small font-italic demojs-btn-viewotherad" data-toggle="modal" data-target="#admin_post_detail">(view)</a></label>
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
                                             </div>
                                             <div class="form-check">
                                                 <input class="form-check-input demojs-otherad" type="checkbox" value="" id="otherad4" >
-                                                <label class="form-check-label" for="otherad4"> "Math-M211 and M212 bo0k" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </label>
+                                                <label class="form-check-label" for="otherad4"> "Math-M211 and M212 bo0k" <a href="#" class="small font-italic demojs-btn-viewotherad" data-toggle="modal" data-target="#admin_post_detail">(view)</a> </label>
                                             </div>
                                             <div class="font-weight-bold mb-1 mt-3">Revoke system access for 'thrclark'? </div>
                                             <div class="form-check">
@@ -102,9 +111,7 @@ $page_title = 'Moderate users';
                                         </fieldset>
                                         <div class="rbt-button-group mt-3"> <a class="btn btn-primary demojs-btn-hiderevoke" routerlink="" href="#">
                                                 <message key="global.buttons.cancel">Perform actions</message>
-                                            </a> <a class="btn btn-outline-primary demojs-btn-hiderevoke" routerlink="" href="#">
-                                                <message key="global.buttons.cancel">Cancel</message>
-                                            </a> </div>
+                                            </a>  </div>
                                     </form>
                                 </div>
                             </div>
@@ -123,7 +130,7 @@ $page_title = 'Moderate users';
                             <div class="row mt-3 border-top" id="showdet2-4" style="display:nonee">
                                 <div class="col">
                                     <dl class="row justify-content-end mt-4">
-                                        <dt class="col-sm-3">Admin notes</dt>
+                                        <dt class="col-sm-3">Reason</dt>
                                         <dd class="col-sm-9">User emailed us on 0/8/13/2018 with an apology, and expressed intent to abide by policy.</dd>
                                         <dt class="col-sm-3">Message sent to user</dt>
                                         <dd class="col-sm-9">Your access to IU Classifieds has been restored. Please be aware that future violations will result in revoked access to IU Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</dd>
@@ -140,7 +147,7 @@ $page_title = 'Moderate users';
                         <div class="card">
                             <div class="row">
                                 <div class="col">
-                                    <h2 class="card-title">Access revoked; ad deactivated (fradulent activity)</h2>
+                                    <h2 class="card-title">Access revoked; ad deactivated</h2>
                                 </div>
                                 <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet2-3"></span></div>
                             </div>
@@ -148,8 +155,8 @@ $page_title = 'Moderate users';
                                 <div class="col">
                                     <dl class="row justify-content-end mt-3">
                                         <dt class="col-sm-3">Deactivated ads</dt>
-                                        <dd class="col-sm-9">"Sublet apartment near campus" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </dd>
-                                        <dt class="col-sm-3">Deactivation reason</dt>
+                                        <dd class="col-sm-9">"Sublet apartment near campus" <a href="#" class="small font-italic demojs-btn-viewotherad" data-toggle="modal" data-target="#admin_post_detail">(view)</a> </dd>
+                                        <dt class="col-sm-3">Reason</dt>
                                         <dd class="col-sm-9">Fraudulent activity</dd>
                                         <dt class="col-sm-3">Message sent to user</dt>
                                         <dd class="col-sm-9">We have verified repeated instances of policy violations of the IU Classifieds system on your behalf. As such, your access has now been revoked. If you wish to address this situation with IU Classifieds administrators, please contact <a href="mailto:">one@iu.edu</a></dd>
@@ -166,7 +173,7 @@ $page_title = 'Moderate users';
                         <div class="card">
                             <div class="row">
                                 <div class="col">
-                                    <h2 class="card-title">Warning issued; ad deactivated (selling IU parking permit)</h2>
+                                    <h2 class="card-title">Warning issued; ad deactivated </h2>
                                 </div>
                                 <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet2-2"></span></div>
                             </div>
@@ -174,8 +181,8 @@ $page_title = 'Moderate users';
                                 <div class="col">
                                     <dl class="row justify-content-end mt-3">
                                         <dt class="col-sm-3">Deactivated ad</dt>
-                                        <dd class="col-sm-9">"Sublet apartment near campus" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </dd>
-                                        <dt class="col-sm-3">Deactivation reason</dt>
+                                        <dd class="col-sm-9">"Sublet apartment near campus" <a href="#" class="small font-italic demojs-btn-viewotherad" data-toggle="modal" data-target="#admin_post_detail">(view)</a> </dd>
+                                        <dt class="col-sm-3">Reason</dt>
                                         <dd class="col-sm-9">Selling IU parking permit</dd>
                                         <dt class="col-sm-3">Message sent to user</dt>
                                         <dd class="col-sm-9">Your IU Classifieds ad(s) for the buying or selling of IU parking permits violates IU policy.  IU Permits are property of the University. Please be aware that your ad(s) have been removed, and future violations may result in revoked access to IU Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</dd>
@@ -192,7 +199,7 @@ $page_title = 'Moderate users';
                         <div class="card">
                             <div class="row">
                                 <div class="col">
-                                    <h2 class="card-title">Warning issued; ads deactivated (fradulent activity)</h2>
+                                    <h2 class="card-title">Warning issued; ads deactivated </h2>
                                 </div>
                                 <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet2-1"></span></div>
                             </div>
@@ -200,10 +207,10 @@ $page_title = 'Moderate users';
                                 <div class="col">
                                     <dl class="row justify-content-end mt-3">
                                         <dt class="col-sm-3">Deactivated ads</dt>
-                                        <dd class="col-sm-9">"Sublet apartment near campus" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </dd>
-                                        <dd class="col-sm-9 offset-md-3">"Math 101 textbook" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </dd>
-                                        <dd class="col-sm-9 offset-md-3">"Rideshare to Chicago needed" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </dd>
-                                        <dt class="col-sm-3">Deactivation reason</dt>
+                                        <dd class="col-sm-9">"Sublet apartment near campus" <a href="#" class="small font-italic demojs-btn-viewotherad" data-toggle="modal" data-target="#admin_post_detail">(view)</a> </dd>
+                                        <dd class="col-sm-9 offset-md-3">"Math 101 textbook" <a href="#" class="small font-italic demojs-btn-viewotherad" data-toggle="modal" data-target="#admin_post_detail">(view)</a> </dd>
+                                        <dd class="col-sm-9 offset-md-3">"Rideshare to Chicago needed" <a href="#" class="small font-italic demojs-btn-viewotherad" data-toggle="modal" data-target="#admin_post_detail">(view)</a> </dd>
+                                        <dt class="col-sm-3">Reason</dt>
                                         <dd class="col-sm-9">Fraudulent activity</dd>
                                         <dt class="col-sm-3">Message sent to user</dt>
                                         <dd class="col-sm-9">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</dd>
@@ -219,6 +226,7 @@ $page_title = 'Moderate users';
         </div>
     </main>
 </div>
+<?php include('modals/modal-admin-ad-detail.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
     $(document).ready(function() {
@@ -347,7 +355,7 @@ var user1 = "thrclark";
         }
     });
 	 $("#demojs_uservalue").click(function () {
-		 	alert( "For the prototype, valid usernames are: ewestfal, thrclark, jhopf, jtwalker, eecox" );
+		 	// alert( "For the prototype, valid usernames are: ewestfal, thrclark, jhopf, jtwalker, eecox" );
 	});
 });
 </script> 

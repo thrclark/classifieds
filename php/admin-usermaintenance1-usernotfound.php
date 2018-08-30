@@ -269,7 +269,7 @@ var user1 = "thrclark";
         }
     });
 	 $("#demojs_uservalue").click(function () {
-		 	alert( "For the prototype, valid usernames are: ewestfal, thrclark, jhopf, jtwalker, eecox" );
+		 	// alert( "For the prototype, valid usernames are: ewestfal, thrclark, jhopf, jtwalker, eecox" );
 	});
 });
 </script> 

@@ -50,19 +50,29 @@ $page_title = 'Moderate users';
                                         <fieldset>
                                             <legend class="">Restore access</legend>
                                             <div class="form-group">
-                                                <label for="restore_reason">Reason for restored access</label>
+                                                <label for="restore_reason">Reason</label>
                                                 <textarea class="form-control" id="restore_reason" rows="8"></textarea>
                                             </div>
+                                            <div class="font-weight-bold mb-1 mt-3">Send a message to 'eecox'?</div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="sendusermessage_toggle" checked="">
+                                                <label class="form-check-label" for="sendusermessage_toggle"> Send message </label>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset class="demojs-sendusermessage" style="">
+                                            <legend class="">Message user</legend>
                                             <div class="form-group">
-                                                <label for="restore_reason">Message to be sent to user</label>
-                                                <textarea class="form-control" id="restore_reason" rows="8"></textarea>
+                                                <label for="banneduseruser">User</label>
+                                                <input type="text" class="form-control" id="banneduseruser" placeholder="" value="eecox" readonly>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="responsefield1">Message to be sent</label>
+                                                <textarea class="form-control" id="responsefield1" rows="8">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</textarea>
                                             </div>
                                         </fieldset>
                                         <div class="rbt-button-group mt-3"> <a class="btn btn-primary demojs-btn-hiderevoke" routerlink="" href="#">
-                                                <message key="global.buttons.cancel">Restore access and send message</message>
-                                            </a> <a class="btn btn-outline-primary demojs-btn-hiderevoke" routerlink="" href="#">
-                                                <message key="global.buttons.cancel">Cancel</message>
-                                            </a> </div>
+                                                <message key="global.buttons.cancel">Perform actions</message>
+                                            </a>  </div>
                                     </form>
                                 </div>
                             </div>
@@ -81,7 +91,7 @@ $page_title = 'Moderate users';
                             <div class="row mt-3 border-top" id="showdet4-1" style="display:nonne">
                                 <div class="col">
                                     <dl class="row justify-content-end mt-3">
-                                        <dt class="col-sm-3">Revocation reason</dt>
+                                        <dt class="col-sm-3">Reason</dt>
                                         <dd class="col-sm-9">The security office emailed us us on 8/12/2018 with the following note: "Please deacivate any account access on behalf of user 'eecox'. Please notify us of any future communications you might have with this user." </dd>
                                         <dt class="col-sm-3">Message sent to user</dt>
                                         <dd class="col-sm-9">The University Security Office has requested that we revoke your access to the Classifieds system. Please direct any correspondences regarding this matter to <a href="#">itsecure@iu.edu</a>.</dd>
@@ -97,6 +107,7 @@ $page_title = 'Moderate users';
         </div>
     </main>
 </div>
+<?php include('modals/modal-admin-ad-detail.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
     $(document).ready(function() {
@@ -225,7 +236,7 @@ var user1 = "thrclark";
         }
     });
 	 $("#demojs_uservalue").click(function () {
-		 	alert( "For the prototype, valid usernames are: ewestfal, thrclark, jhopf, jtwalker, eecox" );
+		 	// alert( "For the prototype, valid usernames are: ewestfal, thrclark, jhopf, jtwalker, eecox" );
 	});
 });
 </script> 
