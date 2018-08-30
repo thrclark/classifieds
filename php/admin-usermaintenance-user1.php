@@ -1,7 +1,7 @@
 <?php 
 $audience = 'admin';
 $section = 'settings';
-$page_title = 'User moderation';
+$page_title = 'Moderate users';
 ?>
 
 <!DOCTYPE html>
@@ -15,29 +15,35 @@ $page_title = 'User moderation';
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
     <main class="main-content">
-        <div class="row mb-1 no-gutters align-items-center">
-            <div class="col-12 col-sm">
+        <div class="row mb-1 no-gutters align-items-center mb-3">
+            <div class="col-md-6 col-lg-8">
                 <h1> <?php echo $page_title; ?></h1>
             </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="d-flex flex-row">
+                    <div class="mr-4 pr-1 border-right"><a class="btn btn-link font-weight-normal" href="admin-usermaintenance1.php">View all</a></div>
+                    <div class="input-group clear-field">
+                        <label class="sr-only" for="demojs_uservalue">Find/add user</label>
+                        <input type="text" class="form-control" placeholder="Find/add user" aria-label="" aria-describedby="" id="demojs_uservalue" >
+                        <button class="cleartext" id="cleartext2" style="display:none"> <i class="rbt-icon-circle-close"></i></button>
+                        <div class="input-group-append"> <a href="" class="btn btn-primary" id="finduser"><i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">Search</span></a> </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <nav aria-label="breadcrumb" role="navigation">
-            <ol class="breadcrumb rbt-breadcrumb-no-bkg mb-3 pt-0">
-                <li class="breadcrumb-item"><a href="admin-usermaintenance1.php">User moderation</a></li>
-                <li class="breadcrumb-item active" aria-current="page">'thrclark'</li>
-            </ol>
-        </nav>
-        <h2>Viewing activity for 'thrclark'</h2>
-        <div class="row">
-            <div class="col">
-                <ul class="rvb-timeline mt-3" id="timeline1" style="">
+        <h2>Activity for 'thrclark'</h2>
+        
+        
+         <div class="p-5 mt-3 bg-white border">
+        <ul class="rvb-timeline" id="timeline1" >
                     <li>
                         <div class="rvb-timeline-marker bg-secondary"></div>
                         <div class="card">
                             <div class="row">
                                 <div class="col">
-                                     <h2 class="card-title">Administrative actions</h2>
+                                    <h2 class="card-title">Administrative actions</h2>
                                 </div>
-                                   <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet1-2"></span></div>
+                                <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet1-2"></span></div>
                             </div>
                             <div class="row mt-3 border-top" id="showdet1-2" style="display:none">
                                 <div class="col-8 pt-3">
@@ -67,13 +73,13 @@ $page_title = 'User moderation';
                                             <div class="font-weight-bold mb-1 mt-3">Deactivate ads by 'thrclark'</div>
                                             <div class="form-check">
                                                 <input class="form-check-input demojs-otherad" type="checkbox" value="" id="otherad3" >
-                                                <label class="form-check-label" for="otherad3"> "Math-M211 and M212 Text" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a></label>
+                                                <label class="form-check-label" for="otherad3"> "Math-M211 and M212 Text" <a href="#" class="small font-italic demojs-btn-viewotherad" data-toggle="modal" data-target="#admin_post_detail">(view)</a></label>
                                             </div>
                                             <div class="form-check">
                                                 <input class="form-check-input demojs-otherad" type="checkbox" value="" id="otherad4" >
-                                                <label class="form-check-label" for="otherad4"> "Math-M211 and M212 bo0k" <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a> </label>
+                                                <label class="form-check-label" for="otherad4"> "Math-M211 and M212 bo0k" <a href="#" class="small font-italic demojs-btn-viewotherad" data-toggle="modal" data-target="#admin_post_detail">(view)</a> </label>
                                             </div>
-                                            <div class="font-weight-bold mb-1 mt-3">Revoke system access for 'thrclark'? <a href="#" class="small font-italic" data-toggle="popover" data-placement="bottom" title="" data-content="<div class='border-bottom'>Fraudulent activity</div><ul class='small list-unstyled mb-2'><li>06/26/2017</li><li>09/06/2017</li></ul><div class='border-bottom'>Selling IU parking permit</div><ul class='small list-unstyled mb-2'><li>07/26/2017</li></ul>" data-original-title="Violations for 'thrclark'">(3 previous violations)</a></div>
+                                            <div class="font-weight-bold mb-1 mt-3">Revoke system access for 'thrclark'? </div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="revokeaccess1">
                                                 <label class="form-check-label" for="revokeaccess1"> Yes, revoke access (this will deactivate all ads by this user). </label>
@@ -97,9 +103,7 @@ $page_title = 'User moderation';
                                         </fieldset>
                                         <div class="rbt-button-group mt-3"> <a class="btn btn-primary demojs-btn-hiderevoke" routerlink="" href="#">
                                                 <message key="global.buttons.cancel">Perform actions</message>
-                                            </a> <a class="btn btn-outline-primary demojs-btn-hiderevoke" routerlink="" href="#">
-                                                <message key="global.buttons.cancel">Cancel</message>
-                                            </a> </div>
+                                            </a>  </div>
                                     </form>
                                 </div>
                             </div>
@@ -111,24 +115,18 @@ $page_title = 'User moderation';
                         <div class="card">
                             <div class="row">
                                 <div class="col">
-                                    <h2 class="card-title">Warning issued; ads deactivated (fradulent activity)</h2>
+                                    <h2 class="card-title">Warning issued; ads deactivated</h2>
                                 </div>
-                                <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet1-1"></span></div>	
+                                <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet1-1"></span></div>
                             </div>
                             <div class="row mt-3 border-top" id="showdet1-1" style="display:nonee">
                                 <div class="col">
                                     <dl class="row justify-content-end mt-3">
                                         <dt class="col-sm-3">Deactivated ads</dt>
-                                        <dd class="col-sm-9">"Sublet apartment near campus"
-                                            <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a>
-                                        </dd>
-                                        <dd class="col-sm-9 offset-md-3">"Math 101 textbook"
-                                            <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a>
-                                        </dd>
-                                        <dd class="col-sm-9 offset-md-3">"Rideshare to Chicago needed"
-                                            <a href="#" class="small font-italic demojs-btn-viewotherad">(view)</a>
-                                        </dd>
-                                        <dt class="col-sm-3">Deactivation reason</dt>
+                                        <dd class="col-sm-9">"Sublet apartment near campus" <a href="#" class="small font-italic demojs-btn-viewotherad" data-toggle="modal" data-target="#admin_post_detail">(view)</a> </dd>
+                                        <dd class="col-sm-9 offset-md-3">"Math 101 textbook" <a href="#" class="small font-italic demojs-btn-viewotherad" data-toggle="modal" data-target="#admin_post_detail">(view)</a> </dd>
+                                        <dd class="col-sm-9 offset-md-3">"Rideshare to Chicago needed" <a href="#" class="small font-italic demojs-btn-viewotherad" data-toggle="modal" data-target="#admin_post_detail">(view)</a> </dd>
+                                        <dt class="col-sm-3">Reason</dt>
                                         <dd class="col-sm-9">Fraudulent activity</dd>
                                         <dt class="col-sm-3">Message sent to user</dt>
                                         <dd class="col-sm-9">We have received a complaint regarding your use of Classifieds. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.</dd>
@@ -139,11 +137,10 @@ $page_title = 'User moderation';
                             </div>
                         </div>
                     </li>
-                </ul>
-            </div>
-        </div>
+                </ul></div>
     </main>
 </div>
+<?php include('modals/modal-admin-ad-detail.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
     $(document).ready(function() {
@@ -240,8 +237,7 @@ $page_title = 'User moderation';
             $("#showwarning").hide();
         });
     });
-</script>
-
+</script> 
 <script type="text/javascript">
     $(document).ready(function() {
 
@@ -257,6 +253,63 @@ $page_title = 'User moderation';
         $('#revokeaccess1').trigger('change');
 
     });
+</script> 
+<script>
+$(document).ready(function () {
+    $("#finduser").click(function () {
+	
+        var text = $("#demojs_uservalue").val();
+        var user0 = "ewestfal";
+var user1 = "thrclark";
+		var user2 = "jhopf";
+		var user3 = "jtwalker";
+		var user4 = "eecox";
+		var user5 = "";
+        if (text == user0) {
+            $('#finduser').attr("href", "admin-usermaintenance-user0.php");
+        }
+ if (text == user1) {
+            $('#finduser').attr("href", "admin-usermaintenance-user1.php");
+        }
+		if (text == user2) {
+             $('#finduser').attr("href", "admin-usermaintenance-user2.php");
+        }
+		if (text == user3) {
+             $('#finduser').attr("href", "admin-usermaintenance-user3.php");
+        }
+		if (text == user4) {
+             $('#finduser').attr("href", "admin-usermaintenance-user4.php");
+        }
+		if (text == user5) {
+             $('#finduser').attr("href", "admin-usermaintenance1-usernotfound.php");
+        }
+    });
+	 $("#demojs_uservalue").click(function () {
+		 	// alert( "For the prototype, valid usernames are: ewestfal, thrclark, jhopf, jtwalker, eecox" );
+	});
+});
+</script> 
+<script>
+$(document).ready(function() {
+    $('#demojs_uservalue').keydown(function() {
+        tmpval = $(this).val();
+        if (tmpval == '') {
+            $("#cleartext2").css({
+                "display": "none"
+            });
+        } else {
+            $("#cleartext2").css({
+                "display": "block"
+            });
+        }
+    });
+    $("#cleartext2").click(function() {
+        $("#cleartext2").hide();
+        $("#demojs_uservalue").val("");
+        $("#demojs_uservalue").focus();
+    });
+});
 </script>
 </body>
 </html>
+

@@ -72,7 +72,7 @@
                 <div class="font-weight-bold mb-3 mt-3"> Does this ad violate policy? </div>
                 <div class="form-check demojs-adminactiontoggle">
                     <input class="form-check-input" type="radio" name="takeactiontoggle" id="takeadminaction" value="3">
-                    <label class="form-check-label" for="takeadminaction"> Yes, deactivate ad and take administrative actions. </label>
+                    <label class="form-check-label" for="takeadminaction"> Yes, deactivate ad and take administrative action on user. </label>
                 </div>
                 <div class="form-check demojs-adminactiontoggle">
                     <input class="form-check-input" type="radio" name="takeactiontoggle" id="justdeactivate1" value="2">

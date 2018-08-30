@@ -238,12 +238,12 @@ $page_title = 'Branding';
                                         <option label="" value="'Times New Roman', Times, serif">Serif - "Times New Roman", Times</option>
                                         <option label="" value="usecustomfont">Use Custom Font</option>
                                     </select>
-                                    <div class="form-group mt-3 custom-headerfont" style="">
+                                    <div class="form-group mt-3 custom-headerfont" >
                                         <label class="control-label" for="font_family"> Font family name</label>
                                         <div class="ccf-instructional-text">Specify the name of this custom font.</div>
                                         <input class="form-control" id="font_family" name="font_family" type="text" required="required">
                                     </div>
-                                    <div class="form-group custom-headerfont" style="">
+                                    <div class="form-group custom-headerfont" >
                                         <label class="control-label" for="font_family"> Weight</label>
                                         <div class="ccf-instructional-text">Specify the weight of this custom font.</div>
                                         <select ng-model="fontFace.fontWeight" name="fontFaces[0].fontWeight" id="fontFaces[0].fontWeight" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontWeights" class="form-control  ng-valid ng-not-empty ng-touched" aria-invalid="false">
@@ -260,7 +260,7 @@ $page_title = 'Branding';
                                             <option label="900" value="string:W_900">900</option>
                                         </select>
                                     </div>
-                                    <div class="form-group custom-headerfont" style="">
+                                    <div class="form-group custom-headerfont" >
                                         <label class="control-label" for="font_family"> Style</label>
                                         <div class="ccf-instructional-text">Specify the style of this custom font.</div>
                                         <select ng-model="fontFace.fontStyle" name="fontFaces[0].fontStyle" id="fontFaces[0].fontStyle" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStyles" class="form-control  ng-valid ng-not-empty ng-touched" aria-invalid="false">
@@ -269,7 +269,7 @@ $page_title = 'Branding';
                                             <option label="oblique" value="string:OBLIQUE">oblique</option>
                                         </select>
                                     </div>
-                                    <div class="form-group custom-headerfont" style="">
+                                    <div class="form-group custom-headerfont" >
                                         <label class="control-label" for="font_family"> Stretch</label>
                                         <div class="ccf-instructional-text">Specify the stretch of this custom font.</div>
                                         <select ng-model="fontFace.fontStretch" name="fontFaces[0].fontStretch" id="fontFaces[0].fontStretch" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStretches" class="form-control  ng-valid ng-not-empty ng-touched" aria-invalid="false">
@@ -284,7 +284,7 @@ $page_title = 'Branding';
                                             <option label="ultra-expanded" value="string:ULTRA_EXPANDED">ultra-expanded</option>
                                         </select>
                                     </div>
-                                    <div class="form-group custom-headerfont" style=""> <strong> Font URLs</strong>
+                                    <div class="form-group custom-headerfont" > <strong> Font URLs</strong>
                                         <div class="ccf-instructional-text">Specify URLs for this custom font.</div>
                                         <table class="table rbt-table-actions mb-2" id="myTable" style="margin-bottom: 0px">
                                             <thead class="sr-only">
@@ -332,12 +332,12 @@ $page_title = 'Branding';
                                         <option label="" value="'Times New Roman', Times, serif">Serif - "Times New Roman", Times</option>
                                         <option label="" value="usecustomfont">Use Custom Font</option>
                                     </select>
-                                    <div class="form-group mt-3 custom-bodyfont" style="">
+                                    <div class="form-group mt-3 custom-bodyfont" >
                                         <label class="control-label" for="font_family"> Font family name</label>
                                         <div class="ccf-instructional-text">Specify the name of this custom font.</div>
                                         <input class="form-control" id="font_family" name="font_family" type="text" required="required">
                                     </div>
-                                    <div class="form-group custom-bodyfont" style="">
+                                    <div class="form-group custom-bodyfont" >
                                         <label class="control-label" for="font_family"> Weight</label>
                                         <div class="ccf-instructional-text">Specify the weight of this custom font.</div>
                                         <select ng-model="fontFace.fontWeight" name="fontFaces[0].fontWeight" id="fontFaces[0].fontWeight" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontWeights" class="form-control  ng-valid ng-not-empty ng-touched" aria-invalid="false">
@@ -354,7 +354,7 @@ $page_title = 'Branding';
                                             <option label="900" value="string:W_900">900</option>
                                         </select>
                                     </div>
-                                    <div class="form-group custom-bodyfont" style="">
+                                    <div class="form-group custom-bodyfont" >
                                         <label class="control-label" for="font_family"> Style</label>
                                         <div class="ccf-instructional-text">Specify the style of this custom font.</div>
                                         <select ng-model="fontFace.fontStyle" name="fontFaces[0].fontStyle" id="fontFaces[0].fontStyle" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStyles" class="form-control  ng-valid ng-not-empty ng-touched" aria-invalid="false">
@@ -363,7 +363,7 @@ $page_title = 'Branding';
                                             <option label="oblique" value="string:OBLIQUE">oblique</option>
                                         </select>
                                     </div>
-                                    <div class="form-group custom-bodyfont" style="">
+                                    <div class="form-group custom-bodyfont" >
                                         <label class="control-label" for="font_family"> Stretch</label>
                                         <div class="ccf-instructional-text">Specify the stretch of this custom font.</div>
                                         <select ng-model="fontFace.fontStretch" name="fontFaces[0].fontStretch" id="fontFaces[0].fontStretch" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontStretches" class="form-control  ng-valid ng-not-empty ng-touched" aria-invalid="false">
@@ -378,7 +378,7 @@ $page_title = 'Branding';
                                             <option label="ultra-expanded" value="string:ULTRA_EXPANDED">ultra-expanded</option>
                                         </select>
                                     </div>
-                                    <div class="form-group custom-bodyfont" style="">
+                                    <div class="form-group custom-bodyfont" >
                                         <div class="form-label"> Font URLs</div>
                                         <div class="ccf-instructional-text">Specify URLs for this custom font.</div>
                                         <table class="table rbt-table-actions mb-2" id="myTable" style="margin-bottom: 0px">

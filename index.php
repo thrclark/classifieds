@@ -26,7 +26,7 @@ $page_title = '';
         <div class="row align-items-center">
             <div class="col-9">
                 <h1>IU Classifieds </h1>
-                <div class="">Prototypesss</div>
+                <div class="">Prototypes</div>
             </div>
         </div>
     </div>
