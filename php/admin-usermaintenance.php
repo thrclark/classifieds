@@ -107,7 +107,7 @@ $page_title = 'Moderate users';
                                                 <div class="card">
                                                     <div class="row">
                                                         <div class="col">
-                                                            <h2 class="card-title">System access reinstated by admin</h2>
+                                                            <h2 class="card-title">System access restored by admin</h2>
                                                         </div>
                                                         <div class="col-auto"><span class="rbt-icon-ellipsis"></span></div>
                                                     </div>

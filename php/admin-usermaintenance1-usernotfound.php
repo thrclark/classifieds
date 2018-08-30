@@ -64,7 +64,7 @@ $page_title = 'Moderate users';
                         <tr class="demojs-accessactive">
                             <td><b class="rbt-table-responsive-cell-label">Username</b><span class="rbt-table-responsive-cell-content">jhopf</span></td>
                             <td><b class="rbt-table-responsive-cell-label">Person Id</b><span class="rbt-table-responsive-cell-content">0003023985</span></td>
-                            <td>Access reinstated </td>
+                            <td>Access restored </td>
                             <td><b class="rbt-table-responsive-cell-label">Actions</b> <a href="admin-usermaintenance-user2.php" class="btn btn-link btn-sm" id="demojs_btn_togglerow1">View activity</a></td>
                         </tr>
                         <tr class="demojs-accessrevoked">

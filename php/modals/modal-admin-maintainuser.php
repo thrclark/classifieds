@@ -11,29 +11,19 @@
                     <div class="row">
                         <div class="col-md-12">
                             <ul class="rvb-timeline mt-3">
-                            
-                            
-                       
-                            
-                             
-                               <li>
+                                <li>
                                     <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/10/2018</span> <span>4:33 PM</span></time>
                                     <div class="rvb-timeline-marker bg-success"></div>
                                     <div class="card">
                                         <div class="row">
                                             <div class="col">
-                                                <h2 class="card-title">System access reinstated by admin</h2>
+                                                <h2 class="card-title">System access restored by admin</h2>
                                             </div>
                                             <div class="col-auto"><span class="rbt-icon-ellipsis"></span></div>
                                         </div>
                                     </div>
                                 </li>
-                                
-                                
-                                
-                                
-                             
-                               <li>
+                                <li>
                                     <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>12:09 PM</span></time>
                                     <div class="rvb-timeline-marker bg-danger"></div>
                                     <div class="card">
@@ -45,10 +35,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                
-                            
-                            
-                               <li>
+                                <li>
                                     <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>12:09 PM</span></time>
                                     <div class="rvb-timeline-marker bg-danger"></div>
                                     <div class="card">
@@ -61,10 +48,7 @@
                                     </div>
                                 </li>
                                 
-                                
-                                
-                                
-                            <!--
+                                <!--
                                   <li>
                                     <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>11:51 AM</span></time>
                                     <div class="rvb-timeline-marker bg-danger"></div>
@@ -77,9 +61,8 @@
                                         </div>
                                     </div>
                                 </li>-->
-                               
-                               
-                                     <li>
+                                
+                                <li>
                                     <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>10:04 AM</span></time>
                                     <div class="rvb-timeline-marker bg-success"></div>
                                     <div class="card">
@@ -91,10 +74,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                
-                               
-                               
-                                     <li>
+                                <li>
                                     <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>09:38 AM</span></time>
                                     <div class="rvb-timeline-marker bg-danger"></div>
                                     <div class="card">
@@ -106,10 +86,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                
-                                
-                                
-                                   <li>
+                                <li>
                                     <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>08:16 AM</span></time>
                                     <div class="rvb-timeline-marker bg-danger"></div>
                                     <div class="card">
@@ -121,10 +98,6 @@
                                         </div>
                                     </div>
                                 </li>
-                                
-                                
-                                 
-                                
                                 <li>
                                     <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>03:45 AM</span></time>
                                     <div class="rvb-timeline-marker bg-success"></div>
@@ -137,9 +110,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                
-                                
-                                 <li>
+                                <li>
                                     <time class="rvb-timeline-timestamp" datetime="2017-11-04T03:45"><span>08/07/2018</span> <span>03:42 AM</span></time>
                                     <div class="rvb-timeline-marker bg-success"></div>
                                     <div class="card">
@@ -151,17 +122,6 @@
                                         </div>
                                     </div>
                                 </li>
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                              
-                                
-                                
-                                
                             </ul>
                         </div>
                     </div>

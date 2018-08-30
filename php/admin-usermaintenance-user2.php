@@ -123,7 +123,7 @@ $page_title = 'Moderate users';
                         <div class="card">
                             <div class="row">
                                 <div class="col">
-                                    <h2 class="card-title">Access reinstated</h2>
+                                    <h2 class="card-title">Access restored</h2>
                                 </div>
                                 <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet2-4"></span></div>
                             </div>
