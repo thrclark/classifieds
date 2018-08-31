@@ -39,13 +39,13 @@
 	margin: -1px 0px;
 	border-radius: 0;
 }
-.ccf-button-bottom{
-	cursor: pointer;
-    position: fixed;
-    bottom: 50px;
-    right: 14px;
-    display: block;
-    z-index: 2;
+.ccf-settings{
+	padding: 0px;
+	font-weight: normal;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: .9rem;
 }
 
 

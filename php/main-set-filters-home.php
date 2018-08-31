@@ -21,7 +21,7 @@ $audience = 'main';
                     <div class="row align-items-center section-head">
                         <div class="col-12 section-head-title">
                             <h1 class="mb-2">
-                                Set Filters <button class="btn btn-link ccf-clearsearch">(clear)</button>
+                                Filters <button class="btn btn-link ccf-clearsearch">(reset)</button>
                             </h1>
                         </div>
                     </div>

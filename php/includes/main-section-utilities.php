@@ -79,9 +79,9 @@
                     	<h3 class="dropdown-header">Set location</h3>
                     	<div class="dropdown-divider"></div>
                     	<a class="dropdown-item" href="#">All locations</a>
-                    	<a class="dropdown-item" href="#"> IU Bloomington (IUB)</a>
+                    	<a class="dropdown-item active" href="#"> IU Bloomington (IUB)</a>
                     	<a class="dropdown-item" href="#"> IUPUI (IUPUI)</a>
-                    	<a class="dropdown-item active" href="#"> IU Kokomo (IUK)</a>
+                    	<a class="dropdown-item" href="#"> IU Kokomo (IUK)</a>
                     	<a class="dropdown-item" href="#"> IU Northwest (IUN)</a>
                     	<a class="dropdown-item" href="#"> IU South Bend (IUSB)</a>
                     	<a class="dropdown-item" href="#"> IU East (IUE)</a>
@@ -95,9 +95,9 @@
                 	<div class="dropdown-menu" aria-labelledby="select_type">
                     	<h3 class="dropdown-header">Filter by type</h3>
                     	<div class="dropdown-divider"></div>
-                    	<a class="dropdown-item" href="#"> For sale</a>
+                    	<a class="dropdown-item active" href="#"> For sale</a>
                     	<a class="dropdown-item" href="#"> Seeking</a>
-                    	<a class="dropdown-item active" href="#">All types</a>
+                    	<a class="dropdown-item" href="#">All types</a>
                 	</div>
             	</div>
             	<div class="dropdown util-sort">
@@ -107,8 +107,8 @@
                     <div class="dropdown-menu" aria-labelledby="select_sort">
                         <h3 class="dropdown-header">Sort results</h3>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">By relevance</a>
-                        <a class="dropdown-item active" href="#">By date</a>
+                        <a class="dropdown-item active" href="#">By relevance</a>
+                        <a class="dropdown-item" href="#">By date</a>
                     </div>
                 </div>
             </div>

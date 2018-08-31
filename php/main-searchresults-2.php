@@ -2,7 +2,7 @@
 $audience = 'main';
 $page_title = 'Results for';
 $filter_type = $_GET['id'];
-if($filter_type == "set"){$filter_label = "Filters applied";}else{$filter_label = "Set filters";}
+if($filter_type == "set"){$filter_label = "Filters";}else{$filter_label = "Filters";}
 ?>
 <!DOCTYPE html>
 <html lang="en">
