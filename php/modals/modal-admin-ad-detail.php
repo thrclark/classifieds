@@ -39,7 +39,7 @@
                     <dt class="sr-only">
                         <message key="global.ad.field.description">Description</message>
                     </dt>
-                    <dd class="col-12 pre-wrap">Used textbook for Math 112. Great condition - come and get it. Auctor Platea varius volutpat. Ac vivamus lobortis natoque tincidunt aptent aliquet phasellus felis. Cubilia natoque luctus donec proin vehicula.</dd>
+                    <dd class="col-12 pre-wrap">This is a beautiful original lacquer Mark VI tenor saxophone from 1962, serial number 99015. The lacquer finish on the horn is in exquisite condition. Its original finish displays a very dark honey tint which is perfectly complemented by the crisp American floral engraving. The lacquer condition is about as clean and pristine as you will ever see. </dd>
                     <dt class="col-sm-3">
                         <message key="global.ad.field.contact">Contact</message>
                     </dt>
@@ -47,7 +47,7 @@
                     <dt class="col-sm-3">
                         <message key="global.ad.field.email">Email</message>
                     </dt>
-                    <dd class="col-sm-9"><a href="mailto:thrclark@iu.edu">jlancer@iu.edu</a></dd>
+                    <dd class="col-sm-9"><a href="mailto:thrclark@iu.edu">thrclark@iu.edu</a></dd>
                     <dt class="col-sm-3">Status</dt>
                     <dd class="col-sm-9">Active</dd>
                     <dt class="col-sm-3">Ad Purpose</dt>
