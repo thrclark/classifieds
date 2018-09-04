@@ -57,7 +57,7 @@
                     <dt class="col-sm-3">Expires</dt>
                     <dd class="col-sm-9">03/25/2018 3:26pm</dd>
                     <dt class="col-sm-3">Admin action</dt>
-                    <dd class="col-sm-9"><span class="badge badge-danger rbt-badge-transparent">Deactivated for 'Fradulent activity'</span></dd>
+                    <dd class="col-sm-9"><span class="badge badge-secondary rbt-badge-transparent">Deactivated for 'Fradulent activity'</span></dd>
                 </dl>
             </div>
             <div class="ccf-adreport demojs-admin-defaultview" >
