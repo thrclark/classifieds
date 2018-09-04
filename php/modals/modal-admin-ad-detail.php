@@ -56,6 +56,8 @@
                     <dd class="col-sm-9">02/25/2018 3:26pm</dd>
                     <dt class="col-sm-3">Expires</dt>
                     <dd class="col-sm-9">03/25/2018 3:26pm</dd>
+                    <dt class="col-sm-3">Admin action</dt>
+                    <dd class="col-sm-9"><span class="badge badge-secondary rbt-badge-transparent">Deactivated for 'Fradulent activity' <a href="admin-usermaintenance-user2.php" class="font-weight-normal font-italic">(details)</a></span></dd>
                 </dl>
             </div>
             <div class="ccf-adreport demojs-admin-defaultview" >
@@ -73,11 +75,11 @@
                     <div class="border-bottom" style="background:#FAFAFA">
                         <div class="card-body pt-2 pb-2">
                             <div class="row">
-                                <div class="col">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="demojs_showprevreports" value="option1">
-                                        <label class="form-check-label mb-0" for="demojs_showprevreports">Previous reports (2)</label>
-                                    </div>
+                                <div class="col"> 
+                                    <!-- <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="demojs_showprevreports" value="option1">
+                                    <label class="form-check-label mb-0" for="demojs_showprevreports">Previous reports (2)</label>
+                                </div>--> 
                                 </div>
                                 <div class="col-auto"> <span class="card-text"> <a href="#" class="demojs-btn-viewpolicy" style="text-decoration:none"> <span class="rbt-icon-file"></span> Policy</a></span></div>
                             </div>
@@ -126,6 +128,8 @@
                                 <dd class="col-sm-9">Fraudulent activity</dd>
                                 <dt class="col-sm-3">Details</dt>
                                 <dd class="col-sm-9">Tried to sell me a different book than what was advertised. He aknowledged that it's a different book, but 'still a pretty good book'.</dd>
+                                <dt class="col-sm-3">Action</dt>
+                                <dd class="col-sm-9"> <span class="badge badge-secondary rbt-badge-transparent">Removed by admin</span> <small class="font-italic">07/27/2018 3:16pm</small> </dd>
                             </dl>
                             </span> </div>
                     </div>
@@ -139,7 +143,9 @@
                                 <dt class="col-sm-3">Report reason</dt>
                                 <dd class="col-sm-9">Fraudulent activity</dd>
                                 <dt class="col-sm-3">Details</dt>
-                                <dd class="col-sm-9">Totally the wrong book. this guy is just out to scam anyone. Indicators when rubric shared unit of analysis, rubric compelling support shared vocabulary. Global uplift; revolutionary, inspire collaborate synergy; program area progress state of play. Optimism mobilize when and problem-solvers. Issue outcomes, catalyze circular incubator equal opportunity. Unprecedented challenge inspire social impact blended value activate. Thought partnership thought provoking cultivate NGO innovate thought leader improve the world. Citizen-centered state of play program areas commitment indicators. Collective impact; shared vocabulary; granular; data collaborative consumption do-gooder deep dive. Citizen-centered innovate disrupt strategize a targeted storytelling. Outcomes, benefit corporation LGBTQ+ program areas inspiring. Philanthropy cultivate grit technology cultivate thought leadership thought partnership youth peaceful. Synergy progress targeted paradigm philantzropy strategize, youth.</dd>
+                                <dd class="col-sm-9">Totally the wrong book. this guy is just out to scam anyone. Indicators when rubric shared unit of analysis, rubric compelling support shared vocabulary. Global uplift; revolutionary, inspire collaborate synergy; program area progress state of play. Optimism mobilize when and problem-solvers. Issue outcomes, catalyze circular incubator equal opportunity. Unprecedented challenge inspire social impact blended value activate. Thought partnership thought provoking cultivate NGO innovate thought leader improve the world. Citizen-centered state of play program areas commitment indicators. Collective impact; shared vocabulary; granular; data collaborative consumption do-gooder deep dive. Citizen-centered innovate disrupt strategize a targeted storytelling. Outcomes, benefit corporation LGBTQ+ program areas inspiring. Philanthropy cultivate grit technology cultivate thought leadership thought partnership youth peaceful. Synergy progress targeted paradigm philanthropy strategize, youth.</dd>
+                                <dt class="col-sm-3">Action</dt>
+                                <dd class="col-sm-9"> <span class="badge badge-secondary rbt-badge-transparent">Removed by admin</span> <small class="font-italic">07/27/2018 3:16pm</small> </dd>
                             </dl>
                             </span> </div>
                     </div>
@@ -154,6 +160,8 @@
                                 <dd class="col-sm-9">Fraudulent activity</dd>
                                 <dt class="col-sm-3">Details</dt>
                                 <dd class="col-sm-9">Soprano saxophones are the new banjo. I will reign supreme.</dd>
+                                <dt class="col-sm-3">Action</dt>
+                                <dd class="col-sm-9"> <span class="badge badge-secondary rbt-badge-transparent">Removed by admin</span> <small class="font-italic">07/27/2018 3:16pm</small> </dd>
                             </dl>
                             </span> </div>
                     </div>

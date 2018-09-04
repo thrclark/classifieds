@@ -444,6 +444,7 @@ $page_title = 'Ads';
 
 <?php include('modals/modal-admin-ad-detail.php') ?>
 <?php include('modals/modal-admin-ad-detail-reported.php') ?>
+<?php include('modals/modal-admin-ad-detail.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
     $(document).ready(function() {	
