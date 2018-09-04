@@ -48,9 +48,13 @@ $page_title = 'Moderate users';
                                 <form class="">
                                     <fieldset>
                                         <legend class="">Restore access</legend>
-                                        <div class="form-group">
-                                            <label for="restore_reason">Reason</label>
-                                            <textarea class="form-control" id="restore_reason" rows="8"></textarea>
+                                        <div class="form-group" style="">
+                                            <label for="exampleInputEmail1">Reason</label>
+                                            <countdown>
+                                                <div class="rbt-charcount">
+                                                    <input aria-labelledby="otherReason" class="form-control " formcontrolname="title" id="otherReason">
+                                                    <span class="badge badge-success" id="counterDemo1_badge"> <span id="charcounter1">100</span> </span> </div>
+                                            </countdown>
                                         </div>
                                         <div class="font-weight-bold mb-1 mt-3">Send an email to 'eecox'?</div>
                                         <div class="form-check">

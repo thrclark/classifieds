@@ -325,6 +325,51 @@
 
 
 
+<!--Admin view reported ad detail-->	
+<script>
+    $(document).ready(function() {
+        $("#admin_post_detail .demojs-btn-viewreport").click(function() {
+            $("#admin_post_detail .demojs-admin-viewreport").slideToggle();
+            
+			
+			
+						
+		$(this).text(function(i, text) {
+                return text === "Hide reports" ? "View reports" : "Hide reports";
+            })
+			
+			
+			
+        });
+        $("#admin_post_detail .demojs-btn-viewad").click(function() {
+            $("#admin_post_detail .demojs-admin-view-policy").hide();
+            $("#admin_post_detail .demojs-admin-defaultview").show();
+        });
+        $("#admin_post_detail .demojs-btn-viewpolicy").click(function() {
+            $("#admin_post_detail .demojs-admin-defaultview").hide();
+            $("#admin_post_detail .demojs-admin-view-policy").show();
+        });
+
+        $("#admin_post_detail .demojs-btn-deactivatead").click(function() {
+            $("#admin_post_detail .demojs-admin-viewreport, #admin_post_detail .demojs-admin-defaultview, #admin_post_detail .demojs-admin-otheruserad").hide();
+            $("#admin_post_detail .demojs-admin-confirm-adremove").show();
+        });
+
+        $("#admin_post_detail .demojs-btn-deactivate").click(function() {
+            $("#admin_post_detail .demojs-admin-confirm-adremove").hide();
+            $("#admin_post_detail .demojs-admin-confirm-messagesent").show();
+        });
+        $("#admin_post_detail .demojs-btn-performactions").click(function() {
+            $("#admin_post_detail .demojs-admin-confirm-adremove").hide();
+            $("#admin_post_detail .demojs-admin-confirm-addeactmessagesent").show();
+        });
+        $("#admin_post_detail .demojs-btn-viewotherad").click(function() {
+            $("#admin_post_detail .demojs-admin-confirm-adremove").hide();
+            $("#admin_post_detail .demojs-admin-otheruserad").show();
+        });
+    });
+</script>
+
 
 
 
