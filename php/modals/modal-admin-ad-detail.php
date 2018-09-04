@@ -39,7 +39,7 @@
                     <dt class="sr-only">
                         <message key="global.ad.field.description">Description</message>
                     </dt>
-                    <dd class="col-12 pre-wrap">This is a beautiful original lacquer Mark VI tenor saxophone from 1962, serial number 99015. The lacquer finish on the horn is in exquisite condition. Its original finish displays a very dark honey tint which is perfectly complemented by the crisp American floral engraving. The lacquer condition is about as clean and pristine as you will ever see. </dd>
+                    <dd class="col-12 pre-wrap">Used textbook for Math 112. Great condition - come and get it. Auctor Platea varius volutpat. Ac vivamus lobortis natoque tincidunt aptent aliquet phasellus felis. Cubilia natoque luctus donec proin vehicula.</dd>
                     <dt class="col-sm-3">
                         <message key="global.ad.field.contact">Contact</message>
                     </dt>
@@ -47,14 +47,130 @@
                     <dt class="col-sm-3">
                         <message key="global.ad.field.email">Email</message>
                     </dt>
-                    <dd class="col-sm-9"><a href="mailto:thrclark@iu.edu">thrclark@iu.edu</a></dd>
+                    <dd class="col-sm-9"><a href="mailto:thrclark@iu.edu">jlancer@iu.edu</a></dd>
+                    <dt class="col-sm-3">Status</dt>
+                    <dd class="col-sm-9">Active</dd>
+                    <dt class="col-sm-3">Ad Purpose</dt>
+                    <dd class="col-sm-9">For sale</dd>
+                    <dt class="col-sm-3">Posted</dt>
+                    <dd class="col-sm-9">02/25/2018 3:26pm</dd>
+                    <dt class="col-sm-3">Expires</dt>
+                    <dd class="col-sm-9">03/25/2018 3:26pm</dd>
+                    <dt class="col-sm-3">Admin action</dt>
+                    <dd class="col-sm-9"><span class="badge badge-danger rbt-badge-transparent">Deactivated for 'Fradulent activity'</span></dd>
                 </dl>
-               
+            </div>
+            <div class="ccf-adreport demojs-admin-defaultview" >
+                <div class="alert alert-danger fade show mb-0 border-danger border-right-0 border-left-0 border-top border-bottom pt-2 pb-2" role="alert">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <div class="alert-heading">Reported for policy violation</div>
+                        </div>
+                        <div class="col-auto">
+                            <button class="btn btn-sm btn-link font-weight-normal demojs-btn-viewreport"> View reports</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="demojs-admin-viewreport" style="display:none">
+                    <div class="border-bottom" style="background:#FAFAFA">
+                        <div class="card-body pt-2 pb-2">
+                            <div class="row">
+                                <div class="col"> 
+                                    <!-- <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="demojs_showprevreports" value="option1">
+                                    <label class="form-check-label mb-0" for="demojs_showprevreports">Previous reports (2)</label>
+                                </div>--> 
+                                </div>
+                                <div class="col-auto"> <span class="card-text"> <a href="#" class="demojs-btn-viewpolicy" style="text-decoration:none"> <span class="rbt-icon-file"></span> Policy</a></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-white demojs-admin-viewdismissedreport" style="display:none">
+                        <div class="card-body"> <span class="card-text">
+                            <dl class="row">
+                                <dt class="col-sm-3">Reporter</dt>
+                                <dd class="col-sm-9">bwebster</dd>
+                                <dt class="col-sm-3">Date</dt>
+                                <dd class="col-sm-9">07/24/2018 3:12am</dd>
+                                <dt class="col-sm-3">Report reason</dt>
+                                <dd class="col-sm-9">Fraudulent activity</dd>
+                                <dt class="col-sm-3">Details</dt>
+                                <dd class="col-sm-9">When I went to pick up the book, he said he didn't have it, and tried to sell me a bunch of other books that I don't need. Please remove this ad. Frustrating...</dd>
+                                <dt class="col-sm-3">Action</dt>
+                                <dd class="col-sm-9"> <span class="badge badge-secondary rbt-badge-transparent">Accepted by admin</span> <small class="font-italic">07/27/2018 3:16pm</small> </dd>
+                            </dl>
+                            </span> </div>
+                    </div>
+                    <div class="card bg-white demojs-admin-viewdismissedreport" style="display:none">
+                        <div class="card-body"> <span class="card-text">
+                            <dl class="row">
+                                <dt class="col-sm-3">Reporter</dt>
+                                <dd class="col-sm-9">mbrecker</dd>
+                                <dt class="col-sm-3">Date</dt>
+                                <dd class="col-sm-9">07/25/2018 7:48pm</dd>
+                                <dt class="col-sm-3">Report reason</dt>
+                                <dd class="col-sm-9">Fraudulent activity</dd>
+                                <dt class="col-sm-3">Details</dt>
+                                <dd class="col-sm-9">Book was damaged, not even the right book I was looking for.</dd>
+                                <dt class="col-sm-3">Action</dt>
+                                <dd class="col-sm-9"> <span class="badge badge-secondary rbt-badge-transparent">Ad removed by user</span><small class="font-italic"> 07/26/2018 3:16pm</small> </dd>
+                            </dl>
+                            </span> </div>
+                    </div>
+                    <div class="card bg-white">
+                        <div class="card-body"> <span class="card-text">
+                            <dl class="row">
+                                <dt class="col-sm-3">Reporter</dt>
+                                <dd class="col-sm-9">johcoltra</dd>
+                                <dt class="col-sm-3">Date</dt>
+                                <dd class="col-sm-9">07/27/2018 4:38pm</dd>
+                                <dt class="col-sm-3">Report reason</dt>
+                                <dd class="col-sm-9">Fraudulent activity</dd>
+                                <dt class="col-sm-3">Details</dt>
+                                <dd class="col-sm-9">Tried to sell me a different book than what was advertised. He aknowledged that it's a different book, but 'still a pretty good book'.</dd>
+                                <dt class="col-sm-3">Action</dt>
+                                <dd class="col-sm-9"> <span class="badge badge-secondary rbt-badge-transparent">Removed by admin</span> <small class="font-italic">07/27/2018 3:16pm</small> </dd>
+                            </dl>
+                            </span> </div>
+                    </div>
+                    <div class="card bg-white">
+                        <div class="card-body"> <span class="card-text">
+                            <dl class="row">
+                                <dt class="col-sm-3">Reporter</dt>
+                                <dd class="col-sm-9">reroney</dd>
+                                <dt class="col-sm-3">Date</dt>
+                                <dd class="col-sm-9">07/28/2018 3:02pm</dd>
+                                <dt class="col-sm-3">Report reason</dt>
+                                <dd class="col-sm-9">Fraudulent activity</dd>
+                                <dt class="col-sm-3">Details</dt>
+                                <dd class="col-sm-9">Totally the wrong book. this guy is just out to scam anyone. Indicators when rubric shared unit of analysis, rubric compelling support shared vocabulary. Global uplift; revolutionary, inspire collaborate synergy; program area progress state of play. Optimism mobilize when and problem-solvers. Issue outcomes, catalyze circular incubator equal opportunity. Unprecedented challenge inspire social impact blended value activate. Thought partnership thought provoking cultivate NGO innovate thought leader improve the world. Citizen-centered state of play program areas commitment indicators. Collective impact; shared vocabulary; granular; data collaborative consumption do-gooder deep dive. Citizen-centered innovate disrupt strategize a targeted storytelling. Outcomes, benefit corporation LGBTQ+ program areas inspiring. Philanthropy cultivate grit technology cultivate thought leadership thought partnership youth peaceful. Synergy progress targeted paradigm philanthropy strategize, youth.</dd>
+                                <dt class="col-sm-3">Action</dt>
+                                <dd class="col-sm-9"> <span class="badge badge-secondary rbt-badge-transparent">Removed by admin</span> <small class="font-italic">07/27/2018 3:16pm</small> </dd>
+                            </dl>
+                            </span> </div>
+                    </div>
+                    <div class="card bg-white">
+                        <div class="card-body"> <span class="card-text">
+                            <dl class="row">
+                                <dt class="col-sm-3">Reporter</dt>
+                                <dd class="col-sm-9">kennyg</dd>
+                                <dt class="col-sm-3">Date</dt>
+                                <dd class="col-sm-9">07/29/2018 4:38pm</dd>
+                                <dt class="col-sm-3">Report reason</dt>
+                                <dd class="col-sm-9">Fraudulent activity</dd>
+                                <dt class="col-sm-3">Details</dt>
+                                <dd class="col-sm-9">Soprano saxophones are the new banjo. I will reign supreme.</dd>
+                                <dt class="col-sm-3">Action</dt>
+                                <dd class="col-sm-9"> <span class="badge badge-secondary rbt-badge-transparent">Removed by admin</span> <small class="font-italic">07/27/2018 3:16pm</small> </dd>
+                            </dl>
+                            </span> </div>
+                    </div>
+                </div>
             </div>
             <div class="modal-footer demojs-view-posting">
                 <div class="rbt-button-group">
-                      <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
-                  </div>
+                    <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>
