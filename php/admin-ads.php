@@ -16,13 +16,7 @@ $page_title = 'Ads';
     <div class="form-row">
         <div class="col-12">
             <main class="main-content" id="main-content">
-            
-            
-            
-            
-            
-            
-              <div class="row mb-1 no-gutters align-items-center mb-3">
+                <div class="row mb-1 no-gutters align-items-center mb-3">
                     <div class="col-md-6 col-lg-8">
                         <h1> <?php echo $page_title; ?></h1>
                     </div>
@@ -46,13 +40,6 @@ $page_title = 'Ads';
                     </div>
                     <!--  <div class="col-auto"><a href="admin-usermaintenance-user0.php" class="btn btn-sm btn-outline-primary"> Moderate user</a></div>--> 
                 </div>
-                
-                
-                
-                
-                
-                
-           
                 <div class="ccf-table-responsive-container">
                     <table class="table rbt-table-responsive mb-5">
                         <thead>
@@ -106,7 +93,6 @@ $page_title = 'Ads';
                                     <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_expired">View</button>
                                     </span></td>
                             </tr>
-                          
                             <tr class="demojs-reported-no">
                                 <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUPUI</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">Self Defense Boxing Gloves</span></td>
@@ -507,11 +493,7 @@ $page_title = 'Ads';
         });
         
     });
-</script>
-
-
-
-
+</script> 
 <script type="text/javascript">
     $(document).ready(function() {
 
@@ -527,8 +509,7 @@ $page_title = 'Ads';
         $('#revokeaccess1').trigger('change');
 
     });
-</script>
-
+</script> 
 <script>
 $(document).ready(function() {
     $('#demojs_uservalue').keydown(function() {
@@ -550,7 +531,5 @@ $(document).ready(function() {
     });
 });
 </script>
-
-
 </body>
 </html>
