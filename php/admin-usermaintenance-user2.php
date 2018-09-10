@@ -32,11 +32,12 @@ $page_title = 'Moderate users';
             </div>
         </div>
         <h2>Activity for 'jhopf'</h2>
-        <div class="p-5 mt-3 bg-white border">
+        <div class="mr-5 mt-3 pr-1 float-right"><a class="btn btn-sm btn-link font-weight-normal" href="#" id="expand_collapse">Expand all</a></div>
+        <div class="p-5 bg-white border">
             <ul class="rvb-timeline" id="timeline2" >
                 <li>
                     <div class="rvb-timeline-marker bg-secondary"></div>
-                    <div class="card">
+                    <div class="card mt-2">
                         <div class="row">
                             <div class="col">
                                 <h2 class="card-title">Take administrative actions</h2>
@@ -115,9 +116,9 @@ $page_title = 'Moderate users';
                             <div class="col">
                                 <h2 class="card-title">Access restored</h2>
                             </div>
-                            <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet2-4"></span></div>
+                            <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet2-4"></span></div>
                         </div>
-                        <div class="row mt-3 border-top" id="showdet2-4" style="display:nonee">
+                        <div class="row mt-3 border-top" id="showdet2-4" style="display:none">
                             <div class="col">
                                 <dl class="row justify-content-end mt-4">
                                     <dt class="col-sm-3">Reason</dt>
@@ -139,9 +140,9 @@ $page_title = 'Moderate users';
                             <div class="col">
                                 <h2 class="card-title">Access revoked</h2>
                             </div>
-                            <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet2-3"></span></div>
+                            <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet2-3"></span></div>
                         </div>
-                        <div class="row mt-3 border-top" id="showdet2-3" style="display:nonee">
+                        <div class="row mt-3 border-top" id="showdet2-3" style="display:none">
                             <div class="col">
                                 <dl class="row justify-content-end mt-3">
                                     <dt class="col-sm-3">Deactivated ads</dt>
@@ -165,9 +166,9 @@ $page_title = 'Moderate users';
                             <div class="col">
                                 <h2 class="card-title">Warning issued </h2>
                             </div>
-                            <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet2-2"></span></div>
+                            <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet2-2"></span></div>
                         </div>
-                        <div class="row mt-3 border-top" id="showdet2-2" style="display:nonee">
+                        <div class="row mt-3 border-top" id="showdet2-2" style="display:none">
                             <div class="col">
                                 <dl class="row justify-content-end mt-3">
                                     <dt class="col-sm-3">Deactivated ad</dt>
@@ -191,9 +192,9 @@ $page_title = 'Moderate users';
                             <div class="col">
                                 <h2 class="card-title">Warning issued </h2>
                             </div>
-                            <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet2-1"></span></div>
+                            <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet2-1"></span></div>
                         </div>
-                        <div class="row mt-3 border-top" id="showdet2-1" style="display:nonee">
+                        <div class="row mt-3 border-top" id="showdet2-1" style="display:none">
                             <div class="col">
                                 <dl class="row justify-content-end mt-3">
                                     <dt class="col-sm-3">Deactivated ads</dt>
@@ -287,6 +288,24 @@ $page_title = 'Moderate users';
 </script> 
 <script>
     $(document).ready(function() {
+        $('#expand_collapse').click(function(){
+    		var x = document.getElementById("expand_collapse");
+  			if (x.innerHTML === "Expand all") {
+    			x.innerHTML = "Collapse all";
+  			} else {
+    			x.innerHTML = "Expand all";
+  			}
+    		$("#showdet1-2").slideToggle();
+    		$("#showdet2-1").slideToggle();
+    		$("#showdet2-2").slideToggle();
+    		$("#showdet2-3").slideToggle();
+    		$("#showdet2-4").slideToggle();
+    		$("#btn_showdet1-2").toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
+    		$("#btn_showdet2-1").toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
+    		$("#btn_showdet2-2").toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
+    		$("#btn_showdet2-3").toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
+    		$("#btn_showdet2-4").toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
+  		});
         $(".demojs-btn-showrevoke").click(function() {
             $("#showrevoke").slideDown();
             $("#showadminnote").hide();
