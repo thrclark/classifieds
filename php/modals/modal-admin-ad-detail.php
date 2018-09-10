@@ -49,7 +49,7 @@
                     </dt>
                     <dd class="col-sm-9"><a href="mailto:thrclark@iu.edu">thrclark@iu.edu</a></dd>
                     <dt class="col-sm-3">Status</dt>
-                    <dd class="col-sm-9">Deactivated for 'Fraudulent activity' <a href="admin-usermaintenance-user2.php" class="font-weight-normal font-italic">(details)</a></dd>
+                    <dd class="col-sm-9">Inactive (<a href="admin-usermaintenance-user2.php" class="font-weight-normal font-italic">Fraudulent activity</a>)</dd>
                     <dt class="col-sm-3">Ad Purpose</dt>
                     <dd class="col-sm-9">For sale</dd>
                     <dt class="col-sm-3">Posted</dt>
