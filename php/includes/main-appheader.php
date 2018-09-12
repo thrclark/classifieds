@@ -15,7 +15,7 @@
                 </label>
                 <div class="input-group clear-field">
                     <input type="text" class="form-control" id="mainSearch" placeholder="Search ads">
-                    <button class="cleartext" id="cleartext2" style="display:none"> <i class="fa fa-window-close"></i></button>
+                    <button class="cleartext" id="cleartext2" style="display:none"> <i class="fa fa-window-close"></i><span class="sr-only">Clear search terms</span></button>
                     <div class="input-group-append">
                         <button class="btn btn-primary" type="button" onclick="location.href = 'main-searchresults.php';"><i aria-hidden="true" class="fa fa-search"></i> <span class="d-none d-lg-inline">
                         <message>Search</message>
