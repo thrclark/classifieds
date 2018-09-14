@@ -32,7 +32,8 @@ $page_title = 'Moderate users';
             </div>
         </div>
         <h2> Activity for 'ewestfal'</h2>
-        <div class="p-5 mt-3 bg-white border">
+        <div class="mr-5 mt-3 pr-1 float-right"><a class="btn btn-sm btn-link font-weight-normal" href="#" id="expand_collapse">Expand all</a></div>
+        <div class="p-5 bg-white border">
             <ul class="rvb-timeline" id="timeline1" >
                 <li>
                     <div class="rvb-timeline-marker bg-secondary"></div>
@@ -41,7 +42,9 @@ $page_title = 'Moderate users';
                             <div class="col">
                                 <h2 class="card-title">Take administrative action</h2>
                             </div>
-                            <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet1-2"></span></div>
+                            <div class="col-auto">
+                                <button class="btn btn-sm btn-link rbt-icon-chevron-down" id="btn_showdet1-2"><span class="sr-only">Expand/collapse section</span></button>
+                            </div>
                         </div>
                         <div class="row mt-3 border-top" id="showdet1-2" style="display:">
                             <div class="col-8 pt-3">
@@ -115,7 +118,9 @@ $page_title = 'Moderate users';
                             <div class="col">
                                 <h2 class="card-title">Warning issued</h2>
                             </div>
-                            <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet2-1"></span></div>
+                            <div class="col-auto">
+                                <button class="btn btn-sm btn-link rbt-icon-chevron-down" id="btn_showdet2-1"><span class="sr-only">Expand/collapse section</span></button>
+                            </div>
                         </div>
                         <div class="row mt-3 border-top" id="showdet2-1" style="display:nonee">
                             <div class="col">

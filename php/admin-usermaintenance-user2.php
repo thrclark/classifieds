@@ -42,9 +42,11 @@ $page_title = 'Moderate users';
                             <div class="col">
                                 <h2 class="card-title">Take administrative actions</h2>
                             </div>
-                            <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet1-2"></span></div>
+                            <div class="col-auto">
+                                <button class="btn btn-sm btn-link rbt-icon-chevron-down" id="btn_showdet2-5"><span class="sr-only">Expand/collapse section</span></button>
+                            </div>
                         </div>
-                        <div class="row mt-3 border-top" id="showdet1-2" style="display:none">
+                        <div class="row mt-3 border-top" id="showdet2-5" style="display:none">
                             <div class="col-8 pt-3">
                                 <form class="">
                                     <fieldset>
@@ -116,7 +118,9 @@ $page_title = 'Moderate users';
                             <div class="col">
                                 <h2 class="card-title">Access restored</h2>
                             </div>
-                            <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet2-4"></span></div>
+                            <div class="col-auto">
+                                <button class="btn btn-sm btn-link rbt-icon-chevron-down" id="btn_showdet2-4"><span class="sr-only">Expand/collapse section</span></button>
+                            </div>
                         </div>
                         <div class="row mt-3 border-top" id="showdet2-4" style="display:none">
                             <div class="col">
@@ -140,7 +144,9 @@ $page_title = 'Moderate users';
                             <div class="col">
                                 <h2 class="card-title">Access revoked</h2>
                             </div>
-                            <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet2-3"></span></div>
+                            <div class="col-auto">
+                                <button class="btn btn-sm btn-link rbt-icon-chevron-down" id="btn_showdet2-3"><span class="sr-only">Expand/collapse section</span></button>
+                            </div>
                         </div>
                         <div class="row mt-3 border-top" id="showdet2-3" style="display:none">
                             <div class="col">
@@ -166,7 +172,9 @@ $page_title = 'Moderate users';
                             <div class="col">
                                 <h2 class="card-title">Warning issued </h2>
                             </div>
-                            <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet2-2"></span></div>
+                            <div class="col-auto">
+                                <button class="btn btn-sm btn-link rbt-icon-chevron-down" id="btn_showdet2-2"><span class="sr-only">Expand/collapse section</span></button>
+                            </div>
                         </div>
                         <div class="row mt-3 border-top" id="showdet2-2" style="display:none">
                             <div class="col">
@@ -192,7 +200,9 @@ $page_title = 'Moderate users';
                             <div class="col">
                                 <h2 class="card-title">Warning issued </h2>
                             </div>
-                            <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet2-1"></span></div>
+                            <div class="col-auto">
+                                <button class="btn btn-sm btn-link rbt-icon-chevron-down" id="btn_showdet2-1"><span class="sr-only">Expand/collapse section</span></button>
+                            </div>
                         </div>
                         <div class="row mt-3 border-top" id="showdet2-1" style="display:none">
                             <div class="col">
@@ -252,6 +262,10 @@ $page_title = 'Moderate users';
             $("#showdet2-4").slideToggle();
             $(this).toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
         });
+		 $("#btn_showdet2-5").click(function() {
+            $("#showdet2-5").slideToggle();
+            $(this).toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
+        });
         $("#btn_showdet3-1").click(function() {
             $("#showdet3-1").slideToggle();
             $(this).toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
@@ -295,16 +309,18 @@ $page_title = 'Moderate users';
   			} else {
     			x.innerHTML = "Expand all";
   			}
-    		$("#showdet1-2").slideToggle();
+    		
     		$("#showdet2-1").slideToggle();
     		$("#showdet2-2").slideToggle();
     		$("#showdet2-3").slideToggle();
     		$("#showdet2-4").slideToggle();
-    		$("#btn_showdet1-2").toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
+			$("#showdet2-5").slideToggle();
+    	
     		$("#btn_showdet2-1").toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
     		$("#btn_showdet2-2").toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
     		$("#btn_showdet2-3").toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
     		$("#btn_showdet2-4").toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
+			$("#btn_showdet2-5").toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
   		});
         $(".demojs-btn-showrevoke").click(function() {
             $("#showrevoke").slideDown();

@@ -32,7 +32,8 @@ $page_title = 'Moderate users';
             </div>
         </div>
         <h2>Activity for 'thrclark'</h2>
-        <div class="p-5 mt-3 bg-white border">
+        <div class="mr-5 mt-3 pr-1 float-right"><a class="btn btn-sm btn-link font-weight-normal" href="#" id="expand_collapse">Expand all</a></div>
+        <div class="p-5 bg-white border">
             <ul class="rvb-timeline" id="timeline1" >
                 <li>
                     <div class="rvb-timeline-marker bg-secondary"></div>
@@ -41,7 +42,9 @@ $page_title = 'Moderate users';
                             <div class="col">
                                 <h2 class="card-title">Take administrative actions</h2>
                             </div>
-                            <div class="col-auto"><span class="rbt-icon-chevron-down" id="btn_showdet1-2"></span></div>
+                            <div class="col-auto">
+                                <button class="btn btn-sm btn-link rbt-icon-chevron-down" id="btn_showdet1-2"><span class="sr-only">Expand/collapse section</span></button>
+                            </div>
                         </div>
                         <div class="row mt-3 border-top" id="showdet1-2" style="display:none">
                             <div class="col-8 pt-3">
@@ -115,7 +118,9 @@ $page_title = 'Moderate users';
                             <div class="col">
                                 <h2 class="card-title">Warning issued</h2>
                             </div>
-                            <div class="col-auto"><span class="rbt-icon-chevron-up" id="btn_showdet1-1"></span></div>
+                            <div class="col-auto">
+                                <button class="btn btn-sm btn-link rbt-icon-chevron-down" id="btn_showdet1-1"><span class="sr-only">Expand/collapse section</span></button>
+                            </div>
                         </div>
                         <div class="row mt-3 border-top" id="showdet1-1" style="display:nonee">
                             <div class="col">
@@ -211,6 +216,24 @@ $page_title = 'Moderate users';
 </script> 
 <script>
     $(document).ready(function() {
+        $('#expand_collapse').click(function(){
+    		var x = document.getElementById("expand_collapse");
+  			if (x.innerHTML === "Expand all") {
+    			x.innerHTML = "Collapse all";
+  			} else {
+    			x.innerHTML = "Expand all";
+  			}
+    	
+    		$("#showdet1-1").slideToggle();
+    		$("#showdet1-2").slideToggle();
+    		$("#showdet1-3").slideToggle();
+    		$("#showdet1-4").slideToggle();
+    
+    		$("#btn_showdet1-1").toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
+    		$("#btn_showdet1-2").toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
+    		$("#btn_showdet1-3").toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
+    		$("#btn_showdet1-4").toggleClass("rbt-icon-chevron-down rbt-icon-chevron-up ");
+  		});
         $(".demojs-btn-showrevoke").click(function() {
             $("#showrevoke").slideDown();
             $("#showadminnote").hide();
@@ -235,22 +258,6 @@ $page_title = 'Moderate users';
         $(".demojs-btn-hidewarning").click(function() {
             $("#showwarning").hide();
         });
-    });
-</script> 
-<script type="text/javascript">
-    $(document).ready(function() {
-
-        $('#revokeaccess1').change(function() {
-            if ($(this).prop('checked')) {
-                $('.demojs-otherad').prop('checked', true);
-				$('.demojs-otherad').attr("disabled", true);
-            } else {
-                $('.demojs-otherad').prop('checked', false);
-				$('.demojs-otherad').attr("disabled", false);
-            }
-        });
-        $('#revokeaccess1').trigger('change');
-
     });
 </script> 
 <script>
