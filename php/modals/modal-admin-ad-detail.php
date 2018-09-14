@@ -49,15 +49,14 @@
                     </dt>
                     <dd class="col-sm-9"><a href="mailto:thrclark@iu.edu">thrclark@iu.edu</a></dd>
                     <dt class="col-sm-3">Status</dt>
-                    <dd class="col-sm-9">Active</dd>
+                    <dd class="col-sm-9">Inactive (<a href="admin-usermaintenance-user2.php" class="font-weight-normal font-italic">Fraudulent activity</a>)</dd>
                     <dt class="col-sm-3">Ad Purpose</dt>
                     <dd class="col-sm-9">For sale</dd>
                     <dt class="col-sm-3">Posted</dt>
                     <dd class="col-sm-9">02/25/2018 3:26pm</dd>
                     <dt class="col-sm-3">Expires</dt>
                     <dd class="col-sm-9">03/25/2018 3:26pm</dd>
-                    <dt class="col-sm-3">Admin action</dt>
-                    <dd class="col-sm-9"><span class="badge badge-secondary rbt-badge-transparent">Deactivated for 'Fradulent activity' <a href="admin-usermaintenance-user2.php" class="font-weight-normal font-italic">(details)</a></span></dd>
+                   
                 </dl>
             </div>
             <div class="ccf-adreport demojs-admin-defaultview" >

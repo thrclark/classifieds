@@ -1,8 +1,7 @@
 <?php 
 $audience = 'main';
-$page_title = 'All ads';
+$page_title = 'All ads';	
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,11 +15,9 @@ $page_title = 'All ads';
         <div class="container">
             <div class="row">
                 <div class="col-3 d-none d-md-block nav-section">
-                    <?php include('includes/main-user-options.php') ?>
-                    <hr>
                     <?php include('includes/main-nav.php') ?>
                 </div>
-                <div class="col-xs-12 col-md-9 main-content-section" id="main-conten">
+                <div class="col-xs-12 col-md-9 main-content-section" role="main">
                     <div class="row align-items-center section-head">
                         <div class="col-12 section-head-title">
                             <h1 class="mb-2"> <?php echo $page_title; ?></h1>
@@ -35,10 +32,28 @@ $page_title = 'All ads';
             </div>
         </div>
         <?php include('modals/modal-main-ad-detail.php') ?>
+        <?php include('modals/modal-main-ad-detail-reported.php') ?>
+        <?php include('modals/modal-main-sessionrecover.php') ?>
     </section>
-    <?php include('includes/all-customfooter.php') ?>
     <?php include('includes/main-footer-menu.php') ?>
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
+
+
+
+
+<script>
+    $(document).ready(function() {
+        setTimeout(function() {
+            $('#session_recover').modal();
+        }, 2000);
+    });
+	$('#refreshsession').click(function() {
+    location.reload();
+});
+</script>
+
+
+
 </body>
 </html>
