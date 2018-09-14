@@ -8,7 +8,7 @@
                 <span class="d-none d-sm-inline">IU Kokomo</span>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="selectMarket">
-                    <h3 class="dropdown-header">Set location</h3>
+                    <h2 class="dropdown-header">Set location</h2>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">All locations</a>
                     <a class="dropdown-item" href="#"> IU Bloomington (IUB)</a>
@@ -28,7 +28,7 @@
                 <span class="d-none d-sm-inline">All types</span>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="select_type">
-                    <h3 class="dropdown-header">Filter by type</h3>
+                    <h2 class="dropdown-header">Filter by type</h2>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#"> For sale</a>
                     <a class="dropdown-item" href="#"> Seeking</a>
@@ -44,7 +44,7 @@
                     <span class="d-none d-sm-inline">By date</span>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="select_sort">
-                        <h3 class="dropdown-header">Sort results</h3>
+                        <h2 class="dropdown-header">Sort results</h2>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">By relevance</a>
                         <a class="dropdown-item active" href="#">By date</a>

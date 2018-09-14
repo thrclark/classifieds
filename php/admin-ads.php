@@ -10,7 +10,6 @@ $page_title = 'Ads';
 <?php include('includes/admin-styles.php') ?>
 </head>
 <body>
-<?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
     <div class="form-row">

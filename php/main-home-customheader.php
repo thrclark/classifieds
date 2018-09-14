@@ -11,7 +11,6 @@ $page_title = 'All ads';
 </head>
 <body>
 <div id="main">
-    <?php include('includes/all-customheader.php') ?>
     <?php include('includes/main-appheader.php') ?>
     <section class="main-content pt-3" role="main">
         <div class="container">
