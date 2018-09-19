@@ -24,27 +24,34 @@ $page_title = 'Reload cache';
                             <h1> <?php echo $page_title; ?></h1>
                         </div>
                     </div>
-                    <div class="btn-group" dropdown="">
-                        <button class="btn btn-primary" type="button">
+                    <div class="form-group">
+                    	<p class="" id="postingIdDirections">
+                            <message key="admin.cache.ad.reindex.directions">Occasionally, an ad may be improperly cached in the system while searching or browsing ads, causing it to incorrectly appear or not appear. To manually reload and correctly cache ads, select the button below. </message>
+                        </p>
+                        <button class="btn btn-primary" type="button" id="reloadAd">
                         <message key="admin.cache.reload.button">Reload</message>
                         </button>
-                        <button aria-controls="dropdown-split" class="btn btn-primary dropdown-toggle dropdown-toggle-split" dropdowntoggle="" id="button-split" type="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span> <span class="sr-only">
-                        <message key="admin.buttons.dropdown.toggle">Toggle dropdown</message>
-                        </span> </button>
                         <!---->
-                        <ul aria-labelledby="button-split" class="dropdown-menu" id="dropdown-split" role="menu" style="left: 0px; right: auto; top: 100%; transform: translateY(0px);">
-                            <li role="menuitem">
-                                <button class="dropdown-item">
-                                <message key="admin.cache.reload.button.index">Reload and index ads</message>
-                                </button>
-                            </li>
-                        </ul>
                     </div>
+                    <div id="successMessage" style="display:none">
+                    <div class="alert alert-success alert-dismissible fade show"  role="alert" >
+                        <button type="button" class="close" aria-label="Close" data-dismiss="alert"> <span class="rbt-icon-close"></span> </button>
+                        <h4 class="alert-heading">Success!</h4>
+                        <p>The cache has now been reloaded.</p>
+                    </div>
+                </div>
                 </ng-component>
             </main>
         </div>
     </div>
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
+<script>
+$(document).ready(function(){
+    $("#reloadAd").click(function(){
+    	$("#successMessage").show();
+    });
+});
+</script>
 </body>
 </html>
