@@ -12664,7 +12664,7 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:fo
   background: #243E4C;
 }
 
-.table ccf-image-upload {
+.ccf-amin-image-upload ccf-image-upload {
   background: #243E4C;
 }
 
