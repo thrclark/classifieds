@@ -9,6 +9,9 @@ $page_title = 'Campuses';
 <head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
+<style>
+
+</style>
 </head>
 <body>
 <?php include('includes/all-custom-header.php') ?>
@@ -28,7 +31,7 @@ $page_title = 'Campuses';
                         <div class="col-12 col-lg-10 col-xl-8">
                             <form novalidate class="  ">
                                 <div class="form-group">
-                                    <label class="control-label" id="nameLabel">
+                                    <label  for="isinvalid" class="control-label" id="nameLabel">
                                         <message key="admin.field.name">Name</message>
                                     </label>
                                     <div class="ccf-instructional-text" id="nameDirections">
@@ -36,12 +39,12 @@ $page_title = 'Campuses';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control" formcontrolname="name" type="text">
+                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control" id="isinvalid" formcontrolname="name" type="text">
                                             <span class="badge badge-success"> 100 </span> </div>
                                     </countdown>
-                                    <errors controlname="name"> 
-                                        <!----> 
-                                    </errors>
+                                    <errors controlname="name">
+            							<div class="invalid-feedback" style="display: none;"><span class="rbt-icon-circle-close" aria-hidden="true"></span> Required </div>
+        							</errors>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label" id="shortNameLabel">
@@ -71,9 +74,9 @@ $page_title = 'Campuses';
                                             <input aria-labelledby="uniqueKeyLabel uniqueKeyDirections" ccfvalidated="" class="form-control" formcontrolname="uniqueKey" type="text">
                                             <span class="badge badge-success"> 100 </span> </div>
                                     </countdown>
-                                    <errors controlname="uniqueKey"> 
-                                        <!----> 
-                                    </errors>
+                                    <errors controlname="uniqueKey">
+            							<div class="invalid-feedback" style="display: none;"><span class="rbt-icon-circle-close" aria-hidden="true"></span> Required </div>
+        							</errors>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label" id="liveDataKeyLabel">
@@ -95,7 +98,7 @@ $page_title = 'Campuses';
                                     <!----> 
                                 </form-invalid-alert>
                                 <div class="rbt-button-group mb-5">
-                                    <button class="btn btn-primary" type="submit">
+                                    <button class="btn btn-primary" id="submit" type="submit">
                                     <message key="global.buttons.save">Save</message>
                                     </button>
                                     <a class="btn btn-outline-primary" routerlink="/markets" href="admin-campuses.php">
@@ -110,5 +113,14 @@ $page_title = 'Campuses';
     </main>
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
+<script>
+$(document).ready(function() {
+	$('button').on('click',function(){
+		$(".invalid-feedback").css("display","block");
+		$("#isinvalid").addClass("is-invalid");
+	});
+});
+
+</script>
 </body>
 </html>
