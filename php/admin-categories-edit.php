@@ -26,7 +26,7 @@ $page_title = 'Categories';
                 <div class="col-12">
                     <div class="row">
                         <div class="col-12 col-lg-10 col-xl-8">
-                            <form novalidate class="  ng-valid">
+                            
                                 <div class="form-group">
                                     <label class="control-label" id="nameLabel">
                                         <message key="admin.field.name">Name</message>
@@ -36,12 +36,12 @@ $page_title = 'Categories';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="name">
+                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control" id="isinvalid" formcontrolname="name">
                                             <span class="badge badge-success"> 85 </span> </div>
                                     </countdown>
-                                    <errors controlname="name"> 
-                                        <!----> 
-                                    </errors>
+                                    <errors controlname="name">
+            							<div class="invalid-feedback" style="display: none;"><span class="rbt-icon-circle-close" aria-hidden="true"></span> Required </div>
+        							</errors>
                                 </div>
                                 <div class="form-group mb-5">
                                     <label class="control-label" id="iconLabel">
@@ -86,13 +86,13 @@ $page_title = 'Categories';
                                     <!----> 
                                 </form-invalid-alert>
                                 <div class="rbt-button-group">
-                                    <button class="btn btn-primary" type="submit">
+                                    <button class="btn btn-primary">
                                     <message key="global.buttons.save">Save</message>
                                     </button>
                                     <a class="btn btn-outline-primary" routerlink="/categories" href="admin-categories.php">
                                         <message key="global.buttons.cancel">Cancel</message>
                                     </a> </div>
-                            </form>
+                           
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,14 @@ $page_title = 'Categories';
 </div>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
-    
+
+$(document).ready(function() {
+	$('.rbt-button-group button').on('click',function(){
+		$(".invalid-feedback").css("display","block");
+		$("#isinvalid").addClass("is-invalid");
+		$("#isinvalid2").addClass("is-invalid");
+	});
+});
     
     // Set icon name
     $("#iconSelection button").click(function() {

@@ -27,7 +27,6 @@ $page_title = 'Policy';
                 <div class="col-12">
                     <div class="row">
                         <div class="col-12 col-lg-10 col-xl-8">
-                            <form novalidate class="  ng-valid">
                                 <div class="form-group">
                                     <label class="control-label" id="nameLabel">
                                         <message key="admin.field.name">Policy violation type</message>
@@ -37,12 +36,12 @@ $page_title = 'Policy';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="name">
+                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control" id="isinvalid" formcontrolname="name">
                                             <span class="badge badge-success"> 85 </span> </div>
                                     </countdown>
-                                    <errors controlname="name"> 
-                                        <!----> 
-                                    </errors>
+                                    <errors controlname="violationType">
+            							<div class="invalid-feedback" style="display: none;"><span class="rbt-icon-circle-close" aria-hidden="true"></span> Required </div>
+        							</errors>
                                 </div>
                                   <div class="form-group">
                                     <label class="control-label" for="richText1">
@@ -52,19 +51,18 @@ $page_title = 'Policy';
                                         <message key="admin.category.field.name.directions">Specify a message to be sent to the user for this policy violation type.</message>
                                     </div>
                                   <textarea id="richText1"></textarea>
-                                    <errors controlname="name"> 
+                                    <errors controlname="policyMsg"> 
                                         <!----> 
                                     </errors>
                                 </div>
                             
                                 <div class="rbt-button-group">
-                                    <a class="btn btn-primary" routerlink="" href="admin-policymaintenance.php">
+                                    <button class="btn btn-primary">
                                     <message key="global.buttons.save">Save</message>
-                                    </a>
+                                    </button>
                                     <a class="btn btn-outline-primary" routerlink="" href="admin-policymaintenance.php">
                                         <message key="global.buttons.cancel">Cancel</message>
                                     </a> </div>
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -81,6 +79,15 @@ $page_title = 'Policy';
 var simplemde = new SimpleMDE({ status: false, element: $("#richText1")[0] });
 </script>
 
+<script>
+$(document).ready(function() {
+	$('button').on('click',function(){
+		$(".invalid-feedback").css("display","block");
+		$("#isinvalid").addClass("is-invalid");
+	});
+});
+
+</script>
 
 </body>
 </html>

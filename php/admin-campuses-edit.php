@@ -9,9 +9,6 @@ $page_title = 'Campuses';
 <head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
-<style>
-
-</style>
 </head>
 <body>
 <?php include('includes/all-custom-header.php') ?>
@@ -28,10 +25,9 @@ $page_title = 'Campuses';
             <div class="row">
                 <div class="col-12">
                     <div class="row">
-                        <div class="col-12 col-lg-10 col-xl-8">
-                            <form novalidate class="  ">
+                        <div class="col-12 col-lg-10 col-xl-<form novalidate class="  ">
                                 <div class="form-group">
-                                    <label  for="isinvalid" class="control-label" id="nameLabel">
+                                    <label class="control-label" id="nameLabel">
                                         <message key="admin.field.name">Name</message>
                                     </label>
                                     <div class="ccf-instructional-text" id="nameDirections">
@@ -55,7 +51,7 @@ $page_title = 'Campuses';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="shortNameLabel shortNameDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="shortName" type="text">
+                                            <input aria-labelledby="shortNameLabel shortNameDirections" ccfvalidated="" class="form-control ng-valid" formcontrolname="shortName" type="text">
                                             <span class="badge badge-success"> 5 </span> </div>
                                     </countdown>
                                     <errors controlname="shortName"> 
@@ -71,7 +67,7 @@ $page_title = 'Campuses';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="uniqueKeyLabel uniqueKeyDirections" ccfvalidated="" class="form-control" formcontrolname="uniqueKey" type="text">
+                                            <input aria-labelledby="uniqueKeyLabel uniqueKeyDirections" ccfvalidated="" class="form-control" id="isinvalid2" formcontrolname="uniqueKey" type="text">
                                             <span class="badge badge-success"> 100 </span> </div>
                                     </countdown>
                                     <errors controlname="uniqueKey">
@@ -98,13 +94,13 @@ $page_title = 'Campuses';
                                     <!----> 
                                 </form-invalid-alert>
                                 <div class="rbt-button-group mb-5">
-                                    <button class="btn btn-primary" id="submit" type="submit">
+                                    <button class="btn btn-primary">
                                     <message key="global.buttons.save">Save</message>
                                     </button>
                                     <a class="btn btn-outline-primary" routerlink="/markets" href="admin-campuses.php">
                                         <message key="global.buttons.cancel">Cancel</message>
                                     </a> </div>
-                            </form>
+                            
                         </div>
                     </div>
                 </div>
@@ -118,6 +114,7 @@ $(document).ready(function() {
 	$('button').on('click',function(){
 		$(".invalid-feedback").css("display","block");
 		$("#isinvalid").addClass("is-invalid");
+		$("#isinvalid2").addClass("is-invalid");
 	});
 });
 
