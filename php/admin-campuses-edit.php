@@ -44,7 +44,7 @@ $page_title = 'Campuses';
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label" id="shortNameLabel">
-                                        <message key="admin.market.field.shortName">Short Name</message>
+                                        <message key="admin.market.field.shortName">Short Name <span class="small font-italic">(optional)</span></message>
                                     </label>
                                     <div class="ccf-instructional-text" id="shortNameDirections">
                                         <message key="admin.market.field.shortName.directions">If necessary, the short name will be displayed instead of the full name.</message>
@@ -76,7 +76,7 @@ $page_title = 'Campuses';
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label" id="liveDataKeyLabel">
-                                        <message key="admin.market.field.liveDataKey">Live Data Key</message>
+                                        <message key="admin.market.field.liveDataKey">Live Data Key <span class="small font-italic">(optional)</span></message>
                                     </label>
                                     <div class="ccf-instructional-text" id="liveDataKeyDirections">
                                         <message key="admin.market.field.liveDataKey.directions">Allows filtering of ads in the Live Data API. See API Documentation for more information.</message>
