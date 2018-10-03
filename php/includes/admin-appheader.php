@@ -8,7 +8,7 @@
             
             <!--App Title-->
             <div class="col rbt-brand-title-container"> <span class="rbt-header-title"> 
-<a href="main-home.php"class="rbt-brand-title"> <!--Classifieds--> <span class="rbt-ts-14">Administration</span></a> </span> </div>
+<a href="main-home.php"class="rbt-brand-title"> Classifieds <span class="rbt-ts-14">Administration</span></a> </span> </div>
             
             <!--App Nav-->
             <div class="col-auto">
