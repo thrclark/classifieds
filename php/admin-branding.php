@@ -340,18 +340,18 @@ $page_title = 'Branding';
                                         </div>
                                         <div class="form-group custom-headerfont" > <strong> Font URLs</strong>
                                             <div class="ccf-instructional-text">Specify URLs for this custom font.</div>
-                                            <table class="table rbt-table-plain  rbt-table-actions mb-2" id="myTable" >
+                                            <table class="table rbt-table-plain  rbt-table-actions mb-2" id="headerfont" >
                                                 <thead class="sr-only">
                                                     <tr>
-                                                        <th>URL</th>
-                                                        <th>Type</th>
-                                                        <th> Actions </th>
+                                                        <th id="headerfont_url" scope="col">URL</th>
+                                                        <th id="headerfont_type" scope="col">Type</th>
+                                                        <th id="headerfont_actions" scope="col"> Actions </th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <td class="p-1 pl-0 w-50"><input type="text" class="form-control" placeholder="Enter URL"></td>
-                                                        <td class="p-1"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control  ng-valid ng-not-empty ng-valid-required ng-touched" required aria-invalid="false">
+                                                        <td class="p-1 pl-0 w-50"><input type="text" class="form-control" placeholder="Enter URL" name="headerfont_url1" aria-labelledby="headerfont_url"></td>
+                                                        <td class="p-1"><select class="form-control" name="headerfont_type1" aria-labelledby="headerfont_type">
                                                                 <option selected="">Select type</option>
                                                                 <option label="Embedded OpenType" value="string:EMBEDDED_OPEN_TYPE">Embedded OpenType</option>
                                                                 <option label="OpenType" value="string:OPEN_TYPE">OpenType</option>
@@ -360,11 +360,13 @@ $page_title = 'Branding';
                                                                 <option label="WOFF" value="string:WOFF">WOFF</option>
                                                                 <option label="WOFF 2" value="string:WOFF2">WOFF 2</option>
                                                             </select></td>
-                                                        <td class="p-1"><a href="#" class="btn btn-link"><i class="fa fa-trash" aria-hidden="true"></i> <span class="sr-only">Delete</span></a></td>
+                                                        <td class="p-1"><button class="btn btn-link"type="button" name="headerfont_actions1" aria-labelledby="headerfont_actions"> <i aria-hidden="true" class="fa fa-trash"></i>
+                                                            <message class="sr-only" key="admin.buttons.delete">Delete</message>
+                                                            </button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="p-1 pl-0 w-50"><input type="text" class="form-control" placeholder="Enter URL"></td>
-                                                        <td class="p-1"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control  ng-valid ng-not-empty ng-valid-required ng-touched" required aria-invalid="false">
+                                                        <td class="p-1 pl-0 w-50"><input type="text" class="form-control" placeholder="Enter URL" name="headerfont_url2" aria-labelledby="headerfont_url"></td>
+                                                        <td class="p-1"><select class="form-control" name="headerfont_type2" aria-labelledby="headerfont_type">
                                                                 <option selected="">Select type</option>
                                                                 <option label="Embedded OpenType" value="string:EMBEDDED_OPEN_TYPE">Embedded OpenType</option>
                                                                 <option label="OpenType" value="string:OPEN_TYPE">OpenType</option>
@@ -373,11 +375,13 @@ $page_title = 'Branding';
                                                                 <option label="WOFF" value="string:WOFF">WOFF</option>
                                                                 <option label="WOFF 2" value="string:WOFF2">WOFF 2</option>
                                                             </select></td>
-                                                        <td class="p-1"><a href="#" class="btn btn-link"><i class="fa fa-trash" aria-hidden="true"></i> <span class="sr-only">Delete</span></a></td>
+                                                        <td class="p-1"><button class="btn btn-link"type="button" name="headerfont_actions2" aria-labelledby="headerfont_actions"> <i aria-hidden="true" class="fa fa-trash"></i>
+                                                            <message class="sr-only" key="admin.buttons.delete">Delete</message>
+                                                            </button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="p-1 pl-0 w-50"><input type="text" class="form-control" placeholder="Enter URL"></td>
-                                                        <td class="p-1"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control  ng-valid ng-not-empty ng-valid-required ng-touched" required aria-invalid="false">
+                                                        <td class="p-1 pl-0 w-50"><input type="text" class="form-control" placeholder="Enter URL" name="headerfont_url3" aria-labelledby="headerfont_url"></td>
+                                                        <td class="p-1"><select class="form-control" name="headerfont_type3" aria-labelledby="headerfont_type">
                                                                 <option selected="">Select type</option>
                                                                 <option label="Embedded OpenType" value="string:EMBEDDED_OPEN_TYPE">Embedded OpenType</option>
                                                                 <option label="OpenType" value="string:OPEN_TYPE">OpenType</option>
@@ -386,7 +390,9 @@ $page_title = 'Branding';
                                                                 <option label="WOFF" value="string:WOFF">WOFF</option>
                                                                 <option label="WOFF 2" value="string:WOFF2">WOFF 2</option>
                                                             </select></td>
-                                                        <td class="p-1"><a href="#" class="btn btn-link"><i class="fa fa-trash" aria-hidden="true"></i> <span class="sr-only">Delete</span></a></td>
+                                                        <td class="p-1"><button class="btn btn-link"type="button" name="headerfont_actions3" aria-labelledby="headerfont_actions"> <i aria-hidden="true" class="fa fa-trash"></i>
+                                                            <message class="sr-only" key="admin.buttons.delete">Delete</message>
+                                                            </button></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -465,18 +471,18 @@ $page_title = 'Branding';
                                         <div class="form-group custom-bodyfont" >
                                             <div class="form-label"> <strong> Font URLs</strong></div>
                                             <div class="ccf-instructional-text">Specify URLs for this custom font.</div>
-                                            <table class="table rbt-table-plain  rbt-table-actions mb-2" id="myTable2" >
+                                            <table class="table rbt-table-plain  rbt-table-actions mb-2" id="bodyfont" >
                                                 <thead class="sr-only">
                                                     <tr>
-                                                        <th>URL</th>
-                                                        <th>Type</th>
-                                                        <th> Actions </th>
+                                                        <th id="bodyfont_url" scope="col">URL</th>
+                                                        <th id="bodyfont_type" scope="col">Type</th>
+                                                        <th id="bodyfont_actions" scope="col"> Actions </th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <td class="p-1 pl-0 w-50"><input type="text" class="form-control" placeholder="Enter URL"></td>
-                                                        <td class="p-1"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control  ng-valid ng-not-empty ng-valid-required ng-touched" required aria-invalid="false">
+                                                        <td class="p-1 pl-0 w-50"><input type="text" class="form-control" placeholder="Enter URL" name="bodyfont_url1" aria-labelledby="bodyfont_url"></td>
+                                                        <td class="p-1"><select class="form-control" name="bodyfont_type1" aria-labelledby="bodyfont_type">
                                                                 <option selected="">Select type</option>
                                                                 <option label="Embedded OpenType" value="string:EMBEDDED_OPEN_TYPE">Embedded OpenType</option>
                                                                 <option label="OpenType" value="string:OPEN_TYPE">OpenType</option>
@@ -485,11 +491,13 @@ $page_title = 'Branding';
                                                                 <option label="WOFF" value="string:WOFF">WOFF</option>
                                                                 <option label="WOFF 2" value="string:WOFF2">WOFF 2</option>
                                                             </select></td>
-                                                        <td class="p-1"><a href="#" class="btn btn-link"><i class="fa fa-trash" aria-hidden="true"></i> <span class="sr-only">Delete</span></a></td>
+                                                        <td class="p-1"><button class="btn btn-link"type="button" name="bodyfont_actions1" aria-labelledby="bodyfont_actions"> <i aria-hidden="true" class="fa fa-trash"></i>
+                                                            <message class="sr-only" key="admin.buttons.delete">Delete</message>
+                                                            </button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="p-1 pl-0 w-50"><input type="text" class="form-control" placeholder="Enter URL"></td>
-                                                        <td class="p-1"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control  ng-valid ng-not-empty ng-valid-required ng-touched" required aria-invalid="false">
+                                                        <td class="p-1 pl-0 w-50"><input type="text" class="form-control" placeholder="Enter URL" name="bodyfont_url2" aria-labelledby="bodyfont_url"></td>
+                                                        <td class="p-1"><select class="form-control" name="bodyfont_type2" aria-labelledby="bodyfont_type">
                                                                 <option selected="">Select type</option>
                                                                 <option label="Embedded OpenType" value="string:EMBEDDED_OPEN_TYPE">Embedded OpenType</option>
                                                                 <option label="OpenType" value="string:OPEN_TYPE">OpenType</option>
@@ -498,11 +506,13 @@ $page_title = 'Branding';
                                                                 <option label="WOFF" value="string:WOFF">WOFF</option>
                                                                 <option label="WOFF 2" value="string:WOFF2">WOFF 2</option>
                                                             </select></td>
-                                                        <td class="p-1"><a href="#" class="btn btn-link"><i class="fa fa-trash" aria-hidden="true"></i> <span class="sr-only">Delete</span></a></td>
+                                                        <td class="p-1"><button class="btn btn-link"type="button" name="bodyfont_actions2" aria-labelledby="bodyfont_actions"> <i aria-hidden="true" class="fa fa-trash"></i>
+                                                            <message class="sr-only" key="admin.buttons.delete">Delete</message>
+                                                            </button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="p-1 pl-0 w-50"><input type="text" class="form-control" placeholder="Enter URL"></td>
-                                                        <td class="p-1"><select ng-model="source.format" name="fontFaces[0].fontSources[0].format" id="fontFaces[0].fontSources[0].format" ng-options="format.value as format.displayValue for format in ::brandCtrl.pageData.fontFormats" class="form-control  ng-valid ng-not-empty ng-valid-required ng-touched" required aria-invalid="false">
+                                                        <td class="p-1 pl-0 w-50"><input type="text" class="form-control" placeholder="Enter URL" name="bodyfont_url3" aria-labelledby="bodyfont_url"></td>
+                                                        <td class="p-1"><select class="form-control" name="bodyfont_type3" aria-labelledby="bodyfont_type">
                                                                 <option selected="">Select type</option>
                                                                 <option label="Embedded OpenType" value="string:EMBEDDED_OPEN_TYPE">Embedded OpenType</option>
                                                                 <option label="OpenType" value="string:OPEN_TYPE">OpenType</option>
@@ -511,7 +521,9 @@ $page_title = 'Branding';
                                                                 <option label="WOFF" value="string:WOFF">WOFF</option>
                                                                 <option label="WOFF 2" value="string:WOFF2">WOFF 2</option>
                                                             </select></td>
-                                                        <td class="p-1"><a href="#" class="btn btn-link"><i class="fa fa-trash" aria-hidden="true"></i> <span class="sr-only">Delete</span></a></td>
+                                                        <td class="p-1"><button class="btn btn-link"type="button" name="bodyfont_actions3" aria-labelledby="bodyfont_actions"> <i aria-hidden="true" class="fa fa-trash"></i>
+                                                            <message class="sr-only" key="admin.buttons.delete">Delete</message>
+                                                            </button></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
