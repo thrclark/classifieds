@@ -341,6 +341,7 @@ $page_title = 'Branding';
                                         <div class="form-group custom-headerfont" > <strong> Font URLs</strong>
                                             <div class="ccf-instructional-text">Specify URLs for this custom font.</div>
                                             <table class="table rbt-table-plain  rbt-table-actions mb-2" id="headerfont" >
+                                             <caption>Custom header font details:</caption>
                                                 <thead class="sr-only">
                                                     <tr>
                                                         <th id="headerfont_url" scope="col">URL</th>
@@ -472,6 +473,7 @@ $page_title = 'Branding';
                                             <div class="form-label"> <strong> Font URLs</strong></div>
                                             <div class="ccf-instructional-text">Specify URLs for this custom font.</div>
                                             <table class="table rbt-table-plain  rbt-table-actions mb-2" id="bodyfont" >
+                                             <caption>Custom body font details:</caption>
                                                 <thead class="sr-only">
                                                     <tr>
                                                         <th id="bodyfont_url" scope="col">URL</th>
