@@ -8,7 +8,7 @@ $page_title = 'Ads';
 <head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/admin-styles.php') ?>
-</head>
+</head> 
 <body>
 <?php include('includes/admin-appheader.php') ?>
 <div class="container pt-3">
