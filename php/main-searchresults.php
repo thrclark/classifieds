@@ -37,6 +37,7 @@ $page_title = 'Results for';
     </section>
     <?php include('includes/main-footer-menu.php') ?>
 </div>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
     $(document).ready(function() {

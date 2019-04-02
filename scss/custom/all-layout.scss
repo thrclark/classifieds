@@ -1,14 +1,13 @@
 body {
-	background: $gray-50;
+	background: $color-black--50;
 	.nav-section {
-		border-right: solid 1px $gray-200;
+		border-right: solid 1px $color-black--200;
 	}
 	.main-content-section {
 		padding-bottom: 100px;
 	}
 
 }
-
 .ccf-mobile-categories {
 	@extend .list-group;
 	@extend .mt-3;
