@@ -13,7 +13,7 @@ $page_title = 'Policy';
 <body>
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
-<div class="container pt-3">
+<div class="container pt-3 mb-5">
     <main class="main-content" id="main-content">
         <div class="row mb-3 justify-content-between align-items-center">
             <div class="col">
@@ -140,6 +140,7 @@ $page_title = 'Policy';
         </div>
     </main>
 </div>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script> 
 <script>

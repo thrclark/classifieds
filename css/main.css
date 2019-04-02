@@ -10629,6 +10629,9 @@ span.CodeMirror-selectedtext {
 .modal .modal-content {
   overflow: inherit; }
 
+@media (max-width: 767.98px) {
+  .table.rbt-table-responsive {
+    background: transparent; } }
 .rbt-app-header {
   z-index: 10 !important;
   transition: box-shadow .5s; }

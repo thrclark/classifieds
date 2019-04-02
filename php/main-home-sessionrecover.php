@@ -39,10 +39,6 @@ $page_title = 'All ads';
 </div>
 <?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
-
-
-
-
 <script>
     $(document).ready(function() {
         setTimeout(function() {
@@ -53,8 +49,5 @@ $page_title = 'All ads';
     location.reload();
 });
 </script>
-
-
-
 </body>
 </html>
