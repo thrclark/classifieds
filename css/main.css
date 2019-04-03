@@ -10656,6 +10656,9 @@ span.CodeMirror-selectedtext {
     height: 70px;
     width: 69px;
     font-size: 24px; } }
+@media (min-width: 576px) {
+  .rbt-app-header .input-group.clear-field {
+    min-width: 360px; } }
 .footer-menu {
   position: fixed;
   left: 0px;

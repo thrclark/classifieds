@@ -46,7 +46,8 @@ $page_title = 'Results for';
 			$("#mobile_hideSearch, #cleartext2").show();
 			$("#mainSearch_container").removeClass( "d-none d-md-block" );
 			$("#mainSearch_container").addClass( "pr-0" );
-			 $("#mainSearch").attr("value", "iPhone");
+			$(".ccf-brand-image-container").addClass( "flex-grow-1" );
+			$("#mainSearch").attr("value", "iPhone");
         } else {
 			$("#mainSearch").attr("value", "iPhone");
         }
