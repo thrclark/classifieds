@@ -1,5 +1,5 @@
  <a class="rbt-skip-link" href="#main-content">Skip to content</a> <a class="rbt-skip-link" href="#main-content" tabindex="0">Skip to content</a>
-<header class="d-flex flex-nowrap rbt-app-header rbt-app-header--light"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image mr-3"/>
+<header class="d-flex flex-nowrap rbt-app-header"> <img src="../img/trident-large.png" alt="trident" class="rbt-brand-image mr-3"/>
     <div class="rbt-brand-title-container flex-grow-1"> <a href="#" class="rbt-brand-title font-weight-bold">IU Classifieds Administration </a> </div>
     <nav class="d-none d-lg-block pr-3">
         <ul class="nav align-items-center d-flex flex-nowrap">
