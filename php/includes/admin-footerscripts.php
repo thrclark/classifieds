@@ -13,12 +13,14 @@
         $("#mobile_showSearch button, #setsearch").click(function() {
             $("#mainSearch_container").removeClass("d-none d-md-block");
             $("#mainSearch_container").addClass("pr-0");
-            $(".rbt-brand-image-container, .rbt-brand-title-container, .rbt-drawer-button, #mobile_showSearch").hide();
+			$(".ccf-brand-image-container").addClass("flex-grow-1");
+			$(".rbt-brand-image-container, .rbt-brand-title-container, .rbt-drawer-button, #mobile_showSearch").hide();
             $("#mobile_hideSearch").show();
         });
         $("#mobile_hideSearch button").click(function() {
             $("#mainSearch_container").addClass("d-none d-md-block");
             $("#mainSearch_container").removeClass("pr-0");
+			$(".ccf-brand-image-container").removeClass("flex-grow-1");
             $(".rbt-brand-image-container, .rbt-brand-title-container, .rbt-drawer-button, #mobile_showSearch").show();
             $("#mobile_hideSearch").hide();
         });
@@ -220,9 +222,6 @@
     });
 </script>
 
-
-
-
 <!--Main view ad detail-->
 <script>
     $(document).ready(function() {
@@ -251,12 +250,6 @@
     });
 </script>
 
-
-
-
-
-
-
 <!--Main view reported ad detail-->
 <script>
     $(document).ready(function() {
@@ -272,13 +265,7 @@
     });
 </script>
 
-
-
-
-
-
-
-<!--Admin view reported ad detail-->	
+<!--Admin view reported ad detail-->
 <script>
     $(document).ready(function() {
         $("#admin_ad_detail_reported .demojs-btn-viewreport").click(function() {
@@ -323,9 +310,7 @@
     });
 </script>
 
-
-
-<!--Admin view reported ad detail-->	
+<!--Admin view reported ad detail-->
 <script>
     $(document).ready(function() {
         $("#admin_post_detail .demojs-btn-viewreport").click(function() {
@@ -370,11 +355,7 @@
     });
 </script>
 
-
-
-
-
-<!--Admin view reported ad detail-->	
+<!--Admin view reported ad detail-->
 <script>
     $(document).ready(function() {
         $("#admin_post_detail .demojs-btn-viewreport").click(function() {
@@ -418,12 +399,6 @@
         });
     });
 </script>
-
-
-
-
-
-
 <script>
     $(function() {
         $("[data-toggle=popover]").popover({
@@ -439,7 +414,6 @@
         });
     });
 </script>
-
 <script type="text/javascript">
     $(function() {
         $('#selectresponse').change(function() {
@@ -479,7 +453,6 @@
         });
     });
 </script>
-
 <script type="text/javascript">
     $(function() {
         $('#selectresponse1').change(function() {
@@ -519,9 +492,6 @@
         });
     });
 </script>
-
-
-
 <script>
 $('#admin_ad_detail_reported input[name="takeactiontoggle1"]').click(function() {
     if (this.id == "takeadminaction1") {
@@ -534,11 +504,7 @@ $('#admin_ad_detail_reported input[name="takeactiontoggle1"]').click(function() 
 });
 
 </script>
-
-
-
-
- <script type="text/javascript">
+<script type="text/javascript">
 
 
      $(document).ready(function() {
@@ -557,10 +523,6 @@ $(function() {
     });
 
 </script>
-
-
-
-
 <script type="text/javascript">
     $(document).ready(function() {
         //$(".demojs-sendusermessage").hide();
@@ -572,11 +534,7 @@ $(function() {
             }
         });
     });
-</script>  
-
-
-
-
+</script>
 <script>
     $(document).ready(function() {
        		 $(".demojs-restoreprevreports").click(function() {
@@ -584,11 +542,6 @@ $(function() {
         });
     });
 </script>
-
-
-
-
-
 <script type="text/javascript">
     $(document).ready(function() {
      
@@ -600,11 +553,4 @@ $(function() {
             }
         });
     });
-</script>  
-
-
-
-
-
-
-
+</script>

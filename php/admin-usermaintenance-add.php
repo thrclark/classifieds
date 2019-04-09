@@ -13,7 +13,7 @@ $page_title = 'Moderate users';
 <body>
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
-<div class="container pt-3">
+<div class="container pt-3 mb-5">
     <main class="main-content">
         <router-outlet></router-outlet>
         <ng-component>
@@ -119,6 +119,7 @@ $page_title = 'Moderate users';
         </ng-component>
     </main>
 </div>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 </body>
 </html>

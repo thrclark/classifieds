@@ -39,6 +39,7 @@ $page_title = 'All ads';
     <?php include('includes/all-customfooter.php') ?>
     <?php include('includes/main-footer-menu.php') ?>
 </div>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 </body>
 </html>

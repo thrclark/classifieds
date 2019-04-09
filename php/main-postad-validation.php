@@ -32,9 +32,10 @@ $page_title = 'Post ad';
                         <p>Any housing postings must follow Federal and State laws. Please read <a href="http://www.craigslist.org/about/FHA" target="_blank">Fair Housing laws.</a> </p>
                         <p>By using this site, you agree to abide by Indiana Universitys "Appropriate Technology Use" Policies as outlined by the <a href="http://policies.iu.edu/policies/categories/information-it/it/IT-01.shtml" target="_blank"> Information Policy Office </a> and to use the Classifieds appropriately. These pages are not intended for solicitation, political purposes and publishing opinions, nor are they to be used to make jokes or mislead others. The University reserves the right to remove any posting that it deems inappropriate.</p>
                         <p>Questions regarding the IU Classifieds may be addressed to <a href="mailto:one@iu.edu">one@iu.edu</a> </p>
-                        <p><strong>Do you accept these terms?</strong></p> <div class="text-left">  <button class="btn btn-primary" id="acceptPolicy">Accept</button> <a href="main-home.php" class="btn btn-outline-primary">Decline</a>
-                          
-                        </div>
+                        <p><strong>Do you accept these terms?</strong></p>
+                        <div class="text-left">
+                            <button class="btn btn-primary" id="acceptPolicy">Accept</button>
+                            <a href="main-home.php" class="btn btn-outline-primary">Decline</a> </div>
                     </section>
                     <section id="postform" style="display:none" class="mb-5 pb-3">
                         <h1 class="mb-2">
@@ -316,6 +317,7 @@ $page_title = 'Post ad';
     </section>
     <?php include('includes/main-footer-menu.php') ?>
 </div>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
     $(document).ready(function() {

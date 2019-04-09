@@ -26,3 +26,9 @@
 .modal .modal-content {
 	overflow: inherit;
 }
+
+@include media-breakpoint-down(sm) {
+	.table.rbt-table-responsive {
+		background: transparent;
+	}
+}

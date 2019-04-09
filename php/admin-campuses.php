@@ -13,7 +13,7 @@ $page_title = 'Campuses';
 <body>
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
-<div class="container pt-3">
+<div class="container pt-3 mb-5">
     <div class="row mb-3 justify-content-between align-items-center">
         <div class="col">
             <h1> <?php echo $page_title; ?></h1>
@@ -24,7 +24,6 @@ $page_title = 'Campuses';
                 <message key="admin.market.header">Campus</message>
                 </span> </a> </div>
     </div>
-  
     <table class="table rbt-table-responsive rbt-table-actions">
         <thead>
             <tr>
@@ -139,6 +138,7 @@ $page_title = 'Campuses';
         </tbody>
     </table>
 </div>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 </body>
 </html>
