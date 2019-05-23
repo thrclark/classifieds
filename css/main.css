@@ -10716,6 +10716,11 @@ body {
       margin-right: 10px;
       font-size: 24px; }
 
+.sidebar .rbt-nav-vertical-compact .fa {
+  width: 25px;
+  text-align: center;
+  margin-left: -5px; }
+
 .rbt-sidebar-nav li.active:before {
   content: "\00a0";
   margin-left: -0.25rem;
