@@ -13,21 +13,17 @@ $page_title = 'Moderate users';
 <body>
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
-<div class="container pt-3">
+<div class="container pt-3 mb-5">
     <main class="main-content">
-        <div class="row mb-1 no-gutters align-items-center mb-3">
-            <div class="col-md-6 col-lg-8">
-                <h1> <?php echo $page_title; ?></h1>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="d-flex flex-row">
-                    <div class="mr-4 pr-1 border-right"><a class="btn btn-link font-weight-normal" href="admin-usermaintenance1.php">View all</a></div>
-                    <div class="input-group clear-field">
-                        <label class="sr-only" for="demojs_uservalue">Find/add user</label>
-                        <input type="text" class="form-control" placeholder="Find/add user" aria-label="" aria-describedby="" id="demojs_uservalue" >
-                        <button class="cleartext" id="cleartext2" style="display:none"> <i class="rbt-icon-circle-close"></i></button>
-                        <div class="input-group-append"> <a href="" class="btn btn-primary" id="finduser"><i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">Search</span></a> </div>
-                    </div>
+        <div class="d-flex flex-row bd-highlight mb-3 align-items-center">
+            <h1 class="flex-grow-1"> <?php echo $page_title; ?></h1>
+            <div class="mr-4 pr-1 border-right"><a class="btn btn-link font-weight-normal" href="admin-usermaintenance1.php">View all</a></div>
+            <div class="form-group" style="margin-bottom: 0rem !important;">
+                <div class="input-group clear-field">
+                    <label class="sr-only" for="demojs_uservalue">Find/add user</label>
+                    <input type="text" class="form-control" placeholder="Find/add user" aria-label="" aria-describedby="" id="demojs_uservalue" >
+                    <button class="cleartext" id="cleartext2" style="display:none"> <i class="rbt-icon-circle-close"></i></button>
+                    <div class="input-group-append"> <a href="" class="btn btn-primary" id="finduser"><i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">Search</span></a> </div>
                 </div>
             </div>
         </div>
@@ -227,6 +223,7 @@ $page_title = 'Moderate users';
     </main>
 </div>
 <?php include('modals/modal-admin-ad-detail.php') ?>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
     $(document).ready(function() {

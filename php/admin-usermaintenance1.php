@@ -12,7 +12,7 @@ $page_title = 'Moderate users';
 <body>
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
-<div class="container pt-3">
+<div class="container pt-3 mb-5">
     <div class="row">
         <div class="col-12">
             <main class="main-content" id="main-content">
@@ -40,7 +40,7 @@ $page_title = 'Moderate users';
                     </div>
                     <!--  <div class="col-auto"><a href="admin-usermaintenance-user0.php" class="btn btn-sm btn-outline-primary"> Moderate user</a></div>--> 
                 </div>
-           <table class="table rbt-table-responsive table-actions">
+                <table class="table rbt-table-responsive table-actions">
                     <thead>
                         <tr>
                             <th> Username</th>
@@ -80,6 +80,7 @@ $page_title = 'Moderate users';
         </div>
     </div>
 </div>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
 $(document).ready(function(){

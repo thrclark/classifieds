@@ -35,6 +35,7 @@ $page_title = 'Watchlist';
     </section>
     <?php include('includes/main-footer-menu.php') ?>
 </div>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 </body>
 </html>

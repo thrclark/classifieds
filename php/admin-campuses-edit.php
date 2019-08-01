@@ -13,7 +13,7 @@ $page_title = 'Campuses';
 <body>
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
-<div class="container pt-3">
+<div class="container pt-3 mb-5">
     <main class="main-content">
         <router-outlet></router-outlet>
         <ng-component>
@@ -25,7 +25,8 @@ $page_title = 'Campuses';
             <div class="row">
                 <div class="col-12">
                     <div class="row">
-                        <div class="col-12 col-lg-10 col-xl-<form novalidate class="  ">
+                        <div class="col-12 col-lg-10 col-xl-8">
+                            <form novalidate class="  ">
                                 <div class="form-group">
                                     <label class="control-label" id="nameLabel">
                                         <message key="admin.field.name">Name</message>
@@ -35,12 +36,12 @@ $page_title = 'Campuses';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control" id="isinvalid" formcontrolname="name" type="text">
+                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control" formcontrolname="name" type="text">
                                             <span class="badge badge-success"> 100 </span> </div>
                                     </countdown>
-                                    <errors controlname="name">
-            							<div class="invalid-feedback" style="display: none;"><span class="rbt-icon-circle-close" aria-hidden="true"></span> Required </div>
-        							</errors>
+                                    <errors controlname="name"> 
+                                        <!----> 
+                                    </errors>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label" id="shortNameLabel">
@@ -51,7 +52,7 @@ $page_title = 'Campuses';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="shortNameLabel shortNameDirections" ccfvalidated="" class="form-control ng-valid" formcontrolname="shortName" type="text">
+                                            <input aria-labelledby="shortNameLabel shortNameDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="shortName" type="text">
                                             <span class="badge badge-success"> 5 </span> </div>
                                     </countdown>
                                     <errors controlname="shortName"> 
@@ -67,12 +68,12 @@ $page_title = 'Campuses';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="uniqueKeyLabel uniqueKeyDirections" ccfvalidated="" class="form-control" id="isinvalid2" formcontrolname="uniqueKey" type="text">
+                                            <input aria-labelledby="uniqueKeyLabel uniqueKeyDirections" ccfvalidated="" class="form-control" formcontrolname="uniqueKey" type="text">
                                             <span class="badge badge-success"> 100 </span> </div>
                                     </countdown>
-                                    <errors controlname="uniqueKey">
-            							<div class="invalid-feedback" style="display: none;"><span class="rbt-icon-circle-close" aria-hidden="true"></span> Required </div>
-        							</errors>
+                                    <errors controlname="uniqueKey"> 
+                                        <!----> 
+                                    </errors>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label" id="liveDataKeyLabel">
@@ -94,13 +95,13 @@ $page_title = 'Campuses';
                                     <!----> 
                                 </form-invalid-alert>
                                 <div class="rbt-button-group mb-5">
-                                    <button class="btn btn-primary">
+                                    <button class="btn btn-primary" type="submit">
                                     <message key="global.buttons.save">Save</message>
                                     </button>
                                     <a class="btn btn-outline-primary" routerlink="/markets" href="admin-campuses.php">
                                         <message key="global.buttons.cancel">Cancel</message>
                                     </a> </div>
-                            
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -108,16 +109,7 @@ $page_title = 'Campuses';
         </ng-component>
     </main>
 </div>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
-<script>
-$(document).ready(function() {
-	$('button').on('click',function(){
-		$(".invalid-feedback").css("display","block");
-		$("#isinvalid").addClass("is-invalid");
-		$("#isinvalid2").addClass("is-invalid");
-	});
-});
-
-</script>
 </body>
 </html>

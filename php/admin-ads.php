@@ -11,7 +11,7 @@ $page_title = 'Ads';
 </head>
 <body>
 <?php include('includes/admin-appheader.php') ?>
-<div class="container pt-3">
+<div class="container pt-3 mb-5">
     <div class="form-row">
         <div class="col-12">
             <main class="main-content" id="main-content">
@@ -440,10 +440,10 @@ $page_title = 'Ads';
         </div>
     </div>
 </div>
-
 <?php include('modals/modal-admin-ad-detail.php') ?>
 <?php include('modals/modal-admin-ad-detail-reported.php') ?>
 <?php include('modals/modal-admin-ad-detail.php') ?>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
     $(document).ready(function() {	

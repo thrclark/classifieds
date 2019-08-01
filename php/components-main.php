@@ -358,7 +358,7 @@ pre {
             })
         });
     });
-</script>
+</script> 
 <script>
 $(document).ready(function() {
     $('#table_filter').keydown(function() {

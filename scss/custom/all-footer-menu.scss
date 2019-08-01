@@ -3,14 +3,14 @@
 	left: 0px;
 	bottom: 0px;
 	width: 100%;
-	background: $gray-900;
+	background: $color-black--900;
 	z-index: 6;
 	@include shadow;
 	.btn {
 		color: $white;
 		border-width: 0px;
 		&:hover {
-			background: $gray-900;
+			background: $color-black--900;
 		}
 	}
 }

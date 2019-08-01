@@ -24,7 +24,7 @@
 			padding-bottom: 1px;
 			.btn-link {
 				padding: 0px;
-				color: $gray-600;
+				color: $color-black--600;
 				margin-top: 0px;
 				background: $white;
 				width: 24px;
@@ -34,7 +34,7 @@
 	}
 	.postitem-container {
 		display:block;
-		color: $gray-900;
+		color: $color-black--900;
 		padding: 5px;
 		background: $white;
 		overflow: hidden;
@@ -54,9 +54,9 @@
 			box-shadow: 0px 0px 15px 2px rgba(227,227,227,1);
 		}
 		.postitem-image-container{
-			border: solid 1px $gray-200;
+			border: solid 1px $color-black--200;
 			.post-image {
-				background-color: $gray-100;
+				background-color: $color-black--100;
 				background-size: auto 100%;
 				min-height: 77px;
 				width: 100%;
@@ -92,12 +92,12 @@
 		.postitem-postdate{
 			font-size: 12px;
 			font-style: italic;
-			color: $gray-700;
+			color: $color-black--700;
 		}
 		.postitem-postlocation{
 			@include text-truncate();
 			font-size: 12px;
-			color: $gray-700;
+			color: $color-black--700;
 			overflow-wrap: break-word;
 		}
 	}
@@ -260,7 +260,7 @@
 				border-top-right-radius: .25rem;
 				border-bottom-right-radius: .25rem;
 				z-index: 2;
-				background: $gray-900; //temporary
+				background: $color-black--900; //temporary
 
 				&:empty {
 					display:none;
@@ -354,7 +354,7 @@
 				position: relative;
 				overflow-wrap: break-word;
 				&:before {
-					background: $gray-200;
+					background: $color-black--200;
 					position: absolute;
 					width: 2px;
 					height: 76px;
@@ -467,9 +467,9 @@
 			margin-bottom: 0px;
 			box-shadow:none;
 			border-radius: 0px;
-			box-shadow: 0 2px 0 $gray-200;
+			box-shadow: 0 2px 0 $color-black--200;
 			&:hover {
-				box-shadow: 0 2px 0 $gray-300;
+				box-shadow: 0 2px 0 $color-black--300;
 			}
 			.postitem-image-container{
 				display: none;
@@ -533,14 +533,14 @@
 	@extend .mt-3;
 }
 .ccf-postdetail-market {
-	border-left: solid 1px $gray-500;
+	border-left: solid 1px $color-black--500;
 	padding-top: 3px;
 }
 
 
 .ccf-adreport {
 	.card {
-		border-bottom: solid 1px $gray-200;
+		border-bottom: solid 1px $color-black--200;
 
 	}
 }

@@ -1,6 +1,6 @@
-$theme-primary: #243E4C;
-$theme-accent: #FFC61A;
-$theme-body-bg: #F4F3EE;
+$theme-primary: #ffffff;
+$theme-accent: #006298;
+$theme-body-bg: #FAFAFA;
 
 
 @function set-general-contrast($color) {
@@ -219,7 +219,7 @@ ccf-image-upload image-upload .img-ul .img-ul-file-upload label.img-ul-button:fo
 	background: set-general-contrast($theme-primary);
 }
 
-.table {
+.ccf-amin-image-upload {
 	ccf-image-upload {
 		background: $theme-primary;
 	}

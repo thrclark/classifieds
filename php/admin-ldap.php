@@ -13,7 +13,7 @@ $page_title = 'LDAP configuration';
 <body>
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
-<div class="container pt-3">
+<div class="container pt-3 mb-5">
     <div class="row mb-3">
         <div class="col-12">
             <main class="main-content" id="main-content">
@@ -38,6 +38,7 @@ $page_title = 'LDAP configuration';
                     </div>
                     <div class="row">
                         <div class="col-lg-6">
+                            <form novalidate class="  ng-valid">
                                 <div class="form-group">
                                     <label class="control-label" id="urlLabel">
                                         <message key="admin.ldap.field.url">LDAP URL</message>
@@ -47,12 +48,10 @@ $page_title = 'LDAP configuration';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="urlLabel urlDirections" ccfvalidated="" class="form-control" id="isinvalid" formcontrolname="url">
+                                            <input aria-labelledby="urlLabel urlDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="url">
                                             <span class="badge badge-success"> 1983 </span> </div>
                                     </countdown>
-                                    <errors controlname="url">
-            							<div class="invalid-feedback" style="display: none;"><span class="rbt-icon-circle-close" aria-hidden="true"></span> Required </div>
-        							</errors>
+                                    <errors controlname="url"> </errors>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label" id="baseLabel">
@@ -63,12 +62,10 @@ $page_title = 'LDAP configuration';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="baseLabel baseDirections" ccfvalidated="" class="form-control" id="isinvalid2" formcontrolname="base">
+                                            <input aria-labelledby="baseLabel baseDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="base">
                                             <span class="badge badge-success"> 169 </span> </div>
                                     </countdown>
-                                    <errors controlname="base">
-            							<div class="invalid-feedback" style="display: none;"><span class="rbt-icon-circle-close" aria-hidden="true"></span> Required </div>
-        							</errors>
+                                    <errors controlname="base"> </errors>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label" id="usernameLabel">
@@ -79,12 +76,10 @@ $page_title = 'LDAP configuration';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="usernameLabel usernameDirections" ccfvalidated="" class="form-control" id="isinvalid3" formcontrolname="username">
+                                            <input aria-labelledby="usernameLabel usernameDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="username">
                                             <span class="badge badge-success"> 157 </span> </div>
                                     </countdown>
-                                    <errors controlname="username">
-            							<div class="invalid-feedback" style="display: none;"><span class="rbt-icon-circle-close" aria-hidden="true"></span> Required </div>
-        							</errors>
+                                    <errors controlname="username"> </errors>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label" id="passwordLabel">
@@ -95,12 +90,10 @@ $page_title = 'LDAP configuration';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="passwordLabel passwordDirections" ccfvalidated="" class="form-control" id="isinvalid4" formcontrolname="password" type="password">
+                                            <input aria-labelledby="passwordLabel passwordDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="password" type="password">
                                             <span class="badge badge-success"> 1000 </span> </div>
                                     </countdown>
-                                    <errors controlname="password">
-            							<div class="invalid-feedback" style="display: none;"><span class="rbt-icon-circle-close" aria-hidden="true"></span> Required </div>
-        							</errors>
+                                    <errors controlname="password"> </errors>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label" id="passwordConfirmLabel">
@@ -109,21 +102,20 @@ $page_title = 'LDAP configuration';
                                     <div class="ccf-instructional-text" id="passwordConfirmDirections">
                                         <message key="admin.ldap.field.passwordConfirm.directions">Confirm the password. Passwords must match.</message>
                                     </div>
-                                    <input aria-labelledby="passwordConfirmLabel passwordConfirmDirections" ccfvalidated="" class="form-control" id="isinvalid5" formcontrolname="passwordConfirm" type="password">
-                                    <errors controlname="passwordConfirm">
-            							<div class="invalid-feedback" style="display: none;"><span class="rbt-icon-circle-close" aria-hidden="true"></span> Required </div>
-        							</errors>
+                                    <input aria-labelledby="passwordConfirmLabel passwordConfirmDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="passwordConfirm" type="password">
+                                    <errors controlname="passwordConfirm"> </errors>
                                 </div>
                                 <errors controlname="ldapId"> </errors>
                                 <form-invalid-alert> </form-invalid-alert>
                                 <div class="rbt-button-group mb-5">
-                                    <button class="btn btn-primary">
+                                    <button class="btn btn-primary" type="submit">
                                     <message key="global.buttons.save">Save</message>
                                     </button>
                                     <button class="btn btn-danger" type="button" disabled="">
                                     <message key="admin.buttons.revert">Revert</message>
                                     </button>
                                 </div>
+                            </form>
                         </div>
                     </div>
                 </section>
@@ -131,21 +123,7 @@ $page_title = 'LDAP configuration';
         </div>
     </div>
 </div>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
-
-<script>
-$(document).ready(function() {
-	$('button').on('click',function(){
-		$(".invalid-feedback").css("display","block");
-		$("#isinvalid").addClass("is-invalid");
-		$("#isinvalid2").addClass("is-invalid");
-		$("#isinvalid3").addClass("is-invalid");
-		$("#isinvalid4").addClass("is-invalid");
-		$("#isinvalid5").addClass("is-invalid");
-	});
-});
-
-</script>
-
 </body>
 </html>
