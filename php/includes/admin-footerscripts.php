@@ -13,12 +13,14 @@
         $("#mobile_showSearch button, #setsearch").click(function() {
             $("#mainSearch_container").removeClass("d-none d-md-block");
             $("#mainSearch_container").addClass("pr-0");
-            $(".rbt-brand-image-container, .rbt-brand-title-container, .rbt-drawer-button, #mobile_showSearch").hide();
+			$(".ccf-brand-image-container").addClass("flex-grow-1");
+			$(".rbt-brand-image-container, .rbt-brand-title-container, .rbt-drawer-button, #mobile_showSearch").hide();
             $("#mobile_hideSearch").show();
         });
         $("#mobile_hideSearch button").click(function() {
             $("#mainSearch_container").addClass("d-none d-md-block");
             $("#mainSearch_container").removeClass("pr-0");
+			$(".ccf-brand-image-container").removeClass("flex-grow-1");
             $(".rbt-brand-image-container, .rbt-brand-title-container, .rbt-drawer-button, #mobile_showSearch").show();
             $("#mobile_hideSearch").hide();
         });
@@ -220,9 +222,6 @@
     });
 </script>
 
-
-
-
 <!--Main view ad detail-->
 <script>
     $(document).ready(function() {
@@ -251,12 +250,6 @@
     });
 </script>
 
-
-
-
-
-
-
 <!--Main view reported ad detail-->
 <script>
     $(document).ready(function() {
@@ -272,13 +265,7 @@
     });
 </script>
 
-
-
-
-
-
-
-<!--Admin view reported ad detail-->	
+<!--Admin view reported ad detail-->
 <script>
     $(document).ready(function() {
         $("#admin_ad_detail_reported .demojs-btn-viewreport").click(function() {
@@ -323,9 +310,95 @@
     });
 </script>
 
+<!--Admin view reported ad detail-->
+<script>
+    $(document).ready(function() {
+        $("#admin_post_detail .demojs-btn-viewreport").click(function() {
+            $("#admin_post_detail .demojs-admin-viewreport").slideToggle();
+            
+			
+			
+						
+		$(this).text(function(i, text) {
+                return text === "Hide reports" ? "View reports" : "Hide reports";
+            })
+			
+			
+			
+        });
+        $("#admin_post_detail .demojs-btn-viewad").click(function() {
+            $("#admin_post_detail .demojs-admin-view-policy").hide();
+            $("#admin_post_detail .demojs-admin-defaultview").show();
+        });
+        $("#admin_post_detail .demojs-btn-viewpolicy").click(function() {
+            $("#admin_post_detail .demojs-admin-defaultview").hide();
+            $("#admin_post_detail .demojs-admin-view-policy").show();
+        });
 
+        $("#admin_post_detail .demojs-btn-deactivatead").click(function() {
+            $("#admin_post_detail .demojs-admin-viewreport, #admin_post_detail .demojs-admin-defaultview, #admin_post_detail .demojs-admin-otheruserad").hide();
+            $("#admin_post_detail .demojs-admin-confirm-adremove").show();
+        });
 
+        $("#admin_post_detail .demojs-btn-deactivate").click(function() {
+            $("#admin_post_detail .demojs-admin-confirm-adremove").hide();
+            $("#admin_post_detail .demojs-admin-confirm-messagesent").show();
+        });
+        $("#admin_post_detail .demojs-btn-performactions").click(function() {
+            $("#admin_post_detail .demojs-admin-confirm-adremove").hide();
+            $("#admin_post_detail .demojs-admin-confirm-addeactmessagesent").show();
+        });
+        $("#admin_post_detail .demojs-btn-viewotherad").click(function() {
+            $("#admin_post_detail .demojs-admin-confirm-adremove").hide();
+            $("#admin_post_detail .demojs-admin-otheruserad").show();
+        });
+    });
+</script>
 
+<!--Admin view reported ad detail-->
+<script>
+    $(document).ready(function() {
+        $("#admin_post_detail .demojs-btn-viewreport").click(function() {
+            $("#admin_post_detail .demojs-admin-viewreport").slideToggle();
+            
+			
+			
+						
+		$(this).text(function(i, text) {
+                return text === "Hide reports" ? "View reports" : "Hide reports";
+            })
+			
+			
+			
+        });
+        $("#admin_post_detail .demojs-btn-viewad").click(function() {
+            $("#admin_post_detail .demojs-admin-view-policy").hide();
+            $("#admin_post_detail .demojs-admin-defaultview").show();
+        });
+        $("#admin_post_detail .demojs-btn-viewpolicy").click(function() {
+            $("#admin_post_detail .demojs-admin-defaultview").hide();
+            $("#admin_post_detail .demojs-admin-view-policy").show();
+        });
+
+        $("#admin_post_detail .demojs-btn-deactivatead").click(function() {
+            $("#admin_post_detail .demojs-admin-viewreport, #admin_post_detail .demojs-admin-defaultview, #admin_post_detail .demojs-admin-otheruserad").hide();
+            $("#admin_post_detail .demojs-admin-confirm-adremove").show();
+        });
+
+        $("#admin_post_detail .demojs-btn-deactivate").click(function() {
+            $("#admin_post_detail .demojs-admin-confirm-adremove").hide();
+            $("#admin_post_detail .demojs-admin-confirm-messagesent").show();
+        });
+        $("#admin_post_detail .demojs-btn-performactions").click(function() {
+            $("#admin_post_detail .demojs-admin-confirm-adremove").hide();
+            $("#admin_post_detail .demojs-admin-confirm-addeactmessagesent").show();
+        });
+        $("#admin_post_detail .demojs-btn-viewotherad").click(function() {
+            $("#admin_post_detail .demojs-admin-confirm-adremove").hide();
+            $("#admin_post_detail .demojs-admin-otheruserad").show();
+        });
+    });
+</script>
 <script>
     $(function() {
         $("[data-toggle=popover]").popover({
@@ -341,7 +414,6 @@
         });
     });
 </script>
-
 <script type="text/javascript">
     $(function() {
         $('#selectresponse').change(function() {
@@ -352,13 +424,13 @@
             value: 'Fraudulent activity',
             areatext: 'We have received a complaint regarding your use of Classifieds for fraudulent activity. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
         }, {
-            value: 'Contains offensive material',
+            value: 'Posting offensive material',
             areatext: 'We have received a complaint regarding your use of Classifieds for posting offensive material. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
         }, {
-            value: 'Promotes personal/commercial business',
+            value: 'Promoting a personal/commercial business',
             areatext: 'We have received a complaint regarding your use of Classifieds for promotion of a personal/commercial business. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
         }, {
-            value: 'Promotes a political/social agenda',
+            value: 'Promoting a political/social agenda',
             areatext: 'We have received a complaint regarding your use of Classifieds for promoting a political/social agenda. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
         }, {
             value: 'Selling IU parking permit',
@@ -381,7 +453,6 @@
         });
     });
 </script>
-
 <script type="text/javascript">
     $(function() {
         $('#selectresponse1').change(function() {
@@ -392,13 +463,13 @@
             value: 'Fraudulent activity',
             areatext: 'We have received a complaint regarding your use of Classifieds for fraudulent activity. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
         }, {
-            value: 'Contains offensive material',
+            value: 'Posting offensive material',
             areatext: 'We have received a complaint regarding your use of Classifieds for posting offensive material. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
         }, {
-            value: 'Promotes personal/commercial business',
+            value: 'Promoting a personal/commercial business',
             areatext: 'We have received a complaint regarding your use of Classifieds for promotion of a personal/commercial business. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
         }, {
-            value: 'Promotes a political/social agenda',
+            value: 'Promoting a political/social agenda',
             areatext: 'We have received a complaint regarding your use of Classifieds for promoting a political/social agenda. One.IU provides Classifieds for personal use to University affiliates. Ads that violate IU policy are not allowed. You can review this policy in Classifieds. Please be aware that your ads have been removed, and future violations may result in revoked access to Classifieds. We encourage you to continue using Classifieds for appropriate reasons.'
         }, {
             value: 'Selling IU parking permit',
@@ -421,9 +492,6 @@
         });
     });
 </script>
-
-
-
 <script>
 $('#admin_ad_detail_reported input[name="takeactiontoggle1"]').click(function() {
     if (this.id == "takeadminaction1") {
@@ -436,11 +504,7 @@ $('#admin_ad_detail_reported input[name="takeactiontoggle1"]').click(function() 
 });
 
 </script>
-
-
-
-
- <script type="text/javascript">
+<script type="text/javascript">
 
 
      $(document).ready(function() {
@@ -459,10 +523,6 @@ $(function() {
     });
 
 </script>
-
-
-
-
 <script type="text/javascript">
     $(document).ready(function() {
         //$(".demojs-sendusermessage").hide();
@@ -474,11 +534,7 @@ $(function() {
             }
         });
     });
-</script>  
-
-
-
-
+</script>
 <script>
     $(document).ready(function() {
        		 $(".demojs-restoreprevreports").click(function() {
@@ -486,11 +542,6 @@ $(function() {
         });
     });
 </script>
-
-
-
-
-
 <script type="text/javascript">
     $(document).ready(function() {
      
@@ -502,11 +553,4 @@ $(function() {
             }
         });
     });
-</script>  
-
-
-
-
-
-
-
+</script>

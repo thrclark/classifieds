@@ -13,8 +13,8 @@ $page_title = 'Categories';
 <body>
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
-<div class="container pt-3">
-    <div class="main-content">
+<div class="container pt-3 mb-5">
+    <main class="main-content">
         <router-outlet></router-outlet>
         <ng-component>
             <div class="row mb-3 no-gutters align-items-center">
@@ -26,7 +26,7 @@ $page_title = 'Categories';
                 <div class="col-12">
                     <div class="row">
                         <div class="col-12 col-lg-10 col-xl-8">
-                            <form novalidate class="ng-untouched ng-pristine ng-valid">
+                            <form novalidate class="  ng-valid">
                                 <div class="form-group">
                                     <label class="control-label" id="nameLabel">
                                         <message key="admin.field.name">Name</message>
@@ -36,7 +36,7 @@ $page_title = 'Categories';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="name">
+                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="name">
                                             <span class="badge badge-success"> 85 </span> </div>
                                     </countdown>
                                     <errors controlname="name"> 
@@ -98,8 +98,9 @@ $page_title = 'Categories';
                 </div>
             </div>
         </ng-component>
-    </div>
+    </main>
 </div>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
     

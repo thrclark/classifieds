@@ -11,7 +11,6 @@ $page_title = 'All ads';
 </head>
 <body>
 <div id="main">
-    <?php include('includes/all-customheader.php') ?>
     <?php include('includes/main-appheader.php') ?>
     <section class="main-content pt-3" role="main">
         <div class="container">
@@ -40,6 +39,7 @@ $page_title = 'All ads';
     <?php include('includes/all-customfooter.php') ?>
     <?php include('includes/main-footer-menu.php') ?>
 </div>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 </body>
 </html>

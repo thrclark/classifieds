@@ -10,42 +10,34 @@ $page_title = 'Ads';
 <?php include('includes/admin-styles.php') ?>
 </head>
 <body>
-<?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
-<div class="container pt-3">
+<div class="container pt-3 mb-5">
     <div class="form-row">
         <div class="col-12">
-            <div class="main-content" id="main-content">
-                <div class="row no-gutters mb-3 justify-content-between align-items-center">
-                    <div class="col-12 col-md-6">
+            <main class="main-content" id="main-content">
+                <div class="row mb-1 no-gutters align-items-center mb-3">
+                    <div class="col-md-6 col-lg-8">
                         <h1> <?php echo $page_title; ?></h1>
                     </div>
-                    <div class="col-auto pr-4 border-right">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div class="input-group clear-field">
+                                <label class="sr-only" for="demojs_uservalue">Search ads</label>
+                                <input type="text" class="form-control" placeholder="Search ads" aria-label="" aria-describedby="" id="demojs_uservalue" >
+                                <button class="cleartext" id="cleartext2" style="display:none"> <i class="rbt-icon-circle-close"></i></button>
+                                <div class="input-group-append"> <a href="" class="btn btn-primary" id="finduser"><i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">Search</span></a> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters mb-3 justify-content-between align-items-center">
+                    <div class="col">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
                             <label class="form-check-label" for="defaultCheck1">Reported ads only </label>
                         </div>
                     </div>
-                    <div class="col pl-4">
-                        <form novalidate ng-reflect-form="[object Object]" class="ng-pristine ng-valid ng-touched">
-                            <label class="sr-only" id="termsLabel">
-                                <message key="admin.ads.field.searchTerms" ng-reflect-key="admin.ads.field.searchTerms">Find an Ad</message>
-                            </label>
-                            <div class="input-group">
-                                <input aria-labelledby="termsLabel" class="form-control ng-pristine ng-valid ng-touched" formcontrolname="terms" type="text" ng-reflect-name="terms">
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary" type="submit"> <i aria-hidden="true" class="fa fa-search"></i> <span class="sr-only">
-                                    <message key="global.button.search" ng-reflect-key="global.button.search">Search</message>
-                                    </span> </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-auto">
-                        <button class="btn btn-link" type="button">
-                        <message key="admin.buttons.clear" ng-reflect-key="admin.buttons.clear">Clear</message>
-                        </button>
-                    </div>
+                    <!--  <div class="col-auto"><a href="admin-usermaintenance-user0.php" class="btn btn-sm btn-outline-primary"> Moderate user</a></div>--> 
                 </div>
                 <div class="ccf-table-responsive-container">
                     <table class="table rbt-table-responsive mb-5">
@@ -67,13 +59,13 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-yes">
                                 <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUPUI</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content"> Math-M211 and M212 Textbook</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">User</b><span class="rbt-table-responsive-cell-content">typhogenic</span></td>
+                                <td><b class="rbt-table-responsive-cell-label">User</b><span class="rbt-table-responsive-cell-content">ewestfal</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b>Active <span class="small font-italic text-danger text-nowrap">(reported)</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
@@ -87,7 +79,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/21/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -97,17 +89,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Expired</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_expired">View</button>
-                                    </span></td>
-                            </tr>
-                            <tr class="demojs-reported-yes">
-                                <td><b class="rbt-table-responsive-cell-label">Campus</b><span class="rbt-table-responsive-cell-content">IUB</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content">One bedroom sublet in 8th street </span></td>
-                                <td><b class="rbt-table-responsive-cell-label">User</b><span class="rbt-table-responsive-cell-content">thrclark</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Status</b>Expired <span class="small font-italic text-danger text-nowrap">(reported)</span></td>
-                                <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -117,7 +99,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content"> Deactivated </span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_deactivated_user">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -127,7 +109,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Deactivated </span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_deactivated_admin">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -137,7 +119,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/21/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -147,7 +129,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/21/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -157,7 +139,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/21/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_deactivated_admin">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -167,7 +149,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/21/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -177,7 +159,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/20/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -187,7 +169,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/20/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -197,7 +179,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/19/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -207,7 +189,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/19/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -217,7 +199,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/19/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -227,7 +209,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/18/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -237,7 +219,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/18/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -247,7 +229,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/18/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -257,7 +239,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/18/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -267,7 +249,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/17/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -277,7 +259,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/16/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -287,7 +269,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/16/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -297,7 +279,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/16/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -307,7 +289,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/15/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -317,7 +299,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/15/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -327,7 +309,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/15/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -337,7 +319,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/15/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -347,7 +329,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/15/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -357,7 +339,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/14/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -367,7 +349,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/14/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -377,7 +359,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/14/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -387,7 +369,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/14/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -397,7 +379,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/13/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -407,7 +389,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/13/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -417,7 +399,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/13/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -427,7 +409,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/12/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -437,7 +419,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/12/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                             <tr class="demojs-reported-no">
@@ -447,18 +429,21 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/12/18</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Status</b><span class="rbt-table-responsive-cell-content">Active</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
-                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
+                                    <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_post_detail">View</button>
                                     </span></td>
                             </tr>
                         </tbody>
                     </table>
                     <?php include('includes/all-pagination.php') ?>
                 </div>
-            </div>
+            </main>
         </div>
     </div>
 </div>
+<?php include('modals/modal-admin-ad-detail.php') ?>
 <?php include('modals/modal-admin-ad-detail-reported.php') ?>
+<?php include('modals/modal-admin-ad-detail.php') ?>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
     $(document).ready(function() {	
@@ -509,6 +494,43 @@ $page_title = 'Ads';
         });
         
     });
+</script> 
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        $('#revokeaccess1').change(function() {
+            if ($(this).prop('checked')) {
+                $('.demojs-otherad').prop('checked', true);
+				$('.demojs-otherad').attr("disabled", true);
+            } else {
+                $('.demojs-otherad').prop('checked', false);
+				$('.demojs-otherad').attr("disabled", false);
+            }
+        });
+        $('#revokeaccess1').trigger('change');
+
+    });
+</script> 
+<script>
+$(document).ready(function() {
+    $('#demojs_uservalue').keydown(function() {
+        tmpval = $(this).val();
+        if (tmpval == '') {
+            $("#cleartext2").css({
+                "display": "none"
+            });
+        } else {
+            $("#cleartext2").css({
+                "display": "block"
+            });
+        }
+    });
+    $("#cleartext2").click(function() {
+        $("#cleartext2").hide();
+        $("#demojs_uservalue").val("");
+        $("#demojs_uservalue").focus();
+    });
+});
 </script>
 </body>
 </html>

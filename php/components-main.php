@@ -142,7 +142,7 @@ pre {
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <h3 class="modal-title" id="exampleModal2Label">Modal title</h3>
-                                            <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close" style=""> <span aria-hidden="true"> <i class="fa fa-close" aria-hidden="true"></i> </span> </button>
+                                            <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close" > <span aria-hidden="true"> <i class="fa fa-close" aria-hidden="true"></i> </span> </button>
                                         </div>
                                         <div class="modal-body">
                                             <p>In friendship diminution instrument so. Son sure paid door with say them. Two among sir sorry men court. Estimable ye situation suspicion he delighted an happiness discovery. Fact are size cold why had part. If believing or sweetness otherwise in we forfeited. Tolerably an unwilling arranging of determine. Beyond rather sooner so if up wishes or. </p>
@@ -167,7 +167,7 @@ pre {
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <h3 class="modal-title" id="exampleModal3Label">Modal title</h3>
-                                            <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close" style=""> <span aria-hidden="true"> <i class="fa fa-close" aria-hidden="true"></i> </span> </button>
+                                            <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close" > <span aria-hidden="true"> <i class="fa fa-close" aria-hidden="true"></i> </span> </button>
                                         </div>
                                         <div class="modal-body">
                                             <div class="form-group">
@@ -358,7 +358,7 @@ pre {
             })
         });
     });
-</script>
+</script> 
 <script>
 $(document).ready(function() {
     $('#table_filter').keydown(function() {

@@ -1,5 +1,6 @@
 
 // load custom variables & mixins
+$rbt-font-path:  "../fonts" !default;
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-variables";
 @import "custom/all-effects";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-mixins.scss";
@@ -7,11 +8,10 @@
 // import core Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-
 // import core Ribet
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-alerts.scss";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-badges.scss";
-@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-breadcrumbs.scss";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-breadcrumb.scss";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-buttons.scss";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-closebutton.scss";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-drawer.scss";
@@ -45,6 +45,7 @@
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-clearfield";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-iconselector";
 @import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-richtexteditor";
+@import "../node_modules/rivet-bootstrap/scss/rbt/rbt-extra-timeline";
 
 // import Classifieds specific styles
 @import "custom/all-rbt-override";
@@ -62,4 +63,3 @@
 
 // import theming
 @import "custom/all-theme";
-

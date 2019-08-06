@@ -6,10 +6,10 @@
                 <message key="admin.field.name">Set campus</message>
             </label>
             <div class="d-flex flex-wrap ccf-market-button" role="group" aria-label="Basic example">
-    			<button type="button" class="btn btn-outline-primary w-100 active">All locations</button>
+    			<button type="button" class="btn btn-outline-primary w-100">All locations</button>
     			<button type="button" class="btn btn-outline-primary w-100">IU Bloomington (IUB)</button>
     			<button type="button" class="btn btn-outline-primary w-100">IUPUI (IUPUI)</button>
-    			<button type="button" class="btn btn-outline-primary w-100">IU Kokomo (IUK)</button>
+    			<button type="button" class="btn btn-outline-primary w-100 active">IU Kokomo (IUK)</button>
     			<button type="button" class="btn btn-outline-primary w-100">IU Northwest (IUN)</button>
     			<button type="button" class="btn btn-outline-primary w-100">IU South Bend (IUSB)</button>
     			<button type="button" class="btn btn-outline-primary w-100">IU East (IUE)</button>
@@ -21,8 +21,8 @@
                 <message key="admin.field.name">Set ad type</message>
             </label>
             <div class="btn-group d-flex ccf-filter-button" role="group" aria-label="Basic example">
-    			<button type="button" class="btn btn-outline-primary w-100 active">All types</button>
-    			<button type="button" class="btn btn-outline-primary w-100">For sale</button>
+    			<button type="button" class="btn btn-outline-primary w-100">All types</button>
+    			<button type="button" class="btn btn-outline-primary w-100 active">For sale</button>
     			<button type="button" class="btn btn-outline-primary w-100">Seeking</button>
 			</div>
         </div>

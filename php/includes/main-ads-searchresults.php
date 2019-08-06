@@ -1,11 +1,14 @@
 
 <div class="row">
+    <div class="col-12 d-sm-none mb-3">
+        <h2>Listings from IU Kokomo</h2>
+    </div>
     <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
             <div class="postitem-row">
                 <div class="postitem-image-container">
                     <div class="post-image" style="background-image:url(../img/post-pics/iphone1.jpg)"> </div>
                 </div>
-                <div class="postitem-newbanner" >New</div>
+                <!-- <div class="postitem-newbanner" >New</div>-->
                 <div class="postitem-post-title" >For Sale: iPhone 5S 32G </div>
                 <div class="postitem-price" >$150</div>
                 <div class="w-100"></div>

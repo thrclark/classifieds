@@ -13,10 +13,10 @@ $page_title = 'Reindex ad';
 <body>
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
-<div class="container pt-3">
+<div class="container pt-3 mb-5">
     <div class="row">
         <div class="col-12">
-            <div class="main-content" id="main-content">
+            <main class="main-content" id="main-content">
                 <div class="doc-header mb-3">
                     <div class="row">
                         <div class="col doc-title">
@@ -27,8 +27,7 @@ $page_title = 'Reindex ad';
                         </div>
                     </div>
                 </div>
-              
-                <form novalidate class="ng-untouched ng-pristine ng-valid">
+                <form novalidate class="  ng-valid">
                     <div class="form-group">
                         <p class="" id="postingIdDirections">
                             <message key="admin.cache.ad.reindex.directions">Occasionally, an ad may be improperly indexed in the system, causing it to appear in the main view of the application, but not for the moderator in the admin views (or vice versa). To manually reindex an ad, search for the ad by entering the ad ID as found in the ad URL. </message>
@@ -46,16 +45,13 @@ $page_title = 'Reindex ad';
                                 </div>
                             </div>
                         </div>
-                        
-                          <div id="successMessage" style="display:none">
-                    <div class="alert alert-success alert-dismissible fade show"  role="alert" >
-                        <button type="button" class="close" aria-label="Close" data-dismiss="alert"> <span class="rbt-icon-close"></span> </button>
-                        <h4 class="alert-heading">Success!</h4>
-                        <p>This ad (ID: 800943) has now been reindexed.</p>
-                    </div>
-                </div>
-                
-                
+                        <div id="successMessage" style="display:none">
+                            <div class="alert alert-success alert-dismissible fade show"  role="alert" >
+                                <button type="button" class="close" aria-label="Close" data-dismiss="alert"> <span class="rbt-icon-close"></span> </button>
+                                <h4 class="alert-heading">Success!</h4>
+                                <p>This ad (ID: 800943) has now been reindexed.</p>
+                            </div>
+                        </div>
                         <div id="adInfo" style="display:none">
                             <h2 class="rbt-ts-26">Ad ID: 180089</h2>
                             <div class="card bg-white mb-3">
@@ -74,10 +70,11 @@ $page_title = 'Reindex ad';
                         </div>
                     </div>
                 </form>
-            </div>
+            </main>
         </div>
     </div>
 </div>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
 $(document).ready(function(){

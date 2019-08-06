@@ -47,6 +47,12 @@
 	text-decoration: inherit;
 	font-size: .9rem;
 }
+.filter-badge{
+	position: absolute;
+	margin-top: -27px;
+	margin-left: 40px;
+	font-size: 54% !important;
+}
 
 
 </style>

@@ -7,7 +7,7 @@
                     <a href="admin-ads.php">Ads</a>
                 </li>
                 <li <?php if ($page_title == 'Restricted users') { echo 'class="active"'; } ?>>
-                    <a href="admin-restricted.php">Restricted users</a>
+                    <a href="admin-restricted.php">User moderation</a>
                 </li>
                 <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>>
                     <a href="main-home.php">Main View</a>

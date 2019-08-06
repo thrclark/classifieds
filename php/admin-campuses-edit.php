@@ -13,8 +13,8 @@ $page_title = 'Campuses';
 <body>
 <?php include('includes/all-custom-header.php') ?>
 <?php include('includes/admin-appheader.php') ?>
-<div class="container pt-3">
-    <div class="main-content">
+<div class="container pt-3 mb-5">
+    <main class="main-content">
         <router-outlet></router-outlet>
         <ng-component>
             <div class="row mb-3 no-gutters align-items-center">
@@ -26,7 +26,7 @@ $page_title = 'Campuses';
                 <div class="col-12">
                     <div class="row">
                         <div class="col-12 col-lg-10 col-xl-8">
-                            <form novalidate class="ng-untouched ng-pristine ng-invalid">
+                            <form novalidate class="  ">
                                 <div class="form-group">
                                     <label class="control-label" id="nameLabel">
                                         <message key="admin.field.name">Name</message>
@@ -36,7 +36,7 @@ $page_title = 'Campuses';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="name" type="text">
+                                            <input aria-labelledby="nameLabel nameDirections" ccfvalidated="" class="form-control" formcontrolname="name" type="text">
                                             <span class="badge badge-success"> 100 </span> </div>
                                     </countdown>
                                     <errors controlname="name"> 
@@ -45,14 +45,14 @@ $page_title = 'Campuses';
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label" id="shortNameLabel">
-                                        <message key="admin.market.field.shortName">Short Name</message>
+                                        <message key="admin.market.field.shortName">Short Name <span class="small font-italic">(optional)</span></message>
                                     </label>
                                     <div class="ccf-instructional-text" id="shortNameDirections">
                                         <message key="admin.market.field.shortName.directions">If necessary, the short name will be displayed instead of the full name.</message>
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="shortNameLabel shortNameDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="shortName" type="text">
+                                            <input aria-labelledby="shortNameLabel shortNameDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="shortName" type="text">
                                             <span class="badge badge-success"> 5 </span> </div>
                                     </countdown>
                                     <errors controlname="shortName"> 
@@ -68,7 +68,7 @@ $page_title = 'Campuses';
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="uniqueKeyLabel uniqueKeyDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="uniqueKey" type="text">
+                                            <input aria-labelledby="uniqueKeyLabel uniqueKeyDirections" ccfvalidated="" class="form-control" formcontrolname="uniqueKey" type="text">
                                             <span class="badge badge-success"> 100 </span> </div>
                                     </countdown>
                                     <errors controlname="uniqueKey"> 
@@ -77,14 +77,14 @@ $page_title = 'Campuses';
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label" id="liveDataKeyLabel">
-                                        <message key="admin.market.field.liveDataKey">Live Data Key</message>
+                                        <message key="admin.market.field.liveDataKey">Live Data Key <span class="small font-italic">(optional)</span></message>
                                     </label>
                                     <div class="ccf-instructional-text" id="liveDataKeyDirections">
                                         <message key="admin.market.field.liveDataKey.directions">Allows filtering of ads in the Live Data API. See API Documentation for more information.</message>
                                     </div>
                                     <countdown>
                                         <div class="rbt-charcount">
-                                            <input aria-labelledby="liveDataKeyLabel liveDataKeyDirections" ccfvalidated="" class="form-control ng-untouched ng-pristine ng-valid" formcontrolname="liveDataKey" type="text">
+                                            <input aria-labelledby="liveDataKeyLabel liveDataKeyDirections" ccfvalidated="" class="form-control   ng-valid" formcontrolname="liveDataKey" type="text">
                                             <span class="badge badge-success"> 100 </span> </div>
                                     </countdown>
                                     <errors controlname="liveDataKey"> 
@@ -107,8 +107,9 @@ $page_title = 'Campuses';
                 </div>
             </div>
         </ng-component>
-    </div>
+    </main>
 </div>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 </body>
 </html>
