@@ -1,7 +1,7 @@
 
 <div class="row">
     <div class="col-12 d-sm-none mb-3">
-        <h2>Listings from IU Kokomo</h2>
+        <h2>Ads from IU Kokomo</h2>
     </div>
     <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
             <div class="postitem-row">
@@ -68,7 +68,7 @@
         </div>
     </div>
     <div class="col-12 my-3">
-        <h2>Listings from other campuses</h2>
+        <h2>Ads from other campuses</h2>
     </div>
     <div class="postitem grid"> <a class="postitem-container" data-toggle="modal" data-target="#post_detail" href="#">
             <div class="postitem-row">
