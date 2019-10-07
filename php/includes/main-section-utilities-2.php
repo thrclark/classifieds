@@ -73,10 +73,9 @@
         <div class="col-auto pr-1 d-sm-none">
             <a href="main-set-filters-home.php">
             	<button class="btn btn-link ccf-settings" type="button" id="setFilters" aria-haspopup="true" aria-expanded="false">
-                	<span class="d-inline d-sm-none"><?php echo $filter_label; ?></span>
+                	<span class="d-inline d-sm-none"> <?php echo $filter_label; ?> (2)</span>
             	</button>
             </a>
-            <span class="badge badge-primary filter-badge">2</span>
         </div>
         <div class="col text-right d-sm-none">
            <div class="dropdown util-sort">
@@ -91,5 +90,28 @@
                 </div>
             </div>
         </div>
+        
+        <!--
+        <div class="col-auto pr-1 d-sm-none">
+            <a href="main-set-filters-home.php">
+            	<button class="btn btn-link ccf-settings" type="button" id="setFilters" aria-haspopup="true" aria-expanded="false">
+                	<span class="d-inline d-sm-none"> 2 <?php echo $filter_label; ?></span>
+            	</button>
+            </a>
+        </div>
+        <div class="col text-right d-sm-none">
+           <div class="dropdown util-sort">
+                <button class="btn btn-link dropdown-toggle" type="button" id="select_sort" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                	<span class="d-inline d-sm-none">By date</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="select_sort">
+                    <h3 class="dropdown-header">Sort results</h3>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">By relevance</a>
+                    <a class="dropdown-item active" href="#">By date</a>
+                </div>
+            </div>
+        </div>
+        -->
     </div>
 </div>
