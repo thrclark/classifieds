@@ -1,8 +1,6 @@
 <?php 
 $audience = 'main';
 $page_title = 'Results for';
-$filter_type = $_GET['id'];
-if($filter_type == "set"){$filter_label = "Filters";}else{$filter_label = "Filters";}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,12 +20,12 @@ if($filter_type == "set"){$filter_label = "Filters";}else{$filter_label = "Filte
                 <div class="col-xs-12 col-md-9 main-content-section" id="main-conten">
                     <div class="row align-items-center section-head">
                         <div class="col-12 section-head-title">
-                            <h1 class="mb-2">
-                                <?php echo $page_title; ?> 'iPhone'  <button onclick="location.href='main-home.php';" class="btn btn-link ccf-clearsearch">(clear)</button>
+                            <h1 class="mb-2"> <?php echo $page_title; ?> 'iPhone'
+                                <button onclick="location.href='main-home.php';" class="btn btn-link ccf-clearsearch">(clear)</button>
                             </h1>
                         </div>
                         <div class="col-12">
-                            <?php include('includes/main-section-utilities-2.php') ?>
+                            <?php include('includes/main-section-utilities.php') ?>
                         </div>
                     </div>
                     <?php include('includes/main-ads-searchresults.php') ?>
@@ -39,6 +37,7 @@ if($filter_type == "set"){$filter_label = "Filters";}else{$filter_label = "Filte
     </section>
     <?php include('includes/main-footer-menu.php') ?>
 </div>
+<?php include('includes/main-custom-footer.php') ?>
 <?php include('includes/admin-footerscripts.php') ?>
 <script>
     $(document).ready(function() {
@@ -47,7 +46,8 @@ if($filter_type == "set"){$filter_label = "Filters";}else{$filter_label = "Filte
 			$("#mobile_hideSearch, #cleartext2").show();
 			$("#mainSearch_container").removeClass( "d-none d-md-block" );
 			$("#mainSearch_container").addClass( "pr-0" );
-			 $("#mainSearch").attr("value", "iPhone");
+			$(".ccf-brand-image-container").addClass( "flex-grow-1" );
+			$("#mainSearch").attr("value", "iPhone");
         } else {
 			$("#mainSearch").attr("value", "iPhone");
         }
