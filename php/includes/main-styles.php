@@ -15,4 +15,44 @@
 }
 
 
+.ccf-scrollmenu{
+    white-space: nowrap;
+    padding-left: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ccf-scrollmenu .dropdown{
+	display: inline-block;
+}
+.ccf-scrollmenu .dropdown button{
+	padding: 10px;
+}
+.ccf-scrollmenu .dropdown .dropdown-menu.show {
+    overflow: auto;
+    overflow-x: hidden;
+    z-index: 2;
+}
+.ccf-filter-button button{
+	border-radius: 0;
+}
+.ccf-market-button button{
+	margin: -1px 0px;
+	border-radius: 0;
+}
+.ccf-settings{
+	padding: 0px;
+	font-weight: normal;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: .9rem;
+}
+.filter-badge{
+	position: absolute;
+	margin-top: -27px;
+	margin-left: 40px;
+	font-size: 54% !important;
+}
+
+
 </style>

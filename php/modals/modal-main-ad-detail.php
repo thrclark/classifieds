@@ -70,6 +70,8 @@
                 <p>Please provide more details regarding your decision to report this ad. Your report will be reviewed, and appropriate actions will be taken if it is determined that this ad is in violation of our policy.
                     <button class="btn btn-link font-weight-normal p-0 demojs-btn-viewpolicy"> View policy</button>
                 </p>
+                <p>If you also believe a crime has been committed, please contact the police.
+                </p>
                 <form>
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">Reason for report <span class="small font-weight-normal font-italic">(required)</span></label>

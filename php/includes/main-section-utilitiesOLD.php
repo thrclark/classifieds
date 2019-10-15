@@ -1,13 +1,14 @@
 
 <div class="section-head-utilities">
     <div class="row align-items-center">
-        <div class="col-auto pr-1 d-none d-sm-inline"  <?php if ($page_title == 'cat_watchlist') { echo 'style=" display:none"'; } ?> <?php if ($page_title == 'cat_myads') { echo 'style=" display:none"'; } ?>>
+        <div class="col-auto pr-1"  <?php if ($page_title == 'cat_watchlist') { echo 'style=" display:none"'; } ?> <?php if ($page_title == 'cat_myads') { echo 'style=" display:none"'; } ?>>
             <div class="dropdown">
                 <button class="btn btn-link dropdown-toggle" type="button" id="selectMarket" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="">IU Kokomo</span>
+                <span class="d-inline d-sm-none">Location</span>
+                <span class="d-none d-sm-inline">IU Kokomo</span>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="selectMarket">
-                    <h3 class="dropdown-header">Set location</h3>
+                    <h2 class="dropdown-header">Set location</h2>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">All locations</a>
                     <a class="dropdown-item" href="#"> IU Bloomington (IUB)</a>
@@ -20,13 +21,14 @@
                 </div>
             </div>
         </div>
-        <div class="col-auto p-0 d-none d-sm-inline">
+        <div class="col-auto p-0">
             <div class="dropdown">
                 <button class="btn btn-link dropdown-toggle" type="button" id="select_type" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="">All types</span>
+                <span class="d-inline d-sm-none">Ad type</span>
+                <span class="d-none d-sm-inline">All types</span>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="select_type">
-                    <h3 class="dropdown-header">Filter by type</h3>
+                    <h2 class="dropdown-header">Filter by type</h2>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#"> For sale</a>
                     <a class="dropdown-item" href="#"> Seeking</a>
@@ -34,14 +36,15 @@
                 </div>
             </div>
         </div>
-        <div class="col text-right d-none d-sm-inline">
+        <div class="col text-right">
             <div class="hidethis" <?php if ($page_title == 'Results for') { echo 'style=" display:inline-block"'; } ?>>
                 <div class="dropdown util-sort">
                     <button class="btn btn-link dropdown-toggle" type="button" id="select_sort" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="d-inline d-sm-none">Sort</span>
                     <span class="d-none d-sm-inline">By date</span>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="select_sort">
-                        <h3 class="dropdown-header">Sort results</h3>
+                        <h2 class="dropdown-header">Sort results</h2>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">By relevance</a>
                         <a class="dropdown-item active" href="#">By date</a>
@@ -69,49 +72,5 @@
                 </button>
             </div>
         </div>
-        
-        <div class="col-auto pr-1 d-sm-none">
-            <a href="main-set-filters-home.php">
-            	<button class="btn btn-link ccf-settings" type="button" id="setFilters" aria-haspopup="true" aria-expanded="false">
-                	<span class="d-inline d-sm-none"> <?php echo $filter_label; ?> (2)</span>
-            	</button>
-            </a>
-        </div>
-        <div class="col text-right d-sm-none">
-           <div class="dropdown util-sort">
-                <button class="btn btn-link dropdown-toggle" type="button" id="select_sort" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                	<span class="d-inline d-sm-none">By date</span>
-                </button>
-                <div class="dropdown-menu" aria-labelledby="select_sort">
-                    <h3 class="dropdown-header">Sort results</h3>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">By relevance</a>
-                    <a class="dropdown-item active" href="#">By date</a>
-                </div>
-            </div>
-        </div>
-        
-        <!--
-        <div class="col-auto pr-1 d-sm-none">
-            <a href="main-set-filters-home.php">
-            	<button class="btn btn-link ccf-settings" type="button" id="setFilters" aria-haspopup="true" aria-expanded="false">
-                	<span class="d-inline d-sm-none"> 2 <?php echo $filter_label; ?></span>
-            	</button>
-            </a>
-        </div>
-        <div class="col text-right d-sm-none">
-           <div class="dropdown util-sort">
-                <button class="btn btn-link dropdown-toggle" type="button" id="select_sort" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                	<span class="d-inline d-sm-none">By date</span>
-                </button>
-                <div class="dropdown-menu" aria-labelledby="select_sort">
-                    <h3 class="dropdown-header">Sort results</h3>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">By relevance</a>
-                    <a class="dropdown-item active" href="#">By date</a>
-                </div>
-            </div>
-        </div>
-        -->
     </div>
 </div>
