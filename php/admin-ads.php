@@ -67,7 +67,7 @@ $page_title = 'Ads';
                                 <td><b class="rbt-table-responsive-cell-label">Title</b><span class="rbt-table-responsive-cell-content"> Math-M211 and M212 Textbook</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">User</b><span class="rbt-table-responsive-cell-content">ewestfal</span></td>
                                 <td><b class="rbt-table-responsive-cell-label">Post Date</b><span class="rbt-table-responsive-cell-content">01/22/18</span></td>
-                                <td><b class="rbt-table-responsive-cell-label">Status</b>Active <span class="small font-italic text-danger text-nowrap">(reported)</span></td>
+                                <td><b class="rbt-table-responsive-cell-label">Status</b>Active <span class="badge badge-danger rbt-badge-transparent">reported</span><span class="sr-only">reported</span></td>
                                 <td><b class="rbt-table-responsive-cell-label d-none">View</b><span class="rbt-table-responsive-cell-content">
                                     <button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#admin_ad_detail_reported">View</button>
                                     </span></td>
