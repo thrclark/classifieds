@@ -4189,9 +4189,7 @@ a.close.disabled {
   padding: 1rem; }
 
 .modal-footer {
-  display: flex;
   align-items: center;
-  justify-content: flex-end;
   padding: 1rem;
   border-top: 1px solid #dddddd;
   border-bottom-right-radius: 0.3rem;
