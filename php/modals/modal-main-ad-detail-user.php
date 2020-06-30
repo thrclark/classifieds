@@ -49,12 +49,11 @@
                     </dt>
                     <dd class="col-sm-9"><a href="mailto:thrclark@iu.edu">sampleUser@iu.edu</a></dd>
                 </dl>
-                <a class="btn btn-link btn-responsive font-weight-normal font-italic" href="main-home-user.php"> 
+                <!-- <a class="btn btn-link btn-responsive font-weight-normal font-italic" href="main-home-user.php"> 
         			<span>
                         <message key="main.details.share">Ads from this user</message>
                     </span> 
-                </a>
-                <!-- <button class="btn btn-link font-weight-normal p-0 font-italic rbt-ts-14">Ads from this user</button> -->
+                </a> -->
             </div>
             <div class="modal-footer demojs-view-posting">
         		<button class="btn btn-link btn-responsive font-weight-normal font-italic demojs-btn-reportad" style="align-items: left;">Report this ad</button>

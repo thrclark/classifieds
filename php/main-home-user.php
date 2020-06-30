@@ -1,6 +1,6 @@
 <?php 
-$audience = 'main';
-$page_title = 'All ads';	
+$audience = "main";
+$page_title = "Ads from: 'sampleUser'";	
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -30,18 +30,19 @@ $page_title = 'All ads';
                 <div class="col-xs-12 col-md-9 main-content-section" role="main">
                     <div class="row align-items-center section-head">
                         <div class="col-12 section-head-title">
-                            <h1 class="mb-2"> <?php echo $page_title; ?></h1>
+                            <h1 class="mb-2"> <?php echo $page_title; ?>
+                            	<button onclick="location.href='main-home.php';" class="btn btn-link ccf-clearsearch">(clear)</button>
+                            </h1>
                         </div>
                         <div class="col-12">
-                            <?php include('includes/main-section-utilities.php') ?>
+                            <?php include('includes/main-section-utilities-user.php') ?>
                         </div>
                     </div>
-                    <?php include('includes/main-ads-all.php') ?>
-                    <?php include('includes/all-pagination.php') ?>
+                    <?php include('includes/main-ads-user.php') ?>
                 </div>
             </div>
         </div>
-        <?php include('modals/modal-main-ad-detail.php') ?>
+        <?php include('modals/modal-main-ad-detail-user.php') ?>
         <?php include('modals/modal-main-ad-detail-reported.php') ?>
     </section>
     <?php include('includes/main-footer-menu.php') ?>
