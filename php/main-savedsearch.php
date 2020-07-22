@@ -14,6 +14,12 @@ $id = $_GET['id'];
     width: 50px;
     text-align: center;
 }
+
+@media (min-width: 769px) {
+  	#alertSetting {
+		text-align: center;
+	}
+}
 </style>
 </head>
 <body>
@@ -57,7 +63,7 @@ $id = $_GET['id'];
                                 			</span>
                                 		</td>
                                 		<td><b class="rbt-table-responsive-cell-label">Filters</b><span class="rbt-table-responsive-cell-content">Electronics, IUPUI, For sale</span></td>
-                                		<td><b class="rbt-table-responsive-cell-label">Alert</b>
+                                		<td id="alertSetting"><b class="rbt-table-responsive-cell-label">Alert</b>
                                 			<span class="rbt-table-responsive-cell-content">
                                 				<input class="form-check-input" type="checkbox" name="inlineCheckbox1" id="inlineCheckbox1" value="option1">
     											<label class="form-check-label" for="inlineCheckbox1"></label>
@@ -73,7 +79,7 @@ $id = $_GET['id'];
                                 			</span>
                                 		</td>
                                 		<td><b class="rbt-table-responsive-cell-label">Filters</b><span class="rbt-table-responsive-cell-content">Furniture, IUB, For sale</span></td>
-                                		<td><b class="rbt-table-responsive-cell-label">Alert</b>
+                                		<td id="alertSetting"><b class="rbt-table-responsive-cell-label">Alert</b>
                                 			<span class="rbt-table-responsive-cell-content">
                                 				<input class="form-check-input" type="checkbox" name="inlineCheckbox1" id="inlineCheckbox2" value="option2">
     											<label class="form-check-label" for="inlineCheckbox2"></label>
