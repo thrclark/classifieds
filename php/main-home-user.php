@@ -31,7 +31,7 @@ $page_title = "Ads from: 'sampleUser'";
                     <div class="row align-items-center section-head">
                         <div class="col-12 section-head-title">
                             <h1 class="mb-2"> <?php echo $page_title; ?>
-                            	<button onclick="location.href='main-home.php';" class="btn btn-link ccf-clearsearch">(clear)</button>
+                            	<button onclick="location.href='main-home.php';" class="btn btn-link rbt-ts-20" style="padding: 5px;"><i class="rbt-icon-close-circle"></i></button>
                             </h1>
                         </div>
                         <div class="col-12">

@@ -7,6 +7,13 @@ $page_title = 'Results for';
 <head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/main-styles.php') ?>
+<style>
+.ccf-clearsearch {
+    padding-top: 0px !important;
+    width: 50px;
+    text-align: center;
+}
+</style>
 </head>
 <body>
 <div id="main">
@@ -21,7 +28,8 @@ $page_title = 'Results for';
                     <div class="row align-items-center section-head">
                         <div class="col-12 section-head-title">
                             <h1 class="mb-2"> <?php echo $page_title; ?> 'iPhone'
-                                <button onclick="location.href='main-home.php';" class="btn btn-link ccf-clearsearch">(clear)</button>
+                                <button onclick="location.href='main-home.php';" class="btn btn-link rbt-ts-20" style="padding: 5px;"><i class="rbt-icon-close-circle"></i></button>
+                                <button onclick="location.href='main-savedsearch.php?id=save';" class="btn btn-link ccf-clearsearch ml-1">save search</button>
                             </h1>
                         </div>
                         <div class="col-12">
