@@ -105,15 +105,7 @@ body .nav-section {
 	line-height: 17px; 
 	color: #8f8f8f;
 }
-ul {
-  list-style-type: none;
-}
 
-ul li:before {
-  content: '\2014';
-  position: absolute;
-  margin-left: -25px;
-}
 </style>
 </head>
 <body>
@@ -178,8 +170,8 @@ ul li:before {
                                 <tr>
                                     <td valign="top" style="padding: 12px 18px 30px 18px; margin: 0px;">
                                     	<div class="rbt-button-group">
-                                        	<button class="btn btn-primary">Primary action</button>
-                                            <button class="btn btn-outline-primary">Secondary action</button>
+                                        	<button class="btn btn-primary">Search all results</button>
+                                            <button class="btn btn-outline-primary">Manage Searches</button>
                                         </div>
                                     </td>
                                 </tr>
@@ -244,7 +236,7 @@ ul li:before {
     <br />
     <br />
     See all results: <a href="#">http://link1.iu.edu/primary_action</a><br />
-    Manage search settings: <a href="#">http://link2.iu.edu/secondary_action</a><br />
+    Manage searches: <a href="#">http://link2.iu.edu/secondary_action</a><br />
     <br />
     This e-mail was sent to Eric Cox (<a href="#">eecox@iu.edu</a>) by Indiana University. Learn why we are including this: <a href="#">go.iu.edu/emailsafety</a>.
     To update communication preferences, visit the <a href="#">Notification Center</a>.
