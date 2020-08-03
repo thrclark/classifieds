@@ -125,57 +125,49 @@ body .nav-section {
                     </tr>
                     <tr>
                         <td valign="top" align="left" style="padding:0; margin:0;">&#160;</td>
-                        <td width="600" valign="top" align="left" style="padding:0; margin:0; background-color:#ffffff;">
+                        <td width="600" valign="top" align="center" style="padding:0; margin:0; background-color:#ffffff;">
                         	<table cellpadding="0" cellspacing="0" border="0"  width="100%" bgcolor="">
                     			<tr>
-                                    <td>
-                                    	<table  width="100%" bgcolor="" border="0"  cellpadding="0" cellspacing="0">
-                                            <tr>
-                                            	<td style="font-family:Arial; font-size:13px"><div align="center"> <a href="http://www.iu.edu/" title="Go to www.iu.edu"  ><img width="600" border="0" height="60" style="width: 600px; height: 63px; border-color: #000000; margin: 0px;" alt="IU Campus Branding Bar"  src="http://lesc.iu.edu/emails/_____templates/_common/branding/600px/mcv2/evite-banner-iu-600x63px.png" title="IU Bloomington Branding Bar"/></a> </div></td>
-                                            </tr>
-                                        </table>
-                                    </td>
+                        			<td style="padding: 0px 0px;">
+                        				<table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                			<tbody>
+                                			<tr>
+                                    			<td valign="top" class="sourcetext rbt-ts-20"> IU Classifieds </td>
+                                			<tr>
+                                    			<td valign="top" class="headingtext">
+                                    				<h1 class="">New matches for "car"</h1>
+                                    				<h2 class="rbt-ts-20 mb-1">Newest items today</h2>
+                                    			</td>
+                                			</tr>
+                                			<tr>
+                                    			<td valign="top" class="subjecttext">
+                                    				<ul class="mb-3">
+                        								<li>For Sale: 1995 Honda Accord LX 4-dr Sedan, $4,995 at IUK</li>
+                        								<li>For Sale: Honda Accord 2001 (150K miles), $2,950 at IUK</li>
+                        								<li>For Sale: Rent my car, $9,995 at IUK</li>
+                        								<li>For Sale: 1995 Invisible car, $73,995 at IUK</li>
+                        								<li>For Sale: 1995 Honda Accord LX 4-dr Sedan, $4,995 at IUK</li>
+                        								<li>For Sale: Honda Accord 2001 (150K miles), $2,950 at IUK</li>
+                        							</ul>
+                                    			</td>
+                                			</tr>
+                                			<tr>
+                                    			<td valign="top" class="headingtext">
+                                    				<h2 class="rbt-ts-20 mb-3">View these and 12 other results at IU Classifieds.</h2>
+                                    			</td>
+                                			</tr>
+                                			<tr>
+                                    			<td valign="top" style="padding: 12px 18px 30px 18px; margin: 0px;">
+                                    				<div class="rbt-button-group">
+                                        				<button class="btn btn-primary">Search all results</button>
+                                            			<button class="btn btn-outline-primary">Manage Searches</button>
+                                        			</div>
+                                    			</td>
+                                			</tr>
+                                			</tbody>
+                                		</table>
+                                	</td>
                                 </tr>
-                            </table>
-                        </td>
-                        <td valign="top" align="left" style="padding:0; margin:0;">&#160;</td>
-                    </tr>
-                    <tr>
-                        <td valign="top" align="left" style="padding:0; margin:0;">&#160;</td>
-                        <td width="600" valign="top" align="center" style="padding:0; margin:0; background-color:#ffffff;"><table cellpadding="0" cellspacing="0" border="0"  width="100%" bgcolor="">
-                    <tr>
-                        <td style="padding: 0px 0px;">
-                        	<table width="100%" cellspacing="0" cellpadding="0" border="0">
-                                <tbody>
-                                <tr>
-                                    <td valign="top" class="sourcetext"> IU Classifieds </td>
-                                <tr>
-                                    <td valign="top" class="headingtext">
-                                    	<h1 class="">New matches for "car"</h1>
-                                    	<h2 class="rbt-ts-20 mb-1">Newest 6 items today</h2>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td valign="top" class="subjecttext">
-                                    	<ul class="mb-3">
-                        		<li>For Sale: 1995 Honda Accord LX 4-dr Sedan, $4,995 at IUK</li>
-                        		<li>For Sale: Honda Accord 2001 (150K miles), $2,950 at IUK</li>
-                        		<li>For Sale: Rent my car, $9,995 at IUK</li>
-                        		<li>For Sale: 1995 Invisible car, $73,995 at IUK</li>
-                        		<li>For Sale: 1995 Honda Accord LX 4-dr Sedan, $4,995 at IUK</li>
-                        		<li>For Sale: Honda Accord 2001 (150K miles), $2,950 at IUK</li>
-                        	</ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td valign="top" style="padding: 12px 18px 30px 18px; margin: 0px;">
-                                    	<div class="rbt-button-group">
-                                        	<button class="btn btn-primary">Search all results</button>
-                                            <button class="btn btn-outline-primary">Manage Searches</button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                </tbody>
                             </table>
                         </td>
                     </tr>
@@ -184,27 +176,6 @@ body .nav-section {
             </td>
             <td valign="top" align="left" style="padding:0; margin:0;">&#160;</td>
         </tr>
-    </table>
-    <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" style="margin: 0px; padding: 0px; border-collapse: collapse;">
-        <tbody>
-        <tr>
-            <td valign="top" align="left" style="padding:0; margin:0;">&#160;</td>
-            <td width="600" valign="top" align="left" style="padding:30px 0px 0px 0px; margin:0; background-color:#ffffff;">
-            	<table cellpadding="0" cellspacing="0" border="0"  width="100%" bgcolor="">
-        			<tr>
-                        <td valign="top" align="center">
-                        	<table width="100%" bgcolor="#950d00" border="0"  cellpadding="0" cellspacing="0">
-                                <tr>
-                                	<td style="font-family:Arial; font-size:13px"><img width="600" border="0" style="border-color: #000000; margin: 0px; display:block" alt="IU Campus Branding Bar"  src="http://lesc.iu.edu/emails/_____templates/_common/footer/fulfilling-the-promise-600x40.png" title="Promise Footer"/></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-            <td valign="top" align="left" style="padding:0; margin:0;">&#160;</td>
-        </tr>
-        </tbody>
     </table>
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
@@ -234,12 +205,14 @@ body .nav-section {
     </ul>
     </span>
     <br />
+    View these and 12 other results at IU Classifieds.
     <br />
-    See all results: <a href="#">http://link1.iu.edu/primary_action</a><br />
-    Manage searches: <a href="#">http://link2.iu.edu/secondary_action</a><br />
     <br />
-    This e-mail was sent to Eric Cox (<a href="#">eecox@iu.edu</a>) by Indiana University. Learn why we are including this: <a href="#">go.iu.edu/emailsafety</a>.
-    To update communication preferences, visit the <a href="#">Notification Center</a>.
+    See all results: http://link1.iu.edu/primary_action<br />
+    Manage searches: http://link2.iu.edu/secondary_action<br />
+    <br />
+    This e-mail was sent to Eric Cox (eecox@iu.edu) by Indiana University. Learn why we are including this: go.iu.edu/emailsafety.
+    To update communication preferences, visit the Notification Center.
 </div>
 
 </body>
