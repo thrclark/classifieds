@@ -7,16 +7,6 @@ $page_title = 'All ads';
 <head>
 <?php include('includes/all-head-meta.php') ?>
 <?php include('includes/main-styles.php') ?>
-<style>
-@media (max-width: 567px) {
-  .btn-responsive {
-    padding:2px 4px;
-    font-size:80%;
-    line-height: 2;
-    border-radius:3px;
-  }
-}
-</style>
 </head>
 <body>
 <div id="main">

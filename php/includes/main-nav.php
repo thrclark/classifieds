@@ -4,9 +4,9 @@
     <ul class="rbt-nav-vertical-compact">
         <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="admin-ads.php">Admin</a> </li>
         <li <?php if ($page_title == 'My ads') { echo 'class="active"'; } ?>> <a href="main-myads.php">My ads (2)</a> </li>
-        <li <?php if ($page_title == 'Watchlist') { echo 'class="active"'; } ?>> <a href="main-watchlist.php">Watchlist (4)</a> </li>
-        <li> <a href="#" class="">Policy</a></li>
-        <li class="dropdown-divider"> </li>
+        <li <?php if ($page_title == 'Watchlist') { echo 'class="active"'; } ?>> <a href="main-watchlist.php">My Watchlist (4)</a> </li>
+        <li <?php if ($page_title == 'Saved Searches') { echo 'class="active"'; } ?>> <a href="main-savedsearch.php">Saved Searches</a> </li>
+        <li class="dropdown-divider mt-3 mb-3"> </li>
         <li <?php if ($page_title == 'All ads') { echo 'class="active"'; } ?>> <a href="main-home.php"> <i class="fa fa-th d-none d-lg-inline-block" aria-hidden="true"></i> All Ads </a> </li>
         <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"> <i class="fa fa-soccer-ball-o d-none d-lg-inline-block" aria-hidden="true"></i> Activity Partners </a></li>
         <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"> <i class="fa fa-bullhorn d-none d-lg-inline-block" aria-hidden="true"></i> Announcements </a></li>
@@ -22,6 +22,8 @@
         <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"><i class="fa fa-address-book d-none d-lg-inline-block" aria-hidden="true"></i> Roommates &amp; sublets </a></li>
         <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"> <i class="fa fa-ticket d-none d-lg-inline-block" aria-hidden="true"></i> Tickets &amp; events </a></li>
         <li <?php if ($page_title == 'xxxxxxxxx') { echo 'class="active"'; } ?>> <a href="#"> <i class="fa fa-bicycle d-none d-lg-inline-block" aria-hidden="true"></i> Vehicles </a></li>
+    	<li class="dropdown-divider mt-3 mb-4"> </li>
+		<li> <a href="#" class="">Policy</a></li>
     </ul>
 </nav>
 	

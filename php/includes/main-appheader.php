@@ -50,6 +50,8 @@
             <li class="list-group-item"> <a href="admin-ads.php">Admin</a> </li>
             <li class="list-group-item"> <a href="main-myads.php">My ads (1)</a> </li>
             <li class="list-group-item"> <a href="main-watchlist.php">My watchlist (4)</a> </li>
+            <li class="list-group-item"> <a href="main-savedsearch.php">Saved Searches</a> </li>
+            <li class="dropdown-divider"> </li>
             <li class="list-group-item"> <a href="">Policy</a> </li>
         </ul>
     </nav>
