@@ -56,7 +56,7 @@ $id = $_GET['id'];
                         			</thead>
                         			<tbody id="table_userads" class="rbt-ts-14">
                             			<tr class="demojs-reported-no">
-                                		<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">Jun 15,2020</span></td>
+                                		<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">Jun 15, 2020</span></td>
                                 		<td><b class="rbt-table-responsive-cell-label">Name</b>
                                 			<span class="rbt-table-responsive-cell-content">
                                 				<a href="main-searchresults.php">iPhone, Android, Smartphone</a>
