@@ -62,7 +62,7 @@
                 <span class="sr-only">
                 <message key="main.view.thumb">Thunbnail View</message>
                 </span>
-                <i aria-hidden="true" class="fa fa-list-ul"></i>
+                <i aria-hidden="true" class="rbt-icon-list"></i>
                 </button>
                 <button class="btn btn-sm btn-outline-primary" type="button" id="set_list">
                 <span class="sr-only">

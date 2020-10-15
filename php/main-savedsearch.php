@@ -44,6 +44,14 @@ $id = $_GET['id'];
 							<?php } ?>
 							<?php if ($id != "max"){ ?>
                             <div class="ccf-table-responsive-container m-3">
+                                
+                                
+                                
+    
+                                
+                                
+                                
+                                
                     			<table class="table rbt-table-responsive mb-5">
                         			<thead>
                            				<tr>
@@ -204,14 +212,87 @@ $id = $_GET['id'];
                                 		</tr>
                         			</tbody>
                     			</table>
+                                
+                                
+                                
+                       
+                                
                     			<a href="main-savedsearch.php?id=save" class="btn btn-primary">Save</a> <a href="main-home.php" class="btn btn-outline-primary">Cancel</a>
 							<?php } ?>
                 			</div>
                         </div>
                     </div>
+                    
+                    
+                    
+                    
+                 
+                         <!--remove this after testing-->                                   
+                                
+<div class="mb-3">
+    <div class="rvb-switch rvb-switch-sm rvb-switch-primary">
+        <label class="">
+        <input type="checkbox" checked>
+        <div class="rvb-slider">
+            <div class="rvb-slider-on">On</div>
+            <div class="rvb-slider-off">Off</div>
+        </div>
+        </label>
+    </div>
+</div>
+<div class="mb-3">
+    <div class="rvb-switch rvb-switch-sm rvb-switch-success">
+        <label class="">
+        <input type="checkbox" checked>
+        <div class="rvb-slider">
+            <div class="rvb-slider-on">On</div>
+            <div class="rvb-slider-off">Off</div>
+        </div>
+        </label>
+    </div>
+</div>
+<div class="mb-3">
+    <div class="rvb-switch rvb-switch-sm rvb-switch-danger">
+        <label class="">
+        <input type="checkbox" checked>
+        <div class="rvb-slider">
+            <div class="rvb-slider-on">On</div>
+            <div class="rvb-slider-off">Off</div>
+        </div>
+        </label>
+    </div>
+</div>
+        
+        
+            
+<!-- end removed -->    
+            
+            
+                    
+                    
+                    
                 </div>
             </div>
-        </div>
+            
+            
+            
+            
+            
+            
+            
+</div>
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
        <?php include('modals/modal-main-search-delete.php') ?>
     </section>
     <?php include('includes/main-footer-menu.php') ?>
