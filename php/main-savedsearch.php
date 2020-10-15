@@ -44,14 +44,6 @@ $id = $_GET['id'];
 							<?php } ?>
 							<?php if ($id != "max"){ ?>
                             <div class="ccf-table-responsive-container m-3">
-                                
-                                
-                                
-    
-                                
-                                
-                                
-                                
                     			<table class="table rbt-table-responsive mb-5">
                         			<thead>
                            				<tr>
@@ -72,10 +64,15 @@ $id = $_GET['id'];
                                 		</td>
                                 		<td><b class="rbt-table-responsive-cell-label">Filters</b><span class="rbt-table-responsive-cell-content">Electronics, IUPUI, For sale</span></td>
                                 		<td id="alertSetting"><b class="rbt-table-responsive-cell-label">Alert</b>
-                                			<span class="rbt-table-responsive-cell-content">
-                                				<input class="form-check-input" type="checkbox" name="inlineCheckbox1" id="inlineCheckbox1" value="option1">
-    											<label class="form-check-label" for="inlineCheckbox1"></label>
-                                			</span>
+                                			<div class="rvb-switch rvb-switch-sm rvb-switch-success">
+        										<label class="">
+        											<input type="checkbox" >
+        											<div class="rvb-slider">
+            											<div class="rvb-slider-on">On</div>
+            											<div class="rvb-slider-off">Off</div>
+        											</div>
+        										</label>
+    										</div>
                                 		</td>
                                     	<td><button class="btn btn-sm btn-outline-primary demojs-btn-returntoad" data-toggle="modal" data-target="#delete_search"> Delete</button></td>
                             			</tr>
@@ -88,10 +85,15 @@ $id = $_GET['id'];
                                 		</td>
                                 		<td><b class="rbt-table-responsive-cell-label">Filters</b><span class="rbt-table-responsive-cell-content">Furniture, IUB, For sale</span></td>
                                 		<td id="alertSetting"><b class="rbt-table-responsive-cell-label">Alert</b>
-                                			<span class="rbt-table-responsive-cell-content">
-                                				<input class="form-check-input" type="checkbox" name="inlineCheckbox1" id="inlineCheckbox2" value="option2">
-    											<label class="form-check-label" for="inlineCheckbox2"></label>
-                                			</span>
+                                			<div class="rvb-switch rvb-switch-sm rvb-switch-success">
+        										<label class="">
+        											<input type="checkbox" >
+        											<div class="rvb-slider">
+            											<div class="rvb-slider-on">On</div>
+            											<div class="rvb-slider-off">Off</div>
+        											</div>
+        										</label>
+    										</div>
                                 		</td>
                                     	<td><button class="btn btn-sm btn-outline-primary demojs-btn-returntoad" data-toggle="modal" data-target="#delete_search"> Delete</button></td>
                             			</tr>
@@ -212,87 +214,15 @@ $id = $_GET['id'];
                                 		</tr>
                         			</tbody>
                     			</table>
-                                
-                                
-                                
-                       
-                                
                     			<a href="main-savedsearch.php?id=save" class="btn btn-primary">Save</a> <a href="main-home.php" class="btn btn-outline-primary">Cancel</a>
 							<?php } ?>
                 			</div>
                         </div>
                     </div>
-                    
-                    
-                    
-                    
-                 
-                         <!--remove this after testing-->                                   
-                                
-<div class="mb-3">
-    <div class="rvb-switch rvb-switch-sm rvb-switch-primary">
-        <label class="">
-        <input type="checkbox" checked>
-        <div class="rvb-slider">
-            <div class="rvb-slider-on">On</div>
-            <div class="rvb-slider-off">Off</div>
-        </div>
-        </label>
-    </div>
-</div>
-<div class="mb-3">
-    <div class="rvb-switch rvb-switch-sm rvb-switch-success">
-        <label class="">
-        <input type="checkbox" checked>
-        <div class="rvb-slider">
-            <div class="rvb-slider-on">On</div>
-            <div class="rvb-slider-off">Off</div>
-        </div>
-        </label>
-    </div>
-</div>
-<div class="mb-3">
-    <div class="rvb-switch rvb-switch-sm rvb-switch-danger">
-        <label class="">
-        <input type="checkbox" checked>
-        <div class="rvb-slider">
-            <div class="rvb-slider-on">On</div>
-            <div class="rvb-slider-off">Off</div>
-        </div>
-        </label>
-    </div>
-</div>
-        
-        
-            
-<!-- end removed -->    
-            
-            
-                    
-                    
-                    
                 </div>
-            </div>
-            
-            
-            
-            
-            
-            
-            
-</div>
-        
-        
-        
-        
-        
-        
+            </div> 
+		</div>
 
-        
-        
-        
-        
-        
        <?php include('modals/modal-main-search-delete.php') ?>
     </section>
     <?php include('includes/main-footer-menu.php') ?>
