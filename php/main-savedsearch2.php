@@ -65,14 +65,14 @@ $id = $_GET['id'];
                                 		<td><b class="rbt-table-responsive-cell-label">Filters</b><span class="rbt-table-responsive-cell-content">Electronics, IUPUI, For sale</span></td>
                                 		<td id="alertSetting"><b class="rbt-table-responsive-cell-label">Alert</b>
                                 			<div class="rvb-switch rvb-switch-sm rvb-switch-success">
-        <label class="">
-        <input type="checkbox" >
-        <div class="rvb-slider">
-            <div class="rvb-slider-on">On</div>
-            <div class="rvb-slider-off">Off</div>
-        </div>
-        </label>
-    </div>
+        										<label class="">
+        											<input type="checkbox" >
+        											<div class="rvb-slider">
+            											<div class="rvb-slider-on">On</div>
+            											<div class="rvb-slider-off">Off</div>
+        											</div>
+        										</label>
+    										</div>
                                 		</td>
                                     	<td><button class="btn btn-sm btn-outline-primary demojs-btn-returntoad" data-toggle="modal" data-target="#delete_search"> Delete</button></td>
                             			</tr>
@@ -86,14 +86,14 @@ $id = $_GET['id'];
                                 		<td><b class="rbt-table-responsive-cell-label">Filters</b><span class="rbt-table-responsive-cell-content">Furniture, IUB, For sale</span></td>
                                 		<td id="alertSetting"><b class="rbt-table-responsive-cell-label">Alert</b>
                                 			<div class="rvb-switch rvb-switch-sm rvb-switch-success">
-        <label class="">
-        <input type="checkbox" >
-        <div class="rvb-slider">
-            <div class="rvb-slider-on">On</div>
-            <div class="rvb-slider-off">Off</div>
-        </div>
-        </label>
-    </div>
+        										<label class="">
+        											<input type="checkbox" >
+        											<div class="rvb-slider">
+            											<div class="rvb-slider-on">On</div>
+            											<div class="rvb-slider-off">Off</div>
+        											</div>
+        										</label>
+    										</div>
                                 		</td>
                                     	<td><button class="btn btn-sm btn-outline-primary demojs-btn-returntoad" data-toggle="modal" data-target="#delete_search"> Delete</button></td>
                             			</tr>
