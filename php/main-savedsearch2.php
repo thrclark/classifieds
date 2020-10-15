@@ -66,7 +66,7 @@ $id = $_GET['id'];
                                 		<td id="alertSetting"><b class="rbt-table-responsive-cell-label">Alert</b>
                                 			<div class="rvb-switch rvb-switch-sm rvb-switch-success">
         <label class="">
-        <input type="checkbox" checked>
+        <input type="checkbox" >
         <div class="rvb-slider">
             <div class="rvb-slider-on">On</div>
             <div class="rvb-slider-off">Off</div>
@@ -87,7 +87,7 @@ $id = $_GET['id'];
                                 		<td id="alertSetting"><b class="rbt-table-responsive-cell-label">Alert</b>
                                 			<div class="rvb-switch rvb-switch-sm rvb-switch-success">
         <label class="">
-        <input type="checkbox" checked>
+        <input type="checkbox" >
         <div class="rvb-slider">
             <div class="rvb-slider-on">On</div>
             <div class="rvb-slider-off">Off</div>
