@@ -56,7 +56,7 @@ $id = $_GET['id'];
                         			</thead>
                         			<tbody id="table_userads" class="rbt-ts-14">
                             			<tr class="demojs-reported-no">
-                                		<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">2020/06/15</span></td>
+                                		<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">Jun 15,2020</span></td>
                                 		<td><b class="rbt-table-responsive-cell-label">Name</b>
                                 			<span class="rbt-table-responsive-cell-content">
                                 				<a href="main-searchresults.php">iPhone, Android, Smartphone</a>
@@ -77,7 +77,7 @@ $id = $_GET['id'];
                                     	<td><button class="btn btn-sm btn-outline-primary demojs-btn-returntoad" data-toggle="modal" data-target="#delete_search"> Delete</button></td>
                             			</tr>
                             			<tr class="demojs-reported-no">
-                                		<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">2020/05/30</span></td>
+                                		<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">May 30, 2020</span></td>
                                 		<td><b class="rbt-table-responsive-cell-label">Name</b>
                                 			<span class="rbt-table-responsive-cell-content">
                                 				<a href="main-searchresults.php">Couch</a>
@@ -123,7 +123,7 @@ $id = $_GET['id'];
     											<label class="form-check-label" for="inlineCheckbox1"></label>
                                 			</span>
                                 		</td>
-                                    	<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">2020/06/15</span></td>
+                                    	<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">June 15, 2020</span></td>
                                 		<td><b class="rbt-table-responsive-cell-label">Name</b>
                                 			<span class="rbt-table-responsive-cell-content">
                                 				<a href="main-searchresults.php">Smartphone</a>
@@ -138,7 +138,7 @@ $id = $_GET['id'];
     											<label class="form-check-label" for="inlineCheckbox2"></label>
                                 			</span>
                                 		</td>
-                                    	<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">2020/05/30</span></td>
+                                    	<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">May 30, 2020</span></td>
                                 		<td><b class="rbt-table-responsive-cell-label">Name</b>
                                 			<span class="rbt-table-responsive-cell-content">
                                 				<a href="main-searchresults.php">Couch</a>
@@ -153,7 +153,7 @@ $id = $_GET['id'];
     											<label class="form-check-label" for="inlineCheckbox3"></label>
                                 			</span>
                                 		</td>
-                                    	<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">2020/05/20</span></td>
+                                    	<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">May 20, 2020</span></td>
                                 		<td><b class="rbt-table-responsive-cell-label">Name</b>
                                 			<span class="rbt-table-responsive-cell-content">
                                 				<a href="main-searchresults.php">Television, Flat Screen</a>
@@ -168,7 +168,7 @@ $id = $_GET['id'];
     											<label class="form-check-label" for="inlineCheckbox4"></label>
                                 			</span>
                                 		</td>
-                                    	<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">2020/05/18</span></td>
+                                    	<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">May 18, 2020</span></td>
                                 		<td><b class="rbt-table-responsive-cell-label">Name</b>
                                 			<span class="rbt-table-responsive-cell-content">
                                 				<a href="main-searchresults.php">BMW, Audi, Mercedes</a>
@@ -183,7 +183,7 @@ $id = $_GET['id'];
     											<label class="form-check-label" for="inlineCheckbox5"></label>
                                 			</span>
                                 		</td>
-                                    	<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">2020/05/17</span></td>
+                                    	<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">May 17, 2020</span></td>
                                 		<td><b class="rbt-table-responsive-cell-label">Name</b>
                                 			<span class="rbt-table-responsive-cell-content">
                                 				<a href="main-searchresults.php">Nightstand</a>
@@ -204,7 +204,7 @@ $id = $_GET['id'];
                         			</thead>
                         			<tbody id="table_userads" class="rbt-ts-14">
                             			<tr class="demojs-reported-no">
-                                		<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">2020/06/15</span></td>
+                                		<td><b class="rbt-table-responsive-cell-label">Created</b><span class="rbt-table-responsive-cell-content">Jun 15, 2020</span></td>
                                 		<td><b class="rbt-table-responsive-cell-label">Name</b>
                                 			<span class="rbt-table-responsive-cell-content">
                                 				<a href="main-searchresults.php">iPhone, Android, Smartphone</a>
