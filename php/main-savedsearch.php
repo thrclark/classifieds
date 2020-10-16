@@ -119,7 +119,7 @@ $id = $_GET['id'];
                             			<tr class="demojs-reported-no">
                                 		<td><b class="rbt-table-responsive-cell-label">Select</b>
                                 			<span class="rbt-table-responsive-cell-content">
-                                				<input class="form-check-input" type="checkbox" name="select1" id="inlineCheckbox1" value="option1">
+                                				<input class="form-check-input" type="radio" name="select1" id="inlineCheckbox1" value="option1">
     											<label class="form-check-label" for="inlineCheckbox1"></label>
                                 			</span>
                                 		</td>
@@ -134,7 +134,7 @@ $id = $_GET['id'];
                             			<tr class="demojs-reported-no">
                                 		<td><b class="rbt-table-responsive-cell-label">Select</b>
                                 			<span class="rbt-table-responsive-cell-content">
-                                				<input class="form-check-input" type="checkbox" name="select1" id="inlineCheckbox2" value="option2">
+                                				<input class="form-check-input" type="radio" name="select1" id="inlineCheckbox2" value="option2">
     											<label class="form-check-label" for="inlineCheckbox2"></label>
                                 			</span>
                                 		</td>
@@ -149,7 +149,7 @@ $id = $_GET['id'];
                             			<tr class="demojs-reported-no">
                                 		<td><b class="rbt-table-responsive-cell-label">Select</b>
                                 			<span class="rbt-table-responsive-cell-content">
-                                				<input class="form-check-input" type="checkbox" name="select1" id="inlineCheckbox3" value="option2">
+                                				<input class="form-check-input" type="radio" name="select1" id="inlineCheckbox3" value="option2">
     											<label class="form-check-label" for="inlineCheckbox3"></label>
                                 			</span>
                                 		</td>
@@ -164,7 +164,7 @@ $id = $_GET['id'];
                             			<tr class="demojs-reported-no">
                                 		<td><b class="rbt-table-responsive-cell-label">Select</b>
                                 			<span class="rbt-table-responsive-cell-content">
-                                				<input class="form-check-input" type="checkbox" name="select1" id="inlineCheckbox4" value="option2">
+                                				<input class="form-check-input" type="radio" name="select1" id="inlineCheckbox4" value="option2">
     											<label class="form-check-label" for="inlineCheckbox4"></label>
                                 			</span>
                                 		</td>
@@ -179,7 +179,7 @@ $id = $_GET['id'];
                             			<tr class="demojs-reported-no">
                                 		<td><b class="rbt-table-responsive-cell-label">Select</b>
                                 			<span class="rbt-table-responsive-cell-content">
-                                				<input class="form-check-input" type="checkbox" name="select1" id="inlineCheckbox5" value="option2">
+                                				<input class="form-check-input" type="radio" name="select1" id="inlineCheckbox5" value="option2">
     											<label class="form-check-label" for="inlineCheckbox5"></label>
                                 			</span>
                                 		</td>
