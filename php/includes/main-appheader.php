@@ -3,7 +3,7 @@
 <header class="d-flex flex-nowrap rbt-app-header">
     <div class="ccf-brand-image-container d-none d-sm-block"><img src="../img/trident-large.png" alt="" class="rbt-brand-image"/></div>
     <div class="ccf-brand-image-container d-sm-none"><img src="../img/trident-large.png" alt="" class="rbt-brand-image"/></div>
-    <div class="rbt-brand-title-container flex-grow-1 "> <a href="#" class="rbt-brand-title font-weight-bold ml-2">IU Classifiedsss </a> </div>
+    <div class="rbt-brand-title-container flex-grow-1 "> <a href="#" class="rbt-brand-title font-weight-bold ml-2">IU Classifieds </a> </div>
     
     <!--Search-->
     <div class="d-none d-md-block mr-md-3" id="mainSearch_container">
